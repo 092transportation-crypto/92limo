@@ -8,29 +8,39 @@ export const BRAND = {
   tagline: "Maryland · Virginia · Washington DC",
 };
 
+// NOTE: Images originally hosted on customer-assets.emergentagent.com stopped
+// resolving after export (broken-image "?" placeholders). As a temporary fix,
+// those keys now point to working static.prod-images.emergentagent.com assets.
+// The logo is rendered as a text wordmark in the UI (Navbar/Footer) instead of
+// a broken image. Replace these with final brand assets when available.
+const _SEDAN =
+  "https://static.prod-images.emergentagent.com/jobs/0b91ed88-e3b8-45b6-be20-7a661593b184/images/655d8f7cd6f99394ed315f9ac97f01222b0623a9afc5d9ecc818eae59085ced7.png";
+const _SUV =
+  "https://static.prod-images.emergentagent.com/jobs/0b91ed88-e3b8-45b6-be20-7a661593b184/images/89ad1256135e3c3b8cb79f1ade68f198227183578e600d9435d8cf980287ed10.png";
+const _SCLASS =
+  "https://static.prod-images.emergentagent.com/jobs/0b91ed88-e3b8-45b6-be20-7a661593b184/images/8e9f108c5b7d6da49c325447c178b2c487a61641ff7b1bf1afae2ffb78bec0cd.png";
+const _SPRINTER =
+  "https://static.prod-images.emergentagent.com/jobs/0b91ed88-e3b8-45b6-be20-7a661593b184/images/c479cbe4d456b167e2be24b577f203537ddc8353b831590f57a0a1660328ab5d.png";
+const _CELEBRATION =
+  "https://static.prod-images.emergentagent.com/jobs/0b91ed88-e3b8-45b6-be20-7a661593b184/images/d2635042a70110d4f23ffd14762bf07885e52c9e06a233926ebd8daaae5c54f6.png";
+const _HERO =
+  "https://static.prod-images.emergentagent.com/jobs/0b91ed88-e3b8-45b6-be20-7a661593b184/images/ecbb60e43c613244071e98d291b9485a12f345fc1a81894fba9737944bb3a387.png";
+
 export const IMAGES = {
-  logo:
-    "https://customer-assets.emergentagent.com/job_luxury-dc-limo/artifacts/s8yy86mt_1000037151.png",
-  heroBg:
-    "https://static.prod-images.emergentagent.com/jobs/0b91ed88-e3b8-45b6-be20-7a661593b184/images/ecbb60e43c613244071e98d291b9485a12f345fc1a81894fba9737944bb3a387.png",
+  // Used only for meta/OG images now; UI renders a text wordmark.
+  logo: _HERO,
+  heroBg: _HERO,
   longDistance:
     "https://static.prod-images.emergentagent.com/jobs/0b91ed88-e3b8-45b6-be20-7a661593b184/images/951aed2d57b40c303730703a884a469a1ed16b5a2f1171189db874ee5c34f139.png",
   dcSkyline:
     "https://images.unsplash.com/photo-1543372654-b45dd90eeee5?crop=entropy&cs=srgb&fm=jpg&q=85&w=1920",
-  escaladeFront:
-    "https://customer-assets.emergentagent.com/job_luxury-dc-limo/artifacts/ifi329vo_IMG_2576.jpeg",
-  escaladeAngle:
-    "https://customer-assets.emergentagent.com/job_luxury-dc-limo/artifacts/9yig8aw5_IMG_2577.jpeg",
-  sprinterGreen:
-    "https://customer-assets.emergentagent.com/job_luxury-dc-limo/artifacts/4l4m0d6k_IMG_2581.jpeg",
-  sprinterPink:
-    "https://customer-assets.emergentagent.com/job_luxury-dc-limo/artifacts/zur1fsf7_IMG_2582.jpeg",
-  sClassNav:
-    "https://customer-assets.emergentagent.com/job_luxury-dc-limo/artifacts/8vdghecp_IMG_2583.jpeg",
-  sedan:
-    "https://static.prod-images.emergentagent.com/jobs/0b91ed88-e3b8-45b6-be20-7a661593b184/images/655d8f7cd6f99394ed315f9ac97f01222b0623a9afc5d9ecc818eae59085ced7.png",
-  suv:
-    "https://static.prod-images.emergentagent.com/jobs/0b91ed88-e3b8-45b6-be20-7a661593b184/images/89ad1256135e3c3b8cb79f1ade68f198227183578e600d9435d8cf980287ed10.png",
+  escaladeFront: _SUV,
+  escaladeAngle: _SUV,
+  sprinterGreen: _SPRINTER,
+  sprinterPink: _CELEBRATION,
+  sClassNav: _SCLASS,
+  sedan: _SEDAN,
+  suv: _SUV,
   airportPickup:
     "https://static.prod-images.emergentagent.com/jobs/0b91ed88-e3b8-45b6-be20-7a661593b184/images/fcb877edd4fd67dbdb1f8d154175fa4eacb0dd0b64035217c6df0c50681f772d.png",
   chauffeur:
@@ -39,24 +49,16 @@ export const IMAGES = {
     "https://static.prod-images.emergentagent.com/jobs/0b91ed88-e3b8-45b6-be20-7a661593b184/images/4e743f11fb5c2aaa119ecc61ed61c9fd051fafe32d9825c9962ad9e921fdecca.png",
   wedding:
     "https://static.prod-images.emergentagent.com/jobs/0b91ed88-e3b8-45b6-be20-7a661593b184/images/c1c56e1276011d54c3bb12cd018d3a1ecbddf6921293b1da212c0024a9c6d805.png",
-  sprinterExterior:
-    "https://static.prod-images.emergentagent.com/jobs/0b91ed88-e3b8-45b6-be20-7a661593b184/images/c479cbe4d456b167e2be24b577f203537ddc8353b831590f57a0a1660328ab5d.png",
-  sClassFirst:
-    "https://static.prod-images.emergentagent.com/jobs/0b91ed88-e3b8-45b6-be20-7a661593b184/images/8e9f108c5b7d6da49c325447c178b2c487a61641ff7b1bf1afae2ffb78bec0cd.png",
+  sprinterExterior: _SPRINTER,
+  sClassFirst: _SCLASS,
   wineTour:
     "https://static.prod-images.emergentagent.com/jobs/0b91ed88-e3b8-45b6-be20-7a661593b184/images/6bc127b9f98ad4de72c310203409d3ddbf90b3882d95a42dbb82d40f029e96f6.png",
-  celebration:
-    "https://static.prod-images.emergentagent.com/jobs/0b91ed88-e3b8-45b6-be20-7a661593b184/images/d2635042a70110d4f23ffd14762bf07885e52c9e06a233926ebd8daaae5c54f6.png",
-  sClassReal:
-    "https://customer-assets.emergentagent.com/job_luxury-dc-limo/artifacts/5xo78lrs_IMG_2589.jpeg",
-  bmw7:
-    "https://customer-assets.emergentagent.com/job_luxury-dc-limo/artifacts/cgtmbhje_IMG_2617.jpeg",
-  escaladeReal:
-    "https://customer-assets.emergentagent.com/job_luxury-dc-limo/artifacts/hxo25316_IMG_2567.jpeg",
-  yukon:
-    "https://customer-assets.emergentagent.com/job_luxury-dc-limo/artifacts/pt2n0syd_IMG_2606.jpeg",
-  sprinterPartyInterior:
-    "https://customer-assets.emergentagent.com/job_luxury-dc-limo/artifacts/bi6i8hqq_IMG_2553.jpeg",
+  celebration: _CELEBRATION,
+  sClassReal: _SCLASS,
+  bmw7: _SEDAN,
+  escaladeReal: _SUV,
+  yukon: _SUV,
+  sprinterPartyInterior: _SPRINTER,
 };
 
 export const FLEET = [

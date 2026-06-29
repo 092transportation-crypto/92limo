@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { Menu, X, Phone, ChevronDown } from "lucide-react";
-import { BRAND, NAV_SERVICES, IMAGES } from "@/lib/data";
+import { BRAND, NAV_SERVICES } from "@/lib/data";
 
 const LINKS = [
   { label: "Home", to: "/" },
@@ -46,15 +46,22 @@ export const Navbar = () => {
       }`}
     >
       <nav className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between">
-        <Link data-testid="logo-home" to="/" className="flex items-center gap-2">
-          <img
-            src={IMAGES.logo}
-            alt="92 Limo Service logo"
-            className={`w-auto transition-all duration-300 ${solid ? "h-11" : "h-14"} ${
-              solid ? "" : "drop-shadow-[0_2px_6px_rgba(0,0,0,0.5)]"
+        <Link data-testid="logo-home" to="/" className="flex items-baseline gap-1.5">
+          <span
+            className={`font-display font-extrabold tracking-tight leading-none transition-all duration-300 ${
+              solid ? "text-2xl" : "text-3xl drop-shadow-[0_2px_6px_rgba(0,0,0,0.5)]"
             }`}
-          />
-          <span className="sr-only">92 Limo Service</span>
+          >
+            <span className="text-[#C9A227]">92</span>
+            <span className={solid ? "text-[#0A0A0A]" : "text-white"}> LIMO</span>
+          </span>
+          <span
+            className={`hidden sm:inline text-[10px] font-semibold tracking-[0.2em] uppercase ${
+              solid ? "text-neutral-500" : "text-neutral-300"
+            }`}
+          >
+            Service
+          </span>
         </Link>
 
         <div className="hidden lg:flex items-center gap-7">
