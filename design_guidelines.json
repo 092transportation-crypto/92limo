@@ -1,0 +1,138 @@
+{
+  "project_info": {
+    "brand_name": "92 Limo Service / 92 Transportation LLC",
+    "website": "92limo.com",
+    "phone": "877-679-0100",
+    "service_areas": ["Washington DC", "Maryland", "Northern Virginia", "BWI", "DCA", "IAD"],
+    "domain": "Luxury Transport / Limo Service",
+    "app_type": "Marketing Site + Admin Dashboard"
+  },
+  "theme_and_archetype": {
+    "theme": "dark",
+    "archetype": "5 (Luxury)",
+    "description": "Premium, deep, mysterious, and cinematic. The 'Deep Void' surface strategy uses deep charcoals rather than pure black to prevent harsh contrast. Gold metallic accents provide a high-end automotive showroom feel.",
+    "emotional_tone": "Elite, reliable, discreet, expensive, seamless."
+  },
+  "colors": {
+    "backgrounds": {
+      "base": "#090A0C",
+      "surface": "#15161A",
+      "surface_hover": "#202226"
+    },
+    "text": {
+      "primary": "#E5E5E5",
+      "secondary": "#B0B0B0",
+      "muted": "#71717A"
+    },
+    "accents": {
+      "primary": "#D4AF37",
+      "primary_hover": "#FBBF24",
+      "success": "#22C55E",
+      "destructive": "#EF4444",
+      "border": "#27272A"
+    },
+    "gradients": {
+      "gold_metallic": "linear-gradient(135deg, #FBBF24 0%, #D4AF37 50%, #B48811 100%)",
+      "dark_overlay": "linear-gradient(to top, #090A0C 0%, rgba(9, 10, 12, 0.4) 50%, rgba(9, 10, 12, 0.8) 100%)"
+    }
+  },
+  "typography": {
+    "headings": {
+      "font_family": "'Playfair Display', serif",
+      "weight": "600",
+      "letter_spacing": "tracking-tight",
+      "usage": "H1, H2, hero text, and primary section titles."
+    },
+    "body": {
+      "font_family": "'Manrope', sans-serif",
+      "weight": "400",
+      "letter_spacing": "tracking-normal",
+      "usage": "Paragraphs, descriptions, form inputs."
+    },
+    "data_and_specs": {
+      "font_family": "'Manrope', sans-serif",
+      "features": "tabular-nums",
+      "usage": "Pricing, phone numbers, vehicle capacities."
+    },
+    "sizes": {
+      "h1": "text-5xl sm:text-6xl",
+      "h2": "text-3xl sm:text-4xl",
+      "h3": "text-xl sm:text-2xl",
+      "body": "text-base",
+      "small": "text-sm"
+    }
+  },
+  "layout_and_spacing": {
+    "spacing_scale": "Tailwind standard, but highly generous. Use py-20 to py-32 for sections.",
+    "container": "max-w-7xl mx-auto px-6 lg:px-8",
+    "grids": {
+      "marketing": "Asymmetric Bento grids. grid-cols-1 md:grid-cols-12 with varied spans (e.g., col-span-8 and col-span-4).",
+      "dashboard": "Dense 'Control Room' grid for the admin panel. grid-cols-1 md:grid-cols-3 lg:grid-cols-4, gap-4."
+    },
+    "surfaces": {
+      "cards": "bg-[#15161A] border border-white/5 rounded-xl p-6",
+      "glass": "backdrop-blur-xl bg-[#090A0C]/70 border-b border-white/10 (for sticky header)"
+    }
+  },
+  "motion_and_interaction": {
+    "hover_states": {
+      "cards": "transform -translate-y-1 transition-all duration-300 ease-out border-[#D4AF37]/50 shadow-[0_8px_30px_rgba(212,175,55,0.1)]",
+      "buttons": "brightness-110 transform scale-[1.02] transition-all"
+    },
+    "scroll": {
+      "library": "framer-motion for staggered fade-ins and subtle upward translations (y: 20 -> y: 0) on scroll."
+    }
+  },
+  "components": {
+    "header": {
+      "style": "Sticky, glassmorphism (bg-[#090A0C]/80 backdrop-blur-md). Includes Logo, Nav Links, 'Call 877-679-0100', and a prominent Gold 'Book Now' CTA."
+    },
+    "hero": {
+      "layout": "Full viewport height (min-h-[90vh]). Background image with heavy dark gradient overlay to ensure text contrast. Center-aligned elegant typography.",
+      "content": "H1: 'Luxury Black Car Service in Washington DC, Maryland & Virginia'. H2/Sub: 'Premium chauffeured transportation for executives, airport transfers, and special events.'",
+      "ctas": "Primary: Gold Button 'Book Now'. Secondary: Outline Button 'View Fleet'."
+    },
+    "booking_form": {
+      "style": "Embedded glass card or clean solid dark surface (#15161A). Inputs must use Shadcn customized to dark theme with gold focus rings (focus:ring-[#D4AF37])."
+    },
+    "fleet_section": {
+      "layout": "Grid of cards. Each card has an image, Vehicle Name (H3), max passengers/luggage icons, and 'Reserve' button. Hovering card highlights the border in gold."
+    },
+    "admin_dashboard": {
+      "style": "Password protected. Use Shadcn Table, Tabs, and Card components. Strictly functional, tabular-nums for dates/prices, high density. Sidebar navigation."
+    },
+    "testing": "All interactive elements (buttons, inputs, links) MUST include data-testid attribute (e.g., data-testid='hero-book-button')."
+  },
+  "media": {
+    "images": {
+      "hero_background": {
+        "url": "https://images.pexels.com/photos/36548466/pexels-photo-36548466.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Dynamic black luxury SUV moving swiftly through city streets at night. Use with heavy dark overlay."
+      },
+      "fleet_suv": {
+        "url": "https://images.pexels.com/photos/35899084/pexels-photo-35899084.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Black SUV driving at night. Represents the Cadillac Escalade / Lincoln Navigator."
+      },
+      "fleet_interior": {
+        "url": "https://images.unsplash.com/photo-1687634366070-c06d3f037154?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzOTB8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBjYXIlMjBpbnRlcmlvciUyMGxlYXRoZXJ8ZW58MHx8fHwxNzgyNjc1MTI4fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Luxury car interior with ambient starry roof lighting. Represents the Sprinter executive van interior."
+      },
+      "service_areas_bg": {
+        "url": "https://images.unsplash.com/photo-1543372654-b45dd90eeee5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHwxfHx3YXNoaW5ndG9uJTIwZGMlMjBza3lsaW5lJTIwbmlnaHR8ZW58MHx8fHwxNzgyNjc1MTEyfDA&ixlib=rb-4.1.0&q=85",
+        "description": "Washington DC Capitol Hill at night. Perfect for the Routes or Airport Transfers section background."
+      }
+    },
+    "icons": {
+      "library": "lucide-react",
+      "style": "Clean, thin stroke (strokeWidth={1.5}). Used for passengers, luggage, checkmarks, and contact info."
+    }
+  },
+  "instructions_to_main_agent": [
+    "Use raw HTML/Tailwind for the marketing pages to achieve the bespoke, high-end asymmetric layouts.",
+    "Use Shadcn UI primarily for the Admin Dashboard and complex forms (like the booking widget), customizing them to match the dark/gold theme.",
+    "Ensure all backgrounds use the provided custom colors (#090A0C) rather than standard Tailwind gray scales.",
+    "Apply Framer Motion for scroll-triggered reveals on the marketing site.",
+    "Make the mobile experience flawless: sticky 'Book Now' and 'Call' buttons at the bottom of the screen on mobile devices.",
+    "Implement Semantic HTML and schema markup for SEO."
+  ]
+}

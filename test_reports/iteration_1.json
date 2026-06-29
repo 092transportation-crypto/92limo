@@ -1,0 +1,43 @@
+{
+  "summary": "Full backend + frontend testing of 92 Limo Service. All 13 backend pytest cases pass. Frontend: homepage booking form submits successfully and shows success toast; /admin login (wrong + correct), bookings table populated, stats correct, status update flow working. Found and fixed one backend bug: MongoDB `_id` was leaking in /api/admin/bookings response.",
+  "backend_issues": {
+    "critical": [],
+    "minor": [
+      {"endpoint": "/api/admin/bookings & /api/bookings", "issue": "Mongo `_id` (or `id` alias) was being returned in JSON response due to FastAPI default `response_model_by_alias=True`. Fixed by (a) popping `_id` in BaseDocument.from_mongo and (b) adding response_model_exclude={'id'} on /bookings and per-item exclude on /admin/bookings."}
+    ]
+  },
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [],
+    "design_issues": [
+      {"screen": "Booking form", "issues": ["Date and Time inputs use the browser-native picker (input type=date/time) instead of the shadcn Calendar component. Acceptable but inconsistent with the luxury dark theme."]},
+      {"screen": "Admin dashboard", "issues": ["Toasts (Status updated / Welcome back) overlap with the stats cards at the top because the sonner toaster appears top-center; consider top-right placement."]}
+    ]
+  },
+  "test_report_links": [
+    "/app/backend/tests/test_limo_api.py",
+    "/app/test_reports/pytest/iter1_results.xml"
+  ],
+  "action_items": [
+    "Consider replacing native date/time inputs with shadcn Calendar/TimePicker for visual consistency (low priority).",
+    "Optionally reposition sonner Toaster (top-right) so confirmation toasts don't overlap stats cards in admin.",
+    "Set RESEND_API_KEY in backend/.env when ready to enable actual email delivery (currently graceful no-op, email_sent=false as designed)."
+  ],
+  "critical_code_review_comments": [
+    "Mongo `_id`/`id` field leakage in API responses was a real defect (fixed). Recommend a project-wide convention: do not expose internal `id`/`_id` in API responses; use the domain-specific `inquiry_id` only.",
+    "ADMIN_TOKEN is a static long-lived secret stored in .env and returned verbatim on login. For an MVP this is fine, but for production consider signed JWTs with expiry.",
+    "server.py uses `@app.on_event('shutdown')` which is deprecated in newer FastAPI; consider migrating to lifespan handlers.",
+    "BaseDocument carries an `id` alias for `_id` but the field is never used downstream — model can drop it entirely to simplify."
+  ],
+  "updated_files": [
+    "/app/backend/server.py (BaseDocument.from_mongo pops _id; added response_model_exclude on /bookings and /admin/bookings to hide id)",
+    "/app/backend/tests/test_limo_api.py (new pytest suite, 13 tests)"
+  ],
+  "success_rate": {"backend": "100% (13/13)", "frontend": "100% (homepage form + admin login + stats + table + status update)"},
+  "test_credentials": "Admin password: 92Limo!Admin2026 (from /app/memory/test_credentials.md)",
+  "seed_data_creation": "Created 4 bookings in MongoDB via API: 3 TEST_John Smith (from pytest fixture re-runs / module scope) and 1 UI_TEST User (from Playwright homepage submission). Status of UI_TEST User was changed to 'contacted' during admin test. All TEST_/UI_TEST prefixed for easy cleanup.",
+  "retest_needed": false,
+  "main_agent_can_self_test": true,
+  "context_for_next_testing_agent": "Backend pytest file at /app/backend/tests/test_limo_api.py covers full flow (create booking, admin login, list, stats, status update, 401 cases). Run with: pytest /app/backend/tests/test_limo_api.py -v. Seed data is prefixed TEST_/UI_TEST in the MongoDB 'bookings' collection. RESEND_API_KEY intentionally empty; email_sent=false is expected.",
+  "rca of the issue": "MongoDB `_id` leaked because (1) BaseDocument declares `id: Optional[PyObjectId] = Field(default=None, alias='_id')` with `populate_by_name=True`, (2) BookingInquiry.from_mongo passed the raw mongo doc (including `_id`) into the model, and (3) FastAPI by default serializes response models with `response_model_by_alias=True`, so the field surfaced as `_id` in JSON. Mitigation: pop `_id` in from_mongo and exclude `id` via response_model_exclude on affected routes."
+}

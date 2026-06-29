@@ -1,0 +1,27 @@
+{
+  "summary": "Iteration 4 verified the bug fix (broken-image + white/black theme conversion) and the 4 new pages. Backend: 13/13 pytest pass on /api/admin/* and /api/bookings (same regression suite). Frontend: all 14 routes load with single H1 and unique title/meta; total image count per page checked — 0 truly broken images on any page after lazy-load settles (one Escalade image initially reported broken on Home was a lazy-load timing false positive — re-check after scroll showed naturalWidth>0 and the asset returns HTTP 200 / 299KB). White/black theme verified: body bg rgb(255,255,255), body text rgb(10,10,10); navbar transparent at top -> rgba(255,255,255,0.85) glass after scroll. Admin page also light (bg white, text near-black). Gallery shows 15 images all loaded. FAQ page has 8 data-testid faq-item-N accordions, clicking item 0 toggles data-state='open', and <script type='application/ld+json'> includes BOTH LimousineService + FAQPage schemas. Reviews + Long-Distance pages render. Booking POST on /contact succeeds with sonner toast 'Inquiry received! Our team will contact you shortly.' Admin login (92Limo!Admin2026) shows stats + bookings table with new row. Unknown route redirects to /. /sitemap.xml returns 200 with 14 URLs including /long-distance-transportation, /reviews, /gallery, /faq. /robots.txt 200.",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [],
+    "design_issues": []
+  },
+  "test_report_links": [
+    "/app/backend/tests/test_limo_api.py",
+    "/app/test_reports/pytest/iter4_results.xml"
+  ],
+  "action_items": [],
+  "critical_code_review_comments": [
+    "BookingForm data-testid names diverged from the rest of the app: review_request mentions 'booking-pickup/booking-submit' but actual fields use 'input-pickup/input-dropoff/input-date/...' while only the wrapper/section/submit use 'booking-form/booking-section/booking-submit'. Not a defect, but the naming inconsistency caused initial selector misses — consider aligning to 'booking-*' across all fields.",
+    "Home hero image briefly fails naturalWidth>0 on first paint due to lazy-loading (loading='lazy' on below-the-fold imgs in Testimonials/PopularRoutes). Behaviour is correct; just noting that synthetic monitors that scan images immediately after DOMContentLoaded may report a transient false-positive. No fix needed.",
+    "Still no DELETE endpoint for admin bookings (returns 405). Cleanup was performed by direct pymongo delete_many on TEST_/UI_TEST prefixes — works fine, but a /api/admin/bookings/{id} DELETE would be useful for hygiene."
+  ],
+  "updated_files": [],
+  "success_rate": {"backend": "100% (13/13)", "frontend": "100% (14/14 pages, theme, FAQ, admin, booking, redirect, sitemap)"},
+  "test_credentials": "Admin password: 92Limo!Admin2026 (from /app/memory/test_credentials.md / backend/.env ADMIN_PASSWORD)",
+  "seed_data_creation": "Created 1 booking via UI (UI_TEST Iter4 1782689987 / ui_test_iter4_1782689987@example.com) and 1 via pytest (TEST_John Smith). Both deleted via pymongo delete_many on MONGO_URL/DB_NAME with regex ^(TEST_|UI_TEST) on name / ^(TEST_|ui_test) on email — bookings collection now empty (0 remaining).",
+  "retest_needed": false,
+  "main_agent_can_self_test": true,
+  "context_for_next_testing_agent": "All bug-fix verifications passed. Hero image is now https://static.prod-images.emergentagent.com/.../ecbb...png (loads 200). Booking form uses data-testid='input-*' for fields and 'booking-submit' for submit (NOT 'booking-pickup'); Service/Vehicle Selects have hidden native <select> duplicates inside [data-testid='booking-form'] — use selects[0].select_option(label='Airport Transfer') / selects[1].select_option(label='Executive Sedan') for reliability. FAQ items are 'faq-item-0..7' and toggle Radix data-state='open'/'closed'. Sitemap has 14 URLs exactly. Always wait for lazy-loaded images by scrolling through the page before asserting naturalWidth.",
+  "rca_of_the_issue": "n/a — no defects observed. Original broken-image bug (Pexels 403 hero) is resolved; replacement asset on emergent CDN returns HTTP 200. Theme conversion confirmed throughout public site + admin."
+}

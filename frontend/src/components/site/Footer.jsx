@@ -1,0 +1,111 @@
+import { Link } from "react-router-dom";
+import { Phone, Mail, Globe, MapPin, Facebook, Instagram, Linkedin } from "lucide-react";
+import { BRAND, NAV_SERVICES, IMAGES } from "@/lib/data";
+
+const QUICK = [
+  { label: "Home", to: "/" },
+  { label: "Fleet", to: "/fleet" },
+  { label: "Services", to: "/services" },
+  { label: "Service Areas", to: "/service-areas" },
+  { label: "About Us", to: "/about" },
+  { label: "Gallery", to: "/gallery" },
+  { label: "Reviews", to: "/reviews" },
+  { label: "FAQ", to: "/faq" },
+  { label: "Contact / Book Now", to: "/contact" },
+];
+
+export const Footer = () => {
+  return (
+    <footer data-testid="site-footer" className="bg-[#070809] border-t border-white/5 pt-16 pb-8">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+          <div>
+            <Link to="/" className="inline-block">
+              <img src={IMAGES.logo} alt="92 Limo Service logo" className="h-16 w-auto" />
+            </Link>
+            <p className="mt-4 text-sm text-neutral-400 leading-relaxed">
+              {BRAND.legal}. Luxury black car &amp; chauffeur service across
+              Washington DC, Maryland, and Northern Virginia.
+            </p>
+            <div className="mt-5 flex gap-3">
+              {[Facebook, Instagram, Linkedin].map((Icon, i) => (
+                <a
+                  key={i}
+                  href="https://92limo.com"
+                  data-testid={`social-link-${i}`}
+                  aria-label="92 Limo Service social media"
+                  className="w-9 h-9 rounded-full bg-[#15161A] border border-white/5 flex items-center justify-center text-neutral-400 hover:text-[#D4AF37] hover:border-[#D4AF37]/50 transition-all"
+                >
+                  <Icon size={16} />
+                </a>
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-semibold text-white tracking-wide">Quick Links</h3>
+            <ul className="mt-4 space-y-2.5">
+              {QUICK.map((q) => (
+                <li key={q.to}>
+                  <Link
+                    data-testid={`footer-link-${q.to}`}
+                    to={q.to}
+                    className="text-sm text-neutral-400 hover:text-[#D4AF37] transition-colors"
+                  >
+                    {q.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-semibold text-white tracking-wide">Services</h3>
+            <ul className="mt-4 space-y-2.5">
+              {NAV_SERVICES.map((s) => (
+                <li key={s.to}>
+                  <Link to={s.to} className="text-sm text-neutral-400 hover:text-[#D4AF37] transition-colors">
+                    {s.label}
+                  </Link>
+                </li>
+              ))}
+              <li>
+                <Link to="/fleet" className="text-sm text-neutral-400 hover:text-[#D4AF37] transition-colors">
+                  Group Sprinter Van Service
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-semibold text-white tracking-wide">Contact &amp; Airports</h3>
+            <ul className="mt-4 space-y-3">
+              <li>
+                <a href={BRAND.phoneHref} className="flex items-center gap-2 text-sm text-neutral-300 hover:text-[#D4AF37]">
+                  <Phone size={15} className="text-[#D4AF37]" /> {BRAND.phone}
+                </a>
+              </li>
+              <li>
+                <a href={`mailto:${BRAND.email}`} className="flex items-center gap-2 text-sm text-neutral-300 hover:text-[#D4AF37]">
+                  <Mail size={15} className="text-[#D4AF37]" /> {BRAND.email}
+                </a>
+              </li>
+              <li className="flex items-center gap-2 text-sm text-neutral-300">
+                <Globe size={15} className="text-[#D4AF37]" /> {BRAND.website}
+              </li>
+              <li className="flex items-start gap-2 text-sm text-neutral-400">
+                <MapPin size={15} className="text-[#D4AF37] mt-0.5" />
+                <span>BWI · DCA · IAD · DMV-wide</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="mt-12 pt-6 border-t border-white/5 flex flex-col sm:flex-row justify-between gap-3 text-xs text-neutral-500">
+          <span>© {new Date().getFullYear()} {BRAND.legal}. All rights reserved.</span>
+          <span>{BRAND.website} · Available 24/7</span>
+        </div>
+      </div>
+    </footer>
+  );
+};
