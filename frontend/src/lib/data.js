@@ -61,60 +61,89 @@ export const IMAGES = {
   sprinterPartyInterior: _SPRINTER,
 };
 
+// Each vehicle: category (label), name, passenger + luggage capacity,
+// description, and a local image in /public/fleet. If `img` is omitted the UI
+// renders a solid dark card with the vehicle name (see Fleet/ServiceDetail).
 export const FLEET = [
   {
-    name: "Economy Class — Executive Sedan",
-    tagline: "Comfortable, cost-effective luxury for up to 3 guests",
+    category: "Business Sedan",
+    name: "Mercedes-Benz E-Class",
     pax: 3,
-    bags: 2,
-    img: IMAGES.sedan,
-    alt: "Black economy class executive sedan for 92 Limo airport car service",
-    features: ["Leather interior", "Bottled water", "Professional chauffeur"],
+    bags: 3,
+    img: "/fleet/mercedes-e-class.jpg",
+    alt: "Black Mercedes-Benz E-Class business sedan — 92 Limo Service",
+    description:
+      "Refined comfort for solo travelers and small groups. Leather seating and a smooth, quiet ride — ideal for airport transfers and corporate trips.",
   },
   {
-    name: "Business Class — BMW 7 Series",
-    tagline: "Refined comfort for executives and business travel",
+    category: "Premium Sedan",
+    name: "BMW 7 Series",
     pax: 3,
-    bags: 2,
-    img: IMAGES.bmw7,
-    alt: "Black BMW 7 Series business class luxury sedan, 92 Limo Service fleet",
-    features: ["Premium flagship sedan", "Climate-controlled cabin", "USB charging"],
+    bags: 3,
+    img: "/fleet/bmw-7-series.jpg",
+    alt: "Black BMW 7 Series premium sedan — 92 Limo Service fleet",
+    description:
+      "Our flagship sedan. The BMW 7 Series delivers first-class comfort, a climate-controlled cabin, and executive presence for VIP travel.",
   },
   {
-    name: "First Class — Mercedes-Benz S-Class",
-    tagline: "The flagship sedan for VIP and luxury travel",
-    pax: 3,
-    bags: 2,
-    img: IMAGES.sClassReal,
-    alt: "Black Mercedes-Benz S-Class first class flagship luxury sedan",
-    features: ["Flagship comfort", "Ambient lighting", "Privacy glass"],
+    category: "Midsize SUV",
+    name: "Lincoln Nautilus",
+    pax: 4,
+    bags: 4,
+    img: "/fleet/lincoln-nautilus.jpg",
+    alt: "Lincoln Nautilus midsize luxury SUV — 92 Limo Service",
+    description:
+      "A modern midsize SUV with elevated seating, a serene tech-forward cabin, and generous cargo room — perfect for small families and business travelers.",
   },
   {
-    name: "Luxury SUV — GMC Yukon XL",
-    tagline: "Spacious ride for groups and extra luggage",
+    category: "Luxury SUV",
+    name: "Chevrolet Suburban",
     pax: 6,
     bags: 6,
-    img: IMAGES.yukon,
-    alt: "Black GMC Yukon XL luxury SUV for group chauffeur service in Maryland",
-    features: ["Captain seating", "Generous cargo", "Tinted privacy glass"],
+    img: "/fleet/chevrolet-suburban.jpg",
+    alt: "Black full-size luxury SUV — 92 Limo Service",
+    description:
+      "Spacious full-size SUV seating up to six with ample luggage capacity. The dependable choice for families, groups, and airport runs with extra bags.",
   },
   {
-    name: "Premium SUV — Cadillac Escalade",
-    tagline: "Commanding luxury and executive presence",
-    pax: 5,
-    bags: 5,
-    img: IMAGES.escaladeReal,
-    alt: "Black Cadillac Escalade premium SUV limousine service Maryland DC",
-    features: ["Executive presence", "Premium audio", "USB charging"],
+    category: "Premium SUV",
+    name: "Cadillac Escalade",
+    pax: 6,
+    bags: 7,
+    img: "/fleet/cadillac-escalade.jpg",
+    alt: "Black Cadillac Escalade premium SUV — 92 Limo Service",
+    description:
+      "Commanding full-size luxury with premium leather, ambient lighting, and standout presence for executives, VIPs, and special events.",
   },
   {
-    name: "Sprinter Executive Van",
-    tagline: "Group travel with theater-style luxury",
-    pax: 13,
-    bags: 12,
-    img: IMAGES.sprinterExterior,
-    alt: "Black Mercedes Sprinter executive van group transportation Washington DC",
-    features: ["Ambient mood lighting", "Conference seating", "Smart TV"],
+    category: "Group Shuttle",
+    name: "Sprinter Van Shuttle",
+    pax: 14,
+    bags: 14,
+    img: "/fleet/sprinter-shuttle.jpg",
+    alt: "Mercedes Sprinter van shuttle interior with captain seating — 92 Limo Service",
+    description:
+      "Comfortable group transportation with captain-style seating, climate control, and onboard entertainment — ideal for corporate shuttles and airport group transfers.",
+  },
+  {
+    category: "Special Occasions",
+    name: "Limousine",
+    pax: 10,
+    bags: 6,
+    img: "/fleet/limousine.jpg",
+    alt: "Luxury limousine interior with lounge seating and ambient lighting — 92 Limo Service",
+    description:
+      "Turn any occasion into an event. Lounge-style leather seating, ambient lighting, premium sound, and an onboard bar for weddings, proms, and nights out.",
+  },
+  {
+    category: "Executive Group",
+    name: "Executive Van",
+    pax: 12,
+    bags: 10,
+    img: "/fleet/executive-van.jpg",
+    alt: "Executive Sprinter van interior with lounge seating — 92 Limo Service",
+    description:
+      "Executive group travel with conference-style leather seating, ambient lighting, and a smart entertainment system — comfort and productivity for the whole team.",
   },
 ];
 
@@ -168,7 +197,7 @@ export const WHY = [
 export const TESTIMONIALS = [
   { name: "Daniel R.", role: "Corporate Client, Washington DC", quote: "Flawless airport pickup at IAD. The chauffeur was waiting, the Escalade was immaculate, and we arrived early. Our go-to for executive travel.", rating: 5 },
   { name: "Priya M.", role: "Wedding, Annapolis", quote: "The Sprinter van made our wedding day unforgettable — the comfort wowed our entire bridal party. Punctual and so professional.", rating: 5 },
-  { name: "James T.", role: "Frequent Traveler, Bethesda", quote: "I book the S-Class for every BWI run. Always on time, transparent pricing, and the smoothest ride in the DMV.", rating: 5 },
+  { name: "James T.", role: "Frequent Traveler, Bethesda", quote: "I book the BMW 7 Series for every BWI run. Always on time, transparent pricing, and the smoothest ride in the DMV.", rating: 5 },
   { name: "Alicia W.", role: "Event Planner, Arlington", quote: "Coordinated a wine tour and a corporate gala — both ran like clockwork. Clean vehicles, courteous drivers, zero stress.", rating: 5 },
 ];
 
@@ -185,7 +214,7 @@ export const FAQS = [
   { q: "What areas do you serve for airport transportation in Maryland?", a: "We cover Annapolis, Baltimore, Bowie, Crofton, Crownsville, Davidsonville, Odenton, Edgewater, Arnold, Severna Park, Riva, and surrounding Maryland areas, with service to BWI, DCA, IAD, PHL, and Martin State Airport." },
   { q: "How do I book a ride or get a free quote?", a: "Use the booking form on our Contact page, get an instant estimate, or simply call us at 877-679-0100. We confirm every reservation with an all-inclusive quote." },
   { q: "Are tolls and gratuity included in the price?", a: "Yes — our quotes are all-inclusive (base fare, tolls, taxes, and standard gratuity). Extra stops, extended wait time, and late-night surcharges may apply." },
-  { q: "What vehicles are in your fleet?", a: "Economy Class sedans, Business Class (Mercedes-Benz E-Class), First Class (Mercedes-Benz S-Class), the Premium SUV (Cadillac Escalade), and the Sprinter Executive Van for groups." },
+  { q: "What vehicles are in your fleet?", a: "Our fleet includes the Business Sedan (Mercedes-Benz E-Class), Premium Sedan (BMW 7 Series), Midsize SUV (Lincoln Nautilus), Luxury SUV (Chevrolet Suburban), Premium SUV (Cadillac Escalade), Sprinter Van Shuttle, Limousine, and Executive Van for groups." },
   { q: "Do you offer wine tours, weddings, proms, and birthdays?", a: "Absolutely. Beyond airport and corporate travel, we offer wine tours, wedding limo service, prom transportation, and birthday celebrations across Maryland, Virginia, and Washington DC." },
 ];
 
@@ -194,15 +223,20 @@ export const SERVICE_TYPES = [
   "Prom", "Hourly Chauffeur", "Long-Distance Trip", "Point-to-Point",
 ];
 
-export const VEHICLE_TYPES = FLEET.map((f) => f.name);
+// Stable label used in dropdowns, quote rates, and per-service vehicle lists.
+export const vehicleLabel = (f) => `${f.category} — ${f.name}`;
+
+export const VEHICLE_TYPES = FLEET.map(vehicleLabel);
 
 export const VEHICLE_RATES = {
-  "Economy Class — Executive Sedan": { base: 70, perMile: 2.8, perHour: 80 },
-  "Business Class — BMW 7 Series": { base: 90, perMile: 3.3, perHour: 100 },
-  "First Class — Mercedes-Benz S-Class": { base: 110, perMile: 3.8, perHour: 125 },
-  "Luxury SUV — GMC Yukon XL": { base: 110, perMile: 3.7, perHour: 120 },
-  "Premium SUV — Cadillac Escalade": { base: 120, perMile: 4.0, perHour: 135 },
-  "Sprinter Executive Van": { base: 160, perMile: 4.5, perHour: 175 },
+  "Business Sedan — Mercedes-Benz E-Class": { base: 75, perMile: 2.9, perHour: 85 },
+  "Premium Sedan — BMW 7 Series": { base: 95, perMile: 3.4, perHour: 105 },
+  "Midsize SUV — Lincoln Nautilus": { base: 100, perMile: 3.5, perHour: 110 },
+  "Luxury SUV — Chevrolet Suburban": { base: 115, perMile: 3.8, perHour: 125 },
+  "Premium SUV — Cadillac Escalade": { base: 125, perMile: 4.0, perHour: 135 },
+  "Group Shuttle — Sprinter Van Shuttle": { base: 160, perMile: 4.4, perHour: 170 },
+  "Special Occasions — Limousine": { base: 175, perMile: 4.8, perHour: 185 },
+  "Executive Group — Executive Van": { base: 165, perMile: 4.5, perHour: 175 },
 };
 
 export const CITIES = [
@@ -235,8 +269,8 @@ export const NAV_SERVICES = [
   { label: "Long-Distance Travel", to: "/long-distance-transportation" },
 ];
 
-const AIRPORT_VEHICLES = ["Economy Class — Executive Sedan", "Premium SUV — Cadillac Escalade", "Sprinter Executive Van"];
-const LUXURY_VEHICLES = ["First Class — Mercedes-Benz S-Class", "Premium SUV — Cadillac Escalade", "Sprinter Executive Van"];
+const AIRPORT_VEHICLES = ["Business Sedan — Mercedes-Benz E-Class", "Premium SUV — Cadillac Escalade", "Executive Group — Executive Van"];
+const LUXURY_VEHICLES = ["Premium Sedan — BMW 7 Series", "Premium SUV — Cadillac Escalade", "Special Occasions — Limousine"];
 
 export const SERVICE_PAGES = {
   "airport-transportation": {
@@ -321,7 +355,7 @@ export const SERVICE_PAGES = {
       { title: "Door-to-Door", desc: "Hassle-free pickup and drop-off at your home or hotel." },
       { title: "All-Inclusive Rates", desc: "Transparent pricing with no surprises at the end of the day." },
     ],
-    vehicles: ["Premium SUV — Cadillac Escalade", "Sprinter Executive Van", "First Class — Mercedes-Benz S-Class"],
+    vehicles: ["Premium SUV — Cadillac Escalade", "Special Occasions — Limousine", "Premium Sedan — BMW 7 Series"],
   },
   "birthday-celebrations": {
     metaTitle: "Birthday Limo Service | Celebrate in Style | 92 Limo DC, MD, VA",
@@ -342,7 +376,7 @@ export const SERVICE_PAGES = {
       { title: "Any Group Size", desc: "From an intimate dinner to a full crew in the Sprinter van." },
       { title: "All-Inclusive Pricing", desc: "Clear, upfront rates so there are no surprises." },
     ],
-    vehicles: ["Sprinter Executive Van", "Premium SUV — Cadillac Escalade", "First Class — Mercedes-Benz S-Class"],
+    vehicles: ["Special Occasions — Limousine", "Group Shuttle — Sprinter Van Shuttle", "Premium SUV — Cadillac Escalade"],
   },
   "prom-transportation": {
     metaTitle: "Prom Limo Service | Safe & Stylish | 92 Limo DC, Maryland & Virginia",
@@ -363,7 +397,7 @@ export const SERVICE_PAGES = {
       { title: "Parent Peace of Mind", desc: "Clear itineraries and dependable, professional service." },
       { title: "Transparent Pricing", desc: "Upfront prom packages with no hidden fees." },
     ],
-    vehicles: ["Sprinter Executive Van", "Premium SUV — Cadillac Escalade", "First Class — Mercedes-Benz S-Class"],
+    vehicles: ["Special Occasions — Limousine", "Group Shuttle — Sprinter Van Shuttle", "Premium SUV — Cadillac Escalade"],
   },
   "hourly-chauffeur": {
     metaTitle: "Hourly Chauffeur Service | As-Directed Car Hire | 92 Limo DC, MD, VA",
@@ -402,7 +436,7 @@ export const SERVICE_PAGES = {
       { title: "Work or Relax En Route", desc: "Quiet, spacious cabins with charging let you stay productive or unwind." },
       { title: "Experienced Chauffeurs", desc: "Seasoned drivers who know the I-95 corridor and plan around traffic." },
       { title: "Flexible Scheduling", desc: "Early departures, late returns, and multi-city itineraries accommodated." },
-      { title: "Group Options", desc: "Travel together in our Sprinter Executive Van for families and teams." },
+      { title: "Group Options", desc: "Travel together in our Executive Van or Sprinter Van Shuttle for families and teams." },
       { title: "Transparent Flat Rates", desc: "All-inclusive long-distance pricing quoted up front — no surprises." },
     ],
     vehicles: LUXURY_VEHICLES,

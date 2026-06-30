@@ -4,11 +4,11 @@ import { Seo } from "@/components/site/Seo";
 import { PageHero } from "@/components/site/PageHero";
 import { CTASection } from "@/components/site/CTASection";
 import { Reveal } from "@/components/site/Reveal";
-import { FLEET, SERVICE_PAGES } from "@/lib/data";
+import { FLEET, SERVICE_PAGES, vehicleLabel } from "@/lib/data";
 
 export default function ServiceDetail({ slug }) {
   const d = SERVICE_PAGES[slug];
-  const vehicles = FLEET.filter((f) => d.vehicles.includes(f.name));
+  const vehicles = FLEET.filter((f) => d.vehicles.includes(vehicleLabel(f)));
 
   return (
     <>
@@ -50,10 +50,18 @@ export default function ServiceDetail({ slug }) {
               <Reveal key={v.name} delay={i * 0.08}>
                 <div className="group h-full bg-white border border-black/10 rounded-2xl overflow-hidden shadow-sm hover:-translate-y-1 hover:border-[#C9A227]/60 hover:shadow-xl transition-all duration-300">
                   <div className="relative h-44 overflow-hidden bg-[#0A0A0A]">
-                    <img src={v.img} alt={v.alt} loading="lazy" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                    {v.img ? (
+                      <img src={v.img} alt={v.alt} loading="lazy" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                    ) : (
+                      <div className="w-full h-full flex flex-col items-center justify-center text-center px-4 bg-[#0A0A0A]">
+                        <span className="text-[10px] font-semibold tracking-widest uppercase text-[#C9A227]">{v.category}</span>
+                        <span className="mt-1 text-white font-display font-semibold">{v.name}</span>
+                      </div>
+                    )}
                   </div>
                   <div className="p-5">
-                    <h3 className="text-base font-display font-semibold text-[#0A0A0A] leading-snug">{v.name}</h3>
+                    <span className="text-[10px] font-semibold tracking-widest uppercase text-[#B8860B]">{v.category}</span>
+                    <h3 className="mt-1 text-base font-display font-semibold text-[#0A0A0A] leading-snug">{v.name}</h3>
                     <div className="mt-3 flex items-center gap-4 text-sm text-neutral-700 tabnums">
                       <span className="flex items-center gap-1.5"><Users size={15} className="text-[#B8860B]" /> {v.pax}</span>
                       <span className="flex items-center gap-1.5"><Briefcase size={15} className="text-[#B8860B]" /> {v.bags}</span>

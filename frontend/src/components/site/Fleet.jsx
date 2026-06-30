@@ -25,16 +25,24 @@ export const Fleet = ({
                 className="group h-full bg-white border border-black/10 rounded-2xl overflow-hidden shadow-sm hover:-translate-y-1 hover:border-[#C9A227]/60 hover:shadow-xl transition-all duration-300"
               >
                 <div className="relative h-52 overflow-hidden bg-[#0A0A0A]">
-                  <img
-                    src={v.img}
-                    alt={v.alt}
-                    loading="lazy"
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
+                  {v.img ? (
+                    <img
+                      src={v.img}
+                      alt={v.alt}
+                      loading="lazy"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
+                  ) : (
+                    <div className="w-full h-full flex flex-col items-center justify-center text-center px-6 bg-[#0A0A0A]">
+                      <span className="text-xs font-semibold tracking-widest uppercase text-[#C9A227]">{v.category}</span>
+                      <span className="mt-1.5 text-white font-display text-lg font-semibold">{v.name}</span>
+                    </div>
+                  )}
                 </div>
                 <div className="p-6">
-                  <h3 className="text-lg font-display font-semibold text-[#0A0A0A] leading-snug">{v.name}</h3>
-                  <p className="mt-1.5 text-sm text-neutral-600">{v.tagline}</p>
+                  <span className="text-[11px] font-semibold tracking-widest uppercase text-[#B8860B]">{v.category}</span>
+                  <h3 className="mt-1 text-lg font-display font-semibold text-[#0A0A0A] leading-snug">{v.name}</h3>
+                  <p className="mt-1.5 text-sm text-neutral-600 leading-relaxed">{v.description}</p>
 
                   <div className="mt-4 flex items-center gap-5 text-sm text-neutral-700 tabnums">
                     <span className="flex items-center gap-1.5">
