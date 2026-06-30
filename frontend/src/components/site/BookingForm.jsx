@@ -1,5 +1,4 @@
 import { useState } from "react";
-import emailjs from "@emailjs/browser";
 import { toast } from "sonner";
 import { Send, Loader2 } from "lucide-react";
 import { Reveal } from "@/components/site/Reveal";
@@ -16,13 +15,9 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 
-// EmailJS config (set these in Vercel env). Booking inquiries are emailed to
-// 092transportation@gmail.com, which is configured as the recipient in the
-// EmailJS template itself. See EMAILJS_SETUP.md.
-const EMAILJS_SERVICE_ID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
-const EMAILJS_TEMPLATE_ID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
-const EMAILJS_PUBLIC_KEY = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
-const INQUIRY_EMAIL = "092transportation@gmail.com";
+// Booking inquiries POST to the same-origin Vercel serverless function
+// (api/quote-requests), which emails NOTIFICATION_EMAIL via Gmail SMTP.
+const API_BASE = process.env.REACT_APP_BACKEND_URL || "";
 
 const EMPTY = {
   pickup_location: "",
@@ -62,40 +57,21 @@ export const BookingForm = () => {
         return;
       }
     }
-    if (!EMAILJS_SERVICE_ID || !EMAILJS_TEMPLATE_ID || !EMAILJS_PUBLIC_KEY) {
-      toast.error("Booking is not configured yet. Please call 877-679-0100.");
-      // eslint-disable-next-line no-console
-      console.error(
-        "EmailJS env vars missing: set REACT_APP_EMAILJS_SERVICE_ID, REACT_APP_EMAILJS_TEMPLATE_ID, REACT_APP_EMAILJS_PUBLIC_KEY."
-      );
-      return;
-    }
-
     setLoading(true);
     try {
-      const passengers = parseInt(form.passengers, 10) || 1;
-      const luggage = parseInt(form.luggage, 10) || 0;
-      await emailjs.send(
-        EMAILJS_SERVICE_ID,
-        EMAILJS_TEMPLATE_ID,
-        {
-          to_email: INQUIRY_EMAIL,
-          name: form.name,
-          phone: form.phone,
-          email: form.email,
-          service_type: form.service_type,
-          vehicle_type: form.vehicle_type,
-          pickup_location: form.pickup_location,
-          dropoff_location: form.dropoff_location,
-          date: form.date,
-          time: form.time,
-          passengers,
-          luggage,
-          notes: form.notes || "—",
-          subject: `New Booking Inquiry — ${form.name} (${form.service_type})`,
-        },
-        { publicKey: EMAILJS_PUBLIC_KEY }
-      );
+      const res = await fetch(`${API_BASE}/api/quote-requests`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          ...form,
+          passengers: parseInt(form.passengers, 10) || 1,
+          luggage: parseInt(form.luggage, 10) || 0,
+        }),
+      });
+      if (!res.ok) {
+        const err = await res.json().catch(() => ({}));
+        throw new Error(err.detail || "Request failed");
+      }
       toast.success("Inquiry received! Our team will contact you shortly.");
       track("generate_lead", {
         service_type: form.service_type,
@@ -107,7 +83,7 @@ export const BookingForm = () => {
     } catch (err) {
       toast.error("Something went wrong. Please call 877-679-0100.");
       // eslint-disable-next-line no-console
-      console.error("EmailJS send failed:", err);
+      console.error("Booking submit failed:", err);
     } finally {
       setLoading(false);
     }

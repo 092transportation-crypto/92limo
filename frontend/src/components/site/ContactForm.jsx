@@ -1,5 +1,4 @@
 import { useState } from "react";
-import emailjs from "@emailjs/browser";
 import { toast } from "sonner";
 import { Link } from "react-router-dom";
 import { Send, Loader2 } from "lucide-react";
@@ -9,16 +8,9 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 
-// EmailJS config. Messages are emailed to 092transportation@gmail.com, which is
-// set as the recipient in the EmailJS template. A dedicated contact template can
-// be provided via REACT_APP_EMAILJS_CONTACT_TEMPLATE_ID; otherwise it falls back
-// to the main template. See EMAILJS_SETUP.md.
-const EMAILJS_SERVICE_ID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
-const EMAILJS_TEMPLATE_ID =
-  process.env.REACT_APP_EMAILJS_CONTACT_TEMPLATE_ID ||
-  process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
-const EMAILJS_PUBLIC_KEY = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
-const INQUIRY_EMAIL = "092transportation@gmail.com";
+// Messages POST to the same-origin Vercel serverless function (api/contact),
+// which emails NOTIFICATION_EMAIL via Gmail SMTP.
+const API_BASE = process.env.REACT_APP_BACKEND_URL || "";
 
 const SMS_CONSENT_TEXT =
   "I consent to receive SMS messages from 92 Limo Service regarding rental confirmations, delivery/pickup notifications, appointment reminders, and service updates. Message frequency varies. Message and data rates may apply. Reply STOP to unsubscribe, HELP for assistance.";
@@ -46,38 +38,31 @@ export const ContactForm = () => {
       toast.error("Please agree to the SMS consent to continue.");
       return;
     }
-    if (!EMAILJS_SERVICE_ID || !EMAILJS_TEMPLATE_ID || !EMAILJS_PUBLIC_KEY) {
-      toast.error("Messaging is not configured yet. Please call 877-679-0100.");
-      // eslint-disable-next-line no-console
-      console.error(
-        "EmailJS env vars missing: set REACT_APP_EMAILJS_SERVICE_ID, REACT_APP_EMAILJS_(CONTACT_)TEMPLATE_ID, REACT_APP_EMAILJS_PUBLIC_KEY."
-      );
-      return;
-    }
 
     setLoading(true);
     try {
-      await emailjs.send(
-        EMAILJS_SERVICE_ID,
-        EMAILJS_TEMPLATE_ID,
-        {
-          to_email: INQUIRY_EMAIL,
+      const res = await fetch(`${API_BASE}/api/contact`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
           name: form.name,
           email: form.email,
           phone: form.phone,
           message: form.message,
-          sms_consent: form.sms_consent ? "Yes — opted in" : "No",
-          subject: `New Contact Message — ${form.name}`,
-        },
-        { publicKey: EMAILJS_PUBLIC_KEY }
-      );
+          sms_consent: form.sms_consent,
+        }),
+      });
+      if (!res.ok) {
+        const err = await res.json().catch(() => ({}));
+        throw new Error(err.detail || "Request failed");
+      }
       toast.success("Message sent! Our team will get back to you shortly.");
       track("contact_submit", { currency: "USD", value: 1 });
       setForm(EMPTY);
     } catch (err) {
       toast.error("Something went wrong. Please call 877-679-0100.");
       // eslint-disable-next-line no-console
-      console.error("EmailJS send failed:", err);
+      console.error("Contact submit failed:", err);
     } finally {
       setLoading(false);
     }
