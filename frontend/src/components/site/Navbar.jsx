@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { Menu, X, Phone, ChevronDown } from "lucide-react";
 import { BRAND, NAV_SERVICES } from "@/lib/data";
@@ -39,29 +40,24 @@ export const Navbar = () => {
     }`;
 
   return (
-    <header
+    <motion.header
       data-testid="main-navbar"
+      initial={{ y: -90, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
       className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${
-        solid ? "glass border-b border-black/10 py-3 shadow-sm" : "py-5 bg-transparent"
+        solid ? "glass border-b border-black/10 py-2.5 shadow-sm" : "py-4 bg-transparent"
       }`}
     >
       <nav className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between">
-        <Link data-testid="logo-home" to="/" className="flex items-baseline gap-1.5">
-          <span
-            className={`font-display font-extrabold tracking-tight leading-none transition-all duration-300 ${
-              solid ? "text-2xl" : "text-3xl drop-shadow-[0_2px_6px_rgba(0,0,0,0.5)]"
+        <Link data-testid="logo-home" to="/" className="flex items-center group">
+          <img
+            src="/92-limo-logo.png"
+            alt="92 Limo Service"
+            className={`w-auto transition-all duration-300 group-hover:scale-105 ${
+              solid ? "h-12" : "h-16 drop-shadow-[0_2px_10px_rgba(0,0,0,0.45)]"
             }`}
-          >
-            <span className="text-[#C9A227]">92</span>
-            <span className={solid ? "text-[#0A0A0A]" : "text-white"}> LIMO</span>
-          </span>
-          <span
-            className={`hidden sm:inline text-[10px] font-semibold tracking-[0.2em] uppercase ${
-              solid ? "text-neutral-500" : "text-neutral-300"
-            }`}
-          >
-            Service
-          </span>
+          />
         </Link>
 
         <div className="hidden lg:flex items-center gap-7">
@@ -114,7 +110,7 @@ export const Navbar = () => {
           <Link
             data-testid="nav-book-btn"
             to="/contact"
-            className="gold-gradient text-[#0A0A0A] text-sm font-bold px-5 py-2.5 rounded-full hover:brightness-105 transition-all shadow-sm"
+            className="gold-gradient text-[#0A0A0A] text-sm font-bold px-5 py-2.5 rounded-full hover:brightness-105 hover:scale-[1.04] active:scale-95 transition-all shadow-sm"
           >
             Book Now
           </Link>
@@ -170,6 +166,6 @@ export const Navbar = () => {
           </Link>
         </div>
       )}
-    </header>
+    </motion.header>
   );
 };

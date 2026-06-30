@@ -111,3 +111,70 @@ h1, h2, h3, .font-display {
     pointer-events: none;
     z-index: 1;
 }
+
+/* ---------- Motion / interaction utilities ---------- */
+
+/* Premium press/lift feedback for buttons & links */
+.btn-press {
+    transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1),
+        box-shadow 0.25s ease, filter 0.25s ease;
+    will-change: transform;
+}
+.btn-press:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 28px -8px rgba(201, 162, 39, 0.55);
+}
+.btn-press:active {
+    transform: translateY(0) scale(0.97);
+}
+
+/* Soft underline grow for text links */
+.link-underline {
+    position: relative;
+}
+.link-underline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 1.5px;
+    width: 0;
+    background: #c9a227;
+    transition: width 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.link-underline:hover::after {
+    width: 100%;
+}
+
+/* Gentle floating loop for accents (scroll cue, badges) */
+.float-soft {
+    animation: floatSoft 3.2s ease-in-out infinite;
+}
+@keyframes floatSoft {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(7px); }
+}
+
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.fade-up {
+    animation: fadeUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.001ms !important;
+        scroll-behavior: auto !important;
+    }
+    .hero-zoom,
+    .float-soft {
+        animation: none !important;
+    }
+}

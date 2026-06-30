@@ -212,7 +212,7 @@ export const BookingForm = () => {
               type="submit"
               data-testid="booking-submit"
               disabled={loading}
-              className="mt-8 w-full gold-gradient text-[#0A0A0A] font-bold py-4 rounded-full hover:brightness-105 transition-all flex items-center justify-center gap-2 disabled:opacity-70"
+              className="mt-8 w-full btn-press gold-gradient text-[#0A0A0A] font-bold py-4 rounded-full hover:brightness-105 flex items-center justify-center gap-2 disabled:opacity-70"
             >
               {loading ? (<><Loader2 size={18} className="animate-spin" /> Sending…</>) : (<><Send size={18} /> Request Booking</>)}
             </button>

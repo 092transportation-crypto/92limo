@@ -18,7 +18,7 @@ export const StickyBar = () => {
       <Link
         data-testid="sticky-book-btn"
         to="/contact"
-        className="flex-1 flex items-center justify-center gap-2 gold-gradient text-[#090A0C] font-bold py-3 rounded-full text-sm"
+        className="flex-1 btn-press flex items-center justify-center gap-2 gold-gradient text-[#090A0C] font-bold py-3 rounded-full text-sm"
       >
         <CalendarCheck size={17} /> Book Now
       </Link>

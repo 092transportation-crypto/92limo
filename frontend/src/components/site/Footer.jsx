@@ -20,14 +20,8 @@ export const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
-            <Link to="/" className="inline-flex items-baseline gap-1.5">
-              <span className="font-display font-extrabold tracking-tight leading-none text-2xl">
-                <span className="text-[#C9A227]">92</span>
-                <span className="text-white"> LIMO</span>
-              </span>
-              <span className="text-[10px] font-semibold tracking-[0.2em] uppercase text-neutral-400">
-                Service
-              </span>
+            <Link to="/" className="inline-block">
+              <img src="/92-limo-logo.png" alt="92 Limo Service" className="h-20 w-auto" />
             </Link>
             <p className="mt-4 text-sm text-neutral-400 leading-relaxed">
               {BRAND.legal}. Luxury black car &amp; chauffeur service across

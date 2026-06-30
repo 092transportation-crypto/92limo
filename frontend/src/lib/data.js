@@ -70,7 +70,9 @@ export const FLEET = [
     name: "Mercedes-Benz E-Class",
     pax: 3,
     bags: 3,
-    img: "/fleet/mercedes-e-class.jpg",
+    // No E-Class photo yet — renders the solid dark fallback card. Drop a real
+    // image at /public/fleet/mercedes-e-class.jpg and set img to that path.
+    img: null,
     alt: "Black Mercedes-Benz E-Class business sedan — 92 Limo Service",
     description:
       "Refined comfort for solo travelers and small groups. Leather seating and a smooth, quiet ride — ideal for airport transfers and corporate trips.",
