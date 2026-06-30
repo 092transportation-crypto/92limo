@@ -13,6 +13,8 @@ import ReviewsPage from "@/pages/ReviewsPage";
 import FaqPage from "@/pages/FaqPage";
 import GalleryPage from "@/pages/GalleryPage";
 import CityPage from "@/pages/CityPage";
+import PrivacyPolicyPage from "@/pages/PrivacyPolicyPage";
+import TermsConditionsPage from "@/pages/TermsConditionsPage";
 import Admin from "@/pages/Admin";
 
 function App() {
@@ -39,6 +41,8 @@ function App() {
             <Route path="/gallery" element={<GalleryPage />} />
             <Route path="/faq" element={<FaqPage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+            <Route path="/terms-conditions" element={<TermsConditionsPage />} />
           </Route>
           <Route path="/admin" element={<Admin />} />
           <Route path="*" element={<Navigate to="/" replace />} />

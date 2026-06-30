@@ -1,6 +1,7 @@
 import { Phone, Mail, Globe, Clock, MapPin } from "lucide-react";
 import { Seo } from "@/components/site/Seo";
 import { PageHero } from "@/components/site/PageHero";
+import { ContactForm } from "@/components/site/ContactForm";
 import { BookingForm } from "@/components/site/BookingForm";
 import { QuoteEstimator } from "@/components/site/QuoteEstimator";
 import { Reveal } from "@/components/site/Reveal";
@@ -17,14 +18,14 @@ export default function ContactPage() {
   return (
     <>
       <Seo
-        title="Contact & Book Now | 92 Limo Service | DC, MD & VA Car Service"
-        description="Book your luxury chauffeur with 92 Limo Service. Request airport transfers, corporate travel, weddings and more across Washington DC, Maryland & Northern Virginia. Call 877-679-0100 or submit the booking form."
+        title="Contact Us | 92 Limo Service | DC, MD & VA Car Service"
+        description="Contact 92 Limo Service for luxury chauffeur and airport car service across Washington DC, Maryland & Northern Virginia. Call 877-679-0100, get an instant estimate, or send us a message."
         path="/contact"
       />
       <PageHero
-        eyebrow="CONTACT / BOOK NOW"
-        title="Reserve Your Luxury Ride"
-        subtitle="Call us anytime or complete the booking form below — we confirm every reservation with an all-inclusive quote."
+        eyebrow="CONTACT US"
+        title="Get in Touch With 92 Limo Service"
+        subtitle="Call us anytime, get an instant estimate, or send us a message below — we respond promptly, 24/7."
         image={IMAGES.airportPickup}
         alt="Chauffeur meeting a client at the airport for 92 Limo Service"
         height="min-h-[48vh]"
@@ -67,6 +68,7 @@ export default function ContactPage() {
 
       <QuoteEstimator />
       <BookingForm />
+      <ContactForm />
     </>
   );
 }

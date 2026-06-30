@@ -42,11 +42,34 @@ email service (no backend required). Inquiries are delivered to
 
 ## Environment variables (set in Vercel → Settings → Environment Variables)
 
-| Variable                         | Example            |
-| -------------------------------- | ------------------ |
-| `REACT_APP_EMAILJS_SERVICE_ID`   | `service_xxxxxxx`  |
-| `REACT_APP_EMAILJS_TEMPLATE_ID`  | `template_xxxxxxx` |
-| `REACT_APP_EMAILJS_PUBLIC_KEY`   | `xxxxxxxxxxxxxxxx` |
+| Variable                                | Example            | Used by |
+| --------------------------------------- | ------------------ | ------- |
+| `REACT_APP_EMAILJS_SERVICE_ID`          | `service_xxxxxxx`  | both forms |
+| `REACT_APP_EMAILJS_TEMPLATE_ID`         | `template_xxxxxxx` | booking form |
+| `REACT_APP_EMAILJS_CONTACT_TEMPLATE_ID` | `template_yyyyyyy` | contact form (optional — falls back to the booking template) |
+| `REACT_APP_EMAILJS_PUBLIC_KEY`          | `xxxxxxxxxxxxxxxx` | both forms |
+
+### Contact form template
+
+The contact form (`/contact` → "Send Us a Message") sends these variables:
+`to_email, subject, name, email, phone, message, sms_consent`.
+
+Create a second EmailJS template (recommended) with **To = 092transportation@gmail.com**
+and a body such as:
+```
+New contact message from 92limo.com
+
+Name:        {{name}}
+Phone:       {{phone}}
+Email:       {{email}}
+
+Message:
+{{message}}
+
+SMS consent: {{sms_consent}}
+```
+Set its ID as `REACT_APP_EMAILJS_CONTACT_TEMPLATE_ID`. If you don't create a
+separate template, the contact form falls back to `REACT_APP_EMAILJS_TEMPLATE_ID`.
 
 > These are `REACT_APP_*` build-time variables (Create React App), so **redeploy**
 > after adding/changing them. They are public by design (EmailJS public key);

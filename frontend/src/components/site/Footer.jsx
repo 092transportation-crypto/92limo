@@ -101,9 +101,27 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-12 pt-6 border-t border-white/5 flex flex-col sm:flex-row justify-between gap-3 text-xs text-neutral-500">
+        <div className="mt-12 pt-6 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-neutral-500">
           <span>© {new Date().getFullYear()} {BRAND.legal}. All rights reserved.</span>
-          <span>{BRAND.website} · Available 24/7</span>
+          <div className="flex items-center gap-4">
+            <Link
+              to="/privacy-policy"
+              data-testid="footer-privacy-link"
+              className="hover:text-[#D4AF37] transition-colors"
+            >
+              Privacy Policy
+            </Link>
+            <span className="text-neutral-700">·</span>
+            <Link
+              to="/terms-conditions"
+              data-testid="footer-terms-link"
+              className="hover:text-[#D4AF37] transition-colors"
+            >
+              Terms &amp; Conditions
+            </Link>
+            <span className="text-neutral-700 hidden sm:inline">·</span>
+            <span className="hidden sm:inline">Available 24/7</span>
+          </div>
         </div>
       </div>
     </footer>

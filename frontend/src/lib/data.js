@@ -70,9 +70,7 @@ export const FLEET = [
     name: "Mercedes-Benz E-Class",
     pax: 3,
     bags: 3,
-    // No E-Class photo yet — renders the solid dark fallback card. Drop a real
-    // image at /public/fleet/mercedes-e-class.jpg and set img to that path.
-    img: null,
+    img: "/fleet/mercedes-e-class.jpg",
     alt: "Black Mercedes-Benz E-Class business sedan — 92 Limo Service",
     description:
       "Refined comfort for solo travelers and small groups. Leather seating and a smooth, quiet ride — ideal for airport transfers and corporate trips.",
@@ -122,8 +120,8 @@ export const FLEET = [
     name: "Sprinter Van Shuttle",
     pax: 14,
     bags: 14,
-    img: "/fleet/sprinter-shuttle.jpg",
-    alt: "Mercedes Sprinter van shuttle interior with captain seating — 92 Limo Service",
+    img: "/fleet/sprinter-shuttle-seats.jpg",
+    alt: "Mercedes Sprinter van shuttle interior with passenger seating — 92 Limo Service",
     description:
       "Comfortable group transportation with captain-style seating, climate control, and onboard entertainment — ideal for corporate shuttles and airport group transfers.",
   },
