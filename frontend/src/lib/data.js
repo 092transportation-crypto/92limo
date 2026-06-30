@@ -194,11 +194,23 @@ export const WHY = [
   { icon: "Building2", title: "Corporate-Ready Service", desc: "Billing, receipts, and standards built for business travel." },
 ];
 
+// Real Google reviews. `featured` items appear on the homepage; the Reviews
+// page shows all of them. Replace GOOGLE_REVIEWS_URL with the exact Google
+// Business profile URL when available.
+export const GOOGLE_REVIEWS_URL =
+  "https://www.google.com/search?q=92+Limo+Service+reviews";
+
 export const TESTIMONIALS = [
-  { name: "Daniel R.", role: "Corporate Client, Washington DC", quote: "Flawless airport pickup at IAD. The chauffeur was waiting, the Escalade was immaculate, and we arrived early. Our go-to for executive travel.", rating: 5 },
-  { name: "Priya M.", role: "Wedding, Annapolis", quote: "The Sprinter van made our wedding day unforgettable — the comfort wowed our entire bridal party. Punctual and so professional.", rating: 5 },
-  { name: "James T.", role: "Frequent Traveler, Bethesda", quote: "I book the BMW 7 Series for every BWI run. Always on time, transparent pricing, and the smoothest ride in the DMV.", rating: 5 },
-  { name: "Alicia W.", role: "Event Planner, Arlington", quote: "Coordinated a wine tour and a corporate gala — both ran like clockwork. Clean vehicles, courteous drivers, zero stress.", rating: 5 },
+  { name: "Ann", rating: 5, featured: true, quote: "Shah was great! Very professional and courteous the whole time. Both me and my daughter have back issues and he was courteous and sympathetic for both of us. He carried our luggage to the car and removed the luggage allowing us to get out..." },
+  { name: "Graham", rating: 5, featured: true, quote: "92 Limo Service is an amazing company! They are absolutely reliable and the vehicles are pristine! This service was extremely helpful to us in Baltimore from the airport pickup and chauffeur service to hotel, to daily pickup and drop offs..." },
+  { name: "Diane Soriano", rating: 5, featured: true, quote: "We were extremely pleased with 92 Limo Service. We needed chauffeur services for 7 hours for a girls night celebration. Shah was very easy to work with and help ensure our needs were met. The Cadillac Escalade was a smooth ride and the vehicle was spacious and clean. I highly recommend their business." },
+  { name: "Gary Patti", rating: 5, featured: true, quote: "Amazing service. Car was there when we walked out of the airport. Driver kindly got all of our bags inside, which was a tight squeeze. I will be using this service for all of my trips to DC." },
+  { name: "Amy Delauter", rating: 5, featured: true, quote: "Shah was great! He was early and waited for me despite flight delays. He was easy to find after getting off the plane. The car was nice and had the appropriate car seat for my baby. I would highly recommend!" },
+  { name: "Daryl Acumen", rating: 5, featured: true, quote: "Absolutely perfect! Exceptional ride, amazing vehicle, perfect service, reliable (early)...they raised the bar for what I expect from a sedan service. My go-to ride in DC from now on." },
+  { name: "Sharon Richards", rating: 5, featured: true, quote: "Today was a great day! Shah is excellent. He was on time for my pick up and return today. I highly recommend Shah. Very courteous, good conversation, and I will definitely be recommending Shah to my family and friends and colleagues." },
+  { name: 'CANDICE "CJ"', rating: 5, featured: true, quote: "Our experience was PHENOMENAL with 92 Limo Service!! Transportation to and from the airport was timely, affordable, clean, and came with top notch customer service. Our chauffeur was early, courteous, assisted with our bags..." },
+  { name: "Faith Stone", rating: 5, featured: false, quote: "I was coming up from Florida for a wedding in Frederick MD. I was flying into DCA and was very concerned about the trip. Our local limo service recommended Limo 92." },
+  { name: "Donna Hrinak", rating: 5, featured: false, quote: "Great service: on time, skillful driving and pleasant and courteous environment. Will definitely use again!" },
 ];
 
 export const AREAS = [

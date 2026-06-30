@@ -19,7 +19,11 @@ export default function ReviewsPage() {
         image={IMAGES.corporate}
         alt="Satisfied 92 Limo Service corporate client with chauffeur"
       />
-      <Testimonials />
+      <Testimonials
+        eyebrow="GOOGLE REVIEWS"
+        heading="Every Review, Straight From Google"
+        intro="Verified 5-star reviews from real 92 Limo Service clients across Washington DC, Maryland, and Virginia."
+      />
       <CTASection title="Join Our Happy Riders" subtitle="Experience the 92 Limo difference on your next trip across DC, Maryland & Virginia." />
     </>
   );

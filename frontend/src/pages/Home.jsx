@@ -24,7 +24,7 @@ export default function Home() {
       <Airports />
       <PopularRoutes />
       <WhyChooseUs />
-      <Testimonials />
+      <Testimonials featuredOnly />
       <CTASection />
     </>
   );
