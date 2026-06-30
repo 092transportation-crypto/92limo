@@ -268,6 +268,8 @@ export const NAV_SERVICES = [
   { label: "Proms", to: "/prom-transportation" },
   { label: "Hourly Chauffeur", to: "/hourly-chauffeur" },
   { label: "Long-Distance Travel", to: "/long-distance-transportation" },
+  { label: "Cruise Port Transfers", to: "/cruise-transfers" },
+  { label: "Sports & Events", to: "/sports-events" },
 ];
 
 const AIRPORT_VEHICLES = ["Business Sedan — Mercedes-Benz E-Class", "Premium SUV — Cadillac Escalade", "Executive Group — Executive Van"];

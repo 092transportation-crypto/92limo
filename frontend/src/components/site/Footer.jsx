@@ -7,6 +7,7 @@ const QUICK = [
   { label: "Fleet", to: "/fleet" },
   { label: "Services", to: "/services" },
   { label: "Service Areas", to: "/service-areas" },
+  { label: "Coverage", to: "/coverage" },
   { label: "About Us", to: "/about" },
   { label: "Gallery", to: "/gallery" },
   { label: "Reviews", to: "/reviews" },
@@ -14,11 +15,22 @@ const QUICK = [
   { label: "Contact / Book Now", to: "/contact" },
 ];
 
+const FOOTER_ROUTES = [
+  { label: "BWI → Washington DC", to: "/bwi-to-washington-dc" },
+  { label: "BWI → Baltimore", to: "/bwi-to-baltimore" },
+  { label: "BWI → Annapolis", to: "/bwi-to-annapolis" },
+  { label: "DCA → Washington DC", to: "/dca-to-washington-dc" },
+  { label: "IAD → Washington DC", to: "/iad-to-washington-dc" },
+  { label: "BWI → Ocean City, MD", to: "/bwi-to-ocean-city-md" },
+  { label: "BWI → Rehoboth Beach", to: "/bwi-to-rehoboth-beach" },
+  { label: "BWI → Bethany Beach", to: "/bwi-to-bethany-beach" },
+];
+
 export const Footer = () => {
   return (
     <footer data-testid="site-footer" className="bg-[#070809] border-t border-white/5 pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-10">
           <div>
             <Link to="/" className="inline-block">
               <img src="/92-limo-logo.png" alt="92 Limo Service" className="h-20 w-auto" />
@@ -72,6 +84,24 @@ export const Footer = () => {
               <li>
                 <Link to="/fleet" className="text-sm text-neutral-400 hover:text-[#D4AF37] transition-colors">
                   Group Sprinter Van Service
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-semibold text-white tracking-wide">Popular Routes</h3>
+            <ul className="mt-4 space-y-2.5">
+              {FOOTER_ROUTES.map((r) => (
+                <li key={r.to}>
+                  <Link to={r.to} className="text-sm text-neutral-400 hover:text-[#D4AF37] transition-colors">
+                    {r.label}
+                  </Link>
+                </li>
+              ))}
+              <li>
+                <Link to="/coverage" className="text-sm text-[#B8860B] font-medium hover:text-[#D4AF37] transition-colors">
+                  View all coverage →
                 </Link>
               </li>
             </ul>
