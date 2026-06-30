@@ -224,7 +224,7 @@ export const FAQS = [
   { q: "What airport transportation services do you provide to BWI Airport?", a: "We provide reliable airport transportation to and from BWI Airport, including private airport car service, executive transportation, luxury airport limo service, and group airport transfers for business and leisure travelers." },
   { q: "Is your airport transportation service available 24 hours a day?", a: "Yes — our 24/7 service operates around the clock, providing dependable rides to BWI, DCA, IAD, PHL, and Martin State Airport for early-morning departures and late-night arrivals." },
   { q: "What areas do you serve for airport transportation in Maryland?", a: "We cover Annapolis, Baltimore, Bowie, Crofton, Crownsville, Davidsonville, Odenton, Edgewater, Arnold, Severna Park, Riva, and surrounding Maryland areas, with service to BWI, DCA, IAD, PHL, and Martin State Airport." },
-  { q: "How do I book a ride or get a free quote?", a: "Use the booking form on our Contact page, get an instant estimate, or simply call us at 877-679-0100. We confirm every reservation with an all-inclusive quote." },
+  { q: "How do I book a ride or get a free quote?", a: "Use the booking form on our Contact page or simply call us at 877-679-0100. We confirm every reservation with an all-inclusive quote." },
   { q: "Are tolls and gratuity included in the price?", a: "Yes — our quotes are all-inclusive (base fare, tolls, taxes, and standard gratuity). Extra stops, extended wait time, and late-night surcharges may apply." },
   { q: "What vehicles are in your fleet?", a: "Our fleet includes the Business Sedan (Mercedes-Benz E-Class), Premium Sedan (BMW 7 Series), Midsize SUV (Lincoln Nautilus), Luxury SUV (Chevrolet Suburban), Premium SUV (Cadillac Escalade), Sprinter Van Shuttle, Limousine, and Executive Van for groups." },
   { q: "Do you offer wine tours, weddings, proms, and birthdays?", a: "Absolutely. Beyond airport and corporate travel, we offer wine tours, wedding limo service, prom transportation, and birthday celebrations across Maryland, Virginia, and Washington DC." },
@@ -235,21 +235,10 @@ export const SERVICE_TYPES = [
   "Prom", "Hourly Chauffeur", "Long-Distance Trip", "Point-to-Point",
 ];
 
-// Stable label used in dropdowns, quote rates, and per-service vehicle lists.
+// Stable label used in the booking dropdown and per-service vehicle lists.
 export const vehicleLabel = (f) => `${f.category} — ${f.name}`;
 
 export const VEHICLE_TYPES = FLEET.map(vehicleLabel);
-
-export const VEHICLE_RATES = {
-  "Business Sedan — Mercedes-Benz E-Class": { base: 75, perMile: 2.9, perHour: 85 },
-  "Premium Sedan — BMW 7 Series": { base: 95, perMile: 3.4, perHour: 105 },
-  "Midsize SUV — Lincoln Nautilus": { base: 100, perMile: 3.5, perHour: 110 },
-  "Luxury SUV — Chevrolet Suburban": { base: 115, perMile: 3.8, perHour: 125 },
-  "Premium SUV — Cadillac Escalade": { base: 125, perMile: 4.0, perHour: 135 },
-  "Group Shuttle — Sprinter Van Shuttle": { base: 160, perMile: 4.4, perHour: 170 },
-  "Special Occasions — Limousine": { base: 175, perMile: 4.8, perHour: 185 },
-  "Executive Group — Executive Van": { base: 165, perMile: 4.5, perHour: 175 },
-};
 
 export const CITIES = [
   { slug: "annapolis", name: "Annapolis", region: "Anne Arundel County", airport: "BWI" },

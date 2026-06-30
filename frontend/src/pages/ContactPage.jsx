@@ -3,7 +3,6 @@ import { Seo } from "@/components/site/Seo";
 import { PageHero } from "@/components/site/PageHero";
 import { ContactForm } from "@/components/site/ContactForm";
 import { BookingForm } from "@/components/site/BookingForm";
-import { QuoteEstimator } from "@/components/site/QuoteEstimator";
 import { Reveal } from "@/components/site/Reveal";
 import { BRAND, IMAGES, AREAS } from "@/lib/data";
 
@@ -19,13 +18,13 @@ export default function ContactPage() {
     <>
       <Seo
         title="Contact Us | 92 Limo Service | DC, MD & VA Car Service"
-        description="Contact 92 Limo Service for luxury chauffeur and airport car service across Washington DC, Maryland & Northern Virginia. Call 877-679-0100, get an instant estimate, or send us a message."
+        description="Contact 92 Limo Service for luxury chauffeur and airport car service across Washington DC, Maryland & Northern Virginia. Call 877-679-0100 or send us a message."
         path="/contact"
       />
       <PageHero
         eyebrow="CONTACT US"
         title="Get in Touch With 92 Limo Service"
-        subtitle="Call us anytime, get an instant estimate, or send us a message below — we respond promptly, 24/7."
+        subtitle="Call us anytime or send us a message below — we respond promptly, 24/7."
         image={IMAGES.airportPickup}
         alt="Chauffeur meeting a client at the airport for 92 Limo Service"
         height="min-h-[48vh]"
@@ -66,7 +65,6 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <QuoteEstimator />
       <BookingForm />
       <ContactForm />
     </>

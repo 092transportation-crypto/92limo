@@ -2,11 +2,11 @@ import { Seo } from "@/components/site/Seo";
 import { Hero } from "@/components/site/Hero";
 import { Fleet } from "@/components/site/Fleet";
 import { Services } from "@/components/site/Services";
-import { QuoteEstimator } from "@/components/site/QuoteEstimator";
 import { Airports } from "@/components/site/Airports";
 import { PopularRoutes } from "@/components/site/PopularRoutes";
 import { WhyChooseUs } from "@/components/site/WhyChooseUs";
 import { Testimonials } from "@/components/site/Testimonials";
+import { Awards } from "@/components/site/Awards";
 import { CTASection } from "@/components/site/CTASection";
 
 export default function Home() {
@@ -20,11 +20,11 @@ export default function Home() {
       <Hero />
       <Services />
       <Fleet />
-      <QuoteEstimator />
       <Airports />
       <PopularRoutes />
       <WhyChooseUs />
       <Testimonials featuredOnly />
+      <Awards />
       <CTASection />
     </>
   );
