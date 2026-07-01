@@ -8,7 +8,7 @@ export default function FleetPage() {
     <>
       <Seo
         title="Our Fleet | Luxury Sedans, SUVs & Sprinter Vans | 92 Limo Service"
-        description="Explore the 92 Limo Service fleet: Mercedes-Benz E-Class, BMW 7 Series, Lincoln Nautilus, Chevrolet Suburban, Cadillac Escalade, Sprinter van shuttles, limousines, and executive vans. Serving DC, MD & VA. Call 877-679-0100."
+        description="Explore the 92 Limo Service fleet: Mercedes E-Class, BMW 7 Series, Lincoln Nautilus, Chevrolet Suburban, Cadillac Escalade, Sprinter vans & limousines."
         path="/fleet"
       />
       <PageHero

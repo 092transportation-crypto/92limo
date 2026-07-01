@@ -20,7 +20,7 @@ export const CTASection = ({
             <div className="relative mt-8 flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 data-testid="cta-book-btn"
-                to="/contact"
+                to="/booking"
                 className="group btn-press gold-gradient text-[#0A0A0A] font-bold px-8 py-4 rounded-full hover:brightness-105 flex items-center justify-center gap-2"
               >
                 Book Now <ChevronRight size={18} className="group-hover:translate-x-1 transition-transform" />

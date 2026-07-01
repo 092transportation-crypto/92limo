@@ -12,7 +12,8 @@ const QUICK = [
   { label: "Gallery", to: "/gallery" },
   { label: "Reviews", to: "/reviews" },
   { label: "FAQ", to: "/faq" },
-  { label: "Contact / Book Now", to: "/contact" },
+  { label: "Book a Ride", to: "/booking" },
+  { label: "Contact Us", to: "/contact" },
 ];
 
 const FOOTER_ROUTES = [

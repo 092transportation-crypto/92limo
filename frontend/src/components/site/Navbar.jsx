@@ -133,7 +133,7 @@ export const Navbar = () => {
           </a>
           <Link
             data-testid="nav-book-btn"
-            to="/contact"
+            to="/booking"
             className="gold-gradient text-[#0A0A0A] text-sm font-bold px-5 py-2.5 rounded-full hover:brightness-105 hover:scale-[1.04] active:scale-95 transition-all shadow-sm"
           >
             Book Now
@@ -183,7 +183,7 @@ export const Navbar = () => {
           </a>
           <Link
             data-testid="mobile-book-btn"
-            to="/contact"
+            to="/booking"
             className="gold-gradient text-[#0A0A0A] font-bold px-5 py-3 rounded-full text-center mt-2"
           >
             Book Now

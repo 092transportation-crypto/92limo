@@ -18,7 +18,7 @@ export default function AboutPage() {
     <>
       <Seo
         title="About Us | 92 Limo Service / 92 Transportation LLC | DC, MD & VA"
-        description="Learn about 92 Limo Service (92 Transportation LLC) — a premier luxury black car and chauffeur company serving Washington DC, Maryland and Northern Virginia with reliability, safety and first-class hospitality. Call 877-679-0100."
+        description="Learn about 92 Limo Service (92 Transportation LLC) — luxury black car and chauffeur service across Washington DC, Maryland & Northern Virginia."
         path="/about"
       />
       <PageHero

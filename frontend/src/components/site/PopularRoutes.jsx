@@ -21,7 +21,7 @@ export const PopularRoutes = () => {
             <Reveal key={`${r.from}-${r.to}`} delay={(i % 4) * 0.06}>
               <Link
                 data-testid={`route-card-${i}`}
-                to="/contact"
+                to="/booking"
                 className="group block w-full text-left bg-white border border-black/10 rounded-xl p-5 shadow-sm hover:border-[#C9A227]/60 hover:-translate-y-1 hover:shadow-lg transition-all duration-300"
               >
                 <div className="text-xs text-neutral-500 uppercase tracking-wider">From</div>

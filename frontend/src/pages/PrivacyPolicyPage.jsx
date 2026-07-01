@@ -6,7 +6,7 @@ export default function PrivacyPolicyPage() {
     <>
       <Seo
         title="Privacy Policy & SMS Terms | 92 Limo Service"
-        description="92 Limo Service Privacy Policy and SMS Terms and Conditions — what we collect, how we use it, and our SMS messaging and opt-in/opt-out terms. SMS consent is never shared with third parties for marketing."
+        description="92 Limo Service Privacy Policy & SMS Terms — what we collect, how we use it, and SMS opt-in/opt-out. Mobile opt-in data is never shared for marketing."
         path="/privacy-policy"
       />
       <LegalLayout
@@ -62,10 +62,17 @@ export default function PrivacyPolicyPage() {
           </a>
           .
         </LP>
-        <LP>SMS consent is not shared with third parties or affiliates for marketing purposes.</LP>
         <LP>
-          Phone numbers collected for SMS communications are used solely for the purposes for which
-          consent was provided.
+          <strong className="text-[#0A0A0A]">
+            Mobile opt-in information and SMS consent data will never be sold, rented, or shared with
+            any third parties or affiliates for marketing or promotional purposes.
+          </strong>{" "}
+          This includes your phone number and the fact that you opted in. No mobile information is
+          shared with third parties for their own marketing.
+        </LP>
+        <LP>
+          Phone numbers collected for SMS communications are used solely by 92 Limo Service for the
+          purposes for which consent was provided (such as reservation updates and customer care).
         </LP>
 
         <LH2>SMS Terms and Conditions</LH2>

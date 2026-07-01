@@ -37,7 +37,7 @@ export const Services = ({
                   <h3 className="mt-5 text-lg font-display font-semibold text-[#0A0A0A]">{s.title}</h3>
                   <p className="mt-2 text-sm text-neutral-600 leading-relaxed">{s.desc}</p>
                   <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-[#B8860B] group-hover:gap-2.5 transition-all">
-                    Learn more <ChevronRight size={15} />
+                    {`Learn more about ${s.title}`} <ChevronRight size={15} />
                   </span>
                 </Link>
               </Reveal>

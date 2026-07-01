@@ -72,7 +72,7 @@ export const Hero = () => {
           <motion.div variants={item} className="mt-9 flex flex-col sm:flex-row gap-4">
             <Link
               data-testid="hero-book-btn"
-              to="/contact"
+              to="/booking"
               className="group btn-press gold-gradient text-[#090A0C] font-bold px-8 py-4 rounded-full hover:brightness-110 flex items-center justify-center gap-2 text-base"
             >
               Book Now

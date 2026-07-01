@@ -24,7 +24,7 @@ export default function GalleryPage() {
     <>
       <Seo
         title="Gallery | Our Luxury Fleet & Chauffeur Service | 92 Limo DC, MD & VA"
-        description="Browse the 92 Limo Service photo gallery — luxury sedans, Cadillac Escalade, Mercedes Sprinter vans, chauffeurs, airport pickups and more across Washington DC, Maryland & Northern Virginia. Call 877-679-0100."
+        description="Browse the 92 Limo Service gallery — luxury sedans, Cadillac Escalade, Sprinter vans, chauffeurs, and airport pickups across DC, Maryland & Virginia."
         path="/gallery"
       />
       <PageHero

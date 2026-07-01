@@ -12,9 +12,9 @@ import { Textarea } from "@/components/ui/textarea";
 // which emails NOTIFICATION_EMAIL via Gmail SMTP.
 const API_BASE = process.env.REACT_APP_BACKEND_URL || "";
 
-// Text before the Privacy Policy link (rendered as a link below).
+// Consent text before the inline "privacy policy page" and "Terms & Conditions" links.
 const SMS_CONSENT_TEXT =
-  "I consent to receive conversational and informational SMS messages from 92 Limo Service. Reply STOP to opt-out; reply HELP for support; message & data rates may apply; messaging frequency may vary. View our Privacy Policy at ";
+  "By checking this box, you agree to receive SMS messages from 92 Limo Service related to Customer Care. You may reply STOP to opt out at any time. Reply HELP to 877-679-0100 for assistance. Messages and data rates may apply. Message frequency will vary. Learn more on our ";
 
 const EMPTY = { name: "", email: "", phone: "", preferred_contact: "", message: "", sms_consent: false };
 
@@ -127,7 +127,11 @@ export const ContactForm = () => {
               <span className="text-xs text-neutral-600 leading-relaxed">
                 {SMS_CONSENT_TEXT}
                 <Link to="/privacy-policy" className="text-[#B8860B] font-medium underline hover:text-[#8A6508]">
-                  92limo.com/privacy-policy
+                  privacy policy page
+                </Link>{" "}
+                and{" "}
+                <Link to="/terms-conditions" className="text-[#B8860B] font-medium underline hover:text-[#8A6508]">
+                  Terms &amp; Conditions
                 </Link>
                 . <span className="text-neutral-400">(Optional)</span>
               </span>

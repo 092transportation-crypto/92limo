@@ -11,7 +11,7 @@ export default function ServicesPage() {
     <>
       <Seo
         title="Services | Airport, Corporate, Hourly & Wedding Car Service | 92 Limo"
-        description="92 Limo Service offers airport car service (BWI, DCA, IAD), corporate transportation, hourly chauffeur, weddings, point-to-point and long-distance private car service across DC, Maryland & Northern Virginia. Call 877-679-0100."
+        description="Airport car service (BWI, DCA, IAD), corporate travel, hourly chauffeur, weddings, and long-distance private car service across DC, Maryland & Virginia."
         path="/services"
       />
       <PageHero

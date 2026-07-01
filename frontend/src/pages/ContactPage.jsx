@@ -1,32 +1,32 @@
-import { Phone, Mail, Globe, Clock, MapPin } from "lucide-react";
+import { Link } from "react-router-dom";
+import { Phone, Mail, Clock, CalendarCheck, MapPin } from "lucide-react";
 import { Seo } from "@/components/site/Seo";
 import { PageHero } from "@/components/site/PageHero";
 import { ContactForm } from "@/components/site/ContactForm";
-import { BookingForm } from "@/components/site/BookingForm";
 import { Reveal } from "@/components/site/Reveal";
 import { BRAND, IMAGES, AREAS } from "@/lib/data";
 
 const CARDS = [
   { icon: Phone, label: "Call / Text", value: BRAND.phone, href: BRAND.phoneHref },
   { icon: Mail, label: "Email", value: BRAND.email, href: `mailto:${BRAND.email}` },
-  { icon: Globe, label: "Website", value: BRAND.website, href: "https://92limo.com" },
-  { icon: Clock, label: "Hours", value: "Open 24/7 · 365 days", href: null },
+  { icon: Clock, label: "Business Hours", value: "Open 24/7 · 365 days a year", href: null },
+  { icon: CalendarCheck, label: "Ready to ride?", value: "Book a ride →", to: "/booking" },
 ];
 
 export default function ContactPage() {
   return (
     <>
       <Seo
-        title="Contact Us | 92 Limo Service | DC, MD & VA Car Service"
-        description="Contact 92 Limo Service for luxury chauffeur and airport car service across Washington DC, Maryland & Northern Virginia. Call 877-679-0100 or send us a message."
+        title="Contact Us | 92 Limo Service | DC, MD & VA"
+        description="Contact 92 Limo Service for general questions and special requests — by phone, email, or our form. Open 24/7. To reserve a ride, visit our booking page."
         path="/contact"
       />
       <PageHero
         eyebrow="CONTACT US"
-        title="Get in Touch With 92 Limo Service"
-        subtitle="Call us anytime or send us a message below — we respond promptly, 24/7."
+        title="Contact 92 Limo Service"
+        subtitle="General questions, special requests, or feedback? Reach us by phone, email, or the form below. To reserve a ride, visit our booking page."
         image={IMAGES.airportPickup}
-        alt="Chauffeur meeting a client at the airport for 92 Limo Service"
+        alt="92 Limo Service team ready to help with your inquiry"
         height="min-h-[48vh]"
       />
 
@@ -38,9 +38,16 @@ export default function ContactPage() {
                 <div className="h-full bg-[#F6F5F2] border border-black/10 rounded-2xl p-6 hover:border-[#C9A227]/60 hover:shadow-lg transition-all duration-300">
                   <c.icon size={22} strokeWidth={1.6} className="text-[#B8860B]" />
                   <div className="mt-4 text-xs uppercase tracking-wider text-neutral-500">{c.label}</div>
-                  <div className="mt-1 text-[#0A0A0A] font-semibold tabnums">{c.value}</div>
+                  <div className="mt-1 text-[#0A0A0A] font-semibold">{c.value}</div>
                 </div>
               );
+              if (c.to) {
+                return (
+                  <Reveal key={c.label} delay={(i % 4) * 0.06}>
+                    <Link to={c.to} data-testid={`contact-card-${i}`} className="block h-full">{inner}</Link>
+                  </Reveal>
+                );
+              }
               return (
                 <Reveal key={c.label} delay={(i % 4) * 0.06}>
                   {c.href ? (
@@ -65,7 +72,6 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <BookingForm />
       <ContactForm />
     </>
   );

@@ -35,7 +35,7 @@ export const PageHero = ({ eyebrow, title, subtitle, image, alt, height = "min-h
           <div className="mt-8 flex flex-col sm:flex-row gap-4">
             <Link
               data-testid="pagehero-book-btn"
-              to="/contact"
+              to="/booking"
               className="group gold-gradient text-[#090A0C] font-bold px-7 py-3.5 rounded-full hover:brightness-110 transition-all flex items-center justify-center gap-2"
             >
               Book Now

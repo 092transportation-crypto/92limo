@@ -35,7 +35,7 @@ export const Airports = () => {
                 <p className="mt-2 text-sm text-neutral-600 leading-relaxed">{a.desc}</p>
                 <Link
                   data-testid={`airport-book-${a.code}`}
-                  to="/contact"
+                  to="/booking"
                   className="mt-5 inline-block text-sm font-semibold text-[#B8860B] hover:underline"
                 >
                   Book {a.code} transfer →

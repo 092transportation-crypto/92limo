@@ -45,7 +45,7 @@ export default function CityPage() {
     <>
       <Seo
         title={`Airport Car Service in ${data.name}, MD | 92 Limo — BWI, DCA, IAD`}
-        description={`Reliable luxury airport car & limo service in ${data.name}, ${data.region}. On-time transfers to BWI, DCA, IAD, PHL & Martin State, plus corporate, wedding & wine-tour chauffeur service. Call 877-679-0100.`}
+        description={`Luxury airport car & limo service in ${data.name}, ${data.region}. On-time transfers to BWI, DCA & IAD, plus corporate, wedding & wine-tour chauffeurs.`}
         path={`/airport-car-service/${data.slug}`}
       />
       <PageHero

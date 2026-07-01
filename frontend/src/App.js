@@ -9,6 +9,7 @@ import ServiceDetail from "@/components/site/ServiceDetail";
 import ServiceAreasPage from "@/pages/ServiceAreasPage";
 import AboutPage from "@/pages/AboutPage";
 import ContactPage from "@/pages/ContactPage";
+import BookingPage from "@/pages/BookingPage";
 import ReviewsPage from "@/pages/ReviewsPage";
 import FaqPage from "@/pages/FaqPage";
 import GalleryPage from "@/pages/GalleryPage";
@@ -44,6 +45,7 @@ function App() {
             <Route path="/gallery" element={<GalleryPage />} />
             <Route path="/faq" element={<FaqPage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/booking" element={<BookingPage />} />
             <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
             <Route path="/terms-conditions" element={<TermsConditionsPage />} />
             <Route path="/coverage" element={<CoveragePage />} />

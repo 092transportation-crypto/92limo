@@ -13,7 +13,7 @@ export default function ServiceAreasPage() {
     <>
       <Seo
         title="Service Areas | DC, Maryland & Northern Virginia | 92 Limo Service"
-        description="92 Limo Service covers Washington DC, Maryland, Northern Virginia, Baltimore, Annapolis, Columbia, Laurel, Rockville, Bethesda, Arlington, Alexandria, Tysons, plus BWI, DCA & IAD airports and long-distance trips. Call 877-679-0100."
+        description="92 Limo Service covers Washington DC, Maryland & Northern Virginia — Baltimore, Annapolis, Bethesda, Arlington & more, plus BWI, DCA & IAD airports."
         path="/service-areas"
       />
       <PageHero

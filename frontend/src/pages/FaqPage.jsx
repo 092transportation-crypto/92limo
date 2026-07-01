@@ -34,7 +34,7 @@ export default function FaqPage() {
     <>
       <Seo
         title="FAQ | Frequently Asked Questions | 92 Limo Service DC, MD & VA"
-        description="Answers to common questions about 92 Limo Service — booking, pricing, airport flight tracking, vehicles, service areas and 24/7 availability across Washington DC, Maryland & Northern Virginia. Call 877-679-0100."
+        description="Answers to common questions about 92 Limo Service — booking, pricing, flight tracking, vehicles, service areas, and 24/7 availability in DC, MD & VA."
         path="/faq"
       />
       <PageHero

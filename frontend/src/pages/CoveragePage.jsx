@@ -51,7 +51,7 @@ export default function CoveragePage() {
     <>
       <Seo
         title="Service Area & Coverage | Maryland, DC, Virginia, Delaware & PA | 92 Limo Service"
-        description="92 Limo Service coverage: all 23 Maryland counties and Baltimore City, Washington DC, Northern Virginia (Arlington, Alexandria, Fairfax, Tysons, McLean), Delaware (Wilmington, Newark, Dover, Bethany & Rehoboth beaches), and York County, PA. Call 877-679-0100."
+        description="92 Limo Service coverage: all 23 Maryland counties, Baltimore City, Washington DC, Northern Virginia, Delaware (incl. Bethany & Rehoboth), and York, PA."
         path="/coverage"
       />
       <PageHero

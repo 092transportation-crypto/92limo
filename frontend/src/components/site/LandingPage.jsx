@@ -29,7 +29,7 @@ export default function LandingPage({ slug }) {
             </div>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <Link
-                to="/contact"
+                to="/booking"
                 data-testid="landing-book-btn"
                 className="btn-press inline-flex items-center justify-center gap-2 gold-gradient text-[#0A0A0A] font-bold px-7 py-3.5 rounded-full hover:brightness-110"
               >
@@ -107,7 +107,7 @@ export default function LandingPage({ slug }) {
               ))}
             </div>
             <div className="mt-10">
-              <Link to="/contact" className="inline-flex items-center gap-2 text-sm font-semibold text-[#B8860B] hover:gap-3 transition-all">
+              <Link to="/booking" className="inline-flex items-center gap-2 text-sm font-semibold text-[#B8860B] hover:gap-3 transition-all">
                 Reserve your ride <ChevronRight size={16} />
               </Link>
             </div>

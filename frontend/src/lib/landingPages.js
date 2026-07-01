@@ -22,7 +22,7 @@ export const LANDING_PAGES = {
   "cruise-transfers": {
     metaTitle: "Baltimore Cruise Port Transfers | 92 Limo Service",
     metaDescription:
-      "Luxury chauffeur service to the Port of Baltimore Cruise Terminal from BWI airport, Washington DC, Maryland & Virginia. Pre-cruise pickups, post-cruise returns, luggage handling, flight-to-port coordination, and Sprinter vans for groups. Call 877-679-0100.",
+      "Luxury chauffeur transfers to the Port of Baltimore cruise terminal from BWI, DC, MD & VA. Flight-to-port timing, luggage help, and Sprinter vans. 24/7.",
     eyebrow: "CRUISE TRANSFERS",
     h1: "Baltimore Cruise Port Transfers",
     subtitle:
@@ -61,7 +61,7 @@ export const LANDING_PAGES = {
   "sports-events": {
     metaTitle: "Ravens & Orioles Game Transportation | 92 Limo Service",
     metaDescription:
-      "Chauffeured game-day transportation to M&T Bank Stadium (Ravens) and Oriole Park at Camden Yards (Orioles). Tailgate drop-offs, group transport, no parking hassle, safe rides home, and corporate/suite service. Call 877-679-0100.",
+      "Chauffeured game-day rides to M&T Bank Stadium (Ravens) and Camden Yards (Orioles). No parking, tailgate drop-offs, group vans, and safe rides home.",
     eyebrow: "SPORTS & EVENTS",
     h1: "Ravens & Orioles Game Transportation",
     subtitle:
@@ -100,7 +100,7 @@ export const LANDING_PAGES = {
   "bwi-to-washington-dc": {
     metaTitle: "BWI Airport to Washington DC Car Service | 92 Limo Service",
     metaDescription:
-      "Private luxury car service from BWI Airport to Washington DC. Flight tracking, meet & greet, flat-rate pricing, and 24/7 chauffeurs to DC hotels, monuments, and business districts. Call 877-679-0100.",
+      "Private car service from BWI Airport to Washington DC. Meet & greet, flight tracking, flat-rate pricing, and 24/7 chauffeurs to DC hotels & offices.",
     eyebrow: "BWI → WASHINGTON DC",
     h1: "BWI Airport to Washington DC Car Service",
     subtitle: "Private, chauffeured transfers between BWI Marshall and the nation's capital — roughly 32 miles of effortless luxury.",
@@ -138,7 +138,7 @@ export const LANDING_PAGES = {
   "bwi-to-annapolis": {
     metaTitle: "BWI Airport to Annapolis Car Service | 92 Limo Service",
     metaDescription:
-      "Luxury chauffeur service from BWI Airport to Annapolis, MD. Flight tracking, meet & greet, and flat-rate transfers to the Naval Academy, City Dock, hotels, and downtown Annapolis. Call 877-679-0100.",
+      "Luxury car service from BWI Airport to Annapolis, MD. Flight tracking, meet & greet, and flat-rate transfers to the Naval Academy, City Dock & hotels.",
     eyebrow: "BWI → ANNAPOLIS",
     h1: "BWI Airport to Annapolis Car Service",
     subtitle: "Quick, comfortable chauffeured transfers between BWI Marshall and Maryland's historic capital — about 25 miles.",
@@ -177,7 +177,7 @@ export const LANDING_PAGES = {
   "bwi-to-baltimore": {
     metaTitle: "BWI Airport to Baltimore Car Service | 92 Limo Service",
     metaDescription:
-      "Luxury car service from BWI Airport to Baltimore, MD. Flight tracking, meet & greet, and flat-rate transfers to the Inner Harbor, downtown hotels, Fells Point, and Johns Hopkins. Call 877-679-0100.",
+      "Luxury car service from BWI Airport to Baltimore, MD. Meet & greet, flight tracking, and flat-rate transfers to the Inner Harbor, hotels & Johns Hopkins.",
     eyebrow: "BWI → BALTIMORE",
     h1: "BWI Airport to Baltimore Car Service",
     subtitle: "A short, seamless luxury transfer between BWI Marshall and downtown Baltimore — only about 10 miles.",
@@ -216,7 +216,7 @@ export const LANDING_PAGES = {
   "bwi-to-bethesda": {
     metaTitle: "BWI Airport to Bethesda Car Service | 92 Limo Service",
     metaDescription:
-      "Private luxury car service from BWI Airport to Bethesda, MD. Flight tracking, meet & greet, and flat-rate transfers to the NIH, downtown Bethesda, Walter Reed, and Montgomery County. Call 877-679-0100.",
+      "Private car service from BWI Airport to Bethesda, MD. Flight tracking, meet & greet, and flat-rate transfers to the NIH and downtown Bethesda.",
     eyebrow: "BWI → BETHESDA",
     h1: "BWI Airport to Bethesda Car Service",
     subtitle: "Polished chauffeured transfers between BWI Marshall and Bethesda — about 40 miles of relaxed travel.",
@@ -255,7 +255,7 @@ export const LANDING_PAGES = {
   "bwi-to-dulles": {
     metaTitle: "BWI to Dulles Airport (IAD) Car Service | 92 Limo Service",
     metaDescription:
-      "Airport-to-airport luxury car service between BWI Marshall and Washington Dulles (IAD). Reliable, flat-rate transfers for connections and missed flights, 24/7. Call 877-679-0100.",
+      "Airport-to-airport car service between BWI and Washington Dulles (IAD). Reliable, flat-rate transfers for connections and rebookings, 24/7.",
     eyebrow: "BWI → DULLES (IAD)",
     h1: "BWI to Dulles Airport (IAD) Car Service",
     subtitle: "Dependable airport-to-airport transfers between BWI Marshall and Washington Dulles — about 50 miles.",
@@ -294,7 +294,7 @@ export const LANDING_PAGES = {
   "dca-to-washington-dc": {
     metaTitle: "DCA (Reagan) to Washington DC Car Service | 92 Limo Service",
     metaDescription:
-      "Luxury car service from Reagan National Airport (DCA) to Washington DC. Flight tracking, meet & greet, and flat-rate transfers to DC hotels, offices, and monuments — minutes from the terminal. Call 877-679-0100.",
+      "Car service from Reagan National (DCA) to Washington DC. Meet & greet, flight tracking, and flat-rate transfers minutes from the terminal, 24/7.",
     eyebrow: "DCA → WASHINGTON DC",
     h1: "DCA (Reagan) to Washington DC Car Service",
     subtitle: "The closest airport to the city — and the smoothest way into it. Chauffeured transfers from Reagan National to DC.",
@@ -333,7 +333,7 @@ export const LANDING_PAGES = {
   "iad-to-washington-dc": {
     metaTitle: "Dulles (IAD) to Washington DC Car Service | 92 Limo Service",
     metaDescription:
-      "Private luxury car service from Washington Dulles (IAD) to Washington DC. International arrivals, flight tracking, meet & greet, and flat-rate transfers to DC hotels and offices. Call 877-679-0100.",
+      "Private car service from Washington Dulles (IAD) to Washington DC. International arrivals, meet & greet, flight tracking, and flat-rate pricing.",
     eyebrow: "IAD → WASHINGTON DC",
     h1: "Dulles (IAD) to Washington DC Car Service",
     subtitle: "Relaxed, chauffeured transfers from Washington Dulles into the capital — about 26 miles after a long flight.",
@@ -372,7 +372,7 @@ export const LANDING_PAGES = {
   "bwi-to-columbia": {
     metaTitle: "BWI Airport to Columbia, MD Car Service | 92 Limo Service",
     metaDescription:
-      "Luxury car service from BWI Airport to Columbia, MD. Flight tracking, meet & greet, and flat-rate transfers to Merriweather Post Pavilion, Town Center, and Howard County. Call 877-679-0100.",
+      "Luxury car service from BWI Airport to Columbia, MD. Flight tracking, meet & greet, and flat-rate transfers to Merriweather and Howard County.",
     eyebrow: "BWI → COLUMBIA",
     h1: "BWI Airport to Columbia, MD Car Service",
     subtitle: "Comfortable chauffeured transfers between BWI Marshall and Columbia — about 15 miles into Howard County, with flat-rate pricing and around-the-clock availability.",
@@ -411,7 +411,7 @@ export const LANDING_PAGES = {
   "bwi-to-arlington": {
     metaTitle: "BWI Airport to Arlington, VA Car Service | 92 Limo Service",
     metaDescription:
-      "Private luxury car service from BWI Airport to Arlington, VA. Flight tracking, meet & greet, and flat-rate transfers to the Pentagon, Rosslyn, Crystal City, and Ballston. Call 877-679-0100.",
+      "Private car service from BWI Airport to Arlington, VA. Flight tracking, meet & greet, and flat-rate transfers to the Pentagon, Crystal City & Rosslyn.",
     eyebrow: "BWI → ARLINGTON",
     h1: "BWI Airport to Arlington, VA Car Service",
     subtitle: "Professional chauffeured transfers between BWI Marshall and Arlington, Virginia — about 40 miles, with flat-rate pricing and 24/7 service for government and corporate travelers.",
@@ -450,7 +450,7 @@ export const LANDING_PAGES = {
   "bwi-to-alexandria": {
     metaTitle: "BWI Airport to Alexandria, VA Car Service | 92 Limo Service",
     metaDescription:
-      "Luxury car service from BWI Airport to Alexandria, VA. Flight tracking, meet & greet, and flat-rate transfers to Old Town Alexandria, hotels, and the waterfront. Call 877-679-0100.",
+      "Luxury car service from BWI Airport to Alexandria, VA. Flight tracking, meet & greet, and flat-rate transfers to Old Town and the waterfront.",
     eyebrow: "BWI → ALEXANDRIA",
     h1: "BWI Airport to Alexandria, VA Car Service",
     subtitle: "Elegant chauffeured transfers between BWI Marshall and historic Alexandria — about 45 miles, with flat-rate pricing and 24/7 availability for Old Town and beyond.",
@@ -490,7 +490,7 @@ export const LANDING_PAGES = {
   "bwi-to-bethany-beach": {
     metaTitle: "BWI to Bethany Beach Car Service | 92 Limo Service",
     metaDescription:
-      "Luxury long-distance car service from BWI Airport to Bethany Beach, DE. Flat-rate pricing with no surge, comfortable Sprinter vans and SUVs with luggage space for families and groups. Call 877-679-0100.",
+      "Luxury long-distance car service from BWI Airport to Bethany Beach, DE. Flat-rate, no-surge pricing with roomy SUVs and Sprinter vans for groups.",
     eyebrow: "BWI → BETHANY BEACH",
     h1: "BWI to Bethany Beach Car Service",
     subtitle: "Relaxed, chauffeured long-distance transfers from BWI to Delaware's 'quiet resort' — about 2.5 hours of comfort.",
@@ -528,7 +528,7 @@ export const LANDING_PAGES = {
   "bwi-to-rehoboth-beach": {
     metaTitle: "BWI to Rehoboth Beach Car Service | 92 Limo Service",
     metaDescription:
-      "Luxury long-distance car service from BWI Airport to Rehoboth Beach, DE. Flat-rate pricing with no surge, comfortable Sprinter vans and SUVs with luggage space for families and groups. Call 877-679-0100.",
+      "Luxury long-distance car service from BWI Airport to Rehoboth Beach, DE. Flat-rate, no-surge pricing with roomy SUVs and Sprinter vans for groups.",
     eyebrow: "BWI → REHOBOTH BEACH",
     h1: "BWI to Rehoboth Beach Car Service",
     subtitle: "Chauffeured long-distance transfers from BWI to Rehoboth's boardwalk and outlets — about 2.5 hours of ease.",
@@ -567,7 +567,7 @@ export const LANDING_PAGES = {
   "bwi-to-ocean-city-md": {
     metaTitle: "BWI to Ocean City MD Car Service | 92 Limo Service",
     metaDescription:
-      "Luxury long-distance car service from BWI Airport to Ocean City, Maryland. Flat-rate pricing with no surge, comfortable Sprinter vans and SUVs with luggage space for families and groups. Call 877-679-0100.",
+      "Luxury long-distance car service from BWI Airport to Ocean City, MD. Flat-rate, no-surge pricing with roomy SUVs and Sprinter vans for groups.",
     eyebrow: "BWI → OCEAN CITY, MD",
     h1: "BWI to Ocean City MD Car Service",
     subtitle: "Chauffeured long-distance transfers from BWI to OCMD's boardwalk and beaches — about 2.5 to 3 hours in comfort.",
@@ -606,7 +606,7 @@ export const LANDING_PAGES = {
   "dc-to-bethany-beach": {
     metaTitle: "Washington DC to Bethany Beach Car Service | 92 Limo Service",
     metaDescription:
-      "Luxury long-distance car service from Washington DC to Bethany Beach, DE. Flat-rate pricing with no surge, comfortable Sprinter vans and SUVs with luggage space for families and groups. Call 877-679-0100.",
+      "Luxury long-distance car service from Washington DC to Bethany Beach, DE. Flat-rate, no-surge pricing with roomy SUVs and Sprinter vans for groups.",
     eyebrow: "WASHINGTON DC → BETHANY BEACH",
     h1: "Washington DC to Bethany Beach Car Service",
     subtitle: "Chauffeured long-distance transfers from DC to Delaware's quiet resort — about 3 hours of effortless comfort.",

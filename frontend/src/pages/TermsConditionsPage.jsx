@@ -6,7 +6,7 @@ export default function TermsConditionsPage() {
     <>
       <Seo
         title="Terms & Conditions | 92 Limo Service"
-        description="Terms and Conditions for 92 Limo Service — booking and reservations, payment, cancellation policy, liability, conduct, and service area across Washington DC, Maryland, and Virginia."
+        description="92 Limo Service Terms & Conditions — SMS terms, bookings, payment, cancellation, liability, and service area across DC, Maryland & Virginia."
         path="/terms-conditions"
       />
       <LegalLayout eyebrow="LEGAL" title="Terms and Conditions" effectiveDate="June 29, 2026">
@@ -16,6 +16,51 @@ export default function TermsConditionsPage() {
           "us," or "our"). By booking or using our services, you ("Client" or "Customer") agree to
           these Terms.
         </LP>
+
+        <LH2>SMS Terms &amp; Conditions</LH2>
+        <LP>
+          <strong className="text-[#0A0A0A]">1. SMS Consent Communication.</strong> Phone numbers
+          obtained as part of the SMS consent process will not be shared with third parties for
+          marketing purposes.
+        </LP>
+        <LP>
+          <strong className="text-[#0A0A0A]">2. Types of SMS Communications.</strong> Recipients may
+          receive appointment reminders, follow-up messages, billing inquiries, and transportation
+          reservation updates.
+        </LP>
+        <LP>
+          <strong className="text-[#0A0A0A]">3. Message Frequency.</strong> Message frequency may
+          vary; you may receive up to 5 SMS messages per week related to your appointments and
+          transportation reservations.
+        </LP>
+        <LP>
+          <strong className="text-[#0A0A0A]">4. Potential Fees.</strong> Standard message and data
+          rates may apply depending on your carrier and plan, and may vary for domestic and
+          international messages.
+        </LP>
+        <LP>
+          <strong className="text-[#0A0A0A]">5. Opt-In Method.</strong> Customers opt in to receive
+          SMS messages by submitting an online form on our website.
+        </LP>
+        <LP>
+          <strong className="text-[#0A0A0A]">6. Opt-Out Method.</strong> You may opt out at any time
+          by replying "STOP" to any SMS message, or by contacting us directly.
+        </LP>
+        <LP>
+          <strong className="text-[#0A0A0A]">7. Help.</strong> For help, reply HELP to any SMS
+          message, or contact us at info@92limo.com.
+        </LP>
+        <LP>
+          <strong className="text-[#0A0A0A]">8. Additional Options.</strong> If you do not wish to
+          receive SMS messages, simply do not check the SMS consent box on our forms.
+        </LP>
+        <LP>
+          <strong className="text-[#0A0A0A]">9. Standard Disclosures.</strong> Message and data rates
+          may apply. Text STOP to opt out at any time. Text HELP, or visit our Privacy Policy and
+          these Terms &amp; Conditions, for assistance. Message frequency may vary.
+        </LP>
+
+        <LH2>Transportation Service Terms</LH2>
 
         <LH2>1. Bookings &amp; Reservations</LH2>
         <LP>

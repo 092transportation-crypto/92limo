@@ -14,7 +14,7 @@ export default function Home() {
     <>
       <Seo
         title="92 Limo Service | Luxury Black Car & Chauffeur Service in DC, MD & VA"
-        description="92 Limo Service provides luxury black car and chauffeur service in Washington DC, Maryland & Northern Virginia. Airport transfers (BWI, DCA, IAD), corporate travel, weddings & long-distance trips. Call 877-679-0100."
+        description="Luxury black car & chauffeur service in Washington DC, Maryland & Virginia. Airport transfers (BWI, DCA, IAD), corporate travel, weddings & more. 24/7."
         path="/"
       />
       <Hero />

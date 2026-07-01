@@ -57,7 +57,7 @@ export const Fleet = ({
 
                   <Link
                     data-testid={`fleet-reserve-${i}`}
-                    to="/contact"
+                    to="/booking"
                     className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-[#B8860B] hover:gap-2.5 transition-all"
                   >
                     Reserve this vehicle <ChevronRight size={16} />
