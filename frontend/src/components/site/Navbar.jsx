@@ -74,7 +74,7 @@ export const Navbar = () => {
           <img
             src="/92-limo-logo.png"
             alt="92 Limo Service"
-            className={`w-auto transition-all duration-300 group-hover:scale-105 ${
+            className={`w-auto rounded-md transition-all duration-300 group-hover:scale-105 ${
               solid ? "h-12" : "h-16 drop-shadow-[0_2px_10px_rgba(0,0,0,0.45)]"
             }`}
           />

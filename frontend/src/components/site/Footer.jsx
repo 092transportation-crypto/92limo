@@ -33,7 +33,7 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-10">
           <div>
             <Link to="/" className="inline-block">
-              <img src="/92-limo-logo.png" alt="92 Limo Service" className="h-20 w-auto" />
+              <img src="/92-limo-logo.png" alt="92 Limo Service" className="h-20 w-auto rounded-md" />
             </Link>
             <p className="mt-4 text-sm text-neutral-400 leading-relaxed">
               {BRAND.legal}. Luxury black car &amp; chauffeur service across
