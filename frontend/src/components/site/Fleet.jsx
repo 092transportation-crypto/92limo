@@ -60,7 +60,7 @@ export const Fleet = ({
                     to="/booking"
                     className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-[#B8860B] hover:gap-2.5 transition-all"
                   >
-                    Reserve this vehicle <ChevronRight size={16} />
+                    Book Now <ChevronRight size={16} />
                   </Link>
                 </div>
               </div>
