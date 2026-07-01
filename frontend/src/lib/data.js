@@ -100,8 +100,8 @@ export const FLEET = [
     name: "Chevrolet Suburban",
     pax: 6,
     bags: 6,
-    img: "/fleet/chevrolet-suburban.jpg",
-    alt: "Black full-size luxury SUV — 92 Limo Service",
+    img: "/images/chevy-suburban.jpg",
+    alt: "Black Chevrolet Suburban full-size luxury SUV — 92 Limo Service",
     description:
       "Spacious full-size SUV seating up to six with ample luggage capacity. The dependable choice for families, groups, and airport runs with extra bags.",
   },
@@ -110,7 +110,7 @@ export const FLEET = [
     name: "Cadillac Escalade",
     pax: 6,
     bags: 7,
-    img: "/fleet/cadillac-escalade.jpg",
+    img: "/images/cadillac-escalade.jpg",
     alt: "Black Cadillac Escalade premium SUV — 92 Limo Service",
     description:
       "Commanding full-size luxury with premium leather, ambient lighting, and standout presence for executives, VIPs, and special events.",
@@ -136,14 +136,14 @@ export const FLEET = [
       "Turn any occasion into an event. Lounge-style leather seating, ambient lighting, premium sound, and an onboard bar for weddings, proms, and nights out.",
   },
   {
-    category: "Executive Group",
-    name: "Executive Van",
+    category: "Group Travel",
+    name: "Sprinter Van",
     pax: 12,
     bags: 10,
     img: "/fleet/executive-van.jpg",
-    alt: "Executive Sprinter van interior with lounge seating — 92 Limo Service",
+    alt: "Mercedes Sprinter van interior with lounge seating — 92 Limo Service",
     description:
-      "Executive group travel with conference-style leather seating, ambient lighting, and a smart entertainment system — comfort and productivity for the whole team.",
+      "Group travel with conference-style leather seating, ambient lighting, and a smart entertainment system — comfort and productivity for the whole team.",
   },
 ];
 
@@ -226,7 +226,7 @@ export const FAQS = [
   { q: "What areas do you serve for airport transportation in Maryland?", a: "We cover Annapolis, Baltimore, Bowie, Crofton, Crownsville, Davidsonville, Odenton, Edgewater, Arnold, Severna Park, Riva, and surrounding Maryland areas, with service to BWI, DCA, IAD, PHL, and Martin State Airport." },
   { q: "How do I book a ride or get a free quote?", a: "Use the booking form on our Contact page or simply call us at 877-679-0100. We confirm every reservation with an all-inclusive quote." },
   { q: "Are tolls and gratuity included in the price?", a: "Yes — our quotes are all-inclusive (base fare, tolls, taxes, and standard gratuity). Extra stops, extended wait time, and late-night surcharges may apply." },
-  { q: "What vehicles are in your fleet?", a: "Our fleet includes the Business Sedan (Mercedes-Benz E-Class), Premium Sedan (BMW 7 Series), Midsize SUV (Lincoln Nautilus), Luxury SUV (Chevrolet Suburban), Premium SUV (Cadillac Escalade), Sprinter Van Shuttle, Limousine, and Executive Van for groups." },
+  { q: "What vehicles are in your fleet?", a: "Our fleet includes the Business Sedan (Mercedes-Benz E-Class), Premium Sedan (BMW 7 Series), Midsize SUV (Lincoln Nautilus), Luxury SUV (Chevrolet Suburban), Premium SUV (Cadillac Escalade), Sprinter Van Shuttle, Limousine, and Sprinter Van for groups." },
   { q: "Do you offer wine tours, weddings, proms, and birthdays?", a: "Absolutely. Beyond airport and corporate travel, we offer wine tours, wedding limo service, prom transportation, and birthday celebrations across Maryland, Virginia, and Washington DC." },
 ];
 
@@ -272,7 +272,7 @@ export const NAV_SERVICES = [
   { label: "Sports & Events", to: "/sports-events" },
 ];
 
-const AIRPORT_VEHICLES = ["Business Sedan — Mercedes-Benz E-Class", "Premium SUV — Cadillac Escalade", "Executive Group — Executive Van"];
+const AIRPORT_VEHICLES = ["Business Sedan — Mercedes-Benz E-Class", "Premium SUV — Cadillac Escalade", "Group Travel — Sprinter Van"];
 const LUXURY_VEHICLES = ["Premium Sedan — BMW 7 Series", "Premium SUV — Cadillac Escalade", "Special Occasions — Limousine"];
 
 export const SERVICE_PAGES = {
@@ -439,7 +439,7 @@ export const SERVICE_PAGES = {
       { title: "Work or Relax En Route", desc: "Quiet, spacious cabins with charging let you stay productive or unwind." },
       { title: "Experienced Chauffeurs", desc: "Seasoned drivers who know the I-95 corridor and plan around traffic." },
       { title: "Flexible Scheduling", desc: "Early departures, late returns, and multi-city itineraries accommodated." },
-      { title: "Group Options", desc: "Travel together in our Executive Van or Sprinter Van Shuttle for families and teams." },
+      { title: "Group Options", desc: "Travel together in our Sprinter Van or Sprinter Van Shuttle for families and teams." },
       { title: "Transparent Flat Rates", desc: "All-inclusive long-distance pricing quoted up front — no surprises." },
     ],
     vehicles: LUXURY_VEHICLES,

@@ -12,10 +12,11 @@ import { Textarea } from "@/components/ui/textarea";
 // which emails NOTIFICATION_EMAIL via Gmail SMTP.
 const API_BASE = process.env.REACT_APP_BACKEND_URL || "";
 
+// Text before the Privacy Policy link (rendered as a link below).
 const SMS_CONSENT_TEXT =
-  "I consent to receive SMS messages from 92 Limo Service regarding rental confirmations, delivery/pickup notifications, appointment reminders, and service updates. Message frequency varies. Message and data rates may apply. Reply STOP to unsubscribe, HELP for assistance.";
+  "I consent to receive conversational and informational SMS messages from 92 Limo Service. Reply STOP to opt-out; reply HELP for support; message & data rates may apply; messaging frequency may vary. View our Privacy Policy at ";
 
-const EMPTY = { name: "", email: "", phone: "", message: "", sms_consent: false };
+const EMPTY = { name: "", email: "", phone: "", preferred_contact: "", message: "", sms_consent: false };
 
 const fieldCls =
   "bg-white border-black/15 text-[#0A0A0A] placeholder:text-neutral-400 focus-visible:ring-[#C9A227] focus-visible:border-[#C9A227]";
@@ -34,10 +35,7 @@ export const ContactForm = () => {
         return;
       }
     }
-    if (!form.sms_consent) {
-      toast.error("Please agree to the SMS consent to continue.");
-      return;
-    }
+    // SMS consent is optional and does not block submission.
 
     setLoading(true);
     try {
@@ -48,6 +46,7 @@ export const ContactForm = () => {
           name: form.name,
           email: form.email,
           phone: form.phone,
+          preferred_contact: form.preferred_contact,
           message: form.message,
           sms_consent: form.sms_consent,
         }),
@@ -94,9 +93,22 @@ export const ContactForm = () => {
                 <Label className="text-neutral-700">Phone *</Label>
                 <Input data-testid="contact-phone" className={fieldCls} placeholder="(000) 000-0000" value={form.phone} onChange={(e) => set("phone", e.target.value)} />
               </div>
-              <div className="space-y-2 md:col-span-2">
+              <div className="space-y-2">
                 <Label className="text-neutral-700">Email *</Label>
                 <Input data-testid="contact-email" type="email" className={fieldCls} placeholder="you@email.com" value={form.email} onChange={(e) => set("email", e.target.value)} />
+              </div>
+              <div className="space-y-2">
+                <Label className="text-neutral-700">Preferred Contact Method</Label>
+                <select
+                  data-testid="contact-preferred"
+                  value={form.preferred_contact}
+                  onChange={(e) => set("preferred_contact", e.target.value)}
+                  className="flex h-10 w-full rounded-md border border-black/15 bg-white px-3 py-2 text-sm text-[#0A0A0A] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C9A227] focus-visible:border-[#C9A227]"
+                >
+                  <option value="">No preference</option>
+                  <option value="Email">Email</option>
+                  <option value="Phone / Text">Phone / Text</option>
+                </select>
               </div>
               <div className="space-y-2 md:col-span-2">
                 <Label className="text-neutral-700">Message *</Label>
@@ -113,11 +125,11 @@ export const ContactForm = () => {
                 className="mt-1 h-4 w-4 shrink-0 accent-[#C9A227]"
               />
               <span className="text-xs text-neutral-600 leading-relaxed">
-                {SMS_CONSENT_TEXT}{" "}
+                {SMS_CONSENT_TEXT}
                 <Link to="/privacy-policy" className="text-[#B8860B] font-medium underline hover:text-[#8A6508]">
-                  View our Privacy Policy
+                  92limo.com/privacy-policy
                 </Link>
-                .
+                . <span className="text-neutral-400">(Optional)</span>
               </span>
             </label>
 

@@ -9,7 +9,7 @@ const SEDAN_TRIO = [
 const GROUP_TRIO = [
   "Luxury SUV — Chevrolet Suburban",
   "Premium SUV — Cadillac Escalade",
-  "Executive Group — Executive Van",
+  "Group Travel — Sprinter Van",
 ];
 const BEACH_TRIO = [
   "Premium SUV — Cadillac Escalade",
@@ -34,7 +34,7 @@ export const LANDING_PAGES = {
       "Starting your cruise should feel like the beginning of a vacation — not a logistics headache. 92 Limo Service provides luxury chauffeured transfers to and from the Port of Baltimore Cruise Terminal at South Locust Point, the embarkation point for Carnival, Royal Caribbean, and seasonal sailings up and down the East Coast. Whether you are coming from your front door in Maryland, a downtown DC hotel, Northern Virginia, or flying into BWI Marshall the day of your sailing, we make sure you arrive relaxed, on schedule, and ready to step aboard.",
       "Pre-cruise pickups are planned around your boarding window, not ours. Your chauffeur arrives early, helps load every bag, and drives you directly to the terminal drop-off so you can hand off your luggage to the porters and walk straight to check-in. There is no circling for parking, no shuttle waiting, and no worrying about long-term parking fees that add up over a week at sea. For travelers flying in, we coordinate flight-to-port timing — tracking your inbound flight and adjusting pickup automatically so a delay never costs you your cruise.",
       "Post-cruise returns are just as smooth. Disembarkation mornings are notoriously chaotic, so we monitor the port and stage your vehicle for a prompt, comfortable pickup the moment you clear the terminal. After a week away, the last thing you want is to hunt for a ride home — your chauffeur is already there, climate-controlled cabin ready, bottled water on hand, and a direct route home or back to the airport.",
-      "Traveling with extended family, a group of friends, or a corporate retreat? Our Mercedes Sprinter vans seat large parties together with dedicated luggage space, so nobody is splitting across multiple cars or paying surge rates on a rideshare app. From a couple in a Business Sedan to a multi-generational family in an Executive Van, we right-size the vehicle to your group and your bags — and quote a flat, all-inclusive rate up front.",
+      "Traveling with extended family, a group of friends, or a corporate retreat? Our Mercedes Sprinter vans seat large parties together with dedicated luggage space, so nobody is splitting across multiple cars or paying surge rates on a rideshare app. From a couple in a Business Sedan to a multi-generational family in a Sprinter van, we right-size the vehicle to your group and your bags — and quote a flat, all-inclusive rate up front.",
     ],
     highlights: [
       { title: "Direct Port-of-Baltimore Service", desc: "Door-to-terminal transfers to South Locust Point Cruise Terminal — no parking, no shuttles, no stress." },

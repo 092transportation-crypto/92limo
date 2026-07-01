@@ -32,6 +32,7 @@ module.exports = async (req, res) => {
     name: String(body.name).trim(),
     email: String(body.email).toLowerCase().trim(),
     phone: String(body.phone).trim(),
+    preferred_contact: String(body.preferred_contact || "").trim(),
     message: String(body.message).trim(),
     sms_consent: body.sms_consent ? "Yes — opted in" : "No",
     created_at: nowIso(),

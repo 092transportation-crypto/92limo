@@ -174,6 +174,7 @@ function buildAdminContactEmail(m) {
     row("Name", m.name),
     row("Email", m.email),
     row("Phone", m.phone),
+    row("Preferred Contact", m.preferred_contact),
     row("SMS Consent", m.sms_consent),
     row("Submitted", m.created_at),
   ].join("");
@@ -193,6 +194,7 @@ function buildAdminContactEmail(m) {
     `Name: ${m.name || ""}`,
     `Email: ${m.email || ""}`,
     `Phone: ${m.phone || ""}`,
+    `Preferred Contact: ${m.preferred_contact || ""}`,
     `SMS Consent: ${m.sms_consent || ""}`,
     `Submitted: ${m.created_at || ""}`,
     "",

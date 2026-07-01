@@ -4,20 +4,40 @@ import { Link, NavLink, useLocation } from "react-router-dom";
 import { Menu, X, Phone, ChevronDown } from "lucide-react";
 import { BRAND, NAV_SERVICES } from "@/lib/data";
 
+const ROUTES_MENU = [
+  { to: "/bwi-to-washington-dc", label: "BWI → Washington DC" },
+  { to: "/bwi-to-baltimore", label: "BWI → Baltimore" },
+  { to: "/bwi-to-annapolis", label: "BWI → Annapolis" },
+  { to: "/bwi-to-bethesda", label: "BWI → Bethesda" },
+  { to: "/bwi-to-columbia", label: "BWI → Columbia" },
+  { to: "/bwi-to-arlington", label: "BWI → Arlington" },
+  { to: "/bwi-to-alexandria", label: "BWI → Alexandria" },
+  { to: "/bwi-to-dulles", label: "BWI → Dulles (IAD)" },
+  { to: "/dca-to-washington-dc", label: "DCA → Washington DC" },
+  { to: "/iad-to-washington-dc", label: "IAD → Washington DC" },
+  { to: "/bwi-to-ocean-city-md", label: "BWI → Ocean City, MD" },
+  { to: "/bwi-to-rehoboth-beach", label: "BWI → Rehoboth Beach" },
+  { to: "/bwi-to-bethany-beach", label: "BWI → Bethany Beach" },
+  { to: "/dc-to-bethany-beach", label: "DC → Bethany Beach" },
+  { to: "/coverage", label: "View all coverage →" },
+];
+
 const LINKS = [
   { label: "Home", to: "/" },
   { label: "Fleet", to: "/fleet" },
   { label: "Services", to: "/services", children: NAV_SERVICES },
+  { label: "Routes", to: "/coverage", children: ROUTES_MENU, wide: true },
   { label: "Service Areas", to: "/service-areas" },
   { label: "About", to: "/about" },
   { label: "Reviews", to: "/reviews" },
   { label: "FAQ", to: "/faq" },
+  { label: "Contact", to: "/contact" },
 ];
 
 export const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [servicesOpen, setServicesOpen] = useState(false);
+  const [openMenu, setOpenMenu] = useState(null); // which desktop dropdown is open
   const location = useLocation();
 
   useEffect(() => {
@@ -29,7 +49,7 @@ export const Navbar = () => {
 
   useEffect(() => {
     setOpen(false);
-    setServicesOpen(false);
+    setOpenMenu(null);
   }, [location.pathname]);
 
   const solid = scrolled || open;
@@ -50,7 +70,7 @@ export const Navbar = () => {
       }`}
     >
       <nav className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between">
-        <Link data-testid="logo-home" to="/" className="flex items-center group">
+        <Link data-testid="logo-home" to="/" className="flex items-center group shrink-0">
           <img
             src="/92-limo-logo.png"
             alt="92 Limo Service"
@@ -60,23 +80,27 @@ export const Navbar = () => {
           />
         </Link>
 
-        <div className="hidden lg:flex items-center gap-7">
+        <div className="hidden lg:flex items-center gap-5">
           {LINKS.map((l) =>
             l.children ? (
               <div
                 key={l.to}
                 className="relative"
-                onMouseEnter={() => setServicesOpen(true)}
-                onMouseLeave={() => setServicesOpen(false)}
+                onMouseEnter={() => setOpenMenu(l.to)}
+                onMouseLeave={() => setOpenMenu(null)}
               >
-                <NavLink to={l.to} data-testid="nav-services" className={linkCls}>
+                <NavLink to={l.to} data-testid={`nav-${l.label.toLowerCase()}`} className={linkCls}>
                   <span className="flex items-center gap-1">
                     {l.label} <ChevronDown size={14} />
                   </span>
                 </NavLink>
-                {servicesOpen && (
+                {openMenu === l.to && (
                   <div className="absolute top-full left-1/2 -translate-x-1/2 pt-3">
-                    <div className="bg-white border border-black/10 rounded-xl p-2 w-60 shadow-xl">
+                    <div
+                      className={`bg-white border border-black/10 rounded-xl p-2 shadow-xl ${
+                        l.wide ? "w-[34rem] grid grid-cols-2 gap-x-1" : "w-60"
+                      }`}
+                    >
                       {l.children.map((c) => (
                         <Link
                           key={c.to}
@@ -99,11 +123,11 @@ export const Navbar = () => {
           )}
         </div>
 
-        <div className="hidden lg:flex items-center gap-4">
+        <div className="hidden lg:flex items-center gap-4 shrink-0">
           <a
             data-testid="nav-call-btn"
             href={BRAND.phoneHref}
-            className={`flex items-center gap-2 text-sm font-semibold transition-colors ${solid ? "text-[#0A0A0A]" : "text-white"} hover:text-[#B8860B]`}
+            className={`hidden xl:flex items-center gap-2 text-sm font-semibold transition-colors ${solid ? "text-[#0A0A0A]" : "text-white"} hover:text-[#B8860B]`}
           >
             <Phone size={16} strokeWidth={1.8} /> {BRAND.phone}
           </a>
