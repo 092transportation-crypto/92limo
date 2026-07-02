@@ -7,7 +7,7 @@ export default function FleetPage() {
   return (
     <>
       <Seo
-        title="Our Fleet | Luxury Sedans, SUVs & Sprinter Vans | 92 Limo Service"
+        title="Luxury Fleet | Sedans, SUVs & Sprinter Vans | 92 Limo"
         description="Explore the 92 Limo Service fleet: Mercedes E-Class, BMW 7 Series, Lincoln Nautilus, Chevrolet Suburban, Cadillac Escalade, Sprinter vans & limousines."
         path="/fleet"
       />

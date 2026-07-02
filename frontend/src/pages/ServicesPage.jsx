@@ -10,7 +10,7 @@ export default function ServicesPage() {
   return (
     <>
       <Seo
-        title="Services | Airport, Corporate, Hourly & Wedding Car Service | 92 Limo"
+        title="Our Services | Airport, Corporate & Wedding | 92 Limo"
         description="Airport car service (BWI, DCA, IAD), corporate travel, hourly chauffeur, weddings, and long-distance private car service across DC, Maryland & Virginia."
         path="/services"
       />

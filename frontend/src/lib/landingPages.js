@@ -177,7 +177,7 @@ export const LANDING_PAGES = {
   "bwi-to-baltimore": {
     metaTitle: "BWI Airport to Baltimore Car Service | 92 Limo Service",
     metaDescription:
-      "Luxury car service from BWI Airport to Baltimore, MD. Meet & greet, flight tracking, and flat-rate transfers to the Inner Harbor, hotels & Johns Hopkins.",
+      "Luxury car service from BWI Airport to Baltimore, MD — flat-rate transfers with meet-and-greet and flight tracking to the Inner Harbor and hotels.",
     eyebrow: "BWI → BALTIMORE",
     h1: "BWI Airport to Baltimore Car Service",
     subtitle: "A short, seamless luxury transfer between BWI Marshall and downtown Baltimore — only about 10 miles.",
@@ -604,7 +604,7 @@ export const LANDING_PAGES = {
   },
 
   "dc-to-bethany-beach": {
-    metaTitle: "Washington DC to Bethany Beach Car Service | 92 Limo Service",
+    metaTitle: "DC to Bethany Beach Car Service | 92 Limo Service",
     metaDescription:
       "Luxury long-distance car service from Washington DC to Bethany Beach, DE. Flat-rate, no-surge pricing with roomy SUVs and Sprinter vans for groups.",
     eyebrow: "WASHINGTON DC → BETHANY BEACH",

@@ -8,7 +8,7 @@ export default function ReviewsPage() {
   return (
     <>
       <Seo
-        title="Reviews & Testimonials | 92 Limo Service | DC, MD & VA Car Service"
+        title="Reviews & Testimonials | 92 Limo | DC, MD & VA"
         description="Read verified Google reviews from 92 Limo Service clients across Washington DC, Maryland & Northern Virginia — airport, corporate, weddings & more."
         path="/reviews"
       />

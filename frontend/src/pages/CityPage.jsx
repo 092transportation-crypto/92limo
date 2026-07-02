@@ -44,8 +44,8 @@ export default function CityPage() {
   return (
     <>
       <Seo
-        title={`Airport Car Service in ${data.name}, MD | 92 Limo — BWI, DCA, IAD`}
-        description={`Luxury airport car & limo service in ${data.name}, ${data.region}. On-time transfers to BWI, DCA & IAD, plus corporate, wedding & wine-tour chauffeurs.`}
+        title={`Airport Car Service in ${data.name}, MD | 92 Limo`}
+        description={`Luxury airport car and limo service in ${data.name}, MD — on-time BWI, DCA and IAD transfers plus corporate, wedding and wine-tour rides.`}
         path={`/airport-car-service/${data.slug}`}
       />
       <PageHero

@@ -12,8 +12,8 @@ export default function ServiceAreasPage() {
   return (
     <>
       <Seo
-        title="Service Areas | DC, Maryland & Northern Virginia | 92 Limo Service"
-        description="92 Limo Service covers Washington DC, Maryland & Northern Virginia — Baltimore, Annapolis, Bethesda, Arlington & more, plus BWI, DCA & IAD airports."
+        title="Service Areas | DC, Maryland & Virginia | 92 Limo"
+        description="92 Limo Service covers Washington DC, Maryland and Northern Virginia — Baltimore, Annapolis, Bethesda, Arlington and more, plus BWI, DCA and IAD."
         path="/service-areas"
       />
       <PageHero

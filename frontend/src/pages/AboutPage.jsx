@@ -17,7 +17,7 @@ export default function AboutPage() {
   return (
     <>
       <Seo
-        title="About Us | 92 Limo Service / 92 Transportation LLC | DC, MD & VA"
+        title="About 92 Limo Service | Chauffeurs in DC, MD & VA"
         description="Learn about 92 Limo Service (92 Transportation LLC) — luxury black car and chauffeur service across Washington DC, Maryland & Northern Virginia."
         path="/about"
       />

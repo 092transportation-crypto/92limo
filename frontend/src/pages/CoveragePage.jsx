@@ -50,7 +50,7 @@ export default function CoveragePage() {
   return (
     <>
       <Seo
-        title="Service Area & Coverage | Maryland, DC, Virginia, Delaware & PA | 92 Limo Service"
+        title="Coverage Area | MD, DC, VA, DE & PA | 92 Limo Service"
         description="92 Limo Service coverage: all 23 Maryland counties, Baltimore City, Washington DC, Northern Virginia, Delaware (incl. Bethany & Rehoboth), and York, PA."
         path="/coverage"
       />

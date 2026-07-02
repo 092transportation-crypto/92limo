@@ -23,7 +23,7 @@ export default function GalleryPage() {
   return (
     <>
       <Seo
-        title="Gallery | Our Luxury Fleet & Chauffeur Service | 92 Limo DC, MD & VA"
+        title="Gallery | Luxury Fleet & Chauffeur Service | 92 Limo"
         description="Browse the 92 Limo Service gallery — luxury sedans, Cadillac Escalade, Sprinter vans, chauffeurs, and airport pickups across DC, Maryland & Virginia."
         path="/gallery"
       />

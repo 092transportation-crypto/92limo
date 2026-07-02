@@ -277,7 +277,7 @@ const LUXURY_VEHICLES = ["First Class Sedan — BMW 7 Series", "Premium SUV — 
 
 export const SERVICE_PAGES = {
   "airport-transportation": {
-    metaTitle: "Airport Car Service BWI, DCA, IAD, Martin State & PHL | 92 Limo",
+    metaTitle: "Airport Car Service | BWI, DCA, IAD & More | 92 Limo",
     metaDescription:
       "Airport car service to and from BWI, DCA, IAD, Martin State & Philadelphia. Flight tracking, meet & greet, and 24/7 chauffeurs across DC, MD & VA.",
     eyebrow: "AIRPORT TRANSPORTATION",
@@ -298,7 +298,7 @@ export const SERVICE_PAGES = {
     vehicles: AIRPORT_VEHICLES,
   },
   "corporate-transportation": {
-    metaTitle: "Corporate Transportation & Executive Car Service | 92 Limo DC, MD, VA",
+    metaTitle: "Corporate & Executive Car Service | 92 Limo DC, MD, VA",
     metaDescription:
       "Professional corporate car service across the DMV — executive sedans and SUVs, roadshows, airport transfers, and discreet, reliable chauffeurs.",
     eyebrow: "CORPORATE TRANSPORTATION",
@@ -340,7 +340,7 @@ export const SERVICE_PAGES = {
     vehicles: LUXURY_VEHICLES,
   },
   "wine-tours": {
-    metaTitle: "Wine Tour Limo Service | Maryland & Virginia Vineyards | 92 Limo",
+    metaTitle: "Wine Tour Limo Service | MD & VA Vineyards | 92 Limo",
     metaDescription:
       "Chauffeured wine tours of Maryland and Virginia wine country. Relax with a professional driver and comfortable, door-to-door service.",
     eyebrow: "WINE TOURS",
@@ -361,7 +361,7 @@ export const SERVICE_PAGES = {
     vehicles: ["Premium SUV — Cadillac Escalade", "Sprinter Limo — Mercedes Sprinter Limo", "First Class Sedan — BMW 7 Series"],
   },
   "birthday-celebrations": {
-    metaTitle: "Birthday Limo Service | Celebrate in Style | 92 Limo DC, MD, VA",
+    metaTitle: "Birthday Limo Service | Celebrate in Style | 92 Limo",
     metaDescription:
       "Chauffeured birthday transportation across DC, MD & VA. Safe, stylish rides in luxury sedans, SUVs, and Sprinter vans for a worry-free celebration.",
     eyebrow: "BIRTHDAYS",
@@ -382,7 +382,7 @@ export const SERVICE_PAGES = {
     vehicles: ["Sprinter Limo — Mercedes Sprinter Limo", "Sprinter Shuttle — Mercedes Sprinter", "Premium SUV — Cadillac Escalade"],
   },
   "prom-transportation": {
-    metaTitle: "Prom Limo Service | Safe & Stylish | 92 Limo DC, Maryland & Virginia",
+    metaTitle: "Prom Limo Service | Safe & Stylish | 92 Limo DC, MD, VA",
     metaDescription:
       "Safe, stylish, and supervised prom limo transportation across DC, Maryland & Virginia. Professional chauffeurs parents trust for a memorable night.",
     eyebrow: "PROMS",
@@ -403,7 +403,7 @@ export const SERVICE_PAGES = {
     vehicles: ["Sprinter Limo — Mercedes Sprinter Limo", "Sprinter Shuttle — Mercedes Sprinter", "Premium SUV — Cadillac Escalade"],
   },
   "hourly-chauffeur": {
-    metaTitle: "Hourly Chauffeur Service | As-Directed Car Hire | 92 Limo DC, MD, VA",
+    metaTitle: "Hourly Chauffeur Service | As-Directed Hire | 92 Limo",
     metaDescription:
       "Hourly chauffeur service across DC, Maryland & Virginia. A dedicated vehicle and driver for meetings, events, shopping, and multi-stop days.",
     eyebrow: "HOURLY CHAUFFEUR",
@@ -424,7 +424,7 @@ export const SERVICE_PAGES = {
     vehicles: LUXURY_VEHICLES,
   },
   "long-distance-transportation": {
-    metaTitle: "Long-Distance Car Service | DC, MD, VA to NYC, Philly & DE | 92 Limo",
+    metaTitle: "Long-Distance Car Service to NYC & Philly | 92 Limo",
     metaDescription:
       "Long-distance private car service from DC, MD & VA to NYC, Philadelphia, the Delaware beaches & beyond. Flat-rate, comfortable chauffeured travel.",
     eyebrow: "LONG-DISTANCE TRAVEL",

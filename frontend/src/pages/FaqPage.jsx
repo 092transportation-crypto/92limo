@@ -33,7 +33,7 @@ export default function FaqPage() {
   return (
     <>
       <Seo
-        title="FAQ | Frequently Asked Questions | 92 Limo Service DC, MD & VA"
+        title="FAQ | Booking, Pricing & Pickup Answers | 92 Limo"
         description="Answers to common questions about 92 Limo Service — booking, pricing, flight tracking, vehicles, service areas, and 24/7 availability in DC, MD & VA."
         path="/faq"
       />
