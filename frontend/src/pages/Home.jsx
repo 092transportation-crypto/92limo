@@ -13,8 +13,8 @@ export default function Home() {
   return (
     <>
       <Seo
-        title="92 Limo Service | Luxury Black Car & Chauffeur Service in DC, MD & VA"
-        description="Luxury black car & chauffeur service in Washington DC, Maryland & Virginia. Airport transfers (BWI, DCA, IAD), corporate travel, weddings & more. 24/7."
+        title="92 Limo Service | Luxury Chauffeur DC, MD & VA"
+        description="Luxury black car & chauffeur service in DC, Maryland & Virginia — airport transfers (BWI, DCA, IAD), corporate travel, weddings & 24/7 rides."
         path="/"
       />
       <Hero />

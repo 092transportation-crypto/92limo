@@ -65,7 +65,11 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
+    "postbuild": "node scripts/prerender.js",
     "test": "craco test"
+  },
+  "optionalDependencies": {
+    "puppeteer": "23.10.4"
   },
   "browserslist": {
     "production": [

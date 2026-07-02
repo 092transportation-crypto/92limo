@@ -20,7 +20,7 @@ export const Seo = ({ title, description, path = "" }) => {
     if (title) {
       upsertMeta('meta[property="og:title"]', "property", "og:title", title);
     }
-    const url = `https://92limo.com${path}`;
+    const url = `https://www.92limo.com${path}`;
     let canonical = document.head.querySelector('link[rel="canonical"]');
     if (!canonical) {
       canonical = document.createElement("link");
