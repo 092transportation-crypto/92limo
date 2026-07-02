@@ -90,7 +90,7 @@ export const FLEET = [
     name: "Lincoln Nautilus",
     pax: 3,
     bags: 4,
-    img: "/fleet/lincoln-nautilus.jpg",
+    img: "/images/lincoln-nautilus.jpg",
     alt: "Lincoln Nautilus midsize luxury SUV — 92 Limo Service",
     description:
       "The perfect balance of comfort and practicality for families and travelers with extra luggage. Lincoln Nautilus or similar.",
@@ -130,7 +130,7 @@ export const FLEET = [
     name: "Mercedes Sprinter",
     pax: 13,
     bags: 13,
-    img: "/fleet/executive-van.jpg",
+    img: "/images/mercedes-sprinter.jpg",
     alt: "Mercedes Sprinter Executive van interior with lounge seating — 92 Limo Service",
     description:
       "Premium executive van with upgraded interior and luxury amenities. Perfect for corporate groups. Mercedes Sprinter or similar.",
