@@ -70,7 +70,7 @@ export const FLEET = [
     name: "Mercedes E-Class",
     pax: 3,
     bags: 2,
-    img: "/fleet/mercedes-e-class.jpg",
+    img: "/images/mercedes-e-class.jpg",
     alt: "Black Mercedes E-Class business sedan — 92 Limo Service",
     description:
       "Perfect for solo executives and business travelers. Ideal for airport transfers and corporate travel. Mercedes E-Class or similar.",
