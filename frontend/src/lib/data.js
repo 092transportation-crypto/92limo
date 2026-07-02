@@ -67,13 +67,13 @@ export const IMAGES = {
 export const FLEET = [
   {
     category: "Business Sedan",
-    name: "Mercedes-Benz E-Class",
+    name: "Mercedes E-Class",
     pax: 3,
     bags: 2,
     img: "/fleet/mercedes-e-class.jpg",
-    alt: "Black Mercedes-Benz E-Class business sedan — 92 Limo Service",
+    alt: "Black Mercedes E-Class business sedan — 92 Limo Service",
     description:
-      "Refined comfort for solo travelers and small groups. Leather seating and a smooth, quiet ride — ideal for airport transfers and corporate trips.",
+      "Perfect for solo executives and business travelers. Ideal for airport transfers and corporate travel. Mercedes E-Class or similar.",
   },
   {
     category: "First Class Sedan",
@@ -83,17 +83,7 @@ export const FLEET = [
     img: "/fleet/bmw-7-series.jpg",
     alt: "Black BMW 7 Series first class sedan — 92 Limo Service fleet",
     description:
-      "First-class comfort with a climate-controlled cabin and executive presence — the discerning choice for VIP business travel.",
-  },
-  {
-    category: "First Class Sedan",
-    name: "Mercedes-Benz S-Class",
-    pax: 3,
-    bags: 2,
-    img: "", // TODO: add /fleet/mercedes-s-class.jpg — falls back to dark name card
-    alt: "Black Mercedes-Benz S-Class first class sedan — 92 Limo Service",
-    description:
-      "The pinnacle of sedan luxury. Handcrafted interior, whisper-quiet ride, and flagship refinement for those who accept nothing less than the finest.",
+      "The pinnacle of sedan luxury for discerning travelers who accept nothing less. BMW 7 Series, Mercedes S-Class or similar.",
   },
   {
     category: "Midsize SUV",
@@ -103,57 +93,57 @@ export const FLEET = [
     img: "/fleet/lincoln-nautilus.jpg",
     alt: "Lincoln Nautilus midsize luxury SUV — 92 Limo Service",
     description:
-      "A modern midsize SUV with elevated seating, a serene tech-forward cabin, and generous cargo room — perfect for small families and business travelers.",
+      "The perfect balance of comfort and practicality for families and travelers with extra luggage. Lincoln Nautilus or similar.",
   },
   {
     category: "Luxury SUV",
     name: "Chevrolet Suburban",
     pax: 5,
     bags: 5,
-    img: "/fleet/chevrolet-suburban.jpg",
+    img: "/images/chevy-suburban.jpg",
     alt: "Black Chevrolet Suburban full-size luxury SUV — 92 Limo Service",
     description:
-      "Spacious full-size SUV with ample luggage capacity. The dependable choice for families, groups, and airport runs with extra bags.",
+      "Maximum space without compromising luxury. Ideal for larger groups and extended journeys. Chevrolet Suburban or similar.",
   },
   {
     category: "Premium SUV",
     name: "Cadillac Escalade",
     pax: 6,
     bags: 5,
-    img: "/fleet/cadillac-escalade.jpg",
+    img: "/images/cadillac-escalade.jpg",
     alt: "Black Cadillac Escalade premium SUV — 92 Limo Service",
     description:
-      "Commanding full-size luxury with premium leather, ambient lighting, and standout presence for executives, VIPs, and special events.",
+      "America's premier luxury SUV with commanding presence. Cadillac Escalade or similar.",
   },
   {
-    category: "Van",
-    name: "Mercedes Sprinter Shuttle",
+    category: "Sprinter Shuttle",
+    name: "Mercedes Sprinter",
     pax: 13,
     bags: 13,
     img: "/fleet/sprinter-shuttle-seats.jpg",
     alt: "Mercedes Sprinter van shuttle interior with passenger seating — 92 Limo Service",
     description:
-      "Comfortable group transportation with captain-style seating, climate control, and onboard entertainment — ideal for corporate shuttles and airport group transfers.",
+      "Comfortable group transportation for airport runs, corporate events, and group outings. Mercedes Sprinter or similar.",
   },
   {
-    category: "Van",
-    name: "Mercedes Sprinter Executive",
+    category: "Sprinter Executive",
+    name: "Mercedes Sprinter",
     pax: 13,
     bags: 13,
     img: "/fleet/executive-van.jpg",
     alt: "Mercedes Sprinter Executive van interior with lounge seating — 92 Limo Service",
     description:
-      "Group travel with conference-style leather seating, ambient lighting, and a smart entertainment system — comfort and productivity for the whole team.",
+      "Premium executive van with upgraded interior and luxury amenities. Perfect for corporate groups. Mercedes Sprinter or similar.",
   },
   {
-    category: "Limo",
+    category: "Sprinter Limo",
     name: "Mercedes Sprinter Limo",
     pax: 13,
     bags: 13,
     img: "/fleet/limousine.jpg",
     alt: "Mercedes Sprinter limo interior with lounge seating and ambient lighting — 92 Limo Service",
     description:
-      "Turn any occasion into an event. Lounge-style leather seating, ambient lighting, premium sound, and an onboard bar for weddings, proms, and nights out.",
+      "The ultimate stretch limo experience. Perfect for weddings, proms, and special occasions that deserve a grand entrance.",
   },
 ];
 
@@ -282,8 +272,8 @@ export const NAV_SERVICES = [
   { label: "Sports & Events", to: "/sports-events" },
 ];
 
-const AIRPORT_VEHICLES = ["Business Sedan — Mercedes-Benz E-Class", "Premium SUV — Cadillac Escalade", "Van — Mercedes Sprinter Executive"];
-const LUXURY_VEHICLES = ["First Class Sedan — BMW 7 Series", "Premium SUV — Cadillac Escalade", "Limo — Mercedes Sprinter Limo"];
+const AIRPORT_VEHICLES = ["Business Sedan — Mercedes E-Class", "Premium SUV — Cadillac Escalade", "Sprinter Executive — Mercedes Sprinter"];
+const LUXURY_VEHICLES = ["First Class Sedan — BMW 7 Series", "Premium SUV — Cadillac Escalade", "Sprinter Limo — Mercedes Sprinter Limo"];
 
 export const SERVICE_PAGES = {
   "airport-transportation": {
@@ -368,7 +358,7 @@ export const SERVICE_PAGES = {
       { title: "Door-to-Door", desc: "Hassle-free pickup and drop-off at your home or hotel." },
       { title: "All-Inclusive Rates", desc: "Transparent pricing with no surprises at the end of the day." },
     ],
-    vehicles: ["Premium SUV — Cadillac Escalade", "Limo — Mercedes Sprinter Limo", "First Class Sedan — BMW 7 Series"],
+    vehicles: ["Premium SUV — Cadillac Escalade", "Sprinter Limo — Mercedes Sprinter Limo", "First Class Sedan — BMW 7 Series"],
   },
   "birthday-celebrations": {
     metaTitle: "Birthday Limo Service | Celebrate in Style | 92 Limo DC, MD, VA",
@@ -389,7 +379,7 @@ export const SERVICE_PAGES = {
       { title: "Any Group Size", desc: "From an intimate dinner to a full crew in the Sprinter van." },
       { title: "All-Inclusive Pricing", desc: "Clear, upfront rates so there are no surprises." },
     ],
-    vehicles: ["Limo — Mercedes Sprinter Limo", "Van — Mercedes Sprinter Shuttle", "Premium SUV — Cadillac Escalade"],
+    vehicles: ["Sprinter Limo — Mercedes Sprinter Limo", "Sprinter Shuttle — Mercedes Sprinter", "Premium SUV — Cadillac Escalade"],
   },
   "prom-transportation": {
     metaTitle: "Prom Limo Service | Safe & Stylish | 92 Limo DC, Maryland & Virginia",
@@ -410,7 +400,7 @@ export const SERVICE_PAGES = {
       { title: "Parent Peace of Mind", desc: "Clear itineraries and dependable, professional service." },
       { title: "Transparent Pricing", desc: "Upfront prom packages with no hidden fees." },
     ],
-    vehicles: ["Limo — Mercedes Sprinter Limo", "Van — Mercedes Sprinter Shuttle", "Premium SUV — Cadillac Escalade"],
+    vehicles: ["Sprinter Limo — Mercedes Sprinter Limo", "Sprinter Shuttle — Mercedes Sprinter", "Premium SUV — Cadillac Escalade"],
   },
   "hourly-chauffeur": {
     metaTitle: "Hourly Chauffeur Service | As-Directed Car Hire | 92 Limo DC, MD, VA",

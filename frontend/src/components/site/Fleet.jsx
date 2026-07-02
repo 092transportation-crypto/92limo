@@ -34,15 +34,13 @@ export const Fleet = ({
                     />
                   ) : (
                     <div className="w-full h-full flex flex-col items-center justify-center text-center px-6 bg-[#0A0A0A]">
-                      <span className="text-xs font-semibold tracking-widest uppercase text-[#C9A227]">{v.category}</span>
-                      <span className="mt-1.5 text-white font-display text-lg font-semibold">{v.name}</span>
+                      <span className="font-display text-2xl font-bold text-[#C9A227]">{v.category}</span>
                     </div>
                   )}
                 </div>
                 <div className="p-6">
-                  <span className="text-[11px] font-semibold tracking-widest uppercase text-[#B8860B]">{v.category}</span>
-                  <h3 className="mt-1 text-lg font-display font-semibold text-[#0A0A0A] leading-snug">{v.name}</h3>
-                  <p className="mt-1.5 text-sm text-neutral-600 leading-relaxed">{v.description}</p>
+                  <h3 className="text-xl font-display font-bold text-[#B8860B] leading-snug">{v.category}</h3>
+                  <p className="mt-2 text-sm text-neutral-600 leading-relaxed">{v.description}</p>
 
                   <div className="mt-4 flex items-center gap-5 text-sm text-neutral-700 tabnums">
                     <span className="flex items-center gap-1.5">

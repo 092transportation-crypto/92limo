@@ -2,19 +2,19 @@ import { IMAGES } from "@/lib/data";
 
 // Vehicle label sets (must match `${category} — ${name}` from FLEET).
 const SEDAN_TRIO = [
-  "Business Sedan — Mercedes-Benz E-Class",
+  "Business Sedan — Mercedes E-Class",
   "First Class Sedan — BMW 7 Series",
   "Premium SUV — Cadillac Escalade",
 ];
 const GROUP_TRIO = [
   "Luxury SUV — Chevrolet Suburban",
   "Premium SUV — Cadillac Escalade",
-  "Van — Mercedes Sprinter Executive",
+  "Sprinter Executive — Mercedes Sprinter",
 ];
 const BEACH_TRIO = [
   "Premium SUV — Cadillac Escalade",
   "Luxury SUV — Chevrolet Suburban",
-  "Van — Mercedes Sprinter Shuttle",
+  "Sprinter Shuttle — Mercedes Sprinter",
 ];
 
 export const LANDING_PAGES = {
