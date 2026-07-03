@@ -8,6 +8,37 @@ export const BRAND = {
   tagline: "Maryland · Virginia · Washington DC",
 };
 
+// Social profiles rendered in the footer. NOTE: confirm/replace these URLs with
+// 92 Limo Service's real profiles — update the href values here only.
+export const SOCIAL = [
+  { label: "Facebook", icon: "Facebook", href: "https://www.facebook.com/92limoservice" },
+  { label: "Instagram", icon: "Instagram", href: "https://www.instagram.com/92limoservice" },
+  { label: "LinkedIn", icon: "Linkedin", href: "https://www.linkedin.com/company/92-limo-service" },
+];
+
+// Homepage "About 92 Limo Service" copy. Repeats the H1 phrase — "luxury black
+// car service in Washington DC, Maryland, and Virginia" — in the body content
+// for SEO. Consumed by AboutHome.jsx AND scripts/prerender.js.
+export const HOME_ABOUT = {
+  eyebrow: "ABOUT 92 LIMO SERVICE",
+  heading: "Your Trusted Luxury Chauffeur Partner in the DMV",
+  paragraphs: [
+    "92 Limo Service (92 Transportation LLC) is a locally owned provider of luxury black car service in Washington DC, Maryland, and Virginia. For years, discerning travelers across the DMV have relied on us for airport transfers, corporate travel, weddings, and special events — delivered with the punctuality, discretion, and polish that define a true chauffeur experience.",
+    "What sets our luxury black car service apart is consistency. Every vehicle in our fleet is a late-model sedan, SUV, or Mercedes Sprinter van, immaculately detailed before each ride and driven by a licensed, background-checked chauffeur. From the moment you book to the moment you arrive, you deal with professionals who treat your schedule — and your safety — as their own.",
+    "We provide luxury black car service throughout the entire Washington DC, Maryland, and Virginia region, with flat-rate, all-inclusive transfers to and from BWI, Ronald Reagan National (DCA), and Washington Dulles (IAD) airports. Whether you need an early-morning ride to catch a flight, executive transportation for a client visit, or an elegant arrival on your wedding day, 92 Limo Service delivers the same reliable luxury every time.",
+    "Booking is simple and available 24/7. Request an all-inclusive quote online or call our team, and we will confirm a professional chauffeur, track your flight, and handle every detail door to door — so your only job is to relax and enjoy the ride.",
+    "Beyond the airport, our luxury black car service covers corporate roadshows, executive travel, wine tours through Maryland and Virginia wine country, proms, birthdays, cruise-port transfers, and long-distance trips to New York, Philadelphia, and the Delaware beaches. Groups are welcome too — our Mercedes Sprinter vans and Sprinter limo keep everyone together in comfort. Whatever the occasion, you can expect the same clean vehicles, professional chauffeurs, and transparent pricing that have earned 92 Limo Service a five-star reputation across the DMV.",
+  ],
+};
+
+// Authoritative external links (helps SEO + genuinely useful to travelers).
+export const EXTERNAL_LINKS = [
+  { label: "BWI Airport (official)", href: "https://www.bwiairport.com" },
+  { label: "Reagan National — DCA (official)", href: "https://www.flyreagan.com" },
+  { label: "Washington Dulles — IAD (official)", href: "https://www.flydulles.com" },
+  { label: "Maryland MVA", href: "https://mva.maryland.gov" },
+];
+
 // NOTE: Images originally hosted on customer-assets.emergentagent.com stopped
 // resolving after export (broken-image "?" placeholders). As a temporary fix,
 // those keys now point to working static.prod-images.emergentagent.com assets.

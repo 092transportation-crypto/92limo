@@ -43,7 +43,7 @@ function loadData() {
     .replace(/export\s+/g, "");
   const ctx = { console };
   vm.runInNewContext(
-    `${dataSrc}\n${landingSrc}\nthis.__data = { SERVICE_PAGES, LANDING_PAGES, CITIES };`,
+    `${dataSrc}\n${landingSrc}\nthis.__data = { SERVICE_PAGES, LANDING_PAGES, CITIES, HOME_ABOUT, EXTERNAL_LINKS, FAQS, AREAS, WHY };`,
     ctx
   );
   return ctx.__data;
@@ -196,8 +196,39 @@ function buildStatic(route, data) {
   return {
     title: s.title,
     description: s.description,
-    body: h(1, s.h1) + s.paras.map(p).join(""),
+    body: route === "/"
+      ? buildHomeBody(s, data)
+      : h(1, s.h1) + s.paras.map(p).join(""),
   };
+}
+
+// Rich, crawlable homepage body: heading + intro, About (repeats the H1 phrase),
+// Why-Choose-Us list, service-area list, FAQ Q&A, and authoritative external
+// links. Keeps the served HTML well past 800 words with real paragraphs.
+function buildHomeBody(s, data) {
+  const about = data.HOME_ABOUT || { heading: "", paragraphs: [] };
+  const why = (data.WHY || []).map((w) => `${esc(w.title)} — ${esc(w.desc)}`);
+  const areas = data.AREAS || [];
+  const faqs = (data.FAQS || []).map((f) => h(3, f.q) + p(f.a)).join("");
+  const links = (data.EXTERNAL_LINKS || [])
+    .map((l) => `<li>${a(l.href, l.label)}</li>`)
+    .join("");
+  return (
+    h(1, s.h1) +
+    s.paras.map(p).join("") +
+    (about.heading ? h(2, about.heading) : "") +
+    (about.paragraphs || []).map(p).join("") +
+    (why.length ? h(2, "Why Choose 92 Limo Service") + ul(why) : "") +
+    (areas.length
+      ? h(2, "Service Areas Across DC, Maryland & Virginia") +
+        p(
+          "92 Limo Service provides luxury black car service throughout Washington DC, Maryland, and Northern Virginia, including these cities and communities:"
+        ) +
+        ul(areas.map(esc))
+      : "") +
+    (faqs ? h(2, "Frequently Asked Questions") + faqs : "") +
+    (links ? h(2, "Helpful Travel Resources") + `<ul>${links}</ul>` : "")
+  );
 }
 
 function buildService(slug, data) {

@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, Globe, MapPin, Facebook, Instagram, Linkedin } from "lucide-react";
-import { BRAND, NAV_SERVICES } from "@/lib/data";
+import { BRAND, NAV_SERVICES, SOCIAL } from "@/lib/data";
+
+const SOCIAL_ICONS = { Facebook, Instagram, Linkedin };
 
 const QUICK = [
   { label: "Home", to: "/" },
@@ -41,17 +43,22 @@ export const Footer = () => {
               Washington DC, Maryland, and Northern Virginia.
             </p>
             <div className="mt-5 flex gap-3">
-              {[Facebook, Instagram, Linkedin].map((Icon, i) => (
-                <a
-                  key={i}
-                  href="https://92limo.com"
-                  data-testid={`social-link-${i}`}
-                  aria-label="92 Limo Service social media"
-                  className="w-9 h-9 rounded-full bg-[#15161A] border border-white/5 flex items-center justify-center text-neutral-400 hover:text-[#D4AF37] hover:border-[#D4AF37]/50 transition-all"
-                >
-                  <Icon size={16} />
-                </a>
-              ))}
+              {SOCIAL.map((s, i) => {
+                const Icon = SOCIAL_ICONS[s.icon];
+                return (
+                  <a
+                    key={s.label}
+                    href={s.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    data-testid={`social-link-${i}`}
+                    aria-label={`92 Limo Service on ${s.label}`}
+                    className="w-9 h-9 rounded-full bg-[#15161A] border border-white/5 flex items-center justify-center text-neutral-400 hover:text-[#D4AF37] hover:border-[#D4AF37]/50 transition-all"
+                  >
+                    <Icon size={16} />
+                  </a>
+                );
+              })}
             </div>
           </div>
 
