@@ -1,8 +1,15 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, Globe, MapPin, Facebook, Instagram, Linkedin } from "lucide-react";
+import { Phone, Mail, Globe, MapPin, Facebook, Instagram } from "lucide-react";
 import { BRAND, NAV_SERVICES, SOCIAL } from "@/lib/data";
 
-const SOCIAL_ICONS = { Facebook, Instagram, Linkedin };
+// lucide-react has no TikTok brand glyph, so provide a minimal inline one.
+const TikTok = ({ size = 16 }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M16.5 3c.28 2.02 1.44 3.34 3.5 3.5v2.4c-1.18.11-2.28-.18-3.5-.86v5.86c0 3.62-2.57 5.9-5.86 5.9C7.98 21.8 5.9 19.7 5.9 16.9c0-2.88 2.3-4.86 5.15-4.68v2.5c-.4-.09-.82-.09-1.2-.02-1.1.2-1.86 1-1.78 2.18.08 1.1.98 1.92 2.1 1.86 1.2-.03 2.06-.98 2.06-2.28V3h2.27z" />
+  </svg>
+);
+
+const SOCIAL_ICONS = { Facebook, Instagram, TikTok };
 
 const QUICK = [
   { label: "Home", to: "/" },

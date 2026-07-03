@@ -43,7 +43,7 @@ function loadData() {
     .replace(/export\s+/g, "");
   const ctx = { console };
   vm.runInNewContext(
-    `${dataSrc}\n${landingSrc}\nthis.__data = { SERVICE_PAGES, LANDING_PAGES, CITIES, HOME_ABOUT, EXTERNAL_LINKS, FAQS, AREAS, WHY };`,
+    `${dataSrc}\n${landingSrc}\nthis.__data = { SERVICE_PAGES, LANDING_PAGES, CITIES, HOME_ABOUT, EXTERNAL_LINKS, FAQS, AREAS, WHY, SOCIAL };`,
     ctx
   );
   return ctx.__data;
@@ -313,11 +313,13 @@ function buildLinksFooter(data) {
   const landings = Object.entries(data.LANDING_PAGES).map(([slug, d]) => [`/${slug}`, d.h1]);
   const group = (heading, links) =>
     h(2, heading) + `<ul>${links.map(([href, t]) => `<li>${a(href, t)}</li>`).join("")}</ul>`;
+  const social = (data.SOCIAL || []).map((s) => [s.href, `${s.label} — 92 Limo Service`]);
   return (
     `<nav aria-label="Primary">${nav.map(([href, t]) => a(href, t)).join(" ")}</nav>` +
     group("Our services", services) +
     group("Airport car service by city", cities) +
     group("Popular routes", landings) +
+    (social.length ? group("Follow 92 Limo Service", social) : "") +
     `<p>Call 92 Limo Service 24/7 at <a href="tel:+18776790100">${PHONE}</a>.</p>`
   );
 }

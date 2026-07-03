@@ -8,12 +8,12 @@ export const BRAND = {
   tagline: "Maryland · Virginia · Washington DC",
 };
 
-// Social profiles rendered in the footer. NOTE: confirm/replace these URLs with
-// 92 Limo Service's real profiles — update the href values here only.
+// Social profiles rendered in the footer and declared to search engines via
+// JSON-LD sameAs. Update the href values here only.
 export const SOCIAL = [
-  { label: "Facebook", icon: "Facebook", href: "https://www.facebook.com/92limoservice" },
-  { label: "Instagram", icon: "Instagram", href: "https://www.instagram.com/92limoservice" },
-  { label: "LinkedIn", icon: "Linkedin", href: "https://www.linkedin.com/company/92-limo-service" },
+  { label: "Facebook", icon: "Facebook", href: "https://www.facebook.com/p/92-Limo-Services-61564505260156/" },
+  { label: "Instagram", icon: "Instagram", href: "https://www.instagram.com/92_limo_service/" },
+  { label: "TikTok", icon: "TikTok", href: "https://www.tiktok.com/@92.limo.service" },
 ];
 
 // Homepage "About 92 Limo Service" copy. Repeats the H1 phrase — "luxury black
