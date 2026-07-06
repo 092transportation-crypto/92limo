@@ -65,7 +65,9 @@ module.exports = async (req, res) => {
         Authorization: `Bearer ${apiKey}`,
       },
       body: JSON.stringify({
-        model: "llama3-8b-8192",
+        // llama3-8b-8192 was decommissioned by Groq (400 model error);
+        // llama-3.1-8b-instant is its supported replacement.
+        model: "llama-3.1-8b-instant",
         max_tokens: 500,
         messages: [{ role: "system", content: SYSTEM_PROMPT }, ...messages],
       }),
