@@ -7,7 +7,7 @@ the bwichauffeur site.
 | -------------------------- | ----------------------------------------- |
 | `POST /api/quote-requests` | Booking / quote form (`BookingForm`)      |
 | `POST /api/contact`        | Contact "Send Us a Message" (`ContactForm`) |
-| `POST /api/chat`           | AI chat widget (`ChatWidget`) — Anthropic API |
+| `POST /api/chat`           | AI chat widget (`ChatWidget`) — Groq API |
 
 Each endpoint validates the submission, emails the admin (`NOTIFICATION_EMAIL`)
 and a confirmation to the customer, and returns `201` on success.
@@ -21,7 +21,7 @@ and a confirmation to the customer, and returns `201` on success.
 | `NOTIFICATION_EMAIL` | ✅ yes   | `092transportation@gmail.com` | Where inquiries are delivered |
 | `SMTP_HOST`          | no       | `smtp.gmail.com`              | Override for a non-Gmail SMTP provider |
 | `SMTP_PORT`          | no       | `587`                         | `465` for implicit TLS |
-| `ANTHROPIC_API_KEY`  | ✅ yes   | —                             | Anthropic API key for the AI chat widget (`/api/chat`). Server-side only — never expose in the frontend. |
+| `GROQ_API_KEY`       | ✅ yes   | —                             | Groq API key for the AI chat widget (`/api/chat`). Server-side only — never expose in the frontend. |
 
 > The frontend posts to the same origin (`/api/...`). To point it at a different
 > backend host, set `REACT_APP_BACKEND_URL`; otherwise leave it unset.

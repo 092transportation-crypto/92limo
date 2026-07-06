@@ -2,10 +2,11 @@
  * POST /api/chat
  *
  * AI assistant endpoint for the site's chat widget. Accepts a conversation
- * history ({ messages: [{role, content}, ...] }), forwards it to the Anthropic
- * API with the 92 Limo Service system prompt, and returns { reply }.
+ * history ({ messages: [{role, content}, ...] }), forwards it to the Groq
+ * API (OpenAI-compatible) with the 92 Limo Service system prompt, and
+ * returns { reply }.
  *
- * The API key lives server-side only (ANTHROPIC_API_KEY env var).
+ * The API key lives server-side only (GROQ_API_KEY env var).
  */
 const { readBody, applyCors } = require("../lib/http");
 
@@ -29,7 +30,7 @@ module.exports = async (req, res) => {
   if (req.method === "OPTIONS") return res.status(204).end();
   if (req.method !== "POST") return res.status(405).json({ detail: "Method not allowed" });
 
-  const apiKey = process.env.ANTHROPIC_API_KEY;
+  const apiKey = process.env.GROQ_API_KEY;
   if (!apiKey) {
     return res.status(500).json({ detail: "Chat is not configured" });
   }
@@ -57,24 +58,22 @@ module.exports = async (req, res) => {
   }
 
   try {
-    const response = await fetch("https://api.anthropic.com/v1/messages", {
+    const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "x-api-key": apiKey,
-        "anthropic-version": "2023-06-01",
+        Authorization: `Bearer ${apiKey}`,
       },
       body: JSON.stringify({
-        model: "claude-sonnet-4-6",
+        model: "llama3-8b-8192",
         max_tokens: 500,
-        system: SYSTEM_PROMPT,
-        messages,
+        messages: [{ role: "system", content: SYSTEM_PROMPT }, ...messages],
       }),
     });
 
     if (!response.ok) {
       const detail = await response.text().catch(() => "");
-      console.error(`[chat] Anthropic API ${response.status}: ${detail.slice(0, 500)}`);
+      console.error(`[chat] Groq API ${response.status}: ${detail.slice(0, 500)}`);
       const friendly =
         response.status === 429
           ? "The assistant is busy right now. Please try again in a moment."
@@ -83,11 +82,7 @@ module.exports = async (req, res) => {
     }
 
     const data = await response.json();
-    const reply = (data.content || [])
-      .filter((block) => block.type === "text")
-      .map((block) => block.text)
-      .join("")
-      .trim();
+    const reply = (data.choices?.[0]?.message?.content || "").trim();
 
     if (!reply) {
       return res
