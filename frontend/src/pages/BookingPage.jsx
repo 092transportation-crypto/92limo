@@ -1,6 +1,6 @@
 import { Seo } from "@/components/site/Seo";
 import { PageHero } from "@/components/site/PageHero";
-import { BookingForm } from "@/components/site/BookingForm";
+import { LimoBizWidget } from "@/components/site/LimoBizWidget";
 import { CTASection } from "@/components/site/CTASection";
 import { IMAGES } from "@/lib/data";
 
@@ -15,12 +15,12 @@ export default function BookingPage() {
       <PageHero
         eyebrow="BOOK NOW"
         title="Reserve Your Ride"
-        subtitle="Tell us about your trip and we'll confirm your booking with an all-inclusive quote. No payment required to request."
+        subtitle="Book online in minutes with instant quotes and confirmed reservations — 24/7."
         image={IMAGES.airportPickup}
         alt="92 Limo Service chauffeur ready for an airport pickup"
         height="min-h-[48vh]"
       />
-      <BookingForm />
+      <LimoBizWidget />
       <CTASection
         title="Questions Before You Book?"
         subtitle="Call 877-679-0100 anytime, or visit our contact page for general inquiries."
