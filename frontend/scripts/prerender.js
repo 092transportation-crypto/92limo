@@ -36,14 +36,19 @@ function loadData() {
     .replace(/export\s+const/g, "const")
     .replace(/export\s+function/g, "function")
     .replace(/export\s+/g, "");
+  const generatedSrc = fs
+    .readFileSync(path.join(ROOT, "src/lib/landingPagesGenerated.js"), "utf8")
+    .replace(/^\s*import[^\n]*\n/gm, "")
+    .replace(/export\s+const/g, "const")
+    .replace(/export\s+/g, "");
   const landingSrc = fs
     .readFileSync(path.join(ROOT, "src/lib/landingPages.js"), "utf8")
-    .replace(/^\s*import[^\n]*\n/m, "")
+    .replace(/^\s*import[^\n]*\n/gm, "")
     .replace(/export\s+const/g, "const")
     .replace(/export\s+/g, "");
   const ctx = { console };
   vm.runInNewContext(
-    `${dataSrc}\n${landingSrc}\nthis.__data = { SERVICE_PAGES, LANDING_PAGES, CITIES, HOME_ABOUT, EXTERNAL_LINKS, FAQS, AREAS, WHY, SOCIAL };`,
+    `${dataSrc}\n${generatedSrc}\n${landingSrc}\nthis.__data = { SERVICE_PAGES, LANDING_PAGES, CITIES, HOME_ABOUT, EXTERNAL_LINKS, FAQS, AREAS, WHY, SOCIAL };`,
     ctx
   );
   return ctx.__data;
@@ -253,6 +258,14 @@ function buildLanding(slug, data) {
   const highlights = (d.highlights || []).map((x) => `${esc(x.title)} — ${esc(x.desc)}`);
   const faqs = (d.faqs || []).map((f) => h(3, f.q) + p(f.a)).join("");
   const vehicles = (d.vehicles || []).map((v) => esc(v));
+  const areas = (d.areas || [])
+    .map(
+      (g) =>
+        h(3, g.region) +
+        (g.note ? p(g.note) : "") +
+        ul(g.places.map((x) => (x.to ? a(x.to, x.label) : esc(x.label))))
+    )
+    .join("");
   return {
     title: d.metaTitle,
     description: d.metaDescription,
@@ -261,6 +274,7 @@ function buildLanding(slug, data) {
       p(d.subtitle) +
       intro +
       (highlights.length ? h(2, d.highlightsHeading || "Highlights") + ul(highlights) : "") +
+      (areas ? h(2, "Areas We Serve") + areas : "") +
       (vehicles.length ? h(2, "Recommended vehicles") + ul(vehicles) : "") +
       (faqs ? h(2, "Frequently asked questions") + faqs : "") +
       (d.ctaTitle ? h(2, d.ctaTitle) + p(d.ctaSubtitle) : ""),

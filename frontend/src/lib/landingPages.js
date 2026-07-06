@@ -1,4 +1,5 @@
 import { IMAGES } from "@/lib/data";
+import { GENERATED_LANDING_PAGES } from "@/lib/landingPagesGenerated";
 
 // Vehicle label sets (must match `${category} — ${name}` from FLEET).
 const SEDAN_TRIO = [
@@ -18,6 +19,123 @@ const BEACH_TRIO = [
 ];
 
 export const LANDING_PAGES = {
+  ...GENERATED_LANDING_PAGES,
+
+  // ------------------------------------------------------ FLAGSHIP: BWI LIMO
+  "bwi-airport-limo": {
+    metaTitle: "Luxury BWI Airport Limo Service | 92 Limo Service",
+    metaDescription:
+      "Luxury BWI airport limo service across MD, PA, DE, DC & Northern VA. Flight tracking, meet & greet, pro chauffeurs, fixed transparent pricing. 24/7.",
+    eyebrow: "BWI MARSHALL AIRPORT",
+    h1: "Luxury BWI Airport Limo Service",
+    subtitle:
+      "Premium chauffeured limo and car service to and from BWI Marshall Airport — serving Maryland, Pennsylvania, Delaware, Washington DC, and Northern Virginia, 24/7.",
+    image: IMAGES.airportPickup,
+    alt: "Chauffeur greeting a traveler at BWI Marshall Airport — 92 Limo Service",
+    highlightsHeading: "Why Choose 92 Limo Service?",
+    intro: [
+      "92 Limo Service is the luxury limo service travelers trust at BWI Marshall Airport. Wherever your trip begins — a home in Maryland, an office in Washington DC, a hotel in Northern Virginia, or a small town in southern Pennsylvania or Delaware — your professional chauffeur arrives early, loads every bag, and delivers you to your terminal relaxed and on time. Arrivals work the same way in reverse: we track your flight, meet you at baggage claim or curbside, and drive you home in quiet, spotless comfort.",
+      "Every BWI booking includes real-time flight tracking, so early landings and long delays never cost you a ride — your pickup adjusts automatically at no charge. Prefer a personal welcome? Add meet-and-greet service and your chauffeur waits inside the terminal with a name sign. Generous complimentary wait time is standard on all arrivals.",
+      "Our coverage map is one of the largest of any BWI car service. We serve every Maryland county — from Baltimore, Annapolis, and Columbia to Frederick, Bethesda, and Ocean City — plus Washington DC, Northern Virginia, southern Pennsylvania towns like York, Gettysburg, Lancaster, and Hershey, and all of Delaware down to the beaches. If you can fly from BWI, we can get you there.",
+      "Ride your way: executive Mercedes and BMW sedans for business travel, the Cadillac Escalade ESV for VIP arrivals and families, and Mercedes Sprinter vans that keep groups of up to 14 together with all their luggage. Corporate accounts enjoy priority scheduling and consolidated billing, and every trip — personal or business — is quoted as one fixed, transparent price. Call 877-679-0100 or book online, any hour of the day.",
+    ],
+    highlights: [
+      { title: "24/7 Airport Transportation", desc: "Around-the-clock BWI service, every day of the year — pre-dawn departures and red-eye arrivals included." },
+      { title: "Flight Tracking", desc: "We monitor every arrival in real time and adjust your pickup automatically — delays never cost you a ride." },
+      { title: "Professional Chauffeurs", desc: "Background-checked, professionally dressed, and trained to arrive early on every trip." },
+      { title: "Luxury Sedans & SUVs", desc: "Mercedes and BMW executive sedans plus full-size luxury SUVs, detailed before every pickup." },
+      { title: "Cadillac Escalade ESV", desc: "Our premium SUV flagship — first-class space for families, executives, and VIP arrivals." },
+      { title: "Mercedes Sprinter Vans", desc: "Executive vans that keep groups of up to 14 together, with room for every bag." },
+      { title: "Corporate Accounts", desc: "Priority scheduling, consolidated billing, and a dedicated contact for business travel programs." },
+      { title: "Fixed, Transparent Pricing", desc: "One flat quote covering tolls, taxes, and gratuity — no meters and no surge pricing, ever." },
+      { title: "Meet & Greet Available", desc: "Your chauffeur waits inside baggage claim with a name sign and walks you to the vehicle." },
+    ],
+    areas: [
+      { region: "Maryland", places: [
+        { label: "Baltimore", to: "/baltimore-limo-service" },
+        { label: "Annapolis", to: "/annapolis-limo-service" },
+        { label: "Columbia", to: "/columbia-md-limo-service" },
+        { label: "Laurel", to: "/laurel-md-limo-service" },
+        { label: "Bowie", to: "/bowie-md-limo-service" },
+        { label: "Ellicott City", to: "/ellicott-city-limo-service" },
+        { label: "Elkridge", to: "/elkridge-limo-service" },
+        { label: "Glen Burnie", to: "/glen-burnie-limo-service" },
+        { label: "Catonsville", to: "/catonsville-limo-service" },
+        { label: "Towson", to: "/towson-limo-service" },
+        { label: "Bel Air", to: "/bel-air-limo-service" },
+        { label: "Aberdeen", to: "/aberdeen-limo-service" },
+        { label: "Frederick", to: "/frederick-md-limo-service" },
+        { label: "Rockville", to: "/rockville-limo-service" },
+        { label: "Bethesda", to: "/bethesda-limo-service" },
+        { label: "Silver Spring", to: "/silver-spring-limo-service" },
+        { label: "Gaithersburg", to: "/gaithersburg-limo-service" },
+        { label: "Germantown", to: "/germantown-limo-service" },
+        { label: "Waldorf", to: "/waldorf-md-limo-service" },
+        { label: "College Park", to: "/college-park-limo-service" },
+        { label: "Howard County" },
+        { label: "Anne Arundel County" },
+        { label: "Baltimore County" },
+        { label: "Harford County" },
+        { label: "Montgomery County" },
+        { label: "Prince George's County" },
+        { label: "Carroll County" },
+        { label: "Frederick County" },
+      ] },
+      { region: "Pennsylvania", places: [
+        { label: "York", to: "/york-pa-limo-service" },
+        { label: "Hanover", to: "/hanover-pa-limo-service" },
+        { label: "Gettysburg", to: "/gettysburg-pa-limo-service" },
+        { label: "Lancaster", to: "/lancaster-pa-limo-service" },
+        { label: "Harrisburg", to: "/harrisburg-pa-limo-service" },
+        { label: "Hershey", to: "/hershey-pa-limo-service" },
+        { label: "Carlisle" },
+        { label: "Mechanicsburg" },
+        { label: "Camp Hill" },
+        { label: "Reading" },
+        { label: "West Chester" },
+      ] },
+      { region: "Delaware", places: [
+        { label: "Wilmington", to: "/wilmington-de-limo-service" },
+        { label: "Newark", to: "/newark-de-limo-service" },
+        { label: "Dover", to: "/dover-de-limo-service" },
+        { label: "Middletown", to: "/middletown-de-limo-service" },
+        { label: "Smyrna" },
+        { label: "Rehoboth Beach", to: "/bwi-to-rehoboth-beach" },
+        { label: "Lewes" },
+        { label: "Bethany Beach", to: "/bwi-to-bethany-beach" },
+        { label: "Dewey Beach" },
+        { label: "Fenwick Island" },
+        { label: "Milford" },
+      ] },
+      { region: "Washington, DC", note: "Premium airport transportation throughout Washington, DC.", places: [
+        { label: "Washington DC", to: "/washington-dc-limo-service" },
+      ] },
+      { region: "Northern Virginia", places: [
+        { label: "Arlington", to: "/arlington-va-limo-service" },
+        { label: "Alexandria", to: "/alexandria-va-limo-service" },
+        { label: "Tysons", to: "/tysons-corner-limo-service" },
+        { label: "McLean", to: "/mclean-va-limo-service" },
+        { label: "Reston", to: "/reston-va-limo-service" },
+        { label: "Fairfax", to: "/fairfax-va-limo-service" },
+        { label: "Chantilly" },
+        { label: "Ashburn", to: "/ashburn-va-limo-service" },
+        { label: "Leesburg", to: "/leesburg-va-limo-service" },
+      ] },
+    ],
+    vehicles: SEDAN_TRIO,
+    faqs: [
+      { q: "How far in advance should I book my BWI limo?", a: "We recommend booking at least 24 hours ahead, and earlier during holidays and peak travel weeks. Same-day requests are welcome when vehicles are available — call 877-679-0100 anytime, 24/7." },
+      { q: "Where does my chauffeur meet me at BWI?", a: "Your choice: curbside on the arrivals level, or inside at baggage claim with a name sign (meet & greet). Your confirmation includes exact pickup instructions." },
+      { q: "What if my flight into BWI is delayed?", a: "Nothing changes for you. We track every flight in real time and adjust your pickup automatically, at no extra charge, with generous complimentary wait time on arrival." },
+      { q: "Do you really serve Pennsylvania and Delaware?", a: "Yes. We regularly run BWI transfers to and from York, Hanover, Gettysburg, Lancaster, Harrisburg, and Hershey in Pennsylvania, and Wilmington, Newark, Dover, and the beach towns in Delaware." },
+      { q: "Can a group ride together?", a: "Absolutely. Our Mercedes Sprinter vans seat up to 14 passengers with dedicated luggage space, and our Escalade ESV and Suburban SUVs carry families and small groups in first-class comfort." },
+      { q: "Is the price really fixed?", a: "Yes. Every trip is quoted as one fixed, transparent rate before you book — tolls, taxes, and standard gratuity included. There is no meter and no surge pricing." },
+    ],
+    ctaTitle: "Book Your BWI Airport Transportation Today",
+    ctaSubtitle:
+      "Whether you're traveling from Maryland, Pennsylvania, Delaware, Washington, DC, or Northern Virginia, 92 Limo Service provides reliable luxury transportation to and from BWI Airport with professional chauffeurs and premium vehicles.",
+  },
+
   // ---------------------------------------------------------------- CRUISE
   "cruise-transfers": {
     metaTitle: "Baltimore Cruise Port Transfers | 92 Limo Service",

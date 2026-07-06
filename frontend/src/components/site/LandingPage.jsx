@@ -72,6 +72,43 @@ export default function LandingPage({ slug }) {
         </div>
       </section>
 
+      {/* Areas we serve (optional, grouped by region) */}
+      {d.areas && (
+        <section className="py-16 lg:py-20 bg-white" data-testid="landing-areas">
+          <div className="max-w-7xl mx-auto px-6 lg:px-8">
+            <Reveal className="mb-10 max-w-2xl">
+              <h2 className="text-2xl sm:text-3xl font-display font-bold text-[#0A0A0A]">Areas We Serve</h2>
+              <p className="mt-2 text-neutral-600">
+                Door-to-door service across five states and the District — wherever your trip starts.
+              </p>
+            </Reveal>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {d.areas.map((group) => (
+                <Reveal key={group.region}>
+                  <div className="h-full bg-[#F6F5F2] border border-black/10 rounded-2xl p-6">
+                    <h3 className="text-base font-display font-semibold text-[#0A0A0A]">{group.region}</h3>
+                    {group.note && <p className="mt-2 text-sm text-neutral-600">{group.note}</p>}
+                    <ul className="mt-3 flex flex-wrap gap-x-2 gap-y-1.5">
+                      {group.places.map((p) => (
+                        <li key={p.label} className="text-sm">
+                          {p.to ? (
+                            <Link to={p.to} className="text-neutral-700 underline decoration-[#C9A227]/50 underline-offset-2 hover:text-[#B8860B]">
+                              {p.label}
+                            </Link>
+                          ) : (
+                            <span className="text-neutral-600">{p.label}</span>
+                          )}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </Reveal>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Recommended vehicles */}
       {vehicles.length > 0 && (
         <section className="py-16 lg:py-20 bg-white">
