@@ -20,6 +20,7 @@ import CoveragePage from "@/pages/CoveragePage";
 import LandingPage from "@/components/site/LandingPage";
 import { LANDING_PAGES } from "@/lib/landingPages";
 import Admin from "@/pages/Admin";
+import ChatWidget from "@/components/ChatWidget";
 
 function App() {
   return (
@@ -58,6 +59,7 @@ function App() {
         </Routes>
       </BrowserRouter>
       <Toaster position="top-right" richColors />
+      <ChatWidget />
     </div>
   );
 }
