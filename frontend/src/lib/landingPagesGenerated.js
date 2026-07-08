@@ -3172,7 +3172,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "bwi-airport-car-service": {
     "metaTitle": "BWI Airport Car Service | 92 Limo Service",
-    "metaDescription": "BWI Airport Car Service with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "BWI Airport Car Service with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7.",
     "eyebrow": "BWI MARSHALL",
     "h1": "BWI Airport Car Service",
     "subtitle": "Reliable, chauffeured airport car service at BWI Marshall Airport — flight-tracked pickups, flat rates, and luxury vehicles around the clock.",
@@ -3248,7 +3248,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "bwi-airport-transportation": {
     "metaTitle": "BWI Airport Transportation | 92 Limo Service",
-    "metaDescription": "BWI Airport Transportation with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "BWI Airport Transportation with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7.",
     "eyebrow": "BWI MARSHALL",
     "h1": "BWI Airport Transportation",
     "subtitle": "Reliable, chauffeured airport transportation at BWI Marshall Airport — flight-tracked pickups, flat rates, and luxury vehicles around the clock.",
@@ -3324,7 +3324,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "bwi-airport-shuttle": {
     "metaTitle": "BWI Airport Shuttle | 92 Limo Service",
-    "metaDescription": "BWI Airport Shuttle with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "BWI Airport Shuttle with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7.",
     "eyebrow": "BWI MARSHALL",
     "h1": "BWI Airport Shuttle",
     "subtitle": "Reliable, chauffeured private shuttle service at BWI Marshall Airport — flight-tracked pickups, flat rates, and luxury vehicles around the clock.",
@@ -3400,7 +3400,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "dca-airport-limo": {
     "metaTitle": "DCA Reagan Airport Limo | 92 Limo Service",
-    "metaDescription": "DCA Reagan Airport Limo with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "DCA Reagan Airport Limo with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7.",
     "eyebrow": "REAGAN NATIONAL",
     "h1": "DCA Reagan Airport Limo",
     "subtitle": "Reliable, chauffeured limo service at Reagan National Airport (DCA) — flight-tracked pickups, flat rates, and luxury vehicles around the clock.",
@@ -3476,7 +3476,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "dca-airport-car-service": {
     "metaTitle": "DCA Airport Car Service | 92 Limo Service",
-    "metaDescription": "DCA Airport Car Service with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "DCA Airport Car Service with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7.",
     "eyebrow": "REAGAN NATIONAL",
     "h1": "DCA Airport Car Service",
     "subtitle": "Reliable, chauffeured airport car service at Reagan National Airport (DCA) — flight-tracked pickups, flat rates, and luxury vehicles around the clock.",
@@ -3552,7 +3552,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "iad-airport-limo": {
     "metaTitle": "IAD Dulles Airport Limo | 92 Limo Service",
-    "metaDescription": "IAD Dulles Airport Limo with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "IAD Dulles Airport Limo with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7.",
     "eyebrow": "DULLES INTERNATIONAL",
     "h1": "IAD Dulles Airport Limo",
     "subtitle": "Reliable, chauffeured limo service at Dulles International Airport (IAD) — flight-tracked pickups, flat rates, and luxury vehicles around the clock.",
@@ -3628,7 +3628,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "iad-airport-car-service": {
     "metaTitle": "IAD Airport Car Service | 92 Limo Service",
-    "metaDescription": "IAD Airport Car Service with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "IAD Airport Car Service with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7.",
     "eyebrow": "DULLES INTERNATIONAL",
     "h1": "IAD Airport Car Service",
     "subtitle": "Reliable, chauffeured airport car service at Dulles International Airport (IAD) — flight-tracked pickups, flat rates, and luxury vehicles around the clock.",
@@ -3704,7 +3704,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "airport-limo-baltimore": {
     "metaTitle": "Airport Limo Service Baltimore | 92 Limo Service",
-    "metaDescription": "Airport Limo Service Baltimore with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "Airport Limo Service Baltimore with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7.",
     "eyebrow": "BWI MARSHALL",
     "h1": "Airport Limo Service Baltimore",
     "subtitle": "Reliable, chauffeured limo service at BWI Marshall Airport — flight-tracked pickups, flat rates, and luxury vehicles around the clock.",
@@ -3780,7 +3780,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "airport-limo-washington-dc": {
     "metaTitle": "Airport Limo Service Washington DC | 92 Limo Service",
-    "metaDescription": "Airport Limo Service Washington DC with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "Airport Limo Service Washington DC with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7.",
     "eyebrow": "REAGAN NATIONAL",
     "h1": "Airport Limo Service Washington DC",
     "subtitle": "Reliable, chauffeured limo service at all three DC-area airports — flight-tracked pickups, flat rates, and luxury vehicles around the clock.",
@@ -3928,7 +3928,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "wedding-car-service-dc": {
     "metaTitle": "Wedding Car Service Washington DC | 92 Limo Service",
-    "metaDescription": "Wedding Car Service Washington DC with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Washington DC 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "Wedding Car Service Washington DC with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Washington DC 24/7.",
     "eyebrow": "WEDDING CAR SERVICE WASHINGTON DC",
     "h1": "Wedding Car Service Washington DC",
     "subtitle": "Chauffeured wedding car service for ceremonies, receptions, and guest shuttles — flat rates, luxury vehicles, and flawless timing across Washington DC.",
@@ -4144,7 +4144,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "corporate-limo-dc": {
     "metaTitle": "Corporate Limo Service Washington DC | 92 Limo Service",
-    "metaDescription": "Corporate Limo Service Washington DC with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Washington DC 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "Corporate Limo Service Washington DC with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Washington DC 24/7.",
     "eyebrow": "CORPORATE LIMO SERVICE WASHINGTON DC",
     "h1": "Corporate Limo Service Washington DC",
     "subtitle": "Chauffeured corporate limo service for roadshows, board meetings, and client visits — flat rates, luxury vehicles, and flawless timing across Washington DC.",
@@ -4216,7 +4216,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "executive-car-service-maryland": {
     "metaTitle": "Executive Car Service Maryland | 92 Limo Service",
-    "metaDescription": "Executive Car Service Maryland with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Maryland 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "Executive Car Service Maryland with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Maryland 24/7.",
     "eyebrow": "EXECUTIVE CAR SERVICE MARYLAND",
     "h1": "Executive Car Service Maryland",
     "subtitle": "Chauffeured executive car service for executive travel, investor meetings, and airport runs — flat rates, luxury vehicles, and flawless timing across Maryland.",
@@ -4360,7 +4360,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "black-car-service-dc": {
     "metaTitle": "Black Car Service Washington DC | 92 Limo Service",
-    "metaDescription": "Black Car Service Washington DC with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Washington DC 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "Black Car Service Washington DC with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Washington DC 24/7.",
     "eyebrow": "BLACK CAR SERVICE WASHINGTON DC",
     "h1": "Black Car Service Washington DC",
     "subtitle": "Chauffeured black car service for government, legal, and business travel — flat rates, luxury vehicles, and flawless timing across Washington DC.",
@@ -4576,7 +4576,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "chauffeur-service-washington-dc": {
     "metaTitle": "Chauffeur Service Washington DC | 92 Limo Service",
-    "metaDescription": "Chauffeur Service Washington DC with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Washington DC 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "Chauffeur Service Washington DC with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Washington DC 24/7.",
     "eyebrow": "CHAUFFEUR SERVICE WASHINGTON DC",
     "h1": "Chauffeur Service Washington DC",
     "subtitle": "Chauffeured chauffeur service for hourly hires, embassy visits, and evening events — flat rates, luxury vehicles, and flawless timing across Washington DC.",
@@ -4648,7 +4648,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "birthday-limo-maryland": {
     "metaTitle": "Birthday Limo Service Maryland | 92 Limo Service",
-    "metaDescription": "Birthday Limo Service Maryland with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Maryland 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "Birthday Limo Service Maryland with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Maryland 24/7.",
     "eyebrow": "BIRTHDAY LIMO SERVICE MARYLAND",
     "h1": "Birthday Limo Service Maryland",
     "subtitle": "Chauffeured birthday limo service for milestone birthdays, surprise pickups, and nights out — flat rates, luxury vehicles, and flawless timing across Maryland.",
@@ -4720,7 +4720,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "bachelorette-party-limo": {
     "metaTitle": "Bachelorette Party Limo | 92 Limo Service",
-    "metaDescription": "Bachelorette Party Limo with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Maryland and DC 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "Bachelorette Party Limo with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Maryland and DC 24/7.",
     "eyebrow": "BACHELORETTE PARTY LIMO",
     "h1": "Bachelorette Party Limo",
     "subtitle": "Chauffeured bachelorette party limo service for bachelorette and bachelor parties, winery crawls, and club nights — flat rates, luxury vehicles, and flawless timing across Maryland and DC.",
@@ -4864,7 +4864,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "casino-trip-limo": {
     "metaTitle": "Casino Trip Limo Service | 92 Limo Service",
-    "metaDescription": "Casino Trip Limo Service with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Maryland and DC 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "Casino Trip Limo Service with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Maryland and DC 24/7.",
     "eyebrow": "CASINO TRIP LIMO SERVICE",
     "h1": "Casino Trip Limo Service",
     "subtitle": "Chauffeured casino limo service for casino nights, poker runs, and group outings — flat rates, luxury vehicles, and flawless timing across Maryland and DC.",
@@ -4936,7 +4936,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "concert-limo-dc": {
     "metaTitle": "Concert Limo Service Washington DC | 92 Limo Service",
-    "metaDescription": "Concert Limo Service Washington DC with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Washington DC 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "Concert Limo Service Washington DC with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Washington DC 24/7.",
     "eyebrow": "CONCERT LIMO SERVICE WASHINGTON DC",
     "h1": "Concert Limo Service Washington DC",
     "subtitle": "Chauffeured concert limo service for concerts, shows, and festival nights — flat rates, luxury vehicles, and flawless timing across Washington DC.",
@@ -5008,7 +5008,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "sports-event-transportation-dc": {
     "metaTitle": "Sports Event Transportation Washington DC | 92 Limo Service",
-    "metaDescription": "Sports Event Transportation Washington DC with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Washington DC 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "Sports Event Transportation Washington DC with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Washington DC 24/7.",
     "eyebrow": "SPORTS EVENT TRANSPORTATION WASHINGTON DC",
     "h1": "Sports Event Transportation Washington DC",
     "subtitle": "Chauffeured sports event transportation for game days, tailgates, and championship nights — flat rates, luxury vehicles, and flawless timing across Washington DC.",
@@ -5080,7 +5080,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "graduation-limo-maryland": {
     "metaTitle": "Graduation Limo Service Maryland | 92 Limo Service",
-    "metaDescription": "Graduation Limo Service Maryland with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Maryland 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "Graduation Limo Service Maryland with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Maryland 24/7.",
     "eyebrow": "GRADUATION LIMO SERVICE MARYLAND",
     "h1": "Graduation Limo Service Maryland",
     "subtitle": "Chauffeured graduation limo service for commencements, family celebrations, and campus pickups — flat rates, luxury vehicles, and flawless timing across Maryland.",
@@ -5152,7 +5152,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "funeral-transportation-maryland": {
     "metaTitle": "Funeral Transportation Maryland | 92 Limo Service",
-    "metaDescription": "Funeral Transportation Maryland with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Maryland 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "Funeral Transportation Maryland with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Maryland 24/7.",
     "eyebrow": "FUNERAL TRANSPORTATION MARYLAND",
     "h1": "Funeral Transportation Maryland",
     "subtitle": "Dignified, punctual chauffeured transportation for services and family — handled with care across Maryland.",
@@ -5224,7 +5224,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "hospital-transportation-maryland": {
     "metaTitle": "Hospital Transportation Maryland | 92 Limo Service",
-    "metaDescription": "Hospital Transportation Maryland with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Maryland 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "Hospital Transportation Maryland with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Maryland 24/7.",
     "eyebrow": "HOSPITAL TRANSPORTATION MARYLAND",
     "h1": "Hospital Transportation Maryland",
     "subtitle": "Safe, comfortable non-emergency medical transportation across Maryland — door to door, on your schedule.",
@@ -5296,7 +5296,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "mercedes-s-class-rental-maryland": {
     "metaTitle": "Mercedes S-Class Rental Maryland | 92 Limo Service",
-    "metaDescription": "Mercedes S-Class Rental Maryland: chauffeur-driven flagship luxury sedan (up to 3 passengers). Flat rates, 24/7 availability across MD, DC & VA. Book online or call 877-679-0100.",
+    "metaDescription": "Mercedes S-Class Rental Maryland: chauffeur-driven flagship luxury sedan (up to 3 passengers). Flat rates, 24/7 availability across MD, DC & VA.",
     "eyebrow": "OUR FLEET",
     "h1": "Mercedes S-Class Rental Maryland",
     "subtitle": "A chauffeur-driven flagship luxury sedan for executive travel, weddings, and VIP airport transfers — flat-rated and available 24/7.",
@@ -5368,7 +5368,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "cadillac-escalade-limo": {
     "metaTitle": "Cadillac Escalade Limo Service | 92 Limo Service",
-    "metaDescription": "Cadillac Escalade Limo Service: chauffeur-driven premium full-size SUV (up to 6 passengers). Flat rates, 24/7 availability across MD, DC & VA. Book online or call 877-679-0100.",
+    "metaDescription": "Cadillac Escalade Limo Service: chauffeur-driven premium full-size SUV (up to 6 passengers). Flat rates, 24/7 availability across MD, DC & VA.",
     "eyebrow": "OUR FLEET",
     "h1": "Cadillac Escalade Limo Service",
     "subtitle": "A chauffeur-driven premium full-size SUV for families, executives, and red-carpet arrivals — flat-rated and available 24/7.",
@@ -5440,7 +5440,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "lincoln-navigator-limo": {
     "metaTitle": "Lincoln Navigator Limo Service | 92 Limo Service",
-    "metaDescription": "Lincoln Navigator Limo Service: chauffeur-driven American luxury SUV (up to 6 passengers). Flat rates, 24/7 availability across MD, DC & VA. Book online or call 877-679-0100.",
+    "metaDescription": "Lincoln Navigator Limo Service: chauffeur-driven American luxury SUV (up to 6 passengers). Flat rates, 24/7 availability across MD, DC & VA.",
     "eyebrow": "OUR FLEET",
     "h1": "Lincoln Navigator Limo Service",
     "subtitle": "A chauffeur-driven American luxury SUV for airport transfers, proms, and group nights out — flat-rated and available 24/7.",
@@ -5512,7 +5512,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "sprinter-van-rental-maryland": {
     "metaTitle": "Sprinter Van Rental Maryland | 92 Limo Service",
-    "metaDescription": "Sprinter Van Rental Maryland: chauffeur-driven executive van (up to 14 passengers). Flat rates, 24/7 availability across MD, DC & VA. Book online or call 877-679-0100.",
+    "metaDescription": "Sprinter Van Rental Maryland: chauffeur-driven executive van (up to 14 passengers). Flat rates, 24/7 availability across MD, DC & VA.",
     "eyebrow": "OUR FLEET",
     "h1": "Sprinter Van Rental Maryland",
     "subtitle": "A chauffeur-driven executive van for group airport runs, wine tours, and corporate shuttles — flat-rated and available 24/7.",
@@ -5584,7 +5584,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "party-bus-baltimore": {
     "metaTitle": "Party Bus Baltimore | 92 Limo Service",
-    "metaDescription": "Party Bus Baltimore: chauffeur-driven limo-style party van (up to 12 passengers). Flat rates, 24/7 availability across MD, DC & VA. Book online or call 877-679-0100.",
+    "metaDescription": "Party Bus Baltimore: chauffeur-driven limo-style party van (up to 12 passengers). Flat rates, 24/7 availability across MD, DC & VA.",
     "eyebrow": "OUR FLEET",
     "h1": "Party Bus Baltimore",
     "subtitle": "A chauffeur-driven limo-style party van for birthdays, bachelorette parties, and nights on the town — flat-rated and available 24/7.",
@@ -5656,7 +5656,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "stretch-limo-baltimore": {
     "metaTitle": "Stretch Limo Alternative Baltimore | 92 Limo Service",
-    "metaDescription": "Stretch Limo Alternative Baltimore: chauffeur-driven modern stretch-limo alternative (up to 12 passengers). Flat rates, 24/7 availability across MD, DC & VA. Book online or call 877-679-0100.",
+    "metaDescription": "Stretch Limo Alternative Baltimore: chauffeur-driven modern stretch-limo alternative (up to 12 passengers). Flat rates, 24/7 availability across MD, DC & VA.",
     "eyebrow": "OUR FLEET",
     "h1": "Stretch Limo Alternative Baltimore",
     "subtitle": "A chauffeur-driven modern stretch-limo alternative for weddings, proms, and milestone celebrations — flat-rated and available 24/7.",
@@ -5728,7 +5728,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "suv-car-service-dc": {
     "metaTitle": "SUV Car Service Washington DC | 92 Limo Service",
-    "metaDescription": "SUV Car Service Washington DC: chauffeur-driven full-size luxury SUV (up to 6 passengers). Flat rates, 24/7 availability across MD, DC & VA. Book online or call 877-679-0100.",
+    "metaDescription": "SUV Car Service Washington DC: chauffeur-driven full-size luxury SUV (up to 6 passengers). Flat rates, 24/7 availability across MD, DC & VA.",
     "eyebrow": "OUR FLEET",
     "h1": "SUV Car Service Washington DC",
     "subtitle": "A chauffeur-driven full-size luxury SUV for families with luggage, security details, and group airport travel — flat-rated and available 24/7.",
@@ -5800,7 +5800,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "bmw-7-series-chauffeur": {
     "metaTitle": "BMW 7 Series Chauffeur Service | 92 Limo Service",
-    "metaDescription": "BMW 7 Series Chauffeur Service: chauffeur-driven first-class executive sedan (up to 3 passengers). Flat rates, 24/7 availability across MD, DC & VA. Book online or call 877-679-0100.",
+    "metaDescription": "BMW 7 Series Chauffeur Service: chauffeur-driven first-class executive sedan (up to 3 passengers). Flat rates, 24/7 availability across MD, DC & VA.",
     "eyebrow": "OUR FLEET",
     "h1": "BMW 7 Series Chauffeur Service",
     "subtitle": "A chauffeur-driven first-class executive sedan for C-suite travel, client pickups, and premium airport service — flat-rated and available 24/7.",
@@ -5872,7 +5872,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "baltimore-to-dc-car-service": {
     "metaTitle": "Baltimore to DC Car Service | 92 Limo Service",
-    "metaDescription": "Baltimore to DC Car Service: private chauffeured transfer, 55–75 minutes door-to-door. Flat all-inclusive rate, luxury vehicles, 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "Baltimore to DC Car Service: private chauffeured transfer, 55–75 minutes door-to-door. Flat all-inclusive rate, luxury vehicles, 24/7.",
     "eyebrow": "BALTIMORE → WASHINGTON DC",
     "h1": "Baltimore to DC Car Service",
     "subtitle": "Private chauffeured transfers from Baltimore to Washington DC — 55–75 minutes door-to-door at one flat, all-inclusive rate.",
@@ -5944,7 +5944,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "dc-to-baltimore-limo": {
     "metaTitle": "DC to Baltimore Limo Service | 92 Limo Service",
-    "metaDescription": "DC to Baltimore Limo Service: private chauffeured transfer, 55–75 minutes door-to-door. Flat all-inclusive rate, luxury vehicles, 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "DC to Baltimore Limo Service: private chauffeured transfer, 55–75 minutes door-to-door. Flat all-inclusive rate, luxury vehicles, 24/7.",
     "eyebrow": "WASHINGTON DC → BALTIMORE",
     "h1": "DC to Baltimore Limo Service",
     "subtitle": "Private chauffeured transfers from Washington DC to Baltimore — 55–75 minutes door-to-door at one flat, all-inclusive rate.",
@@ -6016,7 +6016,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "baltimore-to-annapolis-limo": {
     "metaTitle": "Baltimore to Annapolis Limo | 92 Limo Service",
-    "metaDescription": "Baltimore to Annapolis Limo: private chauffeured transfer, 40–50 minutes door-to-door. Flat all-inclusive rate, luxury vehicles, 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "Baltimore to Annapolis Limo: private chauffeured transfer, 40–50 minutes door-to-door. Flat all-inclusive rate, luxury vehicles, 24/7.",
     "eyebrow": "BALTIMORE → ANNAPOLIS",
     "h1": "Baltimore to Annapolis Limo",
     "subtitle": "Private chauffeured transfers from Baltimore to Annapolis — 40–50 minutes door-to-door at one flat, all-inclusive rate.",
@@ -6088,7 +6088,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "dca-to-baltimore": {
     "metaTitle": "DCA to Baltimore Car Service | 92 Limo Service",
-    "metaDescription": "DCA to Baltimore Car Service: private chauffeured transfer, 60–80 minutes door-to-door. Flat all-inclusive rate, luxury vehicles, 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "DCA to Baltimore Car Service: private chauffeured transfer, 60–80 minutes door-to-door. Flat all-inclusive rate, luxury vehicles, 24/7.",
     "eyebrow": "REAGAN NATIONAL AIRPORT (DCA) → BALTIMORE",
     "h1": "DCA to Baltimore Car Service",
     "subtitle": "Private chauffeured transfers from Reagan National Airport (DCA) to Baltimore — 60–80 minutes door-to-door at one flat, all-inclusive rate.",
@@ -6160,7 +6160,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "baltimore-to-philadelphia-limo": {
     "metaTitle": "Baltimore to Philadelphia Limo | 92 Limo Service",
-    "metaDescription": "Baltimore to Philadelphia Limo: private chauffeured transfer, about 2 hours door-to-door. Flat all-inclusive rate, luxury vehicles, 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "Baltimore to Philadelphia Limo: private chauffeured transfer, about 2 hours door-to-door. Flat all-inclusive rate, luxury vehicles, 24/7.",
     "eyebrow": "BALTIMORE → PHILADELPHIA",
     "h1": "Baltimore to Philadelphia Limo",
     "subtitle": "Private chauffeured transfers from Baltimore to Philadelphia — about 2 hours door-to-door at one flat, all-inclusive rate.",
@@ -6232,7 +6232,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "dc-to-new-york-car-service": {
     "metaTitle": "DC to New York Car Service | 92 Limo Service",
-    "metaDescription": "DC to New York Car Service: private chauffeured transfer, about 4 hours door-to-door. Flat all-inclusive rate, luxury vehicles, 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "DC to New York Car Service: private chauffeured transfer, about 4 hours door-to-door. Flat all-inclusive rate, luxury vehicles, 24/7.",
     "eyebrow": "WASHINGTON DC → NEW YORK CITY",
     "h1": "DC to New York Car Service",
     "subtitle": "Private chauffeured transfers from Washington DC to New York City — about 4 hours door-to-door at one flat, all-inclusive rate.",
@@ -6304,7 +6304,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "baltimore-to-new-york-limo": {
     "metaTitle": "Baltimore to New York Limo | 92 Limo Service",
-    "metaDescription": "Baltimore to New York Limo: private chauffeured transfer, 3.5–4 hours door-to-door. Flat all-inclusive rate, luxury vehicles, 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "Baltimore to New York Limo: private chauffeured transfer, 3.5–4 hours door-to-door. Flat all-inclusive rate, luxury vehicles, 24/7.",
     "eyebrow": "BALTIMORE → NEW YORK CITY",
     "h1": "Baltimore to New York Limo",
     "subtitle": "Private chauffeured transfers from Baltimore to New York City — 3.5–4 hours door-to-door at one flat, all-inclusive rate.",
@@ -6376,7 +6376,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "maryland-to-jfk-airport": {
     "metaTitle": "Maryland to JFK Airport Car Service | 92 Limo Service",
-    "metaDescription": "Maryland to JFK Airport Car Service: private chauffeured transfer, about 4 hours door-to-door. Flat all-inclusive rate, luxury vehicles, 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "Maryland to JFK Airport Car Service: private chauffeured transfer, about 4 hours door-to-door. Flat all-inclusive rate, luxury vehicles, 24/7.",
     "eyebrow": "MARYLAND → JFK AIRPORT",
     "h1": "Maryland to JFK Airport Car Service",
     "subtitle": "Private chauffeured transfers from Maryland to JFK Airport — about 4 hours door-to-door at one flat, all-inclusive rate.",
@@ -6448,7 +6448,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "maryland-to-newark-airport": {
     "metaTitle": "Maryland to Newark Airport Car Service | 92 Limo Service",
-    "metaDescription": "Maryland to Newark Airport Car Service: private chauffeured transfer, about 3.5 hours door-to-door. Flat all-inclusive rate, luxury vehicles, 24/7. Book online or call 877-679-0100.",
+    "metaDescription": "Maryland to Newark Airport Car Service: private chauffeured transfer, about 3.5 hours door-to-door. Flat all-inclusive rate, luxury vehicles, 24/7.",
     "eyebrow": "MARYLAND → NEWARK LIBERTY AIRPORT (EWR)",
     "h1": "Maryland to Newark Airport Car Service",
     "subtitle": "Private chauffeured transfers from Maryland to Newark Liberty Airport (EWR) — about 3.5 hours door-to-door at one flat, all-inclusive rate.",

@@ -14,6 +14,13 @@ const path = require("path");
 
 const PHONE = "877-679-0100";
 
+// Meta descriptions must stay under 160 characters or Google truncates them.
+// Append the call-to-action sentence only when the result still fits.
+const metaDesc = (base) => {
+  const withCta = `${base} Book online or call ${PHONE}.`;
+  return withCta.length <= 160 ? withCta : base;
+};
+
 // Vehicle label sets — must match `${category} — ${name}` in FLEET (src/lib/data.js)
 const SEDAN_TRIO = [
   "Business Sedan — Mercedes E-Class",
@@ -251,7 +258,7 @@ function airportPage(a, i) {
     slug: a.slug,
     entry: {
       metaTitle: `${a.kw} | 92 Limo Service`,
-      metaDescription: `${a.kw} with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7. Book online or call ${PHONE}.`,
+      metaDescription: metaDesc(`${a.kw} with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7.`),
       eyebrow: a.code === "BWI" ? "BWI MARSHALL" : a.code === "DCA" ? "REAGAN NATIONAL" : "DULLES INTERNATIONAL",
       h1: a.kw,
       subtitle: `Reliable, chauffeured ${noun} at ${a.airport} — flight-tracked pickups, flat rates, and luxury vehicles around the clock.`,
@@ -312,7 +319,7 @@ function servicePage(s, i) {
     slug: s.slug,
     entry: {
       metaTitle: `${s.kw} | 92 Limo Service`,
-      metaDescription: `${s.kw} with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving ${s.region} 24/7. Book online or call ${PHONE}.`,
+      metaDescription: metaDesc(`${s.kw} with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving ${s.region} 24/7.`),
       eyebrow: s.kw.toUpperCase(),
       h1: s.kw,
       subtitle: somber
@@ -378,7 +385,7 @@ function vehiclePage(v, i) {
     slug: v.slug,
     entry: {
       metaTitle: `${v.kw} | 92 Limo Service`,
-      metaDescription: `${v.kw}: chauffeur-driven ${v.cls} (${v.pax}). Flat rates, 24/7 availability across MD, DC & VA. Book online or call ${PHONE}.`,
+      metaDescription: metaDesc(`${v.kw}: chauffeur-driven ${v.cls} (${v.pax}). Flat rates, 24/7 availability across MD, DC & VA.`),
       eyebrow: "OUR FLEET",
       h1: v.kw,
       subtitle: `A chauffeur-driven ${v.cls} for ${v.best} — flat-rated and available 24/7.`,
@@ -423,7 +430,7 @@ function routePage(r, i) {
     slug: r.slug,
     entry: {
       metaTitle: `${r.kw} | 92 Limo Service`,
-      metaDescription: `${r.kw}: private chauffeured transfer, ${r.time} door-to-door. Flat all-inclusive rate, luxury vehicles, 24/7. Book online or call ${PHONE}.`,
+      metaDescription: metaDesc(`${r.kw}: private chauffeured transfer, ${r.time} door-to-door. Flat all-inclusive rate, luxury vehicles, 24/7.`),
       eyebrow: `${r.from.toUpperCase()} → ${r.to.toUpperCase()}`,
       h1: r.kw,
       subtitle: `Private chauffeured transfers from ${r.from} to ${r.to} — ${r.time} door-to-door at one flat, all-inclusive rate.`,
