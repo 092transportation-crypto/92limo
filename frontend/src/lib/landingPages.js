@@ -987,6 +987,218 @@ export const LANDING_PAGES = {
     ctaTitle: "Executive Travel, Northern Virginia Standard",
     ctaSubtitle: "Discreet chauffeurs and flat-rate black car service across Tysons, Reston, Arlington & Alexandria. Call (877) 609-1919.",
   },
+
+  "concert-transportation": {
+    metaTitle: "Concert & Event Transportation MD, DC & VA | 92 Limo",
+    metaDescription:
+      "Concert & event limo service across Maryland, DC & Virginia — CFG Bank Arena, Capital One Arena, Merriweather, stadiums & more. Call (877) 609-1919.",
+    eyebrow: "CONCERTS & EVENTS",
+    h1: "Concert & Event Transportation in Maryland, DC & Virginia",
+    subtitle:
+      "Chauffeured rides to every major venue in the DMV — arenas, stadiums, amphitheaters, and casinos — with door-side drop-offs and a guaranteed ride home after the encore.",
+    image: IMAGES.celebration,
+    alt: "Group celebrating in a luxury vehicle on the way to a concert with 92 Limo Service",
+    highlightsHeading: "Why Event Nights Run on 92 Limo",
+    intro: [
+      "The best nights in the DMV end at a venue — and the worst part of those nights is usually getting there and getting home. 92 Limo Service handles concert and event transportation across Maryland, Washington DC, and Virginia so the show is the only thing you think about. Your chauffeur picks you up at home, a restaurant, or a hotel, drops your group at the closest access point the venue allows, and is staged nearby when the house lights come up — no parking garages, no surge-priced rideshare queue, no designated driver drawing the short straw.",
+      "We cover every major venue in the region. In Baltimore, that means concerts at CFG Bank Arena downtown, Ravens Sundays at M&T Bank Stadium, and Orioles games at Camden Yards. In Washington, we run nightly service to Capital One Arena for Capitals and Wizards games and arena tours, Nationals Park for baseball and stadium shows, and Northwest Stadium (the former FedEx Field) in Landover for Commanders games and summer concerts. Out in the Maryland and Virginia suburbs, we serve Merriweather Post Pavilion in Columbia, Jiffy Lube Live in Bristow, Wolf Trap in Vienna, and MGM National Harbor's theater and casino floor — plus every smaller club, theater, and festival in between.",
+      "Event traffic is a specialty, not an afterthought. Our chauffeurs know which approach to take when Russell Street is gridlocked before kickoff, where to stage around Gallery Place when Capital One Arena lets out, and how the Merriweather lots move on a sold-out summer night. We time your drop-off so you are inside before the opener finishes, and we coordinate a specific post-show pickup point so you walk straight from the gates to a waiting vehicle while the crowd is still hunting for signal to open a rideshare app.",
+      "Groups are where chauffeured service really beats the alternatives. A Mercedes Sprinter keeps up to 14 friends together with the pregame playlist going, and our Escalade and Suburban SUVs carry date nights, families, and client entertaining in first-class comfort. Because nobody in your party is driving, everyone gets to enjoy the tailgate, the toast, and the last song — with a professional, background-checked chauffeur handling the ride home.",
+      "Every event trip is quoted as one flat, all-inclusive rate covering tolls, taxes, and gratuity — no meters and no surge pricing, even on the busiest show nights of the year. Book online in minutes or call (877) 609-1919 and tell us the venue, the date, and the size of your group; we will handle everything else.",
+    ],
+    highlights: [
+      { title: "Every Major DMV Venue", desc: "CFG Bank Arena, Capital One Arena, M&T Bank Stadium, Camden Yards, Nationals Park, Merriweather, Wolf Trap, Jiffy Lube Live, MGM National Harbor, and more." },
+      { title: "Door-Side Drop-Offs", desc: "We drop you at the closest access point the venue allows — no parking garages or long walks in the dark." },
+      { title: "Staged Post-Show Pickups", desc: "A coordinated pickup point and a chauffeur staged nearby, so you skip the rideshare scramble after the encore." },
+      { title: "Group Vans & SUVs", desc: "Sprinter vans seat up to 14 with the pregame playlist going; Escalades and Suburbans handle date nights and client outings." },
+      { title: "Safe Ride Home", desc: "Enjoy the tailgate and the toast — a professional, background-checked chauffeur handles the drive both ways." },
+      { title: "Flat Event-Night Pricing", desc: "One all-inclusive quote covering tolls, taxes, and gratuity — no surge pricing on sold-out nights." },
+    ],
+    areas: [
+      { region: "Maryland", places: [
+        { label: "CFG Bank Arena", to: "/cfg-bank-arena-transportation" },
+        { label: "M&T Bank Stadium", to: "/mt-bank-stadium-transportation" },
+        { label: "Camden Yards" },
+        { label: "Merriweather Post Pavilion", to: "/merriweather-post-pavilion-transportation" },
+        { label: "MGM National Harbor" },
+        { label: "Northwest Stadium (FedEx Field)" },
+      ] },
+      { region: "Washington, DC", places: [
+        { label: "Capital One Arena", to: "/capital-one-arena-transportation" },
+        { label: "Nationals Park" },
+        { label: "The Anthem" },
+        { label: "Kennedy Center" },
+      ] },
+      { region: "Virginia", places: [
+        { label: "Jiffy Lube Live" },
+        { label: "Wolf Trap" },
+        { label: "EagleBank Arena" },
+      ] },
+    ],
+    vehicles: GROUP_TRIO,
+    faqs: [
+      { q: "Which venues do you provide concert and event transportation to?", a: "All of them. Our most-requested venues are CFG Bank Arena, M&T Bank Stadium, and Camden Yards in Baltimore; Capital One Arena, Nationals Park, and Northwest Stadium (formerly FedEx Field) in the DC area; and Merriweather Post Pavilion, Jiffy Lube Live, Wolf Trap, and MGM National Harbor in the suburbs — plus clubs, theaters, and festivals across Maryland, DC, and Virginia." },
+      { q: "How does the pickup work after the show ends?", a: "Before the event we agree on a specific pickup point near the venue. Your chauffeur stages nearby as the show winds down and brings the vehicle to that spot, so you walk straight out of the gates to a waiting car instead of fighting the rideshare crowd." },
+      { q: "Can you take a big group to a concert together?", a: "Yes — that is our specialty. A Mercedes Sprinter van keeps up to 14 people together with room for coolers and gear, and our Escalade and Suburban SUVs handle smaller groups in first-class comfort. One vehicle, one price, nobody splitting up." },
+      { q: "Do you charge surge pricing on sold-out event nights?", a: "Never. Every event trip is quoted in advance as one flat, all-inclusive rate covering tolls, taxes, and gratuity — the same transparent price whether it is a Tuesday club show or a stadium sellout." },
+      { q: "Can we make stops before the show — dinner, drinks, or picking up friends?", a: "Absolutely. We can build multi-stop pickups into your reservation, or book hourly as-directed service so the chauffeur stays with your group from dinner through the final encore and home again." },
+      { q: "How far in advance should I book event transportation?", a: "For big shows and Ravens or Commanders home games, book as soon as you have tickets — vehicles sell out on major event nights. For smaller shows, a few days ahead is usually fine. Call (877) 609-1919 anytime, 24/7." },
+    ],
+    ctaTitle: "Make Your Next Show Effortless",
+    ctaSubtitle: "Flat-rate chauffeured rides to every arena, stadium, and amphitheater in the DMV — and a guaranteed ride home. Call (877) 609-1919 or book online.",
+  },
+
+  "cfg-bank-arena-transportation": {
+    metaTitle: "CFG Bank Arena Limo Service Baltimore | 92 Limo",
+    metaDescription:
+      "Limo & car service to CFG Bank Arena in downtown Baltimore — concert drop-offs at the door, staged post-show pickups & group vans. Call (877) 609-1919.",
+    eyebrow: "CFG BANK ARENA",
+    h1: "CFG Bank Arena Limo Service in Baltimore",
+    subtitle:
+      "Chauffeured rides to Baltimore's premier concert arena — dropped at the door on Baltimore Street, picked up the moment the show ends.",
+    image: IMAGES.heroBg,
+    alt: "Black luxury vehicle arriving in downtown Baltimore for a CFG Bank Arena concert",
+    highlightsHeading: "The Smart Way Into a Downtown Show",
+    intro: [
+      "Since its top-to-bottom renovation, CFG Bank Arena at 201 West Baltimore Street has become one of the busiest concert venues in the country, pulling A-list tours, comedy residencies, and family shows into the heart of downtown Baltimore. What has not changed is downtown parking: garages that fill early, charge premium event rates, and take half an hour to exit when 14,000 people leave at once. 92 Limo Service solves the whole problem — your chauffeur drops your group steps from the arena doors and is staged nearby when the final song ends.",
+      "We time arrivals around the arena's rhythm. Doors typically open an hour before showtime, and Baltimore Street, Hopkins Place, and the surrounding blocks tighten up fast as it approaches. Your chauffeur plans the approach based on real conditions — coming in from I-95, I-83, or the neighborhoods — so you are inside for the opener instead of circling a full garage. Coming from Annapolis, Columbia, Towson, or the DC suburbs? We handle the whole run door-to-door, so nobody in your party has to drive home tired on the highway at midnight.",
+      "The post-show pickup is where we earn repeat clients. Before the event we agree on an exact pickup point a short walk from the exits, away from the worst of the crush. As the encore starts, your chauffeur moves into position; you walk out, get in, and are gliding up Charles Street while half the crowd is still staring at a surge-priced rideshare screen. It is a small thing that completely changes how a concert night feels.",
+      "Make it a full evening: we regularly pair CFG Bank Arena shows with dinner in Little Italy, Fells Point, or Harbor East, running hourly as-directed service so the same chauffeur carries your group from the restaurant to the arena and home again. Date nights ride the Escalade; birthday crews and work outings take a Sprinter van that seats up to 14 with the playlist going. Every trip is one flat, all-inclusive quote — tolls, taxes, and gratuity included, no surge on sold-out nights. Reserve online or call (877) 609-1919 with your show date.",
+    ],
+    highlights: [
+      { title: "Steps From the Doors", desc: "Drop-off at the closest access point on Baltimore Street — no garages, no event-rate parking, no long walks." },
+      { title: "Staged Post-Show Pickup", desc: "An agreed pickup point and a chauffeur moving into position during the encore, so you leave ahead of the crowd." },
+      { title: "Door-to-Door From Anywhere", desc: "Home pickup across Baltimore, Annapolis, Columbia, Towson, and the DC suburbs — both directions covered." },
+      { title: "Dinner + Show Packages", desc: "Hourly as-directed service pairs the arena with Little Italy, Fells Point, or Harbor East before the show." },
+      { title: "Group Vans & SUVs", desc: "Sprinter vans seat up to 14 for birthday crews and work outings; Escalades handle date nights in style." },
+      { title: "Flat, All-Inclusive Rate", desc: "One quote covering tolls, taxes, and gratuity — no meters, no surge pricing on sellout nights." },
+    ],
+    vehicles: GROUP_TRIO,
+    faqs: [
+      { q: "Where do you drop off at CFG Bank Arena?", a: "As close to the arena entrances as event-night traffic control allows — typically on West Baltimore Street or Hopkins Place, steps from the doors. Your chauffeur adjusts to the arena's traffic pattern for that event." },
+      { q: "How does pickup work after a CFG Bank Arena show?", a: "We set an exact pickup point with you before the event, a short walk from the exits and clear of the worst congestion. Your chauffeur stages nearby during the encore and is waiting when you walk out." },
+      { q: "Can you pick us up outside Baltimore?", a: "Yes — we run CFG Bank Arena trips from Annapolis, Columbia, Ellicott City, Towson, Bel Air, Frederick, DC, and Northern Virginia. Door-to-door both ways, so nobody drives home late." },
+      { q: "Can we do dinner before the show?", a: "Absolutely. Book hourly as-directed service and the same chauffeur takes your group to dinner in Little Italy, Fells Point, or Harbor East, then to the arena, then home after the show." },
+      { q: "How many people fit in one vehicle?", a: "Our Mercedes Sprinter vans seat up to 14 passengers together, and the Cadillac Escalade and Chevrolet Suburban carry up to 6–7 in first-class comfort. One vehicle keeps the whole group and the pregame energy together." },
+      { q: "Is the price fixed on big concert nights?", a: "Yes. Every trip is quoted in advance as one flat, all-inclusive rate covering tolls, taxes, and gratuity — no surge pricing, even for a sold-out show. Call (877) 609-1919 for a quote." },
+    ],
+    ctaTitle: "Book Your CFG Bank Arena Ride",
+    ctaSubtitle: "Door-side drop-off, a staged pickup after the encore, and one flat rate. Call (877) 609-1919 or reserve online.",
+  },
+
+  "capital-one-arena-transportation": {
+    metaTitle: "Capital One Arena Transportation DC | 92 Limo",
+    metaDescription:
+      "Car service to Capital One Arena in DC — Caps & Wizards games, concerts, door-side drop-offs & staged post-game pickups. Call (877) 609-1919 to book.",
+    eyebrow: "CAPITAL ONE ARENA",
+    h1: "Capital One Arena Transportation in Washington DC",
+    subtitle:
+      "Chauffeured service to DC's downtown arena for Capitals and Wizards games, concerts, and college hoops — without the Gallery Place parking battle.",
+    image: IMAGES.dcSkyline,
+    alt: "Washington DC skyline — chauffeured transportation to Capital One Arena",
+    highlightsHeading: "Downtown Arena Nights, Handled",
+    intro: [
+      "Capital One Arena sits in the middle of one of the densest entertainment districts in the country — Gallery Place and Penn Quarter, at 7th and F Streets NW — which is exactly why driving to it is miserable. Garages hit event rates and fill early, street parking is a fantasy, and when 18,000 fans pour out onto 7th Street after a Capitals overtime winner, the rideshare pickup zones descend into chaos. 92 Limo Service gives you the other version of that night: dropped at the corner closest to your entrance, and picked up at a pre-arranged point by a chauffeur who staged for you during the third period.",
+      "We run Capital One Arena service for every kind of event on the calendar — Capitals and Wizards home games, Georgetown basketball, A-list concert tours, and everything in between. Your chauffeur knows how the DC traffic control pattern shifts on event nights, which approach works when 7th Street closes, and where to stage around Chinatown so your pickup is a two-minute walk instead of a forty-minute wait. Coming in from Bethesda, Arlington, Tysons, Silver Spring, or Baltimore, you ride door-to-door in a quiet cabin instead of hunting for Metro parking or paying event-night garage rates.",
+      "For corporate clients, the arena is a client-entertainment staple, and we treat it that way: polished chauffeurs and immaculate black vehicles for suite nights, coordinated multi-stop pickups so your party arrives together, and discreet, on-time returns that respect early mornings. Season-ticket holders set up standing game-night reservations — same chauffeur, same routine, every home game — billed to one account.",
+      "Groups do it best in one vehicle. A Mercedes Sprinter van keeps up to 14 friends or colleagues together from the first pickup to the final drop-off, and the Escalade and Suburban are perfect for couples and small crews who want to arrive in style. Pair the game or show with dinner in Penn Quarter or drinks on 7th Street using hourly as-directed service, and the vehicle is simply there each time you walk out. Every trip is one flat, all-inclusive quote — tolls, taxes, and gratuity included, no surge when the game goes to overtime. Book online or call (877) 609-1919.",
+    ],
+    highlights: [
+      { title: "Caps, Wizards & Concerts", desc: "Service to every Capital One Arena event — NHL and NBA games, Georgetown hoops, and major concert tours." },
+      { title: "Beat the Gallery Place Crush", desc: "Drop-off at the corner closest to your entrance and a staged pickup that skips the post-game rideshare chaos." },
+      { title: "Suite & Client Entertaining", desc: "Polished black-car service for suite nights, with coordinated multi-stop pickups and discreet returns." },
+      { title: "From Anywhere in the DMV", desc: "Door-to-door from Bethesda, Arlington, Tysons, Silver Spring, Baltimore, and beyond — both directions." },
+      { title: "Standing Game-Night Service", desc: "Season-ticket holders get the same chauffeur and routine every home game, billed to one account." },
+      { title: "No Overtime Surge", desc: "One flat, all-inclusive quote covering tolls, taxes, and gratuity — the price never changes when the game runs long." },
+    ],
+    vehicles: GROUP_TRIO,
+    faqs: [
+      { q: "Where do you drop off at Capital One Arena?", a: "At the closest corner to your entrance that event-night traffic control allows — typically along F Street or 6th Street NW, a short walk from the gates. Your chauffeur adapts to that night's street closures." },
+      { q: "How do you handle the post-game pickup crowds?", a: "We agree on a specific pickup point a couple of blocks clear of the worst congestion before the event. Your chauffeur stages during the final period or encore and is in position when you walk out — no pickup-zone scrum." },
+      { q: "What if the game goes to overtime or the show runs late?", a: "Nothing changes. Your chauffeur monitors the event and adjusts, and your flat quote stays exactly the same — we never add surge or waiting penalties for a long game." },
+      { q: "Do you serve suite holders and corporate groups?", a: "Yes — client entertaining at Capital One Arena is one of our most common corporate bookings. We coordinate multiple pickups, keep the party together in one vehicle, and can bill everything to a corporate account." },
+      { q: "Can you pick us up in Maryland or Virginia?", a: "Of course. We run arena trips from Bethesda, Rockville, Silver Spring, Arlington, Alexandria, Tysons, Baltimore, Annapolis, and across the DMV — door-to-door in both directions." },
+      { q: "How far ahead should we book for a big game or concert?", a: "As soon as you have tickets for marquee events — playoff games and major tours book out our fleet. For regular-season games, a few days ahead usually works. Call (877) 609-1919 anytime." },
+    ],
+    ctaTitle: "Book Your Capital One Arena Ride",
+    ctaSubtitle: "Skip the Gallery Place parking battle — flat-rate chauffeured service to every game and show. Call (877) 609-1919.",
+  },
+
+  "mt-bank-stadium-transportation": {
+    metaTitle: "M&T Bank Stadium Limo — Ravens Game Rides | 92 Limo",
+    metaDescription:
+      "Ravens game-day limo service to M&T Bank Stadium — tailgate drop-offs, staged post-game pickups & Sprinter vans for your crew. Call (877) 609-1919.",
+    eyebrow: "M&T BANK STADIUM",
+    h1: "M&T Bank Stadium Limo Service for Ravens Games",
+    subtitle:
+      "Purple Sundays without the parking-lot grind — tailgate-timed drop-offs, a safe ride home after the final whistle, and room for the whole crew.",
+    image: IMAGES.suv,
+    alt: "Black luxury SUV on Ravens game day near M&T Bank Stadium in Baltimore",
+    highlightsHeading: "Game Day, Upgraded",
+    intro: [
+      "There is nothing casual about a Ravens home game. The lots around M&T Bank Stadium open hours before kickoff, Russell Street turns into a purple river, and by the two-minute warning everyone in the building is already dreading the parking-lot exit. 92 Limo Service takes the entire logistics problem off your plate: your chauffeur picks up your crew at home, drops you at the edge of the tailgate lots or as close to your gate as game-day traffic control allows, and is staged at an agreed pickup point when the final whistle blows.",
+      "Tailgating is half the point of a Ravens Sunday, so we plan around it. Tell us when your lot crew fires up the grill and we will time the drop-off to match — with room in a Suburban, Escalade, or Sprinter van for coolers, chairs, cornhole boards, and flags. Because nobody in your group is driving, everybody gets to enjoy the tailgate the way it is meant to be enjoyed, and the ride home is handled by a professional, background-checked chauffeur instead of the friend who volunteered at 8 a.m. and regretted it by halftime.",
+      "The post-game exit is where chauffeured service pays for itself. The stadium sits between Russell Street and I-95, and the lots can take an hour to clear. We set a specific pickup point before the game, clear of the worst choke points; your chauffeur monitors the fourth quarter and moves into position, and you walk from the gates to a waiting vehicle while thousands of fans are still sitting in a parking lot with their engines off. Works the same for Navy football, stadium concerts, and international soccer friendlies at M&T.",
+      "We run game-day service from every direction — Baltimore neighborhoods, Towson, Bel Air, Annapolis, Columbia, Frederick, DC, and Northern Virginia — and corporate clients use us for suite entertaining all season, with multi-stop pickups and one consolidated account. Every trip is a flat, all-inclusive quote covering tolls, taxes, and gratuity, and the price does not move when the game goes long. Lock in your season or single-game rides online or at (877) 609-1919.",
+    ],
+    highlights: [
+      { title: "Tailgate-Timed Drop-Offs", desc: "We match your lot crew's schedule, with cargo room for coolers, chairs, cornhole boards, and flags." },
+      { title: "Staged Post-Game Pickup", desc: "An agreed pickup point clear of the Russell Street crush — your chauffeur is in position at the final whistle." },
+      { title: "The Whole Crew, One Vehicle", desc: "Sprinter vans seat up to 14; Escalades and Suburbans carry families and small groups in comfort." },
+      { title: "Safe Ride Home", desc: "Everyone enjoys the tailgate — a professional chauffeur handles the drive there and back." },
+      { title: "Suite & Corporate Season Service", desc: "Multi-stop pickups and consolidated billing for client entertaining, every home game." },
+      { title: "Flat Game-Day Rate", desc: "One all-inclusive quote — tolls, taxes, and gratuity included, no surge in overtime." },
+    ],
+    vehicles: GROUP_TRIO,
+    faqs: [
+      { q: "Where do you drop off for Ravens games?", a: "As close to your gate or tailgate lot as game-day traffic control allows — the pattern around Russell Street and Hamburg Street changes by event, and our chauffeurs adjust to it every week." },
+      { q: "Can you drop us at the tailgate lots early?", a: "Yes — tell us when your crew sets up and we will time the drop-off to match, with room in the vehicle for coolers, chairs, and gear. We come back whenever you are ready after the game." },
+      { q: "How do we find our ride after the game?", a: "Before kickoff we agree on an exact pickup point a short walk from the stadium, clear of the worst congestion. Your chauffeur monitors the game clock, stages nearby, and is waiting when you walk out." },
+      { q: "How many people can ride together?", a: "Up to 14 in a Mercedes Sprinter van, or 6–7 in an Escalade or Suburban — everyone stays together with the gear, instead of splitting across cars." },
+      { q: "Do you also serve concerts and other events at M&T Bank Stadium?", a: "Yes — stadium concerts, Navy football, lacrosse championships, and international soccer matches all get the same drop-off, staging, and flat-rate treatment as Ravens Sundays." },
+      { q: "What does a game-day trip cost?", a: "It depends on your pickup location and vehicle, but every quote is flat and all-inclusive — tolls, taxes, and gratuity included, with no surge pricing. Call (877) 609-1919 with your address and group size for an exact price." },
+    ],
+    ctaTitle: "Lock In Your Ravens Game-Day Ride",
+    ctaSubtitle: "Tailgate drop-offs, a staged post-game pickup, and one flat rate for the whole crew. Call (877) 609-1919.",
+  },
+
+  "merriweather-post-pavilion-transportation": {
+    metaTitle: "Merriweather Post Pavilion Transportation | 92 Limo",
+    metaDescription:
+      "Concert transportation to Merriweather Post Pavilion in Columbia, MD — skip the lot lines with door-side drop-offs & group vans. Call (877) 609-1919.",
+    eyebrow: "MERRIWEATHER POST PAVILION",
+    h1: "Merriweather Post Pavilion Concert Transportation",
+    subtitle:
+      "Chauffeured rides to Columbia's legendary amphitheater — skip the lot lines in, skip the hour-long crawl out, and let the whole group enjoy the show.",
+    image: IMAGES.sprinterPartyInterior,
+    alt: "Group riding a Mercedes Sprinter van to a concert at Merriweather Post Pavilion",
+    highlightsHeading: "The Better Way Into the Woods",
+    intro: [
+      "Merriweather Post Pavilion is one of the great outdoor venues in America — a 19,000-capacity amphitheater tucked into the trees of Symphonia Woods in downtown Columbia, Maryland, with a summer calendar that runs from legacy rock tours to festival weekends. It is also famous for one other thing: the parking. The lots scattered around the Merriweather District fill early, the walk in can be long, and the crawl out after a sold-out show routinely eats an hour before you even reach Route 29. 92 Limo Service exists for exactly this venue.",
+      "Your chauffeur drops your group at the closest drop-off point the venue's event pattern allows — a short walk to the gates instead of a hike from a distant lot — timed so you are through security before the opener. After the show, you head to a pre-arranged pickup point where your vehicle is already staged, and you are on Broken Land Parkway or Route 29 while most of the crowd is still locked in the lots with their headlights pointed at a fence. On a summer night, that difference is the whole evening.",
+      "Merriweather crowds come from everywhere, and so do our pickups: Baltimore, Ellicott City, Annapolis, Silver Spring, Bethesda, DC, and Northern Virginia. Lawn-seat crews pile into a Mercedes Sprinter van — up to 14 people, the playlist on, room for blankets and layers for when the temperature drops after sunset. Date nights and small groups take the Escalade or Suburban. And because a chauffeur is driving, the pre-show cocktails and the beer garden are guilt-free for everyone in the party.",
+      "We also cover the rest of the calendar in the Merriweather District — festivals, Symphony of Lights season, and shows at the smaller Chrysalis stage — plus dinner-first itineraries at the restaurants around the district or in Clarksville and Ellicott City using hourly as-directed service. Every trip is one flat, all-inclusive quote with tolls, taxes, and gratuity included, and the rate does not surge when a festival lets out. Reserve your show date online or call (877) 609-1919 — summer weekends book up fast.",
+    ],
+    highlights: [
+      { title: "Skip the Lot Crawl", desc: "Door-side drop-off before the opener and a staged pickup that beats the hour-long post-show exit." },
+      { title: "Lawn-Crew Sprinter Vans", desc: "Up to 14 friends, the playlist going, and room for blankets and layers for after sunset." },
+      { title: "Pickups Across the DMV", desc: "Door-to-door from Baltimore, Ellicott City, Annapolis, Bethesda, DC, and Northern Virginia." },
+      { title: "Guilt-Free Beer Garden", desc: "A professional chauffeur drives both ways, so everyone in the group actually gets to enjoy the show." },
+      { title: "Festivals & Full Season", desc: "Same service for festival weekends, the Chrysalis stage, and everything on the Merriweather calendar." },
+      { title: "Flat Summer-Night Rate", desc: "One all-inclusive quote — tolls, taxes, and gratuity included, no surge when the show lets out." },
+    ],
+    vehicles: GROUP_TRIO,
+    faqs: [
+      { q: "Where do you drop off at Merriweather Post Pavilion?", a: "At the closest drop-off point the venue's event traffic pattern allows in the Merriweather District, a short walk from the gates — far closer than most of the parking lots. Your chauffeur adjusts to that night's setup." },
+      { q: "How bad is leaving after a show, really?", a: "Sold-out nights routinely take an hour just to exit the lots onto Route 29 or Broken Land Parkway. With a pre-arranged pickup point and a staged chauffeur, you are typically moving within minutes of walking out." },
+      { q: "Can a big lawn group ride together?", a: "Yes — a Mercedes Sprinter van seats up to 14 with room for blankets, layers, and gear. It is more comfortable and usually cheaper per person than a fleet of surge-priced rideshares." },
+      { q: "Where do you pick up from?", a: "All over the region — Baltimore, Ellicott City, Columbia itself, Annapolis, Silver Spring, Bethesda, Washington DC, and Northern Virginia. Door-to-door in both directions." },
+      { q: "Can we do dinner before the show?", a: "Absolutely. Book hourly as-directed service and your chauffeur handles dinner in the Merriweather District, Clarksville, or Ellicott City, then the show, then home — one vehicle all evening." },
+      { q: "When should we book for a summer concert?", a: "As soon as you have tickets. Merriweather's summer weekends are among our busiest nights and Sprinter vans go first. Call (877) 609-1919 anytime to lock in your date." },
+    ],
+    ctaTitle: "Book Your Merriweather Ride",
+    ctaSubtitle: "Door-side drop-off, a staged pickup after the encore, and a flat rate for the whole lawn crew. Call (877) 609-1919.",
+  },
 };
 
 // Slugs grouped for navigation / sitemap.
