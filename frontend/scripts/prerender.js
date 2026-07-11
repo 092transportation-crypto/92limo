@@ -315,6 +315,7 @@ function buildLinksFooter(data) {
     ["/fleet", "Fleet"],
     ["/service-areas", "Service Areas"],
     ["/coverage", "Coverage"],
+    ["/concert-transportation", "Events & Concerts"],
     ["/about", "About"],
     ["/reviews", "Reviews"],
     ["/gallery", "Gallery"],

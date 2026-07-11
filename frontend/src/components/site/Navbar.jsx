@@ -27,6 +27,7 @@ const LINKS = [
   { label: "Fleet", to: "/fleet" },
   { label: "Services", to: "/services", children: NAV_SERVICES },
   { label: "Routes", to: "/coverage", children: ROUTES_MENU, wide: true },
+  { label: "Events & Concerts", to: "/concert-transportation" },
   { label: "Service Areas", to: "/service-areas" },
   { label: "About", to: "/about" },
   { label: "Reviews", to: "/reviews" },
