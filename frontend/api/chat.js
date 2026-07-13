@@ -16,10 +16,10 @@ Answer customer questions about:
 - Services: airport transfers (BWI, DCA, IAD), corporate travel, weddings, special events, hourly service
 - Fleet: Business Sedan (Mercedes E-Class), First Class Sedan (BMW 7 Series, Mercedes S-Class), Midsize SUV (Lincoln Nautilus), Luxury SUV (Chevrolet Suburban), Premium SUV (Cadillac Escalade), Sprinter Van, Sprinter Limo
 - Service areas: Maryland, Washington DC, Northern Virginia, Delaware
-- Booking: direct customers to call (877) 679-0100 or visit the booking page
+- Booking: direct customers to call (877) 609-1919 or visit the booking page
 - Pricing: explain that pricing is based on route and vehicle, offer to connect them with a quote
 
-Always be professional, warm, and helpful. If you don't know something specific, direct them to call (877) 679-0100. Keep responses concise — 2-3 sentences max.`;
+Always be professional, warm, and helpful. If you don't know something specific, direct them to call (877) 609-1919. Keep responses concise — 2-3 sentences max.`;
 
 // Keep requests bounded: cap history depth and per-message size.
 const MAX_MESSAGES = 30;
@@ -79,7 +79,7 @@ module.exports = async (req, res) => {
       const friendly =
         response.status === 429
           ? "The assistant is busy right now. Please try again in a moment."
-          : "The assistant is temporarily unavailable. Please call (877) 679-0100.";
+          : "The assistant is temporarily unavailable. Please call (877) 609-1919.";
       return res.status(502).json({ detail: friendly });
     }
 
@@ -89,7 +89,7 @@ module.exports = async (req, res) => {
     if (!reply) {
       return res
         .status(502)
-        .json({ detail: "The assistant could not answer. Please call (877) 679-0100." });
+        .json({ detail: "The assistant could not answer. Please call (877) 609-1919." });
     }
 
     return res.status(200).json({ reply });
@@ -97,6 +97,6 @@ module.exports = async (req, res) => {
     console.error("[chat] request failed:", err);
     return res
       .status(502)
-      .json({ detail: "The assistant is temporarily unavailable. Please call (877) 679-0100." });
+      .json({ detail: "The assistant is temporarily unavailable. Please call (877) 609-1919." });
   }
 };

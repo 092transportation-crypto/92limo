@@ -23,7 +23,7 @@ export default function BookingPage() {
       <LimoBizWidget />
       <CTASection
         title="Questions Before You Book?"
-        subtitle="Call 877-679-0100 anytime, or visit our contact page for general inquiries."
+        subtitle="Call (877) 609-1919 anytime, or visit our contact page for general inquiries."
       />
     </>
   );

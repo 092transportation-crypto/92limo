@@ -18,7 +18,7 @@ export default function CityPage() {
       "@type": "LimousineService",
       name: `92 Limo Service — ${data.name}, MD`,
       url: `https://92limo.com/airport-car-service/${data.slug}`,
-      telephone: "+1-877-679-0100",
+      telephone: "+1-(877) 609-1919",
       email: BRAND.email,
       image: IMAGES.logo,
       priceRange: "$$$",

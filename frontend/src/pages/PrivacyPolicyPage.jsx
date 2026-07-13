@@ -156,7 +156,7 @@ export default function PrivacyPolicyPage() {
         <LP>
           92 Limo Service
           <br />
-          Phone: 877-679-0100
+          Phone: (877) 609-1919
           <br />
           Email: info@92limo.com
           <br />

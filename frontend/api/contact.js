@@ -56,7 +56,7 @@ module.exports = async (req, res) => {
 
   if (adminResult.status !== "fulfilled") {
     return res.status(502).json({
-      detail: "We could not deliver your message right now. Please call us at 877-679-0100.",
+      detail: "We could not deliver your message right now. Please call us at (877) 609-1919.",
     });
   }
 

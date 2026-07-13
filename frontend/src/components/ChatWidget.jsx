@@ -55,7 +55,7 @@ export default function ChatWidget() {
       }
       setMessages([...history, { role: "assistant", content: data.reply }]);
     } catch (err) {
-      setError(err.message || "Something went wrong. Please call (877) 679-0100.");
+      setError(err.message || "Something went wrong. Please call (877) 609-1919.");
     } finally {
       setLoading(false);
     }

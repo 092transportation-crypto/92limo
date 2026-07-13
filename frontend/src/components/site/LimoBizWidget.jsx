@@ -43,8 +43,8 @@ export function LimoBizWidget() {
           </h2>
           <p className="mt-3 text-neutral-600">
             Instant quotes and confirmed reservations, 24/7 — or call{" "}
-            <a href="tel:+18776790100" className="font-semibold text-[#B8860B] hover:underline">
-              877-679-0100
+            <a href="tel:+18776091919" className="font-semibold text-[#B8860B] hover:underline">
+              (877) 609-1919
             </a>
             .
           </p>

@@ -12,7 +12,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const PHONE = "877-679-0100";
+const PHONE = "(877) 609-1919";
 
 // Meta descriptions must stay under 160 characters or Google truncates them.
 // Append the call-to-action sentence only when the result still fits.

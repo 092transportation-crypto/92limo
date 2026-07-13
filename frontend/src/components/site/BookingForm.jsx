@@ -81,7 +81,7 @@ export const BookingForm = () => {
       });
       setForm(EMPTY);
     } catch (err) {
-      toast.error("Something went wrong. Please call 877-679-0100.");
+      toast.error("Something went wrong. Please call (877) 609-1919.");
       // eslint-disable-next-line no-console
       console.error("Booking submit failed:", err);
     } finally {

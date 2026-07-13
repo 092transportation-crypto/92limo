@@ -14,7 +14,7 @@ const API_BASE = process.env.REACT_APP_BACKEND_URL || "";
 
 // Consent text before the inline "privacy policy page" and "Terms & Conditions" links.
 const SMS_CONSENT_TEXT =
-  "By checking this box, you agree to receive SMS messages from 92 Limo Service related to Customer Care. You may reply STOP to opt out at any time. Reply HELP to 877-679-0100 for assistance. Messages and data rates may apply. Message frequency will vary. Learn more on our ";
+  "By checking this box, you agree to receive SMS messages from 92 Limo Service related to Customer Care. You may reply STOP to opt out at any time. Reply HELP to (877) 609-1919 for assistance. Messages and data rates may apply. Message frequency will vary. Learn more on our ";
 
 const EMPTY = { name: "", email: "", phone: "", preferred_contact: "", message: "", sms_consent: false };
 
@@ -59,7 +59,7 @@ export const ContactForm = () => {
       track("contact_submit", { currency: "USD", value: 1 });
       setForm(EMPTY);
     } catch (err) {
-      toast.error("Something went wrong. Please call 877-679-0100.");
+      toast.error("Something went wrong. Please call (877) 609-1919.");
       // eslint-disable-next-line no-console
       console.error("Contact submit failed:", err);
     } finally {

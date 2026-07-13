@@ -23,7 +23,7 @@ const vm = require("vm");
 
 const ROOT = path.resolve(__dirname, "..");
 const BUILD_DIR = path.join(ROOT, "build");
-const PHONE = "877-679-0100";
+const PHONE = "(877) 609-1919";
 const ORIGIN = "https://www.92limo.com";
 
 // ---------------------------------------------------------------------------
@@ -335,7 +335,7 @@ function buildLinksFooter(data) {
     group("Airport car service by city", cities) +
     group("Popular routes", landings) +
     (social.length ? group("Follow 92 Limo Service", social) : "") +
-    `<p>Call 92 Limo Service 24/7 at <a href="tel:+18776790100">${PHONE}</a>.</p>`
+    `<p>Call 92 Limo Service 24/7 at <a href="tel:+18776091919">${PHONE}</a>.</p>`
   );
 }
 

@@ -124,7 +124,7 @@ export default function CoveragePage() {
         </div>
       </section>
 
-      <CTASection title="Don't See Your Town?" subtitle="If you're anywhere in the region — or need a long-distance trip — we can help. Call 877-679-0100 or request a quote." />
+      <CTASection title="Don't See Your Town?" subtitle="If you're anywhere in the region — or need a long-distance trip — we can help. Call (877) 609-1919 or request a quote." />
     </>
   );
 }

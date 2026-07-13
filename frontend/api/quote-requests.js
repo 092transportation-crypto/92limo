@@ -69,7 +69,7 @@ module.exports = async (req, res) => {
   // The admin notification is the inquiry's system of record — fail if it didn't send.
   if (adminResult.status !== "fulfilled") {
     return res.status(502).json({
-      detail: "We could not deliver your request right now. Please call us at 877-679-0100.",
+      detail: "We could not deliver your request right now. Please call us at (877) 609-1919.",
     });
   }
 

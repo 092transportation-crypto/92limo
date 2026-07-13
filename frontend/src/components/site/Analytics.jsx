@@ -29,7 +29,7 @@ export const Analytics = () => {
       if (!el) return;
       const tel = e.target.closest('a[href^="tel:"]');
       if (tel) {
-        track("click_to_call", { phone: "877-679-0100", page_path: location.pathname });
+        track("click_to_call", { phone: "(877) 609-1919", page_path: location.pathname });
         return;
       }
       const tid = el.getAttribute("data-testid") || "";
