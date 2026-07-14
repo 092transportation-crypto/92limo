@@ -13,7 +13,10 @@ import {
   Facebook,
   Instagram,
   MapPin,
+  Users,
+  Luggage,
 } from "lucide-react";
+import { FLEET } from "@/lib/data";
 
 const PHONE_DISPLAY = "(877) 609-1919";
 const PHONE_E164 = "+18776091919";
@@ -32,12 +35,11 @@ const BADGES = [
   { Icon: UserRoundCheck, label: "Professional", sub: "Chauffeurs" },
 ];
 
-const FLEET = [
-  { name: "Business Sedan", detail: "Mercedes E-Class", img: "/images/mercedes-e-class.jpg" },
-  { name: "First Class Sedan", detail: "BMW 7 Series", img: "/fleet/bmw-7-series.jpg" },
-  { name: "Luxury SUV", detail: "Chevrolet Suburban", img: "/images/chevy-suburban.jpg" },
-  { name: "Sprinter Van", detail: "Mercedes Sprinter", img: "/images/mercedes-sprinter.jpg" },
-];
+// Full site fleet, with the dual-model label used on the printed card.
+const FLEET_CARDS = FLEET.map((v) => ({
+  ...v,
+  name: v.category === "First Class Sedan" ? "BMW 7 Series / Mercedes S-Class" : v.name,
+}));
 
 const AREAS = ["Maryland", "Washington DC", "Virginia", "Delaware"];
 
@@ -141,15 +143,25 @@ export default function CardPage() {
             Our <span className="gold-text">Fleet</span>
           </h2>
           <div className="-mx-5 mt-4 flex snap-x snap-mandatory gap-4 overflow-x-auto px-5 pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-            {FLEET.map(({ name, detail, img }) => (
+            {FLEET_CARDS.map(({ category, name, pax, bags, img, alt }) => (
               <div
-                key={name}
-                className="w-56 shrink-0 snap-center overflow-hidden rounded-2xl border border-[#C9A227]/20 bg-[#111]"
+                key={category}
+                className="w-60 shrink-0 snap-center overflow-hidden rounded-2xl border border-[#C9A227]/20 bg-[#111]"
               >
-                <img src={img} alt={`${name} — ${detail}`} className="h-36 w-full object-cover" loading="lazy" />
+                <img src={img} alt={alt} className="h-36 w-full object-cover" loading="lazy" />
                 <div className="px-4 py-3">
-                  <p className="text-sm font-bold">{name}</p>
-                  <p className="text-[11px] uppercase tracking-wider text-[#C9A227]">{detail}</p>
+                  <p className="text-[11px] font-bold uppercase tracking-wider text-[#C9A227]">{category}</p>
+                  <p className="mt-0.5 truncate text-sm font-bold" title={name}>{name}</p>
+                  <div className="mt-2 flex items-center gap-4 text-[12px] text-neutral-400">
+                    <span className="flex items-center gap-1.5">
+                      <Users className="h-3.5 w-3.5 text-[#C9A227]" strokeWidth={1.8} />
+                      {pax} Passengers
+                    </span>
+                    <span className="flex items-center gap-1.5">
+                      <Luggage className="h-3.5 w-3.5 text-[#C9A227]" strokeWidth={1.8} />
+                      {bags} Bags
+                    </span>
+                  </div>
                 </div>
               </div>
             ))}
