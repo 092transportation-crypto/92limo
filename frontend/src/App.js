@@ -1,5 +1,5 @@
 import "@/App.css";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate, useLocation } from "react-router-dom";
 import { Toaster } from "@/components/ui/sonner";
 import Layout from "@/components/site/Layout";
 import Home from "@/pages/Home";
@@ -20,7 +20,15 @@ import CoveragePage from "@/pages/CoveragePage";
 import LandingPage from "@/components/site/LandingPage";
 import { LANDING_PAGES } from "@/lib/landingPages";
 import Admin from "@/pages/Admin";
+import CardPage from "@/pages/CardPage";
 import ChatWidget from "@/components/ChatWidget";
+
+// The digital business card at /card is a standalone page — no chat bubble.
+function RoutedChatWidget() {
+  const location = useLocation();
+  if (location.pathname === "/card") return null;
+  return <ChatWidget />;
+}
 
 function App() {
   return (
@@ -54,12 +62,13 @@ function App() {
               <Route key={slug} path={`/${slug}`} element={<LandingPage slug={slug} />} />
             ))}
           </Route>
+          <Route path="/card" element={<CardPage />} />
           <Route path="/admin" element={<Admin />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
+        <RoutedChatWidget />
       </BrowserRouter>
       <Toaster position="top-right" richColors />
-      <ChatWidget />
     </div>
   );
 }
