@@ -21,6 +21,7 @@ import {
   UserCheck,
 } from "lucide-react";
 import { track } from "@/lib/analytics";
+import { FLEET, vehicleLabel } from "@/lib/data";
 
 // Inquiries POST to the same-origin Vercel serverless function
 // (api/quote-requests), which emails NOTIFICATION_EMAIL via Gmail SMTP.
@@ -57,6 +58,7 @@ const EMPTY = {
   email: "",
   contact_method: "",
   service_type: "",
+  vehicle_type: "",
   pickup_location: "",
   dropoff_location: "",
   date: "",
@@ -268,7 +270,7 @@ export function InquiryForm() {
           passengers: form.passengers,
           luggage: 0,
           service_type: form.service_type,
-          vehicle_type: "No preference",
+          vehicle_type: form.vehicle_type || "No preference",
           notes: [
             `Preferred contact: ${form.contact_method}`,
             form.child_seats.length
@@ -286,7 +288,7 @@ export function InquiryForm() {
       }
       track("generate_lead", {
         service_type: form.service_type,
-        vehicle_type: "No preference",
+        vehicle_type: form.vehicle_type || "No preference",
         currency: "USD",
         value: 1,
       });
@@ -491,6 +493,53 @@ export function InquiryForm() {
                         <PillFill active={active} />
                         <span className="relative flex items-center gap-2">
                           <Icon size={15} /> {value}
+                        </span>
+                      </motion.button>
+                    );
+                  })}
+                </div>
+              </motion.div>
+
+              {/* Vehicle Type */}
+              <motion.div variants={itemVariants} className="md:col-span-2">
+                <span className={groupLabel}>
+                  Vehicle Type
+                  <span className="ml-2 normal-case tracking-normal text-neutral-500">— optional, tap again to unselect</span>
+                </span>
+                <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
+                  {FLEET.map((v) => {
+                    const value = vehicleLabel(v);
+                    const active = form.vehicle_type === value;
+                    return (
+                      <motion.button
+                        key={value}
+                        type="button"
+                        data-testid={`inquiry-vehicle-${v.category.toLowerCase().replace(/\s+/g, "-")}`}
+                        aria-pressed={active}
+                        whileTap={{ scale: 0.96 }}
+                        onClick={() => set("vehicle_type", active ? "" : value)}
+                        className={`relative min-h-[58px] rounded-xl border px-3 py-2.5 text-center transition-colors duration-300 ${
+                          active
+                            ? "border-transparent"
+                            : "border-white/15 hover:border-[#C9A227]/60"
+                        }`}
+                      >
+                        <PillFill active={active} rounded="rounded-xl" />
+                        <span className="relative block">
+                          <span
+                            className={`block text-[13px] font-bold leading-tight ${
+                              active ? "text-[#0A0A0A]" : "text-white"
+                            }`}
+                          >
+                            {v.category}
+                          </span>
+                          <span
+                            className={`mt-0.5 block truncate text-[10px] uppercase tracking-[0.08em] ${
+                              active ? "text-[#0A0A0A]/70" : "text-neutral-500"
+                            }`}
+                          >
+                            {v.name} · {v.pax} pax
+                          </span>
                         </span>
                       </motion.button>
                     );
