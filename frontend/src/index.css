@@ -114,6 +114,25 @@ h1, h2, h3, .font-display {
 
 /* ---------- Motion / interaction utilities ---------- */
 
+/* Recurring light sweep across gold CTAs */
+.btn-shimmer::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -150%;
+    width: 55%;
+    background: linear-gradient(115deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+    transform: skewX(-20deg);
+    animation: shimmerSweep 2.8s ease-in-out infinite;
+    pointer-events: none;
+}
+@keyframes shimmerSweep {
+    0% { left: -150%; }
+    60% { left: 150%; }
+    100% { left: 150%; }
+}
+
 /* Premium press/lift feedback for buttons & links */
 .btn-press {
     transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1),
