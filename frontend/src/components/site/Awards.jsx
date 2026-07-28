@@ -1,6 +1,37 @@
-import { Award } from "lucide-react";
-import { Reveal } from "@/components/site/Reveal";
+import { useRef } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
+import { Award, ShieldCheck, Star, MessagesSquare, Clock, Trophy } from "lucide-react";
 
+// Award-style trust signal cards.
+const SIGNALS = [
+  {
+    icon: ShieldCheck,
+    title: "MD PSC Licensed Carrier #6325",
+    subtitle: "Maryland Public Service Commission",
+  },
+  {
+    icon: Star,
+    title: "5-Star Rated Service",
+    subtitle: "Consistently rated five stars by riders",
+  },
+  {
+    icon: MessagesSquare,
+    title: "33+ Google Reviews",
+    subtitle: "Verified feedback from real clients",
+  },
+  {
+    icon: Clock,
+    title: "24/7 Professional Service",
+    subtitle: "Day or night, we're on the road",
+  },
+  {
+    icon: Trophy,
+    title: "10+ Years Serving DMV",
+    subtitle: "DC, Maryland & Virginia",
+  },
+];
+
+// Genuine award certificates — kept as supporting proof beneath the cards.
 const AWARDS = [
   {
     img: "/awards/award-quality-winner.jpg",
@@ -19,49 +50,133 @@ const AWARDS = [
   },
 ];
 
-export const Awards = () => {
-  return (
-    <section data-testid="awards-section" className="py-20 lg:py-28 bg-[#090A0C] grain">
-      <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8">
-        <Reveal className="max-w-2xl mb-14">
-          <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-widest text-[#D4AF37]">
-            <Award size={15} /> AWARDS &amp; RECOGNITION
-          </span>
-          <h2 className="mt-3 text-3xl sm:text-4xl font-display font-bold text-white">
-            Award-Winning Limousine Service
-          </h2>
-          <p className="mt-3 text-neutral-400">
-            Proud to be recognized among the top 1% of American businesses for quality and
-            customer satisfaction — including the 2026 Quality Business Award with a 95%+ rating.
-          </p>
-        </Reveal>
+const listVariants = {
+  hidden: {},
+  show: { transition: { staggerChildren: 0.1, delayChildren: 0.1 } },
+};
+const itemVariants = {
+  hidden: { opacity: 0, y: 28 },
+  show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] } },
+};
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {AWARDS.map((a, i) => (
-            <Reveal key={a.img} delay={(i % 3) * 0.08}>
-              <a
-                href={a.img}
-                target="_blank"
-                rel="noopener noreferrer"
-                data-testid={`award-card-${i}`}
-                className="group block h-full rounded-2xl overflow-hidden border border-[#C9A227]/25 bg-[#0c0d10] hover:border-[#C9A227]/70 hover:-translate-y-1 hover:shadow-2xl hover:shadow-[#C9A227]/10 transition-all duration-300"
-              >
-                <div className="h-[420px] lg:h-[440px] flex items-center justify-center bg-[#0c0d10] p-3">
-                  <img
-                    src={a.img}
-                    alt={a.alt}
-                    loading="lazy"
-                    className="max-h-full max-w-full object-contain rounded-lg group-hover:scale-[1.02] transition-transform duration-500"
-                  />
-                </div>
-                <div className="px-5 py-4 border-t border-white/5 flex items-center gap-2">
-                  <Award size={16} className="text-[#C9A227] shrink-0" />
-                  <span className="text-sm font-semibold text-neutral-200">{a.caption}</span>
-                </div>
-              </a>
-            </Reveal>
+export const Awards = () => {
+  const sectionRef = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: sectionRef,
+    offset: ["start end", "end start"],
+  });
+  // Subtle parallax on the spotlight as the section scrolls by.
+  const glowY = useTransform(scrollYProgress, [0, 1], ["-12%", "18%"]);
+
+  return (
+    <section
+      ref={sectionRef}
+      data-testid="awards-section"
+      className="gold-sheen relative overflow-hidden bg-[#090A0C] py-24 lg:py-32 grain"
+    >
+      {/* Dramatic top spotlight with parallax */}
+      <motion.div
+        className="pointer-events-none absolute left-1/2 top-0 h-[36rem] w-[70rem] -translate-x-1/2 opacity-30 blur-3xl"
+        style={{
+          y: glowY,
+          background:
+            "radial-gradient(ellipse at center top, #C9A227 0%, rgba(201,162,39,0.25) 40%, transparent 70%)",
+        }}
+        aria-hidden="true"
+      />
+      {/* Side rim lights */}
+      <div
+        className="pointer-events-none absolute -left-40 top-1/3 h-96 w-96 rounded-full opacity-15 blur-3xl"
+        style={{ background: "radial-gradient(closest-side, #C9A227, transparent)" }}
+        aria-hidden="true"
+      />
+      <div
+        className="pointer-events-none absolute -right-40 bottom-10 h-96 w-96 rounded-full opacity-15 blur-3xl"
+        style={{ background: "radial-gradient(closest-side, #C9A227, transparent)" }}
+        aria-hidden="true"
+      />
+
+      <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
+        <motion.div
+          className="mb-16 text-center"
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-80px" }}
+          transition={{ duration: 0.7 }}
+        >
+          <span className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.3em] text-[#D4AF37]">
+            <Award size={15} /> Awards &amp; Recognition
+          </span>
+          <h2 className="font-display mt-4 text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
+            TRUSTED &amp; <span className="gold-text">RECOGNIZED</span>
+          </h2>
+          <div className="mx-auto mt-6 h-px w-24 gold-gradient" aria-hidden="true" />
+          <p className="mx-auto mt-6 max-w-2xl text-neutral-400">
+            A decade of five-star chauffeured service across the DMV — licensed,
+            reviewed, and awarded among the top 1% of American businesses.
+          </p>
+        </motion.div>
+
+        {/* Trust signal cards */}
+        <motion.div
+          className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-6"
+          variants={listVariants}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, margin: "-60px" }}
+        >
+          {SIGNALS.map(({ icon: Icon, title, subtitle }, i) => (
+            <motion.div
+              key={title}
+              variants={itemVariants}
+              data-testid={`trust-card-${i}`}
+              className={`glow-card relative rounded-2xl border border-[#C9A227]/25 bg-gradient-to-b from-white/[0.05] to-white/[0.01] p-8 text-center backdrop-blur-sm lg:col-span-2 ${
+                i === 3 ? "lg:col-start-2" : ""
+              } ${i === 4 ? "sm:col-span-2 sm:mx-auto sm:w-full sm:max-w-md lg:col-span-2 lg:mx-0 lg:max-w-none" : ""}`}
+            >
+              <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full border border-[#C9A227]/50 bg-[#C9A227]/10 shadow-[0_0_30px_-8px_rgba(201,162,39,0.6)]">
+                <Icon size={28} className="text-[#D4AF37]" strokeWidth={1.8} />
+              </div>
+              <h3 className="font-display text-lg font-bold text-white sm:text-xl">{title}</h3>
+              <p className="mt-2 text-sm uppercase tracking-[0.12em] text-neutral-500">{subtitle}</p>
+              <div className="mx-auto mt-5 h-px w-10 bg-[#C9A227]/40" aria-hidden="true" />
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
+
+        {/* Genuine certificates */}
+        <motion.div
+          className="mt-20 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
+          variants={listVariants}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, margin: "-60px" }}
+        >
+          {AWARDS.map((a, i) => (
+            <motion.a
+              key={a.img}
+              variants={itemVariants}
+              href={a.img}
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid={`award-card-${i}`}
+              className="glow-card group block overflow-hidden rounded-2xl border border-[#C9A227]/25 bg-[#0c0d10]"
+            >
+              <div className="flex h-[340px] items-center justify-center bg-[#0c0d10] p-3 lg:h-[380px]">
+                <img
+                  src={a.img}
+                  alt={a.alt}
+                  loading="lazy"
+                  className="max-h-full max-w-full rounded-lg object-contain transition-transform duration-500 group-hover:scale-[1.02]"
+                />
+              </div>
+              <div className="flex items-center gap-2 border-t border-white/5 px-5 py-4">
+                <Award size={16} className="shrink-0 text-[#C9A227]" />
+                <span className="text-sm font-semibold text-neutral-200">{a.caption}</span>
+              </div>
+            </motion.a>
+          ))}
+        </motion.div>
       </div>
     </section>
   );

@@ -114,6 +114,34 @@ h1, h2, h3, .font-display {
 
 /* ---------- Motion / interaction utilities ---------- */
 
+/* Slow diagonal gold sheen drifting across dark sections */
+.gold-sheen::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(105deg, transparent 42%, rgba(201, 162, 39, 0.08) 50%, transparent 58%);
+    background-size: 220% 100%;
+    animation: sheenDrift 10s linear infinite;
+    pointer-events: none;
+}
+@keyframes sheenDrift {
+    0% { background-position: 220% 0; }
+    100% { background-position: -220% 0; }
+}
+
+/* Breathing gold glow on hover (award cards) */
+.glow-card {
+    transition: border-color 0.4s ease, transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.4s ease;
+}
+.glow-card:hover {
+    transform: translateY(-6px);
+    animation: goldGlowPulse 2.2s ease-in-out infinite;
+}
+@keyframes goldGlowPulse {
+    0%, 100% { box-shadow: 0 18px 50px -18px rgba(201, 162, 39, 0.55), 0 0 0 1px rgba(201, 162, 39, 0.35); }
+    50% { box-shadow: 0 18px 70px -14px rgba(201, 162, 39, 0.85), 0 0 0 1px rgba(201, 162, 39, 0.6); }
+}
+
 /* Recurring light sweep across gold CTAs */
 .btn-shimmer::after {
     content: "";

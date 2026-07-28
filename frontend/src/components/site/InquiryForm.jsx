@@ -15,6 +15,10 @@ import {
   Minus,
   Plus,
   Baby,
+  BadgeCheck,
+  ShieldCheck,
+  BadgeDollarSign,
+  UserCheck,
 } from "lucide-react";
 import { track } from "@/lib/analytics";
 
@@ -37,6 +41,15 @@ const SERVICE_OPTIONS = [
 ];
 
 const CHILD_SEAT_OPTIONS = ["Rear-Facing", "Front-Facing", "Booster"];
+
+const TRUST_BADGES = [
+  { icon: BadgeCheck, label: "MD PSC Carrier No. 6325", sub: "Official Carrier License" },
+  { icon: ShieldCheck, label: "Licensed & Insured", sub: "Fully Certified Fleet" },
+  { icon: Clock, label: "24/7 Available", sub: "Day or Night" },
+  { icon: Plane, label: "Flight Tracking Included", sub: "We Watch Your Arrival" },
+  { icon: BadgeDollarSign, label: "Flat Rates", sub: "No Surge Pricing" },
+  { icon: UserCheck, label: "Professional Chauffeurs", sub: "Vetted & Uniformed" },
+];
 
 const EMPTY = {
   name: "",
@@ -660,6 +673,32 @@ export function InquiryForm() {
             )}
           </AnimatePresence>
         </motion.div>
+
+        {/* Trust badges */}
+        <motion.ul
+          data-testid="inquiry-trust-badges"
+          className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-3"
+          variants={listVariants}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, margin: "-40px" }}
+        >
+          {TRUST_BADGES.map(({ icon: Icon, label, sub }) => (
+            <motion.li
+              key={label}
+              variants={itemVariants}
+              className="flex items-center gap-3 rounded-xl border border-[#C9A227]/25 bg-white/[0.03] px-4 py-3 transition-colors duration-300 hover:border-[#C9A227]/60"
+            >
+              <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-[#C9A227]/40 bg-[#C9A227]/10">
+                <Icon size={17} className="text-[#C9A227]" />
+              </span>
+              <span className="min-w-0">
+                <span className="block text-[13px] font-bold leading-tight text-white">{label}</span>
+                <span className="block text-[11px] uppercase tracking-[0.08em] text-neutral-500">{sub}</span>
+              </span>
+            </motion.li>
+          ))}
+        </motion.ul>
       </div>
     </section>
   );
