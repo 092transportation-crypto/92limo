@@ -14,6 +14,7 @@ import {
   Clock,
   Minus,
   Plus,
+  Baby,
 } from "lucide-react";
 import { track } from "@/lib/analytics";
 
@@ -35,6 +36,8 @@ const SERVICE_OPTIONS = [
   { value: "Hourly", icon: Clock },
 ];
 
+const CHILD_SEAT_OPTIONS = ["Rear-Facing", "Front-Facing", "Booster"];
+
 const EMPTY = {
   name: "",
   phone: "",
@@ -45,6 +48,7 @@ const EMPTY = {
   dropoff_location: "",
   datetime: "",
   passengers: 1,
+  child_seats: [],
   notes: "",
 };
 
@@ -186,6 +190,14 @@ export function InquiryForm() {
     setInvalid((keys) => keys.filter((key) => key !== k));
   };
 
+  const toggleChildSeat = (seat) =>
+    setForm((f) => ({
+      ...f,
+      child_seats: f.child_seats.includes(seat)
+        ? f.child_seats.filter((s) => s !== seat)
+        : [...f.child_seats, seat],
+    }));
+
   const progress = useMemo(() => {
     const filled = PROGRESS_FIELDS.filter((k) => String(form[k]).trim()).length;
     return Math.round((filled / PROGRESS_FIELDS.length) * 100);
@@ -222,7 +234,13 @@ export function InquiryForm() {
           luggage: 0,
           service_type: form.service_type,
           vehicle_type: "No preference",
-          notes: [`Preferred contact: ${form.contact_method}`, form.notes.trim()]
+          notes: [
+            `Preferred contact: ${form.contact_method}`,
+            form.child_seats.length
+              ? `Child seats: ${form.child_seats.join(", ")}`
+              : "",
+            form.notes.trim(),
+          ]
             .filter(Boolean)
             .join("\n"),
         }),
@@ -549,6 +567,49 @@ export function InquiryForm() {
                             <Plus size={16} />
                           </motion.button>
                         </div>
+                      </div>
+                    </motion.div>
+
+                    {/* Child seats */}
+                    <motion.div variants={itemVariants} className="md:col-span-2">
+                      <span className={groupLabel}>
+                        Child Seats
+                        <span className="ml-2 normal-case tracking-normal text-neutral-500">— optional, tap all you need</span>
+                      </span>
+                      <div className="flex flex-wrap gap-2">
+                        {CHILD_SEAT_OPTIONS.map((seat) => {
+                          const active = form.child_seats.includes(seat);
+                          return (
+                            <motion.button
+                              key={seat}
+                              type="button"
+                              data-testid={`inquiry-childseat-${seat.toLowerCase()}`}
+                              aria-pressed={active}
+                              whileTap={{ scale: 0.94 }}
+                              onClick={() => toggleChildSeat(seat)}
+                              className={`relative flex min-h-[44px] items-center gap-2 rounded-full border px-5 text-sm font-semibold transition-colors duration-300 ${
+                                active
+                                  ? "border-transparent text-[#0A0A0A]"
+                                  : "border-white/15 text-neutral-300 hover:border-[#C9A227]/60 hover:text-white"
+                              }`}
+                            >
+                              <AnimatePresence>
+                                {active && (
+                                  <motion.span
+                                    className="absolute inset-0 rounded-full gold-gradient"
+                                    initial={{ opacity: 0, scale: 0.7 }}
+                                    animate={{ opacity: 1, scale: 1 }}
+                                    exit={{ opacity: 0, scale: 0.7 }}
+                                    transition={{ duration: 0.2 }}
+                                  />
+                                )}
+                              </AnimatePresence>
+                              <span className="relative flex items-center gap-2">
+                                <Baby size={15} /> {seat}
+                              </span>
+                            </motion.button>
+                          );
+                        })}
                       </div>
                     </motion.div>
 
