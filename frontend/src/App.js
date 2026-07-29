@@ -17,6 +17,7 @@ import CityPage from "@/pages/CityPage";
 import PrivacyPolicyPage from "@/pages/PrivacyPolicyPage";
 import TermsConditionsPage from "@/pages/TermsConditionsPage";
 import CoveragePage from "@/pages/CoveragePage";
+import CarSeatServicePage from "@/pages/CarSeatServicePage";
 import LandingPage from "@/components/site/LandingPage";
 import { LANDING_PAGES } from "@/lib/landingPages";
 import Admin from "@/pages/Admin";
@@ -58,6 +59,7 @@ function App() {
             <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
             <Route path="/terms-conditions" element={<TermsConditionsPage />} />
             <Route path="/coverage" element={<CoveragePage />} />
+            <Route path="/car-seat-service" element={<CarSeatServicePage />} />
             {Object.keys(LANDING_PAGES).map((slug) => (
               <Route key={slug} path={`/${slug}`} element={<LandingPage slug={slug} />} />
             ))}
