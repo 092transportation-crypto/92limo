@@ -6,6 +6,7 @@ import { track } from "@/lib/analytics";
 import { SERVICE_TYPES, VEHICLE_TYPES } from "@/lib/data";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { AddressAutocomplete } from "@/components/site/AddressAutocomplete";
 import { Textarea } from "@/components/ui/textarea";
 import {
   Select,
@@ -36,6 +37,11 @@ const EMPTY = {
 
 const fieldCls =
   "bg-white border-black/15 text-[#0A0A0A] placeholder:text-neutral-400 focus-visible:ring-[#C9A227] focus-visible:border-[#C9A227]";
+// Plain-input equivalent of the shadcn <Input> base styles, for the
+// autocomplete fields which render their own native input.
+const autoFieldCls =
+  "flex h-10 w-full rounded-md border px-3 py-2 text-sm transition-colors focus-visible:outline-none focus-visible:ring-1 " +
+  fieldCls;
 const menuCls = "bg-white border-black/10 text-[#0A0A0A]";
 const itemCls = "focus:bg-[#C9A227]/15 focus:text-[#0A0A0A]";
 
@@ -117,12 +123,12 @@ export const BookingForm = () => {
           >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
               <div className="space-y-2">
-                <Label className="text-neutral-700">Pickup Location *</Label>
-                <Input data-testid="input-pickup" className={fieldCls} placeholder="Address, airport, or hotel" value={form.pickup_location} onChange={(e) => set("pickup_location", e.target.value)} />
+                <Label htmlFor="bf-pickup" className="text-neutral-700">Pickup Location *</Label>
+                <AddressAutocomplete id="bf-pickup" testId="input-pickup" inputClassName={autoFieldCls} placeholder="Address, airport, or hotel" value={form.pickup_location} onChange={(v) => set("pickup_location", v)} />
               </div>
               <div className="space-y-2">
-                <Label className="text-neutral-700">Drop-off Location *</Label>
-                <Input data-testid="input-dropoff" className={fieldCls} placeholder="Destination address or airport" value={form.dropoff_location} onChange={(e) => set("dropoff_location", e.target.value)} />
+                <Label htmlFor="bf-dropoff" className="text-neutral-700">Drop-off Location *</Label>
+                <AddressAutocomplete id="bf-dropoff" testId="input-dropoff" inputClassName={autoFieldCls} placeholder="Destination address or airport" value={form.dropoff_location} onChange={(v) => set("dropoff_location", v)} />
               </div>
               <div className="space-y-2">
                 <Label className="text-neutral-700">Date *</Label>

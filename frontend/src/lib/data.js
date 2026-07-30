@@ -39,32 +39,24 @@ export const EXTERNAL_LINKS = [
   { label: "Maryland MVA", href: "https://mva.maryland.gov" },
 ];
 
-// NOTE: Images originally hosted on customer-assets.emergentagent.com stopped
-// resolving after export (broken-image "?" placeholders). As a temporary fix,
-// those keys now point to working static.prod-images.emergentagent.com assets.
-// The logo is rendered as a text wordmark in the UI (Navbar/Footer) instead of
-// a broken image. Replace these with final brand assets when available.
-const _SEDAN =
-  "https://static.prod-images.emergentagent.com/jobs/0b91ed88-e3b8-45b6-be20-7a661593b184/images/655d8f7cd6f99394ed315f9ac97f01222b0623a9afc5d9ecc818eae59085ced7.png";
-const _SUV =
-  "https://static.prod-images.emergentagent.com/jobs/0b91ed88-e3b8-45b6-be20-7a661593b184/images/89ad1256135e3c3b8cb79f1ade68f198227183578e600d9435d8cf980287ed10.png";
-const _SCLASS =
-  "https://static.prod-images.emergentagent.com/jobs/0b91ed88-e3b8-45b6-be20-7a661593b184/images/8e9f108c5b7d6da49c325447c178b2c487a61641ff7b1bf1afae2ffb78bec0cd.png";
-const _SPRINTER =
-  "https://static.prod-images.emergentagent.com/jobs/0b91ed88-e3b8-45b6-be20-7a661593b184/images/c479cbe4d456b167e2be24b577f203537ddc8353b831590f57a0a1660328ab5d.png";
-const _CELEBRATION =
-  "https://static.prod-images.emergentagent.com/jobs/0b91ed88-e3b8-45b6-be20-7a661593b184/images/d2635042a70110d4f23ffd14762bf07885e52c9e06a233926ebd8daaae5c54f6.png";
-const _HERO =
-  "https://static.prod-images.emergentagent.com/jobs/0b91ed88-e3b8-45b6-be20-7a661593b184/images/ecbb60e43c613244071e98d291b9485a12f345fc1a81894fba9737944bb3a387.png";
+// NOTE: These images were previously hotlinked from emergentagent.com hosts,
+// which repeatedly stopped resolving (broken-image "?" placeholders). All
+// assets are now self-hosted in /public/images/site so they can never break
+// with a third-party host. The logo is rendered as a text wordmark in the UI
+// (Navbar/Footer). Replace these with final brand assets when available.
+const _SEDAN = "/images/site/sedan.jpg";
+const _SUV = "/images/site/suv.jpg";
+const _SCLASS = "/images/site/s-class.jpg";
+const _SPRINTER = "/images/site/sprinter.jpg";
+const _CELEBRATION = "/images/site/celebration.jpg";
+const _HERO = "/images/site/hero-escalade.jpg";
 
 export const IMAGES = {
   // Used only for meta/OG images now; UI renders a text wordmark.
   logo: _HERO,
   heroBg: _HERO,
-  longDistance:
-    "https://static.prod-images.emergentagent.com/jobs/0b91ed88-e3b8-45b6-be20-7a661593b184/images/951aed2d57b40c303730703a884a469a1ed16b5a2f1171189db874ee5c34f139.png",
-  dcSkyline:
-    "https://images.unsplash.com/photo-1543372654-b45dd90eeee5?crop=entropy&cs=srgb&fm=jpg&q=85&w=1920",
+  longDistance: "/images/site/long-distance.jpg",
+  dcSkyline: "/images/site/dc-skyline.jpg",
   escaladeFront: _SUV,
   escaladeAngle: _SUV,
   sprinterGreen: _SPRINTER,
@@ -72,18 +64,13 @@ export const IMAGES = {
   sClassNav: _SCLASS,
   sedan: _SEDAN,
   suv: _SUV,
-  airportPickup:
-    "https://static.prod-images.emergentagent.com/jobs/0b91ed88-e3b8-45b6-be20-7a661593b184/images/fcb877edd4fd67dbdb1f8d154175fa4eacb0dd0b64035217c6df0c50681f772d.png",
-  chauffeur:
-    "https://static.prod-images.emergentagent.com/jobs/0b91ed88-e3b8-45b6-be20-7a661593b184/images/dbc94574d72096e152da533fe30d7b8e4e8f411712df2e3b20e8d72ca099136f.png",
-  corporate:
-    "https://static.prod-images.emergentagent.com/jobs/0b91ed88-e3b8-45b6-be20-7a661593b184/images/4e743f11fb5c2aaa119ecc61ed61c9fd051fafe32d9825c9962ad9e921fdecca.png",
-  wedding:
-    "https://static.prod-images.emergentagent.com/jobs/0b91ed88-e3b8-45b6-be20-7a661593b184/images/c1c56e1276011d54c3bb12cd018d3a1ecbddf6921293b1da212c0024a9c6d805.png",
+  airportPickup: "/images/site/airport-pickup.jpg",
+  chauffeur: "/images/site/chauffeur.jpg",
+  corporate: "/images/site/corporate.jpg",
+  wedding: "/images/site/wedding.jpg",
   sprinterExterior: _SPRINTER,
   sClassFirst: _SCLASS,
-  wineTour:
-    "https://static.prod-images.emergentagent.com/jobs/0b91ed88-e3b8-45b6-be20-7a661593b184/images/6bc127b9f98ad4de72c310203409d3ddbf90b3882d95a42dbb82d40f029e96f6.png",
+  wineTour: "/images/site/wine-tour.jpg",
   celebration: _CELEBRATION,
   sClassReal: _SCLASS,
   bmw7: _SEDAN,
