@@ -1199,6 +1199,289 @@ export const LANDING_PAGES = {
     ctaTitle: "Book Your Merriweather Ride",
     ctaSubtitle: "Door-side drop-off, a staged pickup after the encore, and a flat rate for the whole lawn crew. Call (877) 609-1919.",
   },
+
+  // ------------------------------------------------ PHILADELPHIA EXPANSION
+  "lincoln-financial-field-transportation": {
+    metaTitle: "Lincoln Financial Field Limo Service | 92 Limo",
+    metaDescription:
+      "Eagles game limo service to Lincoln Financial Field from Maryland, DC & Baltimore — door-to-gate drop-offs and staged post-game pickups. (877) 609-1919.",
+    eyebrow: "LINCOLN FINANCIAL FIELD",
+    h1: "Lincoln Financial Field Limo Service",
+    subtitle:
+      "Chauffeured Eagles game-day rides from Maryland, Baltimore, and Washington DC to the Linc — dropped near the gates, picked up before the lots even start moving.",
+    image: IMAGES.suv,
+    alt: "Black luxury SUV heading to Lincoln Financial Field for an Eagles game — 92 Limo Service",
+    highlightsHeading: "Game Day at the Linc, Done Right",
+    intro: [
+      "An Eagles home game is a full-day event, and if you are starting from Maryland or DC, the drive is the least fun part of it. Lincoln Financial Field sits in the South Philadelphia Sports Complex about a hundred miles up I-95 from Baltimore — call it two hours on a good Sunday, longer when the whole corridor is heading to the same kickoff. 92 Limo Service turns that grind into the comfortable part of the day: your chauffeur collects your crew at home, the cooler and jerseys ride in the back, and everyone actually enjoys the trip north.",
+      "At the stadium, we put you as close to your gate as the NFL's event-day traffic pattern allows — typically along Pattison Avenue or the 11th Street side — so you skip the long march from the far lots. The complex's parking opens hours early, charges premium event rates, and famously takes an hour or more to empty after the final whistle. None of that is your problem. Your chauffeur stages at a pre-agreed pickup point, watches the game clock, and is in position before the fourth quarter ends.",
+      "The ride home is where a chauffeur pays for himself. After three hours of tailgating and four quarters of football, nobody wants to captain a two-hour night drive down I-95. Your group climbs into a Suburban, Escalade, or Sprinter van, the heat or AC is already set, and the only decision left is where to stop for food. We also cover the rivalry calendar in reverse — Ravens and Commanders fans heading up for away games at the Linc ride with us all season.",
+      "Beyond Eagles Sundays, Lincoln Financial Field hosts Temple football, international soccer, and the biggest stadium concert tours of the summer, and the same service applies to all of it. Book a one-way, a round trip, or hourly as-directed service that keeps the vehicle with you from tailgate to table to home. Every trip is one flat, all-inclusive quote — tolls, taxes, and gratuity included, with no surge on playoff Sundays. Call (877) 609-1919 with your game date.",
+    ],
+    highlights: [
+      { title: "Door-to-Gate Drop-Off", desc: "As close to your entrance as event-day traffic control allows — no far-lot hikes in a jersey and January wind." },
+      { title: "Staged Post-Game Pickup", desc: "A pre-agreed pickup point and a chauffeur in position before the final whistle — out of the complex while the lots sit still." },
+      { title: "From Maryland, DC & Baltimore", desc: "Door-to-door game-day service up I-95 from anywhere in the DMV — about two hours from Baltimore." },
+      { title: "Tailgate-Friendly Vehicles", desc: "Sprinter vans seat up to 14 with room for coolers and gear; Suburbans and Escalades carry smaller crews in comfort." },
+      { title: "Every Linc Event Covered", desc: "Eagles and Temple football, international soccer friendlies, and summer stadium concert tours." },
+      { title: "No Playoff Surge", desc: "One flat, all-inclusive quote — tolls, taxes, and gratuity included, whatever the stakes of the game." },
+    ],
+    vehicles: GROUP_TRIO,
+    faqs: [
+      { q: "Where do you drop off at Lincoln Financial Field?", a: "As close to your gate as the stadium's event-day traffic plan allows — usually along Pattison Avenue or 11th Street. Your chauffeur adjusts to that Sunday's road closures and confirms the exact spot on the way up." },
+      { q: "How long is the trip from Baltimore or DC to the Linc?", a: "Plan on roughly two hours from Baltimore and closer to three from Washington DC, depending on game-day I-95 traffic. Your chauffeur builds in buffer so you arrive with time to spare before kickoff." },
+      { q: "How does pickup work after an Eagles game?", a: "You and your chauffeur agree on a pickup point near the sports complex before the game ends. He stages there during the fourth quarter, you walk out with the crowd, and you are on I-95 south while the lots are still gridlocked." },
+      { q: "Can you handle a whole tailgate group?", a: "Yes — our Mercedes Sprinter vans keep up to 14 people, plus coolers and chairs, together in one vehicle. For couples and small groups, the Escalade and Suburban are game-day favorites." },
+      { q: "How much does a limo to Lincoln Financial Field cost?", a: "It depends on your pickup location, vehicle, and whether you book one-way, round-trip, or hourly for the full day. Every trip is one flat, all-inclusive quote — call (877) 609-1919 for an exact price." },
+    ],
+    areas: [
+      { region: "Plan the Rest of Your Philadelphia Trip", places: [
+        { label: "Citizens Bank Park (Phillies)", to: "/citizens-bank-park-transportation" },
+        { label: "Wells Fargo Center (76ers & Flyers)", to: "/wells-fargo-center-transportation" },
+        { label: "Baltimore to Philadelphia Limo", to: "/baltimore-to-philadelphia-limo" },
+        { label: "PHL Airport Transfers", to: "/phl-airport-to-philadelphia" },
+        { label: "Baltimore Limo Service", to: "/baltimore-limo-service" },
+        { label: "Long-Distance Trips", to: "/long-distance-transportation" },
+      ]},
+    ],
+    ctaTitle: "Book Your Eagles Game Ride",
+    ctaSubtitle: "Door-to-gate service from anywhere in the DMV, a staged post-game pickup, and one flat rate. Call (877) 609-1919.",
+  },
+
+  "citizens-bank-park-transportation": {
+    metaTitle: "Citizens Bank Park Limo Service | 92 Limo",
+    metaDescription:
+      "Phillies game transportation to Citizens Bank Park from Maryland, Baltimore & DC — chauffeured door-to-gate rides, extra-inning-proof pickups. (877) 609-1919.",
+    eyebrow: "CITIZENS BANK PARK",
+    h1: "Citizens Bank Park Transportation",
+    subtitle:
+      "Chauffeured Phillies game rides from Maryland, Baltimore, and Washington DC — a summer night at the ballpark without a single parking decision.",
+    image: IMAGES.celebration,
+    alt: "Luxury chauffeured vehicles arriving for a Phillies game at Citizens Bank Park — 92 Limo Service",
+    highlightsHeading: "Ballpark Nights Without the Hassle",
+    intro: [
+      "Citizens Bank Park is what a modern ballpark should be — open air, real grass, the Liberty Bell swinging for every Phillies home run, and Ashburn Alley smelling like cheesesteaks from the first pitch. Getting there from Maryland is the catch: a hundred miles of I-95, then the South Philadelphia Sports Complex parking machine, which sells out early whenever the Phillies are good and takes ages to unwind afterward. 92 Limo Service removes every one of those steps. You watch baseball; your chauffeur handles everything with wheels.",
+      "We run ballpark trips from across the DMV — Baltimore, Annapolis, Columbia, Bethesda, Washington DC — with door-to-door service in both directions. On the way up, the group rides together in one vehicle, which means the pregame starts at pickup, not at the stadium. At the park, you step out at the corner of Broad and Pattison a short walk from your gate. When the last out is recorded — ninth inning or fourteenth — your chauffeur is already staged at the pickup point you agreed on, and the ride home starts immediately.",
+      "Baseball's schedule quirks are exactly why chauffeured service fits it so well. Rain delays, extra innings, day games that turn into doubleheaders — your chauffeur tracks the game in real time and adjusts without being asked, and your flat quote never changes because the bullpen blew a save in the ninth. Families with kids especially appreciate the difference: car seats installed on request, no late-night parking-lot marches, and children asleep in the back before you clear the city.",
+      "Orioles fans, this page is for you too — when Baltimore plays at the Bank, we run rivalry-night groups up I-95 all series long. And if you want to make a full day of it, hourly as-directed service pairs the game with lunch at Reading Terminal Market or a pre-game hour on East Passyunk. Sedans for couples, Escalades and Suburbans for families, Sprinter vans for birthday parties and office outings up to 14. Call (877) 609-1919 or book online with your game date.",
+    ],
+    highlights: [
+      { title: "Door-to-Gate at the Bank", desc: "Drop-off a short walk from your gate at Broad and Pattison — no complex parking lots, no event-rate garages." },
+      { title: "Extra-Inning-Proof Pickups", desc: "Your chauffeur tracks the game live and stages at your pickup point whenever it actually ends — ninth inning or fourteenth." },
+      { title: "From Across the DMV", desc: "Baltimore, Annapolis, Columbia, Bethesda, and Washington DC — about two hours door-to-gate from Baltimore." },
+      { title: "Family-Friendly Service", desc: "Car seats on request, one vehicle for the whole crew, and kids asleep in the back on the ride home." },
+      { title: "Orioles Rivalry Trips", desc: "When the O's visit the Phillies, we run group trips up I-95 for every game of the series." },
+      { title: "Flat Rate, Rain or Shine", desc: "One all-inclusive quote — tolls, taxes, and gratuity included, unchanged by delays or extra innings." },
+    ],
+    vehicles: GROUP_TRIO,
+    faqs: [
+      { q: "Where do you drop off at Citizens Bank Park?", a: "As close to your gate as game-day traffic control allows, typically along Citizens Bank Way or Pattison Avenue at the Broad Street corner. Your chauffeur confirms the exact spot as you approach the sports complex." },
+      { q: "What happens if the game goes to extra innings or has a rain delay?", a: "Nothing you need to manage. Your chauffeur follows the game in real time and adjusts the pickup automatically — and your flat quote stays the same no matter how long the night runs." },
+      { q: "Do you run trips when the Orioles play in Philadelphia?", a: "Every series. Rivalry trips from Baltimore and the Maryland suburbs are some of our favorite summer bookings — one Sprinter van, up to 14 fans, door-to-door both ways." },
+      { q: "Can we add a stop before or after the game?", a: "Yes. Book hourly as-directed service and the same chauffeur covers lunch at Reading Terminal Market, an hour on East Passyunk for cheesesteaks, the game, and the ride home — one vehicle all day." },
+      { q: "How much is car service to Citizens Bank Park?", a: "Pricing depends on pickup location, vehicle, and one-way versus round-trip or hourly service. Every booking is confirmed with one flat, all-inclusive quote — call (877) 609-1919 for yours." },
+    ],
+    areas: [
+      { region: "More Philadelphia Trips", places: [
+        { label: "Lincoln Financial Field (Eagles)", to: "/lincoln-financial-field-transportation" },
+        { label: "Wells Fargo Center (76ers & Flyers)", to: "/wells-fargo-center-transportation" },
+        { label: "Baltimore to Philadelphia Limo", to: "/baltimore-to-philadelphia-limo" },
+        { label: "Philadelphia Airport Car Service", to: "/philadelphia-airport-car-service" },
+        { label: "Baltimore Limo Service", to: "/baltimore-limo-service" },
+        { label: "Sports & Events Service", to: "/sports-events" },
+      ]},
+    ],
+    ctaTitle: "Book Your Phillies Game Ride",
+    ctaSubtitle: "One flat rate, a staged post-game pickup, and a ballpark night with zero parking decisions. Call (877) 609-1919.",
+  },
+
+  "wells-fargo-center-transportation": {
+    metaTitle: "Wells Fargo Center Transportation | 92 Limo",
+    metaDescription:
+      "Car service to Wells Fargo Center for 76ers & Flyers games and concerts — chauffeured rides from Maryland, Baltimore & DC. Call (877) 609-1919 to book.",
+    eyebrow: "WELLS FARGO CENTER",
+    h1: "Wells Fargo Center Transportation",
+    subtitle:
+      "Chauffeured service to Philadelphia's arena for Sixers and Flyers games, concerts, and everything else on a two-hundred-event calendar.",
+    image: IMAGES.heroBg,
+    alt: "Black luxury vehicle arriving at Wells Fargo Center in Philadelphia — 92 Limo Service",
+    highlightsHeading: "Arena Nights, Minus the Broad Street Crawl",
+    intro: [
+      "Wells Fargo Center closes out the south end of the Philadelphia sports complex at 3601 South Broad Street, and its calendar barely takes a night off — Flyers hockey, 76ers basketball, arena-scale concert tours, WWE, and college hoops stack up to well over two hundred events a year. That density is great for fans and terrible for drivers: arena dates regularly overlap with Phillies or Eagles games next door, and the complex's shared lots turn Broad Street into a parking lot of its own. 92 Limo Service exists for exactly this kind of night.",
+      "The weeknight math is what convinces most of our clients. A 7:00 tip-off or puck drop means leaving Baltimore mid-afternoon or DC even earlier, and in your own car those hours are pure loss. In the back of one of ours, they are found time — finish the workday on the vehicle's WiFi, eat dinner en route, or nap until the skyline appears. Your chauffeur absorbs the I-95 rush hour so you walk into the arena as fresh as if it were around the corner.",
+      "After the horn, the difference is even bigger. Instead of shuffling into a garage queue or bidding against eighteen thousand people for rideshares, you walk to a pre-arranged pickup point where your chauffeur staged during the final period. Most nights you are through the Broad Street mess and onto the highway before the arena has half-emptied. Late-night returns are our specialty — the same chauffeur who brought you up takes you home, however deep into overtime the game went.",
+      "Corporate groups use us for suite nights and client entertaining — coordinated multi-stop pickups, one polished vehicle, discreet returns. Friends make it a full Philadelphia evening with hourly service: dinner in Center City or on Passyunk Avenue, the show, and a direct ride home. Whatever the format, the whole night is one flat, all-inclusive quote with no overtime surcharges and no surge pricing. Reserve online or call (877) 609-1919 with your event date.",
+    ],
+    highlights: [
+      { title: "Sixers, Flyers & Concerts", desc: "Every event on the arena calendar — NBA, NHL, major tours, WWE, and college basketball." },
+      { title: "Weeknight-Game Ready", desc: "Leave Baltimore or DC after work, handle email on the vehicle WiFi, and walk in fresh for a 7:00 start." },
+      { title: "Staged Post-Game Pickup", desc: "A pre-arranged meeting point and a chauffeur in position at the final horn — ahead of the Broad Street crawl." },
+      { title: "Suite & Client Nights", desc: "Coordinated multi-stop pickups and discreet returns for corporate groups and season suite holders." },
+      { title: "Dinner-and-Show Evenings", desc: "Hourly as-directed service pairs Center City or Passyunk Avenue dinner with the event — one vehicle all night." },
+      { title: "No Overtime Surcharge", desc: "One flat, all-inclusive quote that never changes when the game runs long or the encore doubles." },
+    ],
+    vehicles: GROUP_TRIO,
+    faqs: [
+      { q: "Where do you drop off at Wells Fargo Center?", a: "At the closest access point to the main entrances that event-day traffic control allows, off Broad Street or Pattison Avenue. Your chauffeur adapts to that night's pattern — especially when the Phillies or Eagles are playing next door." },
+      { q: "Can we make a weeknight 76ers or Flyers game from DC or Baltimore?", a: "Comfortably, and it is one of our most common bookings. A late-afternoon pickup from Baltimore makes a 7:00 start with time to spare; from DC we plan around rush hour and route in real time." },
+      { q: "How does the post-game pickup avoid the crowd?", a: "Before the event, you and your chauffeur set a meeting point a short walk from the arena but clear of the worst congestion. He stages during the final period and confirms by text, so you walk straight to the vehicle." },
+      { q: "What vehicles work best for arena groups?", a: "Couples take a sedan or the Escalade; suite groups and friends' nights out ride a Mercedes Sprinter that seats up to 14 together. Every vehicle arrives detailed, stocked with water, and driven by a background-checked chauffeur." },
+      { q: "How much does transportation to Wells Fargo Center cost?", a: "Each trip is quoted in advance as one flat, all-inclusive rate based on pickup location, vehicle, and service type — one-way, round-trip, or hourly. Call (877) 609-1919 and we will price your event night exactly." },
+    ],
+    areas: [
+      { region: "More Philadelphia Trips", places: [
+        { label: "Lincoln Financial Field (Eagles)", to: "/lincoln-financial-field-transportation" },
+        { label: "Citizens Bank Park (Phillies)", to: "/citizens-bank-park-transportation" },
+        { label: "PHL Airport to Philadelphia", to: "/phl-airport-to-philadelphia" },
+        { label: "Baltimore to Philadelphia Limo", to: "/baltimore-to-philadelphia-limo" },
+        { label: "Concert Transportation", to: "/concert-transportation" },
+        { label: "Sports & Events Service", to: "/sports-events" },
+      ]},
+    ],
+    ctaTitle: "Book Your Wells Fargo Center Ride",
+    ctaSubtitle: "Sixers, Flyers, or a sold-out tour — flat-rate chauffeured service from anywhere in the DMV. Call (877) 609-1919.",
+  },
+
+  "phl-airport-to-philadelphia": {
+    metaTitle: "PHL Airport to Philadelphia Car Service | 92 Limo",
+    metaDescription:
+      "Chauffeured transfers from PHL Airport to Center City Philadelphia & the suburbs — flight tracking, meet & greet, luxury fleet, 24/7. Call (877) 609-1919.",
+    eyebrow: "PHL → PHILADELPHIA",
+    h1: "PHL Airport to Philadelphia Car Service",
+    subtitle:
+      "Private chauffeured transfers from Philadelphia International Airport to Center City, University City, and the suburbs — tracked, met, and driven door-to-door.",
+    image: IMAGES.airportPickup,
+    alt: "Chauffeur meeting an arriving traveler for a PHL Airport transfer — 92 Limo Service",
+    highlightsHeading: "Land at PHL, Skip Every Line",
+    intro: [
+      "Philadelphia International Airport moves tens of thousands of travelers a day through seven terminals, and nearly all of them funnel into the same taxi lines, rideshare lots, and rental counters. 92 Limo Service offers the version of arrival where none of that applies to you. Your chauffeur tracks your flight from departure, adjusts to early landings and delays automatically, and is positioned at your terminal — A-East through F — the moment you have your bags. Prefer a personal welcome? Add meet-and-greet and he is waiting inside baggage claim with a name sign.",
+      "From the airport it is a short run into the city: I-95 or the Platt Bridge puts most Center City hotels — the Four Seasons at Comcast Center, the Ritz-Carlton on Broad, Rittenhouse Square addresses — about twenty to thirty minutes from your terminal, with University City, the Navy Yard, Manayunk, and the Main Line all close behind. Your chauffeur reads live traffic and picks the approach, so an evening arrival into rush hour stays a prediction, not a gamble.",
+      "The reverse trip is engineered around your departure, not a pickup app's guess. We watch your outbound flight, factor in PHL's security patterns, and schedule the pickup with a realistic buffer — early enough that you never sprint a concourse, late enough that you are not living in the terminal. Conventions at the Pennsylvania Convention Center, campus visits at Penn and Drexel, and medical trips to the city's hospital systems all run on this kind of precision, and it is standard on every booking.",
+      "And because 92 Limo Service runs the whole I-95 corridor daily, PHL works as a gateway in both directions: we regularly carry travelers onward from the airport to Wilmington, Baltimore, Annapolis, and Washington DC — one vehicle, one chauffeur, one quote, no transfers. Sedans for solo travelers, Escalades and Suburbans for families with luggage, Sprinter vans for delegations up to 14. Every transfer is a single flat, all-inclusive price. Call (877) 609-1919 or book online, 24/7.",
+    ],
+    highlights: [
+      { title: "Flight Tracking Standard", desc: "We monitor every arrival in real time — early landings and delays adjust your pickup automatically at no charge." },
+      { title: "Meet & Greet Available", desc: "Your chauffeur waits inside PHL baggage claim with a name sign and walks you and your luggage to the vehicle." },
+      { title: "20–30 Minutes to Center City", desc: "I-95 or the Platt Bridge, chosen by live traffic — hotel drop-offs across Center City and Rittenhouse Square." },
+      { title: "Departure-Smart Returns", desc: "Philadelphia-to-PHL pickups timed against your flight and TSA patterns, with a realistic buffer built in." },
+      { title: "Onward Down the Corridor", desc: "Continue from PHL to Wilmington, Baltimore, Annapolis, or DC in the same vehicle — no transfers." },
+      { title: "One Flat, All-Inclusive Rate", desc: "Tolls, taxes, and gratuity in one quote — no meters, no surge, no airport-queue roulette." },
+    ],
+    vehicles: SEDAN_TRIO,
+    faqs: [
+      { q: "How long does PHL to Center City Philadelphia take?", a: "Usually 20 to 30 minutes depending on time of day and your exact address. Your chauffeur chooses between I-95, the Platt Bridge, and I-76 based on live conditions, so rush-hour arrivals stay predictable." },
+      { q: "Where does my chauffeur meet me at PHL?", a: "Curbside at your terminal's arrivals level, coordinated by text as you land — or inside baggage claim with a name sign if you add meet-and-greet. Both options include help with luggage." },
+      { q: "What happens if my flight is early or delayed?", a: "Your pickup adjusts automatically. Flight tracking is standard on every booking, with generous complimentary wait time after landing — you will not be charged because the airline changed your schedule." },
+      { q: "Can you take me from PHL to Baltimore, Wilmington, or DC?", a: "Yes — corridor trips are core to what we do. One vehicle and one flat quote carry you from your PHL arrival straight to Wilmington, Baltimore, Annapolis, Washington DC, or anywhere in Maryland." },
+      { q: "How much does a car from PHL to Philadelphia cost?", a: "Every transfer is one flat, all-inclusive quote based on drop-off address and vehicle — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price." },
+    ],
+    areas: [
+      { region: "Related Airport & Philadelphia Pages", places: [
+        { label: "Philadelphia Airport Car Service", to: "/philadelphia-airport-car-service" },
+        { label: "Baltimore to Philadelphia Limo", to: "/baltimore-to-philadelphia-limo" },
+        { label: "Lincoln Financial Field (Eagles)", to: "/lincoln-financial-field-transportation" },
+        { label: "BWI Airport Limo", to: "/bwi-airport-limo" },
+        { label: "Airport Transfers", to: "/airport-transportation" },
+        { label: "Long-Distance Trips", to: "/long-distance-transportation" },
+      ]},
+    ],
+    ctaTitle: "Book Your PHL Transfer",
+    ctaSubtitle: "Tracked flights, met arrivals, and one flat rate to any Philadelphia address. Call (877) 609-1919, 24/7.",
+  },
+
+  "philadelphia-airport-car-service": {
+    metaTitle: "Philadelphia Airport Car Service (PHL) | 92 Limo",
+    metaDescription:
+      "Luxury Philadelphia airport car service — PHL transfers to and from Maryland, Delaware, DC & the Philly region. Pro chauffeurs, 24/7. Call (877) 609-1919.",
+    eyebrow: "PHILADELPHIA INTERNATIONAL AIRPORT",
+    h1: "Philadelphia Airport Car Service",
+    subtitle:
+      "Chauffeured PHL transfers in every direction — into the city, out to the suburbs, and down the corridor to Delaware, Maryland, and Washington DC.",
+    image: IMAGES.chauffeur,
+    alt: "Professional chauffeur opening the door for a Philadelphia airport car service client — 92 Limo Service",
+    highlightsHeading: "Why Travelers Choose Us at PHL",
+    intro: [
+      "Philadelphia International is the region's international gateway — American Airlines' northeast hub, the airport behind every Philadelphia convention, campus visit, and cruise departure, and the arrival point for travelers headed well beyond the city itself. 92 Limo Service treats PHL the way we treat BWI: as home turf. We run scheduled transfers to and from the airport every week, in both directions, for business travelers, families, medical patients, students, and groups who want the one version of airport ground transportation that never involves a line.",
+      "Southbound is our signature lane. Because we are based in the Baltimore–Washington corridor, PHL-to-Maryland and Maryland-to-PHL trips run constantly: Elkton, Bel Air, Baltimore, Columbia, Annapolis, Bethesda, and DC on one end; your terminal curb on the other. International travelers flying through PHL instead of BWI or Dulles use us as their bridge — land in Philadelphia, sleep in Maryland, one flat quote for the whole run. Delaware riders from Wilmington, Newark, and the beaches sit right on the route.",
+      "Closer to the airport, we cover the entire Philadelphia region: Center City and University City, the Main Line from Ardmore to Paoli, King of Prussia and Conshohocken, South Jersey across the bridges, and the Philadelphia cruise terminal at the Navy Yard for sailing-day transfers. Every arrival includes real-time flight tracking with generous complimentary wait time, optional meet-and-greet inside baggage claim, and a chauffeur who has already planned the route before your wheels touch down.",
+      "The fleet fits every trip profile: Mercedes E-Class and BMW 7 Series sedans for executives, the Cadillac Escalade and Chevrolet Suburban for families arriving with international luggage, and Mercedes Sprinter vans that move conference delegations and cruise groups of up to 14 with every bag aboard. Corporate accounts get priority scheduling and consolidated monthly billing. Wherever PHL fits in your itinerary, the trip is one fixed, transparent, all-inclusive price — call (877) 609-1919 or book online, any hour.",
+    ],
+    highlights: [
+      { title: "PHL Both Directions, 24/7", desc: "Arrivals and departures at every terminal, every day — red-eyes, first flights out, and everything between." },
+      { title: "Maryland & DC Specialists", desc: "Constant PHL runs to Baltimore, Annapolis, Columbia, Bethesda, and Washington DC — one flat quote, no transfers." },
+      { title: "Delaware On the Route", desc: "Wilmington, Newark, and the Delaware beaches sit right on our corridor — natural PHL pairings." },
+      { title: "Cruise Terminal Transfers", desc: "Sailing-day service to the Philadelphia cruise terminal, timed to boarding windows with luggage space to spare." },
+      { title: "Flight Tracking & Meet-and-Greet", desc: "Every arrival tracked in real time, with optional name-sign pickup inside baggage claim." },
+      { title: "Corporate Accounts", desc: "Priority scheduling, consolidated billing, and one contact for teams flying through PHL regularly." },
+    ],
+    vehicles: SEDAN_TRIO,
+    faqs: [
+      { q: "What areas does your Philadelphia airport car service cover?", a: "The entire region: Center City, University City, the Main Line, King of Prussia, and South Jersey near the airport — plus long-distance transfers to Wilmington, Baltimore, Annapolis, Washington DC, and all of Maryland and Delaware." },
+      { q: "Do you run PHL transfers to and from Maryland?", a: "Constantly — it is our signature lane. Baltimore, Columbia, Annapolis, Bethesda, and DC to PHL (and back) are among our most-booked long-distance routes, quoted as one flat, all-inclusive price." },
+      { q: "Do you serve the Philadelphia cruise terminal?", a: "Yes. We time cruise transfers to your boarding window, load every bag, and deliver you to the terminal at the Navy Yard — and meet you dockside on the return with flight-connection timing if you are flying out of PHL." },
+      { q: "Is flight tracking included at PHL?", a: "On every single booking. We monitor your flight from wheels-up, adjust automatically for delays and early arrivals, and include generous complimentary wait time — plus optional meet-and-greet inside baggage claim." },
+      { q: "How much does Philadelphia airport car service cost?", a: "Every trip is one fixed, transparent quote covering tolls, taxes, and gratuity — no meters and no surge. Pricing depends on distance and vehicle; call (877) 609-1919 or book online for an exact all-inclusive price." },
+    ],
+    areas: [
+      { region: "Popular PHL Connections", places: [
+        { label: "PHL to Center City Philadelphia", to: "/phl-airport-to-philadelphia" },
+        { label: "Baltimore to Philadelphia Limo", to: "/baltimore-to-philadelphia-limo" },
+        { label: "BWI Airport Limo", to: "/bwi-airport-limo" },
+        { label: "Baltimore Limo Service", to: "/baltimore-limo-service" },
+        { label: "Airport Transfers", to: "/airport-transportation" },
+        { label: "Long-Distance Trips", to: "/long-distance-transportation" },
+      ]},
+    ],
+    ctaTitle: "Book Philadelphia Airport Car Service",
+    ctaSubtitle: "PHL transfers across the region and down the corridor — one flat rate, 24/7. Call (877) 609-1919.",
+  },
+
+  "baltimore-to-philadelphia-limo": {
+    metaTitle: "Baltimore to Philadelphia Limo Service | 92 Limo",
+    metaDescription:
+      "Chauffeured Baltimore to Philadelphia limo — about 2 hours door-to-door in luxury sedans, SUVs & Sprinter vans. Flat all-inclusive rate. (877) 609-1919.",
+    eyebrow: "BALTIMORE → PHILADELPHIA",
+    h1: "Baltimore to Philadelphia Limo Service",
+    subtitle:
+      "A hundred miles of I-95, handled — private chauffeured transfers between Baltimore and Philadelphia in about two hours, door to door.",
+    image: IMAGES.longDistance,
+    alt: "Black luxury sedan on the highway from Baltimore to Philadelphia — 92 Limo Service",
+    highlightsHeading: "The Civilized Way Up the Corridor",
+    intro: [
+      "Baltimore and Philadelphia sit just over a hundred miles apart, close enough for a day trip and far enough that the drive shapes the whole day. Doing it yourself means the Fort McHenry Tunnel, the toll gauntlet across the Susquehanna and Delaware, and the hunt for parking on the far end; the train means getting to Penn Station on its schedule and solving the last mile at 30th Street. 92 Limo Service replaces all of it with one vehicle, one chauffeur, and one flat quote — from your Baltimore doorstep to any Philadelphia address, in about two hours.",
+      "Business travelers treat the ride as a rolling office: two uninterrupted hours of WiFi, chargers, and quiet cabin between meetings, with drop-off directly at the Comcast Center, the Convention Center, or a University City campus. We schedule same-day round trips constantly — a morning run up, the chauffeur waiting or returning on cue, and an evening ride home dictated by when your meeting actually ends rather than by a train timetable.",
+      "The route earns its keep on personal trips too. Families ride up for Penn and Drexel campus visits, hospital appointments at CHOP and Penn Medicine, weddings on the Main Line, and holiday gatherings — with luggage, gifts, and car seats handled, and nobody negotiating I-95 in the dark on the way home. Game-day crews book Sprinter vans to Eagles, Phillies, and Sixers games at the South Philadelphia Sports Complex, keeping the whole group and the pregame energy in one vehicle both ways.",
+      "Every Baltimore-to-Philadelphia booking is quoted flat and all-inclusive before you ride: tolls, taxes, and gratuity in one number, no meters and no surge, whatever the traffic does. The trip also composes with our airport work — start from a BWI arrival, end at a PHL departure, or reverse it all southbound. Sedans for one or two travelers, Escalades and Suburbans for families, Sprinters for groups of up to 14. Call (877) 609-1919 or book online, and the corridor becomes the easiest part of your plans.",
+    ],
+    highlights: [
+      { title: "About 2 Hours Door-to-Door", desc: "Roughly 100 miles up I-95, with your chauffeur routing around slowdowns in real time — both directions, 24/7." },
+      { title: "A Rolling Office", desc: "WiFi, chargers, and a quiet cabin turn the corridor into two productive hours between meetings." },
+      { title: "Same-Day Round Trips", desc: "Morning up, evening back — the return leaves when your meeting ends, not when a train schedule says so." },
+      { title: "Campus, Hospital & Wedding Runs", desc: "Penn and Drexel visits, CHOP and Penn Medicine appointments, Main Line weddings — luggage and car seats handled." },
+      { title: "Game-Day Sprinters", desc: "Eagles, Phillies, and Sixers groups of up to 14 ride together to the sports complex and back." },
+      { title: "Flat, All-Inclusive Quote", desc: "Tolls, taxes, and gratuity in one fixed number — no meters, no surge, no surprises at the Delaware line." },
+    ],
+    vehicles: GROUP_TRIO,
+    faqs: [
+      { q: "How long does a limo from Baltimore to Philadelphia take?", a: "About two hours door-to-door for the hundred-mile run up I-95, depending on traffic and your exact addresses. Your chauffeur tracks conditions live and adjusts the route through the tunnel and toll sections." },
+      { q: "Is a private car better than the train for this trip?", a: "It is door-to-door on your schedule: no getting to Penn Station, no 30th Street last mile, no luggage limits, and no fixed departure time. For two or more people traveling together, it is often the more practical option end to end." },
+      { q: "Do you do same-day round trips?", a: "All the time. Your chauffeur can wait with hourly as-directed service or return for a scheduled evening pickup — either way, the ride home leaves when you are actually ready, even if the day runs long." },
+      { q: "Can you take a group to a Philadelphia game or event?", a: "Yes — our Mercedes Sprinter vans carry up to 14 to Lincoln Financial Field, Citizens Bank Park, Wells Fargo Center, weddings, and campus events, with room for gear and luggage. Everyone travels together in both directions." },
+      { q: "How much does a Baltimore to Philadelphia limo cost?", a: "Every trip is one flat, all-inclusive quote based on vehicle and addresses — tolls, taxes, and gratuity included, with no surge ever. Call (877) 609-1919 or request an online quote for your exact price." },
+    ],
+    areas: [
+      { region: "Connect the Trip", places: [
+        { label: "PHL Airport to Philadelphia", to: "/phl-airport-to-philadelphia" },
+        { label: "Philadelphia Airport Car Service", to: "/philadelphia-airport-car-service" },
+        { label: "Lincoln Financial Field (Eagles)", to: "/lincoln-financial-field-transportation" },
+        { label: "Citizens Bank Park (Phillies)", to: "/citizens-bank-park-transportation" },
+        { label: "Baltimore Limo Service", to: "/baltimore-limo-service" },
+        { label: "Long-Distance Trips", to: "/long-distance-transportation" },
+      ]},
+    ],
+    ctaTitle: "Book Baltimore to Philadelphia",
+    ctaSubtitle: "Two comfortable hours, one flat all-inclusive rate, door to door in either direction. Call (877) 609-1919.",
+  },
 };
 
 // Slugs grouped for navigation / sitemap.
@@ -1214,6 +1497,9 @@ export const ROUTE_SLUGS = [
   "bwi-to-columbia",
   "bwi-to-arlington",
   "bwi-to-alexandria",
+  "baltimore-to-philadelphia-limo",
+  "phl-airport-to-philadelphia",
+  "philadelphia-airport-car-service",
 ];
 
 export const BEACH_SLUGS = [
