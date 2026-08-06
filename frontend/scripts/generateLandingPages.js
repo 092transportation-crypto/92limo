@@ -94,6 +94,65 @@ const CITIES = [
   { name: "Middletown", st: "DE", slug: "middletown-de", mins: 65, miles: 62, roads: "US-301", spots: "the historic Main Street and Westown", vibe: "fast-growing southern New Castle County", air: "BWI" },
 ];
 
+// High-value area pages at the /limo-service-{city}-{st} slug pattern.
+// `alt: true` marks cities that already have a page at the older
+// {city}-limo-service slug — those get a differentiated title/H1 angle
+// ("Limo & Car Service") so the two pages don't compete on identical titles.
+// `local` is a hand-written, city-specific paragraph that keeps every page unique.
+const AREA_CITIES = [
+  // --- Anne Arundel County
+  { name: "Glen Burnie", st: "MD", slug: "glen-burnie-md", county: "Anne Arundel County", mins: 10, miles: 6, roads: "I-97 and MD-2", spots: "Marley Station, the B&A Trail, and Sawmill Creek", hoods: "Ferndale, Marley, Point Pleasant, and Cromwell", air: "BWI", alt: true,
+    local: "Sitting just south of the airport, Glen Burnie is one of our busiest pickup zones — which means short lead times and reliable availability even on same-day requests. We run everything from quick BWI drops for Cromwell-area commuters to Sprinter vans for family celebrations at the county's waterfront venues." },
+  { name: "Pasadena", st: "MD", slug: "pasadena-md", county: "Anne Arundel County", mins: 20, miles: 12, roads: "MD-100 and MD-177", spots: "Downs Park, Compass Pointe, and the Magothy waterfront", hoods: "Lake Shore, Riviera Beach, Green Haven, and Chelsea Beach", air: "BWI",
+    local: "Pasadena's peninsulas between the Magothy and Bodkin Creek are full of long driveways and waterfront lanes that rideshare drivers routinely miss. Our chauffeurs navigate Lake Shore and Riviera Beach daily, and summer weekends bring steady bookings for weddings on the water and group nights out across the bridge." },
+  { name: "Severn", st: "MD", slug: "severn-md", county: "Anne Arundel County", mins: 12, miles: 7, roads: "I-97 and MD-32", spots: "Fort Meade, Arundel Mills, and the Telegraph Road corridor", hoods: "Telegraph Road, Severn Crossroads, Provinces, and the Fort Meade corridor", air: "BWI",
+    local: "With Fort Meade and NSA a few minutes away, Severn riders are often traveling on precise schedules — early report times, visiting delegations, and PCS moves with a house worth of luggage. We stage vehicles accordingly and treat a 4:30 AM pickup with the same polish as a Saturday wedding." },
+  { name: "Odenton", st: "MD", slug: "odenton-md", county: "Anne Arundel County", mins: 18, miles: 11, roads: "MD-32 and MD-175", spots: "the Odenton MARC station, Fort Meade's gates, and Piney Orchard", hoods: "Piney Orchard, Seven Oaks, and Odenton Town Center", air: "BWI",
+    local: "Odenton has grown fast around Town Center and Piney Orchard, and our service has grown with it. We handle daily BWI runs for MARC-corridor professionals, group Sprinters for Fort Meade functions, and evening rides into Annapolis and Washington without surge pricing." },
+  { name: "Crofton", st: "MD", slug: "crofton-md", county: "Anne Arundel County", mins: 22, miles: 15, roads: "MD-3 and I-97", spots: "Crofton Country Club, Waugh Chapel Towne Centre, and the Route 3 corridor", hoods: "the Crofton Parkway loop, Crofton Meadows, and Walden", air: "BWI",
+    local: "Crofton's tree-lined parkway loop and country-club calendar keep us busy year-round — galas, golf outings, proms at the area high schools, and anniversary dinners in Annapolis. Waugh Chapel pickups and BWI transfers round out the week." },
+  { name: "Millersville", st: "MD", slug: "millersville-md", county: "Anne Arundel County", mins: 15, miles: 10, roads: "I-97 and Veterans Highway", spots: "Kinder Farm Park, Benfield Boulevard, and the Veterans Highway corridor", hoods: "Old Mill, Shipley's Choice, and the Benfield corridor", air: "BWI",
+    local: "Millersville sits at the county's crossroads, minutes from I-97 in every direction, which makes it one of the easiest places we serve for quick airport departures. Families here book us for Kinder Farm Park events, school formals, and cruise transfers to the Port of Baltimore." },
+  { name: "Linthicum", st: "MD", slug: "linthicum-md", county: "Anne Arundel County", mins: 8, miles: 3, roads: "I-695 and MD-170", spots: "the BWI-area hotels, the Light Rail line, and historic Linthicum Heights", hoods: "Linthicum Heights, the BWI business district, and Andover", air: "BWI",
+    local: "Practically next door to the terminal, Linthicum is home to the BWI hotel district and a growing cyber corridor — and we are the car service both rely on. Crew pickups, hotel-to-terminal transfers, and executive rides into Baltimore and Washington run all day, every day." },
+  { name: "Hanover", st: "MD", slug: "hanover-md", county: "Anne Arundel County", mins: 10, miles: 5, roads: "MD-100 and the BW Parkway", spots: "Arundel Mills, Live! Casino & Hotel, and Oxford Square", hoods: "Oxford Square, Parkside, and the Arundel Mills district", air: "BWI",
+    local: "Between Arundel Mills, Live! Casino & Hotel, and the new communities at Oxford Square, Hanover generates rides at every hour — show nights, casino evenings, conference blocks, and dawn flights. Our chauffeurs know every hotel entrance and garage in the district." },
+  { name: "Gambrills", st: "MD", slug: "gambrills-md", county: "Anne Arundel County", mins: 20, miles: 13, roads: "MD-3 and MD-424", spots: "Waugh Chapel Towne Centre, Bacon Ridge, and the Crofton line", hoods: "Waugh Chapel, Maple Ridge, and the Route 3 corridor", air: "BWI",
+    local: "Gambrills blends Waugh Chapel's shopping and restaurants with quiet horse-country roads, and our chauffeurs know both sides of it. We cover date nights, winery outings, BWI departures, and group runs into Annapolis and Washington." },
+  { name: "Gibson Island", st: "MD", slug: "gibson-island-md", county: "Anne Arundel County", mins: 25, miles: 15, roads: "MD-100 and Mountain Road", spots: "the causeway gatehouse, the yacht squadron, and the Otter Pond community", hoods: "the island's private residences and the Mountain Road corridor", air: "BWI",
+    local: "Service to Gibson Island is handled with the discretion the community expects: gatehouse coordination arranged in advance, punctual causeway pickups, and chauffeurs familiar with the island's protocols. Residents rely on us for BWI and private-aviation transfers, city dinners, and guest transportation for events." },
+  // --- Charles County
+  { name: "Waldorf", st: "MD", slug: "waldorf-md", county: "Charles County", mins: 45, miles: 26, roads: "US-301 and MD-5", spots: "Regency Furniture Stadium, the Waldorf Marketplace corridor, and St. Charles Towne Center", hoods: "St. Charles, Westlake, and the Route 301 corridor", air: "DCA", alt: true,
+    local: "Waldorf commuters know the Route 301 corridor can stall without warning — our chauffeurs plan around it before it happens. From Blue Crabs game nights at Regency Furniture Stadium to National Harbor evenings and dawn departures from DCA, we keep Charles County's largest community moving." },
+  { name: "La Plata", st: "MD", slug: "la-plata-md", county: "Charles County", mins: 55, miles: 33, roads: "US-301 and MD-6", spots: "the Charles County courthouse, the College of Southern Maryland, and historic Port Tobacco", hoods: "downtown La Plata, Agricopia, and Port Tobacco", air: "DCA",
+    local: "As the Charles County seat, La Plata sends us a steady mix of courthouse professionals, College of Southern Maryland events, and families flying out of DCA and BWI. We also cover the region's wedding venues, from Port Tobacco's historic sites to waterfront settings on the Potomac." },
+  { name: "White Plains", st: "MD", slug: "white-plains-md", county: "Charles County", mins: 50, miles: 29, roads: "US-301 and MD-227", spots: "White Plains Regional Park, the golf course, and the Waldorf line", hoods: "the St. Charles southern edge, Billingsley, and the US-301 corridor", air: "DCA",
+    local: "White Plains sits neatly between Waldorf and La Plata on US-301, and residents here use us as their bridge to everything — airport terminals, National Harbor, downtown Washington dinners, and golf outings at the regional park. Flat quotes mean the Route 301 traffic is our problem, not yours." },
+  // --- Other Maryland
+  { name: "Hagerstown", st: "MD", slug: "hagerstown-md", county: "Washington County", mins: 80, miles: 75, roads: "I-70 and I-81", spots: "Meritus Park, the Valley Mall, and the Arts & Entertainment District", hoods: "the City Center, Fountainhead, and Robinwood", air: "BWI",
+    local: "From the I-70/I-81 crossroads, Hagerstown travelers face a real drive to any major airport — which is exactly when a chauffeur earns his keep. We run flat-rate transfers to BWI, Dulles, and Reagan National, plus event rides to Meritus Park and long-distance trips across the Mid-Atlantic." },
+  { name: "Frederick", st: "MD", slug: "frederick-md", county: "Frederick County", mins: 60, miles: 55, roads: "I-70 and US-15", spots: "Baker Park, Nymeo Field, and the Golden Mile", hoods: "downtown Frederick, Urbana, Ballenger Creek, and Spring Ridge", air: "BWI", alt: true,
+    local: "Frederick's growth from Ballenger Creek to Urbana has outpaced its transportation options, and we fill that gap with flat-rate airport runs and polished evening service downtown. Wedding parties book our Sprinters for the county's barn and vineyard venues months in advance." },
+  { name: "Salisbury", st: "MD", slug: "salisbury-md", county: "Wicomico County", mins: 110, miles: 105, roads: "US-50 and US-13", spots: "Salisbury University, TidalHealth, and the downtown riverwalk", hoods: "downtown Salisbury, the University area, and Fruitland", air: "BWI",
+    local: "As the hub of the Lower Eastern Shore, Salisbury is a long haul from the major airports — 92 Limo turns that drive into productive, comfortable time with flat-rate transfers to BWI and Philadelphia. We also serve Salisbury University move-ins and graduations, TidalHealth visits, and beach-season group trips." },
+  { name: "Easton", st: "MD", slug: "easton-md", county: "Talbot County", mins: 70, miles: 60, roads: "US-50 and the Bay Bridge", spots: "the Avalon Theatre, Easton Airport, and the Talbot County courthouse", hoods: "downtown Easton, Easton Club, and the Oxford Road corridor", air: "BWI",
+    local: "Easton anchors the Mid-Shore's wedding and getaway country — St. Michaels, Oxford, and the Tred Avon are minutes away — and our Sprinters and SUVs are fixtures at its venues. Private-aviation clients at Easton Airport and BWI transfers over the Bay Bridge fill the calendar between celebrations." },
+  { name: "Cambridge", st: "MD", slug: "cambridge-md", county: "Dorchester County", mins: 85, miles: 75, roads: "US-50 and the Choptank River bridge", spots: "the Hyatt Regency Chesapeake Bay, Sailwinds Park, and the historic downtown", hoods: "the historic West End, Long Boat Estates, and the Hyatt resort corridor", air: "BWI",
+    local: "Cambridge bookings revolve around the Hyatt Regency Chesapeake Bay — airport transfers for resort guests, wedding shuttles, and golf outings — plus Harriet Tubman Byway tours and rides across the Choptank. The Bay Bridge run to BWI is one we drive every week." },
+  // --- Delaware
+  { name: "Dover", st: "DE", slug: "dover-de", county: "Kent County", mins: 85, miles: 80, roads: "DE-1 and US-13", spots: "Delaware State University, Bally's Dover, and the Dover Motor Speedway", hoods: "downtown Dover, the Capitol district, and the Route 13 corridor", air: "BWI", alt: true,
+    local: "Dover's rhythm runs from Delaware State University weekends to race weeks at the Motor Speedway, and we scale with it — sedans for Capitol-district professionals, Sprinters for NASCAR groups and casino evenings at Bally's. BWI and Philadelphia transfers are both daily runs." },
+  { name: "Rehoboth Beach", st: "DE", slug: "rehoboth-beach-de", county: "Sussex County", mins: 135, miles: 120, roads: "US-50 and DE-404", spots: "the boardwalk, Rehoboth Avenue, and the Tanger Outlets", hoods: "downtown Rehoboth, North Shores, and Dewey Beach", air: "BWI",
+    local: "In season, Rehoboth's Saturday turnovers and boardwalk evenings keep our beach fleet moving — airport pickups timed to check-in, group Sprinters for bachelorette weekends, and safe rides between Dewey, Lewes, and downtown. Off season, we are still here for flat-rate BWI and Philadelphia transfers." },
+  // --- Pennsylvania
+  { name: "York", st: "PA", slug: "york-pa", county: "York County", mins: 60, miles: 55, roads: "I-83", spots: "PeoplesBank Park, Central Market, and the York Fairgrounds", hoods: "downtown York, Springettsbury, and East York", air: "BWI", alt: true,
+    local: "York riders split between business travel — the I-83 corridor to BWI is our most common run — and celebrations at the fairgrounds, PeoplesBank Park, and downtown's Central Market district. Wedding season fills our Sprinters for venues across the county." },
+  { name: "Lancaster", st: "PA", slug: "lancaster-pa", county: "Lancaster County", mins: 90, miles: 80, roads: "US-30 and PA-283", spots: "Sight & Sound Theatre, Lancaster Central Market, and Rock Lititz", hoods: "downtown Lancaster, Manheim Township, and East Hempfield", air: "BWI", alt: true,
+    local: "Lancaster bookings range from Sight & Sound theater groups and Rock Lititz production crews to Amish-country tours and downtown weddings. The BWI and Philadelphia runs are both fixed-rate staples, and hourly charters cover multi-stop days across the county." },
+  { name: "Harrisburg", st: "PA", slug: "harrisburg-pa", county: "Dauphin County", mins: 90, miles: 85, roads: "I-83", spots: "the PA Farm Show Complex, Riverfront Park, and the Capitol complex", hoods: "downtown Harrisburg, Uptown, and the West Shore", air: "BWI", alt: true,
+    local: "From the Capitol complex to the Farm Show's biggest weeks, Harrisburg keeps a chauffeur service busy — and ours shows up early every time. We bridge the gap to BWI's nonstop routes with flat-rate I-83 transfers and cover Hershey's venues just up the road." },
+];
+
 const AIRPORT_PAGES = [
   { slug: "bwi-airport-car-service", kw: "BWI Airport Car Service", airport: "BWI Marshall Airport", code: "BWI", angle: "car" },
   { slug: "bwi-airport-transportation", kw: "BWI Airport Transportation", airport: "BWI Marshall Airport", code: "BWI", angle: "transportation" },
@@ -232,6 +291,87 @@ function cityPage(c, i) {
       ],
       ctaTitle: `Book Your ${c.name} Chauffeur`,
       ctaSubtitle: `Flat-rate luxury transportation anywhere in ${c.name}, ${c.st} — reserve in minutes.`,
+    },
+  };
+}
+
+// /limo-service-{city}-{st} area pages. Distinct templates from cityPage so
+// cities that exist under both slug patterns never share copy.
+function areaPage(c, i) {
+  const bwi = c.air === "BWI";
+  const airA = bwi
+    ? `From ${c.name}, BWI Marshall Airport is roughly ${c.miles} miles away — about ${c.mins} minutes via ${c.roads}`
+    : `From ${c.name}, Reagan National (DCA) is the closest major airport — about ${c.mins} minutes via ${c.roads} — and we serve BWI Marshall and Dulles just as often`;
+  const airB = bwi
+    ? `The run from ${c.name} to BWI Marshall takes about ${c.mins} minutes via ${c.roads}, and we also cover Reagan National, Dulles, and Philadelphia when your itinerary calls for it`
+    : `Reagan National is about ${c.mins} minutes from ${c.name} via ${c.roads}, and BWI Marshall and Dulles are covered daily from ${c.county} as well`;
+  const airC = bwi
+    ? `Airport transfers are door-to-door: about ${c.mins} minutes to BWI Marshall via ${c.roads}, with Reagan National, Dulles, and Philadelphia also served daily.`
+    : `Airport transfers are door-to-door: about ${c.mins} minutes to Reagan National via ${c.roads}, with BWI Marshall and Dulles served daily as well.`;
+
+  const introSets = [
+    [
+      `Searching for a dependable limo service in ${c.name}, ${c.st}? 92 Limo Service brings chauffeured luxury transportation to ${c.county} — covering ${c.hoods} — with airport transfers, corporate travel, weddings, and nights out all handled by the same professional team. Every trip is confirmed in advance with a flat, all-inclusive quote and driven by a background-checked chauffeur in a late-model luxury vehicle.`,
+      `Airport runs are where most ${c.name} clients meet us. ${airA}. Your chauffeur tracks the flight in real time, adjusts automatically for delays, loads every bag, and includes generous wait time on arrivals — so an early landing or a slow baggage carousel never becomes your problem.`,
+      `Local knowledge is the difference between on time and almost on time. Our chauffeurs know ${c.spots}, and they plan around school traffic, event closures, and rush hour on ${c.roads} before you ever feel it. You get one number to call, one trusted team, and the same polished standard on every ride.`,
+      `Pick the vehicle that fits: a Mercedes E-Class or BMW 7 Series for executive travel, a Cadillac Escalade or Chevrolet Suburban for families and luggage, or a Mercedes Sprinter van that keeps up to 14 people together. Every vehicle arrives detailed and stocked with water — call ${PHONE} any hour to reserve.`,
+    ],
+    [
+      `92 Limo Service is the chauffeured car service ${c.name}, ${c.st} calls when showing up late is not an option. From ${c.hoods}, we cover all of ${c.county} with luxury sedans, SUVs, and Sprinter vans — 24 hours a day, every day of the year.`,
+      `${airB}. Every airport transfer includes real-time flight tracking, optional meet-and-greet at baggage claim, and full luggage assistance. Book a 4 AM departure and your chauffeur is outside before your coffee finishes brewing; land two hours late and your pickup has already adjusted at no charge.`,
+      `Beyond the airport we handle corporate accounts, weddings, proms, date nights, wine tours, and hourly as-directed charters around ${c.spots}. Tell us the plan — multiple stops, tight timing, a surprise pickup — and we build the schedule around it.`,
+      `Pricing stays simple: one flat, all-inclusive quote approved before you book, covering tolls, taxes, and standard gratuity. No meters, no surge, no fine print. Call ${PHONE} or book online in minutes.`,
+    ],
+    [
+      `From ${c.spots}, 92 Limo Service covers ${c.name}, ${c.st} and the rest of ${c.county} with chauffeured transportation that treats your schedule as the contract. On time, immaculate, flat-rated — that is the standard on every trip, whether it is an airport run or a milestone celebration.`,
+      `${airC} Your chauffeur plans the pickup around traffic and check-in windows, tracks return flights in real time, and builds in buffer so you are never cutting it close. Round-trip bookings lock in your ride home before you even take off.`,
+      `Residents of ${c.hoods} use us for more than flights: corporate travel, weddings, prom nights, anniversaries, concerts, and safe rides home. One trusted chauffeur partner replaces the rideshare lottery — no cancellations, no surge pricing, no strangers behind the wheel.`,
+      `The fleet matches the occasion. Executives ride in the Mercedes E-Class and BMW 7 Series. Families and groups take the Escalade or Suburban. Wedding parties and group outings fill the Mercedes Sprinter — up to 14 seats, luggage and all. Reserve online or call ${PHONE}, answered 24/7.`,
+    ],
+    [
+      `When ${c.name}, ${c.st} needs a car service that actually shows up early, it calls 92 Limo Service. We provide chauffeured luxury transportation across ${c.county} — ${c.hoods} included — with flat all-inclusive pricing and a fleet of late-model Mercedes, BMW, Cadillac, and Sprinter vehicles.`,
+      `${airA}. We watch the flight so you do not have to: delays shift your pickup automatically, arrivals include generous free wait time, and meet-and-greet service inside the terminal is available on request.`,
+      `Around town, our chauffeurs know ${c.spots} and the alternates around ${c.roads} when traffic stacks up. That local fluency is why ${c.name} families book us for weddings and proms, and why area businesses keep corporate accounts with consolidated billing and priority scheduling.`,
+      `Every reservation is confirmed with one flat quote — tolls, taxes, and gratuity included, nothing metered, nothing surged. Call ${PHONE} or request a quote online, any hour of the day.`,
+    ],
+  ];
+  const intro = [...introSets[i % 4], c.local];
+
+  const metaTitle = c.alt
+    ? `Limo & Car Service in ${c.name}, ${c.st} | 92 Limo`
+    : `Limo Service in ${c.name}, ${c.st} | 92 Limo Service`;
+  const airDesc = bwi ? "flight-tracked BWI transfers" : "BWI, DCA & IAD transfers";
+  const metaDescription = `Limo & car service in ${c.name}, ${c.st} — ${airDesc}, weddings, corporate & group rides. Flat rates, 24/7. Call ${PHONE}.`;
+
+  return {
+    slug: `limo-service-${c.slug}`,
+    entry: {
+      metaTitle,
+      metaDescription,
+      eyebrow: `${c.name.toUpperCase()}, ${c.st}`,
+      h1: c.alt ? `Limo & Car Service in ${c.name}, ${c.st}` : `Limo Service in ${c.name}, ${c.st}`,
+      subtitle: `Chauffeured limo and car service for ${c.name} and ${c.county} — airport transfers, weddings, corporate travel, and nights out at one flat rate.`,
+      image: i % 2 === 0 ? "sedan" : "suv",
+      alt: `Chauffeured luxury vehicle serving ${c.name}, ${c.st} — 92 Limo Service`,
+      highlightsHeading: `Why ${c.name} Books 92 Limo Service`,
+      intro,
+      highlights: pickHighlights([
+        { title: `Local ${c.name} Knowledge`, desc: `Our chauffeurs know ${c.spots} — and the fastest ways around ${c.roads} when traffic builds.` },
+        { title: bwi ? `~${c.mins} Minutes to BWI` : "BWI, DCA & Dulles Covered", desc: bwi ? `Door-to-terminal in about ${c.mins} minutes via ${c.roads}, flight-tracked on every ride.` : `All three major airports served daily from ${c.name}, with flight tracking on every ride.` },
+        { title: `All of ${c.county}`, desc: `Service across ${c.hoods} and every corner of ${c.county}.` },
+      ]),
+      vehicles: i % 3 === 0 ? SEDAN_TRIO : GROUP_TRIO,
+      faqs: [
+        { q: `Do you serve all of ${c.name} and ${c.county}?`, a: `Yes. We cover every neighborhood in ${c.name} — including ${c.hoods} — plus the rest of ${c.county} and the surrounding region. If your trip starts or ends anywhere nearby, we can handle it.` },
+        bwi
+          ? { q: `How long does it take to get from ${c.name} to BWI?`, a: `About ${c.mins} minutes for the ${c.miles}-mile run via ${c.roads}, depending on traffic. We build buffer time into every pickup and track your flight so departures and arrivals stay stress-free.` }
+          : { q: `Which airports do you serve from ${c.name}?`, a: `All of them. Reagan National is about ${c.mins} minutes via ${c.roads}, and we run daily transfers to BWI Marshall and Dulles as well — every one flight-tracked with luggage help included.` },
+        { q: `How much does limo service in ${c.name} cost?`, a: `Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call ${PHONE} for an exact quote for your date and vehicle.` },
+        { q: `What vehicles can I book in ${c.name}?`, a: `Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours.` },
+        { q: `Can I book a late-night or early-morning ride in ${c.name}?`, a: `Yes — we operate 24/7, every day of the year. Pre-dawn airport departures, red-eye arrivals, and late nights out all get the same on-time, chauffeured service. We recommend booking at least 24 hours ahead when you can.` },
+      ],
+      ctaTitle: `Book Your ${c.name} Limo Today`,
+      ctaSubtitle: `Flat-rate chauffeured service anywhere in ${c.name}, ${c.st} — call ${PHONE} or reserve online in minutes.`,
     },
   };
 }
@@ -461,6 +601,21 @@ function routePage(r, i) {
 
 const pages = [];
 CITIES.forEach((c, i) => pages.push(cityPage(c, i)));
+AREA_CITIES.forEach((c, i) => {
+  const p = areaPage(c, i);
+  // SEO guardrails for the /limo-service-* pages.
+  if (p.entry.metaTitle.length > 60) throw new Error(`${p.slug}: metaTitle ${p.entry.metaTitle.length} chars`);
+  if (p.entry.metaDescription.length > 160) throw new Error(`${p.slug}: metaDescription ${p.entry.metaDescription.length} chars`);
+  if (p.entry.faqs.length !== 5) throw new Error(`${p.slug}: expected exactly 5 FAQs`);
+  const words = [
+    p.entry.h1, p.entry.subtitle, ...p.entry.intro,
+    ...p.entry.highlights.flatMap((h) => [h.title, h.desc]),
+    ...p.entry.faqs.flatMap((f) => [f.q, f.a]),
+    p.entry.ctaTitle, p.entry.ctaSubtitle,
+  ].join(" ").split(/\s+/).filter(Boolean).length;
+  if (words < 600) throw new Error(`${p.slug}: only ${words} words (need 600+)`);
+  pages.push(p);
+});
 AIRPORT_PAGES.forEach((a, i) => pages.push(airportPage(a, i)));
 SERVICE_PAGES.forEach((s, i) => pages.push(servicePage(s, i)));
 VEHICLE_PAGES.forEach((v, i) => pages.push(vehiclePage(v, i)));

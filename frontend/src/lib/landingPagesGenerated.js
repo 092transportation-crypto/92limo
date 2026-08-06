@@ -3170,6 +3170,1685 @@ export const GENERATED_LANDING_PAGES = {
     "ctaSubtitle": "Flat-rate luxury transportation anywhere in Middletown, DE — reserve in minutes."
   },
 
+  "limo-service-glen-burnie-md": {
+    "metaTitle": "Limo & Car Service in Glen Burnie, MD | 92 Limo",
+    "metaDescription": "Limo & car service in Glen Burnie, MD — flight-tracked BWI transfers, weddings, corporate & group rides. Flat rates, 24/7. Call (877) 609-1919.",
+    "eyebrow": "GLEN BURNIE, MD",
+    "h1": "Limo & Car Service in Glen Burnie, MD",
+    "subtitle": "Chauffeured limo and car service for Glen Burnie and Anne Arundel County — airport transfers, weddings, corporate travel, and nights out at one flat rate.",
+    "image": IMAGES.sedan,
+    "alt": "Chauffeured luxury vehicle serving Glen Burnie, MD — 92 Limo Service",
+    "highlightsHeading": "Why Glen Burnie Books 92 Limo Service",
+    "intro": [
+      "Searching for a dependable limo service in Glen Burnie, MD? 92 Limo Service brings chauffeured luxury transportation to Anne Arundel County — covering Ferndale, Marley, Point Pleasant, and Cromwell — with airport transfers, corporate travel, weddings, and nights out all handled by the same professional team. Every trip is confirmed in advance with a flat, all-inclusive quote and driven by a background-checked chauffeur in a late-model luxury vehicle.",
+      "Airport runs are where most Glen Burnie clients meet us. From Glen Burnie, BWI Marshall Airport is roughly 6 miles away — about 10 minutes via I-97 and MD-2. Your chauffeur tracks the flight in real time, adjusts automatically for delays, loads every bag, and includes generous wait time on arrivals — so an early landing or a slow baggage carousel never becomes your problem.",
+      "Local knowledge is the difference between on time and almost on time. Our chauffeurs know Marley Station, the B&A Trail, and Sawmill Creek, and they plan around school traffic, event closures, and rush hour on I-97 and MD-2 before you ever feel it. You get one number to call, one trusted team, and the same polished standard on every ride.",
+      "Pick the vehicle that fits: a Mercedes E-Class or BMW 7 Series for executive travel, a Cadillac Escalade or Chevrolet Suburban for families and luggage, or a Mercedes Sprinter van that keeps up to 14 people together. Every vehicle arrives detailed and stocked with water — call (877) 609-1919 any hour to reserve.",
+      "Sitting just south of the airport, Glen Burnie is one of our busiest pickup zones — which means short lead times and reliable availability even on same-day requests. We run everything from quick BWI drops for Cromwell-area commuters to Sprinter vans for family celebrations at the county's waterfront venues."
+    ],
+    "highlights": [
+      {
+        "title": "Local Glen Burnie Knowledge",
+        "desc": "Our chauffeurs know Marley Station, the B&A Trail, and Sawmill Creek — and the fastest ways around I-97 and MD-2 when traffic builds."
+      },
+      {
+        "title": "~10 Minutes to BWI",
+        "desc": "Door-to-terminal in about 10 minutes via I-97 and MD-2, flight-tracked on every ride."
+      },
+      {
+        "title": "All of Anne Arundel County",
+        "desc": "Service across Ferndale, Marley, Point Pleasant, and Cromwell and every corner of Anne Arundel County."
+      },
+      {
+        "title": "Flat, All-Inclusive Pricing",
+        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+      },
+      {
+        "title": "Professional Chauffeurs",
+        "desc": "Background-checked, professionally dressed, and trained to arrive early — every ride, every time."
+      },
+      {
+        "title": "24/7 Availability",
+        "desc": "Pre-dawn departures and red-eye arrivals are covered. We operate around the clock, every day of the year."
+      }
+    ],
+    "vehicles": [
+      "Business Sedan — Mercedes E-Class",
+      "First Class Sedan — BMW 7 Series",
+      "Premium SUV — Cadillac Escalade"
+    ],
+    "faqs": [
+      {
+        "q": "Do you serve all of Glen Burnie and Anne Arundel County?",
+        "a": "Yes. We cover every neighborhood in Glen Burnie — including Ferndale, Marley, Point Pleasant, and Cromwell — plus the rest of Anne Arundel County and the surrounding region. If your trip starts or ends anywhere nearby, we can handle it."
+      },
+      {
+        "q": "How long does it take to get from Glen Burnie to BWI?",
+        "a": "About 10 minutes for the 6-mile run via I-97 and MD-2, depending on traffic. We build buffer time into every pickup and track your flight so departures and arrivals stay stress-free."
+      },
+      {
+        "q": "How much does limo service in Glen Burnie cost?",
+        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+      },
+      {
+        "q": "What vehicles can I book in Glen Burnie?",
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+      },
+      {
+        "q": "Can I book a late-night or early-morning ride in Glen Burnie?",
+        "a": "Yes — we operate 24/7, every day of the year. Pre-dawn airport departures, red-eye arrivals, and late nights out all get the same on-time, chauffeured service. We recommend booking at least 24 hours ahead when you can."
+      }
+    ],
+    "ctaTitle": "Book Your Glen Burnie Limo Today",
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Glen Burnie, MD — call (877) 609-1919 or reserve online in minutes."
+  },
+
+  "limo-service-pasadena-md": {
+    "metaTitle": "Limo Service in Pasadena, MD | 92 Limo Service",
+    "metaDescription": "Limo & car service in Pasadena, MD — flight-tracked BWI transfers, weddings, corporate & group rides. Flat rates, 24/7. Call (877) 609-1919.",
+    "eyebrow": "PASADENA, MD",
+    "h1": "Limo Service in Pasadena, MD",
+    "subtitle": "Chauffeured limo and car service for Pasadena and Anne Arundel County — airport transfers, weddings, corporate travel, and nights out at one flat rate.",
+    "image": IMAGES.suv,
+    "alt": "Chauffeured luxury vehicle serving Pasadena, MD — 92 Limo Service",
+    "highlightsHeading": "Why Pasadena Books 92 Limo Service",
+    "intro": [
+      "92 Limo Service is the chauffeured car service Pasadena, MD calls when showing up late is not an option. From Lake Shore, Riviera Beach, Green Haven, and Chelsea Beach, we cover all of Anne Arundel County with luxury sedans, SUVs, and Sprinter vans — 24 hours a day, every day of the year.",
+      "The run from Pasadena to BWI Marshall takes about 20 minutes via MD-100 and MD-177, and we also cover Reagan National, Dulles, and Philadelphia when your itinerary calls for it. Every airport transfer includes real-time flight tracking, optional meet-and-greet at baggage claim, and full luggage assistance. Book a 4 AM departure and your chauffeur is outside before your coffee finishes brewing; land two hours late and your pickup has already adjusted at no charge.",
+      "Beyond the airport we handle corporate accounts, weddings, proms, date nights, wine tours, and hourly as-directed charters around Downs Park, Compass Pointe, and the Magothy waterfront. Tell us the plan — multiple stops, tight timing, a surprise pickup — and we build the schedule around it.",
+      "Pricing stays simple: one flat, all-inclusive quote approved before you book, covering tolls, taxes, and standard gratuity. No meters, no surge, no fine print. Call (877) 609-1919 or book online in minutes.",
+      "Pasadena's peninsulas between the Magothy and Bodkin Creek are full of long driveways and waterfront lanes that rideshare drivers routinely miss. Our chauffeurs navigate Lake Shore and Riviera Beach daily, and summer weekends bring steady bookings for weddings on the water and group nights out across the bridge."
+    ],
+    "highlights": [
+      {
+        "title": "Local Pasadena Knowledge",
+        "desc": "Our chauffeurs know Downs Park, Compass Pointe, and the Magothy waterfront — and the fastest ways around MD-100 and MD-177 when traffic builds."
+      },
+      {
+        "title": "~20 Minutes to BWI",
+        "desc": "Door-to-terminal in about 20 minutes via MD-100 and MD-177, flight-tracked on every ride."
+      },
+      {
+        "title": "All of Anne Arundel County",
+        "desc": "Service across Lake Shore, Riviera Beach, Green Haven, and Chelsea Beach and every corner of Anne Arundel County."
+      },
+      {
+        "title": "Flat, All-Inclusive Pricing",
+        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+      },
+      {
+        "title": "Professional Chauffeurs",
+        "desc": "Background-checked, professionally dressed, and trained to arrive early — every ride, every time."
+      },
+      {
+        "title": "24/7 Availability",
+        "desc": "Pre-dawn departures and red-eye arrivals are covered. We operate around the clock, every day of the year."
+      }
+    ],
+    "vehicles": [
+      "Luxury SUV — Chevrolet Suburban",
+      "Premium SUV — Cadillac Escalade",
+      "Sprinter Executive — Mercedes Sprinter"
+    ],
+    "faqs": [
+      {
+        "q": "Do you serve all of Pasadena and Anne Arundel County?",
+        "a": "Yes. We cover every neighborhood in Pasadena — including Lake Shore, Riviera Beach, Green Haven, and Chelsea Beach — plus the rest of Anne Arundel County and the surrounding region. If your trip starts or ends anywhere nearby, we can handle it."
+      },
+      {
+        "q": "How long does it take to get from Pasadena to BWI?",
+        "a": "About 20 minutes for the 12-mile run via MD-100 and MD-177, depending on traffic. We build buffer time into every pickup and track your flight so departures and arrivals stay stress-free."
+      },
+      {
+        "q": "How much does limo service in Pasadena cost?",
+        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+      },
+      {
+        "q": "What vehicles can I book in Pasadena?",
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+      },
+      {
+        "q": "Can I book a late-night or early-morning ride in Pasadena?",
+        "a": "Yes — we operate 24/7, every day of the year. Pre-dawn airport departures, red-eye arrivals, and late nights out all get the same on-time, chauffeured service. We recommend booking at least 24 hours ahead when you can."
+      }
+    ],
+    "ctaTitle": "Book Your Pasadena Limo Today",
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Pasadena, MD — call (877) 609-1919 or reserve online in minutes."
+  },
+
+  "limo-service-severn-md": {
+    "metaTitle": "Limo Service in Severn, MD | 92 Limo Service",
+    "metaDescription": "Limo & car service in Severn, MD — flight-tracked BWI transfers, weddings, corporate & group rides. Flat rates, 24/7. Call (877) 609-1919.",
+    "eyebrow": "SEVERN, MD",
+    "h1": "Limo Service in Severn, MD",
+    "subtitle": "Chauffeured limo and car service for Severn and Anne Arundel County — airport transfers, weddings, corporate travel, and nights out at one flat rate.",
+    "image": IMAGES.sedan,
+    "alt": "Chauffeured luxury vehicle serving Severn, MD — 92 Limo Service",
+    "highlightsHeading": "Why Severn Books 92 Limo Service",
+    "intro": [
+      "From Fort Meade, Arundel Mills, and the Telegraph Road corridor, 92 Limo Service covers Severn, MD and the rest of Anne Arundel County with chauffeured transportation that treats your schedule as the contract. On time, immaculate, flat-rated — that is the standard on every trip, whether it is an airport run or a milestone celebration.",
+      "Airport transfers are door-to-door: about 12 minutes to BWI Marshall via I-97 and MD-32, with Reagan National, Dulles, and Philadelphia also served daily. Your chauffeur plans the pickup around traffic and check-in windows, tracks return flights in real time, and builds in buffer so you are never cutting it close. Round-trip bookings lock in your ride home before you even take off.",
+      "Residents of Telegraph Road, Severn Crossroads, Provinces, and the Fort Meade corridor use us for more than flights: corporate travel, weddings, prom nights, anniversaries, concerts, and safe rides home. One trusted chauffeur partner replaces the rideshare lottery — no cancellations, no surge pricing, no strangers behind the wheel.",
+      "The fleet matches the occasion. Executives ride in the Mercedes E-Class and BMW 7 Series. Families and groups take the Escalade or Suburban. Wedding parties and group outings fill the Mercedes Sprinter — up to 14 seats, luggage and all. Reserve online or call (877) 609-1919, answered 24/7.",
+      "With Fort Meade and NSA a few minutes away, Severn riders are often traveling on precise schedules — early report times, visiting delegations, and PCS moves with a house worth of luggage. We stage vehicles accordingly and treat a 4:30 AM pickup with the same polish as a Saturday wedding."
+    ],
+    "highlights": [
+      {
+        "title": "Local Severn Knowledge",
+        "desc": "Our chauffeurs know Fort Meade, Arundel Mills, and the Telegraph Road corridor — and the fastest ways around I-97 and MD-32 when traffic builds."
+      },
+      {
+        "title": "~12 Minutes to BWI",
+        "desc": "Door-to-terminal in about 12 minutes via I-97 and MD-32, flight-tracked on every ride."
+      },
+      {
+        "title": "All of Anne Arundel County",
+        "desc": "Service across Telegraph Road, Severn Crossroads, Provinces, and the Fort Meade corridor and every corner of Anne Arundel County."
+      },
+      {
+        "title": "Flat, All-Inclusive Pricing",
+        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+      },
+      {
+        "title": "Professional Chauffeurs",
+        "desc": "Background-checked, professionally dressed, and trained to arrive early — every ride, every time."
+      },
+      {
+        "title": "24/7 Availability",
+        "desc": "Pre-dawn departures and red-eye arrivals are covered. We operate around the clock, every day of the year."
+      }
+    ],
+    "vehicles": [
+      "Luxury SUV — Chevrolet Suburban",
+      "Premium SUV — Cadillac Escalade",
+      "Sprinter Executive — Mercedes Sprinter"
+    ],
+    "faqs": [
+      {
+        "q": "Do you serve all of Severn and Anne Arundel County?",
+        "a": "Yes. We cover every neighborhood in Severn — including Telegraph Road, Severn Crossroads, Provinces, and the Fort Meade corridor — plus the rest of Anne Arundel County and the surrounding region. If your trip starts or ends anywhere nearby, we can handle it."
+      },
+      {
+        "q": "How long does it take to get from Severn to BWI?",
+        "a": "About 12 minutes for the 7-mile run via I-97 and MD-32, depending on traffic. We build buffer time into every pickup and track your flight so departures and arrivals stay stress-free."
+      },
+      {
+        "q": "How much does limo service in Severn cost?",
+        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+      },
+      {
+        "q": "What vehicles can I book in Severn?",
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+      },
+      {
+        "q": "Can I book a late-night or early-morning ride in Severn?",
+        "a": "Yes — we operate 24/7, every day of the year. Pre-dawn airport departures, red-eye arrivals, and late nights out all get the same on-time, chauffeured service. We recommend booking at least 24 hours ahead when you can."
+      }
+    ],
+    "ctaTitle": "Book Your Severn Limo Today",
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Severn, MD — call (877) 609-1919 or reserve online in minutes."
+  },
+
+  "limo-service-odenton-md": {
+    "metaTitle": "Limo Service in Odenton, MD | 92 Limo Service",
+    "metaDescription": "Limo & car service in Odenton, MD — flight-tracked BWI transfers, weddings, corporate & group rides. Flat rates, 24/7. Call (877) 609-1919.",
+    "eyebrow": "ODENTON, MD",
+    "h1": "Limo Service in Odenton, MD",
+    "subtitle": "Chauffeured limo and car service for Odenton and Anne Arundel County — airport transfers, weddings, corporate travel, and nights out at one flat rate.",
+    "image": IMAGES.suv,
+    "alt": "Chauffeured luxury vehicle serving Odenton, MD — 92 Limo Service",
+    "highlightsHeading": "Why Odenton Books 92 Limo Service",
+    "intro": [
+      "When Odenton, MD needs a car service that actually shows up early, it calls 92 Limo Service. We provide chauffeured luxury transportation across Anne Arundel County — Piney Orchard, Seven Oaks, and Odenton Town Center included — with flat all-inclusive pricing and a fleet of late-model Mercedes, BMW, Cadillac, and Sprinter vehicles.",
+      "From Odenton, BWI Marshall Airport is roughly 11 miles away — about 18 minutes via MD-32 and MD-175. We watch the flight so you do not have to: delays shift your pickup automatically, arrivals include generous free wait time, and meet-and-greet service inside the terminal is available on request.",
+      "Around town, our chauffeurs know the Odenton MARC station, Fort Meade's gates, and Piney Orchard and the alternates around MD-32 and MD-175 when traffic stacks up. That local fluency is why Odenton families book us for weddings and proms, and why area businesses keep corporate accounts with consolidated billing and priority scheduling.",
+      "Every reservation is confirmed with one flat quote — tolls, taxes, and gratuity included, nothing metered, nothing surged. Call (877) 609-1919 or request a quote online, any hour of the day.",
+      "Odenton has grown fast around Town Center and Piney Orchard, and our service has grown with it. We handle daily BWI runs for MARC-corridor professionals, group Sprinters for Fort Meade functions, and evening rides into Annapolis and Washington without surge pricing."
+    ],
+    "highlights": [
+      {
+        "title": "Local Odenton Knowledge",
+        "desc": "Our chauffeurs know the Odenton MARC station, Fort Meade's gates, and Piney Orchard — and the fastest ways around MD-32 and MD-175 when traffic builds."
+      },
+      {
+        "title": "~18 Minutes to BWI",
+        "desc": "Door-to-terminal in about 18 minutes via MD-32 and MD-175, flight-tracked on every ride."
+      },
+      {
+        "title": "All of Anne Arundel County",
+        "desc": "Service across Piney Orchard, Seven Oaks, and Odenton Town Center and every corner of Anne Arundel County."
+      },
+      {
+        "title": "Flat, All-Inclusive Pricing",
+        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+      },
+      {
+        "title": "Professional Chauffeurs",
+        "desc": "Background-checked, professionally dressed, and trained to arrive early — every ride, every time."
+      },
+      {
+        "title": "24/7 Availability",
+        "desc": "Pre-dawn departures and red-eye arrivals are covered. We operate around the clock, every day of the year."
+      }
+    ],
+    "vehicles": [
+      "Business Sedan — Mercedes E-Class",
+      "First Class Sedan — BMW 7 Series",
+      "Premium SUV — Cadillac Escalade"
+    ],
+    "faqs": [
+      {
+        "q": "Do you serve all of Odenton and Anne Arundel County?",
+        "a": "Yes. We cover every neighborhood in Odenton — including Piney Orchard, Seven Oaks, and Odenton Town Center — plus the rest of Anne Arundel County and the surrounding region. If your trip starts or ends anywhere nearby, we can handle it."
+      },
+      {
+        "q": "How long does it take to get from Odenton to BWI?",
+        "a": "About 18 minutes for the 11-mile run via MD-32 and MD-175, depending on traffic. We build buffer time into every pickup and track your flight so departures and arrivals stay stress-free."
+      },
+      {
+        "q": "How much does limo service in Odenton cost?",
+        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+      },
+      {
+        "q": "What vehicles can I book in Odenton?",
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+      },
+      {
+        "q": "Can I book a late-night or early-morning ride in Odenton?",
+        "a": "Yes — we operate 24/7, every day of the year. Pre-dawn airport departures, red-eye arrivals, and late nights out all get the same on-time, chauffeured service. We recommend booking at least 24 hours ahead when you can."
+      }
+    ],
+    "ctaTitle": "Book Your Odenton Limo Today",
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Odenton, MD — call (877) 609-1919 or reserve online in minutes."
+  },
+
+  "limo-service-crofton-md": {
+    "metaTitle": "Limo Service in Crofton, MD | 92 Limo Service",
+    "metaDescription": "Limo & car service in Crofton, MD — flight-tracked BWI transfers, weddings, corporate & group rides. Flat rates, 24/7. Call (877) 609-1919.",
+    "eyebrow": "CROFTON, MD",
+    "h1": "Limo Service in Crofton, MD",
+    "subtitle": "Chauffeured limo and car service for Crofton and Anne Arundel County — airport transfers, weddings, corporate travel, and nights out at one flat rate.",
+    "image": IMAGES.sedan,
+    "alt": "Chauffeured luxury vehicle serving Crofton, MD — 92 Limo Service",
+    "highlightsHeading": "Why Crofton Books 92 Limo Service",
+    "intro": [
+      "Searching for a dependable limo service in Crofton, MD? 92 Limo Service brings chauffeured luxury transportation to Anne Arundel County — covering the Crofton Parkway loop, Crofton Meadows, and Walden — with airport transfers, corporate travel, weddings, and nights out all handled by the same professional team. Every trip is confirmed in advance with a flat, all-inclusive quote and driven by a background-checked chauffeur in a late-model luxury vehicle.",
+      "Airport runs are where most Crofton clients meet us. From Crofton, BWI Marshall Airport is roughly 15 miles away — about 22 minutes via MD-3 and I-97. Your chauffeur tracks the flight in real time, adjusts automatically for delays, loads every bag, and includes generous wait time on arrivals — so an early landing or a slow baggage carousel never becomes your problem.",
+      "Local knowledge is the difference between on time and almost on time. Our chauffeurs know Crofton Country Club, Waugh Chapel Towne Centre, and the Route 3 corridor, and they plan around school traffic, event closures, and rush hour on MD-3 and I-97 before you ever feel it. You get one number to call, one trusted team, and the same polished standard on every ride.",
+      "Pick the vehicle that fits: a Mercedes E-Class or BMW 7 Series for executive travel, a Cadillac Escalade or Chevrolet Suburban for families and luggage, or a Mercedes Sprinter van that keeps up to 14 people together. Every vehicle arrives detailed and stocked with water — call (877) 609-1919 any hour to reserve.",
+      "Crofton's tree-lined parkway loop and country-club calendar keep us busy year-round — galas, golf outings, proms at the area high schools, and anniversary dinners in Annapolis. Waugh Chapel pickups and BWI transfers round out the week."
+    ],
+    "highlights": [
+      {
+        "title": "Local Crofton Knowledge",
+        "desc": "Our chauffeurs know Crofton Country Club, Waugh Chapel Towne Centre, and the Route 3 corridor — and the fastest ways around MD-3 and I-97 when traffic builds."
+      },
+      {
+        "title": "~22 Minutes to BWI",
+        "desc": "Door-to-terminal in about 22 minutes via MD-3 and I-97, flight-tracked on every ride."
+      },
+      {
+        "title": "All of Anne Arundel County",
+        "desc": "Service across the Crofton Parkway loop, Crofton Meadows, and Walden and every corner of Anne Arundel County."
+      },
+      {
+        "title": "Flat, All-Inclusive Pricing",
+        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+      },
+      {
+        "title": "Professional Chauffeurs",
+        "desc": "Background-checked, professionally dressed, and trained to arrive early — every ride, every time."
+      },
+      {
+        "title": "24/7 Availability",
+        "desc": "Pre-dawn departures and red-eye arrivals are covered. We operate around the clock, every day of the year."
+      }
+    ],
+    "vehicles": [
+      "Luxury SUV — Chevrolet Suburban",
+      "Premium SUV — Cadillac Escalade",
+      "Sprinter Executive — Mercedes Sprinter"
+    ],
+    "faqs": [
+      {
+        "q": "Do you serve all of Crofton and Anne Arundel County?",
+        "a": "Yes. We cover every neighborhood in Crofton — including the Crofton Parkway loop, Crofton Meadows, and Walden — plus the rest of Anne Arundel County and the surrounding region. If your trip starts or ends anywhere nearby, we can handle it."
+      },
+      {
+        "q": "How long does it take to get from Crofton to BWI?",
+        "a": "About 22 minutes for the 15-mile run via MD-3 and I-97, depending on traffic. We build buffer time into every pickup and track your flight so departures and arrivals stay stress-free."
+      },
+      {
+        "q": "How much does limo service in Crofton cost?",
+        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+      },
+      {
+        "q": "What vehicles can I book in Crofton?",
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+      },
+      {
+        "q": "Can I book a late-night or early-morning ride in Crofton?",
+        "a": "Yes — we operate 24/7, every day of the year. Pre-dawn airport departures, red-eye arrivals, and late nights out all get the same on-time, chauffeured service. We recommend booking at least 24 hours ahead when you can."
+      }
+    ],
+    "ctaTitle": "Book Your Crofton Limo Today",
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Crofton, MD — call (877) 609-1919 or reserve online in minutes."
+  },
+
+  "limo-service-millersville-md": {
+    "metaTitle": "Limo Service in Millersville, MD | 92 Limo Service",
+    "metaDescription": "Limo & car service in Millersville, MD — flight-tracked BWI transfers, weddings, corporate & group rides. Flat rates, 24/7. Call (877) 609-1919.",
+    "eyebrow": "MILLERSVILLE, MD",
+    "h1": "Limo Service in Millersville, MD",
+    "subtitle": "Chauffeured limo and car service for Millersville and Anne Arundel County — airport transfers, weddings, corporate travel, and nights out at one flat rate.",
+    "image": IMAGES.suv,
+    "alt": "Chauffeured luxury vehicle serving Millersville, MD — 92 Limo Service",
+    "highlightsHeading": "Why Millersville Books 92 Limo Service",
+    "intro": [
+      "92 Limo Service is the chauffeured car service Millersville, MD calls when showing up late is not an option. From Old Mill, Shipley's Choice, and the Benfield corridor, we cover all of Anne Arundel County with luxury sedans, SUVs, and Sprinter vans — 24 hours a day, every day of the year.",
+      "The run from Millersville to BWI Marshall takes about 15 minutes via I-97 and Veterans Highway, and we also cover Reagan National, Dulles, and Philadelphia when your itinerary calls for it. Every airport transfer includes real-time flight tracking, optional meet-and-greet at baggage claim, and full luggage assistance. Book a 4 AM departure and your chauffeur is outside before your coffee finishes brewing; land two hours late and your pickup has already adjusted at no charge.",
+      "Beyond the airport we handle corporate accounts, weddings, proms, date nights, wine tours, and hourly as-directed charters around Kinder Farm Park, Benfield Boulevard, and the Veterans Highway corridor. Tell us the plan — multiple stops, tight timing, a surprise pickup — and we build the schedule around it.",
+      "Pricing stays simple: one flat, all-inclusive quote approved before you book, covering tolls, taxes, and standard gratuity. No meters, no surge, no fine print. Call (877) 609-1919 or book online in minutes.",
+      "Millersville sits at the county's crossroads, minutes from I-97 in every direction, which makes it one of the easiest places we serve for quick airport departures. Families here book us for Kinder Farm Park events, school formals, and cruise transfers to the Port of Baltimore."
+    ],
+    "highlights": [
+      {
+        "title": "Local Millersville Knowledge",
+        "desc": "Our chauffeurs know Kinder Farm Park, Benfield Boulevard, and the Veterans Highway corridor — and the fastest ways around I-97 and Veterans Highway when traffic builds."
+      },
+      {
+        "title": "~15 Minutes to BWI",
+        "desc": "Door-to-terminal in about 15 minutes via I-97 and Veterans Highway, flight-tracked on every ride."
+      },
+      {
+        "title": "All of Anne Arundel County",
+        "desc": "Service across Old Mill, Shipley's Choice, and the Benfield corridor and every corner of Anne Arundel County."
+      },
+      {
+        "title": "Flat, All-Inclusive Pricing",
+        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+      },
+      {
+        "title": "Professional Chauffeurs",
+        "desc": "Background-checked, professionally dressed, and trained to arrive early — every ride, every time."
+      },
+      {
+        "title": "24/7 Availability",
+        "desc": "Pre-dawn departures and red-eye arrivals are covered. We operate around the clock, every day of the year."
+      }
+    ],
+    "vehicles": [
+      "Luxury SUV — Chevrolet Suburban",
+      "Premium SUV — Cadillac Escalade",
+      "Sprinter Executive — Mercedes Sprinter"
+    ],
+    "faqs": [
+      {
+        "q": "Do you serve all of Millersville and Anne Arundel County?",
+        "a": "Yes. We cover every neighborhood in Millersville — including Old Mill, Shipley's Choice, and the Benfield corridor — plus the rest of Anne Arundel County and the surrounding region. If your trip starts or ends anywhere nearby, we can handle it."
+      },
+      {
+        "q": "How long does it take to get from Millersville to BWI?",
+        "a": "About 15 minutes for the 10-mile run via I-97 and Veterans Highway, depending on traffic. We build buffer time into every pickup and track your flight so departures and arrivals stay stress-free."
+      },
+      {
+        "q": "How much does limo service in Millersville cost?",
+        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+      },
+      {
+        "q": "What vehicles can I book in Millersville?",
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+      },
+      {
+        "q": "Can I book a late-night or early-morning ride in Millersville?",
+        "a": "Yes — we operate 24/7, every day of the year. Pre-dawn airport departures, red-eye arrivals, and late nights out all get the same on-time, chauffeured service. We recommend booking at least 24 hours ahead when you can."
+      }
+    ],
+    "ctaTitle": "Book Your Millersville Limo Today",
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Millersville, MD — call (877) 609-1919 or reserve online in minutes."
+  },
+
+  "limo-service-linthicum-md": {
+    "metaTitle": "Limo Service in Linthicum, MD | 92 Limo Service",
+    "metaDescription": "Limo & car service in Linthicum, MD — flight-tracked BWI transfers, weddings, corporate & group rides. Flat rates, 24/7. Call (877) 609-1919.",
+    "eyebrow": "LINTHICUM, MD",
+    "h1": "Limo Service in Linthicum, MD",
+    "subtitle": "Chauffeured limo and car service for Linthicum and Anne Arundel County — airport transfers, weddings, corporate travel, and nights out at one flat rate.",
+    "image": IMAGES.sedan,
+    "alt": "Chauffeured luxury vehicle serving Linthicum, MD — 92 Limo Service",
+    "highlightsHeading": "Why Linthicum Books 92 Limo Service",
+    "intro": [
+      "From the BWI-area hotels, the Light Rail line, and historic Linthicum Heights, 92 Limo Service covers Linthicum, MD and the rest of Anne Arundel County with chauffeured transportation that treats your schedule as the contract. On time, immaculate, flat-rated — that is the standard on every trip, whether it is an airport run or a milestone celebration.",
+      "Airport transfers are door-to-door: about 8 minutes to BWI Marshall via I-695 and MD-170, with Reagan National, Dulles, and Philadelphia also served daily. Your chauffeur plans the pickup around traffic and check-in windows, tracks return flights in real time, and builds in buffer so you are never cutting it close. Round-trip bookings lock in your ride home before you even take off.",
+      "Residents of Linthicum Heights, the BWI business district, and Andover use us for more than flights: corporate travel, weddings, prom nights, anniversaries, concerts, and safe rides home. One trusted chauffeur partner replaces the rideshare lottery — no cancellations, no surge pricing, no strangers behind the wheel.",
+      "The fleet matches the occasion. Executives ride in the Mercedes E-Class and BMW 7 Series. Families and groups take the Escalade or Suburban. Wedding parties and group outings fill the Mercedes Sprinter — up to 14 seats, luggage and all. Reserve online or call (877) 609-1919, answered 24/7.",
+      "Practically next door to the terminal, Linthicum is home to the BWI hotel district and a growing cyber corridor — and we are the car service both rely on. Crew pickups, hotel-to-terminal transfers, and executive rides into Baltimore and Washington run all day, every day."
+    ],
+    "highlights": [
+      {
+        "title": "Local Linthicum Knowledge",
+        "desc": "Our chauffeurs know the BWI-area hotels, the Light Rail line, and historic Linthicum Heights — and the fastest ways around I-695 and MD-170 when traffic builds."
+      },
+      {
+        "title": "~8 Minutes to BWI",
+        "desc": "Door-to-terminal in about 8 minutes via I-695 and MD-170, flight-tracked on every ride."
+      },
+      {
+        "title": "All of Anne Arundel County",
+        "desc": "Service across Linthicum Heights, the BWI business district, and Andover and every corner of Anne Arundel County."
+      },
+      {
+        "title": "Flat, All-Inclusive Pricing",
+        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+      },
+      {
+        "title": "Professional Chauffeurs",
+        "desc": "Background-checked, professionally dressed, and trained to arrive early — every ride, every time."
+      },
+      {
+        "title": "24/7 Availability",
+        "desc": "Pre-dawn departures and red-eye arrivals are covered. We operate around the clock, every day of the year."
+      }
+    ],
+    "vehicles": [
+      "Business Sedan — Mercedes E-Class",
+      "First Class Sedan — BMW 7 Series",
+      "Premium SUV — Cadillac Escalade"
+    ],
+    "faqs": [
+      {
+        "q": "Do you serve all of Linthicum and Anne Arundel County?",
+        "a": "Yes. We cover every neighborhood in Linthicum — including Linthicum Heights, the BWI business district, and Andover — plus the rest of Anne Arundel County and the surrounding region. If your trip starts or ends anywhere nearby, we can handle it."
+      },
+      {
+        "q": "How long does it take to get from Linthicum to BWI?",
+        "a": "About 8 minutes for the 3-mile run via I-695 and MD-170, depending on traffic. We build buffer time into every pickup and track your flight so departures and arrivals stay stress-free."
+      },
+      {
+        "q": "How much does limo service in Linthicum cost?",
+        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+      },
+      {
+        "q": "What vehicles can I book in Linthicum?",
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+      },
+      {
+        "q": "Can I book a late-night or early-morning ride in Linthicum?",
+        "a": "Yes — we operate 24/7, every day of the year. Pre-dawn airport departures, red-eye arrivals, and late nights out all get the same on-time, chauffeured service. We recommend booking at least 24 hours ahead when you can."
+      }
+    ],
+    "ctaTitle": "Book Your Linthicum Limo Today",
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Linthicum, MD — call (877) 609-1919 or reserve online in minutes."
+  },
+
+  "limo-service-hanover-md": {
+    "metaTitle": "Limo Service in Hanover, MD | 92 Limo Service",
+    "metaDescription": "Limo & car service in Hanover, MD — flight-tracked BWI transfers, weddings, corporate & group rides. Flat rates, 24/7. Call (877) 609-1919.",
+    "eyebrow": "HANOVER, MD",
+    "h1": "Limo Service in Hanover, MD",
+    "subtitle": "Chauffeured limo and car service for Hanover and Anne Arundel County — airport transfers, weddings, corporate travel, and nights out at one flat rate.",
+    "image": IMAGES.suv,
+    "alt": "Chauffeured luxury vehicle serving Hanover, MD — 92 Limo Service",
+    "highlightsHeading": "Why Hanover Books 92 Limo Service",
+    "intro": [
+      "When Hanover, MD needs a car service that actually shows up early, it calls 92 Limo Service. We provide chauffeured luxury transportation across Anne Arundel County — Oxford Square, Parkside, and the Arundel Mills district included — with flat all-inclusive pricing and a fleet of late-model Mercedes, BMW, Cadillac, and Sprinter vehicles.",
+      "From Hanover, BWI Marshall Airport is roughly 5 miles away — about 10 minutes via MD-100 and the BW Parkway. We watch the flight so you do not have to: delays shift your pickup automatically, arrivals include generous free wait time, and meet-and-greet service inside the terminal is available on request.",
+      "Around town, our chauffeurs know Arundel Mills, Live! Casino & Hotel, and Oxford Square and the alternates around MD-100 and the BW Parkway when traffic stacks up. That local fluency is why Hanover families book us for weddings and proms, and why area businesses keep corporate accounts with consolidated billing and priority scheduling.",
+      "Every reservation is confirmed with one flat quote — tolls, taxes, and gratuity included, nothing metered, nothing surged. Call (877) 609-1919 or request a quote online, any hour of the day.",
+      "Between Arundel Mills, Live! Casino & Hotel, and the new communities at Oxford Square, Hanover generates rides at every hour — show nights, casino evenings, conference blocks, and dawn flights. Our chauffeurs know every hotel entrance and garage in the district."
+    ],
+    "highlights": [
+      {
+        "title": "Local Hanover Knowledge",
+        "desc": "Our chauffeurs know Arundel Mills, Live! Casino & Hotel, and Oxford Square — and the fastest ways around MD-100 and the BW Parkway when traffic builds."
+      },
+      {
+        "title": "~10 Minutes to BWI",
+        "desc": "Door-to-terminal in about 10 minutes via MD-100 and the BW Parkway, flight-tracked on every ride."
+      },
+      {
+        "title": "All of Anne Arundel County",
+        "desc": "Service across Oxford Square, Parkside, and the Arundel Mills district and every corner of Anne Arundel County."
+      },
+      {
+        "title": "Flat, All-Inclusive Pricing",
+        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+      },
+      {
+        "title": "Professional Chauffeurs",
+        "desc": "Background-checked, professionally dressed, and trained to arrive early — every ride, every time."
+      },
+      {
+        "title": "24/7 Availability",
+        "desc": "Pre-dawn departures and red-eye arrivals are covered. We operate around the clock, every day of the year."
+      }
+    ],
+    "vehicles": [
+      "Luxury SUV — Chevrolet Suburban",
+      "Premium SUV — Cadillac Escalade",
+      "Sprinter Executive — Mercedes Sprinter"
+    ],
+    "faqs": [
+      {
+        "q": "Do you serve all of Hanover and Anne Arundel County?",
+        "a": "Yes. We cover every neighborhood in Hanover — including Oxford Square, Parkside, and the Arundel Mills district — plus the rest of Anne Arundel County and the surrounding region. If your trip starts or ends anywhere nearby, we can handle it."
+      },
+      {
+        "q": "How long does it take to get from Hanover to BWI?",
+        "a": "About 10 minutes for the 5-mile run via MD-100 and the BW Parkway, depending on traffic. We build buffer time into every pickup and track your flight so departures and arrivals stay stress-free."
+      },
+      {
+        "q": "How much does limo service in Hanover cost?",
+        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+      },
+      {
+        "q": "What vehicles can I book in Hanover?",
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+      },
+      {
+        "q": "Can I book a late-night or early-morning ride in Hanover?",
+        "a": "Yes — we operate 24/7, every day of the year. Pre-dawn airport departures, red-eye arrivals, and late nights out all get the same on-time, chauffeured service. We recommend booking at least 24 hours ahead when you can."
+      }
+    ],
+    "ctaTitle": "Book Your Hanover Limo Today",
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Hanover, MD — call (877) 609-1919 or reserve online in minutes."
+  },
+
+  "limo-service-gambrills-md": {
+    "metaTitle": "Limo Service in Gambrills, MD | 92 Limo Service",
+    "metaDescription": "Limo & car service in Gambrills, MD — flight-tracked BWI transfers, weddings, corporate & group rides. Flat rates, 24/7. Call (877) 609-1919.",
+    "eyebrow": "GAMBRILLS, MD",
+    "h1": "Limo Service in Gambrills, MD",
+    "subtitle": "Chauffeured limo and car service for Gambrills and Anne Arundel County — airport transfers, weddings, corporate travel, and nights out at one flat rate.",
+    "image": IMAGES.sedan,
+    "alt": "Chauffeured luxury vehicle serving Gambrills, MD — 92 Limo Service",
+    "highlightsHeading": "Why Gambrills Books 92 Limo Service",
+    "intro": [
+      "Searching for a dependable limo service in Gambrills, MD? 92 Limo Service brings chauffeured luxury transportation to Anne Arundel County — covering Waugh Chapel, Maple Ridge, and the Route 3 corridor — with airport transfers, corporate travel, weddings, and nights out all handled by the same professional team. Every trip is confirmed in advance with a flat, all-inclusive quote and driven by a background-checked chauffeur in a late-model luxury vehicle.",
+      "Airport runs are where most Gambrills clients meet us. From Gambrills, BWI Marshall Airport is roughly 13 miles away — about 20 minutes via MD-3 and MD-424. Your chauffeur tracks the flight in real time, adjusts automatically for delays, loads every bag, and includes generous wait time on arrivals — so an early landing or a slow baggage carousel never becomes your problem.",
+      "Local knowledge is the difference between on time and almost on time. Our chauffeurs know Waugh Chapel Towne Centre, Bacon Ridge, and the Crofton line, and they plan around school traffic, event closures, and rush hour on MD-3 and MD-424 before you ever feel it. You get one number to call, one trusted team, and the same polished standard on every ride.",
+      "Pick the vehicle that fits: a Mercedes E-Class or BMW 7 Series for executive travel, a Cadillac Escalade or Chevrolet Suburban for families and luggage, or a Mercedes Sprinter van that keeps up to 14 people together. Every vehicle arrives detailed and stocked with water — call (877) 609-1919 any hour to reserve.",
+      "Gambrills blends Waugh Chapel's shopping and restaurants with quiet horse-country roads, and our chauffeurs know both sides of it. We cover date nights, winery outings, BWI departures, and group runs into Annapolis and Washington."
+    ],
+    "highlights": [
+      {
+        "title": "Local Gambrills Knowledge",
+        "desc": "Our chauffeurs know Waugh Chapel Towne Centre, Bacon Ridge, and the Crofton line — and the fastest ways around MD-3 and MD-424 when traffic builds."
+      },
+      {
+        "title": "~20 Minutes to BWI",
+        "desc": "Door-to-terminal in about 20 minutes via MD-3 and MD-424, flight-tracked on every ride."
+      },
+      {
+        "title": "All of Anne Arundel County",
+        "desc": "Service across Waugh Chapel, Maple Ridge, and the Route 3 corridor and every corner of Anne Arundel County."
+      },
+      {
+        "title": "Flat, All-Inclusive Pricing",
+        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+      },
+      {
+        "title": "Professional Chauffeurs",
+        "desc": "Background-checked, professionally dressed, and trained to arrive early — every ride, every time."
+      },
+      {
+        "title": "24/7 Availability",
+        "desc": "Pre-dawn departures and red-eye arrivals are covered. We operate around the clock, every day of the year."
+      }
+    ],
+    "vehicles": [
+      "Luxury SUV — Chevrolet Suburban",
+      "Premium SUV — Cadillac Escalade",
+      "Sprinter Executive — Mercedes Sprinter"
+    ],
+    "faqs": [
+      {
+        "q": "Do you serve all of Gambrills and Anne Arundel County?",
+        "a": "Yes. We cover every neighborhood in Gambrills — including Waugh Chapel, Maple Ridge, and the Route 3 corridor — plus the rest of Anne Arundel County and the surrounding region. If your trip starts or ends anywhere nearby, we can handle it."
+      },
+      {
+        "q": "How long does it take to get from Gambrills to BWI?",
+        "a": "About 20 minutes for the 13-mile run via MD-3 and MD-424, depending on traffic. We build buffer time into every pickup and track your flight so departures and arrivals stay stress-free."
+      },
+      {
+        "q": "How much does limo service in Gambrills cost?",
+        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+      },
+      {
+        "q": "What vehicles can I book in Gambrills?",
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+      },
+      {
+        "q": "Can I book a late-night or early-morning ride in Gambrills?",
+        "a": "Yes — we operate 24/7, every day of the year. Pre-dawn airport departures, red-eye arrivals, and late nights out all get the same on-time, chauffeured service. We recommend booking at least 24 hours ahead when you can."
+      }
+    ],
+    "ctaTitle": "Book Your Gambrills Limo Today",
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Gambrills, MD — call (877) 609-1919 or reserve online in minutes."
+  },
+
+  "limo-service-gibson-island-md": {
+    "metaTitle": "Limo Service in Gibson Island, MD | 92 Limo Service",
+    "metaDescription": "Limo & car service in Gibson Island, MD — flight-tracked BWI transfers, weddings, corporate & group rides. Flat rates, 24/7. Call (877) 609-1919.",
+    "eyebrow": "GIBSON ISLAND, MD",
+    "h1": "Limo Service in Gibson Island, MD",
+    "subtitle": "Chauffeured limo and car service for Gibson Island and Anne Arundel County — airport transfers, weddings, corporate travel, and nights out at one flat rate.",
+    "image": IMAGES.suv,
+    "alt": "Chauffeured luxury vehicle serving Gibson Island, MD — 92 Limo Service",
+    "highlightsHeading": "Why Gibson Island Books 92 Limo Service",
+    "intro": [
+      "92 Limo Service is the chauffeured car service Gibson Island, MD calls when showing up late is not an option. From the island's private residences and the Mountain Road corridor, we cover all of Anne Arundel County with luxury sedans, SUVs, and Sprinter vans — 24 hours a day, every day of the year.",
+      "The run from Gibson Island to BWI Marshall takes about 25 minutes via MD-100 and Mountain Road, and we also cover Reagan National, Dulles, and Philadelphia when your itinerary calls for it. Every airport transfer includes real-time flight tracking, optional meet-and-greet at baggage claim, and full luggage assistance. Book a 4 AM departure and your chauffeur is outside before your coffee finishes brewing; land two hours late and your pickup has already adjusted at no charge.",
+      "Beyond the airport we handle corporate accounts, weddings, proms, date nights, wine tours, and hourly as-directed charters around the causeway gatehouse, the yacht squadron, and the Otter Pond community. Tell us the plan — multiple stops, tight timing, a surprise pickup — and we build the schedule around it.",
+      "Pricing stays simple: one flat, all-inclusive quote approved before you book, covering tolls, taxes, and standard gratuity. No meters, no surge, no fine print. Call (877) 609-1919 or book online in minutes.",
+      "Service to Gibson Island is handled with the discretion the community expects: gatehouse coordination arranged in advance, punctual causeway pickups, and chauffeurs familiar with the island's protocols. Residents rely on us for BWI and private-aviation transfers, city dinners, and guest transportation for events."
+    ],
+    "highlights": [
+      {
+        "title": "Local Gibson Island Knowledge",
+        "desc": "Our chauffeurs know the causeway gatehouse, the yacht squadron, and the Otter Pond community — and the fastest ways around MD-100 and Mountain Road when traffic builds."
+      },
+      {
+        "title": "~25 Minutes to BWI",
+        "desc": "Door-to-terminal in about 25 minutes via MD-100 and Mountain Road, flight-tracked on every ride."
+      },
+      {
+        "title": "All of Anne Arundel County",
+        "desc": "Service across the island's private residences and the Mountain Road corridor and every corner of Anne Arundel County."
+      },
+      {
+        "title": "Flat, All-Inclusive Pricing",
+        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+      },
+      {
+        "title": "Professional Chauffeurs",
+        "desc": "Background-checked, professionally dressed, and trained to arrive early — every ride, every time."
+      },
+      {
+        "title": "24/7 Availability",
+        "desc": "Pre-dawn departures and red-eye arrivals are covered. We operate around the clock, every day of the year."
+      }
+    ],
+    "vehicles": [
+      "Business Sedan — Mercedes E-Class",
+      "First Class Sedan — BMW 7 Series",
+      "Premium SUV — Cadillac Escalade"
+    ],
+    "faqs": [
+      {
+        "q": "Do you serve all of Gibson Island and Anne Arundel County?",
+        "a": "Yes. We cover every neighborhood in Gibson Island — including the island's private residences and the Mountain Road corridor — plus the rest of Anne Arundel County and the surrounding region. If your trip starts or ends anywhere nearby, we can handle it."
+      },
+      {
+        "q": "How long does it take to get from Gibson Island to BWI?",
+        "a": "About 25 minutes for the 15-mile run via MD-100 and Mountain Road, depending on traffic. We build buffer time into every pickup and track your flight so departures and arrivals stay stress-free."
+      },
+      {
+        "q": "How much does limo service in Gibson Island cost?",
+        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+      },
+      {
+        "q": "What vehicles can I book in Gibson Island?",
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+      },
+      {
+        "q": "Can I book a late-night or early-morning ride in Gibson Island?",
+        "a": "Yes — we operate 24/7, every day of the year. Pre-dawn airport departures, red-eye arrivals, and late nights out all get the same on-time, chauffeured service. We recommend booking at least 24 hours ahead when you can."
+      }
+    ],
+    "ctaTitle": "Book Your Gibson Island Limo Today",
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Gibson Island, MD — call (877) 609-1919 or reserve online in minutes."
+  },
+
+  "limo-service-waldorf-md": {
+    "metaTitle": "Limo & Car Service in Waldorf, MD | 92 Limo",
+    "metaDescription": "Limo & car service in Waldorf, MD — BWI, DCA & IAD transfers, weddings, corporate & group rides. Flat rates, 24/7. Call (877) 609-1919.",
+    "eyebrow": "WALDORF, MD",
+    "h1": "Limo & Car Service in Waldorf, MD",
+    "subtitle": "Chauffeured limo and car service for Waldorf and Charles County — airport transfers, weddings, corporate travel, and nights out at one flat rate.",
+    "image": IMAGES.sedan,
+    "alt": "Chauffeured luxury vehicle serving Waldorf, MD — 92 Limo Service",
+    "highlightsHeading": "Why Waldorf Books 92 Limo Service",
+    "intro": [
+      "From Regency Furniture Stadium, the Waldorf Marketplace corridor, and St. Charles Towne Center, 92 Limo Service covers Waldorf, MD and the rest of Charles County with chauffeured transportation that treats your schedule as the contract. On time, immaculate, flat-rated — that is the standard on every trip, whether it is an airport run or a milestone celebration.",
+      "Airport transfers are door-to-door: about 45 minutes to Reagan National via US-301 and MD-5, with BWI Marshall and Dulles served daily as well. Your chauffeur plans the pickup around traffic and check-in windows, tracks return flights in real time, and builds in buffer so you are never cutting it close. Round-trip bookings lock in your ride home before you even take off.",
+      "Residents of St. Charles, Westlake, and the Route 301 corridor use us for more than flights: corporate travel, weddings, prom nights, anniversaries, concerts, and safe rides home. One trusted chauffeur partner replaces the rideshare lottery — no cancellations, no surge pricing, no strangers behind the wheel.",
+      "The fleet matches the occasion. Executives ride in the Mercedes E-Class and BMW 7 Series. Families and groups take the Escalade or Suburban. Wedding parties and group outings fill the Mercedes Sprinter — up to 14 seats, luggage and all. Reserve online or call (877) 609-1919, answered 24/7.",
+      "Waldorf commuters know the Route 301 corridor can stall without warning — our chauffeurs plan around it before it happens. From Blue Crabs game nights at Regency Furniture Stadium to National Harbor evenings and dawn departures from DCA, we keep Charles County's largest community moving."
+    ],
+    "highlights": [
+      {
+        "title": "Local Waldorf Knowledge",
+        "desc": "Our chauffeurs know Regency Furniture Stadium, the Waldorf Marketplace corridor, and St. Charles Towne Center — and the fastest ways around US-301 and MD-5 when traffic builds."
+      },
+      {
+        "title": "BWI, DCA & Dulles Covered",
+        "desc": "All three major airports served daily from Waldorf, with flight tracking on every ride."
+      },
+      {
+        "title": "All of Charles County",
+        "desc": "Service across St. Charles, Westlake, and the Route 301 corridor and every corner of Charles County."
+      },
+      {
+        "title": "Flat, All-Inclusive Pricing",
+        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+      },
+      {
+        "title": "Professional Chauffeurs",
+        "desc": "Background-checked, professionally dressed, and trained to arrive early — every ride, every time."
+      },
+      {
+        "title": "24/7 Availability",
+        "desc": "Pre-dawn departures and red-eye arrivals are covered. We operate around the clock, every day of the year."
+      }
+    ],
+    "vehicles": [
+      "Luxury SUV — Chevrolet Suburban",
+      "Premium SUV — Cadillac Escalade",
+      "Sprinter Executive — Mercedes Sprinter"
+    ],
+    "faqs": [
+      {
+        "q": "Do you serve all of Waldorf and Charles County?",
+        "a": "Yes. We cover every neighborhood in Waldorf — including St. Charles, Westlake, and the Route 301 corridor — plus the rest of Charles County and the surrounding region. If your trip starts or ends anywhere nearby, we can handle it."
+      },
+      {
+        "q": "Which airports do you serve from Waldorf?",
+        "a": "All of them. Reagan National is about 45 minutes via US-301 and MD-5, and we run daily transfers to BWI Marshall and Dulles as well — every one flight-tracked with luggage help included."
+      },
+      {
+        "q": "How much does limo service in Waldorf cost?",
+        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+      },
+      {
+        "q": "What vehicles can I book in Waldorf?",
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+      },
+      {
+        "q": "Can I book a late-night or early-morning ride in Waldorf?",
+        "a": "Yes — we operate 24/7, every day of the year. Pre-dawn airport departures, red-eye arrivals, and late nights out all get the same on-time, chauffeured service. We recommend booking at least 24 hours ahead when you can."
+      }
+    ],
+    "ctaTitle": "Book Your Waldorf Limo Today",
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Waldorf, MD — call (877) 609-1919 or reserve online in minutes."
+  },
+
+  "limo-service-la-plata-md": {
+    "metaTitle": "Limo Service in La Plata, MD | 92 Limo Service",
+    "metaDescription": "Limo & car service in La Plata, MD — BWI, DCA & IAD transfers, weddings, corporate & group rides. Flat rates, 24/7. Call (877) 609-1919.",
+    "eyebrow": "LA PLATA, MD",
+    "h1": "Limo Service in La Plata, MD",
+    "subtitle": "Chauffeured limo and car service for La Plata and Charles County — airport transfers, weddings, corporate travel, and nights out at one flat rate.",
+    "image": IMAGES.suv,
+    "alt": "Chauffeured luxury vehicle serving La Plata, MD — 92 Limo Service",
+    "highlightsHeading": "Why La Plata Books 92 Limo Service",
+    "intro": [
+      "When La Plata, MD needs a car service that actually shows up early, it calls 92 Limo Service. We provide chauffeured luxury transportation across Charles County — downtown La Plata, Agricopia, and Port Tobacco included — with flat all-inclusive pricing and a fleet of late-model Mercedes, BMW, Cadillac, and Sprinter vehicles.",
+      "From La Plata, Reagan National (DCA) is the closest major airport — about 55 minutes via US-301 and MD-6 — and we serve BWI Marshall and Dulles just as often. We watch the flight so you do not have to: delays shift your pickup automatically, arrivals include generous free wait time, and meet-and-greet service inside the terminal is available on request.",
+      "Around town, our chauffeurs know the Charles County courthouse, the College of Southern Maryland, and historic Port Tobacco and the alternates around US-301 and MD-6 when traffic stacks up. That local fluency is why La Plata families book us for weddings and proms, and why area businesses keep corporate accounts with consolidated billing and priority scheduling.",
+      "Every reservation is confirmed with one flat quote — tolls, taxes, and gratuity included, nothing metered, nothing surged. Call (877) 609-1919 or request a quote online, any hour of the day.",
+      "As the Charles County seat, La Plata sends us a steady mix of courthouse professionals, College of Southern Maryland events, and families flying out of DCA and BWI. We also cover the region's wedding venues, from Port Tobacco's historic sites to waterfront settings on the Potomac."
+    ],
+    "highlights": [
+      {
+        "title": "Local La Plata Knowledge",
+        "desc": "Our chauffeurs know the Charles County courthouse, the College of Southern Maryland, and historic Port Tobacco — and the fastest ways around US-301 and MD-6 when traffic builds."
+      },
+      {
+        "title": "BWI, DCA & Dulles Covered",
+        "desc": "All three major airports served daily from La Plata, with flight tracking on every ride."
+      },
+      {
+        "title": "All of Charles County",
+        "desc": "Service across downtown La Plata, Agricopia, and Port Tobacco and every corner of Charles County."
+      },
+      {
+        "title": "Flat, All-Inclusive Pricing",
+        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+      },
+      {
+        "title": "Professional Chauffeurs",
+        "desc": "Background-checked, professionally dressed, and trained to arrive early — every ride, every time."
+      },
+      {
+        "title": "24/7 Availability",
+        "desc": "Pre-dawn departures and red-eye arrivals are covered. We operate around the clock, every day of the year."
+      }
+    ],
+    "vehicles": [
+      "Luxury SUV — Chevrolet Suburban",
+      "Premium SUV — Cadillac Escalade",
+      "Sprinter Executive — Mercedes Sprinter"
+    ],
+    "faqs": [
+      {
+        "q": "Do you serve all of La Plata and Charles County?",
+        "a": "Yes. We cover every neighborhood in La Plata — including downtown La Plata, Agricopia, and Port Tobacco — plus the rest of Charles County and the surrounding region. If your trip starts or ends anywhere nearby, we can handle it."
+      },
+      {
+        "q": "Which airports do you serve from La Plata?",
+        "a": "All of them. Reagan National is about 55 minutes via US-301 and MD-6, and we run daily transfers to BWI Marshall and Dulles as well — every one flight-tracked with luggage help included."
+      },
+      {
+        "q": "How much does limo service in La Plata cost?",
+        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+      },
+      {
+        "q": "What vehicles can I book in La Plata?",
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+      },
+      {
+        "q": "Can I book a late-night or early-morning ride in La Plata?",
+        "a": "Yes — we operate 24/7, every day of the year. Pre-dawn airport departures, red-eye arrivals, and late nights out all get the same on-time, chauffeured service. We recommend booking at least 24 hours ahead when you can."
+      }
+    ],
+    "ctaTitle": "Book Your La Plata Limo Today",
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in La Plata, MD — call (877) 609-1919 or reserve online in minutes."
+  },
+
+  "limo-service-white-plains-md": {
+    "metaTitle": "Limo Service in White Plains, MD | 92 Limo Service",
+    "metaDescription": "Limo & car service in White Plains, MD — BWI, DCA & IAD transfers, weddings, corporate & group rides. Flat rates, 24/7. Call (877) 609-1919.",
+    "eyebrow": "WHITE PLAINS, MD",
+    "h1": "Limo Service in White Plains, MD",
+    "subtitle": "Chauffeured limo and car service for White Plains and Charles County — airport transfers, weddings, corporate travel, and nights out at one flat rate.",
+    "image": IMAGES.sedan,
+    "alt": "Chauffeured luxury vehicle serving White Plains, MD — 92 Limo Service",
+    "highlightsHeading": "Why White Plains Books 92 Limo Service",
+    "intro": [
+      "Searching for a dependable limo service in White Plains, MD? 92 Limo Service brings chauffeured luxury transportation to Charles County — covering the St. Charles southern edge, Billingsley, and the US-301 corridor — with airport transfers, corporate travel, weddings, and nights out all handled by the same professional team. Every trip is confirmed in advance with a flat, all-inclusive quote and driven by a background-checked chauffeur in a late-model luxury vehicle.",
+      "Airport runs are where most White Plains clients meet us. From White Plains, Reagan National (DCA) is the closest major airport — about 50 minutes via US-301 and MD-227 — and we serve BWI Marshall and Dulles just as often. Your chauffeur tracks the flight in real time, adjusts automatically for delays, loads every bag, and includes generous wait time on arrivals — so an early landing or a slow baggage carousel never becomes your problem.",
+      "Local knowledge is the difference between on time and almost on time. Our chauffeurs know White Plains Regional Park, the golf course, and the Waldorf line, and they plan around school traffic, event closures, and rush hour on US-301 and MD-227 before you ever feel it. You get one number to call, one trusted team, and the same polished standard on every ride.",
+      "Pick the vehicle that fits: a Mercedes E-Class or BMW 7 Series for executive travel, a Cadillac Escalade or Chevrolet Suburban for families and luggage, or a Mercedes Sprinter van that keeps up to 14 people together. Every vehicle arrives detailed and stocked with water — call (877) 609-1919 any hour to reserve.",
+      "White Plains sits neatly between Waldorf and La Plata on US-301, and residents here use us as their bridge to everything — airport terminals, National Harbor, downtown Washington dinners, and golf outings at the regional park. Flat quotes mean the Route 301 traffic is our problem, not yours."
+    ],
+    "highlights": [
+      {
+        "title": "Local White Plains Knowledge",
+        "desc": "Our chauffeurs know White Plains Regional Park, the golf course, and the Waldorf line — and the fastest ways around US-301 and MD-227 when traffic builds."
+      },
+      {
+        "title": "BWI, DCA & Dulles Covered",
+        "desc": "All three major airports served daily from White Plains, with flight tracking on every ride."
+      },
+      {
+        "title": "All of Charles County",
+        "desc": "Service across the St. Charles southern edge, Billingsley, and the US-301 corridor and every corner of Charles County."
+      },
+      {
+        "title": "Flat, All-Inclusive Pricing",
+        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+      },
+      {
+        "title": "Professional Chauffeurs",
+        "desc": "Background-checked, professionally dressed, and trained to arrive early — every ride, every time."
+      },
+      {
+        "title": "24/7 Availability",
+        "desc": "Pre-dawn departures and red-eye arrivals are covered. We operate around the clock, every day of the year."
+      }
+    ],
+    "vehicles": [
+      "Business Sedan — Mercedes E-Class",
+      "First Class Sedan — BMW 7 Series",
+      "Premium SUV — Cadillac Escalade"
+    ],
+    "faqs": [
+      {
+        "q": "Do you serve all of White Plains and Charles County?",
+        "a": "Yes. We cover every neighborhood in White Plains — including the St. Charles southern edge, Billingsley, and the US-301 corridor — plus the rest of Charles County and the surrounding region. If your trip starts or ends anywhere nearby, we can handle it."
+      },
+      {
+        "q": "Which airports do you serve from White Plains?",
+        "a": "All of them. Reagan National is about 50 minutes via US-301 and MD-227, and we run daily transfers to BWI Marshall and Dulles as well — every one flight-tracked with luggage help included."
+      },
+      {
+        "q": "How much does limo service in White Plains cost?",
+        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+      },
+      {
+        "q": "What vehicles can I book in White Plains?",
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+      },
+      {
+        "q": "Can I book a late-night or early-morning ride in White Plains?",
+        "a": "Yes — we operate 24/7, every day of the year. Pre-dawn airport departures, red-eye arrivals, and late nights out all get the same on-time, chauffeured service. We recommend booking at least 24 hours ahead when you can."
+      }
+    ],
+    "ctaTitle": "Book Your White Plains Limo Today",
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in White Plains, MD — call (877) 609-1919 or reserve online in minutes."
+  },
+
+  "limo-service-hagerstown-md": {
+    "metaTitle": "Limo Service in Hagerstown, MD | 92 Limo Service",
+    "metaDescription": "Limo & car service in Hagerstown, MD — flight-tracked BWI transfers, weddings, corporate & group rides. Flat rates, 24/7. Call (877) 609-1919.",
+    "eyebrow": "HAGERSTOWN, MD",
+    "h1": "Limo Service in Hagerstown, MD",
+    "subtitle": "Chauffeured limo and car service for Hagerstown and Washington County — airport transfers, weddings, corporate travel, and nights out at one flat rate.",
+    "image": IMAGES.suv,
+    "alt": "Chauffeured luxury vehicle serving Hagerstown, MD — 92 Limo Service",
+    "highlightsHeading": "Why Hagerstown Books 92 Limo Service",
+    "intro": [
+      "92 Limo Service is the chauffeured car service Hagerstown, MD calls when showing up late is not an option. From the City Center, Fountainhead, and Robinwood, we cover all of Washington County with luxury sedans, SUVs, and Sprinter vans — 24 hours a day, every day of the year.",
+      "The run from Hagerstown to BWI Marshall takes about 80 minutes via I-70 and I-81, and we also cover Reagan National, Dulles, and Philadelphia when your itinerary calls for it. Every airport transfer includes real-time flight tracking, optional meet-and-greet at baggage claim, and full luggage assistance. Book a 4 AM departure and your chauffeur is outside before your coffee finishes brewing; land two hours late and your pickup has already adjusted at no charge.",
+      "Beyond the airport we handle corporate accounts, weddings, proms, date nights, wine tours, and hourly as-directed charters around Meritus Park, the Valley Mall, and the Arts & Entertainment District. Tell us the plan — multiple stops, tight timing, a surprise pickup — and we build the schedule around it.",
+      "Pricing stays simple: one flat, all-inclusive quote approved before you book, covering tolls, taxes, and standard gratuity. No meters, no surge, no fine print. Call (877) 609-1919 or book online in minutes.",
+      "From the I-70/I-81 crossroads, Hagerstown travelers face a real drive to any major airport — which is exactly when a chauffeur earns his keep. We run flat-rate transfers to BWI, Dulles, and Reagan National, plus event rides to Meritus Park and long-distance trips across the Mid-Atlantic."
+    ],
+    "highlights": [
+      {
+        "title": "Local Hagerstown Knowledge",
+        "desc": "Our chauffeurs know Meritus Park, the Valley Mall, and the Arts & Entertainment District — and the fastest ways around I-70 and I-81 when traffic builds."
+      },
+      {
+        "title": "~80 Minutes to BWI",
+        "desc": "Door-to-terminal in about 80 minutes via I-70 and I-81, flight-tracked on every ride."
+      },
+      {
+        "title": "All of Washington County",
+        "desc": "Service across the City Center, Fountainhead, and Robinwood and every corner of Washington County."
+      },
+      {
+        "title": "Flat, All-Inclusive Pricing",
+        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+      },
+      {
+        "title": "Professional Chauffeurs",
+        "desc": "Background-checked, professionally dressed, and trained to arrive early — every ride, every time."
+      },
+      {
+        "title": "24/7 Availability",
+        "desc": "Pre-dawn departures and red-eye arrivals are covered. We operate around the clock, every day of the year."
+      }
+    ],
+    "vehicles": [
+      "Luxury SUV — Chevrolet Suburban",
+      "Premium SUV — Cadillac Escalade",
+      "Sprinter Executive — Mercedes Sprinter"
+    ],
+    "faqs": [
+      {
+        "q": "Do you serve all of Hagerstown and Washington County?",
+        "a": "Yes. We cover every neighborhood in Hagerstown — including the City Center, Fountainhead, and Robinwood — plus the rest of Washington County and the surrounding region. If your trip starts or ends anywhere nearby, we can handle it."
+      },
+      {
+        "q": "How long does it take to get from Hagerstown to BWI?",
+        "a": "About 80 minutes for the 75-mile run via I-70 and I-81, depending on traffic. We build buffer time into every pickup and track your flight so departures and arrivals stay stress-free."
+      },
+      {
+        "q": "How much does limo service in Hagerstown cost?",
+        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+      },
+      {
+        "q": "What vehicles can I book in Hagerstown?",
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+      },
+      {
+        "q": "Can I book a late-night or early-morning ride in Hagerstown?",
+        "a": "Yes — we operate 24/7, every day of the year. Pre-dawn airport departures, red-eye arrivals, and late nights out all get the same on-time, chauffeured service. We recommend booking at least 24 hours ahead when you can."
+      }
+    ],
+    "ctaTitle": "Book Your Hagerstown Limo Today",
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Hagerstown, MD — call (877) 609-1919 or reserve online in minutes."
+  },
+
+  "limo-service-frederick-md": {
+    "metaTitle": "Limo & Car Service in Frederick, MD | 92 Limo",
+    "metaDescription": "Limo & car service in Frederick, MD — flight-tracked BWI transfers, weddings, corporate & group rides. Flat rates, 24/7. Call (877) 609-1919.",
+    "eyebrow": "FREDERICK, MD",
+    "h1": "Limo & Car Service in Frederick, MD",
+    "subtitle": "Chauffeured limo and car service for Frederick and Frederick County — airport transfers, weddings, corporate travel, and nights out at one flat rate.",
+    "image": IMAGES.sedan,
+    "alt": "Chauffeured luxury vehicle serving Frederick, MD — 92 Limo Service",
+    "highlightsHeading": "Why Frederick Books 92 Limo Service",
+    "intro": [
+      "From Baker Park, Nymeo Field, and the Golden Mile, 92 Limo Service covers Frederick, MD and the rest of Frederick County with chauffeured transportation that treats your schedule as the contract. On time, immaculate, flat-rated — that is the standard on every trip, whether it is an airport run or a milestone celebration.",
+      "Airport transfers are door-to-door: about 60 minutes to BWI Marshall via I-70 and US-15, with Reagan National, Dulles, and Philadelphia also served daily. Your chauffeur plans the pickup around traffic and check-in windows, tracks return flights in real time, and builds in buffer so you are never cutting it close. Round-trip bookings lock in your ride home before you even take off.",
+      "Residents of downtown Frederick, Urbana, Ballenger Creek, and Spring Ridge use us for more than flights: corporate travel, weddings, prom nights, anniversaries, concerts, and safe rides home. One trusted chauffeur partner replaces the rideshare lottery — no cancellations, no surge pricing, no strangers behind the wheel.",
+      "The fleet matches the occasion. Executives ride in the Mercedes E-Class and BMW 7 Series. Families and groups take the Escalade or Suburban. Wedding parties and group outings fill the Mercedes Sprinter — up to 14 seats, luggage and all. Reserve online or call (877) 609-1919, answered 24/7.",
+      "Frederick's growth from Ballenger Creek to Urbana has outpaced its transportation options, and we fill that gap with flat-rate airport runs and polished evening service downtown. Wedding parties book our Sprinters for the county's barn and vineyard venues months in advance."
+    ],
+    "highlights": [
+      {
+        "title": "Local Frederick Knowledge",
+        "desc": "Our chauffeurs know Baker Park, Nymeo Field, and the Golden Mile — and the fastest ways around I-70 and US-15 when traffic builds."
+      },
+      {
+        "title": "~60 Minutes to BWI",
+        "desc": "Door-to-terminal in about 60 minutes via I-70 and US-15, flight-tracked on every ride."
+      },
+      {
+        "title": "All of Frederick County",
+        "desc": "Service across downtown Frederick, Urbana, Ballenger Creek, and Spring Ridge and every corner of Frederick County."
+      },
+      {
+        "title": "Flat, All-Inclusive Pricing",
+        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+      },
+      {
+        "title": "Professional Chauffeurs",
+        "desc": "Background-checked, professionally dressed, and trained to arrive early — every ride, every time."
+      },
+      {
+        "title": "24/7 Availability",
+        "desc": "Pre-dawn departures and red-eye arrivals are covered. We operate around the clock, every day of the year."
+      }
+    ],
+    "vehicles": [
+      "Luxury SUV — Chevrolet Suburban",
+      "Premium SUV — Cadillac Escalade",
+      "Sprinter Executive — Mercedes Sprinter"
+    ],
+    "faqs": [
+      {
+        "q": "Do you serve all of Frederick and Frederick County?",
+        "a": "Yes. We cover every neighborhood in Frederick — including downtown Frederick, Urbana, Ballenger Creek, and Spring Ridge — plus the rest of Frederick County and the surrounding region. If your trip starts or ends anywhere nearby, we can handle it."
+      },
+      {
+        "q": "How long does it take to get from Frederick to BWI?",
+        "a": "About 60 minutes for the 55-mile run via I-70 and US-15, depending on traffic. We build buffer time into every pickup and track your flight so departures and arrivals stay stress-free."
+      },
+      {
+        "q": "How much does limo service in Frederick cost?",
+        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+      },
+      {
+        "q": "What vehicles can I book in Frederick?",
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+      },
+      {
+        "q": "Can I book a late-night or early-morning ride in Frederick?",
+        "a": "Yes — we operate 24/7, every day of the year. Pre-dawn airport departures, red-eye arrivals, and late nights out all get the same on-time, chauffeured service. We recommend booking at least 24 hours ahead when you can."
+      }
+    ],
+    "ctaTitle": "Book Your Frederick Limo Today",
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Frederick, MD — call (877) 609-1919 or reserve online in minutes."
+  },
+
+  "limo-service-salisbury-md": {
+    "metaTitle": "Limo Service in Salisbury, MD | 92 Limo Service",
+    "metaDescription": "Limo & car service in Salisbury, MD — flight-tracked BWI transfers, weddings, corporate & group rides. Flat rates, 24/7. Call (877) 609-1919.",
+    "eyebrow": "SALISBURY, MD",
+    "h1": "Limo Service in Salisbury, MD",
+    "subtitle": "Chauffeured limo and car service for Salisbury and Wicomico County — airport transfers, weddings, corporate travel, and nights out at one flat rate.",
+    "image": IMAGES.suv,
+    "alt": "Chauffeured luxury vehicle serving Salisbury, MD — 92 Limo Service",
+    "highlightsHeading": "Why Salisbury Books 92 Limo Service",
+    "intro": [
+      "When Salisbury, MD needs a car service that actually shows up early, it calls 92 Limo Service. We provide chauffeured luxury transportation across Wicomico County — downtown Salisbury, the University area, and Fruitland included — with flat all-inclusive pricing and a fleet of late-model Mercedes, BMW, Cadillac, and Sprinter vehicles.",
+      "From Salisbury, BWI Marshall Airport is roughly 105 miles away — about 110 minutes via US-50 and US-13. We watch the flight so you do not have to: delays shift your pickup automatically, arrivals include generous free wait time, and meet-and-greet service inside the terminal is available on request.",
+      "Around town, our chauffeurs know Salisbury University, TidalHealth, and the downtown riverwalk and the alternates around US-50 and US-13 when traffic stacks up. That local fluency is why Salisbury families book us for weddings and proms, and why area businesses keep corporate accounts with consolidated billing and priority scheduling.",
+      "Every reservation is confirmed with one flat quote — tolls, taxes, and gratuity included, nothing metered, nothing surged. Call (877) 609-1919 or request a quote online, any hour of the day.",
+      "As the hub of the Lower Eastern Shore, Salisbury is a long haul from the major airports — 92 Limo turns that drive into productive, comfortable time with flat-rate transfers to BWI and Philadelphia. We also serve Salisbury University move-ins and graduations, TidalHealth visits, and beach-season group trips."
+    ],
+    "highlights": [
+      {
+        "title": "Local Salisbury Knowledge",
+        "desc": "Our chauffeurs know Salisbury University, TidalHealth, and the downtown riverwalk — and the fastest ways around US-50 and US-13 when traffic builds."
+      },
+      {
+        "title": "~110 Minutes to BWI",
+        "desc": "Door-to-terminal in about 110 minutes via US-50 and US-13, flight-tracked on every ride."
+      },
+      {
+        "title": "All of Wicomico County",
+        "desc": "Service across downtown Salisbury, the University area, and Fruitland and every corner of Wicomico County."
+      },
+      {
+        "title": "Flat, All-Inclusive Pricing",
+        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+      },
+      {
+        "title": "Professional Chauffeurs",
+        "desc": "Background-checked, professionally dressed, and trained to arrive early — every ride, every time."
+      },
+      {
+        "title": "24/7 Availability",
+        "desc": "Pre-dawn departures and red-eye arrivals are covered. We operate around the clock, every day of the year."
+      }
+    ],
+    "vehicles": [
+      "Business Sedan — Mercedes E-Class",
+      "First Class Sedan — BMW 7 Series",
+      "Premium SUV — Cadillac Escalade"
+    ],
+    "faqs": [
+      {
+        "q": "Do you serve all of Salisbury and Wicomico County?",
+        "a": "Yes. We cover every neighborhood in Salisbury — including downtown Salisbury, the University area, and Fruitland — plus the rest of Wicomico County and the surrounding region. If your trip starts or ends anywhere nearby, we can handle it."
+      },
+      {
+        "q": "How long does it take to get from Salisbury to BWI?",
+        "a": "About 110 minutes for the 105-mile run via US-50 and US-13, depending on traffic. We build buffer time into every pickup and track your flight so departures and arrivals stay stress-free."
+      },
+      {
+        "q": "How much does limo service in Salisbury cost?",
+        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+      },
+      {
+        "q": "What vehicles can I book in Salisbury?",
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+      },
+      {
+        "q": "Can I book a late-night or early-morning ride in Salisbury?",
+        "a": "Yes — we operate 24/7, every day of the year. Pre-dawn airport departures, red-eye arrivals, and late nights out all get the same on-time, chauffeured service. We recommend booking at least 24 hours ahead when you can."
+      }
+    ],
+    "ctaTitle": "Book Your Salisbury Limo Today",
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Salisbury, MD — call (877) 609-1919 or reserve online in minutes."
+  },
+
+  "limo-service-easton-md": {
+    "metaTitle": "Limo Service in Easton, MD | 92 Limo Service",
+    "metaDescription": "Limo & car service in Easton, MD — flight-tracked BWI transfers, weddings, corporate & group rides. Flat rates, 24/7. Call (877) 609-1919.",
+    "eyebrow": "EASTON, MD",
+    "h1": "Limo Service in Easton, MD",
+    "subtitle": "Chauffeured limo and car service for Easton and Talbot County — airport transfers, weddings, corporate travel, and nights out at one flat rate.",
+    "image": IMAGES.sedan,
+    "alt": "Chauffeured luxury vehicle serving Easton, MD — 92 Limo Service",
+    "highlightsHeading": "Why Easton Books 92 Limo Service",
+    "intro": [
+      "Searching for a dependable limo service in Easton, MD? 92 Limo Service brings chauffeured luxury transportation to Talbot County — covering downtown Easton, Easton Club, and the Oxford Road corridor — with airport transfers, corporate travel, weddings, and nights out all handled by the same professional team. Every trip is confirmed in advance with a flat, all-inclusive quote and driven by a background-checked chauffeur in a late-model luxury vehicle.",
+      "Airport runs are where most Easton clients meet us. From Easton, BWI Marshall Airport is roughly 60 miles away — about 70 minutes via US-50 and the Bay Bridge. Your chauffeur tracks the flight in real time, adjusts automatically for delays, loads every bag, and includes generous wait time on arrivals — so an early landing or a slow baggage carousel never becomes your problem.",
+      "Local knowledge is the difference between on time and almost on time. Our chauffeurs know the Avalon Theatre, Easton Airport, and the Talbot County courthouse, and they plan around school traffic, event closures, and rush hour on US-50 and the Bay Bridge before you ever feel it. You get one number to call, one trusted team, and the same polished standard on every ride.",
+      "Pick the vehicle that fits: a Mercedes E-Class or BMW 7 Series for executive travel, a Cadillac Escalade or Chevrolet Suburban for families and luggage, or a Mercedes Sprinter van that keeps up to 14 people together. Every vehicle arrives detailed and stocked with water — call (877) 609-1919 any hour to reserve.",
+      "Easton anchors the Mid-Shore's wedding and getaway country — St. Michaels, Oxford, and the Tred Avon are minutes away — and our Sprinters and SUVs are fixtures at its venues. Private-aviation clients at Easton Airport and BWI transfers over the Bay Bridge fill the calendar between celebrations."
+    ],
+    "highlights": [
+      {
+        "title": "Local Easton Knowledge",
+        "desc": "Our chauffeurs know the Avalon Theatre, Easton Airport, and the Talbot County courthouse — and the fastest ways around US-50 and the Bay Bridge when traffic builds."
+      },
+      {
+        "title": "~70 Minutes to BWI",
+        "desc": "Door-to-terminal in about 70 minutes via US-50 and the Bay Bridge, flight-tracked on every ride."
+      },
+      {
+        "title": "All of Talbot County",
+        "desc": "Service across downtown Easton, Easton Club, and the Oxford Road corridor and every corner of Talbot County."
+      },
+      {
+        "title": "Flat, All-Inclusive Pricing",
+        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+      },
+      {
+        "title": "Professional Chauffeurs",
+        "desc": "Background-checked, professionally dressed, and trained to arrive early — every ride, every time."
+      },
+      {
+        "title": "24/7 Availability",
+        "desc": "Pre-dawn departures and red-eye arrivals are covered. We operate around the clock, every day of the year."
+      }
+    ],
+    "vehicles": [
+      "Luxury SUV — Chevrolet Suburban",
+      "Premium SUV — Cadillac Escalade",
+      "Sprinter Executive — Mercedes Sprinter"
+    ],
+    "faqs": [
+      {
+        "q": "Do you serve all of Easton and Talbot County?",
+        "a": "Yes. We cover every neighborhood in Easton — including downtown Easton, Easton Club, and the Oxford Road corridor — plus the rest of Talbot County and the surrounding region. If your trip starts or ends anywhere nearby, we can handle it."
+      },
+      {
+        "q": "How long does it take to get from Easton to BWI?",
+        "a": "About 70 minutes for the 60-mile run via US-50 and the Bay Bridge, depending on traffic. We build buffer time into every pickup and track your flight so departures and arrivals stay stress-free."
+      },
+      {
+        "q": "How much does limo service in Easton cost?",
+        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+      },
+      {
+        "q": "What vehicles can I book in Easton?",
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+      },
+      {
+        "q": "Can I book a late-night or early-morning ride in Easton?",
+        "a": "Yes — we operate 24/7, every day of the year. Pre-dawn airport departures, red-eye arrivals, and late nights out all get the same on-time, chauffeured service. We recommend booking at least 24 hours ahead when you can."
+      }
+    ],
+    "ctaTitle": "Book Your Easton Limo Today",
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Easton, MD — call (877) 609-1919 or reserve online in minutes."
+  },
+
+  "limo-service-cambridge-md": {
+    "metaTitle": "Limo Service in Cambridge, MD | 92 Limo Service",
+    "metaDescription": "Limo & car service in Cambridge, MD — flight-tracked BWI transfers, weddings, corporate & group rides. Flat rates, 24/7. Call (877) 609-1919.",
+    "eyebrow": "CAMBRIDGE, MD",
+    "h1": "Limo Service in Cambridge, MD",
+    "subtitle": "Chauffeured limo and car service for Cambridge and Dorchester County — airport transfers, weddings, corporate travel, and nights out at one flat rate.",
+    "image": IMAGES.suv,
+    "alt": "Chauffeured luxury vehicle serving Cambridge, MD — 92 Limo Service",
+    "highlightsHeading": "Why Cambridge Books 92 Limo Service",
+    "intro": [
+      "92 Limo Service is the chauffeured car service Cambridge, MD calls when showing up late is not an option. From the historic West End, Long Boat Estates, and the Hyatt resort corridor, we cover all of Dorchester County with luxury sedans, SUVs, and Sprinter vans — 24 hours a day, every day of the year.",
+      "The run from Cambridge to BWI Marshall takes about 85 minutes via US-50 and the Choptank River bridge, and we also cover Reagan National, Dulles, and Philadelphia when your itinerary calls for it. Every airport transfer includes real-time flight tracking, optional meet-and-greet at baggage claim, and full luggage assistance. Book a 4 AM departure and your chauffeur is outside before your coffee finishes brewing; land two hours late and your pickup has already adjusted at no charge.",
+      "Beyond the airport we handle corporate accounts, weddings, proms, date nights, wine tours, and hourly as-directed charters around the Hyatt Regency Chesapeake Bay, Sailwinds Park, and the historic downtown. Tell us the plan — multiple stops, tight timing, a surprise pickup — and we build the schedule around it.",
+      "Pricing stays simple: one flat, all-inclusive quote approved before you book, covering tolls, taxes, and standard gratuity. No meters, no surge, no fine print. Call (877) 609-1919 or book online in minutes.",
+      "Cambridge bookings revolve around the Hyatt Regency Chesapeake Bay — airport transfers for resort guests, wedding shuttles, and golf outings — plus Harriet Tubman Byway tours and rides across the Choptank. The Bay Bridge run to BWI is one we drive every week."
+    ],
+    "highlights": [
+      {
+        "title": "Local Cambridge Knowledge",
+        "desc": "Our chauffeurs know the Hyatt Regency Chesapeake Bay, Sailwinds Park, and the historic downtown — and the fastest ways around US-50 and the Choptank River bridge when traffic builds."
+      },
+      {
+        "title": "~85 Minutes to BWI",
+        "desc": "Door-to-terminal in about 85 minutes via US-50 and the Choptank River bridge, flight-tracked on every ride."
+      },
+      {
+        "title": "All of Dorchester County",
+        "desc": "Service across the historic West End, Long Boat Estates, and the Hyatt resort corridor and every corner of Dorchester County."
+      },
+      {
+        "title": "Flat, All-Inclusive Pricing",
+        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+      },
+      {
+        "title": "Professional Chauffeurs",
+        "desc": "Background-checked, professionally dressed, and trained to arrive early — every ride, every time."
+      },
+      {
+        "title": "24/7 Availability",
+        "desc": "Pre-dawn departures and red-eye arrivals are covered. We operate around the clock, every day of the year."
+      }
+    ],
+    "vehicles": [
+      "Luxury SUV — Chevrolet Suburban",
+      "Premium SUV — Cadillac Escalade",
+      "Sprinter Executive — Mercedes Sprinter"
+    ],
+    "faqs": [
+      {
+        "q": "Do you serve all of Cambridge and Dorchester County?",
+        "a": "Yes. We cover every neighborhood in Cambridge — including the historic West End, Long Boat Estates, and the Hyatt resort corridor — plus the rest of Dorchester County and the surrounding region. If your trip starts or ends anywhere nearby, we can handle it."
+      },
+      {
+        "q": "How long does it take to get from Cambridge to BWI?",
+        "a": "About 85 minutes for the 75-mile run via US-50 and the Choptank River bridge, depending on traffic. We build buffer time into every pickup and track your flight so departures and arrivals stay stress-free."
+      },
+      {
+        "q": "How much does limo service in Cambridge cost?",
+        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+      },
+      {
+        "q": "What vehicles can I book in Cambridge?",
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+      },
+      {
+        "q": "Can I book a late-night or early-morning ride in Cambridge?",
+        "a": "Yes — we operate 24/7, every day of the year. Pre-dawn airport departures, red-eye arrivals, and late nights out all get the same on-time, chauffeured service. We recommend booking at least 24 hours ahead when you can."
+      }
+    ],
+    "ctaTitle": "Book Your Cambridge Limo Today",
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Cambridge, MD — call (877) 609-1919 or reserve online in minutes."
+  },
+
+  "limo-service-dover-de": {
+    "metaTitle": "Limo & Car Service in Dover, DE | 92 Limo",
+    "metaDescription": "Limo & car service in Dover, DE — flight-tracked BWI transfers, weddings, corporate & group rides. Flat rates, 24/7. Call (877) 609-1919.",
+    "eyebrow": "DOVER, DE",
+    "h1": "Limo & Car Service in Dover, DE",
+    "subtitle": "Chauffeured limo and car service for Dover and Kent County — airport transfers, weddings, corporate travel, and nights out at one flat rate.",
+    "image": IMAGES.sedan,
+    "alt": "Chauffeured luxury vehicle serving Dover, DE — 92 Limo Service",
+    "highlightsHeading": "Why Dover Books 92 Limo Service",
+    "intro": [
+      "From Delaware State University, Bally's Dover, and the Dover Motor Speedway, 92 Limo Service covers Dover, DE and the rest of Kent County with chauffeured transportation that treats your schedule as the contract. On time, immaculate, flat-rated — that is the standard on every trip, whether it is an airport run or a milestone celebration.",
+      "Airport transfers are door-to-door: about 85 minutes to BWI Marshall via DE-1 and US-13, with Reagan National, Dulles, and Philadelphia also served daily. Your chauffeur plans the pickup around traffic and check-in windows, tracks return flights in real time, and builds in buffer so you are never cutting it close. Round-trip bookings lock in your ride home before you even take off.",
+      "Residents of downtown Dover, the Capitol district, and the Route 13 corridor use us for more than flights: corporate travel, weddings, prom nights, anniversaries, concerts, and safe rides home. One trusted chauffeur partner replaces the rideshare lottery — no cancellations, no surge pricing, no strangers behind the wheel.",
+      "The fleet matches the occasion. Executives ride in the Mercedes E-Class and BMW 7 Series. Families and groups take the Escalade or Suburban. Wedding parties and group outings fill the Mercedes Sprinter — up to 14 seats, luggage and all. Reserve online or call (877) 609-1919, answered 24/7.",
+      "Dover's rhythm runs from Delaware State University weekends to race weeks at the Motor Speedway, and we scale with it — sedans for Capitol-district professionals, Sprinters for NASCAR groups and casino evenings at Bally's. BWI and Philadelphia transfers are both daily runs."
+    ],
+    "highlights": [
+      {
+        "title": "Local Dover Knowledge",
+        "desc": "Our chauffeurs know Delaware State University, Bally's Dover, and the Dover Motor Speedway — and the fastest ways around DE-1 and US-13 when traffic builds."
+      },
+      {
+        "title": "~85 Minutes to BWI",
+        "desc": "Door-to-terminal in about 85 minutes via DE-1 and US-13, flight-tracked on every ride."
+      },
+      {
+        "title": "All of Kent County",
+        "desc": "Service across downtown Dover, the Capitol district, and the Route 13 corridor and every corner of Kent County."
+      },
+      {
+        "title": "Flat, All-Inclusive Pricing",
+        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+      },
+      {
+        "title": "Professional Chauffeurs",
+        "desc": "Background-checked, professionally dressed, and trained to arrive early — every ride, every time."
+      },
+      {
+        "title": "24/7 Availability",
+        "desc": "Pre-dawn departures and red-eye arrivals are covered. We operate around the clock, every day of the year."
+      }
+    ],
+    "vehicles": [
+      "Business Sedan — Mercedes E-Class",
+      "First Class Sedan — BMW 7 Series",
+      "Premium SUV — Cadillac Escalade"
+    ],
+    "faqs": [
+      {
+        "q": "Do you serve all of Dover and Kent County?",
+        "a": "Yes. We cover every neighborhood in Dover — including downtown Dover, the Capitol district, and the Route 13 corridor — plus the rest of Kent County and the surrounding region. If your trip starts or ends anywhere nearby, we can handle it."
+      },
+      {
+        "q": "How long does it take to get from Dover to BWI?",
+        "a": "About 85 minutes for the 80-mile run via DE-1 and US-13, depending on traffic. We build buffer time into every pickup and track your flight so departures and arrivals stay stress-free."
+      },
+      {
+        "q": "How much does limo service in Dover cost?",
+        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+      },
+      {
+        "q": "What vehicles can I book in Dover?",
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+      },
+      {
+        "q": "Can I book a late-night or early-morning ride in Dover?",
+        "a": "Yes — we operate 24/7, every day of the year. Pre-dawn airport departures, red-eye arrivals, and late nights out all get the same on-time, chauffeured service. We recommend booking at least 24 hours ahead when you can."
+      }
+    ],
+    "ctaTitle": "Book Your Dover Limo Today",
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Dover, DE — call (877) 609-1919 or reserve online in minutes."
+  },
+
+  "limo-service-rehoboth-beach-de": {
+    "metaTitle": "Limo Service in Rehoboth Beach, DE | 92 Limo Service",
+    "metaDescription": "Limo & car service in Rehoboth Beach, DE — flight-tracked BWI transfers, weddings, corporate & group rides. Flat rates, 24/7. Call (877) 609-1919.",
+    "eyebrow": "REHOBOTH BEACH, DE",
+    "h1": "Limo Service in Rehoboth Beach, DE",
+    "subtitle": "Chauffeured limo and car service for Rehoboth Beach and Sussex County — airport transfers, weddings, corporate travel, and nights out at one flat rate.",
+    "image": IMAGES.suv,
+    "alt": "Chauffeured luxury vehicle serving Rehoboth Beach, DE — 92 Limo Service",
+    "highlightsHeading": "Why Rehoboth Beach Books 92 Limo Service",
+    "intro": [
+      "When Rehoboth Beach, DE needs a car service that actually shows up early, it calls 92 Limo Service. We provide chauffeured luxury transportation across Sussex County — downtown Rehoboth, North Shores, and Dewey Beach included — with flat all-inclusive pricing and a fleet of late-model Mercedes, BMW, Cadillac, and Sprinter vehicles.",
+      "From Rehoboth Beach, BWI Marshall Airport is roughly 120 miles away — about 135 minutes via US-50 and DE-404. We watch the flight so you do not have to: delays shift your pickup automatically, arrivals include generous free wait time, and meet-and-greet service inside the terminal is available on request.",
+      "Around town, our chauffeurs know the boardwalk, Rehoboth Avenue, and the Tanger Outlets and the alternates around US-50 and DE-404 when traffic stacks up. That local fluency is why Rehoboth Beach families book us for weddings and proms, and why area businesses keep corporate accounts with consolidated billing and priority scheduling.",
+      "Every reservation is confirmed with one flat quote — tolls, taxes, and gratuity included, nothing metered, nothing surged. Call (877) 609-1919 or request a quote online, any hour of the day.",
+      "In season, Rehoboth's Saturday turnovers and boardwalk evenings keep our beach fleet moving — airport pickups timed to check-in, group Sprinters for bachelorette weekends, and safe rides between Dewey, Lewes, and downtown. Off season, we are still here for flat-rate BWI and Philadelphia transfers."
+    ],
+    "highlights": [
+      {
+        "title": "Local Rehoboth Beach Knowledge",
+        "desc": "Our chauffeurs know the boardwalk, Rehoboth Avenue, and the Tanger Outlets — and the fastest ways around US-50 and DE-404 when traffic builds."
+      },
+      {
+        "title": "~135 Minutes to BWI",
+        "desc": "Door-to-terminal in about 135 minutes via US-50 and DE-404, flight-tracked on every ride."
+      },
+      {
+        "title": "All of Sussex County",
+        "desc": "Service across downtown Rehoboth, North Shores, and Dewey Beach and every corner of Sussex County."
+      },
+      {
+        "title": "Flat, All-Inclusive Pricing",
+        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+      },
+      {
+        "title": "Professional Chauffeurs",
+        "desc": "Background-checked, professionally dressed, and trained to arrive early — every ride, every time."
+      },
+      {
+        "title": "24/7 Availability",
+        "desc": "Pre-dawn departures and red-eye arrivals are covered. We operate around the clock, every day of the year."
+      }
+    ],
+    "vehicles": [
+      "Luxury SUV — Chevrolet Suburban",
+      "Premium SUV — Cadillac Escalade",
+      "Sprinter Executive — Mercedes Sprinter"
+    ],
+    "faqs": [
+      {
+        "q": "Do you serve all of Rehoboth Beach and Sussex County?",
+        "a": "Yes. We cover every neighborhood in Rehoboth Beach — including downtown Rehoboth, North Shores, and Dewey Beach — plus the rest of Sussex County and the surrounding region. If your trip starts or ends anywhere nearby, we can handle it."
+      },
+      {
+        "q": "How long does it take to get from Rehoboth Beach to BWI?",
+        "a": "About 135 minutes for the 120-mile run via US-50 and DE-404, depending on traffic. We build buffer time into every pickup and track your flight so departures and arrivals stay stress-free."
+      },
+      {
+        "q": "How much does limo service in Rehoboth Beach cost?",
+        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+      },
+      {
+        "q": "What vehicles can I book in Rehoboth Beach?",
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+      },
+      {
+        "q": "Can I book a late-night or early-morning ride in Rehoboth Beach?",
+        "a": "Yes — we operate 24/7, every day of the year. Pre-dawn airport departures, red-eye arrivals, and late nights out all get the same on-time, chauffeured service. We recommend booking at least 24 hours ahead when you can."
+      }
+    ],
+    "ctaTitle": "Book Your Rehoboth Beach Limo Today",
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Rehoboth Beach, DE — call (877) 609-1919 or reserve online in minutes."
+  },
+
+  "limo-service-york-pa": {
+    "metaTitle": "Limo & Car Service in York, PA | 92 Limo",
+    "metaDescription": "Limo & car service in York, PA — flight-tracked BWI transfers, weddings, corporate & group rides. Flat rates, 24/7. Call (877) 609-1919.",
+    "eyebrow": "YORK, PA",
+    "h1": "Limo & Car Service in York, PA",
+    "subtitle": "Chauffeured limo and car service for York and York County — airport transfers, weddings, corporate travel, and nights out at one flat rate.",
+    "image": IMAGES.sedan,
+    "alt": "Chauffeured luxury vehicle serving York, PA — 92 Limo Service",
+    "highlightsHeading": "Why York Books 92 Limo Service",
+    "intro": [
+      "Searching for a dependable limo service in York, PA? 92 Limo Service brings chauffeured luxury transportation to York County — covering downtown York, Springettsbury, and East York — with airport transfers, corporate travel, weddings, and nights out all handled by the same professional team. Every trip is confirmed in advance with a flat, all-inclusive quote and driven by a background-checked chauffeur in a late-model luxury vehicle.",
+      "Airport runs are where most York clients meet us. From York, BWI Marshall Airport is roughly 55 miles away — about 60 minutes via I-83. Your chauffeur tracks the flight in real time, adjusts automatically for delays, loads every bag, and includes generous wait time on arrivals — so an early landing or a slow baggage carousel never becomes your problem.",
+      "Local knowledge is the difference between on time and almost on time. Our chauffeurs know PeoplesBank Park, Central Market, and the York Fairgrounds, and they plan around school traffic, event closures, and rush hour on I-83 before you ever feel it. You get one number to call, one trusted team, and the same polished standard on every ride.",
+      "Pick the vehicle that fits: a Mercedes E-Class or BMW 7 Series for executive travel, a Cadillac Escalade or Chevrolet Suburban for families and luggage, or a Mercedes Sprinter van that keeps up to 14 people together. Every vehicle arrives detailed and stocked with water — call (877) 609-1919 any hour to reserve.",
+      "York riders split between business travel — the I-83 corridor to BWI is our most common run — and celebrations at the fairgrounds, PeoplesBank Park, and downtown's Central Market district. Wedding season fills our Sprinters for venues across the county."
+    ],
+    "highlights": [
+      {
+        "title": "Local York Knowledge",
+        "desc": "Our chauffeurs know PeoplesBank Park, Central Market, and the York Fairgrounds — and the fastest ways around I-83 when traffic builds."
+      },
+      {
+        "title": "~60 Minutes to BWI",
+        "desc": "Door-to-terminal in about 60 minutes via I-83, flight-tracked on every ride."
+      },
+      {
+        "title": "All of York County",
+        "desc": "Service across downtown York, Springettsbury, and East York and every corner of York County."
+      },
+      {
+        "title": "Flat, All-Inclusive Pricing",
+        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+      },
+      {
+        "title": "Professional Chauffeurs",
+        "desc": "Background-checked, professionally dressed, and trained to arrive early — every ride, every time."
+      },
+      {
+        "title": "24/7 Availability",
+        "desc": "Pre-dawn departures and red-eye arrivals are covered. We operate around the clock, every day of the year."
+      }
+    ],
+    "vehicles": [
+      "Luxury SUV — Chevrolet Suburban",
+      "Premium SUV — Cadillac Escalade",
+      "Sprinter Executive — Mercedes Sprinter"
+    ],
+    "faqs": [
+      {
+        "q": "Do you serve all of York and York County?",
+        "a": "Yes. We cover every neighborhood in York — including downtown York, Springettsbury, and East York — plus the rest of York County and the surrounding region. If your trip starts or ends anywhere nearby, we can handle it."
+      },
+      {
+        "q": "How long does it take to get from York to BWI?",
+        "a": "About 60 minutes for the 55-mile run via I-83, depending on traffic. We build buffer time into every pickup and track your flight so departures and arrivals stay stress-free."
+      },
+      {
+        "q": "How much does limo service in York cost?",
+        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+      },
+      {
+        "q": "What vehicles can I book in York?",
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+      },
+      {
+        "q": "Can I book a late-night or early-morning ride in York?",
+        "a": "Yes — we operate 24/7, every day of the year. Pre-dawn airport departures, red-eye arrivals, and late nights out all get the same on-time, chauffeured service. We recommend booking at least 24 hours ahead when you can."
+      }
+    ],
+    "ctaTitle": "Book Your York Limo Today",
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in York, PA — call (877) 609-1919 or reserve online in minutes."
+  },
+
+  "limo-service-lancaster-pa": {
+    "metaTitle": "Limo & Car Service in Lancaster, PA | 92 Limo",
+    "metaDescription": "Limo & car service in Lancaster, PA — flight-tracked BWI transfers, weddings, corporate & group rides. Flat rates, 24/7. Call (877) 609-1919.",
+    "eyebrow": "LANCASTER, PA",
+    "h1": "Limo & Car Service in Lancaster, PA",
+    "subtitle": "Chauffeured limo and car service for Lancaster and Lancaster County — airport transfers, weddings, corporate travel, and nights out at one flat rate.",
+    "image": IMAGES.suv,
+    "alt": "Chauffeured luxury vehicle serving Lancaster, PA — 92 Limo Service",
+    "highlightsHeading": "Why Lancaster Books 92 Limo Service",
+    "intro": [
+      "92 Limo Service is the chauffeured car service Lancaster, PA calls when showing up late is not an option. From downtown Lancaster, Manheim Township, and East Hempfield, we cover all of Lancaster County with luxury sedans, SUVs, and Sprinter vans — 24 hours a day, every day of the year.",
+      "The run from Lancaster to BWI Marshall takes about 90 minutes via US-30 and PA-283, and we also cover Reagan National, Dulles, and Philadelphia when your itinerary calls for it. Every airport transfer includes real-time flight tracking, optional meet-and-greet at baggage claim, and full luggage assistance. Book a 4 AM departure and your chauffeur is outside before your coffee finishes brewing; land two hours late and your pickup has already adjusted at no charge.",
+      "Beyond the airport we handle corporate accounts, weddings, proms, date nights, wine tours, and hourly as-directed charters around Sight & Sound Theatre, Lancaster Central Market, and Rock Lititz. Tell us the plan — multiple stops, tight timing, a surprise pickup — and we build the schedule around it.",
+      "Pricing stays simple: one flat, all-inclusive quote approved before you book, covering tolls, taxes, and standard gratuity. No meters, no surge, no fine print. Call (877) 609-1919 or book online in minutes.",
+      "Lancaster bookings range from Sight & Sound theater groups and Rock Lititz production crews to Amish-country tours and downtown weddings. The BWI and Philadelphia runs are both fixed-rate staples, and hourly charters cover multi-stop days across the county."
+    ],
+    "highlights": [
+      {
+        "title": "Local Lancaster Knowledge",
+        "desc": "Our chauffeurs know Sight & Sound Theatre, Lancaster Central Market, and Rock Lititz — and the fastest ways around US-30 and PA-283 when traffic builds."
+      },
+      {
+        "title": "~90 Minutes to BWI",
+        "desc": "Door-to-terminal in about 90 minutes via US-30 and PA-283, flight-tracked on every ride."
+      },
+      {
+        "title": "All of Lancaster County",
+        "desc": "Service across downtown Lancaster, Manheim Township, and East Hempfield and every corner of Lancaster County."
+      },
+      {
+        "title": "Flat, All-Inclusive Pricing",
+        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+      },
+      {
+        "title": "Professional Chauffeurs",
+        "desc": "Background-checked, professionally dressed, and trained to arrive early — every ride, every time."
+      },
+      {
+        "title": "24/7 Availability",
+        "desc": "Pre-dawn departures and red-eye arrivals are covered. We operate around the clock, every day of the year."
+      }
+    ],
+    "vehicles": [
+      "Business Sedan — Mercedes E-Class",
+      "First Class Sedan — BMW 7 Series",
+      "Premium SUV — Cadillac Escalade"
+    ],
+    "faqs": [
+      {
+        "q": "Do you serve all of Lancaster and Lancaster County?",
+        "a": "Yes. We cover every neighborhood in Lancaster — including downtown Lancaster, Manheim Township, and East Hempfield — plus the rest of Lancaster County and the surrounding region. If your trip starts or ends anywhere nearby, we can handle it."
+      },
+      {
+        "q": "How long does it take to get from Lancaster to BWI?",
+        "a": "About 90 minutes for the 80-mile run via US-30 and PA-283, depending on traffic. We build buffer time into every pickup and track your flight so departures and arrivals stay stress-free."
+      },
+      {
+        "q": "How much does limo service in Lancaster cost?",
+        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+      },
+      {
+        "q": "What vehicles can I book in Lancaster?",
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+      },
+      {
+        "q": "Can I book a late-night or early-morning ride in Lancaster?",
+        "a": "Yes — we operate 24/7, every day of the year. Pre-dawn airport departures, red-eye arrivals, and late nights out all get the same on-time, chauffeured service. We recommend booking at least 24 hours ahead when you can."
+      }
+    ],
+    "ctaTitle": "Book Your Lancaster Limo Today",
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Lancaster, PA — call (877) 609-1919 or reserve online in minutes."
+  },
+
+  "limo-service-harrisburg-pa": {
+    "metaTitle": "Limo & Car Service in Harrisburg, PA | 92 Limo",
+    "metaDescription": "Limo & car service in Harrisburg, PA — flight-tracked BWI transfers, weddings, corporate & group rides. Flat rates, 24/7. Call (877) 609-1919.",
+    "eyebrow": "HARRISBURG, PA",
+    "h1": "Limo & Car Service in Harrisburg, PA",
+    "subtitle": "Chauffeured limo and car service for Harrisburg and Dauphin County — airport transfers, weddings, corporate travel, and nights out at one flat rate.",
+    "image": IMAGES.sedan,
+    "alt": "Chauffeured luxury vehicle serving Harrisburg, PA — 92 Limo Service",
+    "highlightsHeading": "Why Harrisburg Books 92 Limo Service",
+    "intro": [
+      "From the PA Farm Show Complex, Riverfront Park, and the Capitol complex, 92 Limo Service covers Harrisburg, PA and the rest of Dauphin County with chauffeured transportation that treats your schedule as the contract. On time, immaculate, flat-rated — that is the standard on every trip, whether it is an airport run or a milestone celebration.",
+      "Airport transfers are door-to-door: about 90 minutes to BWI Marshall via I-83, with Reagan National, Dulles, and Philadelphia also served daily. Your chauffeur plans the pickup around traffic and check-in windows, tracks return flights in real time, and builds in buffer so you are never cutting it close. Round-trip bookings lock in your ride home before you even take off.",
+      "Residents of downtown Harrisburg, Uptown, and the West Shore use us for more than flights: corporate travel, weddings, prom nights, anniversaries, concerts, and safe rides home. One trusted chauffeur partner replaces the rideshare lottery — no cancellations, no surge pricing, no strangers behind the wheel.",
+      "The fleet matches the occasion. Executives ride in the Mercedes E-Class and BMW 7 Series. Families and groups take the Escalade or Suburban. Wedding parties and group outings fill the Mercedes Sprinter — up to 14 seats, luggage and all. Reserve online or call (877) 609-1919, answered 24/7.",
+      "From the Capitol complex to the Farm Show's biggest weeks, Harrisburg keeps a chauffeur service busy — and ours shows up early every time. We bridge the gap to BWI's nonstop routes with flat-rate I-83 transfers and cover Hershey's venues just up the road."
+    ],
+    "highlights": [
+      {
+        "title": "Local Harrisburg Knowledge",
+        "desc": "Our chauffeurs know the PA Farm Show Complex, Riverfront Park, and the Capitol complex — and the fastest ways around I-83 when traffic builds."
+      },
+      {
+        "title": "~90 Minutes to BWI",
+        "desc": "Door-to-terminal in about 90 minutes via I-83, flight-tracked on every ride."
+      },
+      {
+        "title": "All of Dauphin County",
+        "desc": "Service across downtown Harrisburg, Uptown, and the West Shore and every corner of Dauphin County."
+      },
+      {
+        "title": "Flat, All-Inclusive Pricing",
+        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+      },
+      {
+        "title": "Professional Chauffeurs",
+        "desc": "Background-checked, professionally dressed, and trained to arrive early — every ride, every time."
+      },
+      {
+        "title": "24/7 Availability",
+        "desc": "Pre-dawn departures and red-eye arrivals are covered. We operate around the clock, every day of the year."
+      }
+    ],
+    "vehicles": [
+      "Luxury SUV — Chevrolet Suburban",
+      "Premium SUV — Cadillac Escalade",
+      "Sprinter Executive — Mercedes Sprinter"
+    ],
+    "faqs": [
+      {
+        "q": "Do you serve all of Harrisburg and Dauphin County?",
+        "a": "Yes. We cover every neighborhood in Harrisburg — including downtown Harrisburg, Uptown, and the West Shore — plus the rest of Dauphin County and the surrounding region. If your trip starts or ends anywhere nearby, we can handle it."
+      },
+      {
+        "q": "How long does it take to get from Harrisburg to BWI?",
+        "a": "About 90 minutes for the 85-mile run via I-83, depending on traffic. We build buffer time into every pickup and track your flight so departures and arrivals stay stress-free."
+      },
+      {
+        "q": "How much does limo service in Harrisburg cost?",
+        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+      },
+      {
+        "q": "What vehicles can I book in Harrisburg?",
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+      },
+      {
+        "q": "Can I book a late-night or early-morning ride in Harrisburg?",
+        "a": "Yes — we operate 24/7, every day of the year. Pre-dawn airport departures, red-eye arrivals, and late nights out all get the same on-time, chauffeured service. We recommend booking at least 24 hours ahead when you can."
+      }
+    ],
+    "ctaTitle": "Book Your Harrisburg Limo Today",
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Harrisburg, PA — call (877) 609-1919 or reserve online in minutes."
+  },
+
   "bwi-airport-car-service": {
     "metaTitle": "BWI Airport Car Service | 92 Limo Service",
     "metaDescription": "BWI Airport Car Service with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7.",
@@ -3856,7 +5535,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "wedding-limo-maryland": {
     "metaTitle": "Wedding Limo Service Maryland | 92 Limo Service",
-    "metaDescription": "Wedding Limo Service Maryland with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Maryland 24/7. Book online or call (877) 609-1919.",
+    "metaDescription": "Wedding Limo Service Maryland with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Maryland 24/7.",
     "eyebrow": "WEDDING LIMO SERVICE MARYLAND",
     "h1": "Wedding Limo Service Maryland",
     "subtitle": "Chauffeured wedding limo service for ceremonies, receptions, and send-offs — flat rates, luxury vehicles, and flawless timing across Maryland.",
@@ -4288,7 +5967,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "black-car-service-baltimore": {
     "metaTitle": "Black Car Service Baltimore | 92 Limo Service",
-    "metaDescription": "Black Car Service Baltimore with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Baltimore 24/7. Book online or call (877) 609-1919.",
+    "metaDescription": "Black Car Service Baltimore with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Baltimore 24/7.",
     "eyebrow": "BLACK CAR SERVICE BALTIMORE",
     "h1": "Black Car Service Baltimore",
     "subtitle": "Chauffeured black car service for business travel, dinners, and airport transfers — flat rates, luxury vehicles, and flawless timing across Baltimore.",
@@ -4504,7 +6183,7 @@ export const GENERATED_LANDING_PAGES = {
 
   "chauffeur-service-baltimore": {
     "metaTitle": "Chauffeur Service Baltimore | 92 Limo Service",
-    "metaDescription": "Chauffeur Service Baltimore with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Baltimore 24/7. Book online or call (877) 609-1919.",
+    "metaDescription": "Chauffeur Service Baltimore with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Baltimore 24/7.",
     "eyebrow": "CHAUFFEUR SERVICE BALTIMORE",
     "h1": "Chauffeur Service Baltimore",
     "subtitle": "Chauffeured chauffeur service for hourly hires, events, and airport travel — flat rates, luxury vehicles, and flawless timing across Baltimore.",
