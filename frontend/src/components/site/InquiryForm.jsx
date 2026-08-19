@@ -60,6 +60,7 @@ const EMPTY = {
   contact_method: "",
   service_type: "",
   vehicle_type: "",
+  flight_number: "",
   pickup_location: "",
   dropoff_location: "",
   date: "",
@@ -272,6 +273,11 @@ export function InquiryForm() {
           luggage: 0,
           service_type: form.service_type,
           vehicle_type: form.vehicle_type || "No preference",
+          // Flight number only applies to airport transfers.
+          flight_number:
+            form.service_type === "Airport Transfer"
+              ? form.flight_number.trim()
+              : "",
           notes: [
             `Preferred contact: ${form.contact_method}`,
             form.child_seats.length
@@ -500,6 +506,27 @@ export function InquiryForm() {
                   })}
                 </div>
               </motion.div>
+
+              {/* Flight number — airport transfers only */}
+              {form.service_type === "Airport Transfer" && (
+                <motion.div
+                  variants={itemVariants}
+                  initial={{ opacity: 0, y: -8 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className="relative md:col-span-2"
+                >
+                  <label htmlFor="inq-flight" className={staticLabel}>Flight Number (optional)</label>
+                  <input
+                    id="inq-flight"
+                    data-testid="inquiry-flight-number"
+                    type="text"
+                    placeholder="e.g. AA1234"
+                    className="block w-full min-h-[58px] rounded-xl border border-white/15 bg-white/[0.04] px-4 pt-7 pb-2.5 text-white placeholder:text-neutral-500 transition-colors duration-300 focus:outline-none focus:ring-1 focus:ring-[#C9A227]/60 focus:border-[#C9A227]"
+                    value={form.flight_number}
+                    onChange={(e) => set("flight_number", e.target.value)}
+                  />
+                </motion.div>
+              )}
 
               {/* Vehicle Type */}
               <motion.div variants={itemVariants} className="md:col-span-2">

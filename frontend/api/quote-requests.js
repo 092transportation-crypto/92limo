@@ -46,6 +46,7 @@ module.exports = async (req, res) => {
     luggage: Number(body.luggage) || 0,
     service_type: String(body.service_type).trim(),
     vehicle_type: String(body.vehicle_type).trim(),
+    flight_number: String(body.flight_number || "").trim(),
     notes: String(body.notes || "").trim(),
     created_at: nowIso(),
   };

@@ -29,6 +29,7 @@ const EMPTY = {
   luggage: "0",
   service_type: "",
   vehicle_type: "",
+  flight_number: "",
   name: "",
   phone: "",
   email: "",
@@ -72,6 +73,11 @@ export const BookingForm = () => {
           ...form,
           passengers: parseInt(form.passengers, 10) || 1,
           luggage: parseInt(form.luggage, 10) || 0,
+          // Flight number only applies to airport transfers.
+          flight_number:
+            form.service_type === "Airport Transfer"
+              ? form.flight_number.trim()
+              : "",
         }),
       });
       if (!res.ok) {
@@ -172,6 +178,12 @@ export const BookingForm = () => {
                   </SelectContent>
                 </Select>
               </div>
+              {form.service_type === "Airport Transfer" && (
+                <div className="space-y-2 md:col-span-2">
+                  <Label htmlFor="bf-flight" className="text-neutral-700">Flight Number (optional)</Label>
+                  <Input id="bf-flight" data-testid="input-flight-number" className={fieldCls} placeholder="e.g. AA1234" value={form.flight_number} onChange={(e) => set("flight_number", e.target.value)} />
+                </div>
+              )}
               <div className="space-y-2">
                 <Label className="text-neutral-700">Full Name *</Label>
                 <Input data-testid="input-name" className={fieldCls} placeholder="Your name" value={form.name} onChange={(e) => set("name", e.target.value)} />
@@ -186,7 +198,7 @@ export const BookingForm = () => {
               </div>
               <div className="space-y-2 md:col-span-2">
                 <Label className="text-neutral-700">Notes</Label>
-                <Textarea data-testid="input-notes" className={fieldCls} placeholder="Flight number, child seats, special requests…" rows={3} value={form.notes} onChange={(e) => set("notes", e.target.value)} />
+                <Textarea data-testid="input-notes" className={fieldCls} placeholder="Child seats, extra luggage, special requests…" rows={3} value={form.notes} onChange={(e) => set("notes", e.target.value)} />
               </div>
             </div>
 
