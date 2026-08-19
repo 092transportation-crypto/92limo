@@ -13,6 +13,23 @@ export default function LandingPage({ slug }) {
   if (!d) return null;
   const vehicles = FLEET.filter((f) => (d.vehicles || []).includes(vehicleLabel(f)));
 
+  // "Also serving" internal links: rank sibling landing pages by slug-token
+  // overlap (ignoring generic words), then backfill in key order so every
+  // page — including the generated ones — always cross-links six others.
+  const relatedPages = (() => {
+    const STOP = new Set(["limo", "service", "car", "airport", "transportation", "to", "from", "the", "md", "pa", "de", "va", "dc"]);
+    const tokens = new Set(slug.split("-").filter((t) => !STOP.has(t)));
+    return Object.keys(LANDING_PAGES)
+      .filter((s) => s !== slug)
+      .map((s) => ({
+        slug: s,
+        title: LANDING_PAGES[s].h1 || s,
+        score: s.split("-").filter((t) => tokens.has(t)).length,
+      }))
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 6);
+  })();
+
   return (
     <>
       <Seo title={d.metaTitle} description={d.metaDescription} path={`/${slug}`} />
@@ -153,6 +170,32 @@ export default function LandingPage({ slug }) {
       )}
 
       <Faq faqs={d.faqs} heading={d.faqHeading || "Frequently Asked Questions"} schemaId={`faq-${slug}`} />
+
+      {/* Also serving — internal links to related landing pages */}
+      {relatedPages.length > 0 && (
+        <section className="py-16 lg:py-20 bg-[#F6F5F2]" data-testid="also-serving">
+          <div className="max-w-7xl mx-auto px-6 lg:px-8">
+            <h2 className="text-2xl sm:text-3xl font-display font-bold text-[#0A0A0A] text-center">
+              Also <span className="text-[#B8860B]">Serving</span>
+            </h2>
+            <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {relatedPages.map((p) => (
+                <Link
+                  key={p.slug}
+                  to={`/${p.slug}`}
+                  data-testid={`also-serving-${p.slug}`}
+                  className="group flex items-center justify-between bg-white border border-black/10 rounded-xl px-5 py-4 hover:border-[#D4AF37]/60 hover:shadow-md transition-all"
+                >
+                  <span className="text-sm font-semibold text-[#0A0A0A] group-hover:text-[#B8860B] transition-colors pr-3">
+                    {p.title}
+                  </span>
+                  <ChevronRight size={16} className="flex-shrink-0 text-[#B8860B] group-hover:translate-x-0.5 transition-transform" />
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       <CTASection title={d.ctaTitle} subtitle={d.ctaSubtitle} />
     </>
