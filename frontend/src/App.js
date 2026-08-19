@@ -12,6 +12,8 @@ import ContactPage from "@/pages/ContactPage";
 import BookingPage from "@/pages/BookingPage";
 import ReviewsPage from "@/pages/ReviewsPage";
 import FaqPage from "@/pages/FaqPage";
+import BlogPage from "@/pages/BlogPage";
+import BlogPostPage from "@/pages/BlogPostPage";
 import GalleryPage from "@/pages/GalleryPage";
 import CityPage from "@/pages/CityPage";
 import PrivacyPolicyPage from "@/pages/PrivacyPolicyPage";
@@ -60,6 +62,8 @@ function App() {
             <Route path="/terms-conditions" element={<TermsConditionsPage />} />
             <Route path="/coverage" element={<CoveragePage />} />
             <Route path="/car-seat-service" element={<CarSeatServicePage />} />
+            <Route path="/blog" element={<BlogPage />} />
+            <Route path="/blog/:slug" element={<BlogPostPage />} />
             {Object.keys(LANDING_PAGES).map((slug) => (
               <Route key={slug} path={`/${slug}`} element={<LandingPage slug={slug} />} />
             ))}

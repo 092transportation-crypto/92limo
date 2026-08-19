@@ -21,6 +21,7 @@ const QUICK = [
   { label: "Gallery", to: "/gallery" },
   { label: "Reviews", to: "/reviews" },
   { label: "FAQ", to: "/faq" },
+  { label: "Blog", to: "/blog" },
   { label: "Book a Ride", to: "/booking" },
   { label: "Contact Us", to: "/contact" },
 ];
