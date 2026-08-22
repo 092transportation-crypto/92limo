@@ -244,6 +244,8 @@ export function InquiryForm() {
         ...f,
         pickup_location: d.pickup || f.pickup_location,
         dropoff_location: d.dropoff || f.dropoff_location,
+        date: d.pickupDate || f.date,
+        time: d.pickupTime || f.time,
         vehicle_type:
           d.tripType === "Point-to-Point" && fleetEntry
             ? vehicleLabel(fleetEntry)

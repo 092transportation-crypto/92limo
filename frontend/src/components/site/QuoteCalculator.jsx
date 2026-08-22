@@ -2,11 +2,13 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { AddressAutocomplete } from "@/components/site/AddressAutocomplete";
 import {
   computeQuote,
-  promoRate,
+  isShortNotice,
   PRICING,
   money,
   MAX_MILES,
+  SHORT_NOTICE_HOURS,
 } from "@/lib/pricing";
+import PayAndBook from "@/components/site/PayAndBook";
 import {
   Calculator,
   Clock,
@@ -17,7 +19,6 @@ import {
   CarFront,
   Bus,
   ArrowDown,
-  Tag,
 } from "lucide-react";
 
 // Standalone instant-quote calculator. Sits ABOVE the inquiry form on the
@@ -60,10 +61,8 @@ export function QuoteCalculator() {
   const [vehicle, setVehicle] = useState("Business Sedan");
   const [pickup, setPickup] = useState("");
   const [dropoff, setDropoff] = useState("");
-  const [promoInput, setPromoInput] = useState("");
-  // none | applied | invalid
-  const [promoStatus, setPromoStatus] = useState("none");
-  const [appliedRate, setAppliedRate] = useState(0);
+  const [pickupDate, setPickupDate] = useState("");
+  const [pickupTime, setPickupTime] = useState("");
   // idle | loading | ready | error
   const [distance, setDistance] = useState({ status: "idle", miles: null });
   const timerRef = useRef(null);
@@ -105,28 +104,17 @@ export function QuoteCalculator() {
     return () => clearTimeout(timerRef.current);
   }, [tripType, pickupTrimmed, dropoffTrimmed]);
 
-  const applyPromo = () => {
-    if (!promoInput.trim()) {
-      setPromoStatus("none");
-      setAppliedRate(0);
-      return;
-    }
-    const rate = promoRate(promoInput);
-    if (rate) {
-      setAppliedRate(rate);
-      setPromoStatus("applied");
-    } else {
-      setAppliedRate(0);
-      setPromoStatus("invalid");
-    }
-  };
+  const shortNotice = useMemo(
+    () => isShortNotice(pickupDate, pickupTime),
+    [pickupDate, pickupTime]
+  );
 
   const quote = useMemo(
     () =>
       tripType === "Point-to-Point" && distance.status === "ready"
-        ? computeQuote(distance.miles, vehicle, appliedRate)
+        ? computeQuote(distance.miles, vehicle, shortNotice)
         : null,
-    [tripType, vehicle, distance, appliedRate]
+    [tripType, vehicle, distance, shortNotice]
   );
 
   const applyToForm = () => {
@@ -137,7 +125,8 @@ export function QuoteCalculator() {
           vehicle,
           pickup: pickupTrimmed,
           dropoff: dropoffTrimmed,
-          promo: promoStatus === "applied" ? promoInput.trim().toUpperCase() : "",
+          pickupDate,
+          pickupTime,
         },
       })
     );
@@ -255,53 +244,34 @@ export function QuoteCalculator() {
                   )}
                 </div>
 
-                {/* Promo code */}
+                {/* Pickup date & time — short-notice check */}
                 <div className="mt-4">
                   <p className="mb-2 pl-1 text-[10px] font-bold uppercase tracking-[0.14em] text-neutral-400">
-                    Promo Code
+                    Pickup Date &amp; Time
                   </p>
-                  <div className="flex flex-wrap items-center gap-2">
-                    <div className="relative min-w-[200px] flex-1 sm:max-w-[260px]">
-                      <Tag className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-neutral-500" />
-                      <input
-                        data-testid="calc-promo-input"
-                        value={promoInput}
-                        onChange={(e) => {
-                          setPromoInput(e.target.value);
-                          if (promoStatus !== "none") {
-                            setPromoStatus("none");
-                            setAppliedRate(0);
-                          }
-                        }}
-                        onKeyDown={(e) => {
-                          if (e.key === "Enter") {
-                            e.preventDefault();
-                            applyPromo();
-                          }
-                        }}
-                        placeholder="Enter promo code"
-                        className="block w-full rounded-xl border border-white/15 bg-white/[0.04] py-3 pl-11 pr-4 text-sm uppercase tracking-wider text-white placeholder:normal-case placeholder:tracking-normal placeholder:text-neutral-500 transition-colors duration-300 focus:border-[#C9A227] focus:outline-none focus:ring-1 focus:ring-[#C9A227]/60"
-                      />
-                    </div>
-                    <button
-                      type="button"
-                      data-testid="calc-promo-apply"
-                      onClick={applyPromo}
-                      className="rounded-xl border border-[#C9A227]/60 px-5 py-3 text-sm font-semibold text-[#C9A227] transition-colors hover:bg-[#C9A227]/10"
-                    >
-                      Apply
-                    </button>
+                  <div className="grid grid-cols-2 gap-3 sm:max-w-md">
+                    <input
+                      type="date"
+                      data-testid="calc-pickup-date"
+                      aria-label="Pickup date"
+                      style={{ colorScheme: "dark" }}
+                      value={pickupDate}
+                      onChange={(e) => setPickupDate(e.target.value)}
+                      className="block w-full appearance-none rounded-xl border border-white/15 bg-white/[0.04] px-4 py-3 text-sm text-white transition-colors duration-300 focus:border-[#C9A227] focus:outline-none focus:ring-1 focus:ring-[#C9A227]/60"
+                    />
+                    <input
+                      type="time"
+                      data-testid="calc-pickup-time"
+                      aria-label="Pickup time"
+                      style={{ colorScheme: "dark" }}
+                      value={pickupTime}
+                      onChange={(e) => setPickupTime(e.target.value)}
+                      className="block w-full appearance-none rounded-xl border border-white/15 bg-white/[0.04] px-4 py-3 text-sm text-white transition-colors duration-300 focus:border-[#C9A227] focus:outline-none focus:ring-1 focus:ring-[#C9A227]/60"
+                    />
                   </div>
-                  {promoStatus === "applied" && (
-                    <p className="mt-2 pl-1 text-xs font-semibold text-[#7FB58A]" data-testid="calc-promo-ok">
-                      Promo applied — 10% off your fare.
-                    </p>
-                  )}
-                  {promoStatus === "invalid" && (
-                    <p className="mt-2 pl-1 text-xs text-red-400" data-testid="calc-promo-bad">
-                      That promo code isn&apos;t valid.
-                    </p>
-                  )}
+                  <p className="mt-2 pl-1 text-[11px] text-neutral-500">
+                    Pickups within {SHORT_NOTICE_HOURS} hours include a 20% short-notice surcharge.
+                  </p>
                 </div>
 
                 {/* Price */}
@@ -349,14 +319,17 @@ export function QuoteCalculator() {
                             {money(quote.baseFare)}
                           </dd>
                         </div>
-                        {quote.discount > 0 && (
+                        <div className="flex items-center justify-between gap-3">
+                          <dt className="text-[#7FB58A]">Instant booking discount (10%)</dt>
+                          <dd className="tabnums text-[#7FB58A]" data-testid="calc-discount">
+                            -{money(quote.discount)}
+                          </dd>
+                        </div>
+                        {quote.surcharge > 0 && (
                           <div className="flex items-center justify-between gap-3">
-                            <dt className="text-[#7FB58A]">Promo discount (10%)</dt>
-                            <dd
-                              className="tabnums text-[#7FB58A]"
-                              data-testid="calc-discount"
-                            >
-                              -{money(quote.discount)}
+                            <dt className="text-[#C9A227]">Short-notice surcharge (20%)</dt>
+                            <dd className="tabnums text-[#C9A227]" data-testid="calc-surcharge">
+                              +{money(quote.surcharge)}
                             </dd>
                           </div>
                         )}
@@ -387,9 +360,21 @@ export function QuoteCalculator() {
                       >
                         <ArrowDown className="h-4 w-4" /> Book this trip — details below
                       </button>
+                      <PayAndBook
+                        quote={quote}
+                        meta={{
+                          pickup: pickupTrimmed,
+                          dropoff: dropoffTrimmed,
+                          miles: quote.miles,
+                          vehicle,
+                          pickupDate,
+                          pickupTime,
+                        }}
+                      />
                       <p className="mt-3 text-center text-[11px] leading-relaxed text-neutral-500">
-                        All-inclusive flat rate — tolls, taxes &amp; gratuity. No
-                        payment is taken now; we confirm after you submit.
+                        All-inclusive flat rate — tolls, taxes &amp; gratuity. Pay
+                        securely now to lock it in, or send the request below and
+                        we&apos;ll confirm your ride either way.
                       </p>
                     </div>
                   )}
