@@ -223,6 +223,43 @@ export function InquiryForm() {
     setInvalid((keys) => keys.filter((key) => key !== k));
   };
 
+  // "Book this trip" in the QuoteCalculator above prefills this form.
+  useEffect(() => {
+    // Calculator vehicle names -> this form's fleet categories.
+    const CALC_TO_FLEET = {
+      "Business Sedan": "Business Sedan",
+      "Mid-Size SUV": "Midsize SUV",
+      "Luxury SUV": "Luxury SUV",
+      "Premium SUV": "Premium SUV",
+      "First Class": "First Class Sedan",
+      "Sprinter Van": "Sprinter Shuttle",
+      "Sprinter Executive": "Sprinter Executive",
+    };
+    const onApply = (e) => {
+      const d = e.detail || {};
+      const fleetEntry = FLEET.find(
+        (f) => f.category === CALC_TO_FLEET[d.vehicle]
+      );
+      setForm((f) => ({
+        ...f,
+        pickup_location: d.pickup || f.pickup_location,
+        dropoff_location: d.dropoff || f.dropoff_location,
+        vehicle_type:
+          d.tripType === "Point-to-Point" && fleetEntry
+            ? vehicleLabel(fleetEntry)
+            : f.vehicle_type,
+        notes: d.promo
+          ? [f.notes.trim(), `Promo code: ${d.promo}`]
+              .filter(Boolean)
+              .filter((line, i, arr) => arr.indexOf(line) === i)
+              .join("\n")
+          : f.notes,
+      }));
+    };
+    window.addEventListener("limo:quote-apply", onApply);
+    return () => window.removeEventListener("limo:quote-apply", onApply);
+  }, []);
+
   const toggleChildSeat = (seat) =>
     setForm((f) => ({
       ...f,

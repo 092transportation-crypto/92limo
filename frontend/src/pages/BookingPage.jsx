@@ -1,6 +1,7 @@
 import { Seo } from "@/components/site/Seo";
 import { PageHero } from "@/components/site/PageHero";
 import { InquiryForm } from "@/components/site/InquiryForm";
+import { QuoteCalculator } from "@/components/site/QuoteCalculator";
 import { CTASection } from "@/components/site/CTASection";
 import { IMAGES } from "@/lib/data";
 
@@ -20,6 +21,8 @@ export default function BookingPage() {
         alt="92 Limo Service chauffeur ready for an airport pickup"
         height="min-h-[48vh]"
       />
+      {/* Instant quote calculator — above the inquiry form, both coexist */}
+      <QuoteCalculator />
       <InquiryForm />
       <CTASection
         title="Questions Before You Book?"
