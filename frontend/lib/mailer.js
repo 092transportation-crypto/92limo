@@ -69,6 +69,95 @@ function row(label, value) {
   );
 }
 
+// ----------------- Pricing breakdown (instant quote) -----------------
+
+const money = (n) => `$${Number(n || 0).toFixed(2)}`;
+
+const CUSTOM_QUOTE_TEXT = "Custom quote requested — no instant price calculated";
+
+/**
+ * Label/value lines for the pricing section of the admin email. `p` is the
+ * normalized `pricing` object built in api/quote-requests.js:
+ *   { mode: "instant", vehicle_label, miles, base_fare, discount, surcharge,
+ *     card_fee, total, paid, payment_intent }
+ *   { mode: "custom", reason }
+ * Returns null when no instant price was calculated.
+ */
+function pricingLines(p) {
+  if (!p || p.mode !== "instant") return null;
+  const lines = [
+    { label: "Vehicle", value: p.vehicle_label || p.vehicle || "" },
+    { label: "Distance", value: `${p.miles} miles` },
+    { label: "Base fare", value: money(p.base_fare) },
+    { label: "Discount (10%)", value: `-${money(p.discount)}`, tone: "discount" },
+  ];
+  if (Number(p.surcharge) > 0) {
+    lines.push({
+      label: "Short-notice surcharge (20%)",
+      value: `+${money(p.surcharge)}`,
+      tone: "surcharge",
+    });
+  }
+  lines.push({ label: "Card fee (3%)", value: `+${money(p.card_fee)}` });
+  lines.push({ label: "TOTAL", value: money(p.total), tone: "total" });
+  lines.push({
+    label: "Payment",
+    value: p.paid
+      ? `Paid online via Stripe${p.payment_intent ? ` (${p.payment_intent})` : ""}`
+      : "Not paid online — instant quote only",
+  });
+  return lines;
+}
+
+function pricingHtml(p) {
+  const lines = pricingLines(p);
+  const heading =
+    `<p style="margin:0 0 10px;color:${GOLD};font-size:12px;text-transform:uppercase;` +
+    `letter-spacing:1px;">Pricing</p>`;
+  let body;
+  if (!lines) {
+    const reason =
+      p && p.reason ? ` <span style="color:#999;">(${escapeHtml(p.reason)})</span>` : "";
+    body = `<p style="margin:0;color:#fff;font-size:14px;">${CUSTOM_QUOTE_TEXT}${reason}</p>`;
+  } else {
+    const color = { discount: "#34d399", surcharge: GOLD, total: GOLD };
+    body =
+      `<table style="width:100%;border-collapse:collapse;">` +
+      lines
+        .map((l) => {
+          const isTotal = l.tone === "total";
+          const c = color[l.tone] || "#fff";
+          const size = isTotal ? "18px" : "14px";
+          const weight = isTotal ? "bold" : "normal";
+          const border = isTotal ? `border-top:1px solid ${GOLD};` : "";
+          return (
+            `<tr><td style="padding:6px 0;${border}color:#999;font-size:13px;">${escapeHtml(l.label)}</td>` +
+            `<td style="padding:6px 0;${border}color:${c};font-size:${size};font-weight:${weight};` +
+            `text-align:right;">${escapeHtml(l.value)}</td></tr>`
+          );
+        })
+        .join("") +
+      `</table>`;
+  }
+  return (
+    `<div style="padding:18px 22px;background:#0a0a0a;border-top:1px solid #2a2a2a;">` +
+    `${heading}${body}</div>`
+  );
+}
+
+function pricingText(p) {
+  const lines = pricingLines(p);
+  if (!lines) {
+    return `Pricing:\n  ${CUSTOM_QUOTE_TEXT}${p && p.reason ? ` (${p.reason})` : ""}`;
+  }
+  return ["Pricing:", ...lines.map((l) => `  ${l.label}: ${l.value}`)].join("\n");
+}
+
+function pricingSubjectSuffix(p) {
+  if (!p || p.mode !== "instant") return "Custom quote";
+  return `${money(p.total)}${p.paid ? " PAID" : ""}`;
+}
+
 function shell(subtitle, innerHtml) {
   return `
     <div style="font-family:Arial,Helvetica,sans-serif;background:#0a0a0a;padding:30px;">
@@ -85,14 +174,17 @@ function shell(subtitle, innerHtml) {
 // ---- Booking (quote request) ----
 
 function buildAdminBookingEmail(b) {
-  const subject = `New Booking Inquiry — ${b.name || "Unknown"} (${b.service_type || "Ride"})`;
+  const paid = Boolean(b.pricing && b.pricing.paid);
+  const subject =
+    `${paid ? "New Booking (PAID)" : "New Booking Inquiry"} — ${b.name || "Unknown"} ` +
+    `(${b.service_type || "Ride"}) — ${pricingSubjectSuffix(b.pricing)}`;
   const rows = [
     row("Name", b.name),
     row("Phone", b.phone),
     row("Email", b.email),
     row("Service Type", b.service_type),
     row("Flight Number", b.flight_number),
-    row("Vehicle", b.vehicle_type),
+    b.pricing && b.pricing.mode === "instant" ? "" : row("Vehicle", b.vehicle_type),
     row("Pickup", b.pickup_location),
     row("Drop-off", b.dropoff_location),
     row("Date", b.date),
@@ -104,6 +196,7 @@ function buildAdminBookingEmail(b) {
   ].join("");
   const inner = `
         <table style="width:100%;border-collapse:collapse;">${rows}</table>
+        ${pricingHtml(b.pricing)}
         <div style="padding:18px;text-align:center;background:#0a0a0a;">
           <a href="tel:${escapeHtml(b.phone || "")}" style="display:inline-block;padding:10px 22px;background:${GOLD};color:#000;font-weight:bold;text-decoration:none;border-radius:6px;">Call Customer Back</a>
         </div>`;
@@ -115,7 +208,7 @@ function buildAdminBookingEmail(b) {
     `Email: ${b.email || ""}`,
     `Service: ${b.service_type || ""}`,
     ...(b.flight_number ? [`Flight Number: ${b.flight_number}`] : []),
-    `Vehicle: ${b.vehicle_type || ""}`,
+    ...(b.pricing && b.pricing.mode === "instant" ? [] : [`Vehicle: ${b.vehicle_type || ""}`]),
     `Pickup: ${b.pickup_location || ""}`,
     `Drop-off: ${b.dropoff_location || ""}`,
     `Date: ${b.date || ""}`,
@@ -124,6 +217,8 @@ function buildAdminBookingEmail(b) {
     `Luggage: ${b.luggage || ""}`,
     `Notes: ${b.notes || ""}`,
     `Submitted: ${b.created_at || ""}`,
+    "",
+    pricingText(b.pricing),
   ].join("\n");
   return { subject, text, html: shell("New Booking Inquiry", inner) };
 }
@@ -236,6 +331,8 @@ function buildCustomerContactEmail(m) {
 
 module.exports = {
   sendEmail,
+  pricingText,
+  pricingHtml,
   buildAdminBookingEmail,
   buildCustomerBookingEmail,
   buildAdminContactEmail,

@@ -52,6 +52,96 @@ async function run() {
     console.log(`[booking valid]   -> ${res.statusCode} ${ok ? "PASS" : "FAIL"}`);
     if (!ok) failures++;
   }
+  // Booking — instant price breakdown lands in the admin email. The handler
+  // recomputes the fare server-side from miles + vehicle, so the bogus client
+  // numbers below must be replaced by the rate-table values.
+  const { buildAdminBookingEmail } = require("../lib/mailer");
+  const baseBooking = {
+    name: "Priced Rider", phone: "443-555-0111", email: "priced@example.com",
+    pickup_location: "BWI Airport", dropoff_location: "Annapolis, MD",
+    date: "2026-07-04", time: "14:30", passengers: 2, luggage: 1,
+    service_type: "Airport Transfer", vehicle_type: "Business Sedan — Mercedes E-Class",
+  };
+  {
+    const req = mockReq("POST", {
+      ...baseBooking,
+      pricing: {
+        mode: "instant", vehicle: "Business Sedan", vehicle_label: "Business Sedan — Mercedes E-Class",
+        miles: 12.4, base_fare: 1, discount: 0, surcharge: 0, card_fee: 0, total: 1,
+      },
+    });
+    const res = mockRes();
+    await quote(req, res);
+    const p = (res.body && res.body.pricing) || {};
+    const email = buildAdminBookingEmail(res.body || {});
+    const ok =
+      res.statusCode === 201 &&
+      p.mode === "instant" && p.miles === 12.4 && p.base_fare === 115 &&
+      p.discount === 11.5 && p.surcharge === 0 && p.card_fee === 3.11 && p.total === 106.61 &&
+      /Vehicle: Business Sedan — Mercedes E-Class/.test(email.text) &&
+      /Distance: 12\.4 miles/.test(email.text) &&
+      /Base fare: \$115\.00/.test(email.text) &&
+      /Discount \(10%\): -\$11\.50/.test(email.text) &&
+      !/Short-notice/.test(email.text) &&
+      /Card fee \(3%\): \+\$3\.11/.test(email.text) &&
+      /TOTAL: \$106\.61/.test(email.text) &&
+      /TOTAL/.test(email.html) && /\$106\.61/.test(email.html) &&
+      email.subject.includes("$106.61");
+    console.log(`[booking priced]  -> ${res.statusCode} ${ok ? "PASS" : "FAIL"} total=${p.total}`);
+    if (!ok) { failures++; console.log(email.subject, "\n", email.text); }
+  }
+  // Booking — short-notice surcharge + paid online
+  {
+    const req = mockReq("POST", {
+      ...baseBooking,
+      pricing: {
+        mode: "instant", vehicle: "Business Sedan", vehicle_label: "Business Sedan — Mercedes E-Class",
+        miles: 12.4, surcharge: 20.7, short_notice: true, paid: true, payment_intent: "pi_test_123",
+      },
+    });
+    const res = mockRes();
+    await quote(req, res);
+    const p = (res.body && res.body.pricing) || {};
+    const email = buildAdminBookingEmail(res.body || {});
+    const ok =
+      res.statusCode === 201 &&
+      p.surcharge === 20.7 && p.card_fee === 3.73 && p.total === 127.93 && p.paid === true &&
+      /Short-notice surcharge \(20%\): \+\$20\.70/.test(email.text) &&
+      /TOTAL: \$127\.93/.test(email.text) &&
+      /Paid online via Stripe \(pi_test_123\)/.test(email.text) &&
+      /PAID/.test(email.subject);
+    console.log(`[booking short-notice+paid] -> ${res.statusCode} ${ok ? "PASS" : "FAIL"} total=${p.total}`);
+    if (!ok) { failures++; console.log(email.subject, "\n", email.text); }
+  }
+  // Booking — hourly / wedding / special event => custom quote line
+  {
+    const req = mockReq("POST", {
+      ...baseBooking, service_type: "Hourly",
+      pricing: { mode: "custom", reason: "Hourly / Wedding / Special Event" },
+    });
+    const res = mockRes();
+    await quote(req, res);
+    const p = (res.body && res.body.pricing) || {};
+    const email = buildAdminBookingEmail(res.body || {});
+    const ok =
+      res.statusCode === 201 && p.mode === "custom" &&
+      /Custom quote requested — no instant price calculated \(Hourly \/ Wedding \/ Special Event\)/.test(email.text) &&
+      /Custom quote requested — no instant price calculated/.test(email.html) &&
+      /Vehicle: Business Sedan — Mercedes E-Class/.test(email.text) &&
+      !/TOTAL/.test(email.text) && email.subject.includes("Custom quote");
+    console.log(`[booking custom]  -> ${res.statusCode} ${ok ? "PASS" : "FAIL"}`);
+    if (!ok) { failures++; console.log(email.subject, "\n", email.text); }
+  }
+  // Booking — legacy submission with no pricing field at all
+  {
+    const res = mockRes();
+    await quote(mockReq("POST", { ...baseBooking }), res);
+    const p = (res.body && res.body.pricing) || {};
+    const email = buildAdminBookingEmail(res.body || {});
+    const ok = res.statusCode === 201 && p.mode === "custom" && /no instant price calculated/.test(email.text);
+    console.log(`[booking no-pricing] -> ${res.statusCode} ${ok ? "PASS" : "FAIL"}`);
+    if (!ok) { failures++; console.log(email.text); }
+  }
   // Booking — missing fields
   {
     const res = mockRes();

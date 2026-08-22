@@ -11,6 +11,53 @@ const {
   buildAdminBookingEmail,
   buildCustomerBookingEmail,
 } = require("../lib/mailer");
+const { computeQuote } = require("./_pricing.js");
+
+const clip = (v, max) => String(v == null ? "" : v).trim().slice(0, max);
+
+/**
+ * Normalize the instant-quote pricing the form submits so the admin email
+ * can show the fare breakdown. When the client says an instant price was
+ * shown, the fare is RECOMPUTED here from miles + vehicle (same bracket
+ * math as the Stripe endpoint) so the email always reflects our rate table,
+ * not whatever numbers arrived in the request.
+ *
+ *   { mode: "instant", vehicle, vehicle_label, miles, base_fare, discount,
+ *     surcharge, short_notice, card_fee, total, paid, payment_intent }
+ *   { mode: "custom", reason }   // Hourly / Wedding / Special Event, no
+ *                                 // vehicle, over 150 miles, no distance …
+ */
+function normalizePricing(raw) {
+  if (!raw || typeof raw !== "object") {
+    return { mode: "custom", reason: "No pricing data submitted" };
+  }
+  if (raw.mode !== "instant") {
+    return { mode: "custom", reason: clip(raw.reason, 200) || "Custom quote" };
+  }
+  const miles = Number(raw.miles);
+  const vehicle = clip(raw.vehicle, 40);
+  // The surcharge the customer saw is the source of truth for short notice.
+  const shortNotice = Boolean(raw.short_notice) || Number(raw.surcharge) > 0;
+  const q = computeQuote(miles, vehicle, shortNotice);
+  if (!q) return { mode: "custom", reason: "Vehicle has no instant pricing" };
+  if (q.overLimit) {
+    return { mode: "custom", reason: `Trip is ${q.miles} miles (over the 150-mile instant-quote limit)` };
+  }
+  return {
+    mode: "instant",
+    vehicle,
+    vehicle_label: clip(raw.vehicle_label, 60) || vehicle,
+    miles: q.miles,
+    base_fare: q.baseFare,
+    discount: q.discount,
+    surcharge: q.surcharge,
+    short_notice: shortNotice,
+    card_fee: q.cardFee,
+    total: q.total,
+    paid: Boolean(raw.paid),
+    payment_intent: clip(raw.payment_intent, 80),
+  };
+}
 
 module.exports = async (req, res) => {
   applyCors(res);
@@ -48,6 +95,7 @@ module.exports = async (req, res) => {
     vehicle_type: String(body.vehicle_type).trim(),
     flight_number: String(body.flight_number || "").trim(),
     notes: String(body.notes || "").trim(),
+    pricing: normalizePricing(body.pricing),
     created_at: nowIso(),
   };
 
