@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import { Users, Briefcase, ChevronRight, ChevronLeft } from "lucide-react";
+import { Users, Briefcase, ChevronRight, ChevronLeft, Star } from "lucide-react";
 import { Reveal } from "@/components/site/Reveal";
 import { FLEET } from "@/lib/data";
 
@@ -108,16 +108,37 @@ export const Fleet = ({
                   <h3 className="text-xl font-display font-bold text-[#B8860B] leading-snug">{v.category}</h3>
                   <p className="mt-2 text-sm text-neutral-600 leading-relaxed">{v.description}</p>
 
-                  <div className="mt-4 flex items-center gap-5 text-sm text-neutral-700 tabnums">
-                    <span className="flex items-center gap-1.5">
-                      <Users size={16} strokeWidth={1.6} className="text-[#B8860B]" />
-                      {v.pax} passengers
-                    </span>
-                    <span className="flex items-center gap-1.5">
-                      <Briefcase size={16} strokeWidth={1.6} className="text-[#B8860B]" />
-                      {v.bags} bags
-                    </span>
-                  </div>
+                  <dl className="mt-4 grid grid-cols-2 gap-x-4 gap-y-2 text-sm text-neutral-700 tabnums" data-testid={`fleet-capacity-${i}`}>
+                    <div className="flex items-start gap-1.5">
+                      <Users size={16} strokeWidth={1.6} className="text-[#B8860B] mt-0.5 shrink-0" />
+                      <span>
+                        <dt className="text-[11px] uppercase tracking-wider text-neutral-500">Passengers</dt>
+                        <dd className="font-semibold text-[#0A0A0A]">
+                          {v.paxNoLuggage
+                            ? `${v.pax} with luggage · ${v.paxNoLuggage} without`
+                            : `${v.pax}`}
+                        </dd>
+                      </span>
+                    </div>
+                    <div className="flex items-start gap-1.5">
+                      <Briefcase size={16} strokeWidth={1.6} className="text-[#B8860B] mt-0.5 shrink-0" />
+                      <span>
+                        <dt className="text-[11px] uppercase tracking-wider text-neutral-500">Luggage</dt>
+                        <dd className="font-semibold text-[#0A0A0A]">
+                          {v.bags} large bags · {v.carryOns ?? v.bags} carry-ons
+                        </dd>
+                      </span>
+                    </div>
+                    {v.bestFor && (
+                      <div className="col-span-2 flex items-start gap-1.5">
+                        <Star size={16} strokeWidth={1.6} className="text-[#B8860B] mt-0.5 shrink-0" />
+                        <span>
+                          <dt className="text-[11px] uppercase tracking-wider text-neutral-500">Best for</dt>
+                          <dd className="font-medium text-[#0A0A0A]">{v.bestFor}</dd>
+                        </span>
+                      </div>
+                    )}
+                  </dl>
 
                   <Link
                     data-testid={`fleet-reserve-${i}`}

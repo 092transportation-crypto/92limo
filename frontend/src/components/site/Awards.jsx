@@ -26,7 +26,7 @@ const SIGNALS = [
   },
   {
     icon: Trophy,
-    title: "10+ Years Serving DMV",
+    title: "15+ Years of Transportation Industry Experience",
     subtitle: "DC, Maryland & Virginia",
   },
 ];
@@ -112,7 +112,7 @@ export const Awards = () => {
           </h2>
           <div className="mx-auto mt-6 h-px w-24 gold-gradient" aria-hidden="true" />
           <p className="mx-auto mt-6 max-w-2xl text-neutral-400">
-            A decade of five-star chauffeured service across the DMV — licensed,
+            Five-star chauffeured service across the DMV backed by 15+ years of transportation industry experience — licensed,
             reviewed, and awarded among the top 1% of American businesses.
           </p>
         </motion.div>

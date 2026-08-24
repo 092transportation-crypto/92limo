@@ -21,9 +21,9 @@ export default function FleetPage() {
       <Fleet
         eyebrow="THE FLEET"
         heading="Choose Your Ride"
-        intro="Passenger and luggage capacities are listed for each vehicle. Need help selecting? Call us at (877) 609-1919."
+        intro="Passenger, luggage and carry-on capacities are listed for each vehicle — SUVs show seating both with and without luggage. Need help selecting? Call us at (877) 609-1919."
       />
-      <CTASection title="Found Your Vehicle?" subtitle="Reserve it now — our team confirms every booking with an all-inclusive quote." />
+      <CTASection title="Found Your Vehicle?" subtitle="Reserve it now — our team confirms every booking with a transparent quote." />
     </>
   );
 }

@@ -1,5 +1,7 @@
 import { Seo } from "@/components/site/Seo";
+import { Link } from "react-router-dom";
 import { LegalLayout, LH2, LP, LUL } from "@/components/site/LegalLayout";
+import { POLICY } from "@/lib/data";
 
 export default function TermsConditionsPage() {
   return (
@@ -75,13 +77,20 @@ export default function TermsConditionsPage() {
         <LH2>2. Payment Terms</LH2>
         <LUL
           items={[
-            "Quoted rates are all-inclusive of base fare, tolls, taxes, and standard gratuity unless otherwise stated.",
-            "Additional charges may apply for extra stops, extended wait time, additional mileage, after-hours or holiday service, and special requests.",
+            POLICY.pricing,
+            "Additional charges may also apply for extra stops, additional mileage, after-hours or holiday service, and special requests — all disclosed before confirmation.",
             "We accept major credit and debit cards. A valid card may be required to guarantee a reservation.",
             "For certain bookings (hourly, group, weddings, or long-distance), a deposit may be required at the time of booking, with the balance due before or on the date of service.",
-            "Wait time beyond the included grace period is billed in 15-minute increments at the applicable hourly rate.",
+            "Waiting time beyond the complimentary allowance is billed in 15-minute increments at the applicable rate. See our Waiting-Time Policy.",
           ]}
         />
+
+        <LP>
+          Our full Cancellation, Waiting-Time, No-Show, Vehicle Substitution and Payment
+          Authorization policies are published on our{" "}
+          <Link to="/policies" className="text-[#B8860B] underline">Policies page</Link> and form part of
+          these Terms.
+        </LP>
 
         <LH2>3. Cancellation &amp; Refund Policy</LH2>
         <LUL
@@ -96,9 +105,7 @@ export default function TermsConditionsPage() {
         <LH2>4. Wait Time, Delays &amp; Flight Tracking</LH2>
         <LP>
           For airport arrivals we track your flight and adjust pickup for early arrivals or delays.
-          A complimentary grace period is typically provided (commonly 60 minutes for airport
-          arrivals and 15 minutes for all other pickups); additional wait time is billed at the
-          applicable rate. While we plan routes carefully and build in buffers, we are not
+          {" "}{POLICY.waiting} While we plan routes carefully and build in buffers, we are not
           responsible for delays caused by traffic, weather, road conditions, or other
           circumstances beyond our reasonable control.
         </LP>

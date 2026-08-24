@@ -106,7 +106,7 @@ export default function CoveragePage() {
           <Reveal className="mb-8 max-w-2xl">
             <span className="text-xs font-semibold tracking-widest text-[#B8860B]">POPULAR ROUTES</span>
             <h2 className="mt-3 text-3xl font-display font-bold text-[#0A0A0A]">Featured Routes & Beach Transfers</h2>
-            <p className="mt-3 text-neutral-600">Flat-rate, all-inclusive pricing on our most-requested point-to-point and long-distance routes.</p>
+            <p className="mt-3 text-neutral-600">Flat-rate, transparent pricing on our most-requested point-to-point and long-distance routes.</p>
           </Reveal>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {popular.map((slug) => (

@@ -3,7 +3,7 @@ import { IMAGES } from "@/lib/data";
 
 export const GENERATED_LANDING_PAGES = {
   "baltimore-limo-service": {
-    "metaTitle": "Limo Service Baltimore MD | 92 Limo Service",
+    "metaTitle": "Baltimore Limo & Black Car Service | 92 Limo",
     "metaDescription": "Luxury limo & car service in Baltimore, MD. Airport transfers to BWI, DCA & IAD, corporate travel, weddings & events. Flat rates, pro chauffeurs, 24/7.",
     "eyebrow": "BALTIMORE, MD",
     "h1": "Limo Service in Baltimore, MD",
@@ -27,8 +27,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Door-to-terminal in about 15 minutes via I-95 and MD-295, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -51,7 +51,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Baltimore cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Baltimore to the airport?",
@@ -63,7 +63,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -71,11 +71,12 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Baltimore Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Baltimore, MD — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Baltimore, MD — reserve in minutes.",
+    "category": "city"
   },
 
   "washington-dc-limo-service": {
-    "metaTitle": "Limo Service Washington DC DC | 92 Limo Service",
+    "metaTitle": "Washington DC Limo & Black Car Service | 92 Limo",
     "metaDescription": "Luxury limo & car service in Washington DC, DC. Airport transfers to BWI, DCA & IAD, corporate travel, weddings & events. Flat rates, pro chauffeurs, 24/7.",
     "eyebrow": "WASHINGTON DC, DC",
     "h1": "Limo Service in Washington DC, DC",
@@ -87,7 +88,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service is the chauffeured car and limo service Washington DC, DC residents call when the trip has to go right. We serve the capital's hotels, embassies, and federal offices with luxury sedans, SUVs, and Sprinter vans — available 24 hours a day, 365 days a year.",
       "Most of our Washington DC clients start with an airport transfer. We cover BWI, DCA, and Dulles from Washington DC, using the BW Parkway and I-95, and every airport ride includes real-time flight tracking, meet-and-greet options, and full luggage assistance. Early flight? Your chauffeur is at your door before dawn. Delayed arrival? We adjust at no charge.",
       "Beyond the airport, we handle corporate travel, weddings, proms, wine tours, and hourly charters throughout the area — including Capitol Hill, Georgetown, and the K Street corridor. One number, one trusted chauffeur partner, for every trip on your calendar.",
-      "Pricing is simple: a flat, all-inclusive quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call (877) 609-1919 or book online in minutes."
+      "Pricing is simple: a flat, transparent quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call (877) 609-1919 or book online in minutes."
     ],
     "highlights": [
       {
@@ -99,8 +100,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "BWI, DCA, and Dulles are all served from Washington DC, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -123,7 +124,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Washington DC cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Washington DC to the airport?",
@@ -135,7 +136,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -143,11 +144,12 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Washington DC Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Washington DC, DC — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Washington DC, DC — reserve in minutes.",
+    "category": "city"
   },
 
   "annapolis-limo-service": {
-    "metaTitle": "Limo Service Annapolis MD | 92 Limo Service",
+    "metaTitle": "Annapolis Limo & Airport Car Service | 92 Limo",
     "metaDescription": "Luxury limo & car service in Annapolis, MD. Airport transfers to BWI, DCA & IAD, corporate travel, weddings & events. Flat rates, pro chauffeurs, 24/7.",
     "eyebrow": "ANNAPOLIS, MD",
     "h1": "Limo Service in Annapolis, MD",
@@ -159,7 +161,7 @@ export const GENERATED_LANDING_PAGES = {
       "From the Naval Academy, City Dock, and Eastport, 92 Limo Service covers every corner of Annapolis, MD with professional chauffeured transportation. Whether it is a quick airport run, a business meeting, or a special evening, you get the same standard: on time, immaculate, and flat-rated.",
       "Airport transfers from Annapolis are door-to-door. BWI Marshall sits roughly 22 miles away — about 30 minutes via I-97 and US-50. Your chauffeur tracks the flight, loads the luggage, and delivers you curbside with time to spare. Returns work the same way, with wait time built in for delays.",
       "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Escalade or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
-      "Booking takes minutes and every reservation is confirmed with an all-inclusive quote. That is why Annapolis clients keep our number saved: (877) 609-1919, answered 24/7."
+      "Booking takes minutes and every reservation is confirmed with a transparent quote. That is why Annapolis clients keep our number saved: (877) 609-1919, answered 24/7."
     ],
     "highlights": [
       {
@@ -171,8 +173,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Door-to-terminal in about 30 minutes via I-97 and US-50, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -195,7 +197,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Annapolis cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Annapolis to the airport?",
@@ -207,7 +209,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -215,7 +217,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Annapolis Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Annapolis, MD — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Annapolis, MD — reserve in minutes.",
+    "category": "city"
   },
 
   "columbia-md-limo-service": {
@@ -243,8 +246,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Door-to-terminal in about 20 minutes via MD-100 and US-29, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -267,7 +270,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Columbia cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Columbia to the airport?",
@@ -279,7 +282,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -287,7 +290,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Columbia Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Columbia, MD — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Columbia, MD — reserve in minutes.",
+    "category": "city"
   },
 
   "bethesda-limo-service": {
@@ -303,7 +307,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service is the chauffeured car and limo service Bethesda, MD residents call when the trip has to go right. We serve Montgomery County's medical and business hub with luxury sedans, SUVs, and Sprinter vans — available 24 hours a day, 365 days a year.",
       "Most of our Bethesda clients start with an airport transfer. We cover BWI, DCA, and Dulles from Bethesda, using I-95 and the Beltway, and every airport ride includes real-time flight tracking, meet-and-greet options, and full luggage assistance. Early flight? Your chauffeur is at your door before dawn. Delayed arrival? We adjust at no charge.",
       "Beyond the airport, we handle corporate travel, weddings, proms, wine tours, and hourly charters throughout the area — including NIH, Walter Reed, and Bethesda Row. One number, one trusted chauffeur partner, for every trip on your calendar.",
-      "Pricing is simple: a flat, all-inclusive quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call (877) 609-1919 or book online in minutes."
+      "Pricing is simple: a flat, transparent quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call (877) 609-1919 or book online in minutes."
     ],
     "highlights": [
       {
@@ -315,8 +319,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "BWI, DCA, and Dulles are all served from Bethesda, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -339,7 +343,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Bethesda cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Bethesda to the airport?",
@@ -351,7 +355,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -359,7 +363,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Bethesda Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Bethesda, MD — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Bethesda, MD — reserve in minutes.",
+    "category": "city"
   },
 
   "rockville-limo-service": {
@@ -375,7 +380,7 @@ export const GENERATED_LANDING_PAGES = {
       "From Rockville Town Square, King Farm, and the I-270 tech corridor, 92 Limo Service covers every corner of Rockville, MD with professional chauffeured transportation. Whether it is a comfortable airport run, a business meeting, or a special evening, you get the same standard: on time, immaculate, and flat-rated.",
       "Airport transfers from Rockville are door-to-door. Depending on your terminal, we route via the Beltway and I-270 to BWI, DCA, or Dulles. Your chauffeur tracks the flight, loads the luggage, and delivers you curbside with time to spare. Returns work the same way, with wait time built in for delays.",
       "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Escalade or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
-      "Booking takes minutes and every reservation is confirmed with an all-inclusive quote. That is why Rockville clients keep our number saved: (877) 609-1919, answered 24/7."
+      "Booking takes minutes and every reservation is confirmed with a transparent quote. That is why Rockville clients keep our number saved: (877) 609-1919, answered 24/7."
     ],
     "highlights": [
       {
@@ -387,8 +392,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "BWI, DCA, and Dulles are all served from Rockville, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -411,7 +416,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Rockville cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Rockville to the airport?",
@@ -423,7 +428,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -431,7 +436,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Rockville Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Rockville, MD — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Rockville, MD — reserve in minutes.",
+    "category": "city"
   },
 
   "silver-spring-limo-service": {
@@ -459,8 +465,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "BWI, DCA, and Dulles are all served from Silver Spring, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -483,7 +489,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Silver Spring cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Silver Spring to the airport?",
@@ -495,7 +501,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -503,7 +509,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Silver Spring Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Silver Spring, MD — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Silver Spring, MD — reserve in minutes.",
+    "category": "city"
   },
 
   "bowie-md-limo-service": {
@@ -519,7 +526,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service is the chauffeured car and limo service Bowie, MD residents call when the trip has to go right. We serve Prince George's County's largest city with luxury sedans, SUVs, and Sprinter vans — available 24 hours a day, 365 days a year.",
       "Most of our Bowie clients start with an airport transfer. The run to BWI Marshall takes about 30 minutes via US-50 and MD-197, and every airport ride includes real-time flight tracking, meet-and-greet options, and full luggage assistance. Early flight? Your chauffeur is at your door before dawn. Delayed arrival? We adjust at no charge.",
       "Beyond the airport, we handle corporate travel, weddings, proms, wine tours, and hourly charters throughout the area — including Bowie Town Center, Fairwood, and Old Town Bowie. One number, one trusted chauffeur partner, for every trip on your calendar.",
-      "Pricing is simple: a flat, all-inclusive quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call (877) 609-1919 or book online in minutes."
+      "Pricing is simple: a flat, transparent quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call (877) 609-1919 or book online in minutes."
     ],
     "highlights": [
       {
@@ -531,8 +538,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Door-to-terminal in about 30 minutes via US-50 and MD-197, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -555,7 +562,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Bowie cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Bowie to the airport?",
@@ -567,7 +574,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -575,7 +582,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Bowie Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Bowie, MD — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Bowie, MD — reserve in minutes.",
+    "category": "city"
   },
 
   "laurel-md-limo-service": {
@@ -591,7 +599,7 @@ export const GENERATED_LANDING_PAGES = {
       "From Main Street, Russett, and Maryland City, 92 Limo Service covers every corner of Laurel, MD with professional chauffeured transportation. Whether it is a quick airport run, a business meeting, or a special evening, you get the same standard: on time, immaculate, and flat-rated.",
       "Airport transfers from Laurel are door-to-door. BWI Marshall sits roughly 14 miles away — about 20 minutes via MD-295 and Route 198. Your chauffeur tracks the flight, loads the luggage, and delivers you curbside with time to spare. Returns work the same way, with wait time built in for delays.",
       "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Escalade or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
-      "Booking takes minutes and every reservation is confirmed with an all-inclusive quote. That is why Laurel clients keep our number saved: (877) 609-1919, answered 24/7."
+      "Booking takes minutes and every reservation is confirmed with a transparent quote. That is why Laurel clients keep our number saved: (877) 609-1919, answered 24/7."
     ],
     "highlights": [
       {
@@ -603,8 +611,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Door-to-terminal in about 20 minutes via MD-295 and Route 198, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -627,7 +635,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Laurel cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Laurel to the airport?",
@@ -639,7 +647,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -647,7 +655,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Laurel Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Laurel, MD — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Laurel, MD — reserve in minutes.",
+    "category": "city"
   },
 
   "greenbelt-md-limo-service": {
@@ -675,8 +684,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Door-to-terminal in about 30 minutes via the BW Parkway and I-495, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -699,7 +708,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Greenbelt cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Greenbelt to the airport?",
@@ -711,7 +720,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -719,7 +728,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Greenbelt Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Greenbelt, MD — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Greenbelt, MD — reserve in minutes.",
+    "category": "city"
   },
 
   "gaithersburg-limo-service": {
@@ -735,7 +745,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service is the chauffeured car and limo service Gaithersburg, MD residents call when the trip has to go right. We serve the I-270 technology corridor with luxury sedans, SUVs, and Sprinter vans — available 24 hours a day, 365 days a year.",
       "Most of our Gaithersburg clients start with an airport transfer. We cover BWI, DCA, and Dulles from Gaithersburg, using I-270 and the ICC (MD-200), and every airport ride includes real-time flight tracking, meet-and-greet options, and full luggage assistance. Early flight? Your chauffeur is at your door before dawn. Delayed arrival? We adjust at no charge.",
       "Beyond the airport, we handle corporate travel, weddings, proms, wine tours, and hourly charters throughout the area — including Rio Lakefront, Crown, and the Kentlands. One number, one trusted chauffeur partner, for every trip on your calendar.",
-      "Pricing is simple: a flat, all-inclusive quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call (877) 609-1919 or book online in minutes."
+      "Pricing is simple: a flat, transparent quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call (877) 609-1919 or book online in minutes."
     ],
     "highlights": [
       {
@@ -747,8 +757,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "BWI, DCA, and Dulles are all served from Gaithersburg, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -771,7 +781,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Gaithersburg cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Gaithersburg to the airport?",
@@ -783,7 +793,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -791,7 +801,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Gaithersburg Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Gaithersburg, MD — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Gaithersburg, MD — reserve in minutes.",
+    "category": "city"
   },
 
   "frederick-md-limo-service": {
@@ -807,7 +818,7 @@ export const GENERATED_LANDING_PAGES = {
       "From historic downtown Frederick, Fort Detrick, and Carroll Creek, 92 Limo Service covers every corner of Frederick, MD with professional chauffeured transportation. Whether it is a comfortable airport run, a business meeting, or a special evening, you get the same standard: on time, immaculate, and flat-rated.",
       "Airport transfers from Frederick are door-to-door. BWI Marshall sits roughly 55 miles away — about 60 minutes via I-70 and US-15. Your chauffeur tracks the flight, loads the luggage, and delivers you curbside with time to spare. Returns work the same way, with wait time built in for delays.",
       "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Escalade or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
-      "Booking takes minutes and every reservation is confirmed with an all-inclusive quote. That is why Frederick clients keep our number saved: (877) 609-1919, answered 24/7."
+      "Booking takes minutes and every reservation is confirmed with a transparent quote. That is why Frederick clients keep our number saved: (877) 609-1919, answered 24/7."
     ],
     "highlights": [
       {
@@ -819,8 +830,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Door-to-terminal in about 60 minutes via I-70 and US-15, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -843,7 +854,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Frederick cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Frederick to the airport?",
@@ -855,7 +866,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -863,7 +874,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Frederick Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Frederick, MD — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Frederick, MD — reserve in minutes.",
+    "category": "city"
   },
 
   "waldorf-md-limo-service": {
@@ -891,8 +903,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "BWI, DCA, and Dulles are all served from Waldorf, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -915,7 +927,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Waldorf cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Waldorf to the airport?",
@@ -927,7 +939,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -935,7 +947,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Waldorf Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Waldorf, MD — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Waldorf, MD — reserve in minutes.",
+    "category": "city"
   },
 
   "chesapeake-beach-limo-service": {
@@ -951,7 +964,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service is the chauffeured car and limo service Chesapeake Beach, MD residents call when the trip has to go right. We serve Calvert County's bayside resort towns with luxury sedans, SUVs, and Sprinter vans — available 24 hours a day, 365 days a year.",
       "Most of our Chesapeake Beach clients start with an airport transfer. The run to BWI Marshall takes about 60 minutes via MD-260 and Route 4, and every airport ride includes real-time flight tracking, meet-and-greet options, and full luggage assistance. Early flight? Your chauffeur is at your door before dawn. Delayed arrival? We adjust at no charge.",
       "Beyond the airport, we handle corporate travel, weddings, proms, wine tours, and hourly charters throughout the area — including the boardwalk, Rod 'N' Reel Resort, and North Beach. One number, one trusted chauffeur partner, for every trip on your calendar.",
-      "Pricing is simple: a flat, all-inclusive quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call (877) 609-1919 or book online in minutes."
+      "Pricing is simple: a flat, transparent quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call (877) 609-1919 or book online in minutes."
     ],
     "highlights": [
       {
@@ -963,8 +976,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Door-to-terminal in about 60 minutes via MD-260 and Route 4, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -987,7 +1000,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Chesapeake Beach cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Chesapeake Beach to the airport?",
@@ -999,7 +1012,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -1007,7 +1020,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Chesapeake Beach Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Chesapeake Beach, MD — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Chesapeake Beach, MD — reserve in minutes.",
+    "category": "city"
   },
 
   "ocean-city-md-limo-service": {
@@ -1023,7 +1037,7 @@ export const GENERATED_LANDING_PAGES = {
       "From the boardwalk, the Route 1 corridor, and West Ocean City, 92 Limo Service covers every corner of Ocean City, MD with professional chauffeured transportation. Whether it is a comfortable airport run, a business meeting, or a special evening, you get the same standard: on time, immaculate, and flat-rated.",
       "Airport transfers from Ocean City are door-to-door. BWI Marshall sits roughly 130 miles away — about 135 minutes via US-50 and the Bay Bridge. Your chauffeur tracks the flight, loads the luggage, and delivers you curbside with time to spare. Returns work the same way, with wait time built in for delays.",
       "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Escalade or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
-      "Booking takes minutes and every reservation is confirmed with an all-inclusive quote. That is why Ocean City clients keep our number saved: (877) 609-1919, answered 24/7."
+      "Booking takes minutes and every reservation is confirmed with a transparent quote. That is why Ocean City clients keep our number saved: (877) 609-1919, answered 24/7."
     ],
     "highlights": [
       {
@@ -1035,8 +1049,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Door-to-terminal in about 135 minutes via US-50 and the Bay Bridge, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -1059,7 +1073,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Ocean City cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Ocean City to the airport?",
@@ -1071,7 +1085,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -1079,7 +1093,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Ocean City Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Ocean City, MD — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Ocean City, MD — reserve in minutes.",
+    "category": "city"
   },
 
   "towson-limo-service": {
@@ -1107,8 +1122,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Door-to-terminal in about 25 minutes via I-695 and I-83, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -1131,7 +1146,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Towson cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Towson to the airport?",
@@ -1143,7 +1158,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -1151,7 +1166,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Towson Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Towson, MD — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Towson, MD — reserve in minutes.",
+    "category": "city"
   },
 
   "glen-burnie-limo-service": {
@@ -1167,7 +1183,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service is the chauffeured car and limo service Glen Burnie, MD residents call when the trip has to go right. We serve the airport's closest neighbor with luxury sedans, SUVs, and Sprinter vans — available 24 hours a day, 365 days a year.",
       "Most of our Glen Burnie clients start with an airport transfer. The run to BWI Marshall takes about 10 minutes via I-97 and MD-2, and every airport ride includes real-time flight tracking, meet-and-greet options, and full luggage assistance. Early flight? Your chauffeur is at your door before dawn. Delayed arrival? We adjust at no charge.",
       "Beyond the airport, we handle corporate travel, weddings, proms, wine tours, and hourly charters throughout the area — including Marley Station, Point Pleasant, and Ferndale. One number, one trusted chauffeur partner, for every trip on your calendar.",
-      "Pricing is simple: a flat, all-inclusive quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call (877) 609-1919 or book online in minutes."
+      "Pricing is simple: a flat, transparent quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call (877) 609-1919 or book online in minutes."
     ],
     "highlights": [
       {
@@ -1179,8 +1195,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Door-to-terminal in about 10 minutes via I-97 and MD-2, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -1203,7 +1219,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Glen Burnie cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Glen Burnie to the airport?",
@@ -1215,7 +1231,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -1223,7 +1239,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Glen Burnie Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Glen Burnie, MD — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Glen Burnie, MD — reserve in minutes.",
+    "category": "city"
   },
 
   "ellicott-city-limo-service": {
@@ -1239,7 +1256,7 @@ export const GENERATED_LANDING_PAGES = {
       "From historic Main Street, Turf Valley, and Centennial Park, 92 Limo Service covers every corner of Ellicott City, MD with professional chauffeured transportation. Whether it is a quick airport run, a business meeting, or a special evening, you get the same standard: on time, immaculate, and flat-rated.",
       "Airport transfers from Ellicott City are door-to-door. BWI Marshall sits roughly 18 miles away — about 25 minutes via US-29 and US-40. Your chauffeur tracks the flight, loads the luggage, and delivers you curbside with time to spare. Returns work the same way, with wait time built in for delays.",
       "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Escalade or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
-      "Booking takes minutes and every reservation is confirmed with an all-inclusive quote. That is why Ellicott City clients keep our number saved: (877) 609-1919, answered 24/7."
+      "Booking takes minutes and every reservation is confirmed with a transparent quote. That is why Ellicott City clients keep our number saved: (877) 609-1919, answered 24/7."
     ],
     "highlights": [
       {
@@ -1251,8 +1268,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Door-to-terminal in about 25 minutes via US-29 and US-40, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -1275,7 +1292,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Ellicott City cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Ellicott City to the airport?",
@@ -1287,7 +1304,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -1295,7 +1312,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Ellicott City Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Ellicott City, MD — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Ellicott City, MD — reserve in minutes.",
+    "category": "city"
   },
 
   "elkridge-limo-service": {
@@ -1323,8 +1341,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Door-to-terminal in about 12 minutes via I-95, Route 1, and Route 100, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -1347,7 +1365,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Elkridge cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Elkridge to the airport?",
@@ -1359,7 +1377,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -1367,7 +1385,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Elkridge Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Elkridge, MD — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Elkridge, MD — reserve in minutes.",
+    "category": "city"
   },
 
   "catonsville-limo-service": {
@@ -1383,7 +1402,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service is the chauffeured car and limo service Catonsville, MD residents call when the trip has to go right. We serve the arts-friendly west side of Baltimore County with luxury sedans, SUVs, and Sprinter vans — available 24 hours a day, 365 days a year.",
       "Most of our Catonsville clients start with an airport transfer. The run to BWI Marshall takes about 20 minutes via I-695 and US-40, and every airport ride includes real-time flight tracking, meet-and-greet options, and full luggage assistance. Early flight? Your chauffeur is at your door before dawn. Delayed arrival? We adjust at no charge.",
       "Beyond the airport, we handle corporate travel, weddings, proms, wine tours, and hourly charters throughout the area — including Frederick Road, UMBC, and Music City Maryland's venues. One number, one trusted chauffeur partner, for every trip on your calendar.",
-      "Pricing is simple: a flat, all-inclusive quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call (877) 609-1919 or book online in minutes."
+      "Pricing is simple: a flat, transparent quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call (877) 609-1919 or book online in minutes."
     ],
     "highlights": [
       {
@@ -1395,8 +1414,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Door-to-terminal in about 20 minutes via I-695 and US-40, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -1419,7 +1438,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Catonsville cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Catonsville to the airport?",
@@ -1431,7 +1450,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -1439,7 +1458,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Catonsville Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Catonsville, MD — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Catonsville, MD — reserve in minutes.",
+    "category": "city"
   },
 
   "bel-air-limo-service": {
@@ -1455,7 +1475,7 @@ export const GENERATED_LANDING_PAGES = {
       "From Main Street, Harford Mall, and the Ma & Pa Trail, 92 Limo Service covers every corner of Bel Air, MD with professional chauffeured transportation. Whether it is a comfortable airport run, a business meeting, or a special evening, you get the same standard: on time, immaculate, and flat-rated.",
       "Airport transfers from Bel Air are door-to-door. BWI Marshall sits roughly 35 miles away — about 45 minutes via I-95 and US-1. Your chauffeur tracks the flight, loads the luggage, and delivers you curbside with time to spare. Returns work the same way, with wait time built in for delays.",
       "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Escalade or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
-      "Booking takes minutes and every reservation is confirmed with an all-inclusive quote. That is why Bel Air clients keep our number saved: (877) 609-1919, answered 24/7."
+      "Booking takes minutes and every reservation is confirmed with a transparent quote. That is why Bel Air clients keep our number saved: (877) 609-1919, answered 24/7."
     ],
     "highlights": [
       {
@@ -1467,8 +1487,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Door-to-terminal in about 45 minutes via I-95 and US-1, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -1491,7 +1511,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Bel Air cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Bel Air to the airport?",
@@ -1503,7 +1523,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -1511,7 +1531,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Bel Air Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Bel Air, MD — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Bel Air, MD — reserve in minutes.",
+    "category": "city"
   },
 
   "aberdeen-limo-service": {
@@ -1539,8 +1560,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Door-to-terminal in about 50 minutes via I-95 and US-40, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -1563,7 +1584,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Aberdeen cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Aberdeen to the airport?",
@@ -1575,7 +1596,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -1583,7 +1604,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Aberdeen Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Aberdeen, MD — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Aberdeen, MD — reserve in minutes.",
+    "category": "city"
   },
 
   "germantown-limo-service": {
@@ -1599,7 +1621,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service is the chauffeured car and limo service Germantown, MD residents call when the trip has to go right. We serve upcounty Montgomery's residential hub with luxury sedans, SUVs, and Sprinter vans — available 24 hours a day, 365 days a year.",
       "Most of our Germantown clients start with an airport transfer. We cover BWI, DCA, and Dulles from Germantown, using I-270 and MD-118, and every airport ride includes real-time flight tracking, meet-and-greet options, and full luggage assistance. Early flight? Your chauffeur is at your door before dawn. Delayed arrival? We adjust at no charge.",
       "Beyond the airport, we handle corporate travel, weddings, proms, wine tours, and hourly charters throughout the area — including the Soccerplex, Milestone, and Clarksburg Premium Outlets. One number, one trusted chauffeur partner, for every trip on your calendar.",
-      "Pricing is simple: a flat, all-inclusive quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call (877) 609-1919 or book online in minutes."
+      "Pricing is simple: a flat, transparent quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call (877) 609-1919 or book online in minutes."
     ],
     "highlights": [
       {
@@ -1611,8 +1633,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "BWI, DCA, and Dulles are all served from Germantown, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -1635,7 +1657,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Germantown cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Germantown to the airport?",
@@ -1647,7 +1669,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -1655,7 +1677,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Germantown Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Germantown, MD — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Germantown, MD — reserve in minutes.",
+    "category": "city"
   },
 
   "college-park-limo-service": {
@@ -1671,7 +1694,7 @@ export const GENERATED_LANDING_PAGES = {
       "From the University of Maryland, Discovery District, and Route 1 corridor, 92 Limo Service covers every corner of College Park, MD with professional chauffeured transportation. Whether it is a quick airport run, a business meeting, or a special evening, you get the same standard: on time, immaculate, and flat-rated.",
       "Airport transfers from College Park are door-to-door. BWI Marshall sits roughly 20 miles away — about 25 minutes via the BW Parkway and US-1. Your chauffeur tracks the flight, loads the luggage, and delivers you curbside with time to spare. Returns work the same way, with wait time built in for delays.",
       "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Escalade or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
-      "Booking takes minutes and every reservation is confirmed with an all-inclusive quote. That is why College Park clients keep our number saved: (877) 609-1919, answered 24/7."
+      "Booking takes minutes and every reservation is confirmed with a transparent quote. That is why College Park clients keep our number saved: (877) 609-1919, answered 24/7."
     ],
     "highlights": [
       {
@@ -1683,8 +1706,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Door-to-terminal in about 25 minutes via the BW Parkway and US-1, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -1707,7 +1730,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in College Park cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from College Park to the airport?",
@@ -1719,7 +1742,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -1727,7 +1750,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your College Park Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in College Park, MD — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in College Park, MD — reserve in minutes.",
+    "category": "city"
   },
 
   "severna-park-limo-service": {
@@ -1755,8 +1779,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Door-to-terminal in about 15 minutes via I-97 and MD-2, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -1779,7 +1803,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Severna Park cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Severna Park to the airport?",
@@ -1791,7 +1815,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -1799,7 +1823,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Severna Park Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Severna Park, MD — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Severna Park, MD — reserve in minutes.",
+    "category": "city"
   },
 
   "arlington-va-limo-service": {
@@ -1815,7 +1840,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service is the chauffeured car and limo service Arlington, VA residents call when the trip has to go right. We serve the federal and tech corridor across the Potomac with luxury sedans, SUVs, and Sprinter vans — available 24 hours a day, 365 days a year.",
       "Most of our Arlington clients start with an airport transfer. We cover BWI, DCA, and Dulles from Arlington, using the BW Parkway and I-395, and every airport ride includes real-time flight tracking, meet-and-greet options, and full luggage assistance. Early flight? Your chauffeur is at your door before dawn. Delayed arrival? We adjust at no charge.",
       "Beyond the airport, we handle corporate travel, weddings, proms, wine tours, and hourly charters throughout the area — including the Pentagon, Amazon HQ2, and Rosslyn. One number, one trusted chauffeur partner, for every trip on your calendar.",
-      "Pricing is simple: a flat, all-inclusive quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call (877) 609-1919 or book online in minutes."
+      "Pricing is simple: a flat, transparent quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call (877) 609-1919 or book online in minutes."
     ],
     "highlights": [
       {
@@ -1827,8 +1852,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "BWI, DCA, and Dulles are all served from Arlington, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -1851,7 +1876,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Arlington cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Arlington to the airport?",
@@ -1863,7 +1888,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -1871,7 +1896,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Arlington Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Arlington, VA — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Arlington, VA — reserve in minutes.",
+    "category": "city"
   },
 
   "alexandria-va-limo-service": {
@@ -1887,7 +1913,7 @@ export const GENERATED_LANDING_PAGES = {
       "From Old Town, Del Ray, and the Carlyle district, 92 Limo Service covers every corner of Alexandria, VA with professional chauffeured transportation. Whether it is a comfortable airport run, a business meeting, or a special evening, you get the same standard: on time, immaculate, and flat-rated.",
       "Airport transfers from Alexandria are door-to-door. Depending on your terminal, we route via I-95 and the Wilson Bridge to BWI, DCA, or Dulles. Your chauffeur tracks the flight, loads the luggage, and delivers you curbside with time to spare. Returns work the same way, with wait time built in for delays.",
       "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Escalade or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
-      "Booking takes minutes and every reservation is confirmed with an all-inclusive quote. That is why Alexandria clients keep our number saved: (877) 609-1919, answered 24/7."
+      "Booking takes minutes and every reservation is confirmed with a transparent quote. That is why Alexandria clients keep our number saved: (877) 609-1919, answered 24/7."
     ],
     "highlights": [
       {
@@ -1899,8 +1925,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "BWI, DCA, and Dulles are all served from Alexandria, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -1923,7 +1949,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Alexandria cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Alexandria to the airport?",
@@ -1935,7 +1961,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -1943,7 +1969,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Alexandria Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Alexandria, VA — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Alexandria, VA — reserve in minutes.",
+    "category": "city"
   },
 
   "fairfax-va-limo-service": {
@@ -1971,8 +1998,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "BWI, DCA, and Dulles are all served from Fairfax, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -1995,7 +2022,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Fairfax cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Fairfax to the airport?",
@@ -2007,7 +2034,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -2015,7 +2042,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Fairfax Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Fairfax, VA — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Fairfax, VA — reserve in minutes.",
+    "category": "city"
   },
 
   "tysons-corner-limo-service": {
@@ -2031,7 +2059,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service is the chauffeured car and limo service Tysons Corner, VA residents call when the trip has to go right. We serve Virginia's downtown of corporate headquarters with luxury sedans, SUVs, and Sprinter vans — available 24 hours a day, 365 days a year.",
       "Most of our Tysons Corner clients start with an airport transfer. We cover BWI, DCA, and Dulles from Tysons Corner, using the Beltway and Route 123, and every airport ride includes real-time flight tracking, meet-and-greet options, and full luggage assistance. Early flight? Your chauffeur is at your door before dawn. Delayed arrival? We adjust at no charge.",
       "Beyond the airport, we handle corporate travel, weddings, proms, wine tours, and hourly charters throughout the area — including Tysons Galleria, Capital One Center, and the Silver Line corridor. One number, one trusted chauffeur partner, for every trip on your calendar.",
-      "Pricing is simple: a flat, all-inclusive quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call (877) 609-1919 or book online in minutes."
+      "Pricing is simple: a flat, transparent quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call (877) 609-1919 or book online in minutes."
     ],
     "highlights": [
       {
@@ -2043,8 +2071,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "BWI, DCA, and Dulles are all served from Tysons Corner, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -2067,7 +2095,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Tysons Corner cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Tysons Corner to the airport?",
@@ -2079,7 +2107,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -2087,7 +2115,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Tysons Corner Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Tysons Corner, VA — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Tysons Corner, VA — reserve in minutes.",
+    "category": "city"
   },
 
   "fredericksburg-va-limo-service": {
@@ -2103,7 +2132,7 @@ export const GENERATED_LANDING_PAGES = {
       "From the historic downtown, Mary Washington, and Central Park, 92 Limo Service covers every corner of Fredericksburg, VA with professional chauffeured transportation. Whether it is a comfortable airport run, a business meeting, or a special evening, you get the same standard: on time, immaculate, and flat-rated.",
       "Airport transfers from Fredericksburg are door-to-door. Depending on your terminal, we route via I-95 South to BWI, DCA, or Dulles. Your chauffeur tracks the flight, loads the luggage, and delivers you curbside with time to spare. Returns work the same way, with wait time built in for delays.",
       "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Escalade or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
-      "Booking takes minutes and every reservation is confirmed with an all-inclusive quote. That is why Fredericksburg clients keep our number saved: (877) 609-1919, answered 24/7."
+      "Booking takes minutes and every reservation is confirmed with a transparent quote. That is why Fredericksburg clients keep our number saved: (877) 609-1919, answered 24/7."
     ],
     "highlights": [
       {
@@ -2115,8 +2144,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "BWI, DCA, and Dulles are all served from Fredericksburg, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -2139,7 +2168,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Fredericksburg cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Fredericksburg to the airport?",
@@ -2151,7 +2180,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -2159,7 +2188,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Fredericksburg Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Fredericksburg, VA — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Fredericksburg, VA — reserve in minutes.",
+    "category": "city"
   },
 
   "mclean-va-limo-service": {
@@ -2187,8 +2217,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "BWI, DCA, and Dulles are all served from McLean, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -2211,7 +2241,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in McLean cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from McLean to the airport?",
@@ -2223,7 +2253,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -2231,7 +2261,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your McLean Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in McLean, VA — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in McLean, VA — reserve in minutes.",
+    "category": "city"
   },
 
   "reston-va-limo-service": {
@@ -2247,7 +2278,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service is the chauffeured car and limo service Reston, VA residents call when the trip has to go right. We serve the planned community at the heart of the Dulles corridor with luxury sedans, SUVs, and Sprinter vans — available 24 hours a day, 365 days a year.",
       "Most of our Reston clients start with an airport transfer. We cover BWI, DCA, and Dulles from Reston, using the Dulles Toll Road, and every airport ride includes real-time flight tracking, meet-and-greet options, and full luggage assistance. Early flight? Your chauffeur is at your door before dawn. Delayed arrival? We adjust at no charge.",
       "Beyond the airport, we handle corporate travel, weddings, proms, wine tours, and hourly charters throughout the area — including Reston Town Center and the Dulles tech corridor. One number, one trusted chauffeur partner, for every trip on your calendar.",
-      "Pricing is simple: a flat, all-inclusive quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call (877) 609-1919 or book online in minutes."
+      "Pricing is simple: a flat, transparent quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call (877) 609-1919 or book online in minutes."
     ],
     "highlights": [
       {
@@ -2259,8 +2290,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "BWI, DCA, and Dulles are all served from Reston, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -2283,7 +2314,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Reston cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Reston to the airport?",
@@ -2295,7 +2326,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -2303,7 +2334,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Reston Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Reston, VA — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Reston, VA — reserve in minutes.",
+    "category": "city"
   },
 
   "ashburn-va-limo-service": {
@@ -2319,7 +2351,7 @@ export const GENERATED_LANDING_PAGES = {
       "From One Loudoun, data-center alley, and Brambleton, 92 Limo Service covers every corner of Ashburn, VA with professional chauffeured transportation. Whether it is a comfortable airport run, a business meeting, or a special evening, you get the same standard: on time, immaculate, and flat-rated.",
       "Airport transfers from Ashburn are door-to-door. Depending on your terminal, we route via the Dulles Greenway to BWI, DCA, or Dulles. Your chauffeur tracks the flight, loads the luggage, and delivers you curbside with time to spare. Returns work the same way, with wait time built in for delays.",
       "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Escalade or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
-      "Booking takes minutes and every reservation is confirmed with an all-inclusive quote. That is why Ashburn clients keep our number saved: (877) 609-1919, answered 24/7."
+      "Booking takes minutes and every reservation is confirmed with a transparent quote. That is why Ashburn clients keep our number saved: (877) 609-1919, answered 24/7."
     ],
     "highlights": [
       {
@@ -2331,8 +2363,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "BWI, DCA, and Dulles are all served from Ashburn, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -2355,7 +2387,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Ashburn cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Ashburn to the airport?",
@@ -2367,7 +2399,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -2375,7 +2407,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Ashburn Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Ashburn, VA — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Ashburn, VA — reserve in minutes.",
+    "category": "city"
   },
 
   "leesburg-va-limo-service": {
@@ -2403,8 +2436,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "BWI, DCA, and Dulles are all served from Leesburg, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -2427,7 +2460,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Leesburg cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Leesburg to the airport?",
@@ -2439,7 +2472,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -2447,7 +2480,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Leesburg Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Leesburg, VA — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Leesburg, VA — reserve in minutes.",
+    "category": "city"
   },
 
   "york-pa-limo-service": {
@@ -2463,7 +2497,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service is the chauffeured car and limo service York, PA residents call when the trip has to go right. We serve south-central Pennsylvania's manufacturing hub with luxury sedans, SUVs, and Sprinter vans — available 24 hours a day, 365 days a year.",
       "Most of our York clients start with an airport transfer. The run to BWI Marshall takes about 60 minutes via I-83 South, and every airport ride includes real-time flight tracking, meet-and-greet options, and full luggage assistance. Early flight? Your chauffeur is at your door before dawn. Delayed arrival? We adjust at no charge.",
       "Beyond the airport, we handle corporate travel, weddings, proms, wine tours, and hourly charters throughout the area — including downtown York, the WellSpan campus, and the York Expo Center. One number, one trusted chauffeur partner, for every trip on your calendar.",
-      "Pricing is simple: a flat, all-inclusive quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call (877) 609-1919 or book online in minutes."
+      "Pricing is simple: a flat, transparent quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call (877) 609-1919 or book online in minutes."
     ],
     "highlights": [
       {
@@ -2475,8 +2509,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Door-to-terminal in about 60 minutes via I-83 South, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -2499,7 +2533,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in York cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from York to the airport?",
@@ -2511,7 +2545,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -2519,7 +2553,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your York Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in York, PA — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in York, PA — reserve in minutes.",
+    "category": "city"
   },
 
   "hanover-pa-limo-service": {
@@ -2535,7 +2570,7 @@ export const GENERATED_LANDING_PAGES = {
       "From the square, Utz country, and South Hanover, 92 Limo Service covers every corner of Hanover, PA with professional chauffeured transportation. Whether it is a comfortable airport run, a business meeting, or a special evening, you get the same standard: on time, immaculate, and flat-rated.",
       "Airport transfers from Hanover are door-to-door. BWI Marshall sits roughly 60 miles away — about 70 minutes via MD-30 and PA-94. Your chauffeur tracks the flight, loads the luggage, and delivers you curbside with time to spare. Returns work the same way, with wait time built in for delays.",
       "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Escalade or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
-      "Booking takes minutes and every reservation is confirmed with an all-inclusive quote. That is why Hanover clients keep our number saved: (877) 609-1919, answered 24/7."
+      "Booking takes minutes and every reservation is confirmed with a transparent quote. That is why Hanover clients keep our number saved: (877) 609-1919, answered 24/7."
     ],
     "highlights": [
       {
@@ -2547,8 +2582,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Door-to-terminal in about 70 minutes via MD-30 and PA-94, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -2571,7 +2606,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Hanover cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Hanover to the airport?",
@@ -2583,7 +2618,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -2591,7 +2626,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Hanover Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Hanover, PA — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Hanover, PA — reserve in minutes.",
+    "category": "city"
   },
 
   "gettysburg-pa-limo-service": {
@@ -2619,8 +2655,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Door-to-terminal in about 85 minutes via US-15 North, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -2643,7 +2679,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Gettysburg cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Gettysburg to the airport?",
@@ -2655,7 +2691,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -2663,7 +2699,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Gettysburg Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Gettysburg, PA — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Gettysburg, PA — reserve in minutes.",
+    "category": "city"
   },
 
   "lancaster-pa-limo-service": {
@@ -2679,7 +2716,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service is the chauffeured car and limo service Lancaster, PA residents call when the trip has to go right. We serve Pennsylvania Dutch country's city center with luxury sedans, SUVs, and Sprinter vans — available 24 hours a day, 365 days a year.",
       "Most of our Lancaster clients start with an airport transfer. The run to BWI Marshall takes about 90 minutes via US-30 and PA-283, and every airport ride includes real-time flight tracking, meet-and-greet options, and full luggage assistance. Early flight? Your chauffeur is at your door before dawn. Delayed arrival? We adjust at no charge.",
       "Beyond the airport, we handle corporate travel, weddings, proms, wine tours, and hourly charters throughout the area — including downtown Lancaster, Amish country, and Franklin & Marshall. One number, one trusted chauffeur partner, for every trip on your calendar.",
-      "Pricing is simple: a flat, all-inclusive quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call (877) 609-1919 or book online in minutes."
+      "Pricing is simple: a flat, transparent quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call (877) 609-1919 or book online in minutes."
     ],
     "highlights": [
       {
@@ -2691,8 +2728,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Door-to-terminal in about 90 minutes via US-30 and PA-283, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -2715,7 +2752,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Lancaster cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Lancaster to the airport?",
@@ -2727,7 +2764,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -2735,7 +2772,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Lancaster Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Lancaster, PA — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Lancaster, PA — reserve in minutes.",
+    "category": "city"
   },
 
   "harrisburg-pa-limo-service": {
@@ -2751,7 +2789,7 @@ export const GENERATED_LANDING_PAGES = {
       "From the Capitol complex, City Island, and the West Shore, 92 Limo Service covers every corner of Harrisburg, PA with professional chauffeured transportation. Whether it is a comfortable airport run, a business meeting, or a special evening, you get the same standard: on time, immaculate, and flat-rated.",
       "Airport transfers from Harrisburg are door-to-door. BWI Marshall sits roughly 85 miles away — about 90 minutes via I-83 North. Your chauffeur tracks the flight, loads the luggage, and delivers you curbside with time to spare. Returns work the same way, with wait time built in for delays.",
       "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Escalade or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
-      "Booking takes minutes and every reservation is confirmed with an all-inclusive quote. That is why Harrisburg clients keep our number saved: (877) 609-1919, answered 24/7."
+      "Booking takes minutes and every reservation is confirmed with a transparent quote. That is why Harrisburg clients keep our number saved: (877) 609-1919, answered 24/7."
     ],
     "highlights": [
       {
@@ -2763,8 +2801,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Door-to-terminal in about 90 minutes via I-83 North, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -2787,7 +2825,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Harrisburg cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Harrisburg to the airport?",
@@ -2799,7 +2837,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -2807,7 +2845,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Harrisburg Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Harrisburg, PA — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Harrisburg, PA — reserve in minutes.",
+    "category": "city"
   },
 
   "hershey-pa-limo-service": {
@@ -2835,8 +2874,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Door-to-terminal in about 100 minutes via I-83 and US-322, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -2859,7 +2898,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Hershey cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Hershey to the airport?",
@@ -2871,7 +2910,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -2879,7 +2918,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Hershey Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Hershey, PA — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Hershey, PA — reserve in minutes.",
+    "category": "city"
   },
 
   "wilmington-de-limo-service": {
@@ -2895,7 +2935,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service is the chauffeured car and limo service Wilmington, DE residents call when the trip has to go right. We serve Delaware's corporate capital with luxury sedans, SUVs, and Sprinter vans — available 24 hours a day, 365 days a year.",
       "Most of our Wilmington clients start with an airport transfer. The run to BWI Marshall takes about 70 minutes via I-95 North, and every airport ride includes real-time flight tracking, meet-and-greet options, and full luggage assistance. Early flight? Your chauffeur is at your door before dawn. Delayed arrival? We adjust at no charge.",
       "Beyond the airport, we handle corporate travel, weddings, proms, wine tours, and hourly charters throughout the area — including the Riverfront, Rodney Square, and the corporate district. One number, one trusted chauffeur partner, for every trip on your calendar.",
-      "Pricing is simple: a flat, all-inclusive quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call (877) 609-1919 or book online in minutes."
+      "Pricing is simple: a flat, transparent quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call (877) 609-1919 or book online in minutes."
     ],
     "highlights": [
       {
@@ -2907,8 +2947,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Door-to-terminal in about 70 minutes via I-95 North, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -2931,7 +2971,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Wilmington cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Wilmington to the airport?",
@@ -2943,7 +2983,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -2951,7 +2991,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Wilmington Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Wilmington, DE — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Wilmington, DE — reserve in minutes.",
+    "category": "city"
   },
 
   "newark-de-limo-service": {
@@ -2967,7 +3008,7 @@ export const GENERATED_LANDING_PAGES = {
       "From the University of Delaware, Main Street, and Christiana, 92 Limo Service covers every corner of Newark, DE with professional chauffeured transportation. Whether it is a comfortable airport run, a business meeting, or a special evening, you get the same standard: on time, immaculate, and flat-rated.",
       "Airport transfers from Newark are door-to-door. BWI Marshall sits roughly 58 miles away — about 60 minutes via I-95 North. Your chauffeur tracks the flight, loads the luggage, and delivers you curbside with time to spare. Returns work the same way, with wait time built in for delays.",
       "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Escalade or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
-      "Booking takes minutes and every reservation is confirmed with an all-inclusive quote. That is why Newark clients keep our number saved: (877) 609-1919, answered 24/7."
+      "Booking takes minutes and every reservation is confirmed with a transparent quote. That is why Newark clients keep our number saved: (877) 609-1919, answered 24/7."
     ],
     "highlights": [
       {
@@ -2979,8 +3020,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Door-to-terminal in about 60 minutes via I-95 North, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -3003,7 +3044,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Newark cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Newark to the airport?",
@@ -3015,7 +3056,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -3023,7 +3064,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Newark Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Newark, DE — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Newark, DE — reserve in minutes.",
+    "category": "city"
   },
 
   "dover-de-limo-service": {
@@ -3051,8 +3093,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Door-to-terminal in about 85 minutes via US-301 and DE-1, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -3075,7 +3117,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Dover cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Dover to the airport?",
@@ -3087,7 +3129,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -3095,7 +3137,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Dover Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Dover, DE — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Dover, DE — reserve in minutes.",
+    "category": "city"
   },
 
   "middletown-de-limo-service": {
@@ -3111,7 +3154,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service is the chauffeured car and limo service Middletown, DE residents call when the trip has to go right. We serve fast-growing southern New Castle County with luxury sedans, SUVs, and Sprinter vans — available 24 hours a day, 365 days a year.",
       "Most of our Middletown clients start with an airport transfer. The run to BWI Marshall takes about 65 minutes via US-301, and every airport ride includes real-time flight tracking, meet-and-greet options, and full luggage assistance. Early flight? Your chauffeur is at your door before dawn. Delayed arrival? We adjust at no charge.",
       "Beyond the airport, we handle corporate travel, weddings, proms, wine tours, and hourly charters throughout the area — including the historic Main Street and Westown. One number, one trusted chauffeur partner, for every trip on your calendar.",
-      "Pricing is simple: a flat, all-inclusive quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call (877) 609-1919 or book online in minutes."
+      "Pricing is simple: a flat, transparent quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call (877) 609-1919 or book online in minutes."
     ],
     "highlights": [
       {
@@ -3123,8 +3166,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Door-to-terminal in about 65 minutes via US-301, with flight tracking on every ride."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -3147,7 +3190,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does a limo service in Middletown cost?",
-        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long is the ride from Middletown to the airport?",
@@ -3159,7 +3202,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -3167,7 +3210,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Middletown Chauffeur",
-    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Middletown, DE — reserve in minutes."
+    "ctaSubtitle": "Flat-rate luxury transportation anywhere in Middletown, DE — reserve in minutes.",
+    "category": "city"
   },
 
   "limo-service-glen-burnie-md": {
@@ -3180,7 +3224,7 @@ export const GENERATED_LANDING_PAGES = {
     "alt": "Chauffeured luxury vehicle serving Glen Burnie, MD — 92 Limo Service",
     "highlightsHeading": "Why Glen Burnie Books 92 Limo Service",
     "intro": [
-      "Searching for a dependable limo service in Glen Burnie, MD? 92 Limo Service brings chauffeured luxury transportation to Anne Arundel County — covering Ferndale, Marley, Point Pleasant, and Cromwell — with airport transfers, corporate travel, weddings, and nights out all handled by the same professional team. Every trip is confirmed in advance with a flat, all-inclusive quote and driven by a background-checked chauffeur in a late-model luxury vehicle.",
+      "Searching for a dependable limo service in Glen Burnie, MD? 92 Limo Service brings chauffeured luxury transportation to Anne Arundel County — covering Ferndale, Marley, Point Pleasant, and Cromwell — with airport transfers, corporate travel, weddings, and nights out all handled by the same professional team. Every trip is confirmed in advance with a flat, transparent quote and driven by a background-checked chauffeur in a late-model luxury vehicle.",
       "Airport runs are where most Glen Burnie clients meet us. From Glen Burnie, BWI Marshall Airport is roughly 6 miles away — about 10 minutes via I-97 and MD-2. Your chauffeur tracks the flight in real time, adjusts automatically for delays, loads every bag, and includes generous wait time on arrivals — so an early landing or a slow baggage carousel never becomes your problem.",
       "Local knowledge is the difference between on time and almost on time. Our chauffeurs know Marley Station, the B&A Trail, and Sawmill Creek, and they plan around school traffic, event closures, and rush hour on I-97 and MD-2 before you ever feel it. You get one number to call, one trusted team, and the same polished standard on every ride.",
       "Pick the vehicle that fits: a Mercedes E-Class or BMW 7 Series for executive travel, a Cadillac Escalade or Chevrolet Suburban for families and luggage, or a Mercedes Sprinter van that keeps up to 14 people together. Every vehicle arrives detailed and stocked with water — call (877) 609-1919 any hour to reserve.",
@@ -3200,8 +3244,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Service across Ferndale, Marley, Point Pleasant, and Cromwell and every corner of Anne Arundel County."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -3228,7 +3272,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How much does limo service in Glen Burnie cost?",
-        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+        "a": "Every trip is quoted as one flat, transparent rate before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
       },
       {
         "q": "What vehicles can I book in Glen Burnie?",
@@ -3240,7 +3284,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Glen Burnie Limo Today",
-    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Glen Burnie, MD — call (877) 609-1919 or reserve online in minutes."
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Glen Burnie, MD — call (877) 609-1919 or reserve online in minutes.",
+    "category": "city"
   },
 
   "limo-service-pasadena-md": {
@@ -3256,7 +3301,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service is the chauffeured car service Pasadena, MD calls when showing up late is not an option. From Lake Shore, Riviera Beach, Green Haven, and Chelsea Beach, we cover all of Anne Arundel County with luxury sedans, SUVs, and Sprinter vans — 24 hours a day, every day of the year.",
       "The run from Pasadena to BWI Marshall takes about 20 minutes via MD-100 and MD-177, and we also cover Reagan National, Dulles, and Philadelphia when your itinerary calls for it. Every airport transfer includes real-time flight tracking, optional meet-and-greet at baggage claim, and full luggage assistance. Book a 4 AM departure and your chauffeur is outside before your coffee finishes brewing; land two hours late and your pickup has already adjusted at no charge.",
       "Beyond the airport we handle corporate accounts, weddings, proms, date nights, wine tours, and hourly as-directed charters around Downs Park, Compass Pointe, and the Magothy waterfront. Tell us the plan — multiple stops, tight timing, a surprise pickup — and we build the schedule around it.",
-      "Pricing stays simple: one flat, all-inclusive quote approved before you book, covering tolls, taxes, and standard gratuity. No meters, no surge, no fine print. Call (877) 609-1919 or book online in minutes.",
+      "Pricing stays simple: one flat, transparent quote approved before you book, covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no fine print. Call (877) 609-1919 or book online in minutes.",
       "Pasadena's peninsulas between the Magothy and Bodkin Creek are full of long driveways and waterfront lanes that rideshare drivers routinely miss. Our chauffeurs navigate Lake Shore and Riviera Beach daily, and summer weekends bring steady bookings for weddings on the water and group nights out across the bridge."
     ],
     "highlights": [
@@ -3273,8 +3318,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Service across Lake Shore, Riviera Beach, Green Haven, and Chelsea Beach and every corner of Anne Arundel County."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -3301,7 +3346,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How much does limo service in Pasadena cost?",
-        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+        "a": "Every trip is quoted as one flat, transparent rate before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
       },
       {
         "q": "What vehicles can I book in Pasadena?",
@@ -3313,7 +3358,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Pasadena Limo Today",
-    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Pasadena, MD — call (877) 609-1919 or reserve online in minutes."
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Pasadena, MD — call (877) 609-1919 or reserve online in minutes.",
+    "category": "city"
   },
 
   "limo-service-severn-md": {
@@ -3346,8 +3392,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Service across Telegraph Road, Severn Crossroads, Provinces, and the Fort Meade corridor and every corner of Anne Arundel County."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -3374,7 +3420,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How much does limo service in Severn cost?",
-        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+        "a": "Every trip is quoted as one flat, transparent rate before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
       },
       {
         "q": "What vehicles can I book in Severn?",
@@ -3386,7 +3432,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Severn Limo Today",
-    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Severn, MD — call (877) 609-1919 or reserve online in minutes."
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Severn, MD — call (877) 609-1919 or reserve online in minutes.",
+    "category": "city"
   },
 
   "limo-service-odenton-md": {
@@ -3399,10 +3446,10 @@ export const GENERATED_LANDING_PAGES = {
     "alt": "Chauffeured luxury vehicle serving Odenton, MD — 92 Limo Service",
     "highlightsHeading": "Why Odenton Books 92 Limo Service",
     "intro": [
-      "When Odenton, MD needs a car service that actually shows up early, it calls 92 Limo Service. We provide chauffeured luxury transportation across Anne Arundel County — Piney Orchard, Seven Oaks, and Odenton Town Center included — with flat all-inclusive pricing and a fleet of late-model Mercedes, BMW, Cadillac, and Sprinter vehicles.",
-      "From Odenton, BWI Marshall Airport is roughly 11 miles away — about 18 minutes via MD-32 and MD-175. We watch the flight so you do not have to: delays shift your pickup automatically, arrivals include generous free wait time, and meet-and-greet service inside the terminal is available on request.",
+      "When Odenton, MD needs a car service that actually shows up early, it calls 92 Limo Service. We provide chauffeured luxury transportation across Anne Arundel County — Piney Orchard, Seven Oaks, and Odenton Town Center included — with flat transparent pricing and a fleet of late-model Mercedes, BMW, Cadillac, and Sprinter vehicles.",
+      "From Odenton, BWI Marshall Airport is roughly 11 miles away — about 18 minutes via MD-32 and MD-175. We watch the flight so you do not have to: delays shift your pickup automatically, arrivals include generous free wait time, and meet-and-greet service inside the terminal is available on request for an additional charge for an additional charge.",
       "Around town, our chauffeurs know the Odenton MARC station, Fort Meade's gates, and Piney Orchard and the alternates around MD-32 and MD-175 when traffic stacks up. That local fluency is why Odenton families book us for weddings and proms, and why area businesses keep corporate accounts with consolidated billing and priority scheduling.",
-      "Every reservation is confirmed with one flat quote — tolls, taxes, and gratuity included, nothing metered, nothing surged. Call (877) 609-1919 or request a quote online, any hour of the day.",
+      "Every reservation is confirmed with one flat quote — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, nothing metered, nothing surged. Call (877) 609-1919 or request a quote online, any hour of the day.",
       "Odenton has grown fast around Town Center and Piney Orchard, and our service has grown with it. We handle daily BWI runs for MARC-corridor professionals, group Sprinters for Fort Meade functions, and evening rides into Annapolis and Washington without surge pricing."
     ],
     "highlights": [
@@ -3419,8 +3466,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Service across Piney Orchard, Seven Oaks, and Odenton Town Center and every corner of Anne Arundel County."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -3447,7 +3494,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How much does limo service in Odenton cost?",
-        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+        "a": "Every trip is quoted as one flat, transparent rate before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
       },
       {
         "q": "What vehicles can I book in Odenton?",
@@ -3459,7 +3506,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Odenton Limo Today",
-    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Odenton, MD — call (877) 609-1919 or reserve online in minutes."
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Odenton, MD — call (877) 609-1919 or reserve online in minutes.",
+    "category": "city"
   },
 
   "limo-service-crofton-md": {
@@ -3472,7 +3520,7 @@ export const GENERATED_LANDING_PAGES = {
     "alt": "Chauffeured luxury vehicle serving Crofton, MD — 92 Limo Service",
     "highlightsHeading": "Why Crofton Books 92 Limo Service",
     "intro": [
-      "Searching for a dependable limo service in Crofton, MD? 92 Limo Service brings chauffeured luxury transportation to Anne Arundel County — covering the Crofton Parkway loop, Crofton Meadows, and Walden — with airport transfers, corporate travel, weddings, and nights out all handled by the same professional team. Every trip is confirmed in advance with a flat, all-inclusive quote and driven by a background-checked chauffeur in a late-model luxury vehicle.",
+      "Searching for a dependable limo service in Crofton, MD? 92 Limo Service brings chauffeured luxury transportation to Anne Arundel County — covering the Crofton Parkway loop, Crofton Meadows, and Walden — with airport transfers, corporate travel, weddings, and nights out all handled by the same professional team. Every trip is confirmed in advance with a flat, transparent quote and driven by a background-checked chauffeur in a late-model luxury vehicle.",
       "Airport runs are where most Crofton clients meet us. From Crofton, BWI Marshall Airport is roughly 15 miles away — about 22 minutes via MD-3 and I-97. Your chauffeur tracks the flight in real time, adjusts automatically for delays, loads every bag, and includes generous wait time on arrivals — so an early landing or a slow baggage carousel never becomes your problem.",
       "Local knowledge is the difference between on time and almost on time. Our chauffeurs know Crofton Country Club, Waugh Chapel Towne Centre, and the Route 3 corridor, and they plan around school traffic, event closures, and rush hour on MD-3 and I-97 before you ever feel it. You get one number to call, one trusted team, and the same polished standard on every ride.",
       "Pick the vehicle that fits: a Mercedes E-Class or BMW 7 Series for executive travel, a Cadillac Escalade or Chevrolet Suburban for families and luggage, or a Mercedes Sprinter van that keeps up to 14 people together. Every vehicle arrives detailed and stocked with water — call (877) 609-1919 any hour to reserve.",
@@ -3492,8 +3540,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Service across the Crofton Parkway loop, Crofton Meadows, and Walden and every corner of Anne Arundel County."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -3520,7 +3568,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How much does limo service in Crofton cost?",
-        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+        "a": "Every trip is quoted as one flat, transparent rate before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
       },
       {
         "q": "What vehicles can I book in Crofton?",
@@ -3532,7 +3580,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Crofton Limo Today",
-    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Crofton, MD — call (877) 609-1919 or reserve online in minutes."
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Crofton, MD — call (877) 609-1919 or reserve online in minutes.",
+    "category": "city"
   },
 
   "limo-service-millersville-md": {
@@ -3548,7 +3597,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service is the chauffeured car service Millersville, MD calls when showing up late is not an option. From Old Mill, Shipley's Choice, and the Benfield corridor, we cover all of Anne Arundel County with luxury sedans, SUVs, and Sprinter vans — 24 hours a day, every day of the year.",
       "The run from Millersville to BWI Marshall takes about 15 minutes via I-97 and Veterans Highway, and we also cover Reagan National, Dulles, and Philadelphia when your itinerary calls for it. Every airport transfer includes real-time flight tracking, optional meet-and-greet at baggage claim, and full luggage assistance. Book a 4 AM departure and your chauffeur is outside before your coffee finishes brewing; land two hours late and your pickup has already adjusted at no charge.",
       "Beyond the airport we handle corporate accounts, weddings, proms, date nights, wine tours, and hourly as-directed charters around Kinder Farm Park, Benfield Boulevard, and the Veterans Highway corridor. Tell us the plan — multiple stops, tight timing, a surprise pickup — and we build the schedule around it.",
-      "Pricing stays simple: one flat, all-inclusive quote approved before you book, covering tolls, taxes, and standard gratuity. No meters, no surge, no fine print. Call (877) 609-1919 or book online in minutes.",
+      "Pricing stays simple: one flat, transparent quote approved before you book, covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no fine print. Call (877) 609-1919 or book online in minutes.",
       "Millersville sits at the county's crossroads, minutes from I-97 in every direction, which makes it one of the easiest places we serve for quick airport departures. Families here book us for Kinder Farm Park events, school formals, and cruise transfers to the Port of Baltimore."
     ],
     "highlights": [
@@ -3565,8 +3614,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Service across Old Mill, Shipley's Choice, and the Benfield corridor and every corner of Anne Arundel County."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -3593,7 +3642,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How much does limo service in Millersville cost?",
-        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+        "a": "Every trip is quoted as one flat, transparent rate before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
       },
       {
         "q": "What vehicles can I book in Millersville?",
@@ -3605,7 +3654,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Millersville Limo Today",
-    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Millersville, MD — call (877) 609-1919 or reserve online in minutes."
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Millersville, MD — call (877) 609-1919 or reserve online in minutes.",
+    "category": "city"
   },
 
   "limo-service-linthicum-md": {
@@ -3638,8 +3688,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Service across Linthicum Heights, the BWI business district, and Andover and every corner of Anne Arundel County."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -3666,7 +3716,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How much does limo service in Linthicum cost?",
-        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+        "a": "Every trip is quoted as one flat, transparent rate before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
       },
       {
         "q": "What vehicles can I book in Linthicum?",
@@ -3678,7 +3728,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Linthicum Limo Today",
-    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Linthicum, MD — call (877) 609-1919 or reserve online in minutes."
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Linthicum, MD — call (877) 609-1919 or reserve online in minutes.",
+    "category": "city"
   },
 
   "limo-service-hanover-md": {
@@ -3691,10 +3742,10 @@ export const GENERATED_LANDING_PAGES = {
     "alt": "Chauffeured luxury vehicle serving Hanover, MD — 92 Limo Service",
     "highlightsHeading": "Why Hanover Books 92 Limo Service",
     "intro": [
-      "When Hanover, MD needs a car service that actually shows up early, it calls 92 Limo Service. We provide chauffeured luxury transportation across Anne Arundel County — Oxford Square, Parkside, and the Arundel Mills district included — with flat all-inclusive pricing and a fleet of late-model Mercedes, BMW, Cadillac, and Sprinter vehicles.",
-      "From Hanover, BWI Marshall Airport is roughly 5 miles away — about 10 minutes via MD-100 and the BW Parkway. We watch the flight so you do not have to: delays shift your pickup automatically, arrivals include generous free wait time, and meet-and-greet service inside the terminal is available on request.",
+      "When Hanover, MD needs a car service that actually shows up early, it calls 92 Limo Service. We provide chauffeured luxury transportation across Anne Arundel County — Oxford Square, Parkside, and the Arundel Mills district included — with flat transparent pricing and a fleet of late-model Mercedes, BMW, Cadillac, and Sprinter vehicles.",
+      "From Hanover, BWI Marshall Airport is roughly 5 miles away — about 10 minutes via MD-100 and the BW Parkway. We watch the flight so you do not have to: delays shift your pickup automatically, arrivals include generous free wait time, and meet-and-greet service inside the terminal is available on request for an additional charge for an additional charge.",
       "Around town, our chauffeurs know Arundel Mills, Live! Casino & Hotel, and Oxford Square and the alternates around MD-100 and the BW Parkway when traffic stacks up. That local fluency is why Hanover families book us for weddings and proms, and why area businesses keep corporate accounts with consolidated billing and priority scheduling.",
-      "Every reservation is confirmed with one flat quote — tolls, taxes, and gratuity included, nothing metered, nothing surged. Call (877) 609-1919 or request a quote online, any hour of the day.",
+      "Every reservation is confirmed with one flat quote — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, nothing metered, nothing surged. Call (877) 609-1919 or request a quote online, any hour of the day.",
       "Between Arundel Mills, Live! Casino & Hotel, and the new communities at Oxford Square, Hanover generates rides at every hour — show nights, casino evenings, conference blocks, and dawn flights. Our chauffeurs know every hotel entrance and garage in the district."
     ],
     "highlights": [
@@ -3711,8 +3762,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Service across Oxford Square, Parkside, and the Arundel Mills district and every corner of Anne Arundel County."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -3739,7 +3790,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How much does limo service in Hanover cost?",
-        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+        "a": "Every trip is quoted as one flat, transparent rate before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
       },
       {
         "q": "What vehicles can I book in Hanover?",
@@ -3751,7 +3802,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Hanover Limo Today",
-    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Hanover, MD — call (877) 609-1919 or reserve online in minutes."
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Hanover, MD — call (877) 609-1919 or reserve online in minutes.",
+    "category": "city"
   },
 
   "limo-service-gambrills-md": {
@@ -3764,7 +3816,7 @@ export const GENERATED_LANDING_PAGES = {
     "alt": "Chauffeured luxury vehicle serving Gambrills, MD — 92 Limo Service",
     "highlightsHeading": "Why Gambrills Books 92 Limo Service",
     "intro": [
-      "Searching for a dependable limo service in Gambrills, MD? 92 Limo Service brings chauffeured luxury transportation to Anne Arundel County — covering Waugh Chapel, Maple Ridge, and the Route 3 corridor — with airport transfers, corporate travel, weddings, and nights out all handled by the same professional team. Every trip is confirmed in advance with a flat, all-inclusive quote and driven by a background-checked chauffeur in a late-model luxury vehicle.",
+      "Searching for a dependable limo service in Gambrills, MD? 92 Limo Service brings chauffeured luxury transportation to Anne Arundel County — covering Waugh Chapel, Maple Ridge, and the Route 3 corridor — with airport transfers, corporate travel, weddings, and nights out all handled by the same professional team. Every trip is confirmed in advance with a flat, transparent quote and driven by a background-checked chauffeur in a late-model luxury vehicle.",
       "Airport runs are where most Gambrills clients meet us. From Gambrills, BWI Marshall Airport is roughly 13 miles away — about 20 minutes via MD-3 and MD-424. Your chauffeur tracks the flight in real time, adjusts automatically for delays, loads every bag, and includes generous wait time on arrivals — so an early landing or a slow baggage carousel never becomes your problem.",
       "Local knowledge is the difference between on time and almost on time. Our chauffeurs know Waugh Chapel Towne Centre, Bacon Ridge, and the Crofton line, and they plan around school traffic, event closures, and rush hour on MD-3 and MD-424 before you ever feel it. You get one number to call, one trusted team, and the same polished standard on every ride.",
       "Pick the vehicle that fits: a Mercedes E-Class or BMW 7 Series for executive travel, a Cadillac Escalade or Chevrolet Suburban for families and luggage, or a Mercedes Sprinter van that keeps up to 14 people together. Every vehicle arrives detailed and stocked with water — call (877) 609-1919 any hour to reserve.",
@@ -3784,8 +3836,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Service across Waugh Chapel, Maple Ridge, and the Route 3 corridor and every corner of Anne Arundel County."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -3812,7 +3864,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How much does limo service in Gambrills cost?",
-        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+        "a": "Every trip is quoted as one flat, transparent rate before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
       },
       {
         "q": "What vehicles can I book in Gambrills?",
@@ -3824,7 +3876,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Gambrills Limo Today",
-    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Gambrills, MD — call (877) 609-1919 or reserve online in minutes."
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Gambrills, MD — call (877) 609-1919 or reserve online in minutes.",
+    "category": "city"
   },
 
   "limo-service-gibson-island-md": {
@@ -3840,7 +3893,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service is the chauffeured car service Gibson Island, MD calls when showing up late is not an option. From the island's private residences and the Mountain Road corridor, we cover all of Anne Arundel County with luxury sedans, SUVs, and Sprinter vans — 24 hours a day, every day of the year.",
       "The run from Gibson Island to BWI Marshall takes about 25 minutes via MD-100 and Mountain Road, and we also cover Reagan National, Dulles, and Philadelphia when your itinerary calls for it. Every airport transfer includes real-time flight tracking, optional meet-and-greet at baggage claim, and full luggage assistance. Book a 4 AM departure and your chauffeur is outside before your coffee finishes brewing; land two hours late and your pickup has already adjusted at no charge.",
       "Beyond the airport we handle corporate accounts, weddings, proms, date nights, wine tours, and hourly as-directed charters around the causeway gatehouse, the yacht squadron, and the Otter Pond community. Tell us the plan — multiple stops, tight timing, a surprise pickup — and we build the schedule around it.",
-      "Pricing stays simple: one flat, all-inclusive quote approved before you book, covering tolls, taxes, and standard gratuity. No meters, no surge, no fine print. Call (877) 609-1919 or book online in minutes.",
+      "Pricing stays simple: one flat, transparent quote approved before you book, covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no fine print. Call (877) 609-1919 or book online in minutes.",
       "Service to Gibson Island is handled with the discretion the community expects: gatehouse coordination arranged in advance, punctual causeway pickups, and chauffeurs familiar with the island's protocols. Residents rely on us for BWI and private-aviation transfers, city dinners, and guest transportation for events."
     ],
     "highlights": [
@@ -3857,8 +3910,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Service across the island's private residences and the Mountain Road corridor and every corner of Anne Arundel County."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -3885,7 +3938,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How much does limo service in Gibson Island cost?",
-        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+        "a": "Every trip is quoted as one flat, transparent rate before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
       },
       {
         "q": "What vehicles can I book in Gibson Island?",
@@ -3897,7 +3950,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Gibson Island Limo Today",
-    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Gibson Island, MD — call (877) 609-1919 or reserve online in minutes."
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Gibson Island, MD — call (877) 609-1919 or reserve online in minutes.",
+    "category": "city"
   },
 
   "limo-service-waldorf-md": {
@@ -3930,8 +3984,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Service across St. Charles, Westlake, and the Route 301 corridor and every corner of Charles County."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -3958,7 +4012,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How much does limo service in Waldorf cost?",
-        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+        "a": "Every trip is quoted as one flat, transparent rate before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
       },
       {
         "q": "What vehicles can I book in Waldorf?",
@@ -3970,7 +4024,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Waldorf Limo Today",
-    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Waldorf, MD — call (877) 609-1919 or reserve online in minutes."
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Waldorf, MD — call (877) 609-1919 or reserve online in minutes.",
+    "category": "city"
   },
 
   "limo-service-la-plata-md": {
@@ -3983,10 +4038,10 @@ export const GENERATED_LANDING_PAGES = {
     "alt": "Chauffeured luxury vehicle serving La Plata, MD — 92 Limo Service",
     "highlightsHeading": "Why La Plata Books 92 Limo Service",
     "intro": [
-      "When La Plata, MD needs a car service that actually shows up early, it calls 92 Limo Service. We provide chauffeured luxury transportation across Charles County — downtown La Plata, Agricopia, and Port Tobacco included — with flat all-inclusive pricing and a fleet of late-model Mercedes, BMW, Cadillac, and Sprinter vehicles.",
-      "From La Plata, Reagan National (DCA) is the closest major airport — about 55 minutes via US-301 and MD-6 — and we serve BWI Marshall and Dulles just as often. We watch the flight so you do not have to: delays shift your pickup automatically, arrivals include generous free wait time, and meet-and-greet service inside the terminal is available on request.",
+      "When La Plata, MD needs a car service that actually shows up early, it calls 92 Limo Service. We provide chauffeured luxury transportation across Charles County — downtown La Plata, Agricopia, and Port Tobacco included — with flat transparent pricing and a fleet of late-model Mercedes, BMW, Cadillac, and Sprinter vehicles.",
+      "From La Plata, Reagan National (DCA) is the closest major airport — about 55 minutes via US-301 and MD-6 — and we serve BWI Marshall and Dulles just as often. We watch the flight so you do not have to: delays shift your pickup automatically, arrivals include generous free wait time, and meet-and-greet service inside the terminal is available on request for an additional charge for an additional charge.",
       "Around town, our chauffeurs know the Charles County courthouse, the College of Southern Maryland, and historic Port Tobacco and the alternates around US-301 and MD-6 when traffic stacks up. That local fluency is why La Plata families book us for weddings and proms, and why area businesses keep corporate accounts with consolidated billing and priority scheduling.",
-      "Every reservation is confirmed with one flat quote — tolls, taxes, and gratuity included, nothing metered, nothing surged. Call (877) 609-1919 or request a quote online, any hour of the day.",
+      "Every reservation is confirmed with one flat quote — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, nothing metered, nothing surged. Call (877) 609-1919 or request a quote online, any hour of the day.",
       "As the Charles County seat, La Plata sends us a steady mix of courthouse professionals, College of Southern Maryland events, and families flying out of DCA and BWI. We also cover the region's wedding venues, from Port Tobacco's historic sites to waterfront settings on the Potomac."
     ],
     "highlights": [
@@ -4003,8 +4058,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Service across downtown La Plata, Agricopia, and Port Tobacco and every corner of Charles County."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -4031,7 +4086,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How much does limo service in La Plata cost?",
-        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+        "a": "Every trip is quoted as one flat, transparent rate before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
       },
       {
         "q": "What vehicles can I book in La Plata?",
@@ -4043,7 +4098,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your La Plata Limo Today",
-    "ctaSubtitle": "Flat-rate chauffeured service anywhere in La Plata, MD — call (877) 609-1919 or reserve online in minutes."
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in La Plata, MD — call (877) 609-1919 or reserve online in minutes.",
+    "category": "city"
   },
 
   "limo-service-white-plains-md": {
@@ -4056,7 +4112,7 @@ export const GENERATED_LANDING_PAGES = {
     "alt": "Chauffeured luxury vehicle serving White Plains, MD — 92 Limo Service",
     "highlightsHeading": "Why White Plains Books 92 Limo Service",
     "intro": [
-      "Searching for a dependable limo service in White Plains, MD? 92 Limo Service brings chauffeured luxury transportation to Charles County — covering the St. Charles southern edge, Billingsley, and the US-301 corridor — with airport transfers, corporate travel, weddings, and nights out all handled by the same professional team. Every trip is confirmed in advance with a flat, all-inclusive quote and driven by a background-checked chauffeur in a late-model luxury vehicle.",
+      "Searching for a dependable limo service in White Plains, MD? 92 Limo Service brings chauffeured luxury transportation to Charles County — covering the St. Charles southern edge, Billingsley, and the US-301 corridor — with airport transfers, corporate travel, weddings, and nights out all handled by the same professional team. Every trip is confirmed in advance with a flat, transparent quote and driven by a background-checked chauffeur in a late-model luxury vehicle.",
       "Airport runs are where most White Plains clients meet us. From White Plains, Reagan National (DCA) is the closest major airport — about 50 minutes via US-301 and MD-227 — and we serve BWI Marshall and Dulles just as often. Your chauffeur tracks the flight in real time, adjusts automatically for delays, loads every bag, and includes generous wait time on arrivals — so an early landing or a slow baggage carousel never becomes your problem.",
       "Local knowledge is the difference between on time and almost on time. Our chauffeurs know White Plains Regional Park, the golf course, and the Waldorf line, and they plan around school traffic, event closures, and rush hour on US-301 and MD-227 before you ever feel it. You get one number to call, one trusted team, and the same polished standard on every ride.",
       "Pick the vehicle that fits: a Mercedes E-Class or BMW 7 Series for executive travel, a Cadillac Escalade or Chevrolet Suburban for families and luggage, or a Mercedes Sprinter van that keeps up to 14 people together. Every vehicle arrives detailed and stocked with water — call (877) 609-1919 any hour to reserve.",
@@ -4076,8 +4132,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Service across the St. Charles southern edge, Billingsley, and the US-301 corridor and every corner of Charles County."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -4104,7 +4160,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How much does limo service in White Plains cost?",
-        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+        "a": "Every trip is quoted as one flat, transparent rate before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
       },
       {
         "q": "What vehicles can I book in White Plains?",
@@ -4116,7 +4172,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your White Plains Limo Today",
-    "ctaSubtitle": "Flat-rate chauffeured service anywhere in White Plains, MD — call (877) 609-1919 or reserve online in minutes."
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in White Plains, MD — call (877) 609-1919 or reserve online in minutes.",
+    "category": "city"
   },
 
   "limo-service-hagerstown-md": {
@@ -4132,7 +4189,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service is the chauffeured car service Hagerstown, MD calls when showing up late is not an option. From the City Center, Fountainhead, and Robinwood, we cover all of Washington County with luxury sedans, SUVs, and Sprinter vans — 24 hours a day, every day of the year.",
       "The run from Hagerstown to BWI Marshall takes about 80 minutes via I-70 and I-81, and we also cover Reagan National, Dulles, and Philadelphia when your itinerary calls for it. Every airport transfer includes real-time flight tracking, optional meet-and-greet at baggage claim, and full luggage assistance. Book a 4 AM departure and your chauffeur is outside before your coffee finishes brewing; land two hours late and your pickup has already adjusted at no charge.",
       "Beyond the airport we handle corporate accounts, weddings, proms, date nights, wine tours, and hourly as-directed charters around Meritus Park, the Valley Mall, and the Arts & Entertainment District. Tell us the plan — multiple stops, tight timing, a surprise pickup — and we build the schedule around it.",
-      "Pricing stays simple: one flat, all-inclusive quote approved before you book, covering tolls, taxes, and standard gratuity. No meters, no surge, no fine print. Call (877) 609-1919 or book online in minutes.",
+      "Pricing stays simple: one flat, transparent quote approved before you book, covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no fine print. Call (877) 609-1919 or book online in minutes.",
       "From the I-70/I-81 crossroads, Hagerstown travelers face a real drive to any major airport — which is exactly when a chauffeur earns his keep. We run flat-rate transfers to BWI, Dulles, and Reagan National, plus event rides to Meritus Park and long-distance trips across the Mid-Atlantic."
     ],
     "highlights": [
@@ -4149,8 +4206,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Service across the City Center, Fountainhead, and Robinwood and every corner of Washington County."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -4177,7 +4234,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How much does limo service in Hagerstown cost?",
-        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+        "a": "Every trip is quoted as one flat, transparent rate before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
       },
       {
         "q": "What vehicles can I book in Hagerstown?",
@@ -4189,7 +4246,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Hagerstown Limo Today",
-    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Hagerstown, MD — call (877) 609-1919 or reserve online in minutes."
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Hagerstown, MD — call (877) 609-1919 or reserve online in minutes.",
+    "category": "city"
   },
 
   "limo-service-frederick-md": {
@@ -4222,8 +4280,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Service across downtown Frederick, Urbana, Ballenger Creek, and Spring Ridge and every corner of Frederick County."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -4250,7 +4308,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How much does limo service in Frederick cost?",
-        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+        "a": "Every trip is quoted as one flat, transparent rate before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
       },
       {
         "q": "What vehicles can I book in Frederick?",
@@ -4262,7 +4320,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Frederick Limo Today",
-    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Frederick, MD — call (877) 609-1919 or reserve online in minutes."
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Frederick, MD — call (877) 609-1919 or reserve online in minutes.",
+    "category": "city"
   },
 
   "limo-service-salisbury-md": {
@@ -4275,10 +4334,10 @@ export const GENERATED_LANDING_PAGES = {
     "alt": "Chauffeured luxury vehicle serving Salisbury, MD — 92 Limo Service",
     "highlightsHeading": "Why Salisbury Books 92 Limo Service",
     "intro": [
-      "When Salisbury, MD needs a car service that actually shows up early, it calls 92 Limo Service. We provide chauffeured luxury transportation across Wicomico County — downtown Salisbury, the University area, and Fruitland included — with flat all-inclusive pricing and a fleet of late-model Mercedes, BMW, Cadillac, and Sprinter vehicles.",
-      "From Salisbury, BWI Marshall Airport is roughly 105 miles away — about 110 minutes via US-50 and US-13. We watch the flight so you do not have to: delays shift your pickup automatically, arrivals include generous free wait time, and meet-and-greet service inside the terminal is available on request.",
+      "When Salisbury, MD needs a car service that actually shows up early, it calls 92 Limo Service. We provide chauffeured luxury transportation across Wicomico County — downtown Salisbury, the University area, and Fruitland included — with flat transparent pricing and a fleet of late-model Mercedes, BMW, Cadillac, and Sprinter vehicles.",
+      "From Salisbury, BWI Marshall Airport is roughly 105 miles away — about 110 minutes via US-50 and US-13. We watch the flight so you do not have to: delays shift your pickup automatically, arrivals include generous free wait time, and meet-and-greet service inside the terminal is available on request for an additional charge for an additional charge.",
       "Around town, our chauffeurs know Salisbury University, TidalHealth, and the downtown riverwalk and the alternates around US-50 and US-13 when traffic stacks up. That local fluency is why Salisbury families book us for weddings and proms, and why area businesses keep corporate accounts with consolidated billing and priority scheduling.",
-      "Every reservation is confirmed with one flat quote — tolls, taxes, and gratuity included, nothing metered, nothing surged. Call (877) 609-1919 or request a quote online, any hour of the day.",
+      "Every reservation is confirmed with one flat quote — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, nothing metered, nothing surged. Call (877) 609-1919 or request a quote online, any hour of the day.",
       "As the hub of the Lower Eastern Shore, Salisbury is a long haul from the major airports — 92 Limo turns that drive into productive, comfortable time with flat-rate transfers to BWI and Philadelphia. We also serve Salisbury University move-ins and graduations, TidalHealth visits, and beach-season group trips."
     ],
     "highlights": [
@@ -4295,8 +4354,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Service across downtown Salisbury, the University area, and Fruitland and every corner of Wicomico County."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -4323,7 +4382,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How much does limo service in Salisbury cost?",
-        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+        "a": "Every trip is quoted as one flat, transparent rate before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
       },
       {
         "q": "What vehicles can I book in Salisbury?",
@@ -4335,7 +4394,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Salisbury Limo Today",
-    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Salisbury, MD — call (877) 609-1919 or reserve online in minutes."
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Salisbury, MD — call (877) 609-1919 or reserve online in minutes.",
+    "category": "city"
   },
 
   "limo-service-easton-md": {
@@ -4348,7 +4408,7 @@ export const GENERATED_LANDING_PAGES = {
     "alt": "Chauffeured luxury vehicle serving Easton, MD — 92 Limo Service",
     "highlightsHeading": "Why Easton Books 92 Limo Service",
     "intro": [
-      "Searching for a dependable limo service in Easton, MD? 92 Limo Service brings chauffeured luxury transportation to Talbot County — covering downtown Easton, Easton Club, and the Oxford Road corridor — with airport transfers, corporate travel, weddings, and nights out all handled by the same professional team. Every trip is confirmed in advance with a flat, all-inclusive quote and driven by a background-checked chauffeur in a late-model luxury vehicle.",
+      "Searching for a dependable limo service in Easton, MD? 92 Limo Service brings chauffeured luxury transportation to Talbot County — covering downtown Easton, Easton Club, and the Oxford Road corridor — with airport transfers, corporate travel, weddings, and nights out all handled by the same professional team. Every trip is confirmed in advance with a flat, transparent quote and driven by a background-checked chauffeur in a late-model luxury vehicle.",
       "Airport runs are where most Easton clients meet us. From Easton, BWI Marshall Airport is roughly 60 miles away — about 70 minutes via US-50 and the Bay Bridge. Your chauffeur tracks the flight in real time, adjusts automatically for delays, loads every bag, and includes generous wait time on arrivals — so an early landing or a slow baggage carousel never becomes your problem.",
       "Local knowledge is the difference between on time and almost on time. Our chauffeurs know the Avalon Theatre, Easton Airport, and the Talbot County courthouse, and they plan around school traffic, event closures, and rush hour on US-50 and the Bay Bridge before you ever feel it. You get one number to call, one trusted team, and the same polished standard on every ride.",
       "Pick the vehicle that fits: a Mercedes E-Class or BMW 7 Series for executive travel, a Cadillac Escalade or Chevrolet Suburban for families and luggage, or a Mercedes Sprinter van that keeps up to 14 people together. Every vehicle arrives detailed and stocked with water — call (877) 609-1919 any hour to reserve.",
@@ -4368,8 +4428,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Service across downtown Easton, Easton Club, and the Oxford Road corridor and every corner of Talbot County."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -4396,7 +4456,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How much does limo service in Easton cost?",
-        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+        "a": "Every trip is quoted as one flat, transparent rate before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
       },
       {
         "q": "What vehicles can I book in Easton?",
@@ -4408,7 +4468,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Easton Limo Today",
-    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Easton, MD — call (877) 609-1919 or reserve online in minutes."
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Easton, MD — call (877) 609-1919 or reserve online in minutes.",
+    "category": "city"
   },
 
   "limo-service-cambridge-md": {
@@ -4424,7 +4485,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service is the chauffeured car service Cambridge, MD calls when showing up late is not an option. From the historic West End, Long Boat Estates, and the Hyatt resort corridor, we cover all of Dorchester County with luxury sedans, SUVs, and Sprinter vans — 24 hours a day, every day of the year.",
       "The run from Cambridge to BWI Marshall takes about 85 minutes via US-50 and the Choptank River bridge, and we also cover Reagan National, Dulles, and Philadelphia when your itinerary calls for it. Every airport transfer includes real-time flight tracking, optional meet-and-greet at baggage claim, and full luggage assistance. Book a 4 AM departure and your chauffeur is outside before your coffee finishes brewing; land two hours late and your pickup has already adjusted at no charge.",
       "Beyond the airport we handle corporate accounts, weddings, proms, date nights, wine tours, and hourly as-directed charters around the Hyatt Regency Chesapeake Bay, Sailwinds Park, and the historic downtown. Tell us the plan — multiple stops, tight timing, a surprise pickup — and we build the schedule around it.",
-      "Pricing stays simple: one flat, all-inclusive quote approved before you book, covering tolls, taxes, and standard gratuity. No meters, no surge, no fine print. Call (877) 609-1919 or book online in minutes.",
+      "Pricing stays simple: one flat, transparent quote approved before you book, covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no fine print. Call (877) 609-1919 or book online in minutes.",
       "Cambridge bookings revolve around the Hyatt Regency Chesapeake Bay — airport transfers for resort guests, wedding shuttles, and golf outings — plus Harriet Tubman Byway tours and rides across the Choptank. The Bay Bridge run to BWI is one we drive every week."
     ],
     "highlights": [
@@ -4441,8 +4502,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Service across the historic West End, Long Boat Estates, and the Hyatt resort corridor and every corner of Dorchester County."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -4469,7 +4530,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How much does limo service in Cambridge cost?",
-        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+        "a": "Every trip is quoted as one flat, transparent rate before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
       },
       {
         "q": "What vehicles can I book in Cambridge?",
@@ -4481,7 +4542,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Cambridge Limo Today",
-    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Cambridge, MD — call (877) 609-1919 or reserve online in minutes."
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Cambridge, MD — call (877) 609-1919 or reserve online in minutes.",
+    "category": "city"
   },
 
   "limo-service-dover-de": {
@@ -4514,8 +4576,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Service across downtown Dover, the Capitol district, and the Route 13 corridor and every corner of Kent County."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -4542,7 +4604,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How much does limo service in Dover cost?",
-        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+        "a": "Every trip is quoted as one flat, transparent rate before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
       },
       {
         "q": "What vehicles can I book in Dover?",
@@ -4554,7 +4616,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Dover Limo Today",
-    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Dover, DE — call (877) 609-1919 or reserve online in minutes."
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Dover, DE — call (877) 609-1919 or reserve online in minutes.",
+    "category": "city"
   },
 
   "limo-service-rehoboth-beach-de": {
@@ -4567,10 +4630,10 @@ export const GENERATED_LANDING_PAGES = {
     "alt": "Chauffeured luxury vehicle serving Rehoboth Beach, DE — 92 Limo Service",
     "highlightsHeading": "Why Rehoboth Beach Books 92 Limo Service",
     "intro": [
-      "When Rehoboth Beach, DE needs a car service that actually shows up early, it calls 92 Limo Service. We provide chauffeured luxury transportation across Sussex County — downtown Rehoboth, North Shores, and Dewey Beach included — with flat all-inclusive pricing and a fleet of late-model Mercedes, BMW, Cadillac, and Sprinter vehicles.",
-      "From Rehoboth Beach, BWI Marshall Airport is roughly 120 miles away — about 135 minutes via US-50 and DE-404. We watch the flight so you do not have to: delays shift your pickup automatically, arrivals include generous free wait time, and meet-and-greet service inside the terminal is available on request.",
+      "When Rehoboth Beach, DE needs a car service that actually shows up early, it calls 92 Limo Service. We provide chauffeured luxury transportation across Sussex County — downtown Rehoboth, North Shores, and Dewey Beach included — with flat transparent pricing and a fleet of late-model Mercedes, BMW, Cadillac, and Sprinter vehicles.",
+      "From Rehoboth Beach, BWI Marshall Airport is roughly 120 miles away — about 135 minutes via US-50 and DE-404. We watch the flight so you do not have to: delays shift your pickup automatically, arrivals include generous free wait time, and meet-and-greet service inside the terminal is available on request for an additional charge for an additional charge.",
       "Around town, our chauffeurs know the boardwalk, Rehoboth Avenue, and the Tanger Outlets and the alternates around US-50 and DE-404 when traffic stacks up. That local fluency is why Rehoboth Beach families book us for weddings and proms, and why area businesses keep corporate accounts with consolidated billing and priority scheduling.",
-      "Every reservation is confirmed with one flat quote — tolls, taxes, and gratuity included, nothing metered, nothing surged. Call (877) 609-1919 or request a quote online, any hour of the day.",
+      "Every reservation is confirmed with one flat quote — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, nothing metered, nothing surged. Call (877) 609-1919 or request a quote online, any hour of the day.",
       "In season, Rehoboth's Saturday turnovers and boardwalk evenings keep our beach fleet moving — airport pickups timed to check-in, group Sprinters for bachelorette weekends, and safe rides between Dewey, Lewes, and downtown. Off season, we are still here for flat-rate BWI and Philadelphia transfers."
     ],
     "highlights": [
@@ -4587,8 +4650,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Service across downtown Rehoboth, North Shores, and Dewey Beach and every corner of Sussex County."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -4615,7 +4678,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How much does limo service in Rehoboth Beach cost?",
-        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+        "a": "Every trip is quoted as one flat, transparent rate before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
       },
       {
         "q": "What vehicles can I book in Rehoboth Beach?",
@@ -4627,7 +4690,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Rehoboth Beach Limo Today",
-    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Rehoboth Beach, DE — call (877) 609-1919 or reserve online in minutes."
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Rehoboth Beach, DE — call (877) 609-1919 or reserve online in minutes.",
+    "category": "city"
   },
 
   "limo-service-york-pa": {
@@ -4640,7 +4704,7 @@ export const GENERATED_LANDING_PAGES = {
     "alt": "Chauffeured luxury vehicle serving York, PA — 92 Limo Service",
     "highlightsHeading": "Why York Books 92 Limo Service",
     "intro": [
-      "Searching for a dependable limo service in York, PA? 92 Limo Service brings chauffeured luxury transportation to York County — covering downtown York, Springettsbury, and East York — with airport transfers, corporate travel, weddings, and nights out all handled by the same professional team. Every trip is confirmed in advance with a flat, all-inclusive quote and driven by a background-checked chauffeur in a late-model luxury vehicle.",
+      "Searching for a dependable limo service in York, PA? 92 Limo Service brings chauffeured luxury transportation to York County — covering downtown York, Springettsbury, and East York — with airport transfers, corporate travel, weddings, and nights out all handled by the same professional team. Every trip is confirmed in advance with a flat, transparent quote and driven by a background-checked chauffeur in a late-model luxury vehicle.",
       "Airport runs are where most York clients meet us. From York, BWI Marshall Airport is roughly 55 miles away — about 60 minutes via I-83. Your chauffeur tracks the flight in real time, adjusts automatically for delays, loads every bag, and includes generous wait time on arrivals — so an early landing or a slow baggage carousel never becomes your problem.",
       "Local knowledge is the difference between on time and almost on time. Our chauffeurs know PeoplesBank Park, Central Market, and the York Fairgrounds, and they plan around school traffic, event closures, and rush hour on I-83 before you ever feel it. You get one number to call, one trusted team, and the same polished standard on every ride.",
       "Pick the vehicle that fits: a Mercedes E-Class or BMW 7 Series for executive travel, a Cadillac Escalade or Chevrolet Suburban for families and luggage, or a Mercedes Sprinter van that keeps up to 14 people together. Every vehicle arrives detailed and stocked with water — call (877) 609-1919 any hour to reserve.",
@@ -4660,8 +4724,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Service across downtown York, Springettsbury, and East York and every corner of York County."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -4688,7 +4752,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How much does limo service in York cost?",
-        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+        "a": "Every trip is quoted as one flat, transparent rate before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
       },
       {
         "q": "What vehicles can I book in York?",
@@ -4700,7 +4764,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your York Limo Today",
-    "ctaSubtitle": "Flat-rate chauffeured service anywhere in York, PA — call (877) 609-1919 or reserve online in minutes."
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in York, PA — call (877) 609-1919 or reserve online in minutes.",
+    "category": "city"
   },
 
   "limo-service-lancaster-pa": {
@@ -4716,7 +4781,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service is the chauffeured car service Lancaster, PA calls when showing up late is not an option. From downtown Lancaster, Manheim Township, and East Hempfield, we cover all of Lancaster County with luxury sedans, SUVs, and Sprinter vans — 24 hours a day, every day of the year.",
       "The run from Lancaster to BWI Marshall takes about 90 minutes via US-30 and PA-283, and we also cover Reagan National, Dulles, and Philadelphia when your itinerary calls for it. Every airport transfer includes real-time flight tracking, optional meet-and-greet at baggage claim, and full luggage assistance. Book a 4 AM departure and your chauffeur is outside before your coffee finishes brewing; land two hours late and your pickup has already adjusted at no charge.",
       "Beyond the airport we handle corporate accounts, weddings, proms, date nights, wine tours, and hourly as-directed charters around Sight & Sound Theatre, Lancaster Central Market, and Rock Lititz. Tell us the plan — multiple stops, tight timing, a surprise pickup — and we build the schedule around it.",
-      "Pricing stays simple: one flat, all-inclusive quote approved before you book, covering tolls, taxes, and standard gratuity. No meters, no surge, no fine print. Call (877) 609-1919 or book online in minutes.",
+      "Pricing stays simple: one flat, transparent quote approved before you book, covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no fine print. Call (877) 609-1919 or book online in minutes.",
       "Lancaster bookings range from Sight & Sound theater groups and Rock Lititz production crews to Amish-country tours and downtown weddings. The BWI and Philadelphia runs are both fixed-rate staples, and hourly charters cover multi-stop days across the county."
     ],
     "highlights": [
@@ -4733,8 +4798,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Service across downtown Lancaster, Manheim Township, and East Hempfield and every corner of Lancaster County."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -4761,7 +4826,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How much does limo service in Lancaster cost?",
-        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+        "a": "Every trip is quoted as one flat, transparent rate before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
       },
       {
         "q": "What vehicles can I book in Lancaster?",
@@ -4773,7 +4838,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Lancaster Limo Today",
-    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Lancaster, PA — call (877) 609-1919 or reserve online in minutes."
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Lancaster, PA — call (877) 609-1919 or reserve online in minutes.",
+    "category": "city"
   },
 
   "limo-service-harrisburg-pa": {
@@ -4806,8 +4872,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Service across downtown Harrisburg, Uptown, and the West Shore and every corner of Dauphin County."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -4834,7 +4900,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How much does limo service in Harrisburg cost?",
-        "a": "Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
+        "a": "Every trip is quoted as one flat, transparent rate before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with no meters and no surge pricing. Call (877) 609-1919 for an exact quote for your date and vehicle."
       },
       {
         "q": "What vehicles can I book in Harrisburg?",
@@ -4846,12 +4912,13 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Harrisburg Limo Today",
-    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Harrisburg, PA — call (877) 609-1919 or reserve online in minutes."
+    "ctaSubtitle": "Flat-rate chauffeured service anywhere in Harrisburg, PA — call (877) 609-1919 or reserve online in minutes.",
+    "category": "city"
   },
 
   "bwi-airport-car-service": {
-    "metaTitle": "BWI Airport Car Service | 92 Limo Service",
-    "metaDescription": "BWI Airport Car Service with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7.",
+    "metaTitle": "BWI Airport Car Service | Private Chauffeur | 92 Limo",
+    "metaDescription": "BWI Airport Car Service with flight tracking, optional meet & greet, and flat transparent rates. Pro chauffeurs and luxury vehicles, 24/7.",
     "eyebrow": "BWI MARSHALL",
     "h1": "BWI Airport Car Service",
     "subtitle": "Reliable, chauffeured airport car service at BWI Marshall Airport — flight-tracked pickups, flat rates, and luxury vehicles around the clock.",
@@ -4860,22 +4927,22 @@ export const GENERATED_LANDING_PAGES = {
     "highlightsHeading": "What Makes Our BWI Service Different",
     "intro": [
       "92 Limo Service provides premium airport car service to and from BWI Marshall Airport — 24 hours a day, 365 days a year. Your chauffeur tracks the flight, meets you at baggage claim or curbside, handles every bag, and drives a spotless luxury vehicle to your door. No shuttles, no shared vans, no surge pricing.",
-      "Arrivals are effortless. We monitor your inbound flight in real time, so an early landing or a two-hour delay changes nothing — your vehicle is staged when you walk out. Choose curbside pickup or an inside meet-and-greet with a name sign, and enjoy generous complimentary wait time while you clear baggage claim.",
+      "Arrivals are effortless. We monitor your inbound flight in real time, so an early landing or a two-hour delay changes nothing — your vehicle is staged when you walk out. Choose curbside pickup or an optional inside meet-and-greet with a name sign (additional charge), and enjoy generous complimentary wait time while you clear baggage claim.",
       "Departures run just as smoothly. We calculate your pickup around traffic and check-in windows, build in buffer time, and get you to BWI Marshall Airport relaxed rather than rushed. We serve every BWI terminal and the nearby hotels, park-and-rides, and Amtrak station.",
-      "Ride your way: Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalades and Suburbans for families with luggage, and Mercedes Sprinter vans that keep groups of up to 14 together. Every trip is quoted as a flat, all-inclusive rate before you book."
+      "Ride your way: Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalades and Suburbans for families with luggage, and Mercedes Sprinter vans that keep groups of up to 14 together. Every trip is quoted as a flat, transparent rate before you book."
     ],
     "highlights": [
       {
-        "title": "Meet & Greet Available",
-        "desc": "Your chauffeur waits inside with a name sign and walks you to the vehicle — ideal for first visits and VIP guests."
+        "title": "Airport Meet & Greet Available",
+        "desc": "Your chauffeur can meet you inside baggage claim with a personalized name sign and assist with luggage. Additional charge applies."
       },
       {
         "title": "Generous Free Wait Time",
         "desc": "Complimentary wait time on every arrival — 60 minutes domestic, 90 international — while you clear baggage claim."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -4898,7 +4965,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "Where does my chauffeur meet me at BWI?",
-        "a": "Your choice: curbside on the arrivals level, or inside at baggage claim with a name sign (meet & greet). Pickup instructions are confirmed with your booking."
+        "a": "Your choice: curbside on the arrivals level, or inside at baggage claim with a name sign (meet & greet — additional charge). Pickup instructions are confirmed with your booking."
       },
       {
         "q": "What happens if my flight is delayed?",
@@ -4910,7 +4977,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -4922,12 +4989,13 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Reserve Your BWI Ride",
-    "ctaSubtitle": "Flight-tracked, flat-rated airport car service — book online in minutes or call (877) 609-1919."
+    "ctaSubtitle": "Flight-tracked, flat-rated airport car service — book online in minutes or call (877) 609-1919.",
+    "category": "airport"
   },
 
   "bwi-airport-transportation": {
     "metaTitle": "BWI Airport Transportation | 92 Limo Service",
-    "metaDescription": "BWI Airport Transportation with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7.",
+    "metaDescription": "BWI Airport Transportation with flight tracking, optional meet & greet, and flat transparent rates. Pro chauffeurs and luxury vehicles, 24/7.",
     "eyebrow": "BWI MARSHALL",
     "h1": "BWI Airport Transportation",
     "subtitle": "Reliable, chauffeured airport transportation at BWI Marshall Airport — flight-tracked pickups, flat rates, and luxury vehicles around the clock.",
@@ -4935,23 +5003,23 @@ export const GENERATED_LANDING_PAGES = {
     "alt": "Chauffeur meeting a traveler — bwi airport transportation by 92 Limo Service",
     "highlightsHeading": "What Makes Our BWI Service Different",
     "intro": [
-      "When the flight matters, the ride to the airport should never be the weak link. 92 Limo Service delivers airport transportation at BWI Marshall Airport with professional chauffeurs, late-model luxury vehicles, and flat all-inclusive rates — trusted by business travelers, families, and frequent flyers across the DMV.",
+      "When the flight matters, the ride to the airport should never be the weak link. 92 Limo Service delivers airport transportation at BWI Marshall Airport with professional chauffeurs, late-model luxury vehicles, and flat transparent rates — trusted by business travelers, families, and frequent flyers across the DMV.",
       "Every airport booking includes real-time flight tracking. Land early and your chauffeur is already there. Get delayed and your pickup adjusts automatically, free of charge. Inside meet-and-greet with a name sign is available on request, and luggage assistance is always included.",
       "We cover all of Maryland, Washington DC, Northern Virginia, southern Pennsylvania, and Delaware — so the same trusted service that picks you up at home can return you there after the trip. Round-trip bookings guarantee your return ride before you even take off.",
       "Corporate accounts get priority scheduling, consolidated billing, and a dedicated contact. Families get car seats on request and vehicles with real luggage room. Everyone gets the same promise: on time, immaculate, and flat-rated. Call (877) 609-1919 anytime."
     ],
     "highlights": [
       {
-        "title": "Meet & Greet Available",
-        "desc": "Your chauffeur waits inside with a name sign and walks you to the vehicle — ideal for first visits and VIP guests."
+        "title": "Airport Meet & Greet Available",
+        "desc": "Your chauffeur can meet you inside baggage claim with a personalized name sign and assist with luggage. Additional charge applies."
       },
       {
         "title": "Generous Free Wait Time",
         "desc": "Complimentary wait time on every arrival — 60 minutes domestic, 90 international — while you clear baggage claim."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -4974,7 +5042,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "Where does my chauffeur meet me at BWI?",
-        "a": "Your choice: curbside on the arrivals level, or inside at baggage claim with a name sign (meet & greet). Pickup instructions are confirmed with your booking."
+        "a": "Your choice: curbside on the arrivals level, or inside at baggage claim with a name sign (meet & greet — additional charge). Pickup instructions are confirmed with your booking."
       },
       {
         "q": "What happens if my flight is delayed?",
@@ -4986,7 +5054,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -4998,12 +5066,13 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Reserve Your BWI Ride",
-    "ctaSubtitle": "Flight-tracked, flat-rated airport transportation — book online in minutes or call (877) 609-1919."
+    "ctaSubtitle": "Flight-tracked, flat-rated airport transportation — book online in minutes or call (877) 609-1919.",
+    "category": "airport"
   },
 
   "bwi-airport-shuttle": {
     "metaTitle": "BWI Airport Shuttle | 92 Limo Service",
-    "metaDescription": "BWI Airport Shuttle with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7.",
+    "metaDescription": "BWI Airport Shuttle with flight tracking, optional meet & greet, and flat transparent rates. Pro chauffeurs and luxury vehicles, 24/7.",
     "eyebrow": "BWI MARSHALL",
     "h1": "BWI Airport Shuttle",
     "subtitle": "Reliable, chauffeured private shuttle service at BWI Marshall Airport — flight-tracked pickups, flat rates, and luxury vehicles around the clock.",
@@ -5012,22 +5081,22 @@ export const GENERATED_LANDING_PAGES = {
     "highlightsHeading": "What Makes Our BWI Service Different",
     "intro": [
       "92 Limo Service provides premium private shuttle service to and from BWI Marshall Airport — 24 hours a day, 365 days a year. Your chauffeur tracks the flight, meets you at baggage claim or curbside, handles every bag, and drives a spotless luxury vehicle to your door. No shuttles, no shared vans, no surge pricing.",
-      "Arrivals are effortless. We monitor your inbound flight in real time, so an early landing or a two-hour delay changes nothing — your vehicle is staged when you walk out. Choose curbside pickup or an inside meet-and-greet with a name sign, and enjoy generous complimentary wait time while you clear baggage claim.",
+      "Arrivals are effortless. We monitor your inbound flight in real time, so an early landing or a two-hour delay changes nothing — your vehicle is staged when you walk out. Choose curbside pickup or an optional inside meet-and-greet with a name sign (additional charge), and enjoy generous complimentary wait time while you clear baggage claim.",
       "Departures run just as smoothly. We calculate your pickup around traffic and check-in windows, build in buffer time, and get you to BWI Marshall Airport relaxed rather than rushed. We serve every BWI terminal and the nearby hotels, park-and-rides, and Amtrak station.",
-      "Ride your way: Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalades and Suburbans for families with luggage, and Mercedes Sprinter vans that keep groups of up to 14 together. Every trip is quoted as a flat, all-inclusive rate before you book."
+      "Ride your way: Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalades and Suburbans for families with luggage, and Mercedes Sprinter vans that keep groups of up to 14 together. Every trip is quoted as a flat, transparent rate before you book."
     ],
     "highlights": [
       {
-        "title": "Meet & Greet Available",
-        "desc": "Your chauffeur waits inside with a name sign and walks you to the vehicle — ideal for first visits and VIP guests."
+        "title": "Airport Meet & Greet Available",
+        "desc": "Your chauffeur can meet you inside baggage claim with a personalized name sign and assist with luggage. Additional charge applies."
       },
       {
         "title": "Generous Free Wait Time",
         "desc": "Complimentary wait time on every arrival — 60 minutes domestic, 90 international — while you clear baggage claim."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -5050,7 +5119,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "Where does my chauffeur meet me at BWI?",
-        "a": "Your choice: curbside on the arrivals level, or inside at baggage claim with a name sign (meet & greet). Pickup instructions are confirmed with your booking."
+        "a": "Your choice: curbside on the arrivals level, or inside at baggage claim with a name sign (meet & greet — additional charge). Pickup instructions are confirmed with your booking."
       },
       {
         "q": "What happens if my flight is delayed?",
@@ -5062,7 +5131,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -5074,12 +5143,13 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Reserve Your BWI Ride",
-    "ctaSubtitle": "Flight-tracked, flat-rated private shuttle service — book online in minutes or call (877) 609-1919."
+    "ctaSubtitle": "Flight-tracked, flat-rated private shuttle service — book online in minutes or call (877) 609-1919.",
+    "category": "airport"
   },
 
   "dca-airport-limo": {
     "metaTitle": "DCA Reagan Airport Limo | 92 Limo Service",
-    "metaDescription": "DCA Reagan Airport Limo with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7.",
+    "metaDescription": "DCA Reagan Airport Limo with flight tracking, optional meet & greet, and flat transparent rates. Pro chauffeurs and luxury vehicles, 24/7.",
     "eyebrow": "REAGAN NATIONAL",
     "h1": "DCA Reagan Airport Limo",
     "subtitle": "Reliable, chauffeured limo service at Reagan National Airport (DCA) — flight-tracked pickups, flat rates, and luxury vehicles around the clock.",
@@ -5087,23 +5157,23 @@ export const GENERATED_LANDING_PAGES = {
     "alt": "Chauffeur meeting a traveler — dca reagan airport limo by 92 Limo Service",
     "highlightsHeading": "What Makes Our DCA Service Different",
     "intro": [
-      "When the flight matters, the ride to the airport should never be the weak link. 92 Limo Service delivers limo service at Reagan National Airport (DCA) with professional chauffeurs, late-model luxury vehicles, and flat all-inclusive rates — trusted by business travelers, families, and frequent flyers across the DMV.",
+      "When the flight matters, the ride to the airport should never be the weak link. 92 Limo Service delivers limo service at Reagan National Airport (DCA) with professional chauffeurs, late-model luxury vehicles, and flat transparent rates — trusted by business travelers, families, and frequent flyers across the DMV.",
       "Every airport booking includes real-time flight tracking. Land early and your chauffeur is already there. Get delayed and your pickup adjusts automatically, free of charge. Inside meet-and-greet with a name sign is available on request, and luggage assistance is always included.",
       "We cover all of Maryland, Washington DC, Northern Virginia, southern Pennsylvania, and Delaware — so the same trusted service that picks you up at home can return you there after the trip. Round-trip bookings guarantee your return ride before you even take off.",
       "Corporate accounts get priority scheduling, consolidated billing, and a dedicated contact. Families get car seats on request and vehicles with real luggage room. Everyone gets the same promise: on time, immaculate, and flat-rated. Call (877) 609-1919 anytime."
     ],
     "highlights": [
       {
-        "title": "Meet & Greet Available",
-        "desc": "Your chauffeur waits inside with a name sign and walks you to the vehicle — ideal for first visits and VIP guests."
+        "title": "Airport Meet & Greet Available",
+        "desc": "Your chauffeur can meet you inside baggage claim with a personalized name sign and assist with luggage. Additional charge applies."
       },
       {
         "title": "Generous Free Wait Time",
         "desc": "Complimentary wait time on every arrival — 60 minutes domestic, 90 international — while you clear baggage claim."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -5126,7 +5196,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "Where does my chauffeur meet me at DCA?",
-        "a": "Your choice: curbside on the arrivals level, or inside at baggage claim with a name sign (meet & greet). Pickup instructions are confirmed with your booking."
+        "a": "Your choice: curbside on the arrivals level, or inside at baggage claim with a name sign (meet & greet — additional charge). Pickup instructions are confirmed with your booking."
       },
       {
         "q": "What happens if my flight is delayed?",
@@ -5138,7 +5208,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -5150,12 +5220,13 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Reserve Your DCA Ride",
-    "ctaSubtitle": "Flight-tracked, flat-rated limo service — book online in minutes or call (877) 609-1919."
+    "ctaSubtitle": "Flight-tracked, flat-rated limo service — book online in minutes or call (877) 609-1919.",
+    "category": "airport"
   },
 
   "dca-airport-car-service": {
-    "metaTitle": "DCA Airport Car Service | 92 Limo Service",
-    "metaDescription": "DCA Airport Car Service with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7.",
+    "metaTitle": "DCA Airport Car Service | Private Chauffeur | 92 Limo",
+    "metaDescription": "DCA Airport Car Service with flight tracking, optional meet & greet, and flat transparent rates. Pro chauffeurs and luxury vehicles, 24/7.",
     "eyebrow": "REAGAN NATIONAL",
     "h1": "DCA Airport Car Service",
     "subtitle": "Reliable, chauffeured airport car service at Reagan National Airport (DCA) — flight-tracked pickups, flat rates, and luxury vehicles around the clock.",
@@ -5164,22 +5235,22 @@ export const GENERATED_LANDING_PAGES = {
     "highlightsHeading": "What Makes Our DCA Service Different",
     "intro": [
       "92 Limo Service provides premium airport car service to and from Reagan National Airport (DCA) — 24 hours a day, 365 days a year. Your chauffeur tracks the flight, meets you at baggage claim or curbside, handles every bag, and drives a spotless luxury vehicle to your door. No shuttles, no shared vans, no surge pricing.",
-      "Arrivals are effortless. We monitor your inbound flight in real time, so an early landing or a two-hour delay changes nothing — your vehicle is staged when you walk out. Choose curbside pickup or an inside meet-and-greet with a name sign, and enjoy generous complimentary wait time while you clear baggage claim.",
+      "Arrivals are effortless. We monitor your inbound flight in real time, so an early landing or a two-hour delay changes nothing — your vehicle is staged when you walk out. Choose curbside pickup or an optional inside meet-and-greet with a name sign (additional charge), and enjoy generous complimentary wait time while you clear baggage claim.",
       "Departures run just as smoothly. We calculate your pickup around traffic and check-in windows, build in buffer time, and get you to Reagan National Airport (DCA) relaxed rather than rushed. We serve every DCA terminal, plus Crystal City and Pentagon City hotels.",
-      "Ride your way: Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalades and Suburbans for families with luggage, and Mercedes Sprinter vans that keep groups of up to 14 together. Every trip is quoted as a flat, all-inclusive rate before you book."
+      "Ride your way: Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalades and Suburbans for families with luggage, and Mercedes Sprinter vans that keep groups of up to 14 together. Every trip is quoted as a flat, transparent rate before you book."
     ],
     "highlights": [
       {
-        "title": "Meet & Greet Available",
-        "desc": "Your chauffeur waits inside with a name sign and walks you to the vehicle — ideal for first visits and VIP guests."
+        "title": "Airport Meet & Greet Available",
+        "desc": "Your chauffeur can meet you inside baggage claim with a personalized name sign and assist with luggage. Additional charge applies."
       },
       {
         "title": "Generous Free Wait Time",
         "desc": "Complimentary wait time on every arrival — 60 minutes domestic, 90 international — while you clear baggage claim."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -5202,7 +5273,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "Where does my chauffeur meet me at DCA?",
-        "a": "Your choice: curbside on the arrivals level, or inside at baggage claim with a name sign (meet & greet). Pickup instructions are confirmed with your booking."
+        "a": "Your choice: curbside on the arrivals level, or inside at baggage claim with a name sign (meet & greet — additional charge). Pickup instructions are confirmed with your booking."
       },
       {
         "q": "What happens if my flight is delayed?",
@@ -5214,7 +5285,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -5226,12 +5297,13 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Reserve Your DCA Ride",
-    "ctaSubtitle": "Flight-tracked, flat-rated airport car service — book online in minutes or call (877) 609-1919."
+    "ctaSubtitle": "Flight-tracked, flat-rated airport car service — book online in minutes or call (877) 609-1919.",
+    "category": "airport"
   },
 
   "iad-airport-limo": {
     "metaTitle": "IAD Dulles Airport Limo | 92 Limo Service",
-    "metaDescription": "IAD Dulles Airport Limo with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7.",
+    "metaDescription": "IAD Dulles Airport Limo with flight tracking, optional meet & greet, and flat transparent rates. Pro chauffeurs and luxury vehicles, 24/7.",
     "eyebrow": "DULLES INTERNATIONAL",
     "h1": "IAD Dulles Airport Limo",
     "subtitle": "Reliable, chauffeured limo service at Dulles International Airport (IAD) — flight-tracked pickups, flat rates, and luxury vehicles around the clock.",
@@ -5239,23 +5311,23 @@ export const GENERATED_LANDING_PAGES = {
     "alt": "Chauffeur meeting a traveler — iad dulles airport limo by 92 Limo Service",
     "highlightsHeading": "What Makes Our IAD Service Different",
     "intro": [
-      "When the flight matters, the ride to the airport should never be the weak link. 92 Limo Service delivers limo service at Dulles International Airport (IAD) with professional chauffeurs, late-model luxury vehicles, and flat all-inclusive rates — trusted by business travelers, families, and frequent flyers across the DMV.",
+      "When the flight matters, the ride to the airport should never be the weak link. 92 Limo Service delivers limo service at Dulles International Airport (IAD) with professional chauffeurs, late-model luxury vehicles, and flat transparent rates — trusted by business travelers, families, and frequent flyers across the DMV.",
       "Every airport booking includes real-time flight tracking. Land early and your chauffeur is already there. Get delayed and your pickup adjusts automatically, free of charge. Inside meet-and-greet with a name sign is available on request, and luggage assistance is always included.",
       "We cover all of Maryland, Washington DC, Northern Virginia, southern Pennsylvania, and Delaware — so the same trusted service that picks you up at home can return you there after the trip. Round-trip bookings guarantee your return ride before you even take off.",
       "Corporate accounts get priority scheduling, consolidated billing, and a dedicated contact. Families get car seats on request and vehicles with real luggage room. Everyone gets the same promise: on time, immaculate, and flat-rated. Call (877) 609-1919 anytime."
     ],
     "highlights": [
       {
-        "title": "Meet & Greet Available",
-        "desc": "Your chauffeur waits inside with a name sign and walks you to the vehicle — ideal for first visits and VIP guests."
+        "title": "Airport Meet & Greet Available",
+        "desc": "Your chauffeur can meet you inside baggage claim with a personalized name sign and assist with luggage. Additional charge applies."
       },
       {
         "title": "Generous Free Wait Time",
         "desc": "Complimentary wait time on every arrival — 60 minutes domestic, 90 international — while you clear baggage claim."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -5278,7 +5350,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "Where does my chauffeur meet me at IAD?",
-        "a": "Your choice: curbside on the arrivals level, or inside at baggage claim with a name sign (meet & greet). Pickup instructions are confirmed with your booking."
+        "a": "Your choice: curbside on the arrivals level, or inside at baggage claim with a name sign (meet & greet — additional charge). Pickup instructions are confirmed with your booking."
       },
       {
         "q": "What happens if my flight is delayed?",
@@ -5290,7 +5362,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -5302,12 +5374,13 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Reserve Your IAD Ride",
-    "ctaSubtitle": "Flight-tracked, flat-rated limo service — book online in minutes or call (877) 609-1919."
+    "ctaSubtitle": "Flight-tracked, flat-rated limo service — book online in minutes or call (877) 609-1919.",
+    "category": "airport"
   },
 
   "iad-airport-car-service": {
-    "metaTitle": "IAD Airport Car Service | 92 Limo Service",
-    "metaDescription": "IAD Airport Car Service with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7.",
+    "metaTitle": "IAD Airport Car Service | Private Chauffeur | 92 Limo",
+    "metaDescription": "IAD Airport Car Service with flight tracking, optional meet & greet, and flat transparent rates. Pro chauffeurs and luxury vehicles, 24/7.",
     "eyebrow": "DULLES INTERNATIONAL",
     "h1": "IAD Airport Car Service",
     "subtitle": "Reliable, chauffeured airport car service at Dulles International Airport (IAD) — flight-tracked pickups, flat rates, and luxury vehicles around the clock.",
@@ -5316,22 +5389,22 @@ export const GENERATED_LANDING_PAGES = {
     "highlightsHeading": "What Makes Our IAD Service Different",
     "intro": [
       "92 Limo Service provides premium airport car service to and from Dulles International Airport (IAD) — 24 hours a day, 365 days a year. Your chauffeur tracks the flight, meets you at baggage claim or curbside, handles every bag, and drives a spotless luxury vehicle to your door. No shuttles, no shared vans, no surge pricing.",
-      "Arrivals are effortless. We monitor your inbound flight in real time, so an early landing or a two-hour delay changes nothing — your vehicle is staged when you walk out. Choose curbside pickup or an inside meet-and-greet with a name sign, and enjoy generous complimentary wait time while you clear baggage claim.",
+      "Arrivals are effortless. We monitor your inbound flight in real time, so an early landing or a two-hour delay changes nothing — your vehicle is staged when you walk out. Choose curbside pickup or an optional inside meet-and-greet with a name sign (additional charge), and enjoy generous complimentary wait time while you clear baggage claim.",
       "Departures run just as smoothly. We calculate your pickup around traffic and check-in windows, build in buffer time, and get you to Dulles International Airport (IAD) relaxed rather than rushed. We serve every IAD terminal and the Dulles-corridor hotels and offices.",
-      "Ride your way: Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalades and Suburbans for families with luggage, and Mercedes Sprinter vans that keep groups of up to 14 together. Every trip is quoted as a flat, all-inclusive rate before you book."
+      "Ride your way: Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalades and Suburbans for families with luggage, and Mercedes Sprinter vans that keep groups of up to 14 together. Every trip is quoted as a flat, transparent rate before you book."
     ],
     "highlights": [
       {
-        "title": "Meet & Greet Available",
-        "desc": "Your chauffeur waits inside with a name sign and walks you to the vehicle — ideal for first visits and VIP guests."
+        "title": "Airport Meet & Greet Available",
+        "desc": "Your chauffeur can meet you inside baggage claim with a personalized name sign and assist with luggage. Additional charge applies."
       },
       {
         "title": "Generous Free Wait Time",
         "desc": "Complimentary wait time on every arrival — 60 minutes domestic, 90 international — while you clear baggage claim."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -5354,7 +5427,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "Where does my chauffeur meet me at IAD?",
-        "a": "Your choice: curbside on the arrivals level, or inside at baggage claim with a name sign (meet & greet). Pickup instructions are confirmed with your booking."
+        "a": "Your choice: curbside on the arrivals level, or inside at baggage claim with a name sign (meet & greet — additional charge). Pickup instructions are confirmed with your booking."
       },
       {
         "q": "What happens if my flight is delayed?",
@@ -5366,7 +5439,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -5378,12 +5451,13 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Reserve Your IAD Ride",
-    "ctaSubtitle": "Flight-tracked, flat-rated airport car service — book online in minutes or call (877) 609-1919."
+    "ctaSubtitle": "Flight-tracked, flat-rated airport car service — book online in minutes or call (877) 609-1919.",
+    "category": "airport"
   },
 
   "airport-limo-baltimore": {
     "metaTitle": "Airport Limo Service Baltimore | 92 Limo Service",
-    "metaDescription": "Airport Limo Service Baltimore with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7.",
+    "metaDescription": "Airport Limo Service Baltimore with flight tracking, optional meet & greet, and flat transparent rates. Pro chauffeurs and luxury vehicles, 24/7.",
     "eyebrow": "BWI MARSHALL",
     "h1": "Airport Limo Service Baltimore",
     "subtitle": "Reliable, chauffeured limo service at BWI Marshall Airport — flight-tracked pickups, flat rates, and luxury vehicles around the clock.",
@@ -5391,23 +5465,23 @@ export const GENERATED_LANDING_PAGES = {
     "alt": "Chauffeur meeting a traveler — airport limo service baltimore by 92 Limo Service",
     "highlightsHeading": "What Makes Our BWI Service Different",
     "intro": [
-      "When the flight matters, the ride to the airport should never be the weak link. 92 Limo Service delivers limo service at BWI Marshall Airport for Baltimore travelers with professional chauffeurs, late-model luxury vehicles, and flat all-inclusive rates — trusted by business travelers, families, and frequent flyers across the DMV.",
+      "When the flight matters, the ride to the airport should never be the weak link. 92 Limo Service delivers limo service at BWI Marshall Airport for Baltimore travelers with professional chauffeurs, late-model luxury vehicles, and flat transparent rates — trusted by business travelers, families, and frequent flyers across the DMV.",
       "Every airport booking includes real-time flight tracking. Land early and your chauffeur is already there. Get delayed and your pickup adjusts automatically, free of charge. Inside meet-and-greet with a name sign is available on request, and luggage assistance is always included.",
       "We cover every Baltimore neighborhood, hotel, and office — so the same trusted service that picks you up at home can return you there after the trip. Round-trip bookings guarantee your return ride before you even take off.",
       "Corporate accounts get priority scheduling, consolidated billing, and a dedicated contact. Families get car seats on request and vehicles with real luggage room. Everyone gets the same promise: on time, immaculate, and flat-rated. Call (877) 609-1919 anytime."
     ],
     "highlights": [
       {
-        "title": "Meet & Greet Available",
-        "desc": "Your chauffeur waits inside with a name sign and walks you to the vehicle — ideal for first visits and VIP guests."
+        "title": "Airport Meet & Greet Available",
+        "desc": "Your chauffeur can meet you inside baggage claim with a personalized name sign and assist with luggage. Additional charge applies."
       },
       {
         "title": "Generous Free Wait Time",
         "desc": "Complimentary wait time on every arrival — 60 minutes domestic, 90 international — while you clear baggage claim."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -5430,7 +5504,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "Where does my chauffeur meet me at BWI?",
-        "a": "Your choice: curbside on the arrivals level, or inside at baggage claim with a name sign (meet & greet). Pickup instructions are confirmed with your booking."
+        "a": "Your choice: curbside on the arrivals level, or inside at baggage claim with a name sign (meet & greet — additional charge). Pickup instructions are confirmed with your booking."
       },
       {
         "q": "What happens if my flight is delayed?",
@@ -5442,7 +5516,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -5454,12 +5528,13 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Reserve Your BWI Ride",
-    "ctaSubtitle": "Flight-tracked, flat-rated limo service — book online in minutes or call (877) 609-1919."
+    "ctaSubtitle": "Flight-tracked, flat-rated limo service — book online in minutes or call (877) 609-1919.",
+    "category": "airport"
   },
 
   "airport-limo-washington-dc": {
     "metaTitle": "Airport Limo Service Washington DC | 92 Limo Service",
-    "metaDescription": "Airport Limo Service Washington DC with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7.",
+    "metaDescription": "Airport Limo Service Washington DC with flight tracking, optional meet & greet, and flat transparent rates. Pro chauffeurs and luxury vehicles, 24/7.",
     "eyebrow": "REAGAN NATIONAL",
     "h1": "Airport Limo Service Washington DC",
     "subtitle": "Reliable, chauffeured limo service at all three DC-area airports — flight-tracked pickups, flat rates, and luxury vehicles around the clock.",
@@ -5468,22 +5543,22 @@ export const GENERATED_LANDING_PAGES = {
     "highlightsHeading": "What Makes Our DCA Service Different",
     "intro": [
       "92 Limo Service provides premium limo service to and from all three DC-area airports for Washington DC travelers — 24 hours a day, 365 days a year. Your chauffeur tracks the flight, meets you at baggage claim or curbside, handles every bag, and drives a spotless luxury vehicle to your door. No shuttles, no shared vans, no surge pricing.",
-      "Arrivals are effortless. We monitor your inbound flight in real time, so an early landing or a two-hour delay changes nothing — your vehicle is staged when you walk out. Choose curbside pickup or an inside meet-and-greet with a name sign, and enjoy generous complimentary wait time while you clear baggage claim.",
+      "Arrivals are effortless. We monitor your inbound flight in real time, so an early landing or a two-hour delay changes nothing — your vehicle is staged when you walk out. Choose curbside pickup or an optional inside meet-and-greet with a name sign (additional charge), and enjoy generous complimentary wait time while you clear baggage claim.",
       "Departures run just as smoothly. We calculate your pickup around traffic and check-in windows, build in buffer time, and get you to all three DC-area airports relaxed rather than rushed. We serve every DCA terminal, plus Crystal City and Pentagon City hotels.",
-      "Ride your way: Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalades and Suburbans for families with luggage, and Mercedes Sprinter vans that keep groups of up to 14 together. Every trip is quoted as a flat, all-inclusive rate before you book."
+      "Ride your way: Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalades and Suburbans for families with luggage, and Mercedes Sprinter vans that keep groups of up to 14 together. Every trip is quoted as a flat, transparent rate before you book."
     ],
     "highlights": [
       {
-        "title": "Meet & Greet Available",
-        "desc": "Your chauffeur waits inside with a name sign and walks you to the vehicle — ideal for first visits and VIP guests."
+        "title": "Airport Meet & Greet Available",
+        "desc": "Your chauffeur can meet you inside baggage claim with a personalized name sign and assist with luggage. Additional charge applies."
       },
       {
         "title": "Generous Free Wait Time",
         "desc": "Complimentary wait time on every arrival — 60 minutes domestic, 90 international — while you clear baggage claim."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -5506,7 +5581,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "Where does my chauffeur meet me at DCA?",
-        "a": "Your choice: curbside on the arrivals level, or inside at baggage claim with a name sign (meet & greet). Pickup instructions are confirmed with your booking."
+        "a": "Your choice: curbside on the arrivals level, or inside at baggage claim with a name sign (meet & greet — additional charge). Pickup instructions are confirmed with your booking."
       },
       {
         "q": "What happens if my flight is delayed?",
@@ -5518,7 +5593,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -5530,12 +5605,13 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Reserve Your DCA Ride",
-    "ctaSubtitle": "Flight-tracked, flat-rated limo service — book online in minutes or call (877) 609-1919."
+    "ctaSubtitle": "Flight-tracked, flat-rated limo service — book online in minutes or call (877) 609-1919.",
+    "category": "airport"
   },
 
   "wedding-limo-maryland": {
     "metaTitle": "Wedding Limo Service Maryland | 92 Limo Service",
-    "metaDescription": "Wedding Limo Service Maryland with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Maryland 24/7.",
+    "metaDescription": "Wedding Limo Service Maryland with professional chauffeurs, luxury vehicles & flat transparent rates. Serving Maryland 24/7. Book online or call (877) 609-1919.",
     "eyebrow": "WEDDING LIMO SERVICE MARYLAND",
     "h1": "Wedding Limo Service Maryland",
     "subtitle": "Chauffeured wedding limo service for ceremonies, receptions, and send-offs — flat rates, luxury vehicles, and flawless timing across Maryland.",
@@ -5543,7 +5619,7 @@ export const GENERATED_LANDING_PAGES = {
     "alt": "Wedding Limo Service Maryland — 92 Limo Service luxury vehicle",
     "highlightsHeading": "Why Book Your wedding limo With Us",
     "intro": [
-      "92 Limo Service delivers wedding limo service across Maryland that actually lives up to the occasion. From waterfront venues in Annapolis, barns in Frederick County, and downtown Baltimore hotels, we cover ceremonies, receptions, and send-offs with immaculate luxury vehicles, professional chauffeurs, and flat all-inclusive pricing.",
+      "92 Limo Service delivers wedding limo service across Maryland that actually lives up to the occasion. From waterfront venues in Annapolis, barns in Frederick County, and downtown Baltimore hotels, we cover ceremonies, receptions, and send-offs with immaculate luxury vehicles, professional chauffeurs, and flat transparent pricing.",
       "Every detail is planned in advance: pickup times that fit your schedule, routes that dodge traffic, and a chauffeur who arrives early and stays flexible. You will never watch a surge-price countdown or wonder if the driver will show.",
       "Groups are our strength. Our Cadillac Escalades and Suburbans carry up to six in comfort, and our Mercedes Sprinter vans keep parties of up to 14 together — no splitting the group across rideshares, no one left waiting.",
       "Booking takes minutes: request a quote online or call (877) 609-1919, approve a flat rate, and consider it handled. That is why Maryland clients use us again and again."
@@ -5558,8 +5634,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -5582,7 +5658,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does wedding limo service cost in Maryland?",
-        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, all-inclusive rate — tolls, taxes, and gratuity included. Call (877) 609-1919 for an exact quote."
+        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, transparent rate — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 for an exact quote."
       },
       {
         "q": "Can you handle multiple stops or pickups?",
@@ -5594,7 +5670,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -5602,12 +5678,13 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Wedding Limo Service Maryland",
-    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919."
+    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919.",
+    "category": "service"
   },
 
   "wedding-car-service-dc": {
     "metaTitle": "Wedding Car Service Washington DC | 92 Limo Service",
-    "metaDescription": "Wedding Car Service Washington DC with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Washington DC 24/7.",
+    "metaDescription": "Wedding Car Service Washington DC with professional chauffeurs, luxury vehicles & flat transparent rates. Serving Washington DC 24/7.",
     "eyebrow": "WEDDING CAR SERVICE WASHINGTON DC",
     "h1": "Wedding Car Service Washington DC",
     "subtitle": "Chauffeured wedding car service for ceremonies, receptions, and guest shuttles — flat rates, luxury vehicles, and flawless timing across Washington DC.",
@@ -5618,7 +5695,7 @@ export const GENERATED_LANDING_PAGES = {
       "Some rides are just transportation. Wedding Car Service from 92 Limo Service is part of the event. We provide chauffeured luxury vehicles for ceremonies, receptions, and guest shuttles throughout Washington DC — polished, punctual, and priced flat.",
       "Tell us the plan and we build the transportation around it: multiple pickups, photo stops, venue timing, late-night returns. Your chauffeur coordinates with you by text, stays reachable all night, and adapts when the schedule moves.",
       "The fleet fits every version of the night. A BMW 7 Series or S-Class for an elegant arrival. An Escalade for the crew. A Sprinter for the whole party, with room to celebrate on the way. Every vehicle is detailed before pickup and stocked with water.",
-      "We serve DC hotels, historic mansions, and Georgetown venues and everywhere between. One flat quote covers the night — tolls, taxes, and gratuity included. Call (877) 609-1919 or book online."
+      "We serve DC hotels, historic mansions, and Georgetown venues and everywhere between. One flat quote covers the night — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or book online."
     ],
     "highlights": [
       {
@@ -5630,8 +5707,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -5654,7 +5731,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does wedding car service cost in Washington DC?",
-        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, all-inclusive rate — tolls, taxes, and gratuity included. Call (877) 609-1919 for an exact quote."
+        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, transparent rate — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 for an exact quote."
       },
       {
         "q": "Can you handle multiple stops or pickups?",
@@ -5666,7 +5743,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -5674,12 +5751,13 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Wedding Car Service Washington DC",
-    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919."
+    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919.",
+    "category": "service"
   },
 
   "prom-limo-maryland": {
     "metaTitle": "Prom Limo Service Maryland | 92 Limo Service",
-    "metaDescription": "Prom Limo Service Maryland with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Maryland 24/7. Book online or call (877) 609-1919.",
+    "metaDescription": "Prom Limo Service Maryland with professional chauffeurs, luxury vehicles & flat transparent rates. Serving Maryland 24/7. Book online or call (877) 609-1919.",
     "eyebrow": "PROM LIMO SERVICE MARYLAND",
     "h1": "Prom Limo Service Maryland",
     "subtitle": "Chauffeured prom limo service for proms, homecomings, and formals — flat rates, luxury vehicles, and flawless timing across Maryland.",
@@ -5687,7 +5765,7 @@ export const GENERATED_LANDING_PAGES = {
     "alt": "Prom Limo Service Maryland — 92 Limo Service luxury vehicle",
     "highlightsHeading": "Why Book Your prom limo With Us",
     "intro": [
-      "92 Limo Service delivers prom limo service across Maryland that actually lives up to the occasion. From high schools across Anne Arundel, Howard, and Montgomery counties, we cover proms, homecomings, and formals with immaculate luxury vehicles, professional chauffeurs, and flat all-inclusive pricing.",
+      "92 Limo Service delivers prom limo service across Maryland that actually lives up to the occasion. From high schools across Anne Arundel, Howard, and Montgomery counties, we cover proms, homecomings, and formals with immaculate luxury vehicles, professional chauffeurs, and flat transparent pricing.",
       "Every detail is planned in advance: pickup times that fit your schedule, routes that dodge traffic, and a chauffeur who arrives early and stays flexible. You will never watch a surge-price countdown or wonder if the driver will show.",
       "Groups are our strength. Our Cadillac Escalades and Suburbans carry up to six in comfort, and our Mercedes Sprinter vans keep parties of up to 14 together — no splitting the group across rideshares, no one left waiting.",
       "Booking takes minutes: request a quote online or call (877) 609-1919, approve a flat rate, and consider it handled. That is why Maryland clients use us again and again."
@@ -5702,8 +5780,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -5726,7 +5804,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does prom limo service cost in Maryland?",
-        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, all-inclusive rate — tolls, taxes, and gratuity included. Call (877) 609-1919 for an exact quote."
+        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, transparent rate — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 for an exact quote."
       },
       {
         "q": "Can you handle multiple stops or pickups?",
@@ -5738,7 +5816,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -5746,12 +5824,13 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Prom Limo Service Maryland",
-    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919."
+    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919.",
+    "category": "service"
   },
 
   "prom-limo-baltimore": {
     "metaTitle": "Prom Limo Baltimore | 92 Limo Service",
-    "metaDescription": "Prom Limo Baltimore with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Baltimore 24/7. Book online or call (877) 609-1919.",
+    "metaDescription": "Prom Limo Baltimore with professional chauffeurs, luxury vehicles & flat transparent rates. Serving Baltimore 24/7. Book online or call (877) 609-1919.",
     "eyebrow": "PROM LIMO BALTIMORE",
     "h1": "Prom Limo Baltimore",
     "subtitle": "Chauffeured prom limo service for proms, homecomings, and graduations — flat rates, luxury vehicles, and flawless timing across Baltimore.",
@@ -5762,7 +5841,7 @@ export const GENERATED_LANDING_PAGES = {
       "Some rides are just transportation. Prom Limo from 92 Limo Service is part of the event. We provide chauffeured luxury vehicles for proms, homecomings, and graduations throughout Baltimore — polished, punctual, and priced flat.",
       "Tell us the plan and we build the transportation around it: multiple pickups, photo stops, venue timing, late-night returns. Your chauffeur coordinates with you by text, stays reachable all night, and adapts when the schedule moves.",
       "The fleet fits every version of the night. A BMW 7 Series or S-Class for an elegant arrival. An Escalade for the crew. A Sprinter for the whole party, with room to celebrate on the way. Every vehicle is detailed before pickup and stocked with water.",
-      "We serve Baltimore City and Baltimore County schools and venues and everywhere between. One flat quote covers the night — tolls, taxes, and gratuity included. Call (877) 609-1919 or book online."
+      "We serve Baltimore City and Baltimore County schools and venues and everywhere between. One flat quote covers the night — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or book online."
     ],
     "highlights": [
       {
@@ -5774,8 +5853,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -5798,7 +5877,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does prom limo service cost in Baltimore?",
-        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, all-inclusive rate — tolls, taxes, and gratuity included. Call (877) 609-1919 for an exact quote."
+        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, transparent rate — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 for an exact quote."
       },
       {
         "q": "Can you handle multiple stops or pickups?",
@@ -5810,7 +5889,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -5818,12 +5897,13 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Prom Limo Baltimore",
-    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919."
+    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919.",
+    "category": "service"
   },
 
   "corporate-limo-dc": {
     "metaTitle": "Corporate Limo Service Washington DC | 92 Limo Service",
-    "metaDescription": "Corporate Limo Service Washington DC with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Washington DC 24/7.",
+    "metaDescription": "Corporate Limo Service Washington DC with professional chauffeurs, luxury vehicles & flat transparent rates. Serving Washington DC 24/7.",
     "eyebrow": "CORPORATE LIMO SERVICE WASHINGTON DC",
     "h1": "Corporate Limo Service Washington DC",
     "subtitle": "Chauffeured corporate limo service for roadshows, board meetings, and client visits — flat rates, luxury vehicles, and flawless timing across Washington DC.",
@@ -5831,7 +5911,7 @@ export const GENERATED_LANDING_PAGES = {
     "alt": "Corporate Limo Service Washington DC — 92 Limo Service luxury vehicle",
     "highlightsHeading": "Why Book Your corporate limo With Us",
     "intro": [
-      "92 Limo Service delivers corporate limo service across Washington DC that actually lives up to the occasion. From K Street, Capitol Hill, and the convention center, we cover roadshows, board meetings, and client visits with immaculate luxury vehicles, professional chauffeurs, and flat all-inclusive pricing.",
+      "92 Limo Service delivers corporate limo service across Washington DC that actually lives up to the occasion. From K Street, Capitol Hill, and the convention center, we cover roadshows, board meetings, and client visits with immaculate luxury vehicles, professional chauffeurs, and flat transparent pricing.",
       "Every detail is planned in advance: pickup times that fit your schedule, routes that dodge traffic, and a chauffeur who arrives early and stays flexible. You will never watch a surge-price countdown or wonder if the driver will show.",
       "Groups are our strength. Our Cadillac Escalades and Suburbans carry up to six in comfort, and our Mercedes Sprinter vans keep parties of up to 14 together — no splitting the group across rideshares, no one left waiting.",
       "Booking takes minutes: request a quote online or call (877) 609-1919, approve a flat rate, and consider it handled. That is why Washington DC clients use us again and again."
@@ -5846,8 +5926,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -5870,7 +5950,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does corporate limo service cost in Washington DC?",
-        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, all-inclusive rate — tolls, taxes, and gratuity included. Call (877) 609-1919 for an exact quote."
+        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, transparent rate — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 for an exact quote."
       },
       {
         "q": "Can you handle multiple stops or pickups?",
@@ -5882,7 +5962,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -5890,12 +5970,13 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Corporate Limo Service Washington DC",
-    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919."
+    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919.",
+    "category": "service"
   },
 
   "executive-car-service-maryland": {
     "metaTitle": "Executive Car Service Maryland | 92 Limo Service",
-    "metaDescription": "Executive Car Service Maryland with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Maryland 24/7.",
+    "metaDescription": "Executive Car Service Maryland with professional chauffeurs, luxury vehicles & flat transparent rates. Serving Maryland 24/7.",
     "eyebrow": "EXECUTIVE CAR SERVICE MARYLAND",
     "h1": "Executive Car Service Maryland",
     "subtitle": "Chauffeured executive car service for executive travel, investor meetings, and airport runs — flat rates, luxury vehicles, and flawless timing across Maryland.",
@@ -5906,7 +5987,7 @@ export const GENERATED_LANDING_PAGES = {
       "Some rides are just transportation. Executive Car Service from 92 Limo Service is part of the event. We provide chauffeured luxury vehicles for executive travel, investor meetings, and airport runs throughout Maryland — polished, punctual, and priced flat.",
       "Tell us the plan and we build the transportation around it: multiple pickups, photo stops, venue timing, late-night returns. Your chauffeur coordinates with you by text, stays reachable all night, and adapts when the schedule moves.",
       "The fleet fits every version of the night. A BMW 7 Series or S-Class for an elegant arrival. An Escalade for the crew. A Sprinter for the whole party, with room to celebrate on the way. Every vehicle is detailed before pickup and stocked with water.",
-      "We serve Baltimore's business district, Columbia Gateway, and the I-270 corridor and everywhere between. One flat quote covers the night — tolls, taxes, and gratuity included. Call (877) 609-1919 or book online."
+      "We serve Baltimore's business district, Columbia Gateway, and the I-270 corridor and everywhere between. One flat quote covers the night — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or book online."
     ],
     "highlights": [
       {
@@ -5918,8 +5999,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -5942,7 +6023,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does executive car service cost in Maryland?",
-        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, all-inclusive rate — tolls, taxes, and gratuity included. Call (877) 609-1919 for an exact quote."
+        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, transparent rate — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 for an exact quote."
       },
       {
         "q": "Can you handle multiple stops or pickups?",
@@ -5954,7 +6035,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -5962,12 +6043,13 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Executive Car Service Maryland",
-    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919."
+    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919.",
+    "category": "service"
   },
 
   "black-car-service-baltimore": {
     "metaTitle": "Black Car Service Baltimore | 92 Limo Service",
-    "metaDescription": "Black Car Service Baltimore with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Baltimore 24/7.",
+    "metaDescription": "Black Car Service Baltimore with professional chauffeurs, luxury vehicles & flat transparent rates. Serving Baltimore 24/7. Book online or call (877) 609-1919.",
     "eyebrow": "BLACK CAR SERVICE BALTIMORE",
     "h1": "Black Car Service Baltimore",
     "subtitle": "Chauffeured black car service for business travel, dinners, and airport transfers — flat rates, luxury vehicles, and flawless timing across Baltimore.",
@@ -5975,7 +6057,7 @@ export const GENERATED_LANDING_PAGES = {
     "alt": "Black Car Service Baltimore — 92 Limo Service luxury vehicle",
     "highlightsHeading": "Why Book Your black car With Us",
     "intro": [
-      "92 Limo Service delivers black car service across Baltimore that actually lives up to the occasion. From Harbor East, the Inner Harbor, and Mount Vernon, we cover business travel, dinners, and airport transfers with immaculate luxury vehicles, professional chauffeurs, and flat all-inclusive pricing.",
+      "92 Limo Service delivers black car service across Baltimore that actually lives up to the occasion. From Harbor East, the Inner Harbor, and Mount Vernon, we cover business travel, dinners, and airport transfers with immaculate luxury vehicles, professional chauffeurs, and flat transparent pricing.",
       "Every detail is planned in advance: pickup times that fit your schedule, routes that dodge traffic, and a chauffeur who arrives early and stays flexible. You will never watch a surge-price countdown or wonder if the driver will show.",
       "Groups are our strength. Our Cadillac Escalades and Suburbans carry up to six in comfort, and our Mercedes Sprinter vans keep parties of up to 14 together — no splitting the group across rideshares, no one left waiting.",
       "Booking takes minutes: request a quote online or call (877) 609-1919, approve a flat rate, and consider it handled. That is why Baltimore clients use us again and again."
@@ -5990,8 +6072,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -6014,7 +6096,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does black car service cost in Baltimore?",
-        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, all-inclusive rate — tolls, taxes, and gratuity included. Call (877) 609-1919 for an exact quote."
+        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, transparent rate — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 for an exact quote."
       },
       {
         "q": "Can you handle multiple stops or pickups?",
@@ -6026,7 +6108,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -6034,12 +6116,13 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Black Car Service Baltimore",
-    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919."
+    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919.",
+    "category": "service"
   },
 
   "black-car-service-dc": {
     "metaTitle": "Black Car Service Washington DC | 92 Limo Service",
-    "metaDescription": "Black Car Service Washington DC with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Washington DC 24/7.",
+    "metaDescription": "Black Car Service Washington DC with professional chauffeurs, luxury vehicles & flat transparent rates. Serving Washington DC 24/7.",
     "eyebrow": "BLACK CAR SERVICE WASHINGTON DC",
     "h1": "Black Car Service Washington DC",
     "subtitle": "Chauffeured black car service for government, legal, and business travel — flat rates, luxury vehicles, and flawless timing across Washington DC.",
@@ -6050,7 +6133,7 @@ export const GENERATED_LANDING_PAGES = {
       "Some rides are just transportation. Black Car Service from 92 Limo Service is part of the event. We provide chauffeured luxury vehicles for government, legal, and business travel throughout Washington DC — polished, punctual, and priced flat.",
       "Tell us the plan and we build the transportation around it: multiple pickups, photo stops, venue timing, late-night returns. Your chauffeur coordinates with you by text, stays reachable all night, and adapts when the schedule moves.",
       "The fleet fits every version of the night. A BMW 7 Series or S-Class for an elegant arrival. An Escalade for the crew. A Sprinter for the whole party, with room to celebrate on the way. Every vehicle is detailed before pickup and stocked with water.",
-      "We serve downtown DC, the Wharf, and Navy Yard and everywhere between. One flat quote covers the night — tolls, taxes, and gratuity included. Call (877) 609-1919 or book online."
+      "We serve downtown DC, the Wharf, and Navy Yard and everywhere between. One flat quote covers the night — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or book online."
     ],
     "highlights": [
       {
@@ -6062,8 +6145,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -6086,7 +6169,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does black car service cost in Washington DC?",
-        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, all-inclusive rate — tolls, taxes, and gratuity included. Call (877) 609-1919 for an exact quote."
+        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, transparent rate — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 for an exact quote."
       },
       {
         "q": "Can you handle multiple stops or pickups?",
@@ -6098,7 +6181,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -6106,12 +6189,13 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Black Car Service Washington DC",
-    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919."
+    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919.",
+    "category": "service"
   },
 
   "luxury-car-service-maryland": {
     "metaTitle": "Luxury Car Service Maryland | 92 Limo Service",
-    "metaDescription": "Luxury Car Service Maryland with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Maryland 24/7. Book online or call (877) 609-1919.",
+    "metaDescription": "Luxury Car Service Maryland with professional chauffeurs, luxury vehicles & flat transparent rates. Serving Maryland 24/7. Book online or call (877) 609-1919.",
     "eyebrow": "LUXURY CAR SERVICE MARYLAND",
     "h1": "Luxury Car Service Maryland",
     "subtitle": "Chauffeured luxury car service for special occasions, date nights, and VIP travel — flat rates, luxury vehicles, and flawless timing across Maryland.",
@@ -6119,7 +6203,7 @@ export const GENERATED_LANDING_PAGES = {
     "alt": "Luxury Car Service Maryland — 92 Limo Service luxury vehicle",
     "highlightsHeading": "Why Book Your luxury car With Us",
     "intro": [
-      "92 Limo Service delivers luxury car service across Maryland that actually lives up to the occasion. From fine dining, theaters, and waterfront venues statewide, we cover special occasions, date nights, and VIP travel with immaculate luxury vehicles, professional chauffeurs, and flat all-inclusive pricing.",
+      "92 Limo Service delivers luxury car service across Maryland that actually lives up to the occasion. From fine dining, theaters, and waterfront venues statewide, we cover special occasions, date nights, and VIP travel with immaculate luxury vehicles, professional chauffeurs, and flat transparent pricing.",
       "Every detail is planned in advance: pickup times that fit your schedule, routes that dodge traffic, and a chauffeur who arrives early and stays flexible. You will never watch a surge-price countdown or wonder if the driver will show.",
       "Groups are our strength. Our Cadillac Escalades and Suburbans carry up to six in comfort, and our Mercedes Sprinter vans keep parties of up to 14 together — no splitting the group across rideshares, no one left waiting.",
       "Booking takes minutes: request a quote online or call (877) 609-1919, approve a flat rate, and consider it handled. That is why Maryland clients use us again and again."
@@ -6134,8 +6218,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -6158,7 +6242,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does luxury car service cost in Maryland?",
-        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, all-inclusive rate — tolls, taxes, and gratuity included. Call (877) 609-1919 for an exact quote."
+        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, transparent rate — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 for an exact quote."
       },
       {
         "q": "Can you handle multiple stops or pickups?",
@@ -6170,7 +6254,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -6178,12 +6262,13 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Luxury Car Service Maryland",
-    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919."
+    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919.",
+    "category": "service"
   },
 
   "chauffeur-service-baltimore": {
     "metaTitle": "Chauffeur Service Baltimore | 92 Limo Service",
-    "metaDescription": "Chauffeur Service Baltimore with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Baltimore 24/7.",
+    "metaDescription": "Chauffeur Service Baltimore with professional chauffeurs, luxury vehicles & flat transparent rates. Serving Baltimore 24/7. Book online or call (877) 609-1919.",
     "eyebrow": "CHAUFFEUR SERVICE BALTIMORE",
     "h1": "Chauffeur Service Baltimore",
     "subtitle": "Chauffeured chauffeur service for hourly hires, events, and airport travel — flat rates, luxury vehicles, and flawless timing across Baltimore.",
@@ -6194,7 +6279,7 @@ export const GENERATED_LANDING_PAGES = {
       "Some rides are just transportation. Chauffeur Service from 92 Limo Service is part of the event. We provide chauffeured luxury vehicles for hourly hires, events, and airport travel throughout Baltimore — polished, punctual, and priced flat.",
       "Tell us the plan and we build the transportation around it: multiple pickups, photo stops, venue timing, late-night returns. Your chauffeur coordinates with you by text, stays reachable all night, and adapts when the schedule moves.",
       "The fleet fits every version of the night. A BMW 7 Series or S-Class for an elegant arrival. An Escalade for the crew. A Sprinter for the whole party, with room to celebrate on the way. Every vehicle is detailed before pickup and stocked with water.",
-      "We serve the Inner Harbor, Fells Point, and Baltimore County and everywhere between. One flat quote covers the night — tolls, taxes, and gratuity included. Call (877) 609-1919 or book online."
+      "We serve the Inner Harbor, Fells Point, and Baltimore County and everywhere between. One flat quote covers the night — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or book online."
     ],
     "highlights": [
       {
@@ -6206,8 +6291,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -6230,7 +6315,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does chauffeur service cost in Baltimore?",
-        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, all-inclusive rate — tolls, taxes, and gratuity included. Call (877) 609-1919 for an exact quote."
+        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, transparent rate — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 for an exact quote."
       },
       {
         "q": "Can you handle multiple stops or pickups?",
@@ -6242,7 +6327,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -6250,12 +6335,13 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Chauffeur Service Baltimore",
-    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919."
+    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919.",
+    "category": "service"
   },
 
   "chauffeur-service-washington-dc": {
     "metaTitle": "Chauffeur Service Washington DC | 92 Limo Service",
-    "metaDescription": "Chauffeur Service Washington DC with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Washington DC 24/7.",
+    "metaDescription": "Chauffeur Service Washington DC with professional chauffeurs, luxury vehicles & flat transparent rates. Serving Washington DC 24/7.",
     "eyebrow": "CHAUFFEUR SERVICE WASHINGTON DC",
     "h1": "Chauffeur Service Washington DC",
     "subtitle": "Chauffeured chauffeur service for hourly hires, embassy visits, and evening events — flat rates, luxury vehicles, and flawless timing across Washington DC.",
@@ -6263,7 +6349,7 @@ export const GENERATED_LANDING_PAGES = {
     "alt": "Chauffeur Service Washington DC — 92 Limo Service luxury vehicle",
     "highlightsHeading": "Why Book Your chauffeur With Us",
     "intro": [
-      "92 Limo Service delivers chauffeur service across Washington DC that actually lives up to the occasion. From Georgetown, Capitol Hill, and Dupont Circle, we cover hourly hires, embassy visits, and evening events with immaculate luxury vehicles, professional chauffeurs, and flat all-inclusive pricing.",
+      "92 Limo Service delivers chauffeur service across Washington DC that actually lives up to the occasion. From Georgetown, Capitol Hill, and Dupont Circle, we cover hourly hires, embassy visits, and evening events with immaculate luxury vehicles, professional chauffeurs, and flat transparent pricing.",
       "Every detail is planned in advance: pickup times that fit your schedule, routes that dodge traffic, and a chauffeur who arrives early and stays flexible. You will never watch a surge-price countdown or wonder if the driver will show.",
       "Groups are our strength. Our Cadillac Escalades and Suburbans carry up to six in comfort, and our Mercedes Sprinter vans keep parties of up to 14 together — no splitting the group across rideshares, no one left waiting.",
       "Booking takes minutes: request a quote online or call (877) 609-1919, approve a flat rate, and consider it handled. That is why Washington DC clients use us again and again."
@@ -6278,8 +6364,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -6302,7 +6388,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does chauffeur service cost in Washington DC?",
-        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, all-inclusive rate — tolls, taxes, and gratuity included. Call (877) 609-1919 for an exact quote."
+        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, transparent rate — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 for an exact quote."
       },
       {
         "q": "Can you handle multiple stops or pickups?",
@@ -6314,7 +6400,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -6322,12 +6408,13 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Chauffeur Service Washington DC",
-    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919."
+    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919.",
+    "category": "service"
   },
 
   "birthday-limo-maryland": {
     "metaTitle": "Birthday Limo Service Maryland | 92 Limo Service",
-    "metaDescription": "Birthday Limo Service Maryland with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Maryland 24/7.",
+    "metaDescription": "Birthday Limo Service Maryland with professional chauffeurs, luxury vehicles & flat transparent rates. Serving Maryland 24/7.",
     "eyebrow": "BIRTHDAY LIMO SERVICE MARYLAND",
     "h1": "Birthday Limo Service Maryland",
     "subtitle": "Chauffeured birthday limo service for milestone birthdays, surprise pickups, and nights out — flat rates, luxury vehicles, and flawless timing across Maryland.",
@@ -6338,7 +6425,7 @@ export const GENERATED_LANDING_PAGES = {
       "Some rides are just transportation. Birthday Limo Service from 92 Limo Service is part of the event. We provide chauffeured luxury vehicles for milestone birthdays, surprise pickups, and nights out throughout Maryland — polished, punctual, and priced flat.",
       "Tell us the plan and we build the transportation around it: multiple pickups, photo stops, venue timing, late-night returns. Your chauffeur coordinates with you by text, stays reachable all night, and adapts when the schedule moves.",
       "The fleet fits every version of the night. A BMW 7 Series or S-Class for an elegant arrival. An Escalade for the crew. A Sprinter for the whole party, with room to celebrate on the way. Every vehicle is detailed before pickup and stocked with water.",
-      "We serve restaurants, rooftop bars, and casinos across the state and everywhere between. One flat quote covers the night — tolls, taxes, and gratuity included. Call (877) 609-1919 or book online."
+      "We serve restaurants, rooftop bars, and casinos across the state and everywhere between. One flat quote covers the night — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or book online."
     ],
     "highlights": [
       {
@@ -6350,8 +6437,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -6374,7 +6461,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does birthday limo service cost in Maryland?",
-        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, all-inclusive rate — tolls, taxes, and gratuity included. Call (877) 609-1919 for an exact quote."
+        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, transparent rate — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 for an exact quote."
       },
       {
         "q": "Can you handle multiple stops or pickups?",
@@ -6386,7 +6473,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -6394,12 +6481,13 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Birthday Limo Service Maryland",
-    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919."
+    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919.",
+    "category": "service"
   },
 
   "bachelorette-party-limo": {
     "metaTitle": "Bachelorette Party Limo | 92 Limo Service",
-    "metaDescription": "Bachelorette Party Limo with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Maryland and DC 24/7.",
+    "metaDescription": "Bachelorette Party Limo with professional chauffeurs, luxury vehicles & flat transparent rates. Serving Maryland and DC 24/7.",
     "eyebrow": "BACHELORETTE PARTY LIMO",
     "h1": "Bachelorette Party Limo",
     "subtitle": "Chauffeured bachelorette party limo service for bachelorette and bachelor parties, winery crawls, and club nights — flat rates, luxury vehicles, and flawless timing across Maryland and DC.",
@@ -6407,7 +6495,7 @@ export const GENERATED_LANDING_PAGES = {
     "alt": "Bachelorette Party Limo — 92 Limo Service luxury vehicle",
     "highlightsHeading": "Why Book Your bachelorette party limo With Us",
     "intro": [
-      "92 Limo Service delivers bachelorette party limo service across Maryland and DC that actually lives up to the occasion. From Fells Point, the Wharf, and Maryland wine country, we cover bachelorette and bachelor parties, winery crawls, and club nights with immaculate luxury vehicles, professional chauffeurs, and flat all-inclusive pricing.",
+      "92 Limo Service delivers bachelorette party limo service across Maryland and DC that actually lives up to the occasion. From Fells Point, the Wharf, and Maryland wine country, we cover bachelorette and bachelor parties, winery crawls, and club nights with immaculate luxury vehicles, professional chauffeurs, and flat transparent pricing.",
       "Every detail is planned in advance: pickup times that fit your schedule, routes that dodge traffic, and a chauffeur who arrives early and stays flexible. You will never watch a surge-price countdown or wonder if the driver will show.",
       "Groups are our strength. Our Cadillac Escalades and Suburbans carry up to six in comfort, and our Mercedes Sprinter vans keep parties of up to 14 together — no splitting the group across rideshares, no one left waiting.",
       "Booking takes minutes: request a quote online or call (877) 609-1919, approve a flat rate, and consider it handled. That is why Maryland and DC clients use us again and again."
@@ -6422,8 +6510,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -6446,7 +6534,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does bachelorette party limo service cost in Maryland and DC?",
-        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, all-inclusive rate — tolls, taxes, and gratuity included. Call (877) 609-1919 for an exact quote."
+        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, transparent rate — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 for an exact quote."
       },
       {
         "q": "Can you handle multiple stops or pickups?",
@@ -6458,7 +6546,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -6466,12 +6554,13 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Bachelorette Party Limo",
-    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919."
+    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919.",
+    "category": "service"
   },
 
   "wine-tour-limo-maryland": {
     "metaTitle": "Wine Tour Limo Maryland | 92 Limo Service",
-    "metaDescription": "Wine Tour Limo Maryland with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Maryland 24/7. Book online or call (877) 609-1919.",
+    "metaDescription": "Wine Tour Limo Maryland with professional chauffeurs, luxury vehicles & flat transparent rates. Serving Maryland 24/7. Book online or call (877) 609-1919.",
     "eyebrow": "WINE TOUR LIMO MARYLAND",
     "h1": "Wine Tour Limo Maryland",
     "subtitle": "Chauffeured wine tour limo service for winery tours, brewery crawls, and vineyard weddings — flat rates, luxury vehicles, and flawless timing across Maryland.",
@@ -6482,7 +6571,7 @@ export const GENERATED_LANDING_PAGES = {
       "Some rides are just transportation. Wine Tour Limo from 92 Limo Service is part of the event. We provide chauffeured luxury vehicles for winery tours, brewery crawls, and vineyard weddings throughout Maryland — polished, punctual, and priced flat.",
       "Tell us the plan and we build the transportation around it: multiple pickups, photo stops, venue timing, late-night returns. Your chauffeur coordinates with you by text, stays reachable all night, and adapts when the schedule moves.",
       "The fleet fits every version of the night. A BMW 7 Series or S-Class for an elegant arrival. An Escalade for the crew. A Sprinter for the whole party, with room to celebrate on the way. Every vehicle is detailed before pickup and stocked with water.",
-      "We serve Boordy Vineyards, Black Ankle, and Linganore wine country and everywhere between. One flat quote covers the night — tolls, taxes, and gratuity included. Call (877) 609-1919 or book online."
+      "We serve Boordy Vineyards, Black Ankle, and Linganore wine country and everywhere between. One flat quote covers the night — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or book online."
     ],
     "highlights": [
       {
@@ -6494,8 +6583,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -6518,7 +6607,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does wine tour limo service cost in Maryland?",
-        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, all-inclusive rate — tolls, taxes, and gratuity included. Call (877) 609-1919 for an exact quote."
+        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, transparent rate — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 for an exact quote."
       },
       {
         "q": "Can you handle multiple stops or pickups?",
@@ -6530,7 +6619,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -6538,12 +6627,13 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Wine Tour Limo Maryland",
-    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919."
+    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919.",
+    "category": "service"
   },
 
   "casino-trip-limo": {
     "metaTitle": "Casino Trip Limo Service | 92 Limo Service",
-    "metaDescription": "Casino Trip Limo Service with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Maryland and DC 24/7.",
+    "metaDescription": "Casino Trip Limo Service with professional chauffeurs, luxury vehicles & flat transparent rates. Serving Maryland and DC 24/7.",
     "eyebrow": "CASINO TRIP LIMO SERVICE",
     "h1": "Casino Trip Limo Service",
     "subtitle": "Chauffeured casino limo service for casino nights, poker runs, and group outings — flat rates, luxury vehicles, and flawless timing across Maryland and DC.",
@@ -6551,7 +6641,7 @@ export const GENERATED_LANDING_PAGES = {
     "alt": "Casino Trip Limo Service — 92 Limo Service luxury vehicle",
     "highlightsHeading": "Why Book Your casino limo With Us",
     "intro": [
-      "92 Limo Service delivers casino limo service across Maryland and DC that actually lives up to the occasion. From Live! Casino, MGM National Harbor, and Horseshoe Baltimore, we cover casino nights, poker runs, and group outings with immaculate luxury vehicles, professional chauffeurs, and flat all-inclusive pricing.",
+      "92 Limo Service delivers casino limo service across Maryland and DC that actually lives up to the occasion. From Live! Casino, MGM National Harbor, and Horseshoe Baltimore, we cover casino nights, poker runs, and group outings with immaculate luxury vehicles, professional chauffeurs, and flat transparent pricing.",
       "Every detail is planned in advance: pickup times that fit your schedule, routes that dodge traffic, and a chauffeur who arrives early and stays flexible. You will never watch a surge-price countdown or wonder if the driver will show.",
       "Groups are our strength. Our Cadillac Escalades and Suburbans carry up to six in comfort, and our Mercedes Sprinter vans keep parties of up to 14 together — no splitting the group across rideshares, no one left waiting.",
       "Booking takes minutes: request a quote online or call (877) 609-1919, approve a flat rate, and consider it handled. That is why Maryland and DC clients use us again and again."
@@ -6566,8 +6656,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -6590,7 +6680,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does casino limo service cost in Maryland and DC?",
-        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, all-inclusive rate — tolls, taxes, and gratuity included. Call (877) 609-1919 for an exact quote."
+        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, transparent rate — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 for an exact quote."
       },
       {
         "q": "Can you handle multiple stops or pickups?",
@@ -6602,7 +6692,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -6610,12 +6700,13 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Casino Trip Limo Service",
-    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919."
+    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919.",
+    "category": "service"
   },
 
   "concert-limo-dc": {
     "metaTitle": "Concert Limo Service Washington DC | 92 Limo Service",
-    "metaDescription": "Concert Limo Service Washington DC with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Washington DC 24/7.",
+    "metaDescription": "Concert Limo Service Washington DC with professional chauffeurs, luxury vehicles & flat transparent rates. Serving Washington DC 24/7.",
     "eyebrow": "CONCERT LIMO SERVICE WASHINGTON DC",
     "h1": "Concert Limo Service Washington DC",
     "subtitle": "Chauffeured concert limo service for concerts, shows, and festival nights — flat rates, luxury vehicles, and flawless timing across Washington DC.",
@@ -6626,7 +6717,7 @@ export const GENERATED_LANDING_PAGES = {
       "Some rides are just transportation. Concert Limo Service from 92 Limo Service is part of the event. We provide chauffeured luxury vehicles for concerts, shows, and festival nights throughout Washington DC — polished, punctual, and priced flat.",
       "Tell us the plan and we build the transportation around it: multiple pickups, photo stops, venue timing, late-night returns. Your chauffeur coordinates with you by text, stays reachable all night, and adapts when the schedule moves.",
       "The fleet fits every version of the night. A BMW 7 Series or S-Class for an elegant arrival. An Escalade for the crew. A Sprinter for the whole party, with room to celebrate on the way. Every vehicle is detailed before pickup and stocked with water.",
-      "We serve Capital One Arena, the Anthem, and Merriweather Post Pavilion and everywhere between. One flat quote covers the night — tolls, taxes, and gratuity included. Call (877) 609-1919 or book online."
+      "We serve Capital One Arena, the Anthem, and Merriweather Post Pavilion and everywhere between. One flat quote covers the night — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or book online."
     ],
     "highlights": [
       {
@@ -6638,8 +6729,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -6662,7 +6753,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does concert limo service cost in Washington DC?",
-        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, all-inclusive rate — tolls, taxes, and gratuity included. Call (877) 609-1919 for an exact quote."
+        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, transparent rate — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 for an exact quote."
       },
       {
         "q": "Can you handle multiple stops or pickups?",
@@ -6674,7 +6765,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -6682,12 +6773,13 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Concert Limo Service Washington DC",
-    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919."
+    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919.",
+    "category": "service"
   },
 
   "sports-event-transportation-dc": {
     "metaTitle": "Sports Event Transportation Washington DC | 92 Limo Service",
-    "metaDescription": "Sports Event Transportation Washington DC with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Washington DC 24/7.",
+    "metaDescription": "Sports Event Transportation Washington DC with professional chauffeurs, luxury vehicles & flat transparent rates. Serving Washington DC 24/7.",
     "eyebrow": "SPORTS EVENT TRANSPORTATION WASHINGTON DC",
     "h1": "Sports Event Transportation Washington DC",
     "subtitle": "Chauffeured sports event transportation for game days, tailgates, and championship nights — flat rates, luxury vehicles, and flawless timing across Washington DC.",
@@ -6695,7 +6787,7 @@ export const GENERATED_LANDING_PAGES = {
     "alt": "Sports Event Transportation Washington DC — 92 Limo Service luxury vehicle",
     "highlightsHeading": "Why Book Your sports event transportation With Us",
     "intro": [
-      "92 Limo Service delivers sports event transportation across Washington DC that actually lives up to the occasion. From Capital One Arena, Nationals Park, Audi Field, and FedEx Field, we cover game days, tailgates, and championship nights with immaculate luxury vehicles, professional chauffeurs, and flat all-inclusive pricing.",
+      "92 Limo Service delivers sports event transportation across Washington DC that actually lives up to the occasion. From Capital One Arena, Nationals Park, Audi Field, and FedEx Field, we cover game days, tailgates, and championship nights with immaculate luxury vehicles, professional chauffeurs, and flat transparent pricing.",
       "Every detail is planned in advance: pickup times that fit your schedule, routes that dodge traffic, and a chauffeur who arrives early and stays flexible. You will never watch a surge-price countdown or wonder if the driver will show.",
       "Groups are our strength. Our Cadillac Escalades and Suburbans carry up to six in comfort, and our Mercedes Sprinter vans keep parties of up to 14 together — no splitting the group across rideshares, no one left waiting.",
       "Booking takes minutes: request a quote online or call (877) 609-1919, approve a flat rate, and consider it handled. That is why Washington DC clients use us again and again."
@@ -6710,8 +6802,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -6734,7 +6826,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does sports event transportation cost in Washington DC?",
-        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, all-inclusive rate — tolls, taxes, and gratuity included. Call (877) 609-1919 for an exact quote."
+        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, transparent rate — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 for an exact quote."
       },
       {
         "q": "Can you handle multiple stops or pickups?",
@@ -6746,7 +6838,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -6754,12 +6846,13 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Sports Event Transportation Washington DC",
-    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919."
+    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919.",
+    "category": "service"
   },
 
   "graduation-limo-maryland": {
     "metaTitle": "Graduation Limo Service Maryland | 92 Limo Service",
-    "metaDescription": "Graduation Limo Service Maryland with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Maryland 24/7.",
+    "metaDescription": "Graduation Limo Service Maryland with professional chauffeurs, luxury vehicles & flat transparent rates. Serving Maryland 24/7.",
     "eyebrow": "GRADUATION LIMO SERVICE MARYLAND",
     "h1": "Graduation Limo Service Maryland",
     "subtitle": "Chauffeured graduation limo service for commencements, family celebrations, and campus pickups — flat rates, luxury vehicles, and flawless timing across Maryland.",
@@ -6770,7 +6863,7 @@ export const GENERATED_LANDING_PAGES = {
       "Some rides are just transportation. Graduation Limo Service from 92 Limo Service is part of the event. We provide chauffeured luxury vehicles for commencements, family celebrations, and campus pickups throughout Maryland — polished, punctual, and priced flat.",
       "Tell us the plan and we build the transportation around it: multiple pickups, photo stops, venue timing, late-night returns. Your chauffeur coordinates with you by text, stays reachable all night, and adapts when the schedule moves.",
       "The fleet fits every version of the night. A BMW 7 Series or S-Class for an elegant arrival. An Escalade for the crew. A Sprinter for the whole party, with room to celebrate on the way. Every vehicle is detailed before pickup and stocked with water.",
-      "We serve UMD College Park, Johns Hopkins, Towson, UMBC, and the Naval Academy and everywhere between. One flat quote covers the night — tolls, taxes, and gratuity included. Call (877) 609-1919 or book online."
+      "We serve UMD College Park, Johns Hopkins, Towson, UMBC, and the Naval Academy and everywhere between. One flat quote covers the night — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or book online."
     ],
     "highlights": [
       {
@@ -6782,8 +6875,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -6806,7 +6899,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does graduation limo service cost in Maryland?",
-        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, all-inclusive rate — tolls, taxes, and gratuity included. Call (877) 609-1919 for an exact quote."
+        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, transparent rate — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 for an exact quote."
       },
       {
         "q": "Can you handle multiple stops or pickups?",
@@ -6818,7 +6911,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -6826,12 +6919,13 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Graduation Limo Service Maryland",
-    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919."
+    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919.",
+    "category": "service"
   },
 
   "funeral-transportation-maryland": {
     "metaTitle": "Funeral Transportation Maryland | 92 Limo Service",
-    "metaDescription": "Funeral Transportation Maryland with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Maryland 24/7.",
+    "metaDescription": "Funeral Transportation Maryland with professional chauffeurs, luxury vehicles & flat transparent rates. Serving Maryland 24/7.",
     "eyebrow": "FUNERAL TRANSPORTATION MARYLAND",
     "h1": "Funeral Transportation Maryland",
     "subtitle": "Dignified, punctual chauffeured transportation for services and family — handled with care across Maryland.",
@@ -6854,8 +6948,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "SUVs and Sprinter vans keep extended family in one vehicle between service locations."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -6878,7 +6972,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does funeral transportation cost in Maryland?",
-        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, all-inclusive rate — tolls, taxes, and gratuity included. Call (877) 609-1919 for an exact quote."
+        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, transparent rate — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 for an exact quote."
       },
       {
         "q": "Can you coordinate with our funeral director?",
@@ -6890,7 +6984,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -6898,12 +6992,13 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Let Us Handle the Transportation",
-    "ctaSubtitle": "Dignified service, gently coordinated — call (877) 609-1919 any time."
+    "ctaSubtitle": "Dignified service, gently coordinated — call (877) 609-1919 any time.",
+    "category": "service"
   },
 
   "hospital-transportation-maryland": {
     "metaTitle": "Hospital Transportation Maryland | 92 Limo Service",
-    "metaDescription": "Hospital Transportation Maryland with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving Maryland 24/7.",
+    "metaDescription": "Hospital Transportation Maryland with professional chauffeurs, luxury vehicles & flat transparent rates. Serving Maryland 24/7.",
     "eyebrow": "HOSPITAL TRANSPORTATION MARYLAND",
     "h1": "Hospital Transportation Maryland",
     "subtitle": "Safe, comfortable non-emergency medical transportation across Maryland — door to door, on your schedule.",
@@ -6926,8 +7021,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Set a treatment schedule once — the same dependable service shows up for every appointment."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -6950,7 +7045,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does hospital transportation cost in Maryland?",
-        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, all-inclusive rate — tolls, taxes, and gratuity included. Call (877) 609-1919 for an exact quote."
+        "a": "Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, transparent rate — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 for an exact quote."
       },
       {
         "q": "Can you transport a patient after a procedure?",
@@ -6962,7 +7057,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -6970,7 +7065,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Your Hospital Transportation Maryland",
-    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919."
+    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919.",
+    "category": "service"
   },
 
   "mercedes-s-class-rental-maryland": {
@@ -6986,7 +7082,7 @@ export const GENERATED_LANDING_PAGES = {
       "Reserve the Mercedes-Benz S-Class — a flagship luxury sedan seating up to 3 passengers — with a professional chauffeur from 92 Limo Service. It is the right vehicle for executive travel, weddings, and VIP airport transfers, and it arrives detailed, fueled, and stocked with water and chargers.",
       "This is chauffeured service, not a rental counter. Your licensed, background-checked chauffeur handles the driving, the luggage, and the timing, so you use the ride to work, relax, or celebrate. Hourly hires, one-way transfers, and airport runs are all available.",
       "The Mercedes-Benz S-Class pairs beautifully with the rest of our fleet for larger plans: sedans lead the executive convoy, SUVs carry the family, and Sprinter vans move the whole group. Mixed-vehicle bookings for weddings and corporate events are quoted as one flat package.",
-      "Availability is 24/7 across Maryland, Washington DC, and Northern Virginia. Request your quote online or call (877) 609-1919 — every booking is confirmed with one flat, all-inclusive rate."
+      "Availability is 24/7 across Maryland, Washington DC, and Northern Virginia. Request your quote online or call (877) 609-1919 — every booking is confirmed with one flat, transparent rate."
     ],
     "highlights": [
       {
@@ -7002,8 +7098,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Book a one-way transfer at a flat rate, or keep the vehicle by the hour for multi-stop plans."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -7034,7 +7130,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -7042,7 +7138,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Reserve the Mercedes-Benz S-Class",
-    "ctaSubtitle": "Chauffeur-driven, flat-rated, and detailed before every trip — book online or call (877) 609-1919."
+    "ctaSubtitle": "Chauffeur-driven, flat-rated, and detailed before every trip — book online or call (877) 609-1919.",
+    "category": "vehicle"
   },
 
   "cadillac-escalade-limo": {
@@ -7074,8 +7171,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Book a one-way transfer at a flat rate, or keep the vehicle by the hour for multi-stop plans."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -7106,7 +7203,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -7114,7 +7211,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Reserve the Cadillac Escalade",
-    "ctaSubtitle": "Chauffeur-driven, flat-rated, and detailed before every trip — book online or call (877) 609-1919."
+    "ctaSubtitle": "Chauffeur-driven, flat-rated, and detailed before every trip — book online or call (877) 609-1919.",
+    "category": "vehicle"
   },
 
   "lincoln-navigator-limo": {
@@ -7130,7 +7228,7 @@ export const GENERATED_LANDING_PAGES = {
       "Reserve the Lincoln Navigator — a American luxury SUV seating up to 6 passengers — with a professional chauffeur from 92 Limo Service. It is the right vehicle for airport transfers, proms, and group nights out, and it arrives detailed, fueled, and stocked with water and chargers.",
       "This is chauffeured service, not a rental counter. Your licensed, background-checked chauffeur handles the driving, the luggage, and the timing, so you use the ride to work, relax, or celebrate. Hourly hires, one-way transfers, and airport runs are all available.",
       "The Lincoln Navigator pairs beautifully with the rest of our fleet for larger plans: sedans lead the executive convoy, SUVs carry the family, and Sprinter vans move the whole group. Mixed-vehicle bookings for weddings and corporate events are quoted as one flat package.",
-      "Availability is 24/7 across Maryland, Washington DC, and Northern Virginia. Request your quote online or call (877) 609-1919 — every booking is confirmed with one flat, all-inclusive rate."
+      "Availability is 24/7 across Maryland, Washington DC, and Northern Virginia. Request your quote online or call (877) 609-1919 — every booking is confirmed with one flat, transparent rate."
     ],
     "highlights": [
       {
@@ -7146,8 +7244,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Book a one-way transfer at a flat rate, or keep the vehicle by the hour for multi-stop plans."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -7178,7 +7276,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -7186,7 +7284,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Reserve the Lincoln Navigator",
-    "ctaSubtitle": "Chauffeur-driven, flat-rated, and detailed before every trip — book online or call (877) 609-1919."
+    "ctaSubtitle": "Chauffeur-driven, flat-rated, and detailed before every trip — book online or call (877) 609-1919.",
+    "category": "vehicle"
   },
 
   "sprinter-van-rental-maryland": {
@@ -7218,8 +7317,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Book a one-way transfer at a flat rate, or keep the vehicle by the hour for multi-stop plans."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -7250,7 +7349,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -7258,7 +7357,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Reserve the Mercedes Sprinter",
-    "ctaSubtitle": "Chauffeur-driven, flat-rated, and detailed before every trip — book online or call (877) 609-1919."
+    "ctaSubtitle": "Chauffeur-driven, flat-rated, and detailed before every trip — book online or call (877) 609-1919.",
+    "category": "vehicle"
   },
 
   "party-bus-baltimore": {
@@ -7274,7 +7374,7 @@ export const GENERATED_LANDING_PAGES = {
       "Reserve the Sprinter Limo — a limo-style party van seating up to 12 passengers — with a professional chauffeur from 92 Limo Service. It is the right vehicle for birthdays, bachelorette parties, and nights on the town, and it arrives detailed, fueled, and stocked with water and chargers.",
       "This is chauffeured service, not a rental counter. Your licensed, background-checked chauffeur handles the driving, the luggage, and the timing, so you use the ride to work, relax, or celebrate. Hourly hires, one-way transfers, and airport runs are all available.",
       "The Sprinter Limo pairs beautifully with the rest of our fleet for larger plans: sedans lead the executive convoy, SUVs carry the family, and Sprinter vans move the whole group. Mixed-vehicle bookings for weddings and corporate events are quoted as one flat package.",
-      "Availability is 24/7 across Maryland, Washington DC, and Northern Virginia. Request your quote online or call (877) 609-1919 — every booking is confirmed with one flat, all-inclusive rate."
+      "Availability is 24/7 across Maryland, Washington DC, and Northern Virginia. Request your quote online or call (877) 609-1919 — every booking is confirmed with one flat, transparent rate."
     ],
     "highlights": [
       {
@@ -7290,8 +7390,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Book a one-way transfer at a flat rate, or keep the vehicle by the hour for multi-stop plans."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -7322,7 +7422,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -7330,7 +7430,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Reserve the Sprinter Limo",
-    "ctaSubtitle": "Chauffeur-driven, flat-rated, and detailed before every trip — book online or call (877) 609-1919."
+    "ctaSubtitle": "Chauffeur-driven, flat-rated, and detailed before every trip — book online or call (877) 609-1919.",
+    "category": "vehicle"
   },
 
   "stretch-limo-baltimore": {
@@ -7362,8 +7463,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Book a one-way transfer at a flat rate, or keep the vehicle by the hour for multi-stop plans."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -7394,7 +7495,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -7402,7 +7503,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Reserve the Sprinter Limo",
-    "ctaSubtitle": "Chauffeur-driven, flat-rated, and detailed before every trip — book online or call (877) 609-1919."
+    "ctaSubtitle": "Chauffeur-driven, flat-rated, and detailed before every trip — book online or call (877) 609-1919.",
+    "category": "vehicle"
   },
 
   "suv-car-service-dc": {
@@ -7418,7 +7520,7 @@ export const GENERATED_LANDING_PAGES = {
       "Reserve the Chevrolet Suburban — a full-size luxury SUV seating up to 6 passengers — with a professional chauffeur from 92 Limo Service. It is the right vehicle for families with luggage, security details, and group airport travel, and it arrives detailed, fueled, and stocked with water and chargers.",
       "This is chauffeured service, not a rental counter. Your licensed, background-checked chauffeur handles the driving, the luggage, and the timing, so you use the ride to work, relax, or celebrate. Hourly hires, one-way transfers, and airport runs are all available.",
       "The Chevrolet Suburban pairs beautifully with the rest of our fleet for larger plans: sedans lead the executive convoy, SUVs carry the family, and Sprinter vans move the whole group. Mixed-vehicle bookings for weddings and corporate events are quoted as one flat package.",
-      "Availability is 24/7 across Maryland, Washington DC, and Northern Virginia. Request your quote online or call (877) 609-1919 — every booking is confirmed with one flat, all-inclusive rate."
+      "Availability is 24/7 across Maryland, Washington DC, and Northern Virginia. Request your quote online or call (877) 609-1919 — every booking is confirmed with one flat, transparent rate."
     ],
     "highlights": [
       {
@@ -7434,8 +7536,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Book a one-way transfer at a flat rate, or keep the vehicle by the hour for multi-stop plans."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -7466,7 +7568,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -7474,7 +7576,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Reserve the Chevrolet Suburban",
-    "ctaSubtitle": "Chauffeur-driven, flat-rated, and detailed before every trip — book online or call (877) 609-1919."
+    "ctaSubtitle": "Chauffeur-driven, flat-rated, and detailed before every trip — book online or call (877) 609-1919.",
+    "category": "vehicle"
   },
 
   "bmw-7-series-chauffeur": {
@@ -7506,8 +7609,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "Book a one-way transfer at a flat rate, or keep the vehicle by the hour for multi-stop plans."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -7538,7 +7641,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -7546,23 +7649,24 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Reserve the BMW 7 Series",
-    "ctaSubtitle": "Chauffeur-driven, flat-rated, and detailed before every trip — book online or call (877) 609-1919."
+    "ctaSubtitle": "Chauffeur-driven, flat-rated, and detailed before every trip — book online or call (877) 609-1919.",
+    "category": "vehicle"
   },
 
   "baltimore-to-dc-car-service": {
     "metaTitle": "Baltimore to DC Car Service | 92 Limo Service",
-    "metaDescription": "Baltimore to DC Car Service: private chauffeured transfer, 55–75 minutes door-to-door. Flat all-inclusive rate, luxury vehicles, 24/7.",
+    "metaDescription": "Baltimore to DC Car Service: private chauffeured transfer, 55–75 minutes door-to-door. Flat transparent rate, luxury vehicles, 24/7.",
     "eyebrow": "BALTIMORE → WASHINGTON DC",
     "h1": "Baltimore to DC Car Service",
-    "subtitle": "Private chauffeured transfers from Baltimore to Washington DC — 55–75 minutes door-to-door at one flat, all-inclusive rate.",
+    "subtitle": "Private chauffeured transfers from Baltimore to Washington DC — 55–75 minutes door-to-door at one flat, transparent rate.",
     "image": IMAGES.longDistance,
     "alt": "Luxury chauffeured vehicle — baltimore to dc car service by 92 Limo Service",
     "highlightsHeading": "The Smart Way to Travel Baltimore → Washington DC",
     "intro": [
-      "92 Limo Service provides private, chauffeured car service from Baltimore to Washington DC — 40 miles of door-to-door comfort, typically 55–75 minutes via the BW Parkway or I-95. One flat rate, quoted before you book, covers the entire trip including tolls, taxes, and gratuity.",
+      "92 Limo Service provides private, chauffeured car service from Baltimore to Washington DC — 40 miles of door-to-door comfort, typically 55–75 minutes via the BW Parkway or I-95. One flat rate, quoted before you book, covers the base transportation charge for the entire trip — gratuity, tolls, parking, and any other applicable charges are disclosed before confirmation.",
       "Your chauffeur arrives early, loads every bag, and plans the route in real time around traffic. Drop-off works at any address: Capitol Hill, K Street offices, Georgetown, and every downtown hotel. Reverse trips, round trips, and late-night departures are all available 24/7.",
       "Compare the alternatives: rideshares surge and cancel on long runs, trains lock you to a schedule and a station, and driving yourself means traffic, tolls, and parking. A private chauffeured transfer costs a known flat amount and turns the drive into productive or restful time.",
-      "Choose a Mercedes E-Class or BMW 7 Series for solo and business travel, an Escalade or Suburban for families and luggage, or a Sprinter van that keeps groups of up to 14 together. Call (877) 609-1919 or book online — every reservation is confirmed with an all-inclusive quote."
+      "Choose a Mercedes E-Class or BMW 7 Series for solo and business travel, an Escalade or Suburban for families and luggage, or a Sprinter van that keeps groups of up to 14 together. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote."
     ],
     "highlights": [
       {
@@ -7574,8 +7678,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "About 40 miles via the BW Parkway or I-95, with your chauffeur routing around slowdowns in real time."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -7598,7 +7702,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does car service from Baltimore to Washington DC cost?",
-        "a": "The trip is quoted as one flat, all-inclusive rate based on vehicle choice — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "The trip is quoted as one flat, transparent rate based on vehicle choice — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long does the trip take?",
@@ -7610,7 +7714,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -7618,20 +7722,21 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Baltimore to Washington DC",
-    "ctaSubtitle": "Private, flat-rated, and chauffeured — reserve your transfer in minutes."
+    "ctaSubtitle": "Private, flat-rated, and chauffeured — reserve your transfer in minutes.",
+    "category": "route"
   },
 
   "dc-to-baltimore-limo": {
     "metaTitle": "DC to Baltimore Limo Service | 92 Limo Service",
-    "metaDescription": "DC to Baltimore Limo Service: private chauffeured transfer, 55–75 minutes door-to-door. Flat all-inclusive rate, luxury vehicles, 24/7.",
+    "metaDescription": "DC to Baltimore Limo Service: private chauffeured transfer, 55–75 minutes door-to-door. Flat transparent rate, luxury vehicles, 24/7.",
     "eyebrow": "WASHINGTON DC → BALTIMORE",
     "h1": "DC to Baltimore Limo Service",
-    "subtitle": "Private chauffeured transfers from Washington DC to Baltimore — 55–75 minutes door-to-door at one flat, all-inclusive rate.",
+    "subtitle": "Private chauffeured transfers from Washington DC to Baltimore — 55–75 minutes door-to-door at one flat, transparent rate.",
     "image": IMAGES.dcSkyline,
     "alt": "Luxury chauffeured vehicle — dc to baltimore limo service by 92 Limo Service",
     "highlightsHeading": "The Smart Way to Travel Washington DC → Baltimore",
     "intro": [
-      "Need a reliable ride from Washington DC to Baltimore? 92 Limo Service runs this route every week — about 40 miles in 55–75 minutes via the BW Parkway or I-295 — with professional chauffeurs, luxury vehicles, and flat all-inclusive pricing.",
+      "Need a reliable ride from Washington DC to Baltimore? 92 Limo Service runs this route every week — about 40 miles in 55–75 minutes via the BW Parkway or I-295 — with professional chauffeurs, luxury vehicles, and flat transparent pricing.",
       "Everything is door-to-door. We pick you up at home, the office, or the terminal, and deliver you to the Inner Harbor, Harbor East, Johns Hopkins, and Camden Yards. Luggage help is included, water and chargers are on board, and the cabin stays quiet enough to work or nap the whole way.",
       "Long-distance trips are where chauffeured service earns its keep: no surge pricing, no driver cancellations an hour before departure, and no handoffs. The vehicle that picks you up is the vehicle that drops you off, with the same chauffeur throughout.",
       "Round trips and multi-day itineraries are welcome, and corporate accounts get priority scheduling with consolidated billing. Reserve online in minutes or call (877) 609-1919 — we operate 24/7."
@@ -7646,8 +7751,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "About 40 miles via the BW Parkway or I-295, with your chauffeur routing around slowdowns in real time."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -7670,7 +7775,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does car service from Washington DC to Baltimore cost?",
-        "a": "The trip is quoted as one flat, all-inclusive rate based on vehicle choice — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "The trip is quoted as one flat, transparent rate based on vehicle choice — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long does the trip take?",
@@ -7682,7 +7787,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -7690,23 +7795,24 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Washington DC to Baltimore",
-    "ctaSubtitle": "Private, flat-rated, and chauffeured — reserve your transfer in minutes."
+    "ctaSubtitle": "Private, flat-rated, and chauffeured — reserve your transfer in minutes.",
+    "category": "route"
   },
 
   "baltimore-to-annapolis-limo": {
     "metaTitle": "Baltimore to Annapolis Limo | 92 Limo Service",
-    "metaDescription": "Baltimore to Annapolis Limo: private chauffeured transfer, 40–50 minutes door-to-door. Flat all-inclusive rate, luxury vehicles, 24/7.",
+    "metaDescription": "Baltimore to Annapolis Limo: private chauffeured transfer, 40–50 minutes door-to-door. Flat transparent rate, luxury vehicles, 24/7.",
     "eyebrow": "BALTIMORE → ANNAPOLIS",
     "h1": "Baltimore to Annapolis Limo",
-    "subtitle": "Private chauffeured transfers from Baltimore to Annapolis — 40–50 minutes door-to-door at one flat, all-inclusive rate.",
+    "subtitle": "Private chauffeured transfers from Baltimore to Annapolis — 40–50 minutes door-to-door at one flat, transparent rate.",
     "image": IMAGES.longDistance,
     "alt": "Luxury chauffeured vehicle — baltimore to annapolis limo by 92 Limo Service",
     "highlightsHeading": "The Smart Way to Travel Baltimore → Annapolis",
     "intro": [
-      "92 Limo Service provides private, chauffeured car service from Baltimore to Annapolis — 30 miles of door-to-door comfort, typically 40–50 minutes via I-97 South. One flat rate, quoted before you book, covers the entire trip including tolls, taxes, and gratuity.",
+      "92 Limo Service provides private, chauffeured car service from Baltimore to Annapolis — 30 miles of door-to-door comfort, typically 40–50 minutes via I-97 South. One flat rate, quoted before you book, covers the base transportation charge for the entire trip — gratuity, tolls, parking, and any other applicable charges are disclosed before confirmation.",
       "Your chauffeur arrives early, loads every bag, and plans the route in real time around traffic. Drop-off works at any address: the Naval Academy, City Dock, Eastport, and waterfront venues. Reverse trips, round trips, and late-night departures are all available 24/7.",
       "Compare the alternatives: rideshares surge and cancel on long runs, trains lock you to a schedule and a station, and driving yourself means traffic, tolls, and parking. A private chauffeured transfer costs a known flat amount and turns the drive into productive or restful time.",
-      "Choose a Mercedes E-Class or BMW 7 Series for solo and business travel, an Escalade or Suburban for families and luggage, or a Sprinter van that keeps groups of up to 14 together. Call (877) 609-1919 or book online — every reservation is confirmed with an all-inclusive quote."
+      "Choose a Mercedes E-Class or BMW 7 Series for solo and business travel, an Escalade or Suburban for families and luggage, or a Sprinter van that keeps groups of up to 14 together. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote."
     ],
     "highlights": [
       {
@@ -7718,8 +7824,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "About 30 miles via I-97 South, with your chauffeur routing around slowdowns in real time."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -7742,7 +7848,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does car service from Baltimore to Annapolis cost?",
-        "a": "The trip is quoted as one flat, all-inclusive rate based on vehicle choice — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "The trip is quoted as one flat, transparent rate based on vehicle choice — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long does the trip take?",
@@ -7754,7 +7860,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -7762,20 +7868,21 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Baltimore to Annapolis",
-    "ctaSubtitle": "Private, flat-rated, and chauffeured — reserve your transfer in minutes."
+    "ctaSubtitle": "Private, flat-rated, and chauffeured — reserve your transfer in minutes.",
+    "category": "route"
   },
 
   "dca-to-baltimore": {
     "metaTitle": "DCA to Baltimore Car Service | 92 Limo Service",
-    "metaDescription": "DCA to Baltimore Car Service: private chauffeured transfer, 60–80 minutes door-to-door. Flat all-inclusive rate, luxury vehicles, 24/7.",
+    "metaDescription": "DCA to Baltimore Car Service: private chauffeured transfer, 60–80 minutes door-to-door. Flat transparent rate, luxury vehicles, 24/7.",
     "eyebrow": "REAGAN NATIONAL AIRPORT (DCA) → BALTIMORE",
     "h1": "DCA to Baltimore Car Service",
-    "subtitle": "Private chauffeured transfers from Reagan National Airport (DCA) to Baltimore — 60–80 minutes door-to-door at one flat, all-inclusive rate.",
+    "subtitle": "Private chauffeured transfers from Reagan National Airport (DCA) to Baltimore — 60–80 minutes door-to-door at one flat, transparent rate.",
     "image": IMAGES.dcSkyline,
     "alt": "Luxury chauffeured vehicle — dca to baltimore car service by 92 Limo Service",
     "highlightsHeading": "The Smart Way to Travel Reagan National Airport (DCA) → Baltimore",
     "intro": [
-      "Need a reliable ride from Reagan National Airport (DCA) to Baltimore? 92 Limo Service runs this route every week — about 45 miles in 60–80 minutes via the BW Parkway — with professional chauffeurs, luxury vehicles, and flat all-inclusive pricing.",
+      "Need a reliable ride from Reagan National Airport (DCA) to Baltimore? 92 Limo Service runs this route every week — about 45 miles in 60–80 minutes via the BW Parkway — with professional chauffeurs, luxury vehicles, and flat transparent pricing.",
       "Everything is door-to-door. We pick you up at home, the office, or the terminal, and deliver you to the Inner Harbor, Fells Point, Johns Hopkins, and BWI-area hotels. Luggage help is included, water and chargers are on board, and the cabin stays quiet enough to work or nap the whole way.",
       "Long-distance trips are where chauffeured service earns its keep: no surge pricing, no driver cancellations an hour before departure, and no handoffs. The vehicle that picks you up is the vehicle that drops you off, with the same chauffeur throughout.",
       "Round trips and multi-day itineraries are welcome, and corporate accounts get priority scheduling with consolidated billing. Reserve online in minutes or call (877) 609-1919 — we operate 24/7."
@@ -7790,8 +7897,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "About 45 miles via the BW Parkway, with your chauffeur routing around slowdowns in real time."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -7814,7 +7921,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does car service from Reagan National Airport (DCA) to Baltimore cost?",
-        "a": "The trip is quoted as one flat, all-inclusive rate based on vehicle choice — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "The trip is quoted as one flat, transparent rate based on vehicle choice — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long does the trip take?",
@@ -7826,7 +7933,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -7834,23 +7941,24 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Reagan National Airport (DCA) to Baltimore",
-    "ctaSubtitle": "Private, flat-rated, and chauffeured — reserve your transfer in minutes."
+    "ctaSubtitle": "Private, flat-rated, and chauffeured — reserve your transfer in minutes.",
+    "category": "route"
   },
 
   "baltimore-to-philadelphia-limo": {
     "metaTitle": "Baltimore to Philadelphia Limo | 92 Limo Service",
-    "metaDescription": "Baltimore to Philadelphia Limo: private chauffeured transfer, about 2 hours door-to-door. Flat all-inclusive rate, luxury vehicles, 24/7.",
+    "metaDescription": "Baltimore to Philadelphia Limo: private chauffeured transfer, about 2 hours door-to-door. Flat transparent rate, luxury vehicles, 24/7.",
     "eyebrow": "BALTIMORE → PHILADELPHIA",
     "h1": "Baltimore to Philadelphia Limo",
-    "subtitle": "Private chauffeured transfers from Baltimore to Philadelphia — about 2 hours door-to-door at one flat, all-inclusive rate.",
+    "subtitle": "Private chauffeured transfers from Baltimore to Philadelphia — about 2 hours door-to-door at one flat, transparent rate.",
     "image": IMAGES.longDistance,
     "alt": "Luxury chauffeured vehicle — baltimore to philadelphia limo by 92 Limo Service",
     "highlightsHeading": "The Smart Way to Travel Baltimore → Philadelphia",
     "intro": [
-      "92 Limo Service provides private, chauffeured car service from Baltimore to Philadelphia — 100 miles of door-to-door comfort, typically about 2 hours via I-95 North. One flat rate, quoted before you book, covers the entire trip including tolls, taxes, and gratuity.",
+      "92 Limo Service provides private, chauffeured car service from Baltimore to Philadelphia — 100 miles of door-to-door comfort, typically about 2 hours via I-95 North. One flat rate, quoted before you book, covers the base transportation charge for the entire trip — gratuity, tolls, parking, and any other applicable charges are disclosed before confirmation.",
       "Your chauffeur arrives early, loads every bag, and plans the route in real time around traffic. Drop-off works at any address: Center City hotels, PHL Airport, the sports complex, and University City. Reverse trips, round trips, and late-night departures are all available 24/7.",
       "Compare the alternatives: rideshares surge and cancel on long runs, trains lock you to a schedule and a station, and driving yourself means traffic, tolls, and parking. A private chauffeured transfer costs a known flat amount and turns the drive into productive or restful time.",
-      "Choose a Mercedes E-Class or BMW 7 Series for solo and business travel, an Escalade or Suburban for families and luggage, or a Sprinter van that keeps groups of up to 14 together. Call (877) 609-1919 or book online — every reservation is confirmed with an all-inclusive quote."
+      "Choose a Mercedes E-Class or BMW 7 Series for solo and business travel, an Escalade or Suburban for families and luggage, or a Sprinter van that keeps groups of up to 14 together. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote."
     ],
     "highlights": [
       {
@@ -7862,8 +7970,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "About 100 miles via I-95 North, with your chauffeur routing around slowdowns in real time."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -7886,7 +7994,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does car service from Baltimore to Philadelphia cost?",
-        "a": "The trip is quoted as one flat, all-inclusive rate based on vehicle choice — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "The trip is quoted as one flat, transparent rate based on vehicle choice — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long does the trip take?",
@@ -7898,7 +8006,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -7906,20 +8014,21 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Baltimore to Philadelphia",
-    "ctaSubtitle": "Private, flat-rated, and chauffeured — reserve your transfer in minutes."
+    "ctaSubtitle": "Private, flat-rated, and chauffeured — reserve your transfer in minutes.",
+    "category": "route"
   },
 
   "dc-to-new-york-car-service": {
     "metaTitle": "DC to New York Car Service | 92 Limo Service",
-    "metaDescription": "DC to New York Car Service: private chauffeured transfer, about 4 hours door-to-door. Flat all-inclusive rate, luxury vehicles, 24/7.",
+    "metaDescription": "DC to New York Car Service: private chauffeured transfer, about 4 hours door-to-door. Flat transparent rate, luxury vehicles, 24/7.",
     "eyebrow": "WASHINGTON DC → NEW YORK CITY",
     "h1": "DC to New York Car Service",
-    "subtitle": "Private chauffeured transfers from Washington DC to New York City — about 4 hours door-to-door at one flat, all-inclusive rate.",
+    "subtitle": "Private chauffeured transfers from Washington DC to New York City — about 4 hours door-to-door at one flat, transparent rate.",
     "image": IMAGES.dcSkyline,
     "alt": "Luxury chauffeured vehicle — dc to new york car service by 92 Limo Service",
     "highlightsHeading": "The Smart Way to Travel Washington DC → New York City",
     "intro": [
-      "Need a reliable ride from Washington DC to New York City? 92 Limo Service runs this route every week — about 225 miles in about 4 hours via I-95 and the New Jersey Turnpike — with professional chauffeurs, luxury vehicles, and flat all-inclusive pricing.",
+      "Need a reliable ride from Washington DC to New York City? 92 Limo Service runs this route every week — about 225 miles in about 4 hours via I-95 and the New Jersey Turnpike — with professional chauffeurs, luxury vehicles, and flat transparent pricing.",
       "Everything is door-to-door. We pick you up at home, the office, or the terminal, and deliver you to Manhattan hotels, JFK, LaGuardia, and Newark. Luggage help is included, water and chargers are on board, and the cabin stays quiet enough to work or nap the whole way.",
       "Long-distance trips are where chauffeured service earns its keep: no surge pricing, no driver cancellations an hour before departure, and no handoffs. The vehicle that picks you up is the vehicle that drops you off, with the same chauffeur throughout.",
       "Round trips and multi-day itineraries are welcome, and corporate accounts get priority scheduling with consolidated billing. Reserve online in minutes or call (877) 609-1919 — we operate 24/7."
@@ -7934,8 +8043,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "About 225 miles via I-95 and the New Jersey Turnpike, with your chauffeur routing around slowdowns in real time."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -7958,7 +8067,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does car service from Washington DC to New York City cost?",
-        "a": "The trip is quoted as one flat, all-inclusive rate based on vehicle choice — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "The trip is quoted as one flat, transparent rate based on vehicle choice — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long does the trip take?",
@@ -7970,7 +8079,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -7978,23 +8087,24 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Washington DC to New York City",
-    "ctaSubtitle": "Private, flat-rated, and chauffeured — reserve your transfer in minutes."
+    "ctaSubtitle": "Private, flat-rated, and chauffeured — reserve your transfer in minutes.",
+    "category": "route"
   },
 
   "baltimore-to-new-york-limo": {
     "metaTitle": "Baltimore to New York Limo | 92 Limo Service",
-    "metaDescription": "Baltimore to New York Limo: private chauffeured transfer, 3.5–4 hours door-to-door. Flat all-inclusive rate, luxury vehicles, 24/7.",
+    "metaDescription": "Baltimore to New York Limo: private chauffeured transfer, 3.5–4 hours door-to-door. Flat transparent rate, luxury vehicles, 24/7.",
     "eyebrow": "BALTIMORE → NEW YORK CITY",
     "h1": "Baltimore to New York Limo",
-    "subtitle": "Private chauffeured transfers from Baltimore to New York City — 3.5–4 hours door-to-door at one flat, all-inclusive rate.",
+    "subtitle": "Private chauffeured transfers from Baltimore to New York City — 3.5–4 hours door-to-door at one flat, transparent rate.",
     "image": IMAGES.longDistance,
     "alt": "Luxury chauffeured vehicle — baltimore to new york limo by 92 Limo Service",
     "highlightsHeading": "The Smart Way to Travel Baltimore → New York City",
     "intro": [
-      "92 Limo Service provides private, chauffeured car service from Baltimore to New York City — 190 miles of door-to-door comfort, typically 3.5–4 hours via I-95 North. One flat rate, quoted before you book, covers the entire trip including tolls, taxes, and gratuity.",
+      "92 Limo Service provides private, chauffeured car service from Baltimore to New York City — 190 miles of door-to-door comfort, typically 3.5–4 hours via I-95 North. One flat rate, quoted before you book, covers the base transportation charge for the entire trip — gratuity, tolls, parking, and any other applicable charges are disclosed before confirmation.",
       "Your chauffeur arrives early, loads every bag, and plans the route in real time around traffic. Drop-off works at any address: Midtown, downtown, Brooklyn, and all three NYC-area airports. Reverse trips, round trips, and late-night departures are all available 24/7.",
       "Compare the alternatives: rideshares surge and cancel on long runs, trains lock you to a schedule and a station, and driving yourself means traffic, tolls, and parking. A private chauffeured transfer costs a known flat amount and turns the drive into productive or restful time.",
-      "Choose a Mercedes E-Class or BMW 7 Series for solo and business travel, an Escalade or Suburban for families and luggage, or a Sprinter van that keeps groups of up to 14 together. Call (877) 609-1919 or book online — every reservation is confirmed with an all-inclusive quote."
+      "Choose a Mercedes E-Class or BMW 7 Series for solo and business travel, an Escalade or Suburban for families and luggage, or a Sprinter van that keeps groups of up to 14 together. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote."
     ],
     "highlights": [
       {
@@ -8006,8 +8116,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "About 190 miles via I-95 North, with your chauffeur routing around slowdowns in real time."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -8030,7 +8140,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does car service from Baltimore to New York City cost?",
-        "a": "The trip is quoted as one flat, all-inclusive rate based on vehicle choice — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "The trip is quoted as one flat, transparent rate based on vehicle choice — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long does the trip take?",
@@ -8042,7 +8152,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -8050,20 +8160,21 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Baltimore to New York City",
-    "ctaSubtitle": "Private, flat-rated, and chauffeured — reserve your transfer in minutes."
+    "ctaSubtitle": "Private, flat-rated, and chauffeured — reserve your transfer in minutes.",
+    "category": "route"
   },
 
   "maryland-to-jfk-airport": {
     "metaTitle": "Maryland to JFK Airport Car Service | 92 Limo Service",
-    "metaDescription": "Maryland to JFK Airport Car Service: private chauffeured transfer, about 4 hours door-to-door. Flat all-inclusive rate, luxury vehicles, 24/7.",
+    "metaDescription": "Maryland to JFK Airport Car Service: private chauffeured transfer, about 4 hours door-to-door. Flat transparent rate, luxury vehicles, 24/7.",
     "eyebrow": "MARYLAND → JFK AIRPORT",
     "h1": "Maryland to JFK Airport Car Service",
-    "subtitle": "Private chauffeured transfers from Maryland to JFK Airport — about 4 hours door-to-door at one flat, all-inclusive rate.",
+    "subtitle": "Private chauffeured transfers from Maryland to JFK Airport — about 4 hours door-to-door at one flat, transparent rate.",
     "image": IMAGES.dcSkyline,
     "alt": "Luxury chauffeured vehicle — maryland to jfk airport car service by 92 Limo Service",
     "highlightsHeading": "The Smart Way to Travel Maryland → JFK Airport",
     "intro": [
-      "Need a reliable ride from Maryland to JFK Airport? 92 Limo Service runs this route every week — about 210 miles in about 4 hours via I-95 and the Verrazzano — with professional chauffeurs, luxury vehicles, and flat all-inclusive pricing.",
+      "Need a reliable ride from Maryland to JFK Airport? 92 Limo Service runs this route every week — about 210 miles in about 4 hours via I-95 and the Verrazzano — with professional chauffeurs, luxury vehicles, and flat transparent pricing.",
       "Everything is door-to-door. We pick you up at home, the office, or the terminal, and deliver you to every JFK terminal, timed to your check-in window. Luggage help is included, water and chargers are on board, and the cabin stays quiet enough to work or nap the whole way.",
       "Long-distance trips are where chauffeured service earns its keep: no surge pricing, no driver cancellations an hour before departure, and no handoffs. The vehicle that picks you up is the vehicle that drops you off, with the same chauffeur throughout.",
       "Round trips and multi-day itineraries are welcome, and corporate accounts get priority scheduling with consolidated billing. Reserve online in minutes or call (877) 609-1919 — we operate 24/7."
@@ -8078,8 +8189,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "About 210 miles via I-95 and the Verrazzano, with your chauffeur routing around slowdowns in real time."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -8102,7 +8213,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does car service from Maryland to JFK Airport cost?",
-        "a": "The trip is quoted as one flat, all-inclusive rate based on vehicle choice — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "The trip is quoted as one flat, transparent rate based on vehicle choice — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long does the trip take?",
@@ -8114,7 +8225,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -8122,23 +8233,24 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Maryland to JFK Airport",
-    "ctaSubtitle": "Private, flat-rated, and chauffeured — reserve your transfer in minutes."
+    "ctaSubtitle": "Private, flat-rated, and chauffeured — reserve your transfer in minutes.",
+    "category": "route"
   },
 
   "maryland-to-newark-airport": {
     "metaTitle": "Maryland to Newark Airport Car Service | 92 Limo Service",
-    "metaDescription": "Maryland to Newark Airport Car Service: private chauffeured transfer, about 3.5 hours door-to-door. Flat all-inclusive rate, luxury vehicles, 24/7.",
+    "metaDescription": "Maryland to Newark Airport Car Service: private chauffeured transfer, about 3.5 hours door-to-door. Flat transparent rate, luxury vehicles, 24/7.",
     "eyebrow": "MARYLAND → NEWARK LIBERTY AIRPORT (EWR)",
     "h1": "Maryland to Newark Airport Car Service",
-    "subtitle": "Private chauffeured transfers from Maryland to Newark Liberty Airport (EWR) — about 3.5 hours door-to-door at one flat, all-inclusive rate.",
+    "subtitle": "Private chauffeured transfers from Maryland to Newark Liberty Airport (EWR) — about 3.5 hours door-to-door at one flat, transparent rate.",
     "image": IMAGES.longDistance,
     "alt": "Luxury chauffeured vehicle — maryland to newark airport car service by 92 Limo Service",
     "highlightsHeading": "The Smart Way to Travel Maryland → Newark Liberty Airport (EWR)",
     "intro": [
-      "92 Limo Service provides private, chauffeured car service from Maryland to Newark Liberty Airport (EWR) — 175 miles of door-to-door comfort, typically about 3.5 hours via I-95 and the New Jersey Turnpike. One flat rate, quoted before you book, covers the entire trip including tolls, taxes, and gratuity.",
+      "92 Limo Service provides private, chauffeured car service from Maryland to Newark Liberty Airport (EWR) — 175 miles of door-to-door comfort, typically about 3.5 hours via I-95 and the New Jersey Turnpike. One flat rate, quoted before you book, covers the base transportation charge for the entire trip — gratuity, tolls, parking, and any other applicable charges are disclosed before confirmation.",
       "Your chauffeur arrives early, loads every bag, and plans the route in real time around traffic. Drop-off works at any address: every EWR terminal, timed to your check-in window. Reverse trips, round trips, and late-night departures are all available 24/7.",
       "Compare the alternatives: rideshares surge and cancel on long runs, trains lock you to a schedule and a station, and driving yourself means traffic, tolls, and parking. A private chauffeured transfer costs a known flat amount and turns the drive into productive or restful time.",
-      "Choose a Mercedes E-Class or BMW 7 Series for solo and business travel, an Escalade or Suburban for families and luggage, or a Sprinter van that keeps groups of up to 14 together. Call (877) 609-1919 or book online — every reservation is confirmed with an all-inclusive quote."
+      "Choose a Mercedes E-Class or BMW 7 Series for solo and business travel, an Escalade or Suburban for families and luggage, or a Sprinter van that keeps groups of up to 14 together. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote."
     ],
     "highlights": [
       {
@@ -8150,8 +8262,8 @@ export const GENERATED_LANDING_PAGES = {
         "desc": "About 175 miles via I-95 and the New Jersey Turnpike, with your chauffeur routing around slowdowns in real time."
       },
       {
-        "title": "Flat, All-Inclusive Pricing",
-        "desc": "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises."
+        "title": "Flat, Transparent Pricing",
+        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
       },
       {
         "title": "Professional Chauffeurs",
@@ -8174,7 +8286,7 @@ export const GENERATED_LANDING_PAGES = {
     "faqs": [
       {
         "q": "How much does car service from Maryland to Newark Liberty Airport (EWR) cost?",
-        "a": "The trip is quoted as one flat, all-inclusive rate based on vehicle choice — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price."
+        "a": "The trip is quoted as one flat, transparent rate based on vehicle choice — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price."
       },
       {
         "q": "How long does the trip take?",
@@ -8186,7 +8298,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing."
+        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
       },
       {
         "q": "How far in advance should I book?",
@@ -8194,7 +8306,8 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Book Maryland to Newark Liberty Airport (EWR)",
-    "ctaSubtitle": "Private, flat-rated, and chauffeured — reserve your transfer in minutes."
+    "ctaSubtitle": "Private, flat-rated, and chauffeured — reserve your transfer in minutes.",
+    "category": "route"
   },
 };
 

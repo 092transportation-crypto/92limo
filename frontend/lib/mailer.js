@@ -13,6 +13,13 @@ const GOLD = "#D4AF37";
 const PHONE = "(877) 609-1919";
 const PHONE_HREF = "tel:+18776091919";
 const SITE = "92limo.com";
+const PRICING_POLICY =
+  "Your quoted rate includes the base transportation charge. Driver gratuity, parking, tolls, additional waiting time, and other applicable charges will be clearly disclosed before confirmation.";
+const WAITING_POLICY =
+  "Waiting time: airport pickups include 60 minutes complimentary on domestic arrivals and 90 minutes on international arrivals (from actual touchdown); all other pickups include 15 minutes complimentary. Additional waiting time is billed in 15-minute increments at the applicable rate.";
+const MEET_GREET_POLICY =
+  "Airport Meet & Greet Available — your chauffeur can meet you inside baggage claim with a personalized name sign and assist with luggage. Additional charge applies.";
+const POLICIES_URL = `https://www.${SITE}/policies`;
 
 let cachedTransport = null;
 
@@ -231,8 +238,14 @@ function buildCustomerBookingEmail(b) {
           <h2 style="color:${GOLD};margin:0 0 16px;font-size:20px;">Hi ${escapeHtml(name)},</h2>
           <p style="line-height:1.6;color:#ddd;font-size:15px;">
             Thank you for choosing 92 Limo Service. We&rsquo;ve received your booking request and a
-            reservation specialist will reach out shortly to confirm your ride with an all-inclusive quote.
+            reservation specialist will reach out shortly to confirm your ride.
           </p>
+          <div style="margin:18px 0;padding:14px 16px;background:#0a0a0a;border:1px solid #2a2a2a;border-radius:6px;">
+            <p style="margin:0 0 8px;color:${GOLD};font-size:12px;text-transform:uppercase;letter-spacing:1px;">Good to know</p>
+            <p style="margin:0 0 8px;line-height:1.55;color:#ccc;font-size:13px;">${PRICING_POLICY}</p>
+            <p style="margin:0 0 8px;line-height:1.55;color:#ccc;font-size:13px;">${WAITING_POLICY}</p>
+            <p style="margin:0;line-height:1.55;color:#ccc;font-size:13px;">${MEET_GREET_POLICY} Full policies: <a href="${POLICIES_URL}" style="color:${GOLD};">${POLICIES_URL}</a></p>
+          </div>
           <p style="line-height:1.6;color:#ddd;font-size:15px;">
             <strong style="color:${GOLD};">Need immediate assistance?</strong><br/>
             Call us 24/7 at <a href="${PHONE_HREF}" style="color:${GOLD};">${PHONE}</a>
@@ -254,6 +267,7 @@ function buildCustomerBookingEmail(b) {
     `Hi ${name},\n\n` +
     "Thank you for choosing 92 Limo Service. We've received your booking request and a " +
     "reservation specialist will reach out shortly to confirm your ride.\n\n" +
+    `${PRICING_POLICY}\n\n${WAITING_POLICY}\n\n${MEET_GREET_POLICY}\nFull policies: ${POLICIES_URL}\n\n` +
     `For immediate assistance, call us 24/7 at ${PHONE}.\n\n` +
     `Trip: ${b.pickup_location || ""} -> ${b.dropoff_location || "—"}\n` +
     `When: ${b.date || ""} ${b.time || ""}\n` +

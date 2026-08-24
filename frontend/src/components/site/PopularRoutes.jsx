@@ -11,7 +11,7 @@ export const PopularRoutes = () => {
           <span className="text-xs font-semibold tracking-widest text-[#B8860B]">POPULAR ROUTES</span>
           <h2 className="mt-3 text-3xl sm:text-4xl font-display font-bold text-[#0A0A0A]">Where We Take You</h2>
           <p className="mt-3 text-neutral-600">
-            Fixed, all-inclusive pricing on our most-requested point-to-point and
+            Fixed, transparent pricing on our most-requested point-to-point and
             long-distance routes.
           </p>
         </Reveal>

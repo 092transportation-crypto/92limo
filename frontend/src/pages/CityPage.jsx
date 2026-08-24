@@ -18,7 +18,7 @@ export default function CityPage() {
       "@type": "LimousineService",
       name: `92 Limo Service — ${data.name}, MD`,
       url: `https://92limo.com/airport-car-service/${data.slug}`,
-      telephone: "+1-(877) 609-1919",
+      telephone: "+1-877-609-1919",
       email: BRAND.email,
       image: IMAGES.logo,
       priceRange: "$$$",
@@ -69,7 +69,7 @@ export default function CityPage() {
             <p>
               We specialize in timely airport pickups and drop-offs, point-to-point transfers,
               corporate travel, weddings, proms, birthdays, and chauffeured wine tours throughout
-              {` ${data.name}`} and surrounding Maryland communities. With transparent all-inclusive
+              {` ${data.name}`} and surrounding Maryland communities. With transparent
               pricing and 24/7 availability, booking your {data.name} car service takes just minutes.
             </p>
           </Reveal>

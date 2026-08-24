@@ -18,6 +18,7 @@ import GalleryPage from "@/pages/GalleryPage";
 import CityPage from "@/pages/CityPage";
 import PrivacyPolicyPage from "@/pages/PrivacyPolicyPage";
 import TermsConditionsPage from "@/pages/TermsConditionsPage";
+import PoliciesPage from "@/pages/PoliciesPage";
 import CoveragePage from "@/pages/CoveragePage";
 import CarSeatServicePage from "@/pages/CarSeatServicePage";
 import LandingPage from "@/components/site/LandingPage";
@@ -60,6 +61,7 @@ function App() {
             <Route path="/booking" element={<BookingPage />} />
             <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
             <Route path="/terms-conditions" element={<TermsConditionsPage />} />
+            <Route path="/policies" element={<PoliciesPage />} />
             <Route path="/coverage" element={<CoveragePage />} />
             <Route path="/car-seat-service" element={<CarSeatServicePage />} />
             <Route path="/blog" element={<BlogPage />} />

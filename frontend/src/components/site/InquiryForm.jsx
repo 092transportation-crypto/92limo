@@ -105,6 +105,25 @@ const TRUST_BADGES = [
   { icon: UserCheck, label: "Professional Chauffeurs", sub: "Vetted & Uniformed" },
 ];
 
+// Prefill from the homepage quick-quote widget (/booking?pickup=…&dropoff=…).
+function prefillFromQuery() {
+  if (typeof window === "undefined") return {};
+  const p = new URLSearchParams(window.location.search);
+  const out = {};
+  const pick = (key, field) => {
+    const v = (p.get(key) || "").trim();
+    if (v) out[field] = v;
+  };
+  pick("pickup", "pickup_location");
+  pick("dropoff", "dropoff_location");
+  pick("date", "date");
+  pick("time", "time");
+  const pax = parseInt(p.get("passengers") || "", 10);
+  if (pax >= 1) out.passengers = Math.min(pax, 14);
+  if (out.pickup_location || out.dropoff_location) out.service_type = /airport|bwi|dca|iad|phl|mtn/i.test(`${out.pickup_location || ""} ${out.dropoff_location || ""}`) ? "Airport Transfer" : "";
+  return out;
+}
+
 const EMPTY = {
   name: "",
   phone: "",
@@ -246,7 +265,7 @@ function SuccessBanner({ paid, onDismiss }) {
           {paid ? "Payment Received — You're Booked!" : "Request Received!"}
         </h3>
         <p className="mx-auto mt-2 max-w-md text-sm text-neutral-300">
-          Our team will confirm your reservation with an all-inclusive quote shortly.
+          Our team will confirm your reservation shortly. Your quoted rate includes the base transportation charge; gratuity, parking, tolls and any other applicable charges are disclosed before confirmation.
           Need us sooner? Call{" "}
           <a href="tel:+18776091919" className="font-semibold text-[#C9A227] hover:underline">
             (877) 609-1919
@@ -267,7 +286,7 @@ function SuccessBanner({ paid, onDismiss }) {
 }
 
 const InnerForm = ({ stripe, elements, stripeReady }) => {
-  const [form, setForm] = useState(EMPTY);
+  const [form, setForm] = useState(() => ({ ...EMPTY, ...prefillFromQuery() }));
   const [invalid, setInvalid] = useState([]);
   const [loading, setLoading] = useState(false);
   const [done, setDone] = useState(false);
@@ -555,7 +574,7 @@ const InnerForm = ({ stripe, elements, stripeReady }) => {
             Reserve Your Ride
           </h2>
           <p className="mt-3 text-neutral-400">
-            Pick your vehicle and route for an instant all-inclusive quote —
+            Pick your vehicle and route for an instant, transparent quote —
             pay online or request a booking. Or call{" "}
             <a href="tel:+18776091919" className="font-semibold text-[#C9A227] hover:underline">
               (877) 609-1919

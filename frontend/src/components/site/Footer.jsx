@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, Globe, MapPin, Facebook, Instagram } from "lucide-react";
-import { BRAND, NAV_SERVICES, SOCIAL } from "@/lib/data";
+import { Phone, Mail, MapPin, Facebook, Instagram } from "lucide-react";
+import { BRAND, SOCIAL } from "@/lib/data";
 
 // lucide-react has no TikTok brand glyph, so provide a minimal inline one.
 const TikTok = ({ size = 16 }) => (
@@ -11,45 +11,90 @@ const TikTok = ({ size = 16 }) => (
 
 const SOCIAL_ICONS = { Facebook, Instagram, TikTok };
 
-const QUICK = [
-  { label: "Home", to: "/" },
-  { label: "Fleet", to: "/fleet" },
-  { label: "Services", to: "/services" },
-  { label: "Service Areas", to: "/service-areas" },
-  { label: "Coverage", to: "/coverage" },
-  { label: "About Us", to: "/about" },
-  { label: "Gallery", to: "/gallery" },
-  { label: "Reviews", to: "/reviews" },
-  { label: "FAQ", to: "/faq" },
-  { label: "Blog", to: "/blog" },
-  { label: "Book a Ride", to: "/booking" },
-  { label: "Contact Us", to: "/contact" },
+// Condensed footer. The full location/route directory lives on /service-areas
+// (linked below as "View All Service Areas") — keep this list short on purpose.
+export const FOOTER_COLUMNS = [
+  {
+    heading: "Services",
+    links: [
+      { label: "Airport Transportation", to: "/airport-transportation" },
+      { label: "Corporate Transportation", to: "/corporate-transportation" },
+      { label: "Hourly Chauffeur", to: "/hourly-chauffeur" },
+      { label: "Wedding Transportation", to: "/wedding-transportation" },
+      { label: "Long Distance", to: "/long-distance-transportation" },
+    ],
+  },
+  {
+    heading: "Airports",
+    links: [
+      { label: "BWI Airport Car Service", to: "/bwi-airport-car-service" },
+      { label: "DCA Airport Car Service", to: "/dca-airport-car-service" },
+      { label: "IAD Airport Car Service", to: "/iad-airport-car-service" },
+      { label: "PHL Airport Car Service", to: "/philadelphia-airport-car-service" },
+    ],
+  },
+  {
+    heading: "Popular Areas",
+    links: [
+      { label: "Baltimore", to: "/baltimore-limo-service" },
+      { label: "Washington DC", to: "/washington-dc-limo-service" },
+      { label: "Annapolis", to: "/annapolis-limo-service" },
+      { label: "Columbia", to: "/columbia-md-limo-service" },
+      { label: "Northern Virginia", to: "/executive-car-service-virginia" },
+    ],
+    more: { label: "View All Service Areas", to: "/service-areas" },
+  },
+  {
+    heading: "Company",
+    links: [
+      { label: "About", to: "/about" },
+      { label: "Fleet", to: "/fleet" },
+      { label: "Reviews", to: "/reviews" },
+      { label: "Contact", to: "/contact" },
+      { label: "Book a Ride", to: "/booking" },
+    ],
+  },
 ];
 
-const FOOTER_ROUTES = [
-  { label: "BWI → Washington DC", to: "/bwi-to-washington-dc" },
-  { label: "BWI → Baltimore", to: "/bwi-to-baltimore" },
-  { label: "BWI → Annapolis", to: "/bwi-to-annapolis" },
-  { label: "DCA → Washington DC", to: "/dca-to-washington-dc" },
-  { label: "IAD → Washington DC", to: "/iad-to-washington-dc" },
-  { label: "BWI → Ocean City, MD", to: "/bwi-to-ocean-city-md" },
-  { label: "BWI → Rehoboth Beach", to: "/bwi-to-rehoboth-beach" },
-  { label: "BWI → Bethany Beach", to: "/bwi-to-bethany-beach" },
+export const FOOTER_LEGAL = [
+  { label: "Privacy Policy", to: "/privacy-policy", testId: "footer-privacy-link" },
+  { label: "Terms & Conditions", to: "/terms-conditions", testId: "footer-terms-link" },
+  { label: "Cancellation Policy", to: "/policies#cancellation" },
+  { label: "Waiting-Time Policy", to: "/policies#waiting-time" },
+  { label: "No-Show Policy", to: "/policies#no-show" },
+  { label: "Vehicle Substitution", to: "/policies#vehicle-substitution" },
+  { label: "Payment Authorization", to: "/policies#payment-authorization" },
 ];
 
 export const Footer = () => {
   return (
     <footer data-testid="site-footer" className="bg-[#070809] border-t border-white/5 pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-10">
-          <div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-10">
+          <div className="lg:col-span-2">
             <Link to="/" className="inline-block">
               <img src="/92-limo-logo.png" alt="92 Limo Service" className="h-20 w-auto rounded-md" />
             </Link>
-            <p className="mt-4 text-sm text-neutral-400 leading-relaxed">
-              {BRAND.legal}. Luxury black car &amp; chauffeur service across
-              Washington DC, Maryland, and Northern Virginia.
+            <p className="mt-4 text-sm text-neutral-400 leading-relaxed max-w-sm">
+              {BRAND.legal}. Luxury airport, corporate and chauffeur service across
+              Washington DC, Maryland, and Northern Virginia — {BRAND.psc}.
             </p>
+            <ul className="mt-5 space-y-2.5">
+              <li>
+                <a href={BRAND.phoneHref} data-testid="footer-phone" className="flex items-center gap-2 text-sm text-neutral-300 hover:text-[#D4AF37]">
+                  <Phone size={15} className="text-[#D4AF37]" /> {BRAND.phone}
+                </a>
+              </li>
+              <li>
+                <a href={`mailto:${BRAND.email}`} className="flex items-center gap-2 text-sm text-neutral-300 hover:text-[#D4AF37]">
+                  <Mail size={15} className="text-[#D4AF37]" /> {BRAND.email}
+                </a>
+              </li>
+              <li className="flex items-start gap-2 text-sm text-neutral-400">
+                <MapPin size={15} className="text-[#D4AF37] mt-0.5" />
+                <span>Maryland-based · BWI · DCA · IAD · PHL · Available 24/7</span>
+              </li>
+            </ul>
             <div className="mt-5 flex gap-3">
               {SOCIAL.map((s, i) => {
                 const Icon = SOCIAL_ICONS[s.icon];
@@ -70,104 +115,49 @@ export const Footer = () => {
             </div>
           </div>
 
-          <div>
-            <h3 className="text-sm font-semibold text-white tracking-wide">Quick Links</h3>
-            <ul className="mt-4 space-y-2.5">
-              {QUICK.map((q) => (
-                <li key={q.to}>
-                  <Link
-                    data-testid={`footer-link-${q.to}`}
-                    to={q.to}
-                    className="text-sm text-neutral-400 hover:text-[#D4AF37] transition-colors"
-                  >
-                    {q.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-sm font-semibold text-white tracking-wide">Services</h3>
-            <ul className="mt-4 space-y-2.5">
-              {NAV_SERVICES.map((s) => (
-                <li key={s.to}>
-                  <Link to={s.to} className="text-sm text-neutral-400 hover:text-[#D4AF37] transition-colors">
-                    {s.label}
-                  </Link>
-                </li>
-              ))}
-              <li>
-                <Link to="/fleet" className="text-sm text-neutral-400 hover:text-[#D4AF37] transition-colors">
-                  Group Sprinter Van Service
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-sm font-semibold text-white tracking-wide">Popular Routes</h3>
-            <ul className="mt-4 space-y-2.5">
-              {FOOTER_ROUTES.map((r) => (
-                <li key={r.to}>
-                  <Link to={r.to} className="text-sm text-neutral-400 hover:text-[#D4AF37] transition-colors">
-                    {r.label}
-                  </Link>
-                </li>
-              ))}
-              <li>
-                <Link to="/coverage" className="text-sm text-[#B8860B] font-medium hover:text-[#D4AF37] transition-colors">
-                  View all coverage →
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-sm font-semibold text-white tracking-wide">Contact &amp; Airports</h3>
-            <ul className="mt-4 space-y-3">
-              <li>
-                <a href={BRAND.phoneHref} className="flex items-center gap-2 text-sm text-neutral-300 hover:text-[#D4AF37]">
-                  <Phone size={15} className="text-[#D4AF37]" /> {BRAND.phone}
-                </a>
-              </li>
-              <li>
-                <a href={`mailto:${BRAND.email}`} className="flex items-center gap-2 text-sm text-neutral-300 hover:text-[#D4AF37]">
-                  <Mail size={15} className="text-[#D4AF37]" /> {BRAND.email}
-                </a>
-              </li>
-              <li className="flex items-center gap-2 text-sm text-neutral-300">
-                <Globe size={15} className="text-[#D4AF37]" /> {BRAND.website}
-              </li>
-              <li className="flex items-start gap-2 text-sm text-neutral-400">
-                <MapPin size={15} className="text-[#D4AF37] mt-0.5" />
-                <span>BWI · DCA · IAD · DMV-wide</span>
-              </li>
-            </ul>
-          </div>
+          {FOOTER_COLUMNS.map((col) => (
+            <div key={col.heading}>
+              <h3 className="text-sm font-semibold text-white tracking-wide">{col.heading}</h3>
+              <ul className="mt-4 space-y-2.5">
+                {col.links.map((l) => (
+                  <li key={l.to}>
+                    <Link
+                      data-testid={`footer-link-${l.to}`}
+                      to={l.to}
+                      className="text-sm text-neutral-400 hover:text-[#D4AF37] transition-colors"
+                    >
+                      {l.label}
+                    </Link>
+                  </li>
+                ))}
+                {col.more && (
+                  <li>
+                    <Link
+                      to={col.more.to}
+                      data-testid="footer-all-service-areas"
+                      className="text-sm text-[#B8860B] font-medium hover:text-[#D4AF37] transition-colors"
+                    >
+                      {col.more.label} →
+                    </Link>
+                  </li>
+                )}
+              </ul>
+            </div>
+          ))}
         </div>
 
-        <div className="mt-12 pt-6 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-neutral-500">
-          <span>© {new Date().getFullYear()} {BRAND.legal}. All rights reserved.</span>
-          <div className="flex items-center gap-4">
-            <Link
-              to="/privacy-policy"
-              data-testid="footer-privacy-link"
-              className="hover:text-[#D4AF37] transition-colors"
-            >
-              Privacy Policy
-            </Link>
-            <span className="text-neutral-700">·</span>
-            <Link
-              to="/terms-conditions"
-              data-testid="footer-terms-link"
-              className="hover:text-[#D4AF37] transition-colors"
-            >
-              Terms &amp; Conditions
-            </Link>
-            <span className="text-neutral-700 hidden sm:inline">·</span>
-            <span className="hidden sm:inline">Available 24/7</span>
-          </div>
+        <div className="mt-12 pt-6 border-t border-white/5 flex flex-col lg:flex-row items-center justify-between gap-4 text-xs text-neutral-500">
+          <span>© {new Date().getFullYear()} {BRAND.legal}. All rights reserved. {BRAND.psc}.</span>
+          <nav aria-label="Policies" className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1.5">
+            {FOOTER_LEGAL.map((l, i) => (
+              <span key={l.to} className="flex items-center gap-3">
+                <Link to={l.to} data-testid={l.testId} className="hover:text-[#D4AF37] transition-colors">
+                  {l.label}
+                </Link>
+                {i < FOOTER_LEGAL.length - 1 && <span className="text-neutral-700">·</span>}
+              </span>
+            ))}
+          </nav>
         </div>
       </div>
     </footer>

@@ -35,7 +35,7 @@ export const BLOG_POSTS = [
       {
         heading: "What a Flat Rate Includes (and What It Ends)",
         paragraphs: [
-          "A proper BWI car service quotes one number at booking — and that number includes the vehicle, the professional chauffeur, fuel, tolls, and flight tracking with built-in wait time. There is no meter running in traffic on I-95, no surge multiplier on a rainy Friday, no overnight fee at 4 a.m. What the flat rate ends is uncertainty: the price you confirm days ahead is the price on the receipt, which is why corporate travelers and budget-minded families both land on the same answer.",
+          "A proper BWI car service quotes one number at booking — and that number includes the vehicle, the professional chauffeur, fuel, and flight tracking with built-in wait time; gratuity, tolls, and parking are disclosed before confirmation. There is no meter running in traffic on I-95, no surge multiplier on a rainy Friday, no overnight fee at 4 a.m. What the flat rate ends is uncertainty: the price you confirm days ahead is the price on the receipt, which is why corporate travelers and budget-minded families both land on the same answer.",
         ],
       },
       {
@@ -66,7 +66,7 @@ export const BLOG_POSTS = [
         heading: "Booking It Right",
         paragraphs: [
           "Reserve the night before at the latest — earlier for holiday weeks. Provide the flight number, the passenger count, and an honest luggage count, and book the return leg at the same time so the trip home is already solved. You will receive confirmation with the chauffeur details, and on the day, the car simply appears.",
-          "That is the whole promise of a BWI car service done well: the airport becomes the easy part. Get an all-inclusive quote online in about a minute or call (877) 609-1919 — we answer 24/7, and we have never met a 4 a.m. pickup we could not make.",
+          "That is the whole promise of a BWI car service done well: the airport becomes the easy part. Get a transparent quote online in about a minute or call (877) 609-1919 — we answer 24/7, and we have never met a 4 a.m. pickup we could not make.",
         ],
       },
     ],
@@ -77,7 +77,7 @@ export const BLOG_POSTS = [
       },
       {
         q: "How much does a car service to BWI cost?",
-        a: "Rates are flat by vehicle class — sedan, SUV, or Sprinter van — and include fuel, tolls, flight tracking, and wait time, with no surge and no overnight fees. Call (877) 609-1919 for an exact all-inclusive quote for your address.",
+        a: "Rates are flat by vehicle class — sedan, SUV, or Sprinter van — and include fuel, flight tracking, and wait time — gratuity, tolls, and parking are disclosed before confirmation, with no surge and no overnight fees. Call (877) 609-1919 for an exact transparent quote for your address.",
       },
       {
         q: "How early should I leave for BWI?",
@@ -109,7 +109,7 @@ export const BLOG_POSTS = [
         heading: "The Price You See vs. the Price You Pay",
         paragraphs: [
           "Rideshare's advertised fare is a best-case estimate. Maryland's realities work against it: Ravens and Orioles game days, Preakness weekend, Ocean City summer Saturdays, and every snowstorm push demand — and multipliers — sharply upward. A trip quoted at thirty dollars can bill at eighty when several forces stack, and you learn the real number only when you are already committed.",
-          "A limo service inverts the model: the rate is flat, quoted before you book, and inclusive of tolls, fuel, and wait time. On quiet Tuesdays rideshare may cost less; across a year of real trips — the ones that happen during weather, events, and rush hours — the flat rate is frequently the cheaper average and always the calmer one.",
+          "A limo service inverts the model: the rate is flat, quoted before you book, and inclusive of fuel and standard wait time, with gratuity, tolls, and parking disclosed before confirmation. On quiet Tuesdays rideshare may cost less; across a year of real trips — the ones that happen during weather, events, and rush hours — the flat rate is frequently the cheaper average and always the calmer one.",
         ],
       },
       {
@@ -159,7 +159,7 @@ export const BLOG_POSTS = [
         heading: "The Verdict",
         paragraphs: [
           "One more factor deserves weight for anyone traveling on business: the receipt. A flat-rate car service produces one clean, predictable line item that expense systems and clients accept without questions — versus a rideshare bill that varies trip to trip and invites exactly the scrutiny nobody wants on a Friday afternoon.",
-          "Uber is a convenience tool that is excellent at small jobs. A professional limo service is a reliability tool that is excellent at the trips you cannot afford to lose. Most of our long-term clients use both — the app for errands, 92 Limo Service for everything with stakes. For the trips that matter, get a flat all-inclusive quote online or call (877) 609-1919, 24/7, and see what a committed car feels like.",
+          "Uber is a convenience tool that is excellent at small jobs. A professional limo service is a reliability tool that is excellent at the trips you cannot afford to lose. Most of our long-term clients use both — the app for errands, 92 Limo Service for everything with stakes. For the trips that matter, get a flat transparent quote online or call (877) 609-1919, 24/7, and see what a committed car feels like.",
         ],
       },
     ],
@@ -320,7 +320,7 @@ export const BLOG_POSTS = [
           "Are you a licensed carrier with commercial liability insurance — and will you show proof?",
           "Who exactly drives, and how are chauffeurs vetted and trained?",
           "What is the backup plan if a vehicle fails on the day?",
-          "Is the quote all-inclusive — fuel, tolls, gratuity policy, overtime terms — in writing?",
+          "Is the quote transparent — fuel, tolls, gratuity policy, overtime terms — in writing?",
           "Will the lead chauffeur do a route walk-through with our planner the week of?",
           "Have you driven our specific venue before?",
         ],
@@ -340,7 +340,7 @@ export const BLOG_POSTS = [
       {
         heading: "What It Costs, Honestly",
         paragraphs: [
-          "Expect the couple's chauffeured car for the day's key moves to run a few hundred dollars, with Sprinters and shuttles booked hourly against minimums and remote venues adding positioning time. The number that matters is the all-inclusive written quote. Treat vagueness about overtime or gratuity as the red flag it is.",
+          "Expect the couple's chauffeured car for the day's key moves to run a few hundred dollars, with Sprinters and shuttles booked hourly against minimums and remote venues adding positioning time. The number that matters is the transparent written quote. Treat vagueness about overtime or gratuity as the red flag it is.",
         ],
       },
       {
@@ -368,7 +368,7 @@ export const BLOG_POSTS = [
       },
       {
         q: "What should a wedding transportation quote include?",
-        a: "Everything, in writing: vehicles, hours, fuel, tolls, gratuity policy, and overtime terms. Reputable companies quote flat and all-inclusive; a quote that leaves room to grow usually will.",
+        a: "Everything, in writing: vehicles, hours, fuel, tolls, gratuity policy, and overtime terms. Reputable companies quote flat and transparent; a quote that leaves room to grow usually will.",
       },
       {
         q: "Do you provide guest shuttles for Maryland venues?",
@@ -451,7 +451,7 @@ export const BLOG_POSTS = [
         heading: "10. Keep One Provider for All Three Airports",
         paragraphs: [
           "When one company covers BWI, DCA, and Dulles with the same flat-rate model, every trip starts the same way: book, fly, walk out, ride. No relearning pickup zones, no juggling apps, one number to call when weather scrambles a connection. That consistency — trip after trip — is what a transfer done well feels like.",
-          "That is the service 92 Limo Service runs across the DMV every day: flight-tracked, flat-rate, professionally chauffeured transfers at all three airports, 24/7. Get an all-inclusive quote online or call (877) 609-1919, and make the ground legs the most boring part of your travel day.",
+          "That is the service 92 Limo Service runs across the DMV every day: flight-tracked, flat-rate, professionally chauffeured transfers at all three airports, 24/7. Get a transparent quote online or call (877) 609-1919, and make the ground legs the most boring part of your travel day.",
         ],
       },
     ],
@@ -494,8 +494,8 @@ export const BLOG_POSTS = [
       {
         heading: "The Two Pricing Models: Flat Rate and Hourly",
         paragraphs: [
-          "Every legitimate quote you receive will use one of two structures. Point-to-point trips — airport transfers, one-way rides — are priced flat: one number, agreed at booking, covering the vehicle, chauffeur, fuel, tolls, and normal wait time. Occasions where the car stays with you — weddings, proms, wine tours, business days with multiple stops — are priced hourly, usually with a three-hour minimum.",
-          "The single most important question to ask any company is whether the number they quoted is all-inclusive. A flat rate that quietly excludes tolls, fuel surcharges, or 'airport fees' is not a flat rate; it is a down payment on a surprise.",
+          "Every legitimate quote you receive will use one of two structures. Point-to-point trips — airport transfers, one-way rides — are priced flat: one number, agreed at booking, covering the vehicle, chauffeur, fuel, and normal wait time — gratuity, tolls, and parking disclosed before confirmation. Occasions where the car stays with you — weddings, proms, wine tours, business days with multiple stops — are priced hourly, usually with a three-hour minimum.",
+          "The single most important question to ask any company is whether the number they quoted is transparent. A flat rate that quietly excludes tolls, fuel surcharges, or 'airport fees' is not a flat rate; it is a down payment on a surprise.",
         ],
       },
       {
@@ -557,18 +557,18 @@ export const BLOG_POSTS = [
       {
         heading: "Get Your Exact Maryland Number",
         paragraphs: [
-          "Ranges set expectations; your trip deserves a real figure. Tell 92 Limo Service the date, addresses, and party size, and you will have a firm, all-inclusive flat quote in about a minute — the same price at any hour, honored exactly as quoted. Request it online or call (877) 609-1919, where a human answers 24/7.",
+          "Ranges set expectations; your trip deserves a real figure. Tell 92 Limo Service the date, addresses, and party size, and you will have a firm, transparent flat quote in about a minute — the same price at any hour, honored exactly as quoted. Request it online or call (877) 609-1919, where a human answers 24/7.",
         ],
       },
     ],
     faqs: [
       {
         q: "How much does a limo cost in Maryland in 2026?",
-        a: "Chauffeured sedan airport transfers run roughly $85–$130 to BWI from central Maryland, $120–$170 to DCA, and $150–$210 to Dulles. Hourly service runs about $85–$110 for sedans and $110–$145 for SUVs with three-hour minimums. Call (877) 609-1919 for an exact all-inclusive quote.",
+        a: "Chauffeured sedan airport transfers run roughly $85–$130 to BWI from central Maryland, $120–$170 to DCA, and $150–$210 to Dulles. Hourly service runs about $85–$110 for sedans and $110–$145 for SUVs with three-hour minimums. Call (877) 609-1919 for an exact transparent quote.",
       },
       {
         q: "What is included in a flat-rate limo quote?",
-        a: "A legitimate flat rate includes the vehicle, professional chauffeur, fuel, tolls, and standard wait time — with flight tracking on airport trips. There should be no surge pricing, overnight surcharges, or fees added after booking.",
+        a: "A legitimate flat rate includes the vehicle, professional chauffeur, fuel, and standard wait time, with gratuity, tolls, and parking disclosed before confirmation — with flight tracking on airport trips. There should be no surge pricing, overnight surcharges, or fees added after booking.",
       },
       {
         q: "How much should I tip a limo driver in Maryland?",
@@ -611,7 +611,7 @@ export const BLOG_POSTS = [
         heading: "Flight Tracking vs. Opening the App at Baggage Claim",
         paragraphs: [
           "The structural difference is when the ride begins to exist. Rideshare starts when you request it — after landing, after bags, standing at the curb. If your flight ran early, no one cared; if it ran late into a thin-supply hour, you are pricing that misfortune in real time.",
-          "A chauffeured pickup is dispatched against the flight, not the clock. Book with your flight number and the car adjusts to the actual landing automatically, with 30–60 minutes of included wait time after touchdown — more on international arrivals, where customs makes timing unguessable. A delay costs you nothing and requires nothing from you.",
+          "A chauffeured pickup is dispatched against the flight, not the clock. Book with your flight number and the car adjusts to the actual landing automatically, with 60 minutes of included wait time after domestic arrivals and 90 minutes on international arrivals, where customs makes timing unguessable. A delay costs you nothing and requires nothing from you.",
         ],
       },
       {
@@ -678,7 +678,7 @@ export const BLOG_POSTS = [
       },
       {
         q: "What happens if my flight is delayed?",
-        a: "A professional car service tracks your flight and adjusts the pickup automatically, with wait time built in after landing — typically 30–60 minutes domestic and more for international arrivals. With rideshare, you simply request a car after you land at whatever price and availability that hour offers.",
+        a: "A professional car service tracks your flight and adjusts the pickup automatically, with wait time built in after landing — 60 minutes on domestic arrivals and 90 minutes on international arrivals. With rideshare, you simply request a car after you land at whatever price and availability that hour offers.",
       },
       {
         q: "Should I take an Uber for a 6 a.m. flight from BWI?",
@@ -918,7 +918,7 @@ export const BLOG_POSTS = [
       {
         heading: "Flat Rates, Quoted Before You Book",
         paragraphs: [
-          "The best services quote one all-inclusive number — vehicle, chauffeur, fuel, tolls, airport wait time — and hold it regardless of hour or weather. From Laurel, a sedan to BWI should quote in the neighborhood of $85–$115, with DCA and Dulles scaling by distance. Treat two things as disqualifying: quotes that arrive as ranges with asterisks, and any mention of overnight or holiday surcharges. Laurel's flights leave early; a company that penalizes 4 a.m. is telling you who they are.",
+          "The best services quote one transparent number — vehicle, chauffeur, fuel, airport wait time — with gratuity, tolls, and parking disclosed up front, and hold it regardless of hour or weather. From Laurel, a sedan to BWI should quote in the neighborhood of $85–$115, with DCA and Dulles scaling by distance. Treat two things as disqualifying: quotes that arrive as ranges with asterisks, and any mention of overnight or holiday surcharges. Laurel's flights leave early; a company that penalizes 4 a.m. is telling you who they are.",
         ],
       },
       {
@@ -949,7 +949,7 @@ export const BLOG_POSTS = [
         heading: "The Laurel Shopper's Checklist",
         paragraphs: ["Five minutes of diligence sorts the field:"],
         list: [
-          "A firm, all-inclusive flat quote for your exact trip, in writing.",
+          "A firm, transparent flat quote for your exact trip, in writing.",
           "Street-level Laurel knowledge — neighborhoods, Route 198 timing, Parkway patterns.",
           "A verifiable fleet with stated model years, not stock photos.",
           "Commercial insurance and background-checked chauffeurs, confirmed without hesitation.",

@@ -153,6 +153,18 @@ const AREA_CITIES = [
     local: "From the Capitol complex to the Farm Show's biggest weeks, Harrisburg keeps a chauffeur service busy — and ours shows up early every time. We bridge the gap to BWI's nonstop routes with flat-rate I-83 transfers and cover Hershey's venues just up the road." },
 ];
 
+// Search-intent title overrides for the highest-value pages (keep ≤ 60 chars).
+const CITY_TITLE_OVERRIDES = {
+  Baltimore: "Baltimore Limo & Black Car Service | 92 Limo",
+  "Washington DC": "Washington DC Limo & Black Car Service | 92 Limo",
+  Annapolis: "Annapolis Limo & Airport Car Service | 92 Limo",
+};
+const AIRPORT_TITLE_OVERRIDES = {
+  "bwi-airport-car-service": "BWI Airport Car Service | Private Chauffeur | 92 Limo",
+  "dca-airport-car-service": "DCA Airport Car Service | Private Chauffeur | 92 Limo",
+  "iad-airport-car-service": "IAD Airport Car Service | Private Chauffeur | 92 Limo",
+};
+
 const AIRPORT_PAGES = [
   { slug: "bwi-airport-car-service", kw: "BWI Airport Car Service", airport: "BWI Marshall Airport", code: "BWI", angle: "car" },
   { slug: "bwi-airport-transportation", kw: "BWI Airport Transportation", airport: "BWI Marshall Airport", code: "BWI", angle: "transportation" },
@@ -216,12 +228,12 @@ const ROUTE_PAGES = [
 /* ------------------------------------------------------------------ */
 
 const CORE_HIGHLIGHTS = [
-  { title: "Flat, All-Inclusive Pricing", desc: "One transparent quote covering tolls, taxes, and gratuity. No meters, no surge, no surprises." },
+  { title: "Flat, Transparent Pricing", desc: "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises." },
   { title: "Professional Chauffeurs", desc: "Background-checked, professionally dressed, and trained to arrive early — every ride, every time." },
   { title: "24/7 Availability", desc: "Pre-dawn departures and red-eye arrivals are covered. We operate around the clock, every day of the year." },
   { title: "Late-Model Luxury Fleet", desc: "Mercedes, BMW, Cadillac, and Sprinter vehicles — detailed before every trip, with water and chargers on board." },
   { title: "Real-Time Flight Tracking", desc: "Airport pickups adjust automatically when flights run early or late — at no extra charge." },
-  { title: "Easy Booking", desc: `Reserve online in minutes or call ${PHONE}. Every booking is confirmed with an all-inclusive quote.` },
+  { title: "Easy Booking", desc: `Reserve online in minutes or call ${PHONE}. Every booking is confirmed with a transparent quote.` },
 ];
 
 function pickHighlights(unique) {
@@ -235,7 +247,7 @@ function pickHighlights(unique) {
 }
 
 const CORE_FAQS = [
-  { q: "How is pricing calculated?", a: "Every trip is quoted as a flat, all-inclusive rate before you book. The price covers tolls, taxes, and standard gratuity — there is no meter and no surge pricing." },
+  { q: "How is pricing calculated?", a: "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing." },
   { q: "How far in advance should I book?", a: `We recommend booking at least 24 hours ahead, and earlier for weekends and special events. Same-day requests are welcome when vehicles are available — call ${PHONE} anytime.` },
   { q: "Are your chauffeurs licensed and insured?", a: "Yes. 92 Limo Service is fully licensed and commercially insured, and every chauffeur is background-checked and professionally trained." },
 ];
@@ -256,20 +268,20 @@ function cityPage(c, i) {
       `92 Limo Service is the chauffeured car and limo service ${c.name}, ${c.st} residents call when the trip has to go right. We serve ${c.vibe} with luxury sedans, SUVs, and Sprinter vans — available 24 hours a day, 365 days a year.`,
       `Most of our ${c.name} clients start with an airport transfer. ${c.air === "BWI" ? `The run to BWI Marshall takes about ${c.mins} minutes via ${c.roads}` : `We cover BWI, DCA, and Dulles from ${c.name}, using ${c.roads}`}, and every airport ride includes real-time flight tracking, meet-and-greet options, and full luggage assistance. Early flight? Your chauffeur is at your door before dawn. Delayed arrival? We adjust at no charge.`,
       `Beyond the airport, we handle corporate travel, weddings, proms, wine tours, and hourly charters throughout the area — including ${c.spots}. One number, one trusted chauffeur partner, for every trip on your calendar.`,
-      `Pricing is simple: a flat, all-inclusive quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call ${PHONE} or book online in minutes.`,
+      `Pricing is simple: a flat, transparent quote up front. No surge pricing on rainy Fridays, no meter anxiety in traffic. Just a spotless vehicle, a professional chauffeur, and a rate you approved before you booked. Call ${PHONE} or book online in minutes.`,
     ],
     [
       `From ${c.spots}, 92 Limo Service covers every corner of ${c.name}, ${c.st} with professional chauffeured transportation. Whether it is a ${c.mins <= 30 ? "quick" : "comfortable"} airport run, a business meeting, or a special evening, you get the same standard: on time, immaculate, and flat-rated.`,
       `Airport transfers from ${c.name} are door-to-door. ${c.air === "BWI" ? `BWI Marshall sits roughly ${c.miles} miles away — about ${c.mins} minutes via ${c.roads}` : `Depending on your terminal, we route via ${c.roads} to BWI, DCA, or Dulles`}. Your chauffeur tracks the flight, loads the luggage, and delivers you curbside with time to spare. Returns work the same way, with wait time built in for delays.`,
       `Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Escalade or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.`,
-      `Booking takes minutes and every reservation is confirmed with an all-inclusive quote. That is why ${c.name} clients keep our number saved: ${PHONE}, answered 24/7.`,
+      `Booking takes minutes and every reservation is confirmed with a transparent quote. That is why ${c.name} clients keep our number saved: ${PHONE}, answered 24/7.`,
     ],
   ];
   const intro = introSets[i % 3];
   return {
     slug: `${c.slug}-limo-service`,
     entry: {
-      metaTitle: `Limo Service ${c.name} ${c.st} | 92 Limo Service`,
+      metaTitle: CITY_TITLE_OVERRIDES[c.name] || `Limo Service ${c.name} ${c.st} | 92 Limo Service`,
       metaDescription: `Luxury limo & car service in ${c.name}, ${c.st}. Airport transfers to BWI, DCA & IAD, corporate travel, weddings & events. Flat rates, pro chauffeurs, 24/7.`,
       eyebrow: `${c.name.toUpperCase()}, ${c.st}`,
       h1: `Limo Service in ${c.name}, ${c.st}`,
@@ -284,7 +296,7 @@ function cityPage(c, i) {
       ]),
       vehicles: i % 3 === 0 ? SEDAN_TRIO : GROUP_TRIO,
       faqs: [
-        { q: `How much does a limo service in ${c.name} cost?`, a: `Rates depend on distance and vehicle, and every trip is quoted flat before you book — tolls, taxes, and gratuity included. Call ${PHONE} or request a quote online for an exact price.` },
+        { q: `How much does a limo service in ${c.name} cost?`, a: `Rates depend on distance and vehicle, and every trip is quoted flat before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call ${PHONE} or request a quote online for an exact price.` },
         { q: `How long is the ride from ${c.name} to the airport?`, a: c.air === "BWI" ? `${c.name} to BWI Marshall is about ${c.miles} miles — roughly ${c.mins} minutes via ${c.roads}, traffic depending. We build in buffer time so you never cut it close.` : `From ${c.name} we serve BWI, DCA, and Dulles. Your quote includes a recommended pickup time with buffer built in for traffic on ${c.roads}.` },
         { q: `Do you offer 24/7 service in ${c.name}?`, a: `Yes. We operate around the clock, every day of the year — early departures, red-eye arrivals, and late nights out in ${c.name} are all covered.` },
         ...CORE_FAQS.slice(0, 2),
@@ -311,7 +323,7 @@ function areaPage(c, i) {
 
   const introSets = [
     [
-      `Searching for a dependable limo service in ${c.name}, ${c.st}? 92 Limo Service brings chauffeured luxury transportation to ${c.county} — covering ${c.hoods} — with airport transfers, corporate travel, weddings, and nights out all handled by the same professional team. Every trip is confirmed in advance with a flat, all-inclusive quote and driven by a background-checked chauffeur in a late-model luxury vehicle.`,
+      `Searching for a dependable limo service in ${c.name}, ${c.st}? 92 Limo Service brings chauffeured luxury transportation to ${c.county} — covering ${c.hoods} — with airport transfers, corporate travel, weddings, and nights out all handled by the same professional team. Every trip is confirmed in advance with a flat, transparent quote and driven by a background-checked chauffeur in a late-model luxury vehicle.`,
       `Airport runs are where most ${c.name} clients meet us. ${airA}. Your chauffeur tracks the flight in real time, adjusts automatically for delays, loads every bag, and includes generous wait time on arrivals — so an early landing or a slow baggage carousel never becomes your problem.`,
       `Local knowledge is the difference between on time and almost on time. Our chauffeurs know ${c.spots}, and they plan around school traffic, event closures, and rush hour on ${c.roads} before you ever feel it. You get one number to call, one trusted team, and the same polished standard on every ride.`,
       `Pick the vehicle that fits: a Mercedes E-Class or BMW 7 Series for executive travel, a Cadillac Escalade or Chevrolet Suburban for families and luggage, or a Mercedes Sprinter van that keeps up to 14 people together. Every vehicle arrives detailed and stocked with water — call ${PHONE} any hour to reserve.`,
@@ -320,7 +332,7 @@ function areaPage(c, i) {
       `92 Limo Service is the chauffeured car service ${c.name}, ${c.st} calls when showing up late is not an option. From ${c.hoods}, we cover all of ${c.county} with luxury sedans, SUVs, and Sprinter vans — 24 hours a day, every day of the year.`,
       `${airB}. Every airport transfer includes real-time flight tracking, optional meet-and-greet at baggage claim, and full luggage assistance. Book a 4 AM departure and your chauffeur is outside before your coffee finishes brewing; land two hours late and your pickup has already adjusted at no charge.`,
       `Beyond the airport we handle corporate accounts, weddings, proms, date nights, wine tours, and hourly as-directed charters around ${c.spots}. Tell us the plan — multiple stops, tight timing, a surprise pickup — and we build the schedule around it.`,
-      `Pricing stays simple: one flat, all-inclusive quote approved before you book, covering tolls, taxes, and standard gratuity. No meters, no surge, no fine print. Call ${PHONE} or book online in minutes.`,
+      `Pricing stays simple: one flat, transparent quote approved before you book, covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no fine print. Call ${PHONE} or book online in minutes.`,
     ],
     [
       `From ${c.spots}, 92 Limo Service covers ${c.name}, ${c.st} and the rest of ${c.county} with chauffeured transportation that treats your schedule as the contract. On time, immaculate, flat-rated — that is the standard on every trip, whether it is an airport run or a milestone celebration.`,
@@ -329,10 +341,10 @@ function areaPage(c, i) {
       `The fleet matches the occasion. Executives ride in the Mercedes E-Class and BMW 7 Series. Families and groups take the Escalade or Suburban. Wedding parties and group outings fill the Mercedes Sprinter — up to 14 seats, luggage and all. Reserve online or call ${PHONE}, answered 24/7.`,
     ],
     [
-      `When ${c.name}, ${c.st} needs a car service that actually shows up early, it calls 92 Limo Service. We provide chauffeured luxury transportation across ${c.county} — ${c.hoods} included — with flat all-inclusive pricing and a fleet of late-model Mercedes, BMW, Cadillac, and Sprinter vehicles.`,
-      `${airA}. We watch the flight so you do not have to: delays shift your pickup automatically, arrivals include generous free wait time, and meet-and-greet service inside the terminal is available on request.`,
+      `When ${c.name}, ${c.st} needs a car service that actually shows up early, it calls 92 Limo Service. We provide chauffeured luxury transportation across ${c.county} — ${c.hoods} included — with flat transparent pricing and a fleet of late-model Mercedes, BMW, Cadillac, and Sprinter vehicles.`,
+      `${airA}. We watch the flight so you do not have to: delays shift your pickup automatically, arrivals include generous free wait time, and meet-and-greet service inside the terminal is available on request for an additional charge for an additional charge.`,
       `Around town, our chauffeurs know ${c.spots} and the alternates around ${c.roads} when traffic stacks up. That local fluency is why ${c.name} families book us for weddings and proms, and why area businesses keep corporate accounts with consolidated billing and priority scheduling.`,
-      `Every reservation is confirmed with one flat quote — tolls, taxes, and gratuity included, nothing metered, nothing surged. Call ${PHONE} or request a quote online, any hour of the day.`,
+      `Every reservation is confirmed with one flat quote — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, nothing metered, nothing surged. Call ${PHONE} or request a quote online, any hour of the day.`,
     ],
   ];
   const intro = [...introSets[i % 4], c.local];
@@ -366,7 +378,7 @@ function areaPage(c, i) {
         bwi
           ? { q: `How long does it take to get from ${c.name} to BWI?`, a: `About ${c.mins} minutes for the ${c.miles}-mile run via ${c.roads}, depending on traffic. We build buffer time into every pickup and track your flight so departures and arrivals stay stress-free.` }
           : { q: `Which airports do you serve from ${c.name}?`, a: `All of them. Reagan National is about ${c.mins} minutes via ${c.roads}, and we run daily transfers to BWI Marshall and Dulles as well — every one flight-tracked with luggage help included.` },
-        { q: `How much does limo service in ${c.name} cost?`, a: `Every trip is quoted as one flat, all-inclusive rate before you book — tolls, taxes, and standard gratuity included, with no meters and no surge pricing. Call ${PHONE} for an exact quote for your date and vehicle.` },
+        { q: `How much does limo service in ${c.name} cost?`, a: `Every trip is quoted as one flat, transparent rate before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with no meters and no surge pricing. Call ${PHONE} for an exact quote for your date and vehicle.` },
         { q: `What vehicles can I book in ${c.name}?`, a: `Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours.` },
         { q: `Can I book a late-night or early-morning ride in ${c.name}?`, a: `Yes — we operate 24/7, every day of the year. Pre-dawn airport departures, red-eye arrivals, and late nights out all get the same on-time, chauffeured service. We recommend booking at least 24 hours ahead when you can.` },
       ],
@@ -383,12 +395,12 @@ function airportPage(a, i) {
   const introSets = [
     [
       `92 Limo Service provides premium ${noun} to and from ${a.airport}${cityLine} — 24 hours a day, 365 days a year. Your chauffeur tracks the flight, meets you at baggage claim or curbside, handles every bag, and drives a spotless luxury vehicle to your door. No shuttles, no shared vans, no surge pricing.`,
-      `Arrivals are effortless. We monitor your inbound flight in real time, so an early landing or a two-hour delay changes nothing — your vehicle is staged when you walk out. Choose curbside pickup or an inside meet-and-greet with a name sign, and enjoy generous complimentary wait time while you clear baggage claim.`,
+      `Arrivals are effortless. We monitor your inbound flight in real time, so an early landing or a two-hour delay changes nothing — your vehicle is staged when you walk out. Choose curbside pickup or an optional inside meet-and-greet with a name sign (additional charge), and enjoy generous complimentary wait time while you clear baggage claim.`,
       `Departures run just as smoothly. We calculate your pickup around traffic and check-in windows, build in buffer time, and get you to ${a.airport} relaxed rather than rushed. ${a.code === "BWI" ? "We serve every BWI terminal and the nearby hotels, park-and-rides, and Amtrak station." : a.code === "DCA" ? "We serve every DCA terminal, plus Crystal City and Pentagon City hotels." : "We serve every IAD terminal and the Dulles-corridor hotels and offices."}`,
-      `Ride your way: Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalades and Suburbans for families with luggage, and Mercedes Sprinter vans that keep groups of up to 14 together. Every trip is quoted as a flat, all-inclusive rate before you book.`,
+      `Ride your way: Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalades and Suburbans for families with luggage, and Mercedes Sprinter vans that keep groups of up to 14 together. Every trip is quoted as a flat, transparent rate before you book.`,
     ],
     [
-      `When the flight matters, the ride to the airport should never be the weak link. 92 Limo Service delivers ${noun} at ${a.airport}${cityLine} with professional chauffeurs, late-model luxury vehicles, and flat all-inclusive rates — trusted by business travelers, families, and frequent flyers across the DMV.`,
+      `When the flight matters, the ride to the airport should never be the weak link. 92 Limo Service delivers ${noun} at ${a.airport}${cityLine} with professional chauffeurs, late-model luxury vehicles, and flat transparent rates — trusted by business travelers, families, and frequent flyers across the DMV.`,
       `Every airport booking includes real-time flight tracking. Land early and your chauffeur is already there. Get delayed and your pickup adjusts automatically, free of charge. Inside meet-and-greet with a name sign is available on request, and luggage assistance is always included.`,
       `${a.city ? `We cover every ${a.city} neighborhood, hotel, and office` : "We cover all of Maryland, Washington DC, Northern Virginia, southern Pennsylvania, and Delaware"} — so the same trusted service that picks you up at home can return you there after the trip. Round-trip bookings guarantee your return ride before you even take off.`,
       `Corporate accounts get priority scheduling, consolidated billing, and a dedicated contact. Families get car seats on request and vehicles with real luggage room. Everyone gets the same promise: on time, immaculate, and flat-rated. Call ${PHONE} anytime.`,
@@ -397,8 +409,8 @@ function airportPage(a, i) {
   return {
     slug: a.slug,
     entry: {
-      metaTitle: `${a.kw} | 92 Limo Service`,
-      metaDescription: metaDesc(`${a.kw} with flight tracking, meet & greet, and flat all-inclusive rates. Pro chauffeurs and luxury vehicles, 24/7.`),
+      metaTitle: AIRPORT_TITLE_OVERRIDES[a.slug] || `${a.kw} | 92 Limo Service`,
+      metaDescription: metaDesc(`${a.kw} with flight tracking, optional meet & greet, and flat transparent rates. Pro chauffeurs and luxury vehicles, 24/7.`),
       eyebrow: a.code === "BWI" ? "BWI MARSHALL" : a.code === "DCA" ? "REAGAN NATIONAL" : "DULLES INTERNATIONAL",
       h1: a.kw,
       subtitle: `Reliable, chauffeured ${noun} at ${a.airport} — flight-tracked pickups, flat rates, and luxury vehicles around the clock.`,
@@ -407,12 +419,12 @@ function airportPage(a, i) {
       highlightsHeading: `What Makes Our ${a.code} Service Different`,
       intro: introSets[i % 2],
       highlights: pickHighlights([
-        { title: "Meet & Greet Available", desc: "Your chauffeur waits inside with a name sign and walks you to the vehicle — ideal for first visits and VIP guests." },
+        { title: "Airport Meet & Greet Available", desc: "Your chauffeur can meet you inside baggage claim with a personalized name sign and assist with luggage. Additional charge applies." },
         { title: "Generous Free Wait Time", desc: "Complimentary wait time on every arrival — 60 minutes domestic, 90 international — while you clear baggage claim." },
       ]),
       vehicles: SEDAN_TRIO,
       faqs: [
-        { q: `Where does my chauffeur meet me at ${a.code}?`, a: `Your choice: curbside on the arrivals level, or inside at baggage claim with a name sign (meet & greet). Pickup instructions are confirmed with your booking.` },
+        { q: `Where does my chauffeur meet me at ${a.code}?`, a: `Your choice: curbside on the arrivals level, or inside at baggage claim with a name sign (meet & greet — additional charge). Pickup instructions are confirmed with your booking.` },
         { q: "What happens if my flight is delayed?", a: "Nothing you need to manage. We track every flight in real time and adjust your pickup automatically — there is no extra charge for flight delays." },
         { q: `Do you serve ${a.code} at night and early morning?`, a: `Yes. We operate 24/7, so 4 AM departures and midnight arrivals at ${a.airport} get the same reliable service.` },
         ...CORE_FAQS,
@@ -442,7 +454,7 @@ function servicePage(s, i) {
       ]]
     : [
       [
-        `92 Limo Service delivers ${s.noun} across ${s.region} that actually lives up to the occasion. From ${s.venues}, we cover ${s.occasions} with immaculate luxury vehicles, professional chauffeurs, and flat all-inclusive pricing.`,
+        `92 Limo Service delivers ${s.noun} across ${s.region} that actually lives up to the occasion. From ${s.venues}, we cover ${s.occasions} with immaculate luxury vehicles, professional chauffeurs, and flat transparent pricing.`,
         `Every detail is planned in advance: pickup times that fit your schedule, routes that dodge traffic, and a chauffeur who arrives early and stays flexible. You will never watch a surge-price countdown or wonder if the driver will show.`,
         `Groups are our strength. Our Cadillac Escalades and Suburbans carry up to six in comfort, and our Mercedes Sprinter vans keep parties of up to 14 together — no splitting the group across rideshares, no one left waiting.`,
         `Booking takes minutes: request a quote online or call ${PHONE}, approve a flat rate, and consider it handled. That is why ${s.region} clients use us again and again.`,
@@ -451,7 +463,7 @@ function servicePage(s, i) {
         `Some rides are just transportation. ${s.kw.replace(/ (Maryland|Washington DC|Baltimore|MD|DC)$/,"")} from 92 Limo Service is part of the event. We provide chauffeured luxury vehicles for ${s.occasions} throughout ${s.region} — polished, punctual, and priced flat.`,
         `Tell us the plan and we build the transportation around it: multiple pickups, photo stops, venue timing, late-night returns. Your chauffeur coordinates with you by text, stays reachable all night, and adapts when the schedule moves.`,
         `The fleet fits every version of the night. A BMW 7 Series or S-Class for an elegant arrival. An Escalade for the crew. A Sprinter for the whole party, with room to celebrate on the way. Every vehicle is detailed before pickup and stocked with water.`,
-        `We serve ${s.venues} and everywhere between. One flat quote covers the night — tolls, taxes, and gratuity included. Call ${PHONE} or book online.`,
+        `We serve ${s.venues} and everywhere between. One flat quote covers the night — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call ${PHONE} or book online.`,
       ],
     ];
   const intro = introSets[i % introSets.length];
@@ -459,7 +471,7 @@ function servicePage(s, i) {
     slug: s.slug,
     entry: {
       metaTitle: `${s.kw} | 92 Limo Service`,
-      metaDescription: metaDesc(`${s.kw} with professional chauffeurs, luxury vehicles & flat all-inclusive rates. Serving ${s.region} 24/7.`),
+      metaDescription: metaDesc(`${s.kw} with professional chauffeurs, luxury vehicles & flat transparent rates. Serving ${s.region} 24/7.`),
       eyebrow: s.kw.toUpperCase(),
       h1: s.kw,
       subtitle: somber
@@ -489,7 +501,7 @@ function servicePage(s, i) {
       ),
       vehicles: s.trio,
       faqs: [
-        { q: `How much does ${s.noun} cost in ${s.region}?`, a: `Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, all-inclusive rate — tolls, taxes, and gratuity included. Call ${PHONE} for an exact quote.` },
+        { q: `How much does ${s.noun} cost in ${s.region}?`, a: `Pricing depends on date, duration, and vehicle. Every booking is quoted as one flat, transparent rate — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call ${PHONE} for an exact quote.` },
         somber
           ? { q: "Can you coordinate with our funeral director?", a: "Yes. We regularly work directly with funeral homes on timing, staging, and procession order, so your family does not have to relay logistics." }
           : care
@@ -512,7 +524,7 @@ function vehiclePage(v, i) {
       `Reserve the ${v.vehicle} — a ${v.cls} seating ${v.pax} — with a professional chauffeur from 92 Limo Service. It is the right vehicle for ${v.best}, and it arrives detailed, fueled, and stocked with water and chargers.`,
       `This is chauffeured service, not a rental counter. Your licensed, background-checked chauffeur handles the driving, the luggage, and the timing, so you use the ride to work, relax, or celebrate. Hourly hires, one-way transfers, and airport runs are all available.`,
       `The ${v.vehicle} pairs beautifully with the rest of our fleet for larger plans: sedans lead the executive convoy, SUVs carry the family, and Sprinter vans move the whole group. Mixed-vehicle bookings for weddings and corporate events are quoted as one flat package.`,
-      `Availability is 24/7 across Maryland, Washington DC, and Northern Virginia. Request your quote online or call ${PHONE} — every booking is confirmed with one flat, all-inclusive rate.`,
+      `Availability is 24/7 across Maryland, Washington DC, and Northern Virginia. Request your quote online or call ${PHONE} — every booking is confirmed with one flat, transparent rate.`,
     ],
     [
       `Some occasions deserve a specific vehicle. The ${v.vehicle} is our ${v.cls} — ${v.pax}, chauffeur-driven, and ideal for ${v.best}. 92 Limo Service keeps it showroom-clean and books it around the clock across the DMV.`,
@@ -554,13 +566,13 @@ function vehiclePage(v, i) {
 function routePage(r, i) {
   const introSets = [
     [
-      `92 Limo Service provides private, chauffeured car service from ${r.from} to ${r.to} — ${r.miles} miles of door-to-door comfort, typically ${r.time} via ${r.roads}. One flat rate, quoted before you book, covers the entire trip including tolls, taxes, and gratuity.`,
+      `92 Limo Service provides private, chauffeured car service from ${r.from} to ${r.to} — ${r.miles} miles of door-to-door comfort, typically ${r.time} via ${r.roads}. One flat rate, quoted before you book, covers the base transportation charge for the entire trip — gratuity, tolls, parking, and any other applicable charges are disclosed before confirmation.`,
       `Your chauffeur arrives early, loads every bag, and plans the route in real time around traffic. Drop-off works at any address: ${r.dropoffs}. Reverse trips, round trips, and late-night departures are all available 24/7.`,
       `Compare the alternatives: rideshares surge and cancel on long runs, trains lock you to a schedule and a station, and driving yourself means traffic, tolls, and parking. A private chauffeured transfer costs a known flat amount and turns the drive into productive or restful time.`,
-      `Choose a Mercedes E-Class or BMW 7 Series for solo and business travel, an Escalade or Suburban for families and luggage, or a Sprinter van that keeps groups of up to 14 together. Call ${PHONE} or book online — every reservation is confirmed with an all-inclusive quote.`,
+      `Choose a Mercedes E-Class or BMW 7 Series for solo and business travel, an Escalade or Suburban for families and luggage, or a Sprinter van that keeps groups of up to 14 together. Call ${PHONE} or book online — every reservation is confirmed with a transparent quote.`,
     ],
     [
-      `Need a reliable ride from ${r.from} to ${r.to}? 92 Limo Service runs this route every week — about ${r.miles} miles in ${r.time} via ${r.roads} — with professional chauffeurs, luxury vehicles, and flat all-inclusive pricing.`,
+      `Need a reliable ride from ${r.from} to ${r.to}? 92 Limo Service runs this route every week — about ${r.miles} miles in ${r.time} via ${r.roads} — with professional chauffeurs, luxury vehicles, and flat transparent pricing.`,
       `Everything is door-to-door. We pick you up at home, the office, or the terminal, and deliver you to ${r.dropoffs}. Luggage help is included, water and chargers are on board, and the cabin stays quiet enough to work or nap the whole way.`,
       `Long-distance trips are where chauffeured service earns its keep: no surge pricing, no driver cancellations an hour before departure, and no handoffs. The vehicle that picks you up is the vehicle that drops you off, with the same chauffeur throughout.`,
       `Round trips and multi-day itineraries are welcome, and corporate accounts get priority scheduling with consolidated billing. Reserve online in minutes or call ${PHONE} — we operate 24/7.`,
@@ -570,10 +582,10 @@ function routePage(r, i) {
     slug: r.slug,
     entry: {
       metaTitle: `${r.kw} | 92 Limo Service`,
-      metaDescription: metaDesc(`${r.kw}: private chauffeured transfer, ${r.time} door-to-door. Flat all-inclusive rate, luxury vehicles, 24/7.`),
+      metaDescription: metaDesc(`${r.kw}: private chauffeured transfer, ${r.time} door-to-door. Flat transparent rate, luxury vehicles, 24/7.`),
       eyebrow: `${r.from.toUpperCase()} → ${r.to.toUpperCase()}`,
       h1: r.kw,
-      subtitle: `Private chauffeured transfers from ${r.from} to ${r.to} — ${r.time} door-to-door at one flat, all-inclusive rate.`,
+      subtitle: `Private chauffeured transfers from ${r.from} to ${r.to} — ${r.time} door-to-door at one flat, transparent rate.`,
       image: i % 2 === 0 ? "longDistance" : "dcSkyline",
       alt: `Luxury chauffeured vehicle — ${r.kw.toLowerCase()} by 92 Limo Service`,
       highlightsHeading: `The Smart Way to Travel ${r.from} → ${r.to}`,
@@ -584,7 +596,7 @@ function routePage(r, i) {
       ]),
       vehicles: r.miles > 80 ? GROUP_TRIO : SEDAN_TRIO,
       faqs: [
-        { q: `How much does car service from ${r.from} to ${r.to} cost?`, a: `The trip is quoted as one flat, all-inclusive rate based on vehicle choice — tolls, taxes, and gratuity included. Call ${PHONE} or request a quote online for an exact price.` },
+        { q: `How much does car service from ${r.from} to ${r.to} cost?`, a: `The trip is quoted as one flat, transparent rate based on vehicle choice — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call ${PHONE} or request a quote online for an exact price.` },
         { q: `How long does the trip take?`, a: `Plan on ${r.time} for the ${r.miles}-mile run via ${r.roads}, depending on traffic. Your chauffeur monitors conditions and adjusts the route in real time.` },
         { q: "Can I book a round trip?", a: "Yes — round trips and wait-and-return bookings are common on this route, and reserving both legs together guarantees your return vehicle." },
         ...CORE_FAQS.slice(0, 2),
@@ -600,7 +612,9 @@ function routePage(r, i) {
 /* ------------------------------------------------------------------ */
 
 const pages = [];
-CITIES.forEach((c, i) => pages.push(cityPage(c, i)));
+// `category` drives the grouping on /service-areas (the site's single full directory).
+const tag = (p, category) => ({ ...p, entry: { ...p.entry, category } });
+CITIES.forEach((c, i) => pages.push(tag(cityPage(c, i), "city")));
 AREA_CITIES.forEach((c, i) => {
   const p = areaPage(c, i);
   // SEO guardrails for the /limo-service-* pages.
@@ -614,12 +628,12 @@ AREA_CITIES.forEach((c, i) => {
     p.entry.ctaTitle, p.entry.ctaSubtitle,
   ].join(" ").split(/\s+/).filter(Boolean).length;
   if (words < 600) throw new Error(`${p.slug}: only ${words} words (need 600+)`);
-  pages.push(p);
+  pages.push(tag(p, "city"));
 });
-AIRPORT_PAGES.forEach((a, i) => pages.push(airportPage(a, i)));
-SERVICE_PAGES.forEach((s, i) => pages.push(servicePage(s, i)));
-VEHICLE_PAGES.forEach((v, i) => pages.push(vehiclePage(v, i)));
-ROUTE_PAGES.forEach((r, i) => pages.push(routePage(r, i)));
+AIRPORT_PAGES.forEach((a, i) => pages.push(tag(airportPage(a, i), "airport")));
+SERVICE_PAGES.forEach((s, i) => pages.push(tag(servicePage(s, i), "service")));
+VEHICLE_PAGES.forEach((v, i) => pages.push(tag(vehiclePage(v, i), "vehicle")));
+ROUTE_PAGES.forEach((r, i) => pages.push(tag(routePage(r, i), "route")));
 
 const seen = new Set();
 for (const p of pages) {

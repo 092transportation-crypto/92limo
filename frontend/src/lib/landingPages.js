@@ -25,7 +25,7 @@ export const LANDING_PAGES = {
   "bwi-airport-limo": {
     metaTitle: "Luxury BWI Airport Limo Service | 92 Limo Service",
     metaDescription:
-      "Luxury BWI airport limo service across MD, PA, DE, DC & Northern VA. Flight tracking, meet & greet, pro chauffeurs, fixed transparent pricing. 24/7.",
+      "Luxury BWI airport limo service across MD, PA, DE, DC & Northern VA. Flight tracking, optional meet & greet, pro chauffeurs, fixed transparent pricing. 24/7.",
     eyebrow: "BWI MARSHALL AIRPORT",
     h1: "Luxury BWI Airport Limo Service",
     subtitle:
@@ -35,7 +35,7 @@ export const LANDING_PAGES = {
     highlightsHeading: "Why Choose 92 Limo Service?",
     intro: [
       "92 Limo Service is the luxury limo service travelers trust at BWI Marshall Airport. Wherever your trip begins — a home in Maryland, an office in Washington DC, a hotel in Northern Virginia, or a small town in southern Pennsylvania or Delaware — your professional chauffeur arrives early, loads every bag, and delivers you to your terminal relaxed and on time. Arrivals work the same way in reverse: we track your flight, meet you at baggage claim or curbside, and drive you home in quiet, spotless comfort.",
-      "Every BWI booking includes real-time flight tracking, so early landings and long delays never cost you a ride — your pickup adjusts automatically at no charge. Prefer a personal welcome? Add meet-and-greet service and your chauffeur waits inside the terminal with a name sign. Generous complimentary wait time is standard on all arrivals.",
+      "Every BWI booking includes real-time flight tracking, so early landings and long delays never cost you a ride — your pickup adjusts automatically at no charge. Prefer a personal welcome? Add meet-and-greet service and your chauffeur can meet you inside the terminal with a name sign (optional meet & greet — additional charge). Generous complimentary wait time is standard on all arrivals.",
       "Our coverage map is one of the largest of any BWI car service. We serve every Maryland county — from Baltimore, Annapolis, and Columbia to Frederick, Bethesda, and Ocean City — plus Washington DC, Northern Virginia, southern Pennsylvania towns like York, Gettysburg, Lancaster, and Hershey, and all of Delaware down to the beaches. If you can fly from BWI, we can get you there.",
       "Ride your way: executive Mercedes and BMW sedans for business travel, the Cadillac Escalade ESV for VIP arrivals and families, and Mercedes Sprinter vans that keep groups of up to 14 together with all their luggage. Corporate accounts enjoy priority scheduling and consolidated billing, and every trip — personal or business — is quoted as one fixed, transparent price. Call (877) 609-1919 or book online, any hour of the day.",
     ],
@@ -47,8 +47,8 @@ export const LANDING_PAGES = {
       { title: "Cadillac Escalade ESV", desc: "Our premium SUV flagship — first-class space for families, executives, and VIP arrivals." },
       { title: "Mercedes Sprinter Vans", desc: "Executive vans that keep groups of up to 14 together, with room for every bag." },
       { title: "Corporate Accounts", desc: "Priority scheduling, consolidated billing, and a dedicated contact for business travel programs." },
-      { title: "Fixed, Transparent Pricing", desc: "One flat quote covering tolls, taxes, and gratuity — no meters and no surge pricing, ever." },
-      { title: "Meet & Greet Available", desc: "Your chauffeur waits inside baggage claim with a name sign and walks you to the vehicle." },
+      { title: "Fixed, Transparent Pricing", desc: "One flat quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — no meters and no surge pricing, ever." },
+      { title: "Airport Meet & Greet Available", desc: "Your chauffeur can meet you inside baggage claim with a personalized name sign and assist with luggage. Additional charge applies." },
     ],
     areas: [
       { region: "Maryland", places: [
@@ -125,11 +125,11 @@ export const LANDING_PAGES = {
     vehicles: SEDAN_TRIO,
     faqs: [
       { q: "How far in advance should I book my BWI limo?", a: "We recommend booking at least 24 hours ahead, and earlier during holidays and peak travel weeks. Same-day requests are welcome when vehicles are available — call (877) 609-1919 anytime, 24/7." },
-      { q: "Where does my chauffeur meet me at BWI?", a: "Your choice: curbside on the arrivals level, or inside at baggage claim with a name sign (meet & greet). Your confirmation includes exact pickup instructions." },
+      { q: "Where does my chauffeur meet me at BWI?", a: "Your choice: curbside on the arrivals level, or inside at baggage claim with a name sign (meet & greet — additional charge). Your confirmation includes exact pickup instructions." },
       { q: "What if my flight into BWI is delayed?", a: "Nothing changes for you. We track every flight in real time and adjust your pickup automatically, at no extra charge, with generous complimentary wait time on arrival." },
       { q: "Do you really serve Pennsylvania and Delaware?", a: "Yes. We regularly run BWI transfers to and from York, Hanover, Gettysburg, Lancaster, Harrisburg, and Hershey in Pennsylvania, and Wilmington, Newark, Dover, and the beach towns in Delaware." },
       { q: "Can a group ride together?", a: "Absolutely. Our Mercedes Sprinter vans seat up to 14 passengers with dedicated luggage space, and our Escalade ESV and Suburban SUVs carry families and small groups in first-class comfort." },
-      { q: "Is the price really fixed?", a: "Yes. Every trip is quoted as one fixed, transparent rate before you book — tolls, taxes, and standard gratuity included. There is no meter and no surge pricing." },
+      { q: "Is the price really fixed?", a: "Yes. Every trip is quoted as one fixed, transparent rate before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. There is no meter and no surge pricing." },
     ],
     ctaTitle: "Book Your BWI Airport Transportation Today",
     ctaSubtitle:
@@ -152,7 +152,7 @@ export const LANDING_PAGES = {
       "Starting your cruise should feel like the beginning of a vacation — not a logistics headache. 92 Limo Service provides luxury chauffeured transfers to and from the Port of Baltimore Cruise Terminal at South Locust Point, the embarkation point for Carnival, Royal Caribbean, and seasonal sailings up and down the East Coast. Whether you are coming from your front door in Maryland, a downtown DC hotel, Northern Virginia, or flying into BWI Marshall the day of your sailing, we make sure you arrive relaxed, on schedule, and ready to step aboard.",
       "Pre-cruise pickups are planned around your boarding window, not ours. Your chauffeur arrives early, helps load every bag, and drives you directly to the terminal drop-off so you can hand off your luggage to the porters and walk straight to check-in. There is no circling for parking, no shuttle waiting, and no worrying about long-term parking fees that add up over a week at sea. For travelers flying in, we coordinate flight-to-port timing — tracking your inbound flight and adjusting pickup automatically so a delay never costs you your cruise.",
       "Post-cruise returns are just as smooth. Disembarkation mornings are notoriously chaotic, so we monitor the port and stage your vehicle for a prompt, comfortable pickup the moment you clear the terminal. After a week away, the last thing you want is to hunt for a ride home — your chauffeur is already there, climate-controlled cabin ready, bottled water on hand, and a direct route home or back to the airport.",
-      "Traveling with extended family, a group of friends, or a corporate retreat? Our Mercedes Sprinter vans seat large parties together with dedicated luggage space, so nobody is splitting across multiple cars or paying surge rates on a rideshare app. From a couple in a Business Sedan to a multi-generational family in a Sprinter van, we right-size the vehicle to your group and your bags — and quote a flat, all-inclusive rate up front.",
+      "Traveling with extended family, a group of friends, or a corporate retreat? Our Mercedes Sprinter vans seat large parties together with dedicated luggage space, so nobody is splitting across multiple cars or paying surge rates on a rideshare app. From a couple in a Business Sedan to a multi-generational family in a Sprinter van, we right-size the vehicle to your group and your bags — and quote a flat, transparent rate up front.",
     ],
     highlights: [
       { title: "Direct Port-of-Baltimore Service", desc: "Door-to-terminal transfers to South Locust Point Cruise Terminal — no parking, no shuttles, no stress." },
@@ -160,7 +160,7 @@ export const LANDING_PAGES = {
       { title: "Full Luggage Handling", desc: "Your chauffeur loads and unloads every bag and helps you to the porters at the terminal entrance." },
       { title: "Post-Cruise Pickups", desc: "We stage your vehicle for disembarkation morning so you ride home the moment you clear the terminal." },
       { title: "Group & Family Options", desc: "Sprinter vans and SUVs keep your whole party — and all the luggage — together in one comfortable vehicle." },
-      { title: "Flat, All-Inclusive Pricing", desc: "Transparent quotes covering tolls, taxes, and gratuity. No surge pricing, no surprises." },
+      { title: "Flat, Transparent Pricing", desc: "Transparent quotes covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No surge pricing, no surprises." },
     ],
     vehicles: GROUP_TRIO,
     faqs: [
@@ -169,10 +169,10 @@ export const LANDING_PAGES = {
       { q: "Do you help with luggage?", a: "Absolutely. Your chauffeur loads and unloads all of your bags and assists you to the curbside porters at the terminal — and helps again on your return." },
       { q: "Can you accommodate large groups going on the same cruise?", a: "Yes. Our Mercedes Sprinter vans and full-size SUVs comfortably seat larger parties with dedicated luggage space, keeping your whole group together in one vehicle." },
       { q: "How far in advance should I book a cruise transfer?", a: "We recommend booking at least a few days ahead, and earlier during peak cruise season, to guarantee your preferred vehicle. Call (877) 609-1919 anytime, 24/7." },
-      { q: "What does the price include?", a: "Our cruise transfers are quoted as flat, all-inclusive rates covering base fare, tolls, taxes, and standard gratuity — with no surge pricing." },
+      { q: "What does the price include?", a: "Our cruise transfers are quoted as flat, transparent rates covering the base transportation charge — gratuity, tolls, parking, and any other applicable charges are disclosed before confirmation — with no surge pricing." },
     ],
     ctaTitle: "Ready to Set Sail?",
-    ctaSubtitle: "Reserve your Baltimore cruise port transfer — we confirm every booking with an all-inclusive quote.",
+    ctaSubtitle: "Reserve your Baltimore cruise port transfer — we confirm every booking with a transparent quote.",
   },
 
   // ---------------------------------------------------------------- SPORTS
@@ -191,7 +191,7 @@ export const LANDING_PAGES = {
       "Game day in Baltimore is electric — and a whole lot more enjoyable when you are not fighting for a parking spot or worrying about the drive home. 92 Limo Service provides chauffeured transportation to every Ravens home game at M&T Bank Stadium and every Orioles game at Oriole Park at Camden Yards, two of the best venues in professional sports, conveniently located side by side in downtown Baltimore. We pick you up at home, the office, or your hotel and drop you right at the gate.",
       "For tailgaters, we time drop-offs around the lots so you have plenty of time to fire up the grill before kickoff — and we will be back at your pickup point when the game ends, no walking through dark parking lots or waiting on a surge-priced rideshare. Because you are not driving, everyone in your group can relax and enjoy the day exactly the way game day is meant to be enjoyed.",
       "Rolling with a crew? Our Mercedes Sprinter vans and full-size SUVs keep groups of friends, families, and coworkers together in one vehicle, with room for coolers, gear, and team flags. Corporate clients and suite holders rely on us for polished, on-time arrivals when entertaining clients — we will coordinate multiple pickups, handle the downtown logistics, and present the professional image your business expects.",
-      "Beyond Ravens and Orioles games, we provide the same reliable, luxurious service for concerts, championship events, and big nights out across the region — from CFG Bank Arena downtown to stadium shows and everything in between. One trusted chauffeur partner, every event on your calendar, with flat all-inclusive pricing and a safe ride home every time.",
+      "Beyond Ravens and Orioles games, we provide the same reliable, luxurious service for concerts, championship events, and big nights out across the region — from CFG Bank Arena downtown to stadium shows and everything in between. One trusted chauffeur partner, every event on your calendar, with flat transparent pricing and a safe ride home every time.",
     ],
     highlights: [
       { title: "Drop-Off at the Gate", desc: "Arrive right at M&T Bank Stadium or Camden Yards — no parking lots, no long walks, no hassle." },
@@ -208,7 +208,7 @@ export const LANDING_PAGES = {
       { q: "How does pickup work after the game?", a: "We coordinate a specific post-game pickup location and time. Because crowds and traffic are heavy, your chauffeur stages nearby and brings the vehicle to you so you are not waiting in the crowd." },
       { q: "Can you handle a large group?", a: "Yes. Our Sprinter vans and full-size SUVs keep groups together in a single vehicle with space for coolers and gear — far more comfortable and cost-effective than multiple rideshares." },
       { q: "Do you work with corporate and suite clients?", a: "We do. We provide professional, on-time service for client entertaining and suite nights, including coordinated multi-stop pickups. Ask about recurring corporate accounts." },
-      { q: "Is pricing flat or metered?", a: "We quote flat, all-inclusive game-day rates covering tolls, taxes, and gratuity — with no surge pricing even on the busiest nights." },
+      { q: "Is pricing flat or metered?", a: "We quote flat, transparent game-day rates covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — with no surge pricing even on the busiest nights." },
     ],
     ctaTitle: "Make Game Day Effortless",
     ctaSubtitle: "Book your chauffeur to the next Ravens or Orioles game and skip the parking entirely.",
@@ -218,7 +218,7 @@ export const LANDING_PAGES = {
   "bwi-to-washington-dc": {
     metaTitle: "BWI Airport to Washington DC Car Service | 92 Limo Service",
     metaDescription:
-      "Private car service from BWI Airport to Washington DC. Meet & greet, flight tracking, flat-rate pricing, and 24/7 chauffeurs to DC hotels & offices.",
+      "Private car service from BWI Airport to Washington DC. Optional meet & greet, flight tracking, flat-rate pricing, and 24/7 chauffeurs to DC hotels & offices.",
     eyebrow: "BWI → WASHINGTON DC",
     h1: "BWI Airport to Washington DC Car Service",
     subtitle: "Private, chauffeured transfers between BWI Marshall and the nation's capital — roughly 32 miles of effortless luxury.",
@@ -228,14 +228,14 @@ export const LANDING_PAGES = {
     intro: [
       "The 32-mile trip between BWI Marshall Airport and Washington, D.C. should be the easy part of your journey — and with 92 Limo Service, it is. Our chauffeurs meet you at baggage claim with a name sign, carry your bags, and have you settled into a spotless luxury vehicle within minutes of landing. Whether you are headed to a Capitol Hill hotel, a K Street office, a Georgetown townhouse, or a conference at the convention center, you ride in quiet comfort while we handle the Beltway and downtown traffic.",
       "Travel time between BWI and downtown DC typically runs 45 to 60 minutes depending on the time of day, and our chauffeurs know every alternate route when the BW Parkway or I-95 slows down. We track your inbound flight in real time, so an early arrival or a delay simply means we adjust — your car is ready when you are, with no extra charge for reasonable schedule changes.",
-      "Business travelers appreciate the professionalism: clean vehicles, discreet chauffeurs, USB charging, and the ability to take calls or prep for a meeting on the move. Families and leisure travelers love arriving at the monuments and museums relaxed rather than wrestling luggage on a train. Either way, you get a flat, all-inclusive rate quoted in advance — no metering, no surge pricing, no surprises.",
+      "Business travelers appreciate the professionalism: clean vehicles, discreet chauffeurs, USB charging, and the ability to take calls or prep for a meeting on the move. Families and leisure travelers love arriving at the monuments and museums relaxed rather than wrestling luggage on a train. Either way, you get a flat, transparent rate quoted in advance — no metering, no surge pricing, no surprises.",
       "From the Mercedes-Benz E-Class for solo and business trips to the Cadillac Escalade and Sprinter vans for groups and extra luggage, we match the vehicle to your needs. And because we run 24/7, your red-eye arrival or pre-dawn departure to Reagan, Dulles, or back to BWI is covered with the same reliability.",
       "Beyond the airport run, many DC clients keep us on call for their entire visit — meetings across the District, dinner reservations in Georgetown, evening events on Capitol Hill, and the return trip to the airport. With one trusted chauffeur partner handling every leg, there are no rideshare surprises, no surge pricing during rush hour or rain, and no waiting on a curb. We serve every DC hotel, embassy, and office building, and we are happy to set up recurring corporate accounts for teams who travel between Maryland and the capital regularly.",
     ],
     highlights: [
-      { title: "Meet & Greet at BWI", desc: "Your chauffeur greets you inside the terminal with a name sign and helps with luggage." },
+      { title: "Airport Meet & Greet Available", desc: "Your chauffeur can meet you inside baggage claim with a personalized name sign and assist with luggage. Additional charge applies." },
       { title: "Real-Time Flight Tracking", desc: "We monitor your flight and adjust pickup for early arrivals or delays at no extra charge." },
-      { title: "Flat, All-Inclusive Rate", desc: "One transparent price covering tolls, taxes, and gratuity — quoted before you ride." },
+      { title: "Flat, Transparent Rate", desc: "One transparent price covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — quoted before you ride." },
       { title: "Door-to-Door in DC", desc: "Direct service to hotels, offices, monuments, and residences throughout Washington, D.C." },
       { title: "24/7 Availability", desc: "Red-eye arrivals and pre-dawn departures are no problem — we run around the clock." },
       { title: "Business-Ready Comfort", desc: "Quiet cabins, USB charging, and discreet chauffeurs so you can work or relax en route." },
@@ -243,20 +243,20 @@ export const LANDING_PAGES = {
     vehicles: SEDAN_TRIO,
     faqs: [
       { q: "How long does the BWI to Washington DC drive take?", a: "Typically 45 to 60 minutes depending on traffic and your exact DC destination. The distance is roughly 32 miles via I-95 or the Baltimore-Washington Parkway." },
-      { q: "Will my chauffeur meet me inside the terminal?", a: "Yes. We offer meet & greet service — your chauffeur waits at baggage claim with a name sign and assists with your luggage. Curbside pickup is also available if you prefer." },
+      { q: "Will my chauffeur meet me inside the terminal?", a: "Yes. We offer optional meet & greet (additional charge) service — your chauffeur waits at baggage claim with a name sign and assists with your luggage. Curbside pickup is also available if you prefer." },
       { q: "What if my flight is delayed?", a: "We track your flight in real time and adjust your pickup automatically. There is no extra charge for reasonable delays." },
-      { q: "Is the price fixed?", a: "Yes. We quote a flat, all-inclusive rate for BWI–DC transfers covering tolls, taxes, and gratuity. There is no metering and no surge pricing." },
+      { q: "Is the price fixed?", a: "Yes. We quote a flat, transparent rate for BWI–DC transfers covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. There is no metering and no surge pricing." },
       { q: "Can you accommodate groups or extra luggage?", a: "Definitely. Choose a full-size SUV or a Mercedes Sprinter van for larger parties and additional bags." },
       { q: "Do you serve all of Washington DC?", a: "Yes — we provide door-to-door service to every DC neighborhood, hotel, office, and venue, as well as Reagan National (DCA) and Dulles (IAD)." },
     ],
     ctaTitle: "Book Your BWI–DC Transfer",
-    ctaSubtitle: "Reserve a chauffeur between BWI and Washington, D.C. with flat, all-inclusive pricing.",
+    ctaSubtitle: "Reserve a chauffeur between BWI and Washington, D.C. with flat, transparent pricing.",
   },
 
   "bwi-to-annapolis": {
     metaTitle: "BWI Airport to Annapolis Car Service | 92 Limo Service",
     metaDescription:
-      "Luxury car service from BWI Airport to Annapolis, MD. Flight tracking, meet & greet, and flat-rate transfers to the Naval Academy, City Dock & hotels.",
+      "Luxury car service from BWI Airport to Annapolis, MD. Flight tracking, optional meet & greet, and flat-rate transfers to the Naval Academy, City Dock & hotels.",
     eyebrow: "BWI → ANNAPOLIS",
     h1: "BWI Airport to Annapolis Car Service",
     subtitle: "Quick, comfortable chauffeured transfers between BWI Marshall and Maryland's historic capital — about 25 miles.",
@@ -266,15 +266,15 @@ export const LANDING_PAGES = {
     intro: [
       "Annapolis is one of the most charming destinations in Maryland — home to the United States Naval Academy, the historic City Dock, and a waterfront downtown that draws sailors, families, and business travelers alike. 92 Limo Service makes the roughly 25-mile trip from BWI Marshall Airport to Annapolis effortless, with professional chauffeurs, immaculate vehicles, and flat-rate pricing you can count on.",
       "The drive typically takes 25 to 35 minutes via I-97 and US-50, and our chauffeurs know the quickest path to the Naval Academy gates, the downtown hotels along Compromise and Main Street, the Annapolis Town Center, and the residential neighborhoods of Eastport and beyond. We meet you at baggage claim, handle your luggage, and have you on the road in minutes.",
-      "Whether you are arriving for a Naval Academy event such as Commissioning Week or a parents' weekend, a sailing trip, a waterfront wedding, or a corporate meeting, you will appreciate arriving relaxed and on time. We track your inbound flight, adjust automatically for delays, and quote one transparent, all-inclusive price — no metering and no surge.",
+      "Whether you are arriving for a Naval Academy event such as Commissioning Week or a parents' weekend, a sailing trip, a waterfront wedding, or a corporate meeting, you will appreciate arriving relaxed and on time. We track your inbound flight, adjust automatically for delays, and quote one transparent, transparent price — no metering and no surge.",
       "From the Mercedes-Benz E-Class for individuals and couples to SUVs and Sprinter vans for families and groups with luggage, we match the right vehicle to your trip. And with 24/7 availability, your early-morning departure back to BWI is just as dependable as your arrival.",
       "Because Annapolis fills up fast during Naval Academy events, boat shows, and summer weekends, we recommend reserving early so your preferred vehicle is guaranteed. Our chauffeurs know the one-way streets and limited parking around the historic district and City Dock, and drop you as close to your destination as local access allows. Whether you are a parent visiting a midshipman, a couple in town for a waterfront dinner, or a group heading out on the bay, we make the arrival as smooth and memorable as the stay itself.",
     ],
     highlights: [
       { title: "Naval Academy & City Dock", desc: "Direct service to USNA gates, downtown hotels, City Dock, and Eastport." },
-      { title: "Meet & Greet at BWI", desc: "Greeted at baggage claim with a name sign and full luggage assistance." },
+      { title: "Airport Meet & Greet Available", desc: "Your chauffeur can meet you inside baggage claim with a personalized name sign and assist with luggage. Additional charge applies." },
       { title: "Flight Tracking", desc: "We watch your flight and adjust pickup for early arrivals or delays automatically." },
-      { title: "Flat-Rate Pricing", desc: "One all-inclusive price covering tolls, taxes, and gratuity — no surprises." },
+      { title: "Flat-Rate Pricing", desc: "One transparent price covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — no surprises." },
       { title: "Events & Weddings", desc: "Reliable transport for Commissioning Week, parents' weekends, and waterfront weddings." },
       { title: "24/7 Service", desc: "Around-the-clock chauffeurs for early departures and late arrivals." },
     ],
@@ -284,12 +284,12 @@ export const LANDING_PAGES = {
       { q: "Do you serve the Naval Academy?", a: "Yes. We regularly transport families and guests to the USNA for Commissioning Week, parents' weekends, sporting events, and ceremonies, with door-to-door drop-off near the gates." },
       { q: "Can you handle luggage for a sailing trip or longer stay?", a: "Of course. Our SUVs and Sprinter vans offer generous luggage capacity for extended trips and gear." },
       { q: "What if my flight arrives early or late?", a: "We track your flight and adjust your pickup time automatically, with no extra charge for reasonable changes." },
-      { q: "Is pricing flat or metered?", a: "Flat and all-inclusive — your quote covers the fare, tolls, taxes, and gratuity, with no surge pricing." },
+      { q: "Is pricing flat or metered?", a: "Flat and transparent — your quote covers the base transportation charge, with gratuity, tolls, parking, and any other applicable charges clearly disclosed before confirmation. No meters, no surge pricing." },
       { q: "Do you offer return trips to the airport?", a: "Yes, we provide round-the-clock return service from Annapolis to BWI, DCA, and IAD." },
       { q: "Can you provide hourly or as-directed service while I'm in Annapolis?", a: "Yes. Beyond the airport transfer, we offer hourly chauffeur service so you can keep a vehicle and driver on hand for a waterfront dinner, a sailing charter, or multiple stops around town and the Naval Academy. It is an easy, flat-rate way to get around historic Annapolis without parking or rideshare hassles." },
     ],
     ctaTitle: "Book Your Annapolis Transfer",
-    ctaSubtitle: "Reserve a chauffeur between BWI and Annapolis with flat, all-inclusive pricing.",
+    ctaSubtitle: "Reserve a chauffeur between BWI and Annapolis with flat, transparent pricing.",
   },
 
   "bwi-to-baltimore": {
@@ -305,7 +305,7 @@ export const LANDING_PAGES = {
     intro: [
       "At roughly 10 miles, the trip from BWI Marshall Airport to downtown Baltimore is one of the quickest airport transfers in the region — and 92 Limo Service makes it the most comfortable. We meet you at baggage claim, take your bags, and have you gliding toward the Inner Harbor, Harbor East, Fells Point, or your hotel within minutes of landing, usually a 15 to 20 minute drive.",
       "Baltimore draws business travelers to its downtown offices and convention center, patients and families to Johns Hopkins and the University of Maryland Medical Center, and visitors to attractions like the National Aquarium, Camden Yards, and M&T Bank Stadium. Whatever brings you to Charm City, our chauffeurs know the fastest routes and the best drop-off points, so you arrive relaxed and on schedule.",
-      "We track your inbound flight and adjust automatically for early arrivals or delays, and we are available 24/7 for red-eye landings and pre-dawn departures. Every trip is quoted as a flat, all-inclusive rate — covering tolls, taxes, and gratuity — so the short distance never comes with a surprise fare.",
+      "We track your inbound flight and adjust automatically for early arrivals or delays, and we are available 24/7 for red-eye landings and pre-dawn departures. Every trip is quoted as a flat, transparent rate — covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — so the short distance never comes with a surprise fare.",
       "From a Mercedes-Benz E-Class for solo travelers to SUVs and Sprinter vans for groups, families, and conference teams, we right-size the vehicle to your party and luggage. And because Baltimore is our home turf, we also provide game-day service to Orioles and Ravens games just minutes from the harbor.",
       "Local knowledge matters in Baltimore, where one-way streets, harbor events, and game-day road closures can turn a ten-minute hop into a frustrating crawl for an unfamiliar driver. Our chauffeurs navigate it daily and choose the smartest approach to your hotel, hospital, or venue. Conference attendees, wedding guests, and visiting families all appreciate stepping out of the terminal into a ready vehicle and arriving downtown without ever touching a steering wheel or a parking app.",
     ],
@@ -313,28 +313,28 @@ export const LANDING_PAGES = {
       { title: "Inner Harbor & Downtown", desc: "Direct drop-off at harbor hotels, Harbor East, Fells Point, and the convention center." },
       { title: "Johns Hopkins & Medical Centers", desc: "Comfortable, reliable transport for patients, families, and medical professionals." },
       { title: "Fast 15–20 Minute Transfer", desc: "Only about 10 miles from BWI — one of the quickest premium transfers around." },
-      { title: "Meet & Greet + Flight Tracking", desc: "Greeted at baggage claim; we monitor your flight and adjust for delays." },
-      { title: "Flat-Rate Pricing", desc: "All-inclusive quotes covering tolls, taxes, and gratuity — no metering or surge." },
+      { title: "Airport Meet & Greet Available", desc: "Your chauffeur can meet you inside baggage claim with a personalized name sign and assist with luggage. Additional charge applies." },
+      { title: "Flat-Rate Pricing", desc: "Transparent quotes covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — no metering or surge." },
       { title: "Game-Day Service", desc: "Easy rides to Orioles and Ravens games minutes from the Inner Harbor." },
     ],
     vehicles: SEDAN_TRIO,
     faqs: [
       { q: "How far is downtown Baltimore from BWI?", a: "About 10 miles — typically a 15 to 20 minute drive depending on traffic." },
       { q: "Do you serve Johns Hopkins and the medical campuses?", a: "Yes. We provide comfortable door-to-door transfers to Johns Hopkins, the University of Maryland Medical Center, and other hospitals for patients, families, and staff." },
-      { q: "Will you meet me inside the terminal?", a: "Yes — meet & greet at baggage claim with luggage assistance is available, as is curbside pickup if you prefer." },
-      { q: "Is the fare fixed for such a short trip?", a: "Yes. Even short transfers are quoted as a flat, all-inclusive rate with no surge pricing." },
+      { q: "Will you meet me inside the terminal?", a: "Yes — meet & greet at baggage claim with luggage assistance is available for an additional charge, as is curbside pickup if you prefer." },
+      { q: "Is the fare fixed for such a short trip?", a: "Yes. Even short transfers are quoted as a flat, transparent rate with no surge pricing." },
       { q: "Can you take larger groups?", a: "Absolutely — full-size SUVs and Sprinter vans accommodate groups, families, and conference teams with luggage." },
       { q: "Do you offer return service to BWI?", a: "Yes, 24/7, including early-morning departures and late-night arrivals." },
       { q: "Can you handle convention and group arrivals together?", a: "Yes. For conventions at the Baltimore Convention Center and group events, we coordinate multiple vehicles and staggered arrivals so your whole party reaches the hotel or venue smoothly. SUVs and Sprinter vans keep groups together, and we can set up a single billing account for the organizer." },
     ],
     ctaTitle: "Book Your Baltimore Transfer",
-    ctaSubtitle: "Reserve a chauffeur between BWI and Baltimore with flat, all-inclusive pricing.",
+    ctaSubtitle: "Reserve a chauffeur between BWI and Baltimore with flat, transparent pricing.",
   },
 
   "bwi-to-bethesda": {
     metaTitle: "BWI Airport to Bethesda Car Service | 92 Limo Service",
     metaDescription:
-      "Private car service from BWI Airport to Bethesda, MD. Flight tracking, meet & greet, and flat-rate transfers to the NIH and downtown Bethesda.",
+      "Private car service from BWI Airport to Bethesda, MD. Flight tracking, optional meet & greet, and flat-rate transfers to the NIH and downtown Bethesda.",
     eyebrow: "BWI → BETHESDA",
     h1: "BWI Airport to Bethesda Car Service",
     subtitle: "Polished chauffeured transfers between BWI Marshall and Bethesda — about 40 miles of relaxed travel.",
@@ -344,16 +344,16 @@ export const LANDING_PAGES = {
     intro: [
       "Bethesda is one of the most affluent and dynamic communities in the DC metro area — home to the National Institutes of Health, Walter Reed National Military Medical Center, a thriving downtown of restaurants and offices, and easy access to the rest of Montgomery County. 92 Limo Service provides luxury chauffeured transfers between BWI Marshall Airport and Bethesda, a trip of roughly 40 miles, with the professionalism that business and medical travelers expect.",
       "Travel time typically runs 50 to 70 minutes depending on traffic on I-495 and the BW Parkway, and our chauffeurs plan around rush-hour congestion to keep you on schedule. We meet you at baggage claim, handle your luggage, and provide a quiet, comfortable cabin where you can take calls, answer email, or simply unwind after a long flight.",
-      "Many of our Bethesda clients are visiting the NIH campus, attending medical appointments, or traveling for business with the area's many corporations and consultancies. Others are families and frequent flyers who value a dependable, fixed-rate ride over the uncertainty of rideshare surge pricing. We track your flight, adjust automatically for delays, and quote one transparent, all-inclusive price.",
+      "Many of our Bethesda clients are visiting the NIH campus, attending medical appointments, or traveling for business with the area's many corporations and consultancies. Others are families and frequent flyers who value a dependable, fixed-rate ride over the uncertainty of rideshare surge pricing. We track your flight, adjust automatically for delays, and quote one transparent, transparent price.",
       "Choose the Mercedes-Benz E-Class or BMW 7 Series for executive travel, or step up to the Cadillac Escalade, Chevrolet Suburban, or a Sprinter van for groups and extra luggage. With 24/7 availability, your early-morning departure back to BWI, Reagan, or Dulles is handled with the same care as your arrival.",
       "Bethesda's blend of medical, federal, and corporate destinations means timing is everything, so our chauffeurs plan around appointment windows, meeting start times, and the area's notorious Beltway congestion. Patients and families visiting the NIH Clinical Center value the calm, comfortable ride; executives value the privacy to take calls; and everyone values knowing the fare in advance. A single call also covers the surrounding Montgomery County communities, from Chevy Chase and Potomac to Rockville and Silver Spring.",
     ],
     highlights: [
       { title: "NIH & Walter Reed", desc: "Reliable transfers to the National Institutes of Health and Walter Reed for appointments and business." },
       { title: "Executive Comfort", desc: "Quiet cabins, USB charging, and discreet chauffeurs ideal for working en route." },
-      { title: "Meet & Greet at BWI", desc: "Greeted at baggage claim with a name sign and luggage assistance." },
+      { title: "Airport Meet & Greet Available", desc: "Your chauffeur can meet you inside baggage claim with a personalized name sign and assist with luggage. Additional charge applies." },
       { title: "Flight Tracking", desc: "We monitor your flight and adjust for early arrivals or delays automatically." },
-      { title: "Flat-Rate Pricing", desc: "All-inclusive quotes covering tolls, taxes, and gratuity — never surge-priced." },
+      { title: "Flat-Rate Pricing", desc: "Transparent quotes covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — never surge-priced." },
       { title: "All of Montgomery County", desc: "Service to Chevy Chase, Rockville, Silver Spring, Potomac, and beyond." },
     ],
     vehicles: SEDAN_TRIO,
@@ -363,11 +363,11 @@ export const LANDING_PAGES = {
       { q: "Is this a good option for business travel?", a: "Very much so — our sedans offer quiet, comfortable cabins with charging so you can work or take calls, and our chauffeurs are punctual and discreet." },
       { q: "What if my flight is delayed?", a: "We track your flight and adjust your pickup automatically, with no extra charge for reasonable delays." },
       { q: "Do you also serve nearby Montgomery County towns?", a: "Yes — Chevy Chase, Rockville, Silver Spring, Potomac, and the rest of the county are all within our service area." },
-      { q: "Is the price fixed?", a: "Yes, every BWI–Bethesda transfer is quoted as a flat, all-inclusive rate with no surge pricing." },
+      { q: "Is the price fixed?", a: "Yes, every BWI–Bethesda transfer is quoted as a flat, transparent rate with no surge pricing." },
       { q: "Can I book recurring rides for medical or business visits?", a: "Absolutely. Many Bethesda clients schedule standing weekly or monthly transfers for treatment at the NIH or recurring business meetings. We keep your preferences on file, assign familiar chauffeurs when possible, and bill to a single account for convenience." },
     ],
     ctaTitle: "Book Your Bethesda Transfer",
-    ctaSubtitle: "Reserve a chauffeur between BWI and Bethesda with flat, all-inclusive pricing.",
+    ctaSubtitle: "Reserve a chauffeur between BWI and Bethesda with flat, transparent pricing.",
   },
 
   "bwi-to-dulles": {
@@ -383,7 +383,7 @@ export const LANDING_PAGES = {
     intro: [
       "Sometimes the itinerary calls for one airport on the way out and another on the way back — or a connection that is easier by car than by air. 92 Limo Service provides reliable, comfortable airport-to-airport transfers between BWI Marshall Airport and Washington Dulles International (IAD), a trip of roughly 50 miles across the DC metro area.",
       "Travel time between BWI and Dulles generally runs 60 to 90 minutes depending on traffic on I-495 and the Dulles Toll Road, and our chauffeurs build in sensible buffers and monitor conditions so you reach your departure terminal with time to spare. For arriving passengers who need to reach the other airport, we track your inbound flight and stage your vehicle for a prompt pickup.",
-      "This route is popular with international travelers connecting through Dulles, business travelers whose outbound and return flights use different airports, and anyone recovering from a missed or rebooked flight who needs a calm, professional ride rather than a scramble. You ride in a spotless luxury vehicle with luggage handled for you, and the fare is a flat, all-inclusive rate quoted in advance.",
+      "This route is popular with international travelers connecting through Dulles, business travelers whose outbound and return flights use different airports, and anyone recovering from a missed or rebooked flight who needs a calm, professional ride rather than a scramble. You ride in a spotless luxury vehicle with luggage handled for you, and the fare is a flat, transparent rate quoted in advance.",
       "From the Mercedes-Benz E-Class for solo travelers to SUVs and Sprinter vans for groups with luggage, we match the vehicle to your party. And because we operate 24/7, even the earliest connection or latest rebooking is covered.",
       "We strongly recommend sharing both your arrival and departure times when you book a cross-airport transfer so we can build the right buffer into your pickup. Our chauffeurs monitor real-time conditions on I-495 and the Dulles Toll Road and adjust the route on the fly to protect your connection. For many travelers it is a far more reliable and less stressful option than juggling shuttles or a short connecting flight — and you make the entire trip in a quiet, comfortable cabin with your luggage handled for you.",
     ],
@@ -392,7 +392,7 @@ export const LANDING_PAGES = {
       { title: "Flight Tracking", desc: "We monitor your inbound flight and stage your vehicle for a prompt pickup." },
       { title: "Built-In Time Buffers", desc: "Chauffeurs plan around traffic on I-495 and the Dulles Toll Road to keep you on schedule." },
       { title: "Missed-Flight Recovery", desc: "Rebooked onto a flight from the other airport? We get you there calmly and quickly." },
-      { title: "Flat, All-Inclusive Rate", desc: "One transparent price covering tolls, taxes, and gratuity — no surge." },
+      { title: "Flat, Transparent Rate", desc: "One transparent price covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — no surge." },
       { title: "24/7 Availability", desc: "Earliest connections and latest rebookings are always covered." },
     ],
     vehicles: SEDAN_TRIO,
@@ -401,18 +401,18 @@ export const LANDING_PAGES = {
       { q: "Can you get me from one airport to the other for a connection?", a: "Yes — airport-to-airport transfers between BWI and IAD are one of our specialties, including same-day connections and rebookings." },
       { q: "What if my arriving flight is delayed?", a: "We track your inbound flight and adjust the pickup automatically so your vehicle is ready when you land." },
       { q: "How much time should I allow between flights?", a: "We recommend allowing generous time given the cross-metro distance. Tell us your departure time and we'll plan a pickup with sensible buffers." },
-      { q: "Is the fare fixed?", a: "Yes, BWI–IAD transfers are quoted as a flat, all-inclusive rate covering tolls, taxes, and gratuity." },
+      { q: "Is the fare fixed?", a: "Yes, BWI–IAD transfers are quoted as a flat, transparent rate covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation." },
       { q: "Do you also serve Reagan National (DCA)?", a: "Yes — we provide transfers among BWI, IAD, and DCA, plus door-to-door service throughout the region." },
       { q: "Can you carry oversized or extra luggage from a long flight?", a: "Yes. Our SUVs and Sprinter vans offer generous cargo room for the extra bags, sports equipment, or instruments that often come with long-haul and international travel, and your chauffeur loads and unloads everything for you." },
     ],
     ctaTitle: "Book Your BWI–Dulles Transfer",
-    ctaSubtitle: "Reserve an airport-to-airport chauffeur with flat, all-inclusive pricing.",
+    ctaSubtitle: "Reserve an airport-to-airport chauffeur with flat, transparent pricing.",
   },
 
   "dca-to-washington-dc": {
     metaTitle: "DCA (Reagan) to Washington DC Car Service | 92 Limo Service",
     metaDescription:
-      "Car service from Reagan National (DCA) to Washington DC. Meet & greet, flight tracking, and flat-rate transfers minutes from the terminal, 24/7.",
+      "Car service from Reagan National (DCA) to Washington DC. Optional meet & greet, flight tracking, and flat-rate transfers minutes from the terminal, 24/7.",
     eyebrow: "DCA → WASHINGTON DC",
     h1: "DCA (Reagan) to Washington DC Car Service",
     subtitle: "The closest airport to the city — and the smoothest way into it. Chauffeured transfers from Reagan National to DC.",
@@ -422,24 +422,24 @@ export const LANDING_PAGES = {
     intro: [
       "Reagan National Airport (DCA) sits just across the Potomac from downtown Washington, making it the most convenient gateway to the capital — and 92 Limo Service turns that short hop into a genuinely first-class arrival. Your chauffeur meets you at baggage claim, handles your luggage, and has you on your way to a DC hotel, office, or residence within minutes, with most downtown destinations only a 10 to 20 minute drive away.",
       "Because DCA is so close to the city, it is the airport of choice for business travelers, government and political visitors, and anyone who values a fast, dignified arrival. We provide quiet, immaculate vehicles where you can take a call, review notes, or simply relax after your flight, with a chauffeur who knows the quickest route to Capitol Hill, downtown, Georgetown, or the convention center.",
-      "We track your inbound flight in real time and adjust automatically for early arrivals or delays, and we run 24/7 for the earliest and latest schedules. Every transfer is quoted as a flat, all-inclusive rate — covering tolls, taxes, and gratuity — so there is never a surge or a surprise.",
+      "We track your inbound flight in real time and adjust automatically for early arrivals or delays, and we run 24/7 for the earliest and latest schedules. Every transfer is quoted as a flat, transparent rate — covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — so there is never a surge or a surprise.",
       "From the Mercedes-Benz E-Class and BMW 7 Series for executives to SUVs and Sprinter vans for groups and luggage, we match the vehicle to your trip — and we also handle transfers between DCA, BWI, and Dulles when your plans call for it.",
       "Reagan National's proximity makes it the favorite of busy professionals, and our service is built for that pace: a chauffeur ready the moment you land, a quick clean exit from the airport, and a direct route to your destination. We also keep many DCA clients for the duration of their visit — point-to-point around the District, evening events, and the short hop back to the terminal — all at transparent flat rates with no surge, even during peak hours or inclement weather.",
     ],
     highlights: [
       { title: "Minutes From Downtown", desc: "Most DC destinations are a 10–20 minute drive from Reagan National." },
-      { title: "Meet & Greet at DCA", desc: "Greeted at baggage claim with a name sign and luggage assistance." },
+      { title: "Airport Meet & Greet Available", desc: "Your chauffeur can meet you inside baggage claim with a personalized name sign and assist with luggage. Additional charge applies." },
       { title: "Flight Tracking", desc: "We monitor your flight and adjust for early arrivals or delays automatically." },
       { title: "Executive & Government Travel", desc: "Discreet, punctual service trusted by business and political travelers." },
-      { title: "Flat-Rate Pricing", desc: "All-inclusive quotes covering tolls, taxes, and gratuity — no surge pricing." },
+      { title: "Flat-Rate Pricing", desc: "Transparent quotes covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — no surge pricing." },
       { title: "24/7 Service", desc: "Around-the-clock chauffeurs for every arrival and departure." },
     ],
     vehicles: SEDAN_TRIO,
     faqs: [
       { q: "How close is DCA to downtown Washington DC?", a: "Very close — most downtown DC destinations are only a 10 to 20 minute drive from Reagan National Airport." },
-      { q: "Will my chauffeur meet me at baggage claim?", a: "Yes. Meet & greet with a name sign and luggage assistance is available, and curbside pickup is offered if you prefer." },
+      { q: "Will my chauffeur meet me at baggage claim?", a: "Yes. Meet & greet with a name sign and luggage assistance is available for an additional charge, and curbside pickup is offered if you prefer." },
       { q: "Do you handle flight delays?", a: "Yes — we track your flight in real time and adjust your pickup automatically, with no extra charge for reasonable delays." },
-      { q: "Is the fare flat?", a: "Yes, every DCA–DC transfer is quoted as a flat, all-inclusive rate with no surge pricing." },
+      { q: "Is the fare flat?", a: "Yes, every DCA–DC transfer is quoted as a flat, transparent rate with no surge pricing." },
       { q: "Can you serve groups?", a: "Absolutely — choose a full-size SUV or Sprinter van for larger parties and luggage." },
       { q: "Do you also transfer between airports?", a: "Yes — we provide transfers among DCA, BWI, and IAD, plus door-to-door service across the region." },
       { q: "Do you offer hourly service for meetings around DC?", a: "Yes. After your DCA pickup we can stay with you on an hourly, as-directed basis for back-to-back meetings, client dinners, or events across the District, then return you to the airport — all at a transparent, pre-quoted rate." },
@@ -451,7 +451,7 @@ export const LANDING_PAGES = {
   "iad-to-washington-dc": {
     metaTitle: "Dulles (IAD) to Washington DC Car Service | 92 Limo Service",
     metaDescription:
-      "Private car service from Washington Dulles (IAD) to Washington DC. International arrivals, meet & greet, flight tracking, and flat-rate pricing.",
+      "Private car service from Washington Dulles (IAD) to Washington DC. International arrivals, optional meet & greet, flight tracking, and flat-rate pricing.",
     eyebrow: "IAD → WASHINGTON DC",
     h1: "Dulles (IAD) to Washington DC Car Service",
     subtitle: "Relaxed, chauffeured transfers from Washington Dulles into the capital — about 26 miles after a long flight.",
@@ -459,17 +459,17 @@ export const LANDING_PAGES = {
     alt: "Executive entering a luxury vehicle for IAD to DC car service",
     highlightsHeading: "The Calm After a Long Flight",
     intro: [
-      "Washington Dulles International (IAD) is the region's primary gateway for international and long-haul flights, sitting about 26 miles west of downtown Washington in Virginia. After a long journey, the last thing you want is to navigate the Dulles Toll Road and Beltway yourself — so 92 Limo Service is waiting with a meet & greet, luggage assistance, and a quiet luxury vehicle to carry you the rest of the way in comfort.",
+      "Washington Dulles International (IAD) is the region's primary gateway for international and long-haul flights, sitting about 26 miles west of downtown Washington in Virginia. After a long journey, the last thing you want is to navigate the Dulles Toll Road and Beltway yourself — so 92 Limo Service is waiting with optional meet & greet (additional charge), luggage assistance, and a quiet luxury vehicle to carry you the rest of the way in comfort.",
       "Travel time from Dulles to downtown DC typically runs 40 to 60 minutes depending on traffic, and our chauffeurs monitor conditions to choose the fastest route. For international arrivals, we track your flight and account for customs and immigration time, so your chauffeur is ready exactly when you emerge — not circling or charging you to wait.",
-      "Diplomats, executives, and leisure travelers alike rely on us for the IAD–DC transfer because it sets the tone for the entire trip: professional, punctual, and effortless. We quote one flat, all-inclusive rate in advance — covering tolls, taxes, and gratuity — with no surge pricing no matter when you land.",
+      "Diplomats, executives, and leisure travelers alike rely on us for the IAD–DC transfer because it sets the tone for the entire trip: professional, punctual, and effortless. We quote one flat, transparent rate in advance — covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — with no surge pricing no matter when you land.",
       "Choose the Mercedes-Benz E-Class or BMW 7 Series for solo and business travel, or a Cadillac Escalade, Suburban, or Sprinter van for families and groups arriving with luggage. And with 24/7 service, your overnight international arrival or pre-dawn departure is always covered.",
       "For travelers arriving from overseas, that first ground transfer sets the tone, so we make it calm and seamless: no haggling, no taxi line after a transatlantic flight, and a chauffeur waiting with a name sign the moment you clear customs. We routinely serve embassies, international organizations, and corporate visitors, and we are glad to arrange recurring service for teams and dignitaries who travel through Dulles often — always at a flat, agreed rate quoted before the trip.",
     ],
     highlights: [
       { title: "International Arrivals", desc: "We track your flight and allow for customs and immigration so your chauffeur is ready when you clear." },
-      { title: "Meet & Greet at IAD", desc: "Greeted with a name sign and luggage assistance after your long flight." },
+      { title: "Airport Meet & Greet Available", desc: "Your chauffeur can meet you inside baggage claim with a personalized name sign and assist with luggage. Additional charge applies." },
       { title: "Direct to Downtown DC", desc: "Door-to-door service to DC hotels, offices, embassies, and residences." },
-      { title: "Flat-Rate Pricing", desc: "All-inclusive quotes covering tolls, taxes, and gratuity — never surge-priced." },
+      { title: "Flat-Rate Pricing", desc: "Transparent quotes covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — never surge-priced." },
       { title: "Executive & Diplomatic Travel", desc: "Discreet, professional chauffeurs trusted for high-profile travel." },
       { title: "24/7 Availability", desc: "Overnight international arrivals and pre-dawn departures are no problem." },
     ],
@@ -477,20 +477,20 @@ export const LANDING_PAGES = {
     faqs: [
       { q: "How far is Dulles from downtown DC?", a: "About 26 miles, typically a 40 to 60 minute drive depending on traffic on the Dulles Toll Road and I-66 or I-495." },
       { q: "Do you account for customs on international arrivals?", a: "Yes. We track international flights and allow time for customs and immigration, so your chauffeur meets you when you actually clear — not before." },
-      { q: "Will I be met inside the terminal?", a: "Yes — meet & greet with a name sign and luggage help is available, as is curbside pickup if you prefer." },
-      { q: "Is the price fixed?", a: "Yes, every IAD–DC transfer is quoted as a flat, all-inclusive rate covering tolls, taxes, and gratuity." },
+      { q: "Will I be met inside the terminal?", a: "Yes — meet & greet with a name sign and luggage help is available for an additional charge, as is curbside pickup if you prefer." },
+      { q: "Is the price fixed?", a: "Yes, every IAD–DC transfer is quoted as a flat, transparent rate covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation." },
       { q: "Can you accommodate families and groups?", a: "Absolutely — SUVs and Sprinter vans offer ample seating and luggage space for groups arriving together." },
       { q: "Do you offer return service to Dulles?", a: "Yes, 24/7, including early-morning departures for international flights." },
       { q: "Can you greet international or VIP guests at the terminal?", a: "Yes. Our chauffeurs are experienced with international and VIP arrivals, providing a courteous meet-and-greet with a name sign, luggage assistance, and discreet, professional service from the terminal to the final destination. We can coordinate the details in advance for dignitaries and corporate guests." },
     ],
     ctaTitle: "Book Your IAD–DC Transfer",
-    ctaSubtitle: "Reserve a chauffeur from Dulles into Washington, D.C. with flat, all-inclusive pricing.",
+    ctaSubtitle: "Reserve a chauffeur from Dulles into Washington, D.C. with flat, transparent pricing.",
   },
 
   "bwi-to-columbia": {
     metaTitle: "BWI Airport to Columbia, MD Car Service | 92 Limo Service",
     metaDescription:
-      "Luxury car service from BWI Airport to Columbia, MD. Flight tracking, meet & greet, and flat-rate transfers to Merriweather and Howard County.",
+      "Luxury car service from BWI Airport to Columbia, MD. Flight tracking, optional meet & greet, and flat-rate transfers to Merriweather and Howard County.",
     eyebrow: "BWI → COLUMBIA",
     h1: "BWI Airport to Columbia, MD Car Service",
     subtitle: "Comfortable chauffeured transfers between BWI Marshall and Columbia — about 15 miles into Howard County, with flat-rate pricing and around-the-clock availability.",
@@ -500,7 +500,7 @@ export const LANDING_PAGES = {
     intro: [
       "Columbia is the heart of Howard County — a planned community known for Merriweather Post Pavilion, the bustling Columbia Town Center, top employers, and easy access between Baltimore and Washington. 92 Limo Service provides luxury chauffeured transfers between BWI Marshall Airport and Columbia, a short trip of roughly 15 miles, with the reliability and polish that business and leisure travelers count on.",
       "The drive typically takes 20 to 30 minutes via I-95 and MD-100 or US-29, and our chauffeurs know the quickest routes to Columbia's villages, the Town Center hotels, the Mall in Columbia, and the area's corporate campuses. We meet you at baggage claim, handle your luggage, and provide a comfortable, quiet ride whether you are traveling for work or heading home.",
-      "Concert-goers love arriving at Merriweather Post Pavilion without the parking crush, and business travelers appreciate dependable, fixed-rate service to Howard County's employers and conference venues. We track your inbound flight, adjust for delays automatically, and quote one transparent, all-inclusive price — no metering and no surge.",
+      "Concert-goers love arriving at Merriweather Post Pavilion without the parking crush, and business travelers appreciate dependable, fixed-rate service to Howard County's employers and conference venues. We track your inbound flight, adjust for delays automatically, and quote one transparent, transparent price — no metering and no surge.",
       "From the Mercedes-Benz E-Class for individuals to SUVs and Sprinter vans for families and groups with luggage, we match the right vehicle to your trip, with 24/7 availability for early departures and late arrivals back to BWI, DCA, or IAD.",
       "Columbia's village layout can confuse out-of-town drivers, but our chauffeurs know the community's roads, the Town Center, and the corporate parks well, getting you to the right entrance the first time. Concert nights at Merriweather Post Pavilion are a specialty — we drop you close, skip the parking gridlock, and meet you afterward at an agreed spot so you are not searching a packed lot in the dark. Reliable, fixed-rate, and available around the clock.",
     ],
@@ -508,8 +508,8 @@ export const LANDING_PAGES = {
       { title: "Merriweather Post Pavilion", desc: "Arrive at concerts and events without the parking crush — drop-off and pickup handled." },
       { title: "Town Center & Corporate Campuses", desc: "Reliable transfers to Columbia hotels, the Mall, and Howard County employers." },
       { title: "Short 20–30 Minute Trip", desc: "Only about 15 miles from BWI via I-95 and MD-100 or US-29." },
-      { title: "Meet & Greet + Flight Tracking", desc: "Greeted at baggage claim; we monitor your flight and adjust for delays." },
-      { title: "Flat-Rate Pricing", desc: "All-inclusive quotes covering tolls, taxes, and gratuity — no metering and no surprises, even on busy event nights." },
+      { title: "Airport Meet & Greet Available", desc: "Your chauffeur can meet you inside baggage claim with a personalized name sign and assist with luggage. Additional charge applies." },
+      { title: "Flat-Rate Pricing", desc: "Transparent quotes covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — no metering and no surprises, even on busy event nights." },
       { title: "24/7 Service", desc: "Around-the-clock chauffeurs for early departures, late arrivals, and post-concert returns." },
     ],
     vehicles: SEDAN_TRIO,
@@ -518,18 +518,18 @@ export const LANDING_PAGES = {
       { q: "Can you drop me at Merriweather Post Pavilion?", a: "Yes. We provide concert and event transfers to Merriweather with convenient drop-off and a coordinated post-event pickup." },
       { q: "Do you serve Howard County businesses?", a: "Yes — we regularly transfer business travelers to Columbia's corporate campuses, hotels, and conference venues." },
       { q: "What if my flight is delayed?", a: "We track your flight and adjust pickup automatically, with no extra charge for reasonable delays." },
-      { q: "Is the price fixed?", a: "Yes, every BWI–Columbia transfer is quoted as a flat, all-inclusive rate with no surge pricing." },
+      { q: "Is the price fixed?", a: "Yes, every BWI–Columbia transfer is quoted as a flat, transparent rate with no surge pricing." },
       { q: "Can you take groups?", a: "Absolutely — SUVs and Sprinter vans handle families, groups, and luggage with ease." },
       { q: "Do you serve Merriweather events and Columbia corporate parks together?", a: "Yes. We handle both concert nights at Merriweather Post Pavilion and weekday corporate travel to Columbia's business campuses, and we can combine them — for example, a daytime meeting followed by an evening show — on a single hourly or point-to-point reservation. Groups ride together in our SUVs and Sprinter vans, and every rate is quoted in advance with no surge." },
     ],
     ctaTitle: "Book Your Columbia Transfer",
-    ctaSubtitle: "Reserve a chauffeur between BWI and Columbia with flat, all-inclusive pricing.",
+    ctaSubtitle: "Reserve a chauffeur between BWI and Columbia with flat, transparent pricing.",
   },
 
   "bwi-to-arlington": {
     metaTitle: "BWI Airport to Arlington, VA Car Service | 92 Limo Service",
     metaDescription:
-      "Private car service from BWI Airport to Arlington, VA. Flight tracking, meet & greet, and flat-rate transfers to the Pentagon, Crystal City & Rosslyn.",
+      "Private car service from BWI Airport to Arlington, VA. Flight tracking, optional meet & greet, and flat-rate transfers to the Pentagon, Crystal City & Rosslyn.",
     eyebrow: "BWI → ARLINGTON",
     h1: "BWI Airport to Arlington, VA Car Service",
     subtitle: "Professional chauffeured transfers between BWI Marshall and Arlington, Virginia — about 40 miles, with flat-rate pricing and 24/7 service for government and corporate travelers.",
@@ -539,7 +539,7 @@ export const LANDING_PAGES = {
     intro: [
       "Arlington, Virginia packs an extraordinary amount into a compact county — the Pentagon, Arlington National Cemetery, the business hubs of Rosslyn, Crystal City, and Ballston, and Amazon's HQ2 in National Landing. 92 Limo Service provides luxury chauffeured transfers between BWI Marshall Airport and Arlington, a trip of roughly 40 miles, with the punctual professionalism that government and corporate travelers require.",
       "Travel time typically runs 50 to 75 minutes depending on traffic on I-95 and across the Potomac, and our chauffeurs plan around the region's notorious rush hours to keep you on schedule. We meet you at baggage claim, take your luggage, and provide a quiet cabin where you can prepare for a meeting or unwind after a flight.",
-      "Arlington's mix of federal agencies, defense contractors, and fast-growing tech employers makes dependable, fixed-rate ground transportation essential — and far more comfortable than rideshare roulette. We track your inbound flight, adjust automatically for delays, and quote one transparent, all-inclusive rate with no surge pricing.",
+      "Arlington's mix of federal agencies, defense contractors, and fast-growing tech employers makes dependable, fixed-rate ground transportation essential — and far more comfortable than rideshare roulette. We track your inbound flight, adjust automatically for delays, and quote one transparent, transparent rate with no surge pricing.",
       "Choose the Mercedes-Benz E-Class or BMW 7 Series for executive travel, or a Cadillac Escalade, Suburban, or Sprinter van for groups and luggage. With 24/7 service, your earliest departure or latest arrival to BWI, Reagan, or Dulles is always covered.",
       "Arlington's dense mix of government, defense, and tech destinations rewards a chauffeur who knows the area, and ours navigate the Pentagon reservation, National Landing, and the Rosslyn-Ballston corridor with ease. Security-conscious clients appreciate punctual, professional service and clean vehicles, while frequent travelers appreciate predictable flat pricing instead of fluctuating rideshare fares. Tell us your destination and timing and we will recommend the most efficient airport and route for your trip.",
     ],
@@ -547,8 +547,8 @@ export const LANDING_PAGES = {
       { title: "Pentagon & National Landing", desc: "Reliable transfers to the Pentagon, Crystal City, and Amazon's National Landing." },
       { title: "Rosslyn & Ballston", desc: "Door-to-door service to Arlington's business corridors and hotels." },
       { title: "Government & Corporate Travel", desc: "Punctual, discreet chauffeurs trusted by federal and corporate clients." },
-      { title: "Meet & Greet + Flight Tracking", desc: "Greeted at baggage claim; we monitor your flight and adjust for delays." },
-      { title: "Flat-Rate Pricing", desc: "All-inclusive quotes covering tolls, taxes, and gratuity — no surge." },
+      { title: "Airport Meet & Greet Available", desc: "Your chauffeur can meet you inside baggage claim with a personalized name sign and assist with luggage. Additional charge applies." },
+      { title: "Flat-Rate Pricing", desc: "Transparent quotes covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — no surge." },
       { title: "24/7 Availability", desc: "Around-the-clock service for early departures and late arrivals." },
     ],
     vehicles: SEDAN_TRIO,
@@ -557,18 +557,18 @@ export const LANDING_PAGES = {
       { q: "Do you serve the Pentagon and National Landing?", a: "Yes — we provide door-to-door transfers to the Pentagon, Crystal City, National Landing, Rosslyn, and Ballston." },
       { q: "Is this suitable for government and corporate travel?", a: "Very much so. Our chauffeurs are punctual and discreet, and we can set up recurring corporate accounts for frequent travelers." },
       { q: "What if my flight is delayed?", a: "We track your flight and adjust pickup automatically, with no extra charge for reasonable delays." },
-      { q: "Is the price fixed?", a: "Yes, every BWI–Arlington transfer is quoted as a flat, all-inclusive rate with no surge pricing." },
+      { q: "Is the price fixed?", a: "Yes, every BWI–Arlington transfer is quoted as a flat, transparent rate with no surge pricing." },
       { q: "Would DCA be closer for Arlington?", a: "Often, yes — Reagan National is very close to Arlington. We serve transfers from DCA, BWI, and IAD, so we'll advise the best option for your trip." },
       { q: "Do you provide ongoing corporate accounts for Arlington businesses?", a: "Yes. Government contractors, agencies, and tech employers across Arlington rely on us for recurring executive travel, client pickups, and team transfers. We can establish a corporate account with consolidated billing, saved traveler profiles, and priority scheduling, so booking a polished, on-time ride is effortless every time you need one — to the Pentagon, National Landing, Reagan National, or anywhere across the DMV." },
     ],
     ctaTitle: "Book Your Arlington Transfer",
-    ctaSubtitle: "Reserve a chauffeur between BWI and Arlington with flat, all-inclusive pricing.",
+    ctaSubtitle: "Reserve a chauffeur between BWI and Arlington with flat, transparent pricing.",
   },
 
   "bwi-to-alexandria": {
     metaTitle: "BWI Airport to Alexandria, VA Car Service | 92 Limo Service",
     metaDescription:
-      "Luxury car service from BWI Airport to Alexandria, VA. Flight tracking, meet & greet, and flat-rate transfers to Old Town and the waterfront.",
+      "Luxury car service from BWI Airport to Alexandria, VA. Flight tracking, optional meet & greet, and flat-rate transfers to Old Town and the waterfront.",
     eyebrow: "BWI → ALEXANDRIA",
     h1: "BWI Airport to Alexandria, VA Car Service",
     subtitle: "Elegant chauffeured transfers between BWI Marshall and historic Alexandria — about 45 miles, with flat-rate pricing and 24/7 availability for Old Town and beyond.",
@@ -578,16 +578,16 @@ export const LANDING_PAGES = {
     intro: [
       "Alexandria, Virginia charms visitors with its cobblestone streets, waterfront, and the historic shops and restaurants of Old Town — while also serving as a base for business travelers working across Northern Virginia and DC. 92 Limo Service provides luxury chauffeured transfers between BWI Marshall Airport and Alexandria, a trip of roughly 45 miles, delivering the comfort and reliability the occasion deserves.",
       "Travel time typically runs 55 to 80 minutes depending on traffic on I-95 and the Beltway, and our chauffeurs plan around congestion to keep you on time. We meet you at baggage claim, handle your luggage, and provide a refined, quiet cabin for the ride to your Old Town hotel, a waterfront restaurant, a residence, or a business meeting.",
-      "Whether you are visiting for a romantic Old Town weekend, a wedding, a conference, or a corporate engagement, you will appreciate arriving relaxed and on schedule. We track your inbound flight, adjust automatically for delays, and quote one flat, all-inclusive price — covering tolls, taxes, and gratuity — with no surge pricing.",
+      "Whether you are visiting for a romantic Old Town weekend, a wedding, a conference, or a corporate engagement, you will appreciate arriving relaxed and on schedule. We track your inbound flight, adjust automatically for delays, and quote one flat, transparent price — covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — with no surge pricing.",
       "From the Mercedes-Benz E-Class and BMW 7 Series for couples and executives to SUVs and Sprinter vans for families and groups with luggage, we right-size the vehicle to your trip, and we are available 24/7 for departures back to BWI, Reagan, or Dulles.",
       "Old Town's cobblestone streets and limited parking can be a headache behind the wheel, so let your chauffeur handle it — dropping you steps from your King Street restaurant, waterfront hotel, or event venue. We are a popular choice for anniversaries, proposals, and weddings, where a polished arrival matters, as well as for business travelers working across Northern Virginia. Every trip is quoted up front, with no surge and no surprises, day or night.",
     ],
     highlights: [
       { title: "Old Town Alexandria", desc: "Direct service to Old Town hotels, the waterfront, King Street, and historic district." },
       { title: "Weddings & Weekends", desc: "Elegant transport for romantic getaways, weddings, and special occasions." },
-      { title: "Meet & Greet at BWI", desc: "Greeted at baggage claim with a name sign and luggage assistance." },
+      { title: "Airport Meet & Greet Available", desc: "Your chauffeur can meet you inside baggage claim with a personalized name sign and assist with luggage. Additional charge applies." },
       { title: "Flight Tracking", desc: "We monitor your flight and adjust for early arrivals or delays automatically." },
-      { title: "Flat-Rate Pricing", desc: "All-inclusive quotes covering tolls, taxes, and gratuity — no surge pricing." },
+      { title: "Flat-Rate Pricing", desc: "Transparent quotes covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — no surge pricing." },
       { title: "24/7 Service", desc: "Around-the-clock chauffeurs for every arrival and departure." },
     ],
     vehicles: SEDAN_TRIO,
@@ -596,12 +596,12 @@ export const LANDING_PAGES = {
       { q: "Do you serve Old Town Alexandria?", a: "Yes — we provide door-to-door service to Old Town hotels, the waterfront, King Street, and residences throughout Alexandria." },
       { q: "Is this a good option for a wedding or special occasion?", a: "Absolutely. Our luxury sedans and SUVs are ideal for weddings, anniversaries, and romantic weekends in Old Town." },
       { q: "What if my flight is delayed?", a: "We track your flight and adjust pickup automatically, with no extra charge for reasonable delays." },
-      { q: "Is the fare fixed?", a: "Yes, every BWI–Alexandria transfer is quoted as a flat, all-inclusive rate with no surge pricing." },
+      { q: "Is the fare fixed?", a: "Yes, every BWI–Alexandria transfer is quoted as a flat, transparent rate with no surge pricing." },
       { q: "Would another airport be closer?", a: "Reagan National (DCA) is closer to Alexandria. We serve DCA, BWI, and IAD, so we'll help you choose the best airport for your trip." },
       { q: "Can you arrange a special-occasion ride in Old Town?", a: "Definitely. For weddings, anniversaries, proposals, and milestone celebrations in Old Town Alexandria, we provide an elegant, chauffeured arrival in a spotless luxury vehicle, with the timing planned around your reservation or ceremony. It's a memorable way to mark the moment without worrying about parking or driving — ask about our sedans, SUVs, and limousine." },
     ],
     ctaTitle: "Book Your Alexandria Transfer",
-    ctaSubtitle: "Reserve a chauffeur between BWI and Alexandria with flat, all-inclusive pricing.",
+    ctaSubtitle: "Reserve a chauffeur between BWI and Alexandria with flat, transparent pricing.",
   },
 
   // ---------------------------------------------------------------- BEACHES
@@ -618,13 +618,13 @@ export const LANDING_PAGES = {
     intro: [
       "Bethany Beach, Delaware — affectionately known as one of the state's 'Quiet Resorts' — is a favorite for families seeking a calmer, more relaxed shore vacation. The catch is the drive: roughly 2.5 hours from BWI Marshall Airport, much of it on busy summer routes. 92 Limo Service turns that long haul into the easiest part of your trip with comfortable, chauffeured long-distance transfers and flat-rate pricing that never surges.",
       "Instead of renting a car, fighting beach traffic, and paying for a week of parking, you settle into a spacious, climate-controlled luxury vehicle while a professional chauffeur handles the entire drive down US-50 and Route 1. Kids can nap, parents can relax, and everyone arrives at the rental house or hotel refreshed rather than frazzled — with all the luggage, beach chairs, and coolers handled for you.",
-      "For families and groups, our Mercedes Sprinter vans and full-size SUVs are ideal: plenty of seating to keep everyone together, generous cargo space for a week's worth of bags and gear, and a smooth, quiet ride for the longer journey. We quote a flat, all-inclusive rate up front — covering tolls, taxes, and gratuity — so there is no meter ticking through beach-season traffic and no surge pricing on busy summer weekends.",
+      "For families and groups, our Mercedes Sprinter vans and full-size SUVs are ideal: plenty of seating to keep everyone together, generous cargo space for a week's worth of bags and gear, and a smooth, quiet ride for the longer journey. We quote a flat, transparent rate up front — covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — so there is no meter ticking through beach-season traffic and no surge pricing on busy summer weekends.",
       "We also provide the return trip back to BWI (or DCA/IAD) at the end of your stay, timed to your flight with our usual flight tracking and punctuality. Whether it is a family vacation, a multi-generational reunion, or a group of friends heading to the shore, we make the door-to-beach journey effortless.",
       "Many of our beach clients book the same chauffeur for the entire week — a grocery run after arrival, a dinner reservation in nearby Fenwick Island or downtown Bethany, and the return trip home — so they never need a rental car at all. With a professional handling the long drive in both directions, the vacation truly starts the moment you are picked up. Reserve early for peak summer weekends, when demand for our Sprinter vans and SUVs is highest.",
     ],
     highlights: [
       { title: "Comfort for the Long Drive", desc: "Spacious, climate-controlled cabins make the ~2.5-hour journey genuinely relaxing." },
-      { title: "Flat Rate, No Surge", desc: "One all-inclusive price quoted up front — never surge-priced on busy summer weekends." },
+      { title: "Flat Rate, No Surge", desc: "One transparent price quoted up front — never surge-priced on busy summer weekends." },
       { title: "Sprinter Vans for Groups", desc: "Keep families and groups together with room for a week's worth of luggage and beach gear." },
       { title: "Full Luggage & Gear Space", desc: "Beach chairs, coolers, and bags handled — no squeezing into a packed car." },
       { title: "No Rental Car or Parking", desc: "Skip the rental counter, beach traffic stress, and a week of parking fees." },
@@ -633,7 +633,7 @@ export const LANDING_PAGES = {
     vehicles: BEACH_TRIO,
     faqs: [
       { q: "How long is the drive from BWI to Bethany Beach?", a: "Roughly 2.5 hours depending on season and traffic, traveling via US-50 and Delaware Route 1." },
-      { q: "Is the price flat or metered?", a: "Flat and all-inclusive. We quote one price up front covering tolls, taxes, and gratuity — with no surge pricing, even on peak summer weekends." },
+      { q: "Is the price flat or metered?", a: "Flat and transparent. We quote one price up front covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — with no surge pricing, even on peak summer weekends." },
       { q: "Can you fit my whole family and our luggage?", a: "Yes. Our Sprinter vans and full-size SUVs seat groups comfortably with generous cargo space for luggage, beach chairs, and coolers." },
       { q: "Do you provide the return trip to the airport?", a: "Yes — we handle round-trip service and time your return to BWI, DCA, or IAD around your flight, with flight tracking." },
       { q: "Why choose a chauffeur over a rental car?", a: "You skip the rental counter, the stressful beach-season traffic, and a week of parking fees — and you arrive relaxed instead of worn out from driving." },
@@ -656,13 +656,13 @@ export const LANDING_PAGES = {
     intro: [
       "Rehoboth Beach, Delaware is the liveliest of the Delaware beaches — famous for its mile-long boardwalk, tax-free outlet shopping, and a buzzing restaurant scene. It is also about 2.5 hours from BWI Marshall Airport, and the summer drive can test anyone's patience. 92 Limo Service makes the journey the easy part with comfortable, chauffeured long-distance transfers and honest, flat-rate pricing.",
       "Rather than renting a car and battling Route 1 beach traffic, you relax in a spacious luxury vehicle while a professional chauffeur drives the full route via US-50 and Delaware Route 1. The cabin is climate-controlled and quiet, your luggage and beach gear are loaded for you, and you step out at your hotel, rental, or the boardwalk rested and ready to enjoy the shore.",
-      "Families and groups travel best in our Mercedes Sprinter vans and full-size SUVs — everyone stays together, there is real room for a week of bags, and the ride stays smooth over the longer distance. We quote a flat, all-inclusive rate in advance covering tolls, taxes, and gratuity, with absolutely no surge pricing on peak weekends or holidays.",
+      "Families and groups travel best in our Mercedes Sprinter vans and full-size SUVs — everyone stays together, there is real room for a week of bags, and the ride stays smooth over the longer distance. We quote a flat, transparent rate in advance covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with absolutely no surge pricing on peak weekends or holidays.",
       "At the end of your trip, we bring you back to BWI (or DCA/IAD) on a schedule built around your flight, with flight tracking and our usual punctuality. From a couples' getaway to a big group of friends or a multi-family reunion, we make the door-to-boardwalk trip seamless.",
       "Rehoboth's combination of beach, boardwalk, dining, and tax-free outlet shopping makes it a full-week destination, and many guests keep us on call throughout their stay rather than renting a car. From a dinner downtown to an outlet shopping haul that fills the cargo area, our chauffeurs and roomy vehicles handle it all. Book early for holiday weekends and summer Saturdays, when our larger group vehicles go quickly.",
     ],
     highlights: [
       { title: "Straight to the Boardwalk", desc: "Door-to-door service to Rehoboth hotels, rentals, and the boardwalk." },
-      { title: "Flat Rate, No Surge", desc: "One all-inclusive price up front — never surge-priced on peak weekends or holidays." },
+      { title: "Flat Rate, No Surge", desc: "One transparent price up front — never surge-priced on peak weekends or holidays." },
       { title: "Comfort Over the Long Haul", desc: "A spacious, quiet, climate-controlled cabin makes the ~2.5-hour drive relaxing." },
       { title: "Sprinter Vans for Groups", desc: "Keep your whole party together with room for a week of luggage and gear." },
       { title: "No Rental or Beach Traffic Stress", desc: "Skip the rental counter, Route 1 congestion, and parking fees entirely." },
@@ -671,7 +671,7 @@ export const LANDING_PAGES = {
     vehicles: BEACH_TRIO,
     faqs: [
       { q: "How long is the drive from BWI to Rehoboth Beach?", a: "Roughly 2.5 hours depending on season and traffic, via US-50 and Delaware Route 1." },
-      { q: "Is pricing flat?", a: "Yes — flat and all-inclusive, covering tolls, taxes, and gratuity, with no surge pricing on busy weekends or holidays." },
+      { q: "Is pricing flat?", a: "Yes — flat and transparent, covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with no surge pricing on busy weekends or holidays." },
       { q: "Can you carry a big group and lots of luggage?", a: "Yes. Sprinter vans and full-size SUVs keep groups together with generous space for luggage, beach gear, and outlet shopping hauls." },
       { q: "Do you offer the return trip to the airport?", a: "Yes, round-trip service timed to your departure from BWI, DCA, or IAD, with flight tracking." },
       { q: "Why not just rent a car?", a: "A chauffeur means no rental counter, no fighting Route 1 traffic, no parking fees — and you arrive relaxed instead of drained." },
@@ -695,14 +695,14 @@ export const LANDING_PAGES = {
     intro: [
       "Ocean City, Maryland is the Mid-Atlantic's classic beach destination — ten miles of beach, a famous boardwalk, and a summer energy that draws families and groups from all over. It is also a solid 2.5 to 3 hours from BWI Marshall Airport, much of it on heavily traveled summer routes. 92 Limo Service makes the trek effortless with comfortable, chauffeured long-distance transfers and flat-rate pricing that never surges.",
       "Skip the rental car, the bumper-to-bumper crawl across the Bay Bridge, and the hunt for parking near the boardwalk. Instead, you relax in a spacious luxury vehicle while a professional chauffeur handles the full drive via US-50 and the Chesapeake Bay Bridge. The cabin stays cool and quiet, your luggage and beach gear are loaded for you, and you arrive at your condo, hotel, or rental ready to hit the sand.",
-      "For families and groups, our Mercedes Sprinter vans and full-size SUVs are the ideal way to travel: everyone stays together, there is generous room for a week of bags, boards, and coolers, and the ride stays smooth over the longer distance. We quote a flat, all-inclusive rate up front — covering tolls (including the Bay Bridge), taxes, and gratuity — with no surge pricing on peak summer weekends.",
+      "For families and groups, our Mercedes Sprinter vans and full-size SUVs are the ideal way to travel: everyone stays together, there is generous room for a week of bags, boards, and coolers, and the ride stays smooth over the longer distance. We quote a flat, transparent rate up front — covering the base transportation charge — gratuity, tolls (including the Bay Bridge), parking, and any other applicable charges are disclosed before confirmation — with no surge pricing on peak summer weekends.",
       "When your vacation wraps, we bring you back to BWI (or DCA/IAD) on a schedule built around your flight, with flight tracking and dependable punctuality. From a family beach week to a group celebration, we make the door-to-boardwalk journey easy from start to finish.",
       "Because OCMD draws huge summer crowds, the timing of your departure matters, and our chauffeurs plan around Bay Bridge backups and weekend beach traffic to keep your trip as smooth as possible. Families love that the kids can sleep or watch a movie while a professional drives; groups love staying together in one comfortable vehicle. From mid-week getaways to peak Saturday turnovers, reserve early to lock in your preferred Sprinter van or SUV at a guaranteed flat rate.",
     ],
     highlights: [
       { title: "Boardwalk & Beaches", desc: "Door-to-door service to OCMD condos, hotels, rentals, and the boardwalk." },
       { title: "Bay Bridge Handled", desc: "Relax while your chauffeur manages the Chesapeake Bay Bridge crossing and summer traffic." },
-      { title: "Flat Rate, No Surge", desc: "One all-inclusive price up front — tolls included, never surge-priced." },
+      { title: "Flat Rate, No Surge", desc: "One transparent price up front — never surge-priced." },
       { title: "Sprinter Vans for Groups", desc: "Keep families and groups together with room for a week of luggage and beach gear." },
       { title: "No Rental or Parking Hassle", desc: "Skip the rental counter and the search for boardwalk parking entirely." },
       { title: "Round-Trip Service", desc: "We handle the return to BWI, DCA, or IAD, timed to your flight." },
@@ -710,7 +710,7 @@ export const LANDING_PAGES = {
     vehicles: BEACH_TRIO,
     faqs: [
       { q: "How long is the drive from BWI to Ocean City, MD?", a: "Roughly 2.5 to 3 hours depending on season and traffic, via US-50 and the Chesapeake Bay Bridge." },
-      { q: "Are the Bay Bridge tolls included?", a: "Yes. Our flat, all-inclusive rate covers tolls (including the Bay Bridge), taxes, and gratuity, with no surge pricing." },
+      { q: "How are Bay Bridge tolls handled?", a: "Our flat, transparent rate covers the base transportation charge — gratuity, tolls (including the Bay Bridge), parking, and any other applicable charges are disclosed before confirmation, with no surge pricing." },
       { q: "Can you accommodate a large beach group?", a: "Absolutely — Sprinter vans and full-size SUVs seat groups comfortably with generous cargo space for luggage, boards, and coolers." },
       { q: "Do you provide the return trip?", a: "Yes, round-trip service timed to your departure from BWI, DCA, or IAD with flight tracking." },
       { q: "Is a chauffeur better than driving myself?", a: "For most travelers, yes — no rental car, no Bay Bridge stress, no parking hunt, and you arrive rested and ready for the beach." },
@@ -734,14 +734,14 @@ export const LANDING_PAGES = {
     intro: [
       "Trading the bustle of the capital for the calm of the Delaware shore is one of the best ways to unwind — but the drive from Washington, D.C. to Bethany Beach is about three hours, much of it through summer beach traffic. 92 Limo Service makes that journey the easy part of your getaway with comfortable, chauffeured long-distance transfers and flat-rate pricing that never surges.",
       "We pick you up at your DC home, hotel, or office and handle the entire drive east via US-50 and Delaware Route 1, while you stretch out in a spacious, climate-controlled luxury vehicle. There is no rental car to manage, no Bay Bridge stress to white-knuckle, and no week of beach parking fees — just a smooth, quiet ride with your luggage and beach gear loaded for you.",
-      "Families and groups travel best in our Mercedes Sprinter vans and full-size SUVs: room to keep everyone together, generous cargo space for a week of bags, and the comfort that makes a three-hour drive feel short. We quote a flat, all-inclusive rate in advance — covering tolls, taxes, and gratuity — with no surge pricing on busy weekends or holidays.",
+      "Families and groups travel best in our Mercedes Sprinter vans and full-size SUVs: room to keep everyone together, generous cargo space for a week of bags, and the comfort that makes a three-hour drive feel short. We quote a flat, transparent rate in advance — covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — with no surge pricing on busy weekends or holidays.",
       "At the end of your stay, we bring you back to DC (or to BWI, DCA, or IAD if you are flying onward) on a schedule that suits you. Whether it is a family vacation, a couples' retreat, or a group escape to the quiet resort, we make the door-to-beach trip seamless in both directions.",
       "City dwellers without a car of their own find our door-to-beach service especially convenient — there is no rental counter, no need to navigate out of the city, and no parking to arrange at the shore. We pick up anywhere in the District and the close-in suburbs, and we are happy to coordinate a multi-stop pickup if your group is gathering from different addresses. Reserve early for summer weekends and holidays, when our group vehicles book up fast.",
     ],
     highlights: [
       { title: "Door-to-Beach From DC", desc: "Pickup at your DC home, hotel, or office and direct service to Bethany Beach." },
       { title: "Comfort for ~3 Hours", desc: "A spacious, quiet, climate-controlled cabin makes the long drive genuinely relaxing." },
-      { title: "Flat Rate, No Surge", desc: "One all-inclusive price up front — never surge-priced on peak weekends or holidays." },
+      { title: "Flat Rate, No Surge", desc: "One transparent price up front — never surge-priced on peak weekends or holidays." },
       { title: "Sprinter Vans for Groups", desc: "Keep families and groups together with room for a week of luggage and beach gear." },
       { title: "No Rental or Parking Hassle", desc: "Skip the rental car, Bay Bridge traffic, and a week of beach parking fees." },
       { title: "Round-Trip or Airport Onward", desc: "We bring you back to DC or on to BWI, DCA, or IAD if you're flying out." },
@@ -749,7 +749,7 @@ export const LANDING_PAGES = {
     vehicles: BEACH_TRIO,
     faqs: [
       { q: "How long is the drive from DC to Bethany Beach?", a: "About 3 hours depending on season and traffic, traveling via US-50 and Delaware Route 1." },
-      { q: "Is the price flat?", a: "Yes — flat and all-inclusive, covering tolls, taxes, and gratuity, with no surge pricing even on peak weekends." },
+      { q: "Is the price flat?", a: "Yes — flat and transparent, covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with no surge pricing even on peak weekends." },
       { q: "Can you carry a family or group with a week of luggage?", a: "Yes. Sprinter vans and full-size SUVs keep groups together with generous luggage and beach-gear capacity." },
       { q: "Do you provide the return trip?", a: "Yes — round-trip service back to DC, or onward to BWI, DCA, or IAD if you're flying home." },
       { q: "Why choose a chauffeur for a beach trip?", a: "No rental car, no Bay Bridge stress, no parking fees — and everyone, including the driver, actually gets to relax on the way to the shore." },
@@ -762,7 +762,7 @@ export const LANDING_PAGES = {
   "washington-dc-to-bwi": {
     metaTitle: "Washington DC to BWI Airport Car Service | 92 Limo",
     metaDescription:
-      "Private car service from Washington DC to BWI Airport — on-time pickups, luggage help & flat all-inclusive rates, 24/7. Call (877) 609-1919 to reserve.",
+      "Private car service from Washington DC to BWI Airport — on-time pickups, luggage help & flat transparent rates, 24/7. Call (877) 609-1919 to reserve.",
     eyebrow: "WASHINGTON DC → BWI",
     h1: "Washington DC to BWI Airport Car Service",
     subtitle:
@@ -774,7 +774,7 @@ export const LANDING_PAGES = {
       "Catching a flight out of BWI Marshall from Washington, D.C. means covering about 32 miles of the Baltimore-Washington Parkway or I-95 — a drive that can take 45 minutes on a quiet morning or well over an hour when the corridor backs up. 92 Limo Service takes the uncertainty out of that equation. Your chauffeur arrives at your DC home, hotel, or office ahead of schedule, loads every bag, and plans the departure around real traffic conditions, so you walk into the terminal with time to spare instead of watching the clock from a rideshare queue.",
       "Departures are less forgiving than arrivals — there is a check-in cutoff and a boarding door that closes — so we build in margin. We recommend pickup times based on your airline, terminal, and the hour you travel, then track conditions on the Parkway, I-295, and I-95 in real time. If an accident slows one route, your chauffeur is already moving to another. BWI is a major Southwest Airlines hub with strong low-fare coverage, and many Washingtonians find that a calm chauffeured ride up the Parkway beats the stress and price of last-minute flights from closer-in airports.",
       "We serve every quarter of the city — Capitol Hill, Georgetown, downtown, the Wharf, NoMa, and the close-in Maryland and Virginia suburbs — with pickups timed for pre-dawn departures, red-eyes, and everything in between. Traveling as a family or a team? A Chevrolet Suburban, Cadillac Escalade, or Mercedes Sprinter keeps everyone together with room for all the luggage, golf clubs, and car seats.",
-      "Every trip is quoted as one flat, all-inclusive rate covering tolls, taxes, and gratuity — no meter, no surge at 4 a.m., no surprises. Reserve online in minutes or call (877) 609-1919 and we will have a chauffeur at your door, any hour of any day.",
+      "Every trip is quoted as one flat, transparent rate covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — no meter, no surge at 4 a.m., no surprises. Reserve online in minutes or call (877) 609-1919 and we will have a chauffeur at your door, any hour of any day.",
     ],
     highlights: [
       { title: "On-Time Departure Planning", desc: "Pickup times recommended for your airline and terminal, with margin built in for traffic." },
@@ -782,14 +782,14 @@ export const LANDING_PAGES = {
       { title: "Live Route Monitoring", desc: "We watch the B-W Parkway, I-295, and I-95 and reroute around slowdowns as they happen." },
       { title: "Pre-Dawn & Red-Eye Ready", desc: "True 24/7 service — a 4 a.m. pickup is treated exactly like a 4 p.m. one." },
       { title: "Room for Groups & Luggage", desc: "Suburbans, Escalades, and Sprinter vans keep families and teams together, bags and all." },
-      { title: "Flat, All-Inclusive Rate", desc: "Tolls, taxes, and gratuity in one quoted price — never metered, never surged." },
+      { title: "Flat, Transparent Rate", desc: "One transparent base rate quoted up front, with gratuity, tolls, and parking disclosed before confirmation — never metered, never surged." },
     ],
     vehicles: SEDAN_TRIO,
     faqs: [
       { q: "How long does it take to get from Washington DC to BWI?", a: "Plan on 45 to 75 minutes depending on where in the District you start and the time of day. Your chauffeur recommends a pickup time with margin for traffic on the B-W Parkway or I-95." },
       { q: "How early should I schedule my pickup before a flight?", a: "As a rule of thumb, we suggest arriving at BWI 90 minutes to 2 hours before a domestic departure. Tell us your flight time and we will recommend the right pickup for your neighborhood and travel hour." },
       { q: "Do you do early-morning pickups in DC?", a: "Yes — pre-dawn departures are a specialty. We run 24/7, and a 3:30 a.m. pickup gets the same punctual chauffeur and spotless vehicle as any daytime trip." },
-      { q: "Is the fare from DC to BWI flat?", a: "Yes. Every transfer is quoted in advance as one flat, all-inclusive rate covering tolls, taxes, and gratuity — no surge pricing at any hour." },
+      { q: "Is the fare from DC to BWI flat?", a: "Yes. Every transfer is quoted in advance as one flat, transparent rate covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — no surge pricing at any hour." },
       { q: "Can you pick up several people at different DC addresses?", a: "Yes, we can coordinate multi-stop pickups for groups heading to the same flight. A Sprinter van or full-size SUV keeps the whole party and its luggage together." },
       { q: "Can I book a round trip with my return from BWI?", a: "Absolutely — reserve both directions at once and we will track your return flight and meet you at baggage claim. Call (877) 609-1919 and we will set up the full itinerary." },
     ],
@@ -818,16 +818,16 @@ export const LANDING_PAGES = {
       { title: "As-Directed Hourly Service", desc: "One chauffeur stays with your party through a full day of meetings — the car is there every time you walk out." },
       { title: "Roadshow & Investor Days", desc: "Precise multi-stop itineraries across DC, Tysons, and Bethesda, coordinated with your schedule." },
       { title: "Corporate Accounts", desc: "Priority scheduling, consolidated billing, and one point of contact for travel coordinators." },
-      { title: "Airport Coordination", desc: "Flight-tracked pickups and meet & greet at DCA, IAD, and BWI for executives and visiting clients." },
+      { title: "Airport Coordination", desc: "Flight-tracked pickups and optional meet & greet (additional charge) at DCA, IAD, and BWI for executives and visiting clients." },
       { title: "Discretion as Standard", desc: "Confidential, professional chauffeurs trusted with sensitive schedules and conversations." },
-      { title: "Forecastable Flat Rates", desc: "Consistent all-inclusive pricing your finance team can budget — no surge, ever." },
+      { title: "Forecastable Flat Rates", desc: "Consistent transparent pricing your finance team can budget — no surge, ever." },
     ],
     vehicles: SEDAN_TRIO,
     faqs: [
       { q: "Do you offer corporate accounts?", a: "Yes. Corporate accounts include priority scheduling, consolidated monthly billing, consistent flat rates, and a dedicated contact for your travel coordinators." },
       { q: "Can one chauffeur stay with us for a full day of meetings?", a: "Yes — that is our as-directed hourly service. The same chauffeur and vehicle remain with your party all day, moving on your schedule with no re-booking between stops." },
       { q: "Can you handle an investor roadshow across the DC area?", a: "Absolutely. We regularly run multi-stop roadshow itineraries across downtown DC, Tysons, Reston, and Bethesda, timed to the minute with your banking team's schedule." },
-      { q: "How do you handle airport pickups for visiting executives?", a: "We track the inbound flight, position the chauffeur early, and offer meet & greet with a name sign at DCA, IAD, or BWI — with luggage assistance and a direct ride to the hotel or first meeting." },
+      { q: "How do you handle airport pickups for visiting executives?", a: "We track the inbound flight, position the chauffeur early, and offer optional meet & greet (additional charge) with a name sign at DCA, IAD, or BWI — with luggage assistance and a direct ride to the hotel or first meeting." },
       { q: "Are your chauffeurs discreet?", a: "Yes. Our chauffeurs are background-checked professionals who treat passenger identity, conversations, and itineraries as confidential on every trip." },
       { q: "How do we get set up?", a: "Call (877) 609-1919 or book online. For recurring travel, ask about opening a corporate account — setup is quick and there is no volume commitment." },
     ],
@@ -850,7 +850,7 @@ export const LANDING_PAGES = {
       "A Maryland wedding can unfold almost anywhere — a waterfront ceremony in Annapolis, a historic ballroom in Baltimore, a vineyard in Frederick County, a barn on the Eastern Shore. What every one of them shares is a timeline with zero slack: hair and makeup, first look, ceremony, photos, reception. 92 Limo Service provides wedding transportation across the entire state that treats that timeline as sacred, with chauffeurs who arrive early, know the venue, and keep every move of the day quietly on schedule.",
       "We cover each leg of the celebration. The bridal party travels together in a Cadillac Escalade or Mercedes Sprinter with room for dresses, garment bags, and photographers' gear. Guest shuttles run loops between hotel blocks and the venue so nobody drives after the reception — especially welcome for rural vineyard and farm venues with limited parking. And when the sparklers go up, a spotless getaway car is waiting at the curb for the newlyweds' exit.",
       "Your coordinator gets a single point of contact from the first quote to the final pickup. We build the vehicle schedule around your planner's timeline, add buffer where experience says it is needed — photos always run long — and position each vehicle before it is due, not when it is due. Rain plans, venue changes, and last-minute additions are handled with a phone call, not a renegotiation.",
-      "Every wedding is quoted as a flat, all-inclusive package — vehicles, hours, tolls, taxes, and gratuity in one number you can put in the budget spreadsheet and forget. Dates book up fast in spring and fall, so once your venue is set, call (877) 609-1919 or request a quote online and we will hold the fleet your day needs.",
+      "Every wedding is quoted as a flat, transparent package — vehicles and hours in one base number you can put in the budget spreadsheet, with gratuity, tolls, and parking disclosed before confirmation. Dates book up fast in spring and fall, so once your venue is set, call (877) 609-1919 or request a quote online and we will hold the fleet your day needs.",
     ],
     highlights: [
       { title: "Statewide Venue Coverage", desc: "Annapolis, Baltimore, Frederick wine country, the Eastern Shore, and everywhere between." },
@@ -858,13 +858,13 @@ export const LANDING_PAGES = {
       { title: "Guest Shuttle Loops", desc: "Continuous hotel-to-venue shuttles so every guest gets home safely after the reception." },
       { title: "Getaway Car", desc: "A spotless luxury sedan or SUV waiting for the newlyweds' send-off." },
       { title: "Planner-Friendly Coordination", desc: "One contact, a vehicle schedule built on your timeline, and buffer where photos run long." },
-      { title: "Flat Package Pricing", desc: "One all-inclusive quote for the whole day — easy to budget, nothing added later." },
+      { title: "Flat Package Pricing", desc: "One transparent quote for the whole day — easy to budget, nothing added later." },
     ],
     vehicles: GROUP_TRIO,
     faqs: [
       { q: "Which parts of Maryland do you serve for weddings?", a: "All of it — Annapolis, Baltimore, Montgomery and Howard counties, Frederick wine country, Southern Maryland, and Eastern Shore venues from Easton to Ocean City." },
       { q: "Can you shuttle guests between the hotel and the venue?", a: "Yes. Our Sprinter vans run continuous loops between hotel blocks and your venue for arrivals and departures, sized to your guest count." },
-      { q: "How is wedding transportation priced?", a: "As one flat, all-inclusive package covering vehicles, hours, tolls, taxes, and gratuity. You get a single number for the budget with no surprises after the wedding." },
+      { q: "How is wedding transportation priced?", a: "As one flat, transparent package covering vehicles and hours, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. You get a clear number for the budget with no surprises after the wedding." },
       { q: "How far in advance should we book?", a: "As soon as your venue and date are locked — popular spring and fall Saturdays are reserved months out. Call (877) 609-1919 and we will check your date on the spot." },
       { q: "What happens if the day runs behind schedule?", a: "We build buffer into the vehicle schedule and our chauffeurs stage early, so a ceremony that starts late or photos that run long do not cascade into the reception." },
       { q: "Do you coordinate with wedding planners?", a: "Gladly — we prefer it. Your planner or coordinator gets a direct contact and a written vehicle timeline, and we adjust to their run-of-show." },
@@ -888,7 +888,7 @@ export const LANDING_PAGES = {
       "Some days in Washington do not fit a point-to-point booking. A morning that runs from a Hill hearing to a downtown lunch to a Tysons boardroom; an evening that starts with a Kennedy Center curtain and ends with a late dinner in Georgetown; a visiting parent you want shown around the monuments in comfort. For days like these, 92 Limo Service offers hourly, as-directed car service: one chauffeur and one immaculate vehicle that stay with you and move the moment you are ready.",
       "The difference from ride-hailing is night and day. There is no app to refresh between stops, no stranger's car arriving in eight minutes, no surge when it rains. Your chauffeur waits where you left them, keeps your belongings secure in the vehicle between stops, adjusts the route as your plans shift, and knows which entrance to use at the Wharf, the convention center, and every hotel downtown. You direct the day; we handle everything else.",
       "Hourly service shines for evenings out — embassy receptions, galas, concerts at the Anthem, dinners where nobody should be watching the clock or the wine list. It is equally at home on workdays: attorneys and lobbyists block a car for back-to-back meetings, and film and media crews use as-directed service to move gear and talent between locations without losing time to logistics.",
-      "You will know the rate before you ride: hourly service is quoted in advance as a flat, all-inclusive figure covering the chauffeur, vehicle, fuel, and gratuity. Choose a Mercedes E-Class or BMW 7 Series for two, or an Escalade or Sprinter when the whole group travels together. Reserve your block of hours online or call (877) 609-1919 — evenings and weekends fill first.",
+      "You will know the rate before you ride: hourly service is quoted in advance as a flat, transparent figure covering the chauffeur, vehicle, and fuel — gratuity, tolls, and parking are disclosed before confirmation. Choose a Mercedes E-Class or BMW 7 Series for two, or an Escalade or Sprinter when the whole group travels together. Reserve your block of hours online or call (877) 609-1919 — evenings and weekends fill first.",
     ],
     highlights: [
       { title: "As-Directed Flexibility", desc: "Change the route, add a stop, extend the evening — the car moves when you do." },
@@ -896,7 +896,7 @@ export const LANDING_PAGES = {
       { title: "Belongings Stay Secure", desc: "Coats, bags, and purchases ride safely in the vehicle while you are inside." },
       { title: "Evenings & Events", desc: "Galas, embassy receptions, theater, and dinners — arrive and depart on your own schedule." },
       { title: "Business Blocks", desc: "Attorneys, lobbyists, and executives book cars by the half-day for meeting runs." },
-      { title: "Flat Hourly Pricing", desc: "The full cost quoted before you ride — chauffeur, vehicle, fuel, and gratuity included." },
+      { title: "Flat Hourly Pricing", desc: "The full cost quoted before you ride — chauffeur, vehicle, and fuel included; gratuity, tolls, and parking disclosed before confirmation." },
     ],
     vehicles: SEDAN_TRIO,
     faqs: [
@@ -914,7 +914,7 @@ export const LANDING_PAGES = {
   "airport-transfer-maryland": {
     metaTitle: "Airport Transfers Across Maryland | 92 Limo Service",
     metaDescription:
-      "Airport transfer service across Maryland — BWI, DCA, IAD & PHL with flight tracking, meet & greet and flat all-inclusive rates, 24/7. Call (877) 609-1919.",
+      "Airport transfer service across Maryland — BWI, DCA, IAD & PHL with flight tracking, optional meet & greet and flat transparent rates, 24/7. Call (877) 609-1919.",
     eyebrow: "STATEWIDE AIRPORT SERVICE",
     h1: "Airport Transfer Service Across Maryland",
     subtitle:
@@ -924,7 +924,7 @@ export const LANDING_PAGES = {
     highlightsHeading: "One Service for Every Maryland Airport Run",
     intro: [
       "Maryland travelers rarely have just one airport to think about. BWI Marshall is the workhorse, but the right fare or the right nonstop often means Reagan National, Dulles, or Philadelphia — and private aviation moves through Martin State. 92 Limo Service provides airport transfers from every corner of Maryland to all of them, so whether you live in Bethesda or Bel Air, Frederick or Salisbury, one call covers every trip you fly.",
-      "Distance is exactly why the service matters. From Ocean City or the Eastern Shore, BWI is a two-to-three-hour drive; from Western Maryland, longer. Our chauffeurs handle those miles while you sleep, work, or watch a movie — and because we quote one flat, all-inclusive rate, the long trips carry no meter anxiety. For arrivals, we track your flight in real time, adjust for delays automatically, and offer meet & greet at baggage claim with luggage assistance, so the last leg home is the easiest one.",
+      "Distance is exactly why the service matters. From Ocean City or the Eastern Shore, BWI is a two-to-three-hour drive; from Western Maryland, longer. Our chauffeurs handle those miles while you sleep, work, or watch a movie — and because we quote one flat, transparent rate, the long trips carry no meter anxiety. For arrivals, we track your flight in real time, adjust for delays automatically, and offer optional meet & greet (additional charge) at baggage claim with luggage assistance, so the last leg home is the easiest one.",
       "Families heading out on vacation load into a Suburban or Sprinter with every suitcase, stroller, and cooler accounted for. Executives on a Monday 6 a.m. out of BWI get a sedan that arrives at 4:30 sharp. Snowbirds, students flying home from College Park, medical travelers connecting through PHL — the state's routines all pass through our dispatch, 24 hours a day, every day of the year.",
       "Wherever you are in Maryland and wherever you are flying, the formula is the same: a professional chauffeur, an immaculate vehicle, a flight-tracked pickup, and one honest price. Book online in minutes or call (877) 609-1919 — we will confirm your transfer and be at the door early.",
     ],
@@ -932,9 +932,9 @@ export const LANDING_PAGES = {
       { title: "All 5 Airports Covered", desc: "BWI, DCA, IAD, PHL, and Martin State — one service for every flight you take." },
       { title: "Statewide Pickup", desc: "Every Maryland county, from Montgomery and Howard to the Eastern Shore and Western Maryland." },
       { title: "Flight Tracking Standard", desc: "We watch every arrival and adjust your pickup automatically — delays never strand you." },
-      { title: "Meet & Greet Available", desc: "A name sign at baggage claim and help with every bag, on request." },
+      { title: "Airport Meet & Greet Available", desc: "Your chauffeur can meet you inside baggage claim with a personalized name sign and assist with luggage. Additional charge applies." },
       { title: "Long-Haul Comfort", desc: "Two- and three-hour airport runs in quiet, spacious vehicles built for the distance." },
-      { title: "Flat All-Inclusive Rates", desc: "Tolls, taxes, and gratuity in one quoted price — the same at 4 a.m. as 4 p.m." },
+      { title: "Flat Transparent Rates", desc: "One transparent base rate quoted up front, with gratuity, tolls, and parking disclosed before confirmation — the same at 4 a.m. as 4 p.m." },
     ],
     vehicles: GROUP_TRIO,
     faqs: [
@@ -943,7 +943,7 @@ export const LANDING_PAGES = {
       { q: "What happens if my flight is early or delayed?", a: "We track every flight in real time and move your pickup automatically, at no charge. Your chauffeur is there when you actually land, not when the schedule said you would." },
       { q: "How much notice do you need?", a: "Book as early as your plans allow — but we run 24/7 and welcome same-day requests when vehicles are available. Call (877) 609-1919 for immediate needs." },
       { q: "Can you handle a family with lots of luggage?", a: "Yes. Chevrolet Suburbans, Cadillac Escalades, and Mercedes Sprinter vans carry the whole family plus suitcases, strollers, and beach gear comfortably." },
-      { q: "Is a long transfer like Ocean City to BWI priced flat?", a: "Yes — even the longest statewide runs are quoted in advance as one flat, all-inclusive rate covering tolls, taxes, and gratuity." },
+      { q: "Is a long transfer like Ocean City to BWI priced flat?", a: "Yes — even the longest statewide runs are quoted in advance as one flat, transparent rate covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation." },
     ],
     ctaTitle: "Book Your Maryland Airport Transfer",
     ctaSubtitle: "Flight-tracked, flat-rated service to BWI, DCA, IAD & PHL from anywhere in the state. Call (877) 609-1919.",
@@ -964,11 +964,11 @@ export const LANDING_PAGES = {
       "Northern Virginia runs on schedules measured in minutes: contract briefings in Tysons, investor meetings in Reston Town Center, Pentagon-adjacent appointments in Arlington, client dinners in Old Town Alexandria. 92 Limo Service provides executive car service across all of it — professionally dressed chauffeurs, late-model executive sedans and SUVs, and the punctuality that government contractors, consultancies, and technology firms build their days around.",
       "The Dulles Technology Corridor is home turf. We move executives between Tysons, McLean, Vienna, Reston, and Herndon offices daily, coordinate arrivals and departures through Dulles and Reagan National with real-time flight tracking, and keep visiting leadership on schedule through days of back-to-back meetings with as-directed hourly service. When a principal's calendar changes mid-day, dispatch adjusts the vehicle — not the other way around.",
       "Discretion is not an add-on here; much of Northern Virginia's business is sensitive by nature. Our chauffeurs are background-checked professionals who keep itineraries, passengers, and conversations confidential, provide quiet cabins where calls can be taken freely, and understand security procedures at gated campuses and federal facilities.",
-      "Companies standardize on us for the same reasons across the river in DC: corporate accounts with consolidated billing, forecastable flat rates that include tolls — including the Dulles Toll Road and Express Lanes — taxes, and gratuity, and a single dispatch contact available 24/7. Arrange a one-time executive transfer or a standing account: book online or call (877) 609-1919.",
+      "Companies standardize on us for the same reasons across the river in DC: corporate accounts with consolidated billing, forecastable flat base rates — with gratuity, tolls (including the Dulles Toll Road and Express Lanes), and parking disclosed before confirmation — and a single dispatch contact available 24/7. Arrange a one-time executive transfer or a standing account: book online or call (877) 609-1919.",
     ],
     highlights: [
       { title: "Tysons to the Toll Road", desc: "Daily service across Tysons, McLean, Vienna, Reston, and Herndon — the corridor is home turf." },
-      { title: "IAD & DCA Coordination", desc: "Flight-tracked pickups and meet & greet for executives and visiting leadership." },
+      { title: "IAD & DCA Coordination", desc: "Flight-tracked pickups and optional meet & greet (additional charge) for executives and visiting leadership." },
       { title: "As-Directed Hourly", desc: "One chauffeur through a full day of meetings, adjusting as the calendar changes." },
       { title: "Cleared for Discretion", desc: "Confidential, background-checked chauffeurs familiar with secure campuses and facilities." },
       { title: "Express Lanes Included", desc: "Flat quotes cover the Dulles Toll Road and Express Lanes — no toll surprises on the invoice." },
@@ -977,9 +977,9 @@ export const LANDING_PAGES = {
     vehicles: SEDAN_TRIO,
     faqs: [
       { q: "Which Northern Virginia areas do you cover?", a: "Arlington, Alexandria, Tysons, McLean, Vienna, Falls Church, Reston, Herndon, Ashburn, Fairfax, and the surrounding counties — plus service into DC and Maryland." },
-      { q: "Do you serve Dulles and Reagan National?", a: "Yes, both — with real-time flight tracking, early chauffeur positioning, and optional meet & greet at baggage claim for arriving executives and clients." },
+      { q: "Do you serve Dulles and Reagan National?", a: "Yes, both — with real-time flight tracking, early chauffeur positioning, and optional meet & greet at baggage claim (additional charge) for arriving executives and clients." },
       { q: "Can we keep a car for a full day of meetings?", a: "Yes. As-directed hourly service keeps one chauffeur and vehicle with your team all day, moving on your schedule between Tysons, Reston, Arlington, and downtown DC." },
-      { q: "Are tolls like the Express Lanes included in the price?", a: "Yes — every quote is flat and all-inclusive, covering the Dulles Toll Road, Express Lanes, taxes, and gratuity. The number we quote is the number you pay." },
+      { q: "Are tolls like the Express Lanes included in the price?", a: "Yes — every quote is flat and transparent, covering the base transportation charge — gratuity, Dulles Toll Road and Express Lane tolls, parking, and any other applicable charges are disclosed before confirmation. The number we quote is the number you pay." },
       { q: "How do your chauffeurs handle sensitive travel?", a: "With strict confidentiality. Itineraries, passengers, and in-vehicle conversations stay private, and our chauffeurs are experienced with visitor procedures at secure corporate and federal campuses." },
       { q: "Can our company open an account?", a: "Yes — corporate accounts include consolidated monthly billing, priority scheduling, and a dedicated contact. Call (877) 609-1919 and we will have you set up quickly." },
       { q: "Are evenings and weekends available?", a: "Yes. We operate 24/7, so early conference departures, late client dinners in Old Town or Clarendon, and weekend event travel are covered at the same flat, pre-quoted rates as weekday business runs." },
@@ -1004,7 +1004,7 @@ export const LANDING_PAGES = {
       "We cover every major venue in the region. In Baltimore, that means concerts at CFG Bank Arena downtown, Ravens Sundays at M&T Bank Stadium, and Orioles games at Camden Yards. In Washington, we run nightly service to Capital One Arena for Capitals and Wizards games and arena tours, Nationals Park for baseball and stadium shows, and Northwest Stadium (the former FedEx Field) in Landover for Commanders games and summer concerts. Out in the Maryland and Virginia suburbs, we serve Merriweather Post Pavilion in Columbia, Jiffy Lube Live in Bristow, Wolf Trap in Vienna, and MGM National Harbor's theater and casino floor — plus every smaller club, theater, and festival in between.",
       "Event traffic is a specialty, not an afterthought. Our chauffeurs know which approach to take when Russell Street is gridlocked before kickoff, where to stage around Gallery Place when Capital One Arena lets out, and how the Merriweather lots move on a sold-out summer night. We time your drop-off so you are inside before the opener finishes, and we coordinate a specific post-show pickup point so you walk straight from the gates to a waiting vehicle while the crowd is still hunting for signal to open a rideshare app.",
       "Groups are where chauffeured service really beats the alternatives. A Mercedes Sprinter keeps up to 14 friends together with the pregame playlist going, and our Escalade and Suburban SUVs carry date nights, families, and client entertaining in first-class comfort. Because nobody in your party is driving, everyone gets to enjoy the tailgate, the toast, and the last song — with a professional, background-checked chauffeur handling the ride home.",
-      "Every event trip is quoted as one flat, all-inclusive rate covering tolls, taxes, and gratuity — no meters and no surge pricing, even on the busiest show nights of the year. Book online in minutes or call (877) 609-1919 and tell us the venue, the date, and the size of your group; we will handle everything else.",
+      "Every event trip is quoted as one flat, transparent rate covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — no meters and no surge pricing, even on the busiest show nights of the year. Book online in minutes or call (877) 609-1919 and tell us the venue, the date, and the size of your group; we will handle everything else.",
     ],
     highlights: [
       { title: "Every Major DMV Venue", desc: "CFG Bank Arena, Capital One Arena, M&T Bank Stadium, Camden Yards, Nationals Park, Merriweather, Wolf Trap, Jiffy Lube Live, MGM National Harbor, and more." },
@@ -1012,7 +1012,7 @@ export const LANDING_PAGES = {
       { title: "Staged Post-Show Pickups", desc: "A coordinated pickup point and a chauffeur staged nearby, so you skip the rideshare scramble after the encore." },
       { title: "Group Vans & SUVs", desc: "Sprinter vans seat up to 14 with the pregame playlist going; Escalades and Suburbans handle date nights and client outings." },
       { title: "Safe Ride Home", desc: "Enjoy the tailgate and the toast — a professional, background-checked chauffeur handles the drive both ways." },
-      { title: "Flat Event-Night Pricing", desc: "One all-inclusive quote covering tolls, taxes, and gratuity — no surge pricing on sold-out nights." },
+      { title: "Flat Event-Night Pricing", desc: "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — no surge pricing on sold-out nights." },
     ],
     areas: [
       { region: "Maryland", places: [
@@ -1040,7 +1040,7 @@ export const LANDING_PAGES = {
       { q: "Which venues do you provide concert and event transportation to?", a: "All of them. Our most-requested venues are CFG Bank Arena, M&T Bank Stadium, and Camden Yards in Baltimore; Capital One Arena, Nationals Park, and Northwest Stadium (formerly FedEx Field) in the DC area; and Merriweather Post Pavilion, Jiffy Lube Live, Wolf Trap, and MGM National Harbor in the suburbs — plus clubs, theaters, and festivals across Maryland, DC, and Virginia." },
       { q: "How does the pickup work after the show ends?", a: "Before the event we agree on a specific pickup point near the venue. Your chauffeur stages nearby as the show winds down and brings the vehicle to that spot, so you walk straight out of the gates to a waiting car instead of fighting the rideshare crowd." },
       { q: "Can you take a big group to a concert together?", a: "Yes — that is our specialty. A Mercedes Sprinter van keeps up to 14 people together with room for coolers and gear, and our Escalade and Suburban SUVs handle smaller groups in first-class comfort. One vehicle, one price, nobody splitting up." },
-      { q: "Do you charge surge pricing on sold-out event nights?", a: "Never. Every event trip is quoted in advance as one flat, all-inclusive rate covering tolls, taxes, and gratuity — the same transparent price whether it is a Tuesday club show or a stadium sellout." },
+      { q: "Do you charge surge pricing on sold-out event nights?", a: "Never. Every event trip is quoted in advance as one flat, transparent rate covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — the same transparent price whether it is a Tuesday club show or a stadium sellout." },
       { q: "Can we make stops before the show — dinner, drinks, or picking up friends?", a: "Absolutely. We can build multi-stop pickups into your reservation, or book hourly as-directed service so the chauffeur stays with your group from dinner through the final encore and home again." },
       { q: "How far in advance should I book event transportation?", a: "For big shows and Ravens or Commanders home games, book as soon as you have tickets — vehicles sell out on major event nights. For smaller shows, a few days ahead is usually fine. Call (877) 609-1919 anytime, 24/7." },
     ],
@@ -1063,7 +1063,7 @@ export const LANDING_PAGES = {
       "Since its top-to-bottom renovation, CFG Bank Arena at 201 West Baltimore Street has become one of the busiest concert venues in the country, pulling A-list tours, comedy residencies, and family shows into the heart of downtown Baltimore. What has not changed is downtown parking: garages that fill early, charge premium event rates, and take half an hour to exit when 14,000 people leave at once. 92 Limo Service solves the whole problem — your chauffeur drops your group steps from the arena doors and is staged nearby when the final song ends.",
       "We time arrivals around the arena's rhythm. Doors typically open an hour before showtime, and Baltimore Street, Hopkins Place, and the surrounding blocks tighten up fast as it approaches. Your chauffeur plans the approach based on real conditions — coming in from I-95, I-83, or the neighborhoods — so you are inside for the opener instead of circling a full garage. Coming from Annapolis, Columbia, Towson, or the DC suburbs? We handle the whole run door-to-door, so nobody in your party has to drive home tired on the highway at midnight.",
       "The post-show pickup is where we earn repeat clients. Before the event we agree on an exact pickup point a short walk from the exits, away from the worst of the crush. As the encore starts, your chauffeur moves into position; you walk out, get in, and are gliding up Charles Street while half the crowd is still staring at a surge-priced rideshare screen. It is a small thing that completely changes how a concert night feels.",
-      "Make it a full evening: we regularly pair CFG Bank Arena shows with dinner in Little Italy, Fells Point, or Harbor East, running hourly as-directed service so the same chauffeur carries your group from the restaurant to the arena and home again. Date nights ride the Escalade; birthday crews and work outings take a Sprinter van that seats up to 14 with the playlist going. Every trip is one flat, all-inclusive quote — tolls, taxes, and gratuity included, no surge on sold-out nights. Reserve online or call (877) 609-1919 with your show date.",
+      "Make it a full evening: we regularly pair CFG Bank Arena shows with dinner in Little Italy, Fells Point, or Harbor East, running hourly as-directed service so the same chauffeur carries your group from the restaurant to the arena and home again. Date nights ride the Escalade; birthday crews and work outings take a Sprinter van that seats up to 14 with the playlist going. Every trip is one flat, transparent quote — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, no surge on sold-out nights. Reserve online or call (877) 609-1919 with your show date.",
     ],
     highlights: [
       { title: "Steps From the Doors", desc: "Drop-off at the closest access point on Baltimore Street — no garages, no event-rate parking, no long walks." },
@@ -1071,7 +1071,7 @@ export const LANDING_PAGES = {
       { title: "Door-to-Door From Anywhere", desc: "Home pickup across Baltimore, Annapolis, Columbia, Towson, and the DC suburbs — both directions covered." },
       { title: "Dinner + Show Packages", desc: "Hourly as-directed service pairs the arena with Little Italy, Fells Point, or Harbor East before the show." },
       { title: "Group Vans & SUVs", desc: "Sprinter vans seat up to 14 for birthday crews and work outings; Escalades handle date nights in style." },
-      { title: "Flat, All-Inclusive Rate", desc: "One quote covering tolls, taxes, and gratuity — no meters, no surge pricing on sellout nights." },
+      { title: "Flat, Transparent Rate", desc: "One quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — no meters, no surge pricing on sellout nights." },
     ],
     vehicles: GROUP_TRIO,
     faqs: [
@@ -1080,7 +1080,7 @@ export const LANDING_PAGES = {
       { q: "Can you pick us up outside Baltimore?", a: "Yes — we run CFG Bank Arena trips from Annapolis, Columbia, Ellicott City, Towson, Bel Air, Frederick, DC, and Northern Virginia. Door-to-door both ways, so nobody drives home late." },
       { q: "Can we do dinner before the show?", a: "Absolutely. Book hourly as-directed service and the same chauffeur takes your group to dinner in Little Italy, Fells Point, or Harbor East, then to the arena, then home after the show." },
       { q: "How many people fit in one vehicle?", a: "Our Mercedes Sprinter vans seat up to 14 passengers together, and the Cadillac Escalade and Chevrolet Suburban carry up to 6–7 in first-class comfort. One vehicle keeps the whole group and the pregame energy together." },
-      { q: "Is the price fixed on big concert nights?", a: "Yes. Every trip is quoted in advance as one flat, all-inclusive rate covering tolls, taxes, and gratuity — no surge pricing, even for a sold-out show. Call (877) 609-1919 for a quote." },
+      { q: "Is the price fixed on big concert nights?", a: "Yes. Every trip is quoted in advance as one flat, transparent rate covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — no surge pricing, even for a sold-out show. Call (877) 609-1919 for a quote." },
     ],
     ctaTitle: "Book Your CFG Bank Arena Ride",
     ctaSubtitle: "Door-side drop-off, a staged pickup after the encore, and one flat rate. Call (877) 609-1919 or reserve online.",
@@ -1101,7 +1101,7 @@ export const LANDING_PAGES = {
       "Capital One Arena sits in the middle of one of the densest entertainment districts in the country — Gallery Place and Penn Quarter, at 7th and F Streets NW — which is exactly why driving to it is miserable. Garages hit event rates and fill early, street parking is a fantasy, and when 18,000 fans pour out onto 7th Street after a Capitals overtime winner, the rideshare pickup zones descend into chaos. 92 Limo Service gives you the other version of that night: dropped at the corner closest to your entrance, and picked up at a pre-arranged point by a chauffeur who staged for you during the third period.",
       "We run Capital One Arena service for every kind of event on the calendar — Capitals and Wizards home games, Georgetown basketball, A-list concert tours, and everything in between. Your chauffeur knows how the DC traffic control pattern shifts on event nights, which approach works when 7th Street closes, and where to stage around Chinatown so your pickup is a two-minute walk instead of a forty-minute wait. Coming in from Bethesda, Arlington, Tysons, Silver Spring, or Baltimore, you ride door-to-door in a quiet cabin instead of hunting for Metro parking or paying event-night garage rates.",
       "For corporate clients, the arena is a client-entertainment staple, and we treat it that way: polished chauffeurs and immaculate black vehicles for suite nights, coordinated multi-stop pickups so your party arrives together, and discreet, on-time returns that respect early mornings. Season-ticket holders set up standing game-night reservations — same chauffeur, same routine, every home game — billed to one account.",
-      "Groups do it best in one vehicle. A Mercedes Sprinter van keeps up to 14 friends or colleagues together from the first pickup to the final drop-off, and the Escalade and Suburban are perfect for couples and small crews who want to arrive in style. Pair the game or show with dinner in Penn Quarter or drinks on 7th Street using hourly as-directed service, and the vehicle is simply there each time you walk out. Every trip is one flat, all-inclusive quote — tolls, taxes, and gratuity included, no surge when the game goes to overtime. Book online or call (877) 609-1919.",
+      "Groups do it best in one vehicle. A Mercedes Sprinter van keeps up to 14 friends or colleagues together from the first pickup to the final drop-off, and the Escalade and Suburban are perfect for couples and small crews who want to arrive in style. Pair the game or show with dinner in Penn Quarter or drinks on 7th Street using hourly as-directed service, and the vehicle is simply there each time you walk out. Every trip is one flat, transparent quote — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, no surge when the game goes to overtime. Book online or call (877) 609-1919.",
     ],
     highlights: [
       { title: "Caps, Wizards & Concerts", desc: "Service to every Capital One Arena event — NHL and NBA games, Georgetown hoops, and major concert tours." },
@@ -1109,7 +1109,7 @@ export const LANDING_PAGES = {
       { title: "Suite & Client Entertaining", desc: "Polished black-car service for suite nights, with coordinated multi-stop pickups and discreet returns." },
       { title: "From Anywhere in the DMV", desc: "Door-to-door from Bethesda, Arlington, Tysons, Silver Spring, Baltimore, and beyond — both directions." },
       { title: "Standing Game-Night Service", desc: "Season-ticket holders get the same chauffeur and routine every home game, billed to one account." },
-      { title: "No Overtime Surge", desc: "One flat, all-inclusive quote covering tolls, taxes, and gratuity — the price never changes when the game runs long." },
+      { title: "No Overtime Surge", desc: "One flat, transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — the price never changes when the game runs long." },
     ],
     vehicles: GROUP_TRIO,
     faqs: [
@@ -1139,7 +1139,7 @@ export const LANDING_PAGES = {
       "There is nothing casual about a Ravens home game. The lots around M&T Bank Stadium open hours before kickoff, Russell Street turns into a purple river, and by the two-minute warning everyone in the building is already dreading the parking-lot exit. 92 Limo Service takes the entire logistics problem off your plate: your chauffeur picks up your crew at home, drops you at the edge of the tailgate lots or as close to your gate as game-day traffic control allows, and is staged at an agreed pickup point when the final whistle blows.",
       "Tailgating is half the point of a Ravens Sunday, so we plan around it. Tell us when your lot crew fires up the grill and we will time the drop-off to match — with room in a Suburban, Escalade, or Sprinter van for coolers, chairs, cornhole boards, and flags. Because nobody in your group is driving, everybody gets to enjoy the tailgate the way it is meant to be enjoyed, and the ride home is handled by a professional, background-checked chauffeur instead of the friend who volunteered at 8 a.m. and regretted it by halftime.",
       "The post-game exit is where chauffeured service pays for itself. The stadium sits between Russell Street and I-95, and the lots can take an hour to clear. We set a specific pickup point before the game, clear of the worst choke points; your chauffeur monitors the fourth quarter and moves into position, and you walk from the gates to a waiting vehicle while thousands of fans are still sitting in a parking lot with their engines off. Works the same for Navy football, stadium concerts, and international soccer friendlies at M&T.",
-      "We run game-day service from every direction — Baltimore neighborhoods, Towson, Bel Air, Annapolis, Columbia, Frederick, DC, and Northern Virginia — and corporate clients use us for suite entertaining all season, with multi-stop pickups and one consolidated account. Every trip is a flat, all-inclusive quote covering tolls, taxes, and gratuity, and the price does not move when the game goes long. Lock in your season or single-game rides online or at (877) 609-1919.",
+      "We run game-day service from every direction — Baltimore neighborhoods, Towson, Bel Air, Annapolis, Columbia, Frederick, DC, and Northern Virginia — and corporate clients use us for suite entertaining all season, with multi-stop pickups and one consolidated account. Every trip is a flat, transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, and the price does not move when the game goes long. Lock in your season or single-game rides online or at (877) 609-1919.",
     ],
     highlights: [
       { title: "Tailgate-Timed Drop-Offs", desc: "We match your lot crew's schedule, with cargo room for coolers, chairs, cornhole boards, and flags." },
@@ -1147,7 +1147,7 @@ export const LANDING_PAGES = {
       { title: "The Whole Crew, One Vehicle", desc: "Sprinter vans seat up to 14; Escalades and Suburbans carry families and small groups in comfort." },
       { title: "Safe Ride Home", desc: "Everyone enjoys the tailgate — a professional chauffeur handles the drive there and back." },
       { title: "Suite & Corporate Season Service", desc: "Multi-stop pickups and consolidated billing for client entertaining, every home game." },
-      { title: "Flat Game-Day Rate", desc: "One all-inclusive quote — tolls, taxes, and gratuity included, no surge in overtime." },
+      { title: "Flat Game-Day Rate", desc: "One transparent quote — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, no surge in overtime." },
     ],
     vehicles: GROUP_TRIO,
     faqs: [
@@ -1156,7 +1156,7 @@ export const LANDING_PAGES = {
       { q: "How do we find our ride after the game?", a: "Before kickoff we agree on an exact pickup point a short walk from the stadium, clear of the worst congestion. Your chauffeur monitors the game clock, stages nearby, and is waiting when you walk out." },
       { q: "How many people can ride together?", a: "Up to 14 in a Mercedes Sprinter van, or 6–7 in an Escalade or Suburban — everyone stays together with the gear, instead of splitting across cars." },
       { q: "Do you also serve concerts and other events at M&T Bank Stadium?", a: "Yes — stadium concerts, Navy football, lacrosse championships, and international soccer matches all get the same drop-off, staging, and flat-rate treatment as Ravens Sundays." },
-      { q: "What does a game-day trip cost?", a: "It depends on your pickup location and vehicle, but every quote is flat and all-inclusive — tolls, taxes, and gratuity included, with no surge pricing. Call (877) 609-1919 with your address and group size for an exact price." },
+      { q: "What does a game-day trip cost?", a: "It depends on your pickup location and vehicle, but every quote is flat and transparent — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with no surge pricing. Call (877) 609-1919 with your address and group size for an exact price." },
     ],
     ctaTitle: "Lock In Your Ravens Game-Day Ride",
     ctaSubtitle: "Tailgate drop-offs, a staged post-game pickup, and one flat rate for the whole crew. Call (877) 609-1919.",
@@ -1177,7 +1177,7 @@ export const LANDING_PAGES = {
       "Merriweather Post Pavilion is one of the great outdoor venues in America — a 19,000-capacity amphitheater tucked into the trees of Symphonia Woods in downtown Columbia, Maryland, with a summer calendar that runs from legacy rock tours to festival weekends. It is also famous for one other thing: the parking. The lots scattered around the Merriweather District fill early, the walk in can be long, and the crawl out after a sold-out show routinely eats an hour before you even reach Route 29. 92 Limo Service exists for exactly this venue.",
       "Your chauffeur drops your group at the closest drop-off point the venue's event pattern allows — a short walk to the gates instead of a hike from a distant lot — timed so you are through security before the opener. After the show, you head to a pre-arranged pickup point where your vehicle is already staged, and you are on Broken Land Parkway or Route 29 while most of the crowd is still locked in the lots with their headlights pointed at a fence. On a summer night, that difference is the whole evening.",
       "Merriweather crowds come from everywhere, and so do our pickups: Baltimore, Ellicott City, Annapolis, Silver Spring, Bethesda, DC, and Northern Virginia. Lawn-seat crews pile into a Mercedes Sprinter van — up to 14 people, the playlist on, room for blankets and layers for when the temperature drops after sunset. Date nights and small groups take the Escalade or Suburban. And because a chauffeur is driving, the pre-show cocktails and the beer garden are guilt-free for everyone in the party.",
-      "We also cover the rest of the calendar in the Merriweather District — festivals, Symphony of Lights season, and shows at the smaller Chrysalis stage — plus dinner-first itineraries at the restaurants around the district or in Clarksville and Ellicott City using hourly as-directed service. Every trip is one flat, all-inclusive quote with tolls, taxes, and gratuity included, and the rate does not surge when a festival lets out. Reserve your show date online or call (877) 609-1919 — summer weekends book up fast.",
+      "We also cover the rest of the calendar in the Merriweather District — festivals, Symphony of Lights season, and shows at the smaller Chrysalis stage — plus dinner-first itineraries at the restaurants around the district or in Clarksville and Ellicott City using hourly as-directed service. Every trip is one flat, transparent quote with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, and the rate does not surge when a festival lets out. Reserve your show date online or call (877) 609-1919 — summer weekends book up fast.",
     ],
     highlights: [
       { title: "Skip the Lot Crawl", desc: "Door-side drop-off before the opener and a staged pickup that beats the hour-long post-show exit." },
@@ -1185,7 +1185,7 @@ export const LANDING_PAGES = {
       { title: "Pickups Across the DMV", desc: "Door-to-door from Baltimore, Ellicott City, Annapolis, Bethesda, DC, and Northern Virginia." },
       { title: "Guilt-Free Beer Garden", desc: "A professional chauffeur drives both ways, so everyone in the group actually gets to enjoy the show." },
       { title: "Festivals & Full Season", desc: "Same service for festival weekends, the Chrysalis stage, and everything on the Merriweather calendar." },
-      { title: "Flat Summer-Night Rate", desc: "One all-inclusive quote — tolls, taxes, and gratuity included, no surge when the show lets out." },
+      { title: "Flat Summer-Night Rate", desc: "One transparent quote — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, no surge when the show lets out." },
     ],
     vehicles: GROUP_TRIO,
     faqs: [
@@ -1216,7 +1216,7 @@ export const LANDING_PAGES = {
       "An Eagles home game is a full-day event, and if you are starting from Maryland or DC, the drive is the least fun part of it. Lincoln Financial Field sits in the South Philadelphia Sports Complex about a hundred miles up I-95 from Baltimore — call it two hours on a good Sunday, longer when the whole corridor is heading to the same kickoff. 92 Limo Service turns that grind into the comfortable part of the day: your chauffeur collects your crew at home, the cooler and jerseys ride in the back, and everyone actually enjoys the trip north.",
       "At the stadium, we put you as close to your gate as the NFL's event-day traffic pattern allows — typically along Pattison Avenue or the 11th Street side — so you skip the long march from the far lots. The complex's parking opens hours early, charges premium event rates, and famously takes an hour or more to empty after the final whistle. None of that is your problem. Your chauffeur stages at a pre-agreed pickup point, watches the game clock, and is in position before the fourth quarter ends.",
       "The ride home is where a chauffeur pays for himself. After three hours of tailgating and four quarters of football, nobody wants to captain a two-hour night drive down I-95. Your group climbs into a Suburban, Escalade, or Sprinter van, the heat or AC is already set, and the only decision left is where to stop for food. We also cover the rivalry calendar in reverse — Ravens and Commanders fans heading up for away games at the Linc ride with us all season.",
-      "Beyond Eagles Sundays, Lincoln Financial Field hosts Temple football, international soccer, and the biggest stadium concert tours of the summer, and the same service applies to all of it. Book a one-way, a round trip, or hourly as-directed service that keeps the vehicle with you from tailgate to table to home. Every trip is one flat, all-inclusive quote — tolls, taxes, and gratuity included, with no surge on playoff Sundays. Call (877) 609-1919 with your game date.",
+      "Beyond Eagles Sundays, Lincoln Financial Field hosts Temple football, international soccer, and the biggest stadium concert tours of the summer, and the same service applies to all of it. Book a one-way, a round trip, or hourly as-directed service that keeps the vehicle with you from tailgate to table to home. Every trip is one flat, transparent quote — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with no surge on playoff Sundays. Call (877) 609-1919 with your game date.",
     ],
     highlights: [
       { title: "Door-to-Gate Drop-Off", desc: "As close to your entrance as event-day traffic control allows — no far-lot hikes in a jersey and January wind." },
@@ -1224,7 +1224,7 @@ export const LANDING_PAGES = {
       { title: "From Maryland, DC & Baltimore", desc: "Door-to-door game-day service up I-95 from anywhere in the DMV — about two hours from Baltimore." },
       { title: "Tailgate-Friendly Vehicles", desc: "Sprinter vans seat up to 14 with room for coolers and gear; Suburbans and Escalades carry smaller crews in comfort." },
       { title: "Every Linc Event Covered", desc: "Eagles and Temple football, international soccer friendlies, and summer stadium concert tours." },
-      { title: "No Playoff Surge", desc: "One flat, all-inclusive quote — tolls, taxes, and gratuity included, whatever the stakes of the game." },
+      { title: "No Playoff Surge", desc: "One flat, transparent quote — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, whatever the stakes of the game." },
     ],
     vehicles: GROUP_TRIO,
     faqs: [
@@ -1232,7 +1232,7 @@ export const LANDING_PAGES = {
       { q: "How long is the trip from Baltimore or DC to the Linc?", a: "Plan on roughly two hours from Baltimore and closer to three from Washington DC, depending on game-day I-95 traffic. Your chauffeur builds in buffer so you arrive with time to spare before kickoff." },
       { q: "How does pickup work after an Eagles game?", a: "You and your chauffeur agree on a pickup point near the sports complex before the game ends. He stages there during the fourth quarter, you walk out with the crowd, and you are on I-95 south while the lots are still gridlocked." },
       { q: "Can you handle a whole tailgate group?", a: "Yes — our Mercedes Sprinter vans keep up to 14 people, plus coolers and chairs, together in one vehicle. For couples and small groups, the Escalade and Suburban are game-day favorites." },
-      { q: "How much does a limo to Lincoln Financial Field cost?", a: "It depends on your pickup location, vehicle, and whether you book one-way, round-trip, or hourly for the full day. Every trip is one flat, all-inclusive quote — call (877) 609-1919 for an exact price." },
+      { q: "How much does a limo to Lincoln Financial Field cost?", a: "It depends on your pickup location, vehicle, and whether you book one-way, round-trip, or hourly for the full day. Every trip is one flat, transparent quote — call (877) 609-1919 for an exact price." },
     ],
     areas: [
       { region: "Plan the Rest of Your Philadelphia Trip", places: [
@@ -1271,7 +1271,7 @@ export const LANDING_PAGES = {
       { title: "From Across the DMV", desc: "Baltimore, Annapolis, Columbia, Bethesda, and Washington DC — about two hours door-to-gate from Baltimore." },
       { title: "Family-Friendly Service", desc: "Car seats on request, one vehicle for the whole crew, and kids asleep in the back on the ride home." },
       { title: "Orioles Rivalry Trips", desc: "When the O's visit the Phillies, we run group trips up I-95 for every game of the series." },
-      { title: "Flat Rate, Rain or Shine", desc: "One all-inclusive quote — tolls, taxes, and gratuity included, unchanged by delays or extra innings." },
+      { title: "Flat Rate, Rain or Shine", desc: "One transparent quote — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, unchanged by delays or extra innings." },
     ],
     vehicles: GROUP_TRIO,
     faqs: [
@@ -1279,7 +1279,7 @@ export const LANDING_PAGES = {
       { q: "What happens if the game goes to extra innings or has a rain delay?", a: "Nothing you need to manage. Your chauffeur follows the game in real time and adjusts the pickup automatically — and your flat quote stays the same no matter how long the night runs." },
       { q: "Do you run trips when the Orioles play in Philadelphia?", a: "Every series. Rivalry trips from Baltimore and the Maryland suburbs are some of our favorite summer bookings — one Sprinter van, up to 14 fans, door-to-door both ways." },
       { q: "Can we add a stop before or after the game?", a: "Yes. Book hourly as-directed service and the same chauffeur covers lunch at Reading Terminal Market, an hour on East Passyunk for cheesesteaks, the game, and the ride home — one vehicle all day." },
-      { q: "How much is car service to Citizens Bank Park?", a: "Pricing depends on pickup location, vehicle, and one-way versus round-trip or hourly service. Every booking is confirmed with one flat, all-inclusive quote — call (877) 609-1919 for yours." },
+      { q: "How much is car service to Citizens Bank Park?", a: "Pricing depends on pickup location, vehicle, and one-way versus round-trip or hourly service. Every booking is confirmed with one flat, transparent quote — call (877) 609-1919 for yours." },
     ],
     areas: [
       { region: "More Philadelphia Trips", places: [
@@ -1310,7 +1310,7 @@ export const LANDING_PAGES = {
       "Wells Fargo Center closes out the south end of the Philadelphia sports complex at 3601 South Broad Street, and its calendar barely takes a night off — Flyers hockey, 76ers basketball, arena-scale concert tours, WWE, and college hoops stack up to well over two hundred events a year. That density is great for fans and terrible for drivers: arena dates regularly overlap with Phillies or Eagles games next door, and the complex's shared lots turn Broad Street into a parking lot of its own. 92 Limo Service exists for exactly this kind of night.",
       "The weeknight math is what convinces most of our clients. A 7:00 tip-off or puck drop means leaving Baltimore mid-afternoon or DC even earlier, and in your own car those hours are pure loss. In the back of one of ours, they are found time — finish the workday on the vehicle's WiFi, eat dinner en route, or nap until the skyline appears. Your chauffeur absorbs the I-95 rush hour so you walk into the arena as fresh as if it were around the corner.",
       "After the horn, the difference is even bigger. Instead of shuffling into a garage queue or bidding against eighteen thousand people for rideshares, you walk to a pre-arranged pickup point where your chauffeur staged during the final period. Most nights you are through the Broad Street mess and onto the highway before the arena has half-emptied. Late-night returns are our specialty — the same chauffeur who brought you up takes you home, however deep into overtime the game went.",
-      "Corporate groups use us for suite nights and client entertaining — coordinated multi-stop pickups, one polished vehicle, discreet returns. Friends make it a full Philadelphia evening with hourly service: dinner in Center City or on Passyunk Avenue, the show, and a direct ride home. Whatever the format, the whole night is one flat, all-inclusive quote with no overtime surcharges and no surge pricing. Reserve online or call (877) 609-1919 with your event date.",
+      "Corporate groups use us for suite nights and client entertaining — coordinated multi-stop pickups, one polished vehicle, discreet returns. Friends make it a full Philadelphia evening with hourly service: dinner in Center City or on Passyunk Avenue, the show, and a direct ride home. Whatever the format, the whole night is one flat, transparent quote with no overtime surcharges and no surge pricing. Reserve online or call (877) 609-1919 with your event date.",
     ],
     highlights: [
       { title: "Sixers, Flyers & Concerts", desc: "Every event on the arena calendar — NBA, NHL, major tours, WWE, and college basketball." },
@@ -1318,7 +1318,7 @@ export const LANDING_PAGES = {
       { title: "Staged Post-Game Pickup", desc: "A pre-arranged meeting point and a chauffeur in position at the final horn — ahead of the Broad Street crawl." },
       { title: "Suite & Client Nights", desc: "Coordinated multi-stop pickups and discreet returns for corporate groups and season suite holders." },
       { title: "Dinner-and-Show Evenings", desc: "Hourly as-directed service pairs Center City or Passyunk Avenue dinner with the event — one vehicle all night." },
-      { title: "No Overtime Surcharge", desc: "One flat, all-inclusive quote that never changes when the game runs long or the encore doubles." },
+      { title: "No Overtime Surcharge", desc: "One flat, transparent quote that never changes when the game runs long or the encore doubles." },
     ],
     vehicles: GROUP_TRIO,
     faqs: [
@@ -1326,7 +1326,7 @@ export const LANDING_PAGES = {
       { q: "Can we make a weeknight 76ers or Flyers game from DC or Baltimore?", a: "Comfortably, and it is one of our most common bookings. A late-afternoon pickup from Baltimore makes a 7:00 start with time to spare; from DC we plan around rush hour and route in real time." },
       { q: "How does the post-game pickup avoid the crowd?", a: "Before the event, you and your chauffeur set a meeting point a short walk from the arena but clear of the worst congestion. He stages during the final period and confirms by text, so you walk straight to the vehicle." },
       { q: "What vehicles work best for arena groups?", a: "Couples take a sedan or the Escalade; suite groups and friends' nights out ride a Mercedes Sprinter that seats up to 14 together. Every vehicle arrives detailed, stocked with water, and driven by a background-checked chauffeur." },
-      { q: "How much does transportation to Wells Fargo Center cost?", a: "Each trip is quoted in advance as one flat, all-inclusive rate based on pickup location, vehicle, and service type — one-way, round-trip, or hourly. Call (877) 609-1919 and we will price your event night exactly." },
+      { q: "How much does transportation to Wells Fargo Center cost?", a: "Each trip is quoted in advance as one flat, transparent rate based on pickup location, vehicle, and service type — one-way, round-trip, or hourly. Call (877) 609-1919 and we will price your event night exactly." },
     ],
     areas: [
       { region: "More Philadelphia Trips", places: [
@@ -1345,7 +1345,7 @@ export const LANDING_PAGES = {
   "phl-airport-to-philadelphia": {
     metaTitle: "PHL Airport to Philadelphia Car Service | 92 Limo",
     metaDescription:
-      "Chauffeured transfers from PHL Airport to Center City Philadelphia & the suburbs — flight tracking, meet & greet, luxury fleet, 24/7. Call (877) 609-1919.",
+      "Chauffeured transfers from PHL Airport to Center City Philadelphia & the suburbs — flight tracking, optional meet & greet, luxury fleet, 24/7. Call (877) 609-1919.",
     eyebrow: "PHL → PHILADELPHIA",
     h1: "PHL Airport to Philadelphia Car Service",
     subtitle:
@@ -1357,15 +1357,15 @@ export const LANDING_PAGES = {
       "Philadelphia International Airport moves tens of thousands of travelers a day through seven terminals, and nearly all of them funnel into the same taxi lines, rideshare lots, and rental counters. 92 Limo Service offers the version of arrival where none of that applies to you. Your chauffeur tracks your flight from departure, adjusts to early landings and delays automatically, and is positioned at your terminal — A-East through F — the moment you have your bags. Prefer a personal welcome? Add meet-and-greet and he is waiting inside baggage claim with a name sign.",
       "From the airport it is a short run into the city: I-95 or the Platt Bridge puts most Center City hotels — the Four Seasons at Comcast Center, the Ritz-Carlton on Broad, Rittenhouse Square addresses — about twenty to thirty minutes from your terminal, with University City, the Navy Yard, Manayunk, and the Main Line all close behind. Your chauffeur reads live traffic and picks the approach, so an evening arrival into rush hour stays a prediction, not a gamble.",
       "The reverse trip is engineered around your departure, not a pickup app's guess. We watch your outbound flight, factor in PHL's security patterns, and schedule the pickup with a realistic buffer — early enough that you never sprint a concourse, late enough that you are not living in the terminal. Conventions at the Pennsylvania Convention Center, campus visits at Penn and Drexel, and medical trips to the city's hospital systems all run on this kind of precision, and it is standard on every booking.",
-      "And because 92 Limo Service runs the whole I-95 corridor daily, PHL works as a gateway in both directions: we regularly carry travelers onward from the airport to Wilmington, Baltimore, Annapolis, and Washington DC — one vehicle, one chauffeur, one quote, no transfers. Sedans for solo travelers, Escalades and Suburbans for families with luggage, Sprinter vans for delegations up to 14. Every transfer is a single flat, all-inclusive price. Call (877) 609-1919 or book online, 24/7.",
+      "And because 92 Limo Service runs the whole I-95 corridor daily, PHL works as a gateway in both directions: we regularly carry travelers onward from the airport to Wilmington, Baltimore, Annapolis, and Washington DC — one vehicle, one chauffeur, one quote, no transfers. Sedans for solo travelers, Escalades and Suburbans for families with luggage, Sprinter vans for delegations up to 14. Every transfer is a single flat, transparent price. Call (877) 609-1919 or book online, 24/7.",
     ],
     highlights: [
       { title: "Flight Tracking Standard", desc: "We monitor every arrival in real time — early landings and delays adjust your pickup automatically at no charge." },
-      { title: "Meet & Greet Available", desc: "Your chauffeur waits inside PHL baggage claim with a name sign and walks you and your luggage to the vehicle." },
+      { title: "Airport Meet & Greet Available", desc: "Your chauffeur can meet you inside baggage claim with a personalized name sign and assist with luggage. Additional charge applies." },
       { title: "20–30 Minutes to Center City", desc: "I-95 or the Platt Bridge, chosen by live traffic — hotel drop-offs across Center City and Rittenhouse Square." },
       { title: "Departure-Smart Returns", desc: "Philadelphia-to-PHL pickups timed against your flight and TSA patterns, with a realistic buffer built in." },
       { title: "Onward Down the Corridor", desc: "Continue from PHL to Wilmington, Baltimore, Annapolis, or DC in the same vehicle — no transfers." },
-      { title: "One Flat, All-Inclusive Rate", desc: "Tolls, taxes, and gratuity in one quote — no meters, no surge, no airport-queue roulette." },
+      { title: "One Flat, Transparent Rate", desc: "One transparent base rate quoted up front, with gratuity, tolls, and parking disclosed before confirmation — no meters, no surge, no airport-queue roulette." },
     ],
     vehicles: SEDAN_TRIO,
     faqs: [
@@ -1373,7 +1373,7 @@ export const LANDING_PAGES = {
       { q: "Where does my chauffeur meet me at PHL?", a: "Curbside at your terminal's arrivals level, coordinated by text as you land — or inside baggage claim with a name sign if you add meet-and-greet. Both options include help with luggage." },
       { q: "What happens if my flight is early or delayed?", a: "Your pickup adjusts automatically. Flight tracking is standard on every booking, with generous complimentary wait time after landing — you will not be charged because the airline changed your schedule." },
       { q: "Can you take me from PHL to Baltimore, Wilmington, or DC?", a: "Yes — corridor trips are core to what we do. One vehicle and one flat quote carry you from your PHL arrival straight to Wilmington, Baltimore, Annapolis, Washington DC, or anywhere in Maryland." },
-      { q: "How much does a car from PHL to Philadelphia cost?", a: "Every transfer is one flat, all-inclusive quote based on drop-off address and vehicle — tolls, taxes, and gratuity included. Call (877) 609-1919 or request a quote online for an exact price." },
+      { q: "How much does a car from PHL to Philadelphia cost?", a: "Every transfer is one flat, transparent quote based on drop-off address and vehicle — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or request a quote online for an exact price." },
     ],
     areas: [
       { region: "Related Airport & Philadelphia Pages", places: [
@@ -1403,8 +1403,8 @@ export const LANDING_PAGES = {
     intro: [
       "Philadelphia International is the region's international gateway — American Airlines' northeast hub, the airport behind every Philadelphia convention, campus visit, and cruise departure, and the arrival point for travelers headed well beyond the city itself. 92 Limo Service treats PHL the way we treat BWI: as home turf. We run scheduled transfers to and from the airport every week, in both directions, for business travelers, families, medical patients, students, and groups who want the one version of airport ground transportation that never involves a line.",
       "Southbound is our signature lane. Because we are based in the Baltimore–Washington corridor, PHL-to-Maryland and Maryland-to-PHL trips run constantly: Elkton, Bel Air, Baltimore, Columbia, Annapolis, Bethesda, and DC on one end; your terminal curb on the other. International travelers flying through PHL instead of BWI or Dulles use us as their bridge — land in Philadelphia, sleep in Maryland, one flat quote for the whole run. Delaware riders from Wilmington, Newark, and the beaches sit right on the route.",
-      "Closer to the airport, we cover the entire Philadelphia region: Center City and University City, the Main Line from Ardmore to Paoli, King of Prussia and Conshohocken, South Jersey across the bridges, and the Philadelphia cruise terminal at the Navy Yard for sailing-day transfers. Every arrival includes real-time flight tracking with generous complimentary wait time, optional meet-and-greet inside baggage claim, and a chauffeur who has already planned the route before your wheels touch down.",
-      "The fleet fits every trip profile: Mercedes E-Class and BMW 7 Series sedans for executives, the Cadillac Escalade and Chevrolet Suburban for families arriving with international luggage, and Mercedes Sprinter vans that move conference delegations and cruise groups of up to 14 with every bag aboard. Corporate accounts get priority scheduling and consolidated monthly billing. Wherever PHL fits in your itinerary, the trip is one fixed, transparent, all-inclusive price — call (877) 609-1919 or book online, any hour.",
+      "Closer to the airport, we cover the entire Philadelphia region: Center City and University City, the Main Line from Ardmore to Paoli, King of Prussia and Conshohocken, South Jersey across the bridges, and the Philadelphia cruise terminal at the Navy Yard for sailing-day transfers. Every arrival includes real-time flight tracking with generous complimentary wait time, optional meet-and-greet inside baggage claim (additional charge), and a chauffeur who has already planned the route before your wheels touch down.",
+      "The fleet fits every trip profile: Mercedes E-Class and BMW 7 Series sedans for executives, the Cadillac Escalade and Chevrolet Suburban for families arriving with international luggage, and Mercedes Sprinter vans that move conference delegations and cruise groups of up to 14 with every bag aboard. Corporate accounts get priority scheduling and consolidated monthly billing. Wherever PHL fits in your itinerary, the trip is one fixed, transparent, transparent price — call (877) 609-1919 or book online, any hour.",
     ],
     highlights: [
       { title: "PHL Both Directions, 24/7", desc: "Arrivals and departures at every terminal, every day — red-eyes, first flights out, and everything between." },
@@ -1417,10 +1417,10 @@ export const LANDING_PAGES = {
     vehicles: SEDAN_TRIO,
     faqs: [
       { q: "What areas does your Philadelphia airport car service cover?", a: "The entire region: Center City, University City, the Main Line, King of Prussia, and South Jersey near the airport — plus long-distance transfers to Wilmington, Baltimore, Annapolis, Washington DC, and all of Maryland and Delaware." },
-      { q: "Do you run PHL transfers to and from Maryland?", a: "Constantly — it is our signature lane. Baltimore, Columbia, Annapolis, Bethesda, and DC to PHL (and back) are among our most-booked long-distance routes, quoted as one flat, all-inclusive price." },
+      { q: "Do you run PHL transfers to and from Maryland?", a: "Constantly — it is our signature lane. Baltimore, Columbia, Annapolis, Bethesda, and DC to PHL (and back) are among our most-booked long-distance routes, quoted as one flat, transparent price." },
       { q: "Do you serve the Philadelphia cruise terminal?", a: "Yes. We time cruise transfers to your boarding window, load every bag, and deliver you to the terminal at the Navy Yard — and meet you dockside on the return with flight-connection timing if you are flying out of PHL." },
-      { q: "Is flight tracking included at PHL?", a: "On every single booking. We monitor your flight from wheels-up, adjust automatically for delays and early arrivals, and include generous complimentary wait time — plus optional meet-and-greet inside baggage claim." },
-      { q: "How much does Philadelphia airport car service cost?", a: "Every trip is one fixed, transparent quote covering tolls, taxes, and gratuity — no meters and no surge. Pricing depends on distance and vehicle; call (877) 609-1919 or book online for an exact all-inclusive price." },
+      { q: "Is flight tracking included at PHL?", a: "On every single booking. We monitor your flight from wheels-up, adjust automatically for delays and early arrivals, and include generous complimentary wait time — plus optional meet-and-greet inside baggage claim (additional charge)." },
+      { q: "How much does Philadelphia airport car service cost?", a: "Every trip is one fixed, transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — no meters and no surge. Pricing depends on distance and vehicle; call (877) 609-1919 or book online for an exact transparent price." },
     ],
     areas: [
       { region: "Popular PHL Connections", places: [
@@ -1439,7 +1439,7 @@ export const LANDING_PAGES = {
   "baltimore-to-philadelphia-limo": {
     metaTitle: "Baltimore to Philadelphia Limo Service | 92 Limo",
     metaDescription:
-      "Chauffeured Baltimore to Philadelphia limo — about 2 hours door-to-door in luxury sedans, SUVs & Sprinter vans. Flat all-inclusive rate. (877) 609-1919.",
+      "Chauffeured Baltimore to Philadelphia limo — about 2 hours door-to-door in luxury sedans, SUVs & Sprinter vans. Flat transparent rate. (877) 609-1919.",
     eyebrow: "BALTIMORE → PHILADELPHIA",
     h1: "Baltimore to Philadelphia Limo Service",
     subtitle:
@@ -1451,7 +1451,7 @@ export const LANDING_PAGES = {
       "Baltimore and Philadelphia sit just over a hundred miles apart, close enough for a day trip and far enough that the drive shapes the whole day. Doing it yourself means the Fort McHenry Tunnel, the toll gauntlet across the Susquehanna and Delaware, and the hunt for parking on the far end; the train means getting to Penn Station on its schedule and solving the last mile at 30th Street. 92 Limo Service replaces all of it with one vehicle, one chauffeur, and one flat quote — from your Baltimore doorstep to any Philadelphia address, in about two hours.",
       "Business travelers treat the ride as a rolling office: two uninterrupted hours of WiFi, chargers, and quiet cabin between meetings, with drop-off directly at the Comcast Center, the Convention Center, or a University City campus. We schedule same-day round trips constantly — a morning run up, the chauffeur waiting or returning on cue, and an evening ride home dictated by when your meeting actually ends rather than by a train timetable.",
       "The route earns its keep on personal trips too. Families ride up for Penn and Drexel campus visits, hospital appointments at CHOP and Penn Medicine, weddings on the Main Line, and holiday gatherings — with luggage, gifts, and car seats handled, and nobody negotiating I-95 in the dark on the way home. Game-day crews book Sprinter vans to Eagles, Phillies, and Sixers games at the South Philadelphia Sports Complex, keeping the whole group and the pregame energy in one vehicle both ways.",
-      "Every Baltimore-to-Philadelphia booking is quoted flat and all-inclusive before you ride: tolls, taxes, and gratuity in one number, no meters and no surge, whatever the traffic does. The trip also composes with our airport work — start from a BWI arrival, end at a PHL departure, or reverse it all southbound. Sedans for one or two travelers, Escalades and Suburbans for families, Sprinters for groups of up to 14. Call (877) 609-1919 or book online, and the corridor becomes the easiest part of your plans.",
+      "Every Baltimore-to-Philadelphia booking is quoted flat and transparent before you ride: one base number with gratuity, tolls, and parking disclosed before confirmation — no meters and no surge, whatever the traffic does. The trip also composes with our airport work — start from a BWI arrival, end at a PHL departure, or reverse it all southbound. Sedans for one or two travelers, Escalades and Suburbans for families, Sprinters for groups of up to 14. Call (877) 609-1919 or book online, and the corridor becomes the easiest part of your plans.",
     ],
     highlights: [
       { title: "About 2 Hours Door-to-Door", desc: "Roughly 100 miles up I-95, with your chauffeur routing around slowdowns in real time — both directions, 24/7." },
@@ -1459,7 +1459,7 @@ export const LANDING_PAGES = {
       { title: "Same-Day Round Trips", desc: "Morning up, evening back — the return leaves when your meeting ends, not when a train schedule says so." },
       { title: "Campus, Hospital & Wedding Runs", desc: "Penn and Drexel visits, CHOP and Penn Medicine appointments, Main Line weddings — luggage and car seats handled." },
       { title: "Game-Day Sprinters", desc: "Eagles, Phillies, and Sixers groups of up to 14 ride together to the sports complex and back." },
-      { title: "Flat, All-Inclusive Quote", desc: "Tolls, taxes, and gratuity in one fixed number — no meters, no surge, no surprises at the Delaware line." },
+      { title: "Flat, Transparent Quote", desc: "One transparent base rate quoted up front, with gratuity, tolls, and parking disclosed before confirmation — no meters, no surge, no surprises at the Delaware line." },
     ],
     vehicles: GROUP_TRIO,
     faqs: [
@@ -1467,7 +1467,7 @@ export const LANDING_PAGES = {
       { q: "Is a private car better than the train for this trip?", a: "It is door-to-door on your schedule: no getting to Penn Station, no 30th Street last mile, no luggage limits, and no fixed departure time. For two or more people traveling together, it is often the more practical option end to end." },
       { q: "Do you do same-day round trips?", a: "All the time. Your chauffeur can wait with hourly as-directed service or return for a scheduled evening pickup — either way, the ride home leaves when you are actually ready, even if the day runs long." },
       { q: "Can you take a group to a Philadelphia game or event?", a: "Yes — our Mercedes Sprinter vans carry up to 14 to Lincoln Financial Field, Citizens Bank Park, Wells Fargo Center, weddings, and campus events, with room for gear and luggage. Everyone travels together in both directions." },
-      { q: "How much does a Baltimore to Philadelphia limo cost?", a: "Every trip is one flat, all-inclusive quote based on vehicle and addresses — tolls, taxes, and gratuity included, with no surge ever. Call (877) 609-1919 or request an online quote for your exact price." },
+      { q: "How much does a Baltimore to Philadelphia limo cost?", a: "Every trip is one flat, transparent quote based on vehicle and addresses — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with no surge ever. Call (877) 609-1919 or request an online quote for your exact price." },
     ],
     areas: [
       { region: "Connect the Trip", places: [
@@ -1480,7 +1480,7 @@ export const LANDING_PAGES = {
       ]},
     ],
     ctaTitle: "Book Baltimore to Philadelphia",
-    ctaSubtitle: "Two comfortable hours, one flat all-inclusive rate, door to door in either direction. Call (877) 609-1919.",
+    ctaSubtitle: "Two comfortable hours, one flat transparent rate, door to door in either direction. Call (877) 609-1919.",
   },
 };
 

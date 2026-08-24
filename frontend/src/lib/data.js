@@ -6,6 +6,24 @@ export const BRAND = {
   website: "92limo.com",
   email: "info@92limo.com",
   tagline: "Maryland · Virginia · Washington DC",
+  psc: "MD PSC Carrier #6325",
+};
+
+// ---------------------------------------------------------------------------
+// Site-wide policy language. Every page, form, FAQ and email must quote these
+// verbatim so pricing, waiting-time and meet & greet claims never contradict.
+// ---------------------------------------------------------------------------
+export const POLICY = {
+  pricing:
+    "Your quoted rate includes the base transportation charge. Driver gratuity, parking, tolls, additional waiting time, and other applicable charges will be clearly disclosed before confirmation.",
+  waitAirportDomestic: 60,
+  waitAirportInternational: 90,
+  waitStandard: 15,
+  waiting:
+    "Airport pickups include 60 minutes of complimentary waiting time on domestic arrivals and 90 minutes on international arrivals, timed from actual touchdown. All other pickups include 15 minutes of complimentary waiting time. Additional waiting time is billed in 15-minute increments at the applicable rate and is disclosed before confirmation.",
+  meetGreetTitle: "Airport Meet & Greet Available",
+  meetGreet:
+    "Your chauffeur can meet you inside baggage claim with a personalized name sign and assist with luggage. Additional charge applies.",
 };
 
 // Social profiles rendered in the footer and declared to search engines via
@@ -25,8 +43,8 @@ export const HOME_ABOUT = {
   paragraphs: [
     "92 Limo Service (92 Transportation LLC) is a locally owned provider of luxury black car service in Washington DC, Maryland, and Virginia. For years, discerning travelers across the DMV have relied on us for airport transfers, corporate travel, weddings, and special events — delivered with the punctuality, discretion, and polish that define a true chauffeur experience.",
     "What sets our luxury black car service apart is consistency. Every vehicle in our fleet is a late-model sedan, SUV, or Mercedes Sprinter van, immaculately detailed before each ride and driven by a licensed, background-checked chauffeur. From the moment you book to the moment you arrive, you deal with professionals who treat your schedule — and your safety — as their own.",
-    "We provide luxury black car service throughout the entire Washington DC, Maryland, and Virginia region, with flat-rate, all-inclusive transfers to and from BWI, Ronald Reagan National (DCA), and Washington Dulles (IAD) airports. Whether you need an early-morning ride to catch a flight, executive transportation for a client visit, or an elegant arrival on your wedding day, 92 Limo Service delivers the same reliable luxury every time.",
-    "Booking is simple and available 24/7. Request an all-inclusive quote online or call our team, and we will confirm a professional chauffeur, track your flight, and handle every detail door to door — so your only job is to relax and enjoy the ride.",
+    "We provide luxury black car service throughout the entire Washington DC, Maryland, and Virginia region, with flat-rate, transparently priced transfers to and from BWI, Ronald Reagan National (DCA), and Washington Dulles (IAD) airports. Whether you need an early-morning ride to catch a flight, executive transportation for a client visit, or an elegant arrival on your wedding day, 92 Limo Service delivers the same reliable luxury every time.",
+    "Booking is simple and available 24/7. Request a transparent quote online or call our team, and we will confirm a professional chauffeur, track your flight, and handle every detail door to door — so your only job is to relax and enjoy the ride.",
     "Beyond the airport, our luxury black car service covers corporate roadshows, executive travel, wine tours through Maryland and Virginia wine country, proms, birthdays, cruise-port transfers, and long-distance trips to New York, Philadelphia, and the Delaware beaches. Groups are welcome too — our Mercedes Sprinter vans and Sprinter limo keep everyone together in comfort. Whatever the occasion, you can expect the same clean vehicles, professional chauffeurs, and transparent pricing that have earned 92 Limo Service a five-star reputation across the DMV.",
   ],
 };
@@ -88,6 +106,8 @@ export const FLEET = [
     name: "Mercedes E-Class",
     pax: 3,
     bags: 2,
+    carryOns: 2,
+    bestFor: "Airport transfers · Corporate travel",
     img: "/images/mercedes-e-class.jpg",
     alt: "Black Mercedes E-Class business sedan — 92 Limo Service",
     description:
@@ -98,6 +118,8 @@ export const FLEET = [
     name: "BMW 7 Series",
     pax: 3,
     bags: 2,
+    carryOns: 2,
+    bestFor: "Executive travel · Weddings · VIP airport transfers",
     img: "/fleet/bmw-7-series.jpg",
     alt: "Black BMW 7 Series first class sedan — 92 Limo Service fleet",
     description:
@@ -107,7 +129,10 @@ export const FLEET = [
     category: "Midsize SUV",
     name: "Lincoln Nautilus",
     pax: 3,
+    paxNoLuggage: 4,
     bags: 4,
+    carryOns: 3,
+    bestFor: "Airport transfers · Small families · Extra luggage",
     img: "/images/lincoln-nautilus.jpg",
     alt: "Lincoln Nautilus midsize luxury SUV — 92 Limo Service",
     description:
@@ -117,7 +142,10 @@ export const FLEET = [
     category: "Luxury SUV",
     name: "Chevrolet Suburban",
     pax: 5,
+    paxNoLuggage: 6,
     bags: 5,
+    carryOns: 5,
+    bestFor: "Airport transfers · Families · Group business travel",
     img: "/images/chevy-suburban.jpg",
     alt: "Black Chevrolet Suburban full-size luxury SUV — 92 Limo Service",
     description:
@@ -126,8 +154,11 @@ export const FLEET = [
   {
     category: "Premium SUV",
     name: "Cadillac Escalade",
-    pax: 6,
+    pax: 5,
+    paxNoLuggage: 6,
     bags: 5,
+    carryOns: 5,
+    bestFor: "Airport transfers · Corporate · Weddings & events",
     img: "/images/cadillac-escalade.jpg",
     alt: "Black Cadillac Escalade premium SUV — 92 Limo Service",
     description:
@@ -138,6 +169,8 @@ export const FLEET = [
     name: "Mercedes Sprinter",
     pax: 13,
     bags: 13,
+    carryOns: 13,
+    bestFor: "Group airport runs · Team travel · Event shuttles",
     img: "/fleet/sprinter-shuttle-seats.jpg",
     alt: "Mercedes Sprinter van shuttle interior with passenger seating — 92 Limo Service",
     description:
@@ -148,6 +181,8 @@ export const FLEET = [
     name: "Mercedes Sprinter",
     pax: 13,
     bags: 13,
+    carryOns: 13,
+    bestFor: "Corporate groups · Roadshows · Executive retreats",
     img: "/images/mercedes-sprinter.jpg",
     alt: "Mercedes Sprinter Executive van interior with lounge seating — 92 Limo Service",
     description:
@@ -157,7 +192,9 @@ export const FLEET = [
     category: "Sprinter Limo",
     name: "Mercedes Sprinter Limo",
     pax: 13,
-    bags: 13,
+    bags: 6,
+    carryOns: 8,
+    bestFor: "Weddings · Proms · Birthdays & nights out",
     img: "/fleet/limousine.jpg",
     alt: "Mercedes Sprinter limo interior with lounge seating and ambient lighting — 92 Limo Service",
     description:
@@ -166,7 +203,7 @@ export const FLEET = [
 ];
 
 export const SERVICES = [
-  { icon: "Plane", title: "Airport Transfers", desc: "On-time transfers to BWI, DCA, IAD, Martin State & PHL with flight tracking and meet & greet.", link: "/airport-transportation" },
+  { icon: "Plane", title: "Airport Transfers", desc: "On-time transfers to BWI, DCA, IAD, Martin State & PHL with flight tracking and optional meet & greet.", link: "/airport-transportation" },
   { icon: "Briefcase", title: "Corporate Travel", desc: "Reliable, discreet executive transportation for business across the DMV.", link: "/corporate-transportation" },
   { icon: "Heart", title: "Wedding Limo", desc: "Elegant arrivals and bridal-party transport for your special day.", link: "/wedding-transportation" },
   { icon: "Wine", title: "Wine Tours", desc: "Relaxed, chauffeured tours of Maryland & Virginia wine country.", link: "/wine-tours" },
@@ -177,7 +214,7 @@ export const SERVICES = [
 ];
 
 export const AIRPORTS = [
-  { code: "BWI", name: "BWI Airport Car Service", desc: "Baltimore/Washington International Thurgood Marshall Airport transfers with curbside or meet & greet pickup." },
+  { code: "BWI", name: "BWI Airport Car Service", desc: "Baltimore/Washington International Thurgood Marshall Airport transfers with curbside pickup or optional meet & greet (additional charge)." },
   { code: "DCA", name: "DCA Airport Car Service", desc: "Ronald Reagan Washington National Airport — fast, central transfers with flight monitoring." },
   { code: "IAD", name: "IAD Airport Car Service", desc: "Washington Dulles International Airport luxury transfers, including international arrivals." },
   { code: "MTN", name: "Martin State Airport", desc: "Private and general-aviation transfers to Martin State Airport (MTN) and nearby communities." },
@@ -187,7 +224,7 @@ export const AIRPORTS = [
 export const AIRPORT_FEATURES = [
   "Real-time flight tracking",
   "Curbside pickup",
-  "Meet & greet option",
+  "Meet & greet available (additional charge)",
   "24/7 availability",
 ];
 
@@ -207,7 +244,7 @@ export const WHY = [
   { icon: "BadgeCheck", title: "Professional Chauffeurs", desc: "Licensed, vetted, and impeccably presented drivers." },
   { icon: "Sparkles", title: "Clean Luxury Vehicles", desc: "Spotless, late-model fleet detailed before every ride." },
   { icon: "Clock", title: "24/7 Reservations", desc: "Book any time — day or night — with round-the-clock support." },
-  { icon: "DollarSign", title: "Affordable, Clear Pricing", desc: "Transparent all-inclusive quotes with no hidden fees." },
+  { icon: "DollarSign", title: "Transparent Pricing", desc: "Your quoted rate includes the base transportation charge; gratuity, parking, tolls and other applicable charges are disclosed before confirmation." },
   { icon: "Plane", title: "Airport Flight Tracking", desc: "We monitor your flight and adjust pickup automatically." },
   { icon: "Building2", title: "Corporate-Ready Service", desc: "Billing, receipts, and standards built for business travel." },
 ];
@@ -242,10 +279,12 @@ export const FAQS = [
   { q: "What airport transportation services do you provide to BWI Airport?", a: "We provide reliable airport transportation to and from BWI Airport, including private airport car service, executive transportation, luxury airport limo service, and group airport transfers for business and leisure travelers." },
   { q: "Is your airport transportation service available 24 hours a day?", a: "Yes — our 24/7 service operates around the clock, providing dependable rides to BWI, DCA, IAD, PHL, and Martin State Airport for early-morning departures and late-night arrivals." },
   { q: "What areas do you serve for airport transportation in Maryland?", a: "We cover Annapolis, Baltimore, Bowie, Crofton, Crownsville, Davidsonville, Odenton, Edgewater, Arnold, Severna Park, Riva, and surrounding Maryland areas, with service to BWI, DCA, IAD, PHL, and Martin State Airport." },
-  { q: "Do you track flights for airport pickups?", a: "Yes — every airport pickup includes real-time flight tracking with complimentary wait time. If your flight lands early or hours late, your chauffeur adjusts automatically, so you never need to call from the tarmac." },
+  { q: "Do you track flights for airport pickups?", a: "Yes — every airport pickup includes real-time flight tracking. If your flight lands early or hours late, your chauffeur adjusts automatically, so you never need to call from the tarmac." },
+  { q: "How much waiting time is included?", a: POLICY.waiting },
+  { q: "Can my chauffeur meet me inside the terminal?", a: `${POLICY.meetGreetTitle} — ${POLICY.meetGreet} Curbside pickup at the arrivals level is always available at no extra charge.` },
   { q: "How far in advance should I book?", a: "Book by the night before at the latest — earlier for pre-dawn departures, holidays, and event weekends when vehicles sell out. We accommodate same-day requests whenever availability allows, and our line answers 24/7 at (877) 609-1919." },
-  { q: "How do I book a ride or get a free quote?", a: "Use the booking form on our Contact page or simply call us at (877) 609-1919. We confirm every reservation with an all-inclusive quote." },
-  { q: "Are tolls and gratuity included in the price?", a: "Yes — our quotes are all-inclusive (base fare, tolls, taxes, and standard gratuity). Extra stops, extended wait time, and late-night surcharges may apply." },
+  { q: "How do I book a ride or get a free quote?", a: "Use the booking form on our Booking page or simply call us at (877) 609-1919. We confirm every reservation with a transparent quote before you ride." },
+  { q: "What does my quoted rate include?", a: POLICY.pricing },
   { q: "What vehicles are in your fleet?", a: "Our fleet includes the Business Sedan (Mercedes-Benz E-Class), First Class Sedans (BMW 7 Series and Mercedes-Benz S-Class), Midsize SUV (Lincoln Nautilus), Luxury SUV (Chevrolet Suburban), Premium SUV (Cadillac Escalade), the Mercedes Sprinter Shuttle and Sprinter Executive vans, and the Mercedes Sprinter Limo." },
   { q: "Do you offer wine tours, weddings, proms, and birthdays?", a: "Absolutely. Beyond airport and corporate travel, we offer wine tours, wedding limo service, prom transportation, and birthday celebrations across Maryland, Virginia, and Washington DC." },
 ];
@@ -308,12 +347,12 @@ export const SERVICE_PAGES = {
     intro:
       "Whether you're flying out of BWI, Reagan National (DCA), Dulles (IAD), Martin State (MTN), or Philadelphia (PHL), 92 Limo Service delivers punctual, polished airport transportation. We monitor your flight in real time and adjust your pickup automatically — so your chauffeur is always ready the moment you land.",
     bullets: [
-      { title: "Real-Time Flight Tracking", desc: "We watch your flight and adjust for early arrivals or delays at no extra charge." },
-      { title: "Meet & Greet", desc: "Your chauffeur greets you inside the terminal with a name sign and helps with luggage." },
+      { title: "Real-Time Flight Tracking", desc: "We watch your flight and adjust for early arrivals or delays at no extra charge — with 60 minutes of complimentary waiting time on domestic arrivals and 90 on international." },
+      { title: POLICY.meetGreetTitle, desc: POLICY.meetGreet },
       { title: "Curbside Pickup", desc: "Prefer a quick exit? We'll be waiting curbside the minute you step out." },
       { title: "All Regional Airports", desc: "BWI, DCA, IAD, Martin State (MTN), and Philadelphia (PHL)." },
       { title: "24/7 Availability", desc: "Red-eye or dawn departure — we run around the clock, every day." },
-      { title: "All-Inclusive Pricing", desc: "Flat, transparent rates including tolls, parking, and gratuity." },
+      { title: "Transparent Pricing", desc: POLICY.pricing },
     ],
     vehicles: AIRPORT_VEHICLES,
   },
@@ -376,7 +415,7 @@ export const SERVICE_PAGES = {
       { title: "Group Comfort", desc: "Spacious SUVs and Sprinter vans keep your party together." },
       { title: "Flexible Timing", desc: "Linger longer at a winery — your schedule, your pace." },
       { title: "Door-to-Door", desc: "Hassle-free pickup and drop-off at your home or hotel." },
-      { title: "All-Inclusive Rates", desc: "Transparent pricing with no surprises at the end of the day." },
+      { title: "Transparent Rates", desc: "Your base rate is quoted up front; gratuity, tolls and parking are disclosed before confirmation." },
     ],
     vehicles: ["Premium SUV — Cadillac Escalade", "Sprinter Limo — Mercedes Sprinter Limo", "First Class Sedan — BMW 7 Series"],
   },
@@ -397,7 +436,7 @@ export const SERVICE_PAGES = {
       { title: "Safe & Reliable", desc: "Professional chauffeurs keep the celebration safe from start to finish." },
       { title: "Door-to-Door", desc: "Pickup and return at your home, hotel, or venue of choice." },
       { title: "Any Group Size", desc: "From an intimate dinner to a full crew in the Sprinter van." },
-      { title: "All-Inclusive Pricing", desc: "Clear, upfront rates so there are no surprises." },
+      { title: "Transparent Pricing", desc: "Clear, upfront base rates — gratuity, tolls and parking disclosed before confirmation." },
     ],
     vehicles: ["Sprinter Limo — Mercedes Sprinter Limo", "Sprinter Shuttle — Mercedes Sprinter", "Premium SUV — Cadillac Escalade"],
   },
@@ -438,7 +477,7 @@ export const SERVICE_PAGES = {
       { title: "Dedicated Vehicle", desc: "Your car and chauffeur stay with you for the full reservation." },
       { title: "Events & Nights Out", desc: "Concerts, games, weddings, dinners — arrive and leave in style." },
       { title: "Business Days", desc: "Bounce between meetings across DC, MD, and VA without parking hassles." },
-      { title: "Flexible Minimums", desc: "Reasonable hourly minimums with transparent, all-inclusive rates." },
+      { title: "Flexible Minimums", desc: "Reasonable hourly minimums with transparent rates disclosed before confirmation." },
       { title: "Professional Discretion", desc: "Courteous, polished chauffeurs who respect your time and privacy." },
     ],
     vehicles: LUXURY_VEHICLES,
@@ -460,7 +499,7 @@ export const SERVICE_PAGES = {
       { title: "Experienced Chauffeurs", desc: "Seasoned drivers who know the I-95 corridor and plan around traffic." },
       { title: "Flexible Scheduling", desc: "Early departures, late returns, and multi-city itineraries accommodated." },
       { title: "Group Options", desc: "Travel together in our Mercedes Sprinter Executive or Sprinter Shuttle for families and teams." },
-      { title: "Transparent Flat Rates", desc: "All-inclusive long-distance pricing quoted up front — no surprises." },
+      { title: "Transparent Flat Rates", desc: "Long-distance base rates quoted up front — gratuity, tolls and parking disclosed before confirmation." },
     ],
     vehicles: LUXURY_VEHICLES,
   },

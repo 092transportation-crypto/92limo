@@ -116,8 +116,8 @@ export const BookingForm = () => {
             Reserve Your Chauffeur
           </h2>
           <p className="mt-3 text-neutral-600 max-w-xl mx-auto">
-            Tell us about your trip and we'll confirm your booking with an
-            all-inclusive quote. No payment required to request.
+            Tell us about your trip and we'll confirm your booking with a
+            transparent quote. No payment required to request.
           </p>
         </Reveal>
 

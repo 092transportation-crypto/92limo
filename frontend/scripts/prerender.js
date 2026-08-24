@@ -73,13 +73,13 @@ const ul = (items) => (items && items.length ? `<ul>${items.map((i) => `<li>${i}
 // ---------------------------------------------------------------------------
 const STATIC_PAGES = {
   "/": {
-    title: "92 Limo Service | Luxury Chauffeur DC, MD & VA",
+    title: "Airport Car & Chauffeur Service | BWI, DCA, IAD | 92 Limo",
     description:
       "Luxury black car & chauffeur service in DC, Maryland & Virginia — airport transfers (BWI, DCA, IAD), corporate travel, weddings & 24/7 rides.",
-    h1: "Luxury Black Car Service in Washington DC, Maryland & Virginia",
+    h1: "Luxury Airport & Chauffeur Service — BWI • DCA • IAD • DC • Maryland • Northern Virginia",
     paras: [
       "Professional airport transfers, corporate travel, hourly chauffeur service, weddings, and long-distance transportation — delivered with precision, discretion, and uncompromising comfort.",
-      "92 Limo Service (92 Transportation LLC) provides 24/7 chauffeured car service across the DMV, with real-time flight tracking, meet & greet pickups, and a fleet of immaculate late-model sedans, SUVs and Sprinter vans.",
+      "92 Limo Service (92 Transportation LLC, MD PSC Carrier #6325) provides 24/7 chauffeured car service across the DMV, with real-time flight tracking, optional meet & greet pickups, and a fleet of immaculate late-model sedans, SUVs and Sprinter vans.",
     ],
   },
   "/fleet": {
@@ -102,21 +102,22 @@ const STATIC_PAGES = {
     ],
   },
   "/service-areas": {
-    title: "Service Areas | DC, Maryland & Virginia | 92 Limo",
+    title: "All Service Areas | Cities, Airports & Routes | 92 Limo",
     description:
-      "92 Limo Service covers Washington DC, Maryland and Northern Virginia — Baltimore, Annapolis, Bethesda, Arlington and more, plus BWI, DCA and IAD.",
-    h1: "Serving the Greater DMV & Beyond",
+      "Every location 92 Limo Service covers — Maryland, Washington DC, Northern Virginia, Delaware & Pennsylvania cities, BWI/DCA/IAD/PHL airports, point-to-point routes and event venues.",
+    h1: "Everywhere We Serve",
     paras: [
       "Luxury chauffeur service throughout Maryland, Washington DC, and Northern Virginia — plus long-distance trips up and down the East Coast.",
     ],
   },
   "/about": {
-    title: "About 92 Limo Service | Chauffeurs in DC, MD & VA",
+    title: "About 92 Transportation LLC | Maryland Chauffeurs | 92 Limo",
     description:
-      "Learn about 92 Limo Service (92 Transportation LLC) — luxury black car and chauffeur service across Washington DC, Maryland & Northern Virginia.",
+      "92 Limo Service is 92 Transportation LLC — a Maryland-based, MD PSC-licensed (Carrier #6325) chauffeur company with 15+ years of industry experience, a real fleet, corporate accounts and 24/7 dispatch.",
     h1: "The Standard for Luxury Chauffeur Service",
     paras: [
-      "92 Transportation LLC has built its reputation on punctuality, pristine vehicles, and chauffeurs who care about every detail of your journey.",
+      "92 Limo Service is the trade name of 92 Transportation LLC, a Maryland-based luxury ground transportation company licensed by the Maryland Public Service Commission as Carrier #6325, with commercially insured vehicles and 24/7 live dispatch.",
+      "Our leadership and chauffeur team bring more than 15 years of transportation industry experience to airport transfers at BWI, DCA, IAD, MTN and PHL, corporate accounts with consolidated billing, weddings, hourly service and long-distance travel across Washington DC, Maryland and Northern Virginia.",
     ],
   },
   "/reviews": {
@@ -158,10 +159,11 @@ const STATIC_PAGES = {
   "/booking": {
     title: "Book a Ride | 92 Limo Service | DC, MD & VA Chauffeur",
     description:
-      "Reserve luxury chauffeur and airport car service with 92 Limo Service across DC, Maryland & Virginia. Request an all-inclusive quote, 24/7.",
+      "Reserve luxury chauffeur and airport car service with 92 Limo Service across DC, Maryland & Virginia. Transparent quotes, 24/7.",
     h1: "Reserve Your Ride",
     paras: [
-      "Tell us about your trip and we will confirm a chauffeur with flat, all-inclusive pricing. Reserve airport transfers, corporate travel, weddings and long-distance rides across DC, Maryland and Virginia, 24/7.",
+      "Tell us about your trip and we will confirm a chauffeur with flat, transparent pricing. Reserve airport transfers, corporate travel, weddings and long-distance rides across DC, Maryland and Virginia, 24/7.",
+      "Your quoted rate includes the base transportation charge. Driver gratuity, parking, tolls, additional waiting time, and other applicable charges will be clearly disclosed before confirmation. Airport pickups include 60 minutes of complimentary waiting time on domestic arrivals and 90 minutes on international; all other pickups include 15 minutes.",
     ],
   },
   "/privacy-policy": {
@@ -180,6 +182,16 @@ const STATIC_PAGES = {
     h1: "Terms and Conditions",
     paras: [
       "These terms cover bookings, payment, cancellation, liability, SMS messaging, and our service area across DC, Maryland and Virginia. By booking with 92 Limo Service you agree to these terms.",
+    ],
+  },
+  "/policies": {
+    title: "Booking & Cancellation Policies | 92 Limo Service",
+    description:
+      "92 Limo Service booking policies — pricing inclusions, cancellation, waiting time (60/90 min airport, 15 min standard), no-show, vehicle substitution and payment authorization.",
+    h1: "Booking & Service Policies",
+    paras: [
+      "Your quoted rate includes the base transportation charge. Driver gratuity, parking, tolls, additional waiting time, and other applicable charges will be clearly disclosed before confirmation.",
+      "Waiting time: airport pickups include 60 minutes complimentary on domestic arrivals and 90 minutes on international arrivals; all other pickups include 15 minutes. Cancellation, no-show, vehicle substitution and payment authorization policies are published in full on this page.",
     ],
   },
   "/coverage": {
@@ -203,7 +215,9 @@ function buildStatic(route, data) {
     description: s.description,
     body: route === "/"
       ? buildHomeBody(s, data)
-      : h(1, s.h1) + s.paras.map(p).join(""),
+      : route === "/service-areas"
+        ? h(1, s.h1) + s.paras.map(p).join("") + buildServiceAreas(data)
+        : h(1, s.h1) + s.paras.map(p).join(""),
   };
 }
 
@@ -308,34 +322,87 @@ function buildCity(slug, data) {
 // ---------------------------------------------------------------------------
 // Shared internal-link footer (present on every page)
 // ---------------------------------------------------------------------------
+// Mirrors src/components/site/Footer.jsx. The full location/route directory is
+// linked once ("View All Service Areas") instead of dumping ~180 links on every
+// page — that directory is rendered in full on /service-areas by buildServiceAreas().
 function buildLinksFooter(data) {
   const nav = [
     ["/", "Home"],
     ["/services", "Services"],
     ["/fleet", "Fleet"],
     ["/service-areas", "Service Areas"],
-    ["/coverage", "Coverage"],
-    ["/concert-transportation", "Events & Concerts"],
     ["/about", "About"],
     ["/reviews", "Reviews"],
-    ["/gallery", "Gallery"],
     ["/faq", "FAQ"],
     ["/contact", "Contact"],
     ["/booking", "Book a Ride"],
   ];
-  const services = Object.entries(data.SERVICE_PAGES).map(([slug, d]) => [`/${slug}`, d.h1]);
-  const cities = data.CITIES.map((c) => [`/airport-car-service/${c.slug}`, `${c.name} Car Service`]);
-  const landings = Object.entries(data.LANDING_PAGES).map(([slug, d]) => [`/${slug}`, d.h1]);
+  const columns = [
+    ["Services", [
+      ["/airport-transportation", "Airport Transportation"],
+      ["/corporate-transportation", "Corporate Transportation"],
+      ["/hourly-chauffeur", "Hourly Chauffeur"],
+      ["/wedding-transportation", "Wedding Transportation"],
+      ["/long-distance-transportation", "Long Distance"],
+    ]],
+    ["Airports", [
+      ["/bwi-airport-car-service", "BWI Airport Car Service"],
+      ["/dca-airport-car-service", "DCA Airport Car Service"],
+      ["/iad-airport-car-service", "IAD Airport Car Service"],
+      ["/philadelphia-airport-car-service", "PHL Airport Car Service"],
+    ]],
+    ["Popular Areas", [
+      ["/baltimore-limo-service", "Baltimore"],
+      ["/washington-dc-limo-service", "Washington DC"],
+      ["/annapolis-limo-service", "Annapolis"],
+      ["/columbia-md-limo-service", "Columbia"],
+      ["/executive-car-service-virginia", "Northern Virginia"],
+      ["/service-areas", "View All Service Areas"],
+    ]],
+    ["Company", [
+      ["/about", "About"],
+      ["/fleet", "Fleet"],
+      ["/reviews", "Reviews"],
+      ["/contact", "Contact"],
+    ]],
+    ["Policies", [
+      ["/privacy-policy", "Privacy Policy"],
+      ["/terms-conditions", "Terms & Conditions"],
+      ["/policies#cancellation", "Cancellation Policy"],
+      ["/policies#waiting-time", "Waiting-Time Policy"],
+      ["/policies#no-show", "No-Show Policy"],
+      ["/policies#vehicle-substitution", "Vehicle Substitution Policy"],
+      ["/policies#payment-authorization", "Payment Authorization Policy"],
+    ]],
+  ];
   const group = (heading, links) =>
     h(2, heading) + `<ul>${links.map(([href, t]) => `<li>${a(href, t)}</li>`).join("")}</ul>`;
   const social = (data.SOCIAL || []).map((s) => [s.href, `${s.label} — 92 Limo Service`]);
   return (
     `<nav aria-label="Primary">${nav.map(([href, t]) => a(href, t)).join(" ")}</nav>` +
-    group("Our services", services) +
-    group("Airport car service by city", cities) +
-    group("Popular routes", landings) +
+    columns.map(([heading, links]) => group(heading, links)).join("") +
     (social.length ? group("Follow 92 Limo Service", social) : "") +
-    `<p>Call 92 Limo Service 24/7 at <a href="tel:+18776091919">${PHONE}</a>.</p>`
+    `<p>92 Transportation LLC · MD PSC Carrier #6325 · Call 92 Limo Service 24/7 at <a href="tel:+18776091919">${PHONE}</a>.</p>`
+  );
+}
+
+// Full directory rendered only on /service-areas (mirrors ServiceAreasPage.jsx).
+function buildServiceAreas(data) {
+  const services = Object.entries(data.SERVICE_PAGES).map(([slug, d]) => [`/${slug}`, d.h1]);
+  const cities = data.CITIES.map((c) => [`/airport-car-service/${c.slug}`, `${c.name}, MD`]);
+  const groups = { city: [], airport: [], route: [], vehicle: [], service: [] };
+  for (const [slug, d] of Object.entries(data.LANDING_PAGES)) {
+    const cat = d.category || (/-to-/.test(slug) ? "route" : /airport/.test(slug) ? "airport" : "service");
+    (groups[cat] || groups.service).push([`/${slug}`, d.eyebrow || d.h1]);
+  }
+  const group = (heading, links) =>
+    h(2, heading) + `<ul>${links.map(([href, t]) => `<li>${a(href, t)}</li>`).join("")}</ul>`;
+  return (
+    group("Local airport car & limo service by city", cities.concat(groups.city)) +
+    group("Airport car service — BWI, DCA, IAD & PHL", [["/airport-transportation", "All Airport Transportation"]].concat(groups.airport)) +
+    group("Point-to-point routes, beach transfers & long distance", groups.route) +
+    group("Services, events & venues", services.concat(groups.service)) +
+    group("Book by vehicle", [["/fleet", "Full Fleet Overview"]].concat(groups.vehicle))
   );
 }
 
