@@ -1,10 +1,26 @@
 {
   "redirects": [
-    { "source": "/", "has": [{ "type": "query", "key": "p", "value": "662" }], "destination": "/booking", "statusCode": 301 },
-    { "source": "/", "has": [{ "type": "query", "key": "p" }], "destination": "/", "statusCode": 301 },
-    { "source": "/", "has": [{ "type": "query", "key": "page_id" }], "destination": "/", "statusCode": 301 },
-    { "source": "/", "has": [{ "type": "query", "key": "s" }], "destination": "/", "statusCode": 301 },
-
+    { "source": "/", "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "662" }
+      ], "destination": "/booking", "statusCode": 301 },
+    { "source": "/", "has": [
+        {
+          "type": "query",
+          "key": "p" }
+      ], "destination": "/", "statusCode": 301 },
+    { "source": "/", "has": [
+        {
+          "type": "query",
+          "key": "page_id" }
+      ], "destination": "/", "statusCode": 301 },
+    { "source": "/", "has": [
+        {
+          "type": "query",
+          "key": "s" }
+      ], "destination": "/", "statusCode": 301 },
     { "source": "/airport-car-and-limo-in-annapolis{/}?", "destination": "/airport-car-service/annapolis", "statusCode": 301 },
     { "source": "/airport-car-and-limo-in-baltimore{/}?", "destination": "/baltimore-limo-service", "statusCode": 301 },
     { "source": "/airport-car-and-limo-in-edgewater{/}?", "destination": "/airport-car-service/edgewater", "statusCode": 301 },
@@ -21,7 +37,6 @@
     { "source": "/airport-car-and-limo-in-laurel{/}?", "destination": "/airport-car-service/laurel", "statusCode": 301 },
     { "source": "/airport-car-and-limo-in-washington-dc{/}?", "destination": "/washington-dc-limo-service", "statusCode": 301 },
     { "source": "/airport-car-and-limo-in-:city{/}?", "destination": "/service-areas", "statusCode": 301 },
-
     { "source": "/airport-transfer-baltimore{/}?", "destination": "/baltimore-limo-service", "statusCode": 301 },
     { "source": "/airport-transfer-washington-dc{/}?", "destination": "/washington-dc-limo-service", "statusCode": 301 },
     { "source": "/airport-transfer-annapolis{/}?", "destination": "/airport-car-service/annapolis", "statusCode": 301 },
@@ -33,7 +48,6 @@
     { "source": "/bwi-airport{/}?", "destination": "/bwi-airport-car-service", "statusCode": 301 },
     { "source": "/dca-airport{/}?", "destination": "/dca-airport-car-service", "statusCode": 301 },
     { "source": "/iad-airport{/}?", "destination": "/iad-airport-car-service", "statusCode": 301 },
-
     { "source": "/wedding-limo{/}?", "destination": "/wedding-transportation", "statusCode": 301 },
     { "source": "/weddings{/}?", "destination": "/wedding-transportation", "statusCode": 301 },
     { "source": "/wedding{/}?", "destination": "/wedding-transportation", "statusCode": 301 },
@@ -50,7 +64,6 @@
     { "source": "/limo-service{/}?", "destination": "/services", "statusCode": 301 },
     { "source": "/limousine-service{/}?", "destination": "/services", "statusCode": 301 },
     { "source": "/our-services{/}?", "destination": "/services", "statusCode": 301 },
-
     { "source": "/contact-us{/}?", "destination": "/contact", "statusCode": 301 },
     { "source": "/about-us{/}?", "destination": "/about", "statusCode": 301 },
     { "source": "/our-fleet{/}?", "destination": "/fleet", "statusCode": 301 },
@@ -70,15 +83,20 @@
     { "source": "/service-area{/}?", "destination": "/service-areas", "statusCode": 301 },
     { "source": "/areas-we-serve{/}?", "destination": "/service-areas", "statusCode": 301 },
     { "source": "/locations{/}?", "destination": "/service-areas", "statusCode": 301 },
-
     { "source": "/feed{/}?", "destination": "/blog", "statusCode": 301 },
     { "source": "/news{/}?", "destination": "/blog", "statusCode": 301 },
     { "source": "/category/:path*", "destination": "/blog", "statusCode": 301 },
+    { "source": "/category/:path*/", "destination": "/blog", "statusCode": 301 },
     { "source": "/tag/:path*", "destination": "/blog", "statusCode": 301 },
+    { "source": "/tag/:path*/", "destination": "/blog", "statusCode": 301 },
     { "source": "/author/:path*", "destination": "/blog", "statusCode": 301 },
+    { "source": "/author/:path*/", "destination": "/blog", "statusCode": 301 },
     { "source": "/:year(\\d{4})/:month(\\d{2})/:path*", "destination": "/blog", "statusCode": 301 },
+    { "source": "/:year(\\d{4})/:month(\\d{2})/:path*/", "destination": "/blog", "statusCode": 301 },
     { "source": "/wp-content/:path*", "destination": "/", "statusCode": 301 },
+    { "source": "/wp-content/:path*/", "destination": "/", "statusCode": 301 },
     { "source": "/wp-admin/:path*", "destination": "/", "statusCode": 301 },
+    { "source": "/wp-admin/:path*/", "destination": "/", "statusCode": 301 },
     { "source": "/wp-login.php", "destination": "/", "statusCode": 301 },
     { "source": "/xmlrpc.php", "destination": "/", "statusCode": 301 }
   ],
