@@ -53,31 +53,6 @@ const TRUST_BADGES = [
   { icon: UserCheck, label: "Professional Chauffeurs", sub: "Vetted & Uniformed" },
 ];
 
-// Prefill from the homepage quick-quote widget (/booking?pickup=…&dropoff=…).
-function prefillFromQuery() {
-  if (typeof window === "undefined") return {};
-  const p = new URLSearchParams(window.location.search);
-  const out = {};
-  const pick = (key, field) => {
-    const v = (p.get(key) || "").trim();
-    if (v) out[field] = v;
-  };
-  pick("pickup", "pickup_location");
-  pick("dropoff", "dropoff_location");
-  pick("date", "date");
-  pick("time", "time");
-  const pax = parseInt(p.get("passengers") || "", 10);
-  if (pax >= 1) out.passengers = Math.min(pax, 14);
-  if (out.pickup_location || out.dropoff_location) {
-    out.service_type = /airport|bwi|dca|iad|phl|mtn/i.test(
-      `${out.pickup_location || ""} ${out.dropoff_location || ""}`
-    )
-      ? "Airport Transfer"
-      : "";
-  }
-  return out;
-}
-
 const EMPTY = {
   name: "",
   phone: "",
@@ -236,7 +211,7 @@ function SuccessBanner({ onDismiss }) {
 }
 
 export function InquiryForm() {
-  const [form, setForm] = useState(() => ({ ...EMPTY, ...prefillFromQuery() }));
+  const [form, setForm] = useState(EMPTY);
   const [invalid, setInvalid] = useState([]);
   const [loading, setLoading] = useState(false);
   const [done, setDone] = useState(false);
