@@ -113,7 +113,7 @@ export default function PoliciesPage() {
         <LUL
           items={[
             "A valid credit or debit card is required to confirm every reservation. By booking you authorize 92 Transportation LLC to charge that card for the confirmed fare and any applicable charges disclosed at confirmation.",
-            "Online instant-quote bookings are charged at the time of booking through our secure Stripe checkout. Requested (non-instant) bookings are charged only after we confirm the rate with you.",
+            "Your card is charged only after we confirm your reservation and the rate with you — never at the time of the online request.",
             "A temporary pre-authorization hold may be placed on your card before the trip; it is released or applied to the final charge after service.",
             "Post-trip charges — additional waiting time, extra stops, tolls, parking, gratuity you elect to add, or cleaning/damage fees — are itemized on your receipt and charged to the card on file.",
             "Corporate accounts may be invoiced under separate written terms.",
