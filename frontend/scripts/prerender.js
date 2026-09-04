@@ -48,7 +48,7 @@ function loadData() {
     .replace(/export\s+/g, "");
   const ctx = { console };
   vm.runInNewContext(
-    `${dataSrc}\n${generatedSrc}\n${landingSrc}\nthis.__data = { SERVICE_PAGES, LANDING_PAGES, CITIES, HOME_ABOUT, EXTERNAL_LINKS, FAQS, AREAS, WHY, SOCIAL };`,
+    `${dataSrc}\n${generatedSrc}\n${landingSrc}\nthis.__data = { SERVICE_PAGES, LANDING_PAGES, CITIES, HOME_ABOUT, EXTERNAL_LINKS, FAQS, AREAS, WHY, SOCIAL, CHAMBER };`,
     ctx
   );
   return ctx.__data;
@@ -382,6 +382,7 @@ function buildLinksFooter(data) {
     `<nav aria-label="Primary">${nav.map(([href, t]) => a(href, t)).join(" ")}</nav>` +
     columns.map(([heading, links]) => group(heading, links)).join("") +
     (social.length ? group("Follow 92 Limo Service", social) : "") +
+    (data.CHAMBER ? `<p>${a(data.CHAMBER.href, `${data.CHAMBER.label} — 92 Limo Service`)}</p>` : "") +
     `<p>92 Transportation LLC · MD PSC Carrier #6325 · Call 92 Limo Service 24/7 at <a href="tel:+18776091919">${PHONE}</a>.</p>`
   );
 }

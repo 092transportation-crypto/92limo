@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin, Facebook, Instagram } from "lucide-react";
-import { BRAND, SOCIAL } from "@/lib/data";
+import { Phone, Mail, MapPin, Facebook, Instagram, BadgeCheck } from "lucide-react";
+import { BRAND, SOCIAL, CHAMBER } from "@/lib/data";
 
 // lucide-react has no TikTok brand glyph, so provide a minimal inline one.
 const TikTok = ({ size = 16 }) => (
@@ -113,6 +113,17 @@ export const Footer = () => {
                 );
               })}
             </div>
+            <a
+              href={CHAMBER.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="footer-chamber-badge"
+              aria-label={`${CHAMBER.label} — view our listing (opens in a new tab)`}
+              className="mt-5 inline-flex items-center gap-2.5 rounded-full border border-[#C9A227]/30 bg-[#15161A] px-4 py-2 text-xs font-semibold uppercase tracking-[0.12em] text-neutral-300 transition-all hover:border-[#D4AF37]/60 hover:text-[#D4AF37]"
+            >
+              <BadgeCheck size={16} className="shrink-0 text-[#D4AF37]" aria-hidden="true" />
+              {CHAMBER.label}
+            </a>
           </div>
 
           {FOOTER_COLUMNS.map((col) => (

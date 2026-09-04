@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { Award, ShieldCheck, Star, MessagesSquare, Clock, Trophy } from "lucide-react";
+import { Award, ShieldCheck, Star, MessagesSquare, Clock, Trophy, BadgeCheck, ExternalLink } from "lucide-react";
+import { CHAMBER } from "@/lib/data";
 
 // Award-style trust signal cards.
 const SIGNALS = [
@@ -28,6 +29,12 @@ const SIGNALS = [
     icon: Trophy,
     title: "15+ Years of Transportation Industry Experience",
     subtitle: "DC, Maryland & Virginia",
+  },
+  {
+    icon: BadgeCheck,
+    title: CHAMBER.label,
+    subtitle: CHAMBER.subtitle,
+    href: CHAMBER.href,
   },
 ];
 
@@ -125,23 +132,34 @@ export const Awards = () => {
           whileInView="show"
           viewport={{ once: true, margin: "-60px" }}
         >
-          {SIGNALS.map(({ icon: Icon, title, subtitle }, i) => (
-            <motion.div
-              key={title}
-              variants={itemVariants}
-              data-testid={`trust-card-${i}`}
-              className={`glow-card relative rounded-2xl border border-[#C9A227]/25 bg-gradient-to-b from-white/[0.05] to-white/[0.01] p-8 text-center backdrop-blur-sm lg:col-span-2 ${
-                i === 3 ? "lg:col-start-2" : ""
-              } ${i === 4 ? "sm:col-span-2 sm:mx-auto sm:w-full sm:max-w-md lg:col-span-2 lg:mx-0 lg:max-w-none" : ""}`}
-            >
-              <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full border border-[#C9A227]/50 bg-[#C9A227]/10 shadow-[0_0_30px_-8px_rgba(201,162,39,0.6)]">
-                <Icon size={28} className="text-[#D4AF37]" strokeWidth={1.8} />
-              </div>
-              <h3 className="font-display text-lg font-bold text-white sm:text-xl">{title}</h3>
-              <p className="mt-2 text-sm uppercase tracking-[0.12em] text-neutral-500">{subtitle}</p>
-              <div className="mx-auto mt-5 h-px w-10 bg-[#C9A227]/40" aria-hidden="true" />
-            </motion.div>
-          ))}
+          {SIGNALS.map(({ icon: Icon, title, subtitle, href }, i) => {
+            const Card = href ? motion.a : motion.div;
+            const linkProps = href
+              ? { href, target: "_blank", rel: "noopener noreferrer", "aria-label": `${title} — view our listing (opens in a new tab)` }
+              : {};
+            return (
+              <Card
+                key={title}
+                variants={itemVariants}
+                data-testid={`trust-card-${i}`}
+                {...linkProps}
+                className="glow-card group relative block rounded-2xl border border-[#C9A227]/25 bg-gradient-to-b from-white/[0.05] to-white/[0.01] p-8 text-center backdrop-blur-sm lg:col-span-2"
+              >
+                <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full border border-[#C9A227]/50 bg-[#C9A227]/10 shadow-[0_0_30px_-8px_rgba(201,162,39,0.6)]">
+                  <Icon size={28} className="text-[#D4AF37]" strokeWidth={1.8} />
+                </div>
+                <h3 className="font-display text-lg font-bold text-white sm:text-xl">{title}</h3>
+                <p className="mt-2 text-sm uppercase tracking-[0.12em] text-neutral-500">{subtitle}</p>
+                {href ? (
+                  <span className="mx-auto mt-5 inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-[0.15em] text-[#B8860B] transition-colors group-hover:text-[#D4AF37]">
+                    View Listing <ExternalLink size={12} aria-hidden="true" />
+                  </span>
+                ) : (
+                  <div className="mx-auto mt-5 h-px w-10 bg-[#C9A227]/40" aria-hidden="true" />
+                )}
+              </Card>
+            );
+          })}
         </motion.div>
 
         {/* Genuine certificates */}

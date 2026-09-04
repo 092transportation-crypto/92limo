@@ -34,6 +34,15 @@ export const SOCIAL = [
   { label: "TikTok", icon: "TikTok", href: "https://www.tiktok.com/@92.limo.service" },
 ];
 
+// Chamber of Commerce business-directory listing. Rendered as a trust badge on
+// the homepage (Awards) and in the footer, and declared in the homepage JSON-LD
+// sameAs (public/index.html) so Google can tie the listing to the business.
+export const CHAMBER = {
+  label: "Chamber of Commerce Member",
+  subtitle: "Verified Business Directory Listing",
+  href: "https://www.chamberofcommerce.com/business-directory/maryland/columbia/transportation-service/2034332567-92-limo-service",
+};
+
 // Homepage "About 92 Limo Service" copy. Repeats the H1 phrase — "luxury black
 // car service in Washington DC, Maryland, and Virginia" — in the body content
 // for SEO. Consumed by AboutHome.jsx AND scripts/prerender.js.
