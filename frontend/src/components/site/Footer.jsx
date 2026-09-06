@@ -92,7 +92,7 @@ export const Footer = () => {
               </li>
               <li className="flex items-start gap-2 text-sm text-neutral-400">
                 <MapPin size={15} className="text-[#D4AF37] mt-0.5" />
-                <span>Maryland-based · BWI · DCA · IAD · PHL · Available 24/7</span>
+                <span>9836 Lyon Ave, Laurel, MD 20723 · BWI · DCA · IAD · PHL · Available 24/7</span>
               </li>
             </ul>
             <div className="mt-5 flex gap-3">

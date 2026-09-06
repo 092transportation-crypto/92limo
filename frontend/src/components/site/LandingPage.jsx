@@ -23,7 +23,7 @@ function landingSchema(slug, d) {
         telephone: "+1-877-609-1919",
         url: SITE_URL,
         priceRange: "$$",
-        address: { "@type": "PostalAddress", addressLocality: "Columbia", addressRegion: "MD", addressCountry: "US" },
+        address: { "@type": "PostalAddress", streetAddress: "9836 Lyon Ave", addressLocality: "Laurel", addressRegion: "MD", postalCode: "20723", addressCountry: "US" },
         areaServed: { "@type": "Place", name: d.eyebrow || "Maryland" },
         openingHours: "Mo-Su 00:00-23:59",
       },

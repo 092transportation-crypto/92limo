@@ -64,6 +64,8 @@ export default function ContactPage() {
             <div className="mt-6 bg-[#F6F5F2] border border-black/10 rounded-2xl p-6 flex items-start gap-3">
               <MapPin size={20} className="text-[#B8860B] mt-0.5 shrink-0" />
               <p className="text-sm text-neutral-700 leading-relaxed">
+                <span className="text-[#0A0A0A] font-semibold">Office: </span>9836 Lyon Ave, Laurel, MD 20723
+                <br />
                 <span className="text-[#0A0A0A] font-semibold">Service Areas: </span>
                 {AREAS.join(" · ")} — and long-distance trips to NYC, Philadelphia &amp; Delaware.
               </p>

@@ -18,7 +18,7 @@ const VALUES = [
 // the About page, footer and schema markup never drift apart.
 const FACTS = [
   { icon: Building2, label: "Legal entity", value: "92 Transportation LLC, doing business as 92 Limo Service" },
-  { icon: MapPin, label: "Headquarters", value: "Maryland-based, serving the DC–Baltimore metro" },
+  { icon: MapPin, label: "Headquarters", value: "9836 Lyon Ave, Laurel, MD 20723 — serving the DC–Baltimore metro" },
   { icon: BadgeCheck, label: "Operating authority", value: "Maryland Public Service Commission Carrier #6325" },
   { icon: FileCheck, label: "Insurance", value: "Commercial auto liability coverage on every vehicle; certificates of insurance available to corporate clients on request" },
   { icon: Award, label: "Experience", value: "15+ years of transportation industry experience across our leadership and chauffeur team" },
