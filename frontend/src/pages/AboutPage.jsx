@@ -179,8 +179,8 @@ export default function AboutPage() {
               ))}
             </div>
             <p className="mt-4 text-sm text-neutral-600">
-              Real-time flight tracking on every pickup, with 60 minutes of complimentary waiting time on
-              domestic arrivals and 90 minutes on international. Meet &amp; greet inside baggage claim is
+              Real-time flight tracking on every pickup, with 45 minutes of complimentary waiting time on
+              domestic arrivals and 60 minutes on international. Meet &amp; greet inside baggage claim is
               available for an additional charge.
             </p>
           </Reveal>

@@ -611,7 +611,7 @@ export const BLOG_POSTS = [
         heading: "Flight Tracking vs. Opening the App at Baggage Claim",
         paragraphs: [
           "The structural difference is when the ride begins to exist. Rideshare starts when you request it — after landing, after bags, standing at the curb. If your flight ran early, no one cared; if it ran late into a thin-supply hour, you are pricing that misfortune in real time.",
-          "A chauffeured pickup is dispatched against the flight, not the clock. Book with your flight number and the car adjusts to the actual landing automatically, with 60 minutes of included wait time after domestic arrivals and 90 minutes on international arrivals, where customs makes timing unguessable. A delay costs you nothing and requires nothing from you.",
+          "A chauffeured pickup is dispatched against the flight, not the clock. Book with your flight number and the car adjusts to the actual landing automatically, with 45 minutes of included wait time after domestic arrivals and 60 minutes on international arrivals, where customs makes timing unguessable. A delay costs you nothing and requires nothing from you.",
         ],
       },
       {
@@ -678,7 +678,7 @@ export const BLOG_POSTS = [
       },
       {
         q: "What happens if my flight is delayed?",
-        a: "A professional car service tracks your flight and adjusts the pickup automatically, with wait time built in after landing — 60 minutes on domestic arrivals and 90 minutes on international arrivals. With rideshare, you simply request a car after you land at whatever price and availability that hour offers.",
+        a: "A professional car service tracks your flight and adjusts the pickup automatically, with wait time built in after landing — 45 minutes on domestic arrivals and 60 minutes on international arrivals. With rideshare, you simply request a car after you land at whatever price and availability that hour offers.",
       },
       {
         q: "Should I take an Uber for a 6 a.m. flight from BWI?",

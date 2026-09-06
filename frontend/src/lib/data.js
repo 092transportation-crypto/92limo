@@ -16,11 +16,11 @@ export const BRAND = {
 export const POLICY = {
   pricing:
     "Your quoted rate includes the base transportation charge. Driver gratuity, parking, tolls, additional waiting time, and other applicable charges will be clearly disclosed before confirmation.",
-  waitAirportDomestic: 60,
-  waitAirportInternational: 90,
+  waitAirportDomestic: 45,
+  waitAirportInternational: 60,
   waitStandard: 15,
   waiting:
-    "Airport pickups include 60 minutes of complimentary waiting time on domestic arrivals and 90 minutes on international arrivals, timed from actual touchdown. All other pickups include 15 minutes of complimentary waiting time. Additional waiting time is billed in 15-minute increments at the applicable rate and is disclosed before confirmation.",
+    "Airport pickups include 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals, timed from actual touchdown. All other pickups include 15 minutes of complimentary waiting time. Additional waiting time is billed in 15-minute increments at the applicable rate and is disclosed before confirmation.",
   meetGreetTitle: "Airport Meet & Greet Available",
   meetGreet:
     "Your chauffeur can meet you inside baggage claim with a personalized name sign and assist with luggage. Additional charge applies.",
@@ -356,7 +356,7 @@ export const SERVICE_PAGES = {
     intro:
       "Whether you're flying out of BWI, Reagan National (DCA), Dulles (IAD), Martin State (MTN), or Philadelphia (PHL), 92 Limo Service delivers punctual, polished airport transportation. We monitor your flight in real time and adjust your pickup automatically — so your chauffeur is always ready the moment you land.",
     bullets: [
-      { title: "Real-Time Flight Tracking", desc: "We watch your flight and adjust for early arrivals or delays at no extra charge — with 60 minutes of complimentary waiting time on domestic arrivals and 90 on international." },
+      { title: "Real-Time Flight Tracking", desc: "We watch your flight and adjust for early arrivals or delays at no extra charge — with 45 minutes of complimentary waiting time on domestic arrivals and 60 on international." },
       { title: POLICY.meetGreetTitle, desc: POLICY.meetGreet },
       { title: "Curbside Pickup", desc: "Prefer a quick exit? We'll be waiting curbside the minute you step out." },
       { title: "All Regional Airports", desc: "BWI, DCA, IAD, Martin State (MTN), and Philadelphia (PHL)." },

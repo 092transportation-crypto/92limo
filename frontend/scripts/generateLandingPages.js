@@ -420,7 +420,7 @@ function airportPage(a, i) {
       intro: introSets[i % 2],
       highlights: pickHighlights([
         { title: "Airport Meet & Greet Available", desc: "Your chauffeur can meet you inside baggage claim with a personalized name sign and assist with luggage. Additional charge applies." },
-        { title: "Generous Free Wait Time", desc: "Complimentary wait time on every arrival — 60 minutes domestic, 90 international — while you clear baggage claim." },
+        { title: "Generous Free Wait Time", desc: "Complimentary wait time on every arrival — 45 minutes domestic, 60 international — while you clear baggage claim." },
       ]),
       vehicles: SEDAN_TRIO,
       faqs: [

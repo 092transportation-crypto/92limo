@@ -95,8 +95,9 @@ export default function TermsConditionsPage() {
         <LH2>3. Cancellation &amp; Refund Policy</LH2>
         <LUL
           items={[
-            "Sedans & SUVs: cancel at least 24 hours before the scheduled pickup for a full refund. Cancellations within 24 hours may be charged up to 100% of the fare.",
-            "Vans, Limousines & Group/Event Bookings: cancel at least 72 hours before the scheduled pickup. Later cancellations may forfeit the deposit and/or be charged up to 100% of the quoted fare.",
+            "Sedans & SUVs: cancel at least 3 hours before the scheduled pickup time for no charge. Cancellations within 3 hours of pickup may be charged up to 100% of the quoted fare.",
+            "Sprinter vans and limousines: cancel at least 12 hours before the scheduled pickup time for no charge. Cancellations within 12 hours of pickup may forfeit the deposit and/or be charged up to 100% of the quoted fare.",
+            "Special events (weddings, proms, group and multi-vehicle bookings): cancel at least 12 hours before the scheduled pickup time for no charge. Cancellations within 12 hours of pickup may forfeit the deposit and/or be charged up to 100% of the quoted fare.",
             "No-shows are charged the full fare. For airport pickups, please contact us before leaving the terminal — leaving without notifying us is treated as a no-show.",
             "Approved refunds are issued to the original payment method and may take several business days to process.",
           ]}

@@ -163,7 +163,7 @@ const STATIC_PAGES = {
     h1: "Reserve Your Ride",
     paras: [
       "Tell us about your trip and we will confirm a chauffeur with flat, transparent pricing. Reserve airport transfers, corporate travel, weddings and long-distance rides across DC, Maryland and Virginia, 24/7.",
-      "Your quoted rate includes the base transportation charge. Driver gratuity, parking, tolls, additional waiting time, and other applicable charges will be clearly disclosed before confirmation. Airport pickups include 60 minutes of complimentary waiting time on domestic arrivals and 90 minutes on international; all other pickups include 15 minutes.",
+      "Your quoted rate includes the base transportation charge. Driver gratuity, parking, tolls, additional waiting time, and other applicable charges will be clearly disclosed before confirmation. Airport pickups include 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international; all other pickups include 15 minutes.",
     ],
   },
   "/privacy-policy": {
@@ -187,11 +187,11 @@ const STATIC_PAGES = {
   "/policies": {
     title: "Booking & Cancellation Policies | 92 Limo Service",
     description:
-      "92 Limo Service booking policies — pricing inclusions, cancellation, waiting time (60/90 min airport, 15 min standard), no-show, vehicle substitution and payment authorization.",
+      "92 Limo Service booking policies — pricing inclusions, cancellation, waiting time (45/60 min airport, 15 min standard), no-show, vehicle substitution and payment authorization.",
     h1: "Booking & Service Policies",
     paras: [
       "Your quoted rate includes the base transportation charge. Driver gratuity, parking, tolls, additional waiting time, and other applicable charges will be clearly disclosed before confirmation.",
-      "Waiting time: airport pickups include 60 minutes complimentary on domestic arrivals and 90 minutes on international arrivals; all other pickups include 15 minutes. Cancellation, no-show, vehicle substitution and payment authorization policies are published in full on this page.",
+      "Waiting time: airport pickups include 45 minutes complimentary on domestic arrivals and 60 minutes on international arrivals; all other pickups include 15 minutes. Cancellation, no-show, vehicle substitution and payment authorization policies are published in full on this page.",
     ],
   },
   "/coverage": {

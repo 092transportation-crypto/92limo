@@ -33,7 +33,7 @@ export default function PoliciesPage() {
     <>
       <Seo
         title="Booking & Cancellation Policies | 92 Limo Service"
-        description="92 Limo Service booking policies — pricing inclusions, cancellation, waiting time (60/90 min airport, 15 min standard), no-show, vehicle substitution and payment authorization."
+        description="92 Limo Service booking policies — pricing inclusions, cancellation, waiting time (45/60 min airport, 15 min standard), no-show, vehicle substitution and payment authorization."
         path="/policies"
       />
       <LegalLayout eyebrow="POLICIES" title="Booking & Service Policies" effectiveDate="August 24, 2026">
@@ -69,9 +69,9 @@ export default function PoliciesPage() {
         <Anchor id="cancellation">Cancellation Policy</Anchor>
         <LUL
           items={[
-            "Sedans & SUVs: cancel at least 24 hours before the scheduled pickup for a full refund. Cancellations within 24 hours may be charged up to 100% of the quoted fare.",
-            "Sprinter vans, limousines and group/event bookings: cancel at least 72 hours before the scheduled pickup. Later cancellations may forfeit the deposit and/or be charged up to 100% of the quoted fare.",
-            "Weddings, proms and multi-vehicle events: deposits are non-refundable within 14 days of the event date.",
+            "Sedans & SUVs: cancel at least 3 hours before the scheduled pickup time for no charge. Cancellations within 3 hours of pickup may be charged up to 100% of the quoted fare.",
+            "Sprinter vans and limousines: cancel at least 12 hours before the scheduled pickup time for no charge. Cancellations within 12 hours of pickup may forfeit the deposit and/or be charged up to 100% of the quoted fare.",
+            "Special events (weddings, proms, group and multi-vehicle bookings): cancel at least 12 hours before the scheduled pickup time for no charge. Cancellations within 12 hours of pickup may forfeit the deposit and/or be charged up to 100% of the quoted fare.",
             "To cancel or change a reservation, call (877) 609-1919 or reply to your confirmation email. Changes are subject to availability and may change the quoted rate — any difference is disclosed before we re-confirm.",
             "Approved refunds are issued to the original payment method and may take several business days to appear.",
           ]}

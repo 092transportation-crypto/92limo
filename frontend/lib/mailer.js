@@ -16,7 +16,7 @@ const SITE = "92limo.com";
 const PRICING_POLICY =
   "Your quoted rate includes the base transportation charge. Driver gratuity, parking, tolls, additional waiting time, and other applicable charges will be clearly disclosed before confirmation.";
 const WAITING_POLICY =
-  "Waiting time: airport pickups include 60 minutes complimentary on domestic arrivals and 90 minutes on international arrivals (from actual touchdown); all other pickups include 15 minutes complimentary. Additional waiting time is billed in 15-minute increments at the applicable rate.";
+  "Waiting time: airport pickups include 45 minutes complimentary on domestic arrivals and 60 minutes on international arrivals (from actual touchdown); all other pickups include 15 minutes complimentary. Additional waiting time is billed in 15-minute increments at the applicable rate.";
 const MEET_GREET_POLICY =
   "Airport Meet & Greet Available — your chauffeur can meet you inside baggage claim with a personalized name sign and assist with luggage. Additional charge applies.";
 const POLICIES_URL = `https://www.${SITE}/policies`;

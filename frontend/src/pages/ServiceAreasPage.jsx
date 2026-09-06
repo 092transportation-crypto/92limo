@@ -136,7 +136,7 @@ export default function ServiceAreasPage() {
         ))}
       </Section>
 
-      <Section id="airports" icon={Plane} eyebrow="AIRPORTS" title="Airport Car Service — BWI, DCA, IAD & PHL" intro="Flight-tracked pickups with 60 minutes of complimentary waiting time on domestic arrivals and 90 on international. Meet & greet inside baggage claim available for an additional charge.">
+      <Section id="airports" icon={Plane} eyebrow="AIRPORTS" title="Airport Car Service — BWI, DCA, IAD & PHL" intro="Flight-tracked pickups with 45 minutes of complimentary waiting time on domestic arrivals and 60 on international. Meet & greet inside baggage claim available for an additional charge.">
         <LinkGrid items={[{ slug: "airport-transportation", label: "All Airport Transportation", h1: "Airport Car Service — BWI, DCA, IAD, MTN & PHL" }, ...GROUPS.airport]} />
       </Section>
 

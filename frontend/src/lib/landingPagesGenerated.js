@@ -4938,7 +4938,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "title": "Generous Free Wait Time",
-        "desc": "Complimentary wait time on every arrival — 60 minutes domestic, 90 international — while you clear baggage claim."
+        "desc": "Complimentary wait time on every arrival — 45 minutes domestic, 60 international — while you clear baggage claim."
       },
       {
         "title": "Flat, Transparent Pricing",
@@ -5015,7 +5015,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "title": "Generous Free Wait Time",
-        "desc": "Complimentary wait time on every arrival — 60 minutes domestic, 90 international — while you clear baggage claim."
+        "desc": "Complimentary wait time on every arrival — 45 minutes domestic, 60 international — while you clear baggage claim."
       },
       {
         "title": "Flat, Transparent Pricing",
@@ -5092,7 +5092,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "title": "Generous Free Wait Time",
-        "desc": "Complimentary wait time on every arrival — 60 minutes domestic, 90 international — while you clear baggage claim."
+        "desc": "Complimentary wait time on every arrival — 45 minutes domestic, 60 international — while you clear baggage claim."
       },
       {
         "title": "Flat, Transparent Pricing",
@@ -5169,7 +5169,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "title": "Generous Free Wait Time",
-        "desc": "Complimentary wait time on every arrival — 60 minutes domestic, 90 international — while you clear baggage claim."
+        "desc": "Complimentary wait time on every arrival — 45 minutes domestic, 60 international — while you clear baggage claim."
       },
       {
         "title": "Flat, Transparent Pricing",
@@ -5246,7 +5246,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "title": "Generous Free Wait Time",
-        "desc": "Complimentary wait time on every arrival — 60 minutes domestic, 90 international — while you clear baggage claim."
+        "desc": "Complimentary wait time on every arrival — 45 minutes domestic, 60 international — while you clear baggage claim."
       },
       {
         "title": "Flat, Transparent Pricing",
@@ -5323,7 +5323,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "title": "Generous Free Wait Time",
-        "desc": "Complimentary wait time on every arrival — 60 minutes domestic, 90 international — while you clear baggage claim."
+        "desc": "Complimentary wait time on every arrival — 45 minutes domestic, 60 international — while you clear baggage claim."
       },
       {
         "title": "Flat, Transparent Pricing",
@@ -5400,7 +5400,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "title": "Generous Free Wait Time",
-        "desc": "Complimentary wait time on every arrival — 60 minutes domestic, 90 international — while you clear baggage claim."
+        "desc": "Complimentary wait time on every arrival — 45 minutes domestic, 60 international — while you clear baggage claim."
       },
       {
         "title": "Flat, Transparent Pricing",
@@ -5477,7 +5477,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "title": "Generous Free Wait Time",
-        "desc": "Complimentary wait time on every arrival — 60 minutes domestic, 90 international — while you clear baggage claim."
+        "desc": "Complimentary wait time on every arrival — 45 minutes domestic, 60 international — while you clear baggage claim."
       },
       {
         "title": "Flat, Transparent Pricing",
@@ -5554,7 +5554,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "title": "Generous Free Wait Time",
-        "desc": "Complimentary wait time on every arrival — 60 minutes domestic, 90 international — while you clear baggage claim."
+        "desc": "Complimentary wait time on every arrival — 45 minutes domestic, 60 international — while you clear baggage claim."
       },
       {
         "title": "Flat, Transparent Pricing",
