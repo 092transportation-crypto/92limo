@@ -1,5 +1,6 @@
 import { IMAGES } from "@/lib/data";
 import { GENERATED_LANDING_PAGES } from "@/lib/landingPagesGenerated";
+import { MARYLAND_LANDING_PAGES } from "@/lib/marylandPages";
 
 // Vehicle label sets (must match `${category} — ${name}` from FLEET).
 const SEDAN_TRIO = [
@@ -20,6 +21,7 @@ const BEACH_TRIO = [
 
 export const LANDING_PAGES = {
   ...GENERATED_LANDING_PAGES,
+  ...MARYLAND_LANDING_PAGES,
 
   // ------------------------------------------------------ FLAGSHIP: BWI LIMO
   "bwi-airport-limo": {

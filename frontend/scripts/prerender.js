@@ -41,6 +41,11 @@ function loadData() {
     .replace(/^\s*import[^\n]*\n/gm, "")
     .replace(/export\s+const/g, "const")
     .replace(/export\s+/g, "");
+  const marylandSrc = fs
+    .readFileSync(path.join(ROOT, "src/lib/marylandPages.js"), "utf8")
+    .replace(/^\s*import[^\n]*\n/gm, "")
+    .replace(/export\s+const/g, "const")
+    .replace(/export\s+/g, "");
   const landingSrc = fs
     .readFileSync(path.join(ROOT, "src/lib/landingPages.js"), "utf8")
     .replace(/^\s*import[^\n]*\n/gm, "")
@@ -48,7 +53,7 @@ function loadData() {
     .replace(/export\s+/g, "");
   const ctx = { console };
   vm.runInNewContext(
-    `${dataSrc}\n${generatedSrc}\n${landingSrc}\nthis.__data = { SERVICE_PAGES, LANDING_PAGES, CITIES, HOME_ABOUT, EXTERNAL_LINKS, FAQS, AREAS, WHY, SOCIAL, CHAMBER };`,
+    `${dataSrc}\n${generatedSrc}\n${marylandSrc}\n${landingSrc}\nthis.__data = { SERVICE_PAGES, LANDING_PAGES, CITIES, HOME_ABOUT, EXTERNAL_LINKS, FAQS, AREAS, WHY, SOCIAL, CHAMBER };`,
     ctx
   );
   return ctx.__data;
@@ -254,10 +259,31 @@ function buildService(slug, data) {
   const d = data.SERVICE_PAGES[slug];
   const bullets = (d.bullets || []).map((b) => `${esc(b.title)} — ${esc(b.desc)}`);
   const vehicles = (d.vehicles || []).map((v) => esc(v));
+  const schema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LocalBusiness",
+        "@id": `${ORIGIN}/#business`,
+        name: "92 Limo Service",
+        telephone: "+1-877-609-1919",
+        url: ORIGIN,
+        priceRange: "$$",
+        address: { "@type": "PostalAddress", addressLocality: "Columbia", addressRegion: "MD", addressCountry: "US" },
+        areaServed: { "@type": "Place", name: d.eyebrow || "Maryland" },
+        openingHours: "Mo-Su 00:00-23:59",
+      },
+      { "@type": "Service", name: d.h1, url: `${ORIGIN}/${slug}`, description: d.metaDescription, provider: { "@id": `${ORIGIN}/#business` } },
+      ...((d.faqs || []).length
+        ? [{ "@type": "FAQPage", mainEntity: d.faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) }]
+        : []),
+    ],
+  };
   return {
     title: d.metaTitle,
     description: d.metaDescription,
     body:
+      `<script type="application/ld+json">${JSON.stringify(schema).replace(/</g, "\\u003c")}</script>` +
       h(1, d.h1) +
       p(d.subtitle) +
       p(d.intro) +
@@ -280,10 +306,31 @@ function buildLanding(slug, data) {
         ul(g.places.map((x) => (x.to ? a(x.to, x.label) : esc(x.label))))
     )
     .join("");
+  const schema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LocalBusiness",
+        "@id": `${ORIGIN}/#business`,
+        name: "92 Limo Service",
+        telephone: "+1-877-609-1919",
+        url: ORIGIN,
+        priceRange: "$$",
+        address: { "@type": "PostalAddress", addressLocality: "Columbia", addressRegion: "MD", addressCountry: "US" },
+        areaServed: { "@type": "Place", name: d.eyebrow || "Maryland" },
+        openingHours: "Mo-Su 00:00-23:59",
+      },
+      { "@type": "Service", name: d.h1, url: `${ORIGIN}/${slug}`, description: d.metaDescription, provider: { "@id": `${ORIGIN}/#business` } },
+      ...((d.faqs || []).length
+        ? [{ "@type": "FAQPage", mainEntity: d.faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) }]
+        : []),
+    ],
+  };
   return {
     title: d.metaTitle,
     description: d.metaDescription,
     body:
+      `<script type="application/ld+json">${JSON.stringify(schema).replace(/</g, "\\u003c")}</script>` +
       h(1, d.h1) +
       p(d.subtitle) +
       intro +

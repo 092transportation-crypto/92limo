@@ -8,6 +8,33 @@ import { Reveal } from "@/components/site/Reveal";
 import { FLEET, vehicleLabel } from "@/lib/data";
 import { LANDING_PAGES } from "@/lib/landingPages";
 
+const SITE_URL = "https://www.92limo.com";
+
+// LocalBusiness + Service + FAQPage JSON-LD for every landing page.
+function landingSchema(slug, d) {
+  const url = `${SITE_URL}/${slug}`;
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LocalBusiness",
+        "@id": `${SITE_URL}/#business`,
+        name: "92 Limo Service",
+        telephone: "+1-877-609-1919",
+        url: SITE_URL,
+        priceRange: "$$",
+        address: { "@type": "PostalAddress", addressLocality: "Columbia", addressRegion: "MD", addressCountry: "US" },
+        areaServed: { "@type": "Place", name: d.eyebrow || "Maryland" },
+        openingHours: "Mo-Su 00:00-23:59",
+      },
+      { "@type": "Service", name: d.h1, url, description: d.metaDescription, provider: { "@id": `${SITE_URL}/#business` } },
+      ...(d.faqs && d.faqs.length
+        ? [{ "@type": "FAQPage", mainEntity: d.faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) }]
+        : []),
+    ],
+  };
+}
+
 export default function LandingPage({ slug }) {
   const d = LANDING_PAGES[slug];
   if (!d) return null;
@@ -33,6 +60,7 @@ export default function LandingPage({ slug }) {
   return (
     <>
       <Seo title={d.metaTitle} description={d.metaDescription} path={`/${slug}`} />
+      <script type="application/ld+json">{JSON.stringify(landingSchema(slug, d))}</script>
       <PageHero eyebrow={d.eyebrow} title={d.h1} subtitle={d.subtitle} image={d.image} alt={d.alt} />
 
       {/* Intro copy */}
