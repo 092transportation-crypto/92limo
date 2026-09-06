@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { Send, Loader2 } from "lucide-react";
 import { Reveal } from "@/components/site/Reveal";
 import { track } from "@/lib/analytics";
+import { sanitizePhone, isValidPhone } from "@/lib/phone";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
@@ -16,7 +17,7 @@ const API_BASE = process.env.REACT_APP_BACKEND_URL || "";
 const SMS_CONSENT_TEXT =
   "By checking this box, you agree to receive SMS messages from 92 Limo Service related to Customer Care. You may reply STOP to opt out at any time. Reply HELP to (877) 609-1919 for assistance. Messages and data rates may apply. Message frequency will vary. Learn more on our ";
 
-const EMPTY = { name: "", email: "", phone: "", preferred_contact: "", message: "", sms_consent: false };
+const EMPTY = { first_name: "", last_name: "", email: "", phone: "", preferred_contact: "", message: "", sms_consent: false };
 
 const fieldCls =
   "bg-white border-black/15 text-[#0A0A0A] placeholder:text-neutral-400 focus-visible:ring-[#C9A227] focus-visible:border-[#C9A227]";
@@ -29,11 +30,15 @@ export const ContactForm = () => {
 
   const submit = async (e) => {
     e.preventDefault();
-    for (const k of ["name", "email", "phone", "message"]) {
+    for (const k of ["first_name", "last_name", "email", "phone", "message"]) {
       if (!form[k].trim()) {
         toast.error("Please complete all required fields.");
         return;
       }
+    }
+    if (!isValidPhone(form.phone)) {
+      toast.error("Please enter a valid phone number (digits only, at least 10).");
+      return;
     }
     // SMS consent is optional and does not block submission.
 
@@ -43,9 +48,11 @@ export const ContactForm = () => {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          name: form.name,
+          name: `${form.first_name.trim()} ${form.last_name.trim()}`.trim(),
+          first_name: form.first_name.trim(),
+          last_name: form.last_name.trim(),
           email: form.email,
-          phone: form.phone,
+          phone: form.phone.trim(),
           preferred_contact: form.preferred_contact,
           message: form.message,
           sms_consent: form.sms_consent,
@@ -86,16 +93,20 @@ export const ContactForm = () => {
           >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
               <div className="space-y-2">
-                <Label className="text-neutral-700">Full Name *</Label>
-                <Input data-testid="contact-name" className={fieldCls} placeholder="Your name" value={form.name} onChange={(e) => set("name", e.target.value)} />
+                <Label htmlFor="cf-first-name" className="text-neutral-700">First Name *</Label>
+                <Input id="cf-first-name" name="first_name" data-testid="contact-first-name" className={fieldCls} placeholder="First Name" autoComplete="given-name" value={form.first_name} onChange={(e) => set("first_name", e.target.value)} />
               </div>
               <div className="space-y-2">
-                <Label className="text-neutral-700">Phone *</Label>
-                <Input data-testid="contact-phone" className={fieldCls} placeholder="(000) 000-0000" value={form.phone} onChange={(e) => set("phone", e.target.value)} />
+                <Label htmlFor="cf-last-name" className="text-neutral-700">Last Name *</Label>
+                <Input id="cf-last-name" name="last_name" data-testid="contact-last-name" className={fieldCls} placeholder="Last Name" autoComplete="family-name" value={form.last_name} onChange={(e) => set("last_name", e.target.value)} />
               </div>
               <div className="space-y-2">
-                <Label className="text-neutral-700">Email *</Label>
-                <Input data-testid="contact-email" type="email" className={fieldCls} placeholder="you@email.com" value={form.email} onChange={(e) => set("email", e.target.value)} />
+                <Label htmlFor="cf-phone" className="text-neutral-700">Phone Number *</Label>
+                <Input id="cf-phone" name="phone" data-testid="contact-phone" type="tel" inputMode="tel" pattern="[0-9+()\-.\s]*" className={fieldCls} placeholder="Phone Number" autoComplete="tel" value={form.phone} onChange={(e) => set("phone", sanitizePhone(e.target.value))} />
+              </div>
+              <div className="space-y-2">
+                <Label htmlFor="cf-email" className="text-neutral-700">Email *</Label>
+                <Input id="cf-email" name="email" data-testid="contact-email" type="email" className={fieldCls} placeholder="you@email.com" autoComplete="email" value={form.email} onChange={(e) => set("email", e.target.value)} />
               </div>
               <div className="space-y-2">
                 <Label className="text-neutral-700">Preferred Contact Method</Label>

@@ -3,6 +3,7 @@ import { toast } from "sonner";
 import { Send, Loader2 } from "lucide-react";
 import { Reveal } from "@/components/site/Reveal";
 import { track } from "@/lib/analytics";
+import { sanitizePhone, isValidPhone } from "@/lib/phone";
 import { SERVICE_TYPES, VEHICLE_TYPES } from "@/lib/data";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -21,6 +22,10 @@ import {
 const API_BASE = process.env.REACT_APP_BACKEND_URL || "";
 
 const EMPTY = {
+  first_name: "",
+  last_name: "",
+  phone: "",
+  email: "",
   pickup_location: "",
   dropoff_location: "",
   date: "",
@@ -30,9 +35,6 @@ const EMPTY = {
   service_type: "",
   vehicle_type: "",
   flight_number: "",
-  name: "",
-  phone: "",
-  email: "",
   notes: "",
 };
 
@@ -55,14 +57,19 @@ export const BookingForm = () => {
   const submit = async (e) => {
     e.preventDefault();
     const required = [
+      "first_name", "last_name", "phone", "email",
       "pickup_location", "dropoff_location", "date", "time",
-      "service_type", "vehicle_type", "name", "phone", "email",
+      "service_type", "vehicle_type",
     ];
     for (const k of required) {
-      if (!form[k]) {
+      if (!String(form[k]).trim()) {
         toast.error("Please complete all required fields.");
         return;
       }
+    }
+    if (!isValidPhone(form.phone)) {
+      toast.error("Please enter a valid phone number (digits only, at least 10).");
+      return;
     }
     setLoading(true);
     try {
@@ -71,6 +78,10 @@ export const BookingForm = () => {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           ...form,
+          name: `${form.first_name.trim()} ${form.last_name.trim()}`.trim(),
+          first_name: form.first_name.trim(),
+          last_name: form.last_name.trim(),
+          phone: form.phone.trim(),
           passengers: parseInt(form.passengers, 10) || 1,
           luggage: parseInt(form.luggage, 10) || 0,
           // Flight number only applies to airport transfers.
@@ -129,6 +140,22 @@ export const BookingForm = () => {
           >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
               <div className="space-y-2">
+                <Label htmlFor="bf-first-name" className="text-neutral-700">First Name *</Label>
+                <Input id="bf-first-name" name="first_name" data-testid="input-first-name" className={fieldCls} placeholder="First Name" autoComplete="given-name" value={form.first_name} onChange={(e) => set("first_name", e.target.value)} />
+              </div>
+              <div className="space-y-2">
+                <Label htmlFor="bf-last-name" className="text-neutral-700">Last Name *</Label>
+                <Input id="bf-last-name" name="last_name" data-testid="input-last-name" className={fieldCls} placeholder="Last Name" autoComplete="family-name" value={form.last_name} onChange={(e) => set("last_name", e.target.value)} />
+              </div>
+              <div className="space-y-2">
+                <Label htmlFor="bf-phone" className="text-neutral-700">Phone Number *</Label>
+                <Input id="bf-phone" name="phone" data-testid="input-phone" type="tel" inputMode="tel" pattern="[0-9+()\-.\s]*" className={fieldCls} placeholder="Phone Number" autoComplete="tel" value={form.phone} onChange={(e) => set("phone", sanitizePhone(e.target.value))} />
+              </div>
+              <div className="space-y-2">
+                <Label htmlFor="bf-email" className="text-neutral-700">Email *</Label>
+                <Input id="bf-email" name="email" data-testid="input-email" type="email" className={fieldCls} placeholder="you@email.com" autoComplete="email" value={form.email} onChange={(e) => set("email", e.target.value)} />
+              </div>
+              <div className="space-y-2">
                 <Label htmlFor="bf-pickup" className="text-neutral-700">Pickup Location *</Label>
                 <AddressAutocomplete id="bf-pickup" testId="input-pickup" inputClassName={autoFieldCls} placeholder="Address, airport, or hotel" value={form.pickup_location} onChange={(v) => set("pickup_location", v)} />
               </div>
@@ -184,18 +211,6 @@ export const BookingForm = () => {
                   <Input id="bf-flight" data-testid="input-flight-number" className={fieldCls} placeholder="e.g. AA1234" value={form.flight_number} onChange={(e) => set("flight_number", e.target.value)} />
                 </div>
               )}
-              <div className="space-y-2">
-                <Label className="text-neutral-700">Full Name *</Label>
-                <Input data-testid="input-name" className={fieldCls} placeholder="Your name" value={form.name} onChange={(e) => set("name", e.target.value)} />
-              </div>
-              <div className="space-y-2">
-                <Label className="text-neutral-700">Phone *</Label>
-                <Input data-testid="input-phone" className={fieldCls} placeholder="(000) 000-0000" value={form.phone} onChange={(e) => set("phone", e.target.value)} />
-              </div>
-              <div className="space-y-2 md:col-span-2">
-                <Label className="text-neutral-700">Email *</Label>
-                <Input data-testid="input-email" type="email" className={fieldCls} placeholder="you@email.com" value={form.email} onChange={(e) => set("email", e.target.value)} />
-              </div>
               <div className="space-y-2 md:col-span-2">
                 <Label className="text-neutral-700">Notes</Label>
                 <Textarea data-testid="input-notes" className={fieldCls} placeholder="Child seats, extra luggage, special requests…" rows={3} value={form.notes} onChange={(e) => set("notes", e.target.value)} />
