@@ -66,9 +66,6 @@ function escapeHtml(value) {
   return String(value).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
 
-const coordText = (lat, lng) =>
-  lat != null && lng != null ? `${lat.toFixed(5)}, ${lng.toFixed(5)} (https://www.google.com/maps?q=${lat},${lng})` : "";
-
 function row(label, value) {
   if (value === undefined || value === null || value === "") return "";
   return (
@@ -196,9 +193,7 @@ function buildAdminBookingEmail(b) {
     row("Flight Number", b.flight_number),
     b.pricing && b.pricing.mode === "instant" ? "" : row("Vehicle", b.vehicle_type),
     row("Pickup", b.pickup_location),
-    b.pickup_lat != null ? row("Pickup Coordinates", coordText(b.pickup_lat, b.pickup_lng)) : "",
     row("Drop-off", b.dropoff_location),
-    b.dropoff_lat != null ? row("Drop-off Coordinates", coordText(b.dropoff_lat, b.dropoff_lng)) : "",
     row("Date", b.date),
     row("Time", b.time),
     row("Passengers", String(b.passengers || "")),
@@ -222,9 +217,7 @@ function buildAdminBookingEmail(b) {
     ...(b.flight_number ? [`Flight Number: ${b.flight_number}`] : []),
     ...(b.pricing && b.pricing.mode === "instant" ? [] : [`Vehicle: ${b.vehicle_type || ""}`]),
     `Pickup: ${b.pickup_location || ""}`,
-    ...(b.pickup_lat != null ? [`Pickup Coordinates: ${coordText(b.pickup_lat, b.pickup_lng)}`] : []),
     `Drop-off: ${b.dropoff_location || ""}`,
-    ...(b.dropoff_lat != null ? [`Drop-off Coordinates: ${coordText(b.dropoff_lat, b.dropoff_lng)}`] : []),
     `Date: ${b.date || ""}`,
     `Time: ${b.time || ""}`,
     `Passengers: ${b.passengers || ""}`,

@@ -1,18 +1,16 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { MapPin, Plane } from "lucide-react";
-import { hasGooglePlaces, newSessionToken, providerLabel, resolveSelection, suggest } from "@/lib/placesAutocomplete";
+import { providerLabel, suggest } from "@/lib/placesAutocomplete";
 
 /*
  * Address autocomplete for the booking form's pickup / drop-off fields.
  *
  * Suggestions come from two sources, merged in this order:
- *   1. Regional airports (instant, local list, with coordinates).
+ *   1. Regional airports (instant, local list).
  *   2. Google Maps Places Autocomplete when REACT_APP_GOOGLE_MAPS_API_KEY is
  *      set; otherwise the free Photon geocoder (see lib/placesAutocomplete).
  *
- * Selecting a suggestion fills the full formatted address via onChange and
- * reports its coordinates via onSelect({ address, lat, lng, placeId }).
- * Typing again clears the coordinates (onSelect(null)).
+ * Selecting a suggestion fills the full formatted address via onChange.
  *
  * The dropdown renders on a solid #1a1a1a panel above everything else and
  * selection happens on pointerdown so it wins the race against input blur on
@@ -20,11 +18,11 @@ import { hasGooglePlaces, newSessionToken, providerLabel, resolveSelection, sugg
  */
 
 const AIRPORTS = [
-  { main: "BWI Airport (Baltimore/Washington International)", secondary: "Baltimore, MD", keywords: "bwi baltimore washington international thurgood marshall airport", lat: 39.1754, lng: -76.6682 },
-  { main: "DCA Airport (Ronald Reagan National)", secondary: "Arlington, VA", keywords: "dca ronald reagan washington national airport", lat: 38.8512, lng: -77.0402 },
-  { main: "IAD Airport (Washington Dulles International)", secondary: "Dulles, VA", keywords: "iad washington dulles international airport", lat: 38.9531, lng: -77.4565 },
-  { main: "Martin State Airport (MTN)", secondary: "Middle River, MD", keywords: "mtn martin state airport baltimore", lat: 39.3257, lng: -76.4138 },
-  { main: "Philadelphia International Airport (PHL)", secondary: "Philadelphia, PA", keywords: "phl philadelphia international airport", lat: 39.8744, lng: -75.2424 },
+  { main: "BWI Airport (Baltimore/Washington International)", secondary: "Baltimore, MD", keywords: "bwi baltimore washington international thurgood marshall airport" },
+  { main: "DCA Airport (Ronald Reagan National)", secondary: "Arlington, VA", keywords: "dca ronald reagan washington national airport" },
+  { main: "IAD Airport (Washington Dulles International)", secondary: "Dulles, VA", keywords: "iad washington dulles international airport" },
+  { main: "Martin State Airport (MTN)", secondary: "Middle River, MD", keywords: "mtn martin state airport baltimore" },
+  { main: "Philadelphia International Airport (PHL)", secondary: "Philadelphia, PA", keywords: "phl philadelphia international airport" },
 ];
 
 // Bias remote results toward the middle of the DMV service area.
@@ -43,7 +41,6 @@ export function AddressAutocomplete({
   testId,
   value,
   onChange,
-  onSelect,
   placeholder,
   inputClassName,
   label,
@@ -54,7 +51,6 @@ export function AddressAutocomplete({
   const abortRef = useRef(null);
   const debounceRef = useRef(null);
   const wrapRef = useRef(null);
-  const sessionRef = useRef(undefined);
 
   const close = useCallback(() => {
     setOpen(false);
@@ -77,9 +73,8 @@ export function AddressAutocomplete({
     if (abortRef.current) abortRef.current.abort();
     const controller = new AbortController();
     abortRef.current = controller;
-    if (hasGooglePlaces() && !sessionRef.current) sessionRef.current = newSessionToken();
 
-    suggest(q, { bias: BIAS, signal: controller.signal, sessionToken: sessionRef.current })
+    suggest(q, { bias: BIAS, signal: controller.signal })
       .then((remote) => {
         if (controller.signal.aborted) return;
         const seen = new Set(airports.map((a) => a.main.toLowerCase()));
@@ -101,22 +96,13 @@ export function AddressAutocomplete({
 
   const handleInput = (v) => {
     onChange(v);
-    if (onSelect) onSelect(null);
     clearTimeout(debounceRef.current);
     debounceRef.current = setTimeout(() => search(v), 250);
   };
 
-  const pick = async (item) => {
+  const pick = (item) => {
+    onChange(item.address || (item.secondary ? `${item.main}, ${item.secondary}` : item.main));
     close();
-    onChange(item.secondary ? `${item.main}, ${item.secondary}` : item.main);
-    try {
-      const picked = await resolveSelection(item, sessionRef.current);
-      sessionRef.current = undefined;
-      if (picked.address) onChange(picked.address);
-      if (onSelect) onSelect(picked);
-    } catch {
-      if (onSelect) onSelect({ address: item.main, lat: item.lat ?? null, lng: item.lng ?? null, placeId: item.placeId || null, source: item.source });
-    }
   };
 
   const handleKeyDown = (e) => {

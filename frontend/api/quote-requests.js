@@ -59,12 +59,6 @@ function normalizePricing(raw) {
   };
 }
 
-const coord = (v) => {
-  if (v === null || v === undefined || v === "") return null;
-  const n = Number(v);
-  return Number.isFinite(n) ? n : null;
-};
-
 module.exports = async (req, res) => {
   applyCors(res);
   if (req.method === "OPTIONS") return res.status(204).end();
@@ -93,10 +87,6 @@ module.exports = async (req, res) => {
     email: String(body.email).toLowerCase().trim(),
     pickup_location: String(body.pickup_location).trim(),
     dropoff_location: String(body.dropoff_location).trim(),
-    pickup_lat: coord(body.pickup_lat),
-    pickup_lng: coord(body.pickup_lng),
-    dropoff_lat: coord(body.dropoff_lat),
-    dropoff_lng: coord(body.dropoff_lng),
     date: String(body.date).trim(),
     time: String(body.time).trim(),
     passengers: Number(body.passengers) || 1,

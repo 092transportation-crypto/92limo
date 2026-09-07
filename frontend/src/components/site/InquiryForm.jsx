@@ -65,10 +65,6 @@ const EMPTY = {
   flight_number: "",
   pickup_location: "",
   dropoff_location: "",
-  pickup_lat: null,
-  pickup_lng: null,
-  dropoff_lat: null,
-  dropoff_lng: null,
   date: "",
   time: "",
   passengers: 1,
@@ -228,8 +224,6 @@ export function InquiryForm() {
     setForm((f) => ({ ...f, [k]: v }));
     setInvalid((keys) => keys.filter((key) => key !== k));
   };
-  const setCoords = (which, p) =>
-    setForm((f) => ({ ...f, [`${which}_lat`]: p ? p.lat : null, [`${which}_lng`]: p ? p.lng : null }));
 
   const toggleChildSeat = (seat) =>
     setForm((f) => ({
@@ -284,10 +278,6 @@ export function InquiryForm() {
           email: form.email,
           pickup_location: form.pickup_location,
           dropoff_location: form.dropoff_location,
-          pickup_lat: form.pickup_lat,
-          pickup_lng: form.pickup_lng,
-          dropoff_lat: form.dropoff_lat,
-          dropoff_lng: form.dropoff_lng,
           date: form.date,
           time: form.time,
           passengers: form.passengers,
@@ -624,7 +614,6 @@ export function InquiryForm() {
                   placeholder="Pickup Location"
                   value={form.pickup_location}
                   onChange={(v) => set("pickup_location", v)}
-                  onSelect={(p) => setCoords("pickup", p)}
                   label={<label htmlFor="inq-pickup" className={labelBase}>Pickup Location *</label>}
                 />
               </motion.div>
@@ -638,7 +627,6 @@ export function InquiryForm() {
                   placeholder="Drop-off Location"
                   value={form.dropoff_location}
                   onChange={(v) => set("dropoff_location", v)}
-                  onSelect={(p) => setCoords("dropoff", p)}
                   label={<label htmlFor="inq-dropoff" className={labelBase}>Drop-off Location *</label>}
                 />
               </motion.div>
