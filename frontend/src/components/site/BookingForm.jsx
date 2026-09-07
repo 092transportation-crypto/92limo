@@ -28,6 +28,10 @@ const EMPTY = {
   email: "",
   pickup_location: "",
   dropoff_location: "",
+  pickup_lat: null,
+  pickup_lng: null,
+  dropoff_lat: null,
+  dropoff_lng: null,
   date: "",
   time: "",
   passengers: "1",
@@ -53,6 +57,8 @@ export const BookingForm = () => {
   const [loading, setLoading] = useState(false);
 
   const set = (k, v) => setForm((f) => ({ ...f, [k]: v }));
+  const setCoords = (which, p) =>
+    setForm((f) => ({ ...f, [`${which}_lat`]: p ? p.lat : null, [`${which}_lng`]: p ? p.lng : null }));
 
   const submit = async (e) => {
     e.preventDefault();
@@ -157,11 +163,11 @@ export const BookingForm = () => {
               </div>
               <div className="space-y-2">
                 <Label htmlFor="bf-pickup" className="text-neutral-700">Pickup Location *</Label>
-                <AddressAutocomplete id="bf-pickup" testId="input-pickup" inputClassName={autoFieldCls} placeholder="Address, airport, or hotel" value={form.pickup_location} onChange={(v) => set("pickup_location", v)} />
+                <AddressAutocomplete id="bf-pickup" testId="input-pickup" inputClassName={autoFieldCls} placeholder="Address, airport, or hotel" value={form.pickup_location} onChange={(v) => set("pickup_location", v)} onSelect={(p) => setCoords("pickup", p)} />
               </div>
               <div className="space-y-2">
                 <Label htmlFor="bf-dropoff" className="text-neutral-700">Drop-off Location *</Label>
-                <AddressAutocomplete id="bf-dropoff" testId="input-dropoff" inputClassName={autoFieldCls} placeholder="Destination address or airport" value={form.dropoff_location} onChange={(v) => set("dropoff_location", v)} />
+                <AddressAutocomplete id="bf-dropoff" testId="input-dropoff" inputClassName={autoFieldCls} placeholder="Destination address or airport" value={form.dropoff_location} onChange={(v) => set("dropoff_location", v)} onSelect={(p) => setCoords("dropoff", p)} />
               </div>
               <div className="space-y-2">
                 <Label className="text-neutral-700">Date *</Label>

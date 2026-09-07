@@ -1,52 +1,41 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { MapPin, Plane } from "lucide-react";
+import { hasGooglePlaces, newSessionToken, providerLabel, resolveSelection, suggest } from "@/lib/placesAutocomplete";
 
 /*
  * Address autocomplete for the booking form's pickup / drop-off fields.
  *
  * Suggestions come from two sources, merged in this order:
- *   1. Regional airports (instant, local list) — the most common rides.
- *   2. The free Photon geocoder (photon.komoot.io, OpenStreetMap data),
- *      biased toward the DC / Maryland / Virginia service area. No API key
- *      required, so it works in every environment. Swap `fetchRemote` for
- *      Google Places Autocomplete if a Places API key is ever provisioned.
+ *   1. Regional airports (instant, local list, with coordinates).
+ *   2. Google Maps Places Autocomplete when REACT_APP_GOOGLE_MAPS_API_KEY is
+ *      set; otherwise the free Photon geocoder (see lib/placesAutocomplete).
  *
- * The dropdown is rendered inside the component's relative wrapper on a solid
- * #1a1a1a panel (never transparent) above everything else (z-[70]), with
- * white suggestion text and a gold highlight on hover / keyboard focus.
- * Selection happens on pointerdown so it wins the race against input blur on
+ * Selecting a suggestion fills the full formatted address via onChange and
+ * reports its coordinates via onSelect({ address, lat, lng, placeId }).
+ * Typing again clears the coordinates (onSelect(null)).
+ *
+ * The dropdown renders on a solid #1a1a1a panel above everything else and
+ * selection happens on pointerdown so it wins the race against input blur on
  * both desktop and mobile.
  */
 
 const AIRPORTS = [
-  { main: "BWI Airport (Baltimore/Washington International)", secondary: "Baltimore, MD", keywords: "bwi baltimore washington international thurgood marshall airport" },
-  { main: "DCA Airport (Ronald Reagan National)", secondary: "Arlington, VA", keywords: "dca ronald reagan washington national airport" },
-  { main: "IAD Airport (Washington Dulles International)", secondary: "Dulles, VA", keywords: "iad washington dulles international airport" },
-  { main: "Martin State Airport (MTN)", secondary: "Middle River, MD", keywords: "mtn martin state airport baltimore" },
-  { main: "Philadelphia International Airport (PHL)", secondary: "Philadelphia, PA", keywords: "phl philadelphia international airport" },
+  { main: "BWI Airport (Baltimore/Washington International)", secondary: "Baltimore, MD", keywords: "bwi baltimore washington international thurgood marshall airport", lat: 39.1754, lng: -76.6682 },
+  { main: "DCA Airport (Ronald Reagan National)", secondary: "Arlington, VA", keywords: "dca ronald reagan washington national airport", lat: 38.8512, lng: -77.0402 },
+  { main: "IAD Airport (Washington Dulles International)", secondary: "Dulles, VA", keywords: "iad washington dulles international airport", lat: 38.9531, lng: -77.4565 },
+  { main: "Martin State Airport (MTN)", secondary: "Middle River, MD", keywords: "mtn martin state airport baltimore", lat: 39.3257, lng: -76.4138 },
+  { main: "Philadelphia International Airport (PHL)", secondary: "Philadelphia, PA", keywords: "phl philadelphia international airport", lat: 39.8744, lng: -75.2424 },
 ];
 
 // Bias remote results toward the middle of the DMV service area.
-const BIAS = { lat: 38.95, lon: -77.02 };
+const BIAS = { lat: 38.95, lng: -77.02 };
 
 function airportMatches(query) {
   const terms = query.toLowerCase().split(/\s+/).filter(Boolean);
   if (!terms.length) return [];
   return AIRPORTS.filter((a) =>
     terms.every((t) => a.keywords.includes(t) || a.main.toLowerCase().includes(t))
-  ).map((a) => ({ ...a, isAirport: true }));
-}
-
-function formatPhoton(feature) {
-  const p = feature.properties || {};
-  const main = [p.name || [p.street, p.housenumber].filter(Boolean).join(" ")]
-    .filter(Boolean)
-    .join("");
-  const secondary = [p.city || p.county, p.state, p.countrycode === "US" ? null : p.country]
-    .filter(Boolean)
-    .join(", ");
-  if (!main) return null;
-  return { main, secondary };
+  ).map((a) => ({ ...a, isAirport: true, source: "local" }));
 }
 
 export function AddressAutocomplete({
@@ -54,6 +43,7 @@ export function AddressAutocomplete({
   testId,
   value,
   onChange,
+  onSelect,
   placeholder,
   inputClassName,
   label,
@@ -64,6 +54,7 @@ export function AddressAutocomplete({
   const abortRef = useRef(null);
   const debounceRef = useRef(null);
   const wrapRef = useRef(null);
+  const sessionRef = useRef(undefined);
 
   const close = useCallback(() => {
     setOpen(false);
@@ -80,33 +71,25 @@ export function AddressAutocomplete({
       return;
     }
 
-    // Show airport matches immediately while the remote lookup runs.
     setItems(airports);
     setOpen(airports.length > 0);
 
     if (abortRef.current) abortRef.current.abort();
     const controller = new AbortController();
     abortRef.current = controller;
+    if (hasGooglePlaces() && !sessionRef.current) sessionRef.current = newSessionToken();
 
-    const url =
-      "https://photon.komoot.io/api/?q=" +
-      encodeURIComponent(q) +
-      `&limit=6&lang=en&lat=${BIAS.lat}&lon=${BIAS.lon}`;
-
-    fetch(url, { signal: controller.signal })
-      .then((r) => (r.ok ? r.json() : { features: [] }))
-      .then((data) => {
+    suggest(q, { bias: BIAS, signal: controller.signal, sessionToken: sessionRef.current })
+      .then((remote) => {
+        if (controller.signal.aborted) return;
         const seen = new Set(airports.map((a) => a.main.toLowerCase()));
-        const remote = (data.features || [])
-          .map(formatPhoton)
-          .filter(Boolean)
-          .filter((s) => {
-            const key = (s.main + "|" + s.secondary).toLowerCase();
-            if (seen.has(key)) return false;
-            seen.add(key);
-            return true;
-          });
-        const merged = [...airports, ...remote].slice(0, 8);
+        const extra = remote.filter((s) => {
+          const key = (s.main + "|" + s.secondary).toLowerCase();
+          if (seen.has(key)) return false;
+          seen.add(key);
+          return true;
+        });
+        const merged = [...airports, ...extra].slice(0, 8);
         setItems(merged);
         setOpen(merged.length > 0);
         setActive(-1);
@@ -118,13 +101,22 @@ export function AddressAutocomplete({
 
   const handleInput = (v) => {
     onChange(v);
+    if (onSelect) onSelect(null);
     clearTimeout(debounceRef.current);
     debounceRef.current = setTimeout(() => search(v), 250);
   };
 
-  const pick = (item) => {
-    onChange(item.secondary ? `${item.main}, ${item.secondary}` : item.main);
+  const pick = async (item) => {
     close();
+    onChange(item.secondary ? `${item.main}, ${item.secondary}` : item.main);
+    try {
+      const picked = await resolveSelection(item, sessionRef.current);
+      sessionRef.current = undefined;
+      if (picked.address) onChange(picked.address);
+      if (onSelect) onSelect(picked);
+    } catch {
+      if (onSelect) onSelect({ address: item.main, lat: item.lat ?? null, lng: item.lng ?? null, placeId: item.placeId || null, source: item.source });
+    }
   };
 
   const handleKeyDown = (e) => {
@@ -145,8 +137,6 @@ export function AddressAutocomplete({
     }
   };
 
-  // Close when tapping/clicking anywhere outside (covers mobile taps that
-  // don't move focus).
   useEffect(() => {
     const onPointerDown = (e) => {
       if (wrapRef.current && !wrapRef.current.contains(e.target)) close();
@@ -192,7 +182,7 @@ export function AddressAutocomplete({
             const Icon = item.isAirport ? Plane : MapPin;
             return (
               <li
-                key={`${item.main}|${item.secondary}`}
+                key={`${item.placeId || ""}${item.main}|${item.secondary}`}
                 role="option"
                 aria-selected={i === active}
                 onPointerDown={(e) => {
@@ -220,7 +210,7 @@ export function AddressAutocomplete({
             );
           })}
           <li aria-hidden="true" className="border-t border-white/10 px-4 py-1.5 text-right text-[10px] text-neutral-500">
-            © OpenStreetMap contributors
+            {providerLabel()}
           </li>
         </ul>
       )}
