@@ -23,6 +23,7 @@ import CoveragePage from "@/pages/CoveragePage";
 import CarSeatServicePage from "@/pages/CarSeatServicePage";
 import LandingPage from "@/components/site/LandingPage";
 import { LANDING_PAGES } from "@/lib/landingPages";
+import EventRoute from "@/pages/EventRoute";
 import Admin from "@/pages/Admin";
 import CardPage from "@/pages/CardPage";
 import ChatWidget from "@/components/ChatWidget";
@@ -69,6 +70,9 @@ function App() {
             {Object.keys(LANDING_PAGES).map((slug) => (
               <Route key={slug} path={`/${slug}`} element={<LandingPage slug={slug} />} />
             ))}
+          </Route>
+          <Route element={<Layout />}>
+            <Route path="/:slug" element={<EventRoute />} />
           </Route>
           <Route path="/card" element={<CardPage />} />
           <Route path="/admin" element={<Admin />} />

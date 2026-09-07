@@ -481,7 +481,7 @@ function render(shell, route, content, footer) {
 }
 
 function routesFromSitemap() {
-  const smPath = path.join(BUILD_DIR, "sitemap.xml");
+  const smPath = path.join(BUILD_DIR, "sitemap-static.xml");
   if (!fs.existsSync(smPath)) return Object.keys(STATIC_PAGES);
   const xml = fs.readFileSync(smPath, "utf8");
   const out = [];
