@@ -204,7 +204,7 @@ export function AddressAutocomplete({
             );
           })}
           <li aria-hidden="true" className="border-t border-white/10 px-4 py-1.5 text-right text-[10px] text-neutral-500">
-            {providerLabel()}
+            {providerLabel(items)}
           </li>
         </ul>
       )}
