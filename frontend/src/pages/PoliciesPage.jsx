@@ -33,7 +33,7 @@ export default function PoliciesPage() {
     <>
       <Seo
         title="Booking & Cancellation Policies | 92 Limo Service"
-        description="92 Limo Service booking policies — pricing inclusions, cancellation, waiting time (45/60 min airport, 15 min standard), no-show, vehicle substitution and payment authorization."
+        description="92 Limo Service policies — pricing inclusions, cancellation (3 h / 12 h), waiting time (45/60 min airport), no-show and vehicle substitution."
         path="/policies"
       />
       <LegalLayout eyebrow="POLICIES" title="Booking & Service Policies" effectiveDate="August 24, 2026">

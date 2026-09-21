@@ -12,11 +12,13 @@ const Stars = ({ count = 5 }) => (
 
 export const Testimonials = ({
   featuredOnly = false,
+  limit = 0,
   eyebrow = "CLIENT REVIEWS",
   heading = "Trusted by Travelers Across the DMV",
   intro = "Real, verified Google reviews from the executives, families, and event planners who ride with us.",
 }) => {
-  const reviews = featuredOnly ? TESTIMONIALS.filter((t) => t.featured) : TESTIMONIALS;
+  const pool = featuredOnly ? TESTIMONIALS.filter((t) => t.featured) : TESTIMONIALS;
+  const reviews = limit ? pool.slice(0, limit) : pool;
 
   return (
     <section data-testid="reviews-section" className="py-20 lg:py-28 bg-[#F6F5F2]">

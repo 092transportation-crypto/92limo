@@ -6,7 +6,8 @@
 const SCHEMA_ORIGIN = "https://www.92limo.com";
 const BUSINESS_ID = `${SCHEMA_ORIGIN}/#business`;
 
-export const pageSchema = (type, path, name, description, crumb) => ({
+// BreadcrumbList is emitted site-wide by <BreadcrumbSchema> / the prerender.
+export const pageSchema = (type, path, name, description) => ({
   "@context": "https://schema.org",
   "@graph": [
     {
@@ -19,13 +20,6 @@ export const pageSchema = (type, path, name, description, crumb) => ({
       isPartOf: { "@type": "WebSite", "@id": `${SCHEMA_ORIGIN}/#website`, url: `${SCHEMA_ORIGIN}/`, name: "92 Limo Service" },
       about: { "@id": BUSINESS_ID },
       mainEntity: { "@id": BUSINESS_ID },
-    },
-    {
-      "@type": "BreadcrumbList",
-      itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: `${SCHEMA_ORIGIN}/` },
-        { "@type": "ListItem", position: 2, name: crumb, item: `${SCHEMA_ORIGIN}${path}` },
-      ],
     },
   ],
 });

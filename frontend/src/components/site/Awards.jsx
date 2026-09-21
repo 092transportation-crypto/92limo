@@ -41,17 +41,17 @@ const SIGNALS = [
 // Genuine award certificates — kept as supporting proof beneath the cards.
 const AWARDS = [
   {
-    img: "/awards/award-quality-winner.jpg",
+    img: "/awards/award-quality-winner.webp",
     alt: "92 Limo Service — 2026 Quality Business Award Winner, quality rating over 95%",
     caption: "2026 Quality Business Award Winner",
   },
   {
-    img: "/awards/award-top-1-percent.jpg",
+    img: "/awards/award-top-1-percent.webp",
     alt: "92 Transportation LLC recognized among the top 1% of American businesses for quality",
     caption: "Top 1% of American Businesses",
   },
   {
-    img: "/awards/award-press-release.jpg",
+    img: "/awards/award-press-release.webp",
     alt: "92 Limo Service recognized as the leading limousine service in Reisterstown, MD",
     caption: "Leading Limousine Service — Reisterstown, MD",
   },

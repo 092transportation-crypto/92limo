@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Phone, ChevronRight } from "lucide-react";
 import { BRAND } from "@/lib/data";
+import { Breadcrumbs } from "@/components/site/Breadcrumbs";
 
 export const PageHero = ({ eyebrow, title, subtitle, image, alt, height = "min-h-[62vh]" }) => {
   return (
@@ -19,6 +20,7 @@ export const PageHero = ({ eyebrow, title, subtitle, image, alt, height = "min-h
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
           className="max-w-3xl"
         >
+          <Breadcrumbs className="mb-5" />
           {eyebrow && (
             <span className="text-xs font-semibold tracking-widest text-[#D4AF37]">
               {eyebrow}

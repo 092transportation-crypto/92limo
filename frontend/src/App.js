@@ -24,6 +24,9 @@ import CarSeatServicePage from "@/pages/CarSeatServicePage";
 import LandingPage from "@/components/site/LandingPage";
 import { LANDING_PAGES } from "@/lib/landingPages";
 import EventRoute from "@/pages/EventRoute";
+import PressPage from "@/pages/PressPage";
+import PartnersPage from "@/pages/PartnersPage";
+import { GUIDES } from "@/lib/guides";
 import Admin from "@/pages/Admin";
 import CardPage from "@/pages/CardPage";
 import ChatWidget from "@/components/ChatWidget";
@@ -50,6 +53,7 @@ function App() {
             <Route path="/wedding-transportation" element={<ServiceDetail slug="wedding-transportation" />} />
             <Route path="/wine-tours" element={<ServiceDetail slug="wine-tours" />} />
             <Route path="/birthday-celebrations" element={<ServiceDetail slug="birthday-celebrations" />} />
+            <Route path="/anniversary-limo-service" element={<ServiceDetail slug="anniversary-limo-service" />} />
             <Route path="/prom-transportation" element={<ServiceDetail slug="prom-transportation" />} />
             <Route path="/long-distance-transportation" element={<ServiceDetail slug="long-distance-transportation" />} />
             <Route path="/service-areas" element={<ServiceAreasPage />} />
@@ -65,7 +69,12 @@ function App() {
             <Route path="/policies" element={<PoliciesPage />} />
             <Route path="/coverage" element={<CoveragePage />} />
             <Route path="/car-seat-service" element={<CarSeatServicePage />} />
+            <Route path="/press" element={<PressPage />} />
+            <Route path="/partners" element={<PartnersPage />} />
             <Route path="/blog" element={<BlogPage />} />
+            {GUIDES.map((g) => (
+              <Route key={g.slug} path={`/${g.slug}`} element={<BlogPostPage slug={g.slug} />} />
+            ))}
             <Route path="/blog/:slug" element={<BlogPostPage />} />
             {Object.keys(LANDING_PAGES).map((slug) => (
               <Route key={slug} path={`/${slug}`} element={<LandingPage slug={slug} />} />

@@ -96,7 +96,7 @@ export default function ServiceAreasPage() {
     <>
       <Seo
         title="All Service Areas | Cities, Airports & Routes | 92 Limo"
-        description="Every location 92 Limo Service covers — Maryland, Washington DC, Northern Virginia, Delaware & Pennsylvania cities, BWI/DCA/IAD/PHL airports, point-to-point routes and event venues."
+        description="Every location 92 Limo Service covers — Maryland, DC, Northern Virginia, Delaware & Pennsylvania cities, airports, routes and event venues."
         path="/service-areas"
       />
       <PageHero

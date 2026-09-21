@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, Facebook, Instagram, BadgeCheck } from "lucide-react";
 import { BRAND, SOCIAL, CHAMBER } from "@/lib/data";
+import { GUIDES } from "@/lib/guides";
 
 // lucide-react has no TikTok brand glyph, so provide a minimal inline one.
 const TikTok = ({ size = 16 }) => (
@@ -51,6 +52,9 @@ export const FOOTER_COLUMNS = [
       { label: "Fleet", to: "/fleet" },
       { label: "Reviews", to: "/reviews" },
       { label: "Contact", to: "/contact" },
+      { label: "Blog", to: "/blog" },
+      { label: "Press & Media", to: "/press" },
+      { label: "Partners", to: "/partners" },
       { label: "Book a Ride", to: "/booking" },
     ],
   },
@@ -157,7 +161,16 @@ export const Footer = () => {
           ))}
         </div>
 
-        <div className="mt-12 pt-6 border-t border-white/5 flex flex-col lg:flex-row items-center justify-between gap-4 text-xs text-neutral-500">
+        <nav aria-label="Guides" data-testid="footer-guides" className="mt-10 pt-6 border-t border-white/5 flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-neutral-400">
+          <span className="font-semibold tracking-widest text-neutral-500">GUIDES</span>
+          {GUIDES.map((g) => (
+            <Link key={g.slug} to={`/${g.slug}`} className="hover:text-[#D4AF37] transition-colors">
+              {g.title}
+            </Link>
+          ))}
+        </nav>
+
+        <div className="mt-6 pt-6 border-t border-white/5 flex flex-col lg:flex-row items-center justify-between gap-4 text-xs text-neutral-500">
           <span>© {new Date().getFullYear()} {BRAND.legal}. All rights reserved. {BRAND.psc}.</span>
           <nav aria-label="Policies" className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1.5">
             {FOOTER_LEGAL.map((l, i) => (

@@ -125,3 +125,75 @@ export const ABOUT_CONTENT = {
     { title: "Genuine Hospitality", desc: "Courteous, discreet chauffeurs who treat every guest like a VIP." },
   ],
 };
+
+export const PRESS_CONTENT = {
+  title: "Press & Media | 92 Limo Service | Laurel, MD",
+  description:
+    "Press and media resources for 92 Limo Service (92 Transportation LLC) — company facts, boilerplate, recognition, logo and media contact. Laurel, Maryland.",
+  h1: "Press & Media",
+  subtitle: "Company facts, approved boilerplate, recognition and a direct line for journalists, bloggers and event organizers.",
+  boilerplateHeading: "About 92 Limo Service",
+  boilerplate: [
+    "92 Limo Service is the trade name of 92 Transportation LLC, a chauffeured ground transportation company based at 9836 Lyon Ave, Laurel, Maryland. Licensed by the Maryland Public Service Commission as Carrier #6325, the company provides airport transfers, corporate travel, hourly chauffeur service, wedding and event transportation, and long-distance private car service across Maryland, Washington DC and Northern Virginia.",
+    "The company serves BWI Marshall, Reagan National, Washington Dulles, Philadelphia International and Martin State airports with real-time flight tracking on every pickup, and operates a fleet of late-model sedans, SUVs and Mercedes Sprinter vans with 24/7 live dispatch. Its leadership and chauffeur team bring more than 15 years of transportation industry experience.",
+  ],
+  factsHeading: "Fast Facts",
+  facts: [
+    { label: "Company", value: "92 Limo Service (92 Transportation LLC)" },
+    { label: "Address", value: "9836 Lyon Ave, Laurel, MD 20723" },
+    { label: "Phone", value: "(877) 609-1919" },
+    { label: "Email", value: "info@92limo.com" },
+    { label: "Operating authority", value: "Maryland Public Service Commission Carrier #6325" },
+    { label: "Hours", value: "Dispatch and reservations 24/7, 365 days a year" },
+    { label: "Service area", value: "Maryland, Washington DC, Northern Virginia, Delaware and southern Pennsylvania" },
+    { label: "Airports", value: "BWI, DCA, IAD, PHL and Martin State" },
+  ],
+  recognitionHeading: "Recognition",
+  recognition: [
+    "2026 Quality Business Award Winner",
+    "Recognized among the top 1% of American businesses for quality",
+    "Recognized as the leading limousine service in Reisterstown, MD",
+    "Chamber of Commerce member — verified business directory listing",
+  ],
+  topicsHeading: "Topics We Can Speak To",
+  topics: [
+    "Getting to and from BWI, Reagan National and Dulles — timing, traffic and what travelers get wrong",
+    "Event-day transportation at Maryland and DC venues: stadiums, arenas, casinos, race days and festivals",
+    "Corporate travel and duty of care in the Baltimore–Washington region",
+    "Wedding and prom transportation planning and safety",
+    "How licensed chauffeured car service differs from rideshare and taxis",
+  ],
+  contactHeading: "Media Contact",
+  contact:
+    "Email info@92limo.com with \"Press\" in the subject line, or call (877) 609-1919 — dispatch is staffed around the clock and will route your request. Please include your outlet, deadline and the topic you are covering. The 92 Limo Service logo below may be used for editorial coverage of the company.",
+};
+
+export const PARTNERS_CONTENT = {
+  title: "Partner & Referral Program | 92 Limo Service",
+  description:
+    "Partner with 92 Limo Service — a licensed Maryland chauffeur company for hotels, planners, venues, travel managers and affiliate operators. (877) 609-1919.",
+  h1: "Partners & Referral Program",
+  subtitle: "A dependable ground-transportation partner in Maryland, DC and Northern Virginia for the businesses whose clients need to arrive well.",
+  intro: [
+    "When you recommend a car service, your reputation rides in the back seat. 92 Limo Service works with hotels, planners, venues, travel professionals and other operators who need a licensed, insured, around-the-clock partner for the Baltimore–Washington region — and who want their clients treated as carefully as they would treat them themselves.",
+    "Every referred trip is handled like any 92 Limo Service reservation: a quote confirmed before the ride, real-time flight tracking on airport pickups, licensed and background-checked chauffeurs, and a dispatcher available 24 hours a day.",
+  ],
+  whoHeading: "Who We Partner With",
+  who: [
+    { title: "Hotels & Concierge Desks", text: "Airport transfers, dinner runs and as-directed service for guests, arranged with one call or email at any hour." },
+    { title: "Wedding & Event Planners", text: "Couple and wedding-party vehicles plus guest shuttles, scheduled around your timeline and coordinated with your venue." },
+    { title: "Venues & Wineries", text: "A car service you can name with confidence when guests ask how to get home safely." },
+    { title: "Travel Agents & Corporate Travel Managers", text: "Consolidated invoicing, certificates of insurance, vendor onboarding paperwork and a dedicated account contact." },
+    { title: "Executive Assistants", text: "Standing airport pickups for visiting executives and clients, with itineraries handled by dispatch." },
+    { title: "Affiliate Limousine Operators", text: "On-the-ground coverage for your clients' Maryland, DC and Virginia trips — BWI, DCA and IAD included — under Maryland PSC Carrier #6325." },
+  ],
+  howHeading: "How the Program Works",
+  how: [
+    { title: "Get in touch", text: "Email info@92limo.com or call (877) 609-1919 and tell us about your business and the trips you expect to refer." },
+    { title: "Agree the arrangement", text: "Referral terms depend on the type of partnership. We agree them with you in writing so there are no surprises on either side." },
+    { title: "Refer with one message", text: "Send the trip details by phone, email or the booking form. We confirm the quote with your client — or with you, if you book on their behalf." },
+    { title: "We deliver the ride", text: "Your client is met on time by a professional chauffeur in an immaculate vehicle, and you hear about it only if you want to." },
+  ],
+  ctaHeading: "Start a Partnership",
+  cta: "Email info@92limo.com with \"Partnership\" in the subject line, or call (877) 609-1919. Tell us who you are, where your clients travel and how you prefer to work, and we will reply with the arrangement that fits.",
+};

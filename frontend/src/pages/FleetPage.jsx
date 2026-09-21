@@ -15,7 +15,7 @@ export default function FleetPage() {
         eyebrow="OUR FLEET"
         title="A Luxury Vehicle for Every Journey"
         subtitle="From discreet executive sedans to spacious Sprinter vans and limousines — every vehicle is late-model, immaculately detailed, and chauffeur-driven."
-        image="/fleet/cadillac-escalade.jpg"
+        image="/fleet/cadillac-escalade.webp"
         alt="Black Cadillac Escalade premium SUV in the 92 Limo Service fleet"
       />
       <Fleet

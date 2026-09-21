@@ -16,14 +16,16 @@ export default function CityPage() {
     const schema = {
       "@context": "https://schema.org",
       "@type": "LimousineService",
-      name: `92 Limo Service — ${data.name}, MD`,
+      "@id": "https://www.92limo.com/#business",
+      name: "92 Limo Service",
       url: `https://www.92limo.com/airport-car-service/${data.slug}`,
       telephone: "+1-877-609-1919",
       email: BRAND.email,
       image: IMAGES.logo,
       priceRange: "$$$",
       areaServed: { "@type": "City", name: `${data.name}, Maryland` },
-      address: { "@type": "PostalAddress", addressLocality: data.name, addressRegion: "MD", addressCountry: "US" },
+      // NAP must match the business record everywhere — the city is areaServed, not the address.
+      address: { "@type": "PostalAddress", streetAddress: "9836 Lyon Ave", addressLocality: "Laurel", addressRegion: "MD", postalCode: "20723", addressCountry: "US" },
       description: `Luxury airport car and limo service in ${data.name}, ${data.region}, with transfers to BWI, DCA, IAD, PHL and Martin State airports.`,
     };
     const el = document.createElement("script");

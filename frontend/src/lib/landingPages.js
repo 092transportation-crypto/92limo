@@ -1,6 +1,7 @@
 import { IMAGES } from "@/lib/data";
 import { GENERATED_LANDING_PAGES } from "@/lib/landingPagesGenerated";
 import { MARYLAND_LANDING_PAGES } from "@/lib/marylandPages";
+import { MARYLAND_BATCH3_PAGES } from "@/lib/marylandPagesBatch3";
 
 // Vehicle label sets (must match `${category} — ${name}` from FLEET).
 const SEDAN_TRIO = [
@@ -22,6 +23,7 @@ const BEACH_TRIO = [
 export const LANDING_PAGES = {
   ...GENERATED_LANDING_PAGES,
   ...MARYLAND_LANDING_PAGES,
+  ...MARYLAND_BATCH3_PAGES,
 
   // ------------------------------------------------------ FLAGSHIP: BWI LIMO
   "bwi-airport-limo": {
@@ -1485,6 +1487,19 @@ export const LANDING_PAGES = {
     ctaSubtitle: "Two comfortable hours, one flat transparent rate, door to door in either direction. Call (877) 609-1919.",
   },
 };
+
+// Fifth question for the statewide service pages that shipped with four, so
+// every landing page carries at least five FAQs (accordion + FAQPage schema).
+const EXTRA_FAQS = {
+  "maryland-wedding-limo": { q: "What is the cancellation policy for wedding bookings?", a: "Weddings are special-event bookings: cancel at least 12 hours before the scheduled pickup for no charge. Inside 12 hours the deposit may be forfeited and up to 100% of the quoted fare may be charged." },
+  "maryland-corporate-car-service": { q: "Can my company be invoiced monthly?", a: "Yes. Corporate accounts receive consolidated monthly invoicing with itemized receipts, a dedicated account contact and priority dispatch. Certificates of insurance and vendor paperwork are available on request." },
+  "maryland-prom-limo": { q: "How many students fit in one vehicle?", a: "Up to 5 in a Luxury or Premium SUV and up to 13 in a Mercedes Sprinter or Sprinter Limo. Spring weekends sell out early, so book as soon as the group is set." },
+  "maryland-concert-transportation": { q: "Where does the chauffeur wait during the show?", a: "Your chauffeur drops you at the entrance, stages nearby during the event, and returns to a pre-arranged pickup point when you call or text — so you skip the garage queue and the post-show rideshare scramble." },
+  "maryland-wine-tour-transportation": { q: "How many wineries can we visit in a day?", a: "Most groups enjoy three with a relaxed lunch. Reserve the tastings with the wineries, send us the confirmed times, and we plan the route and drive times around them." },
+};
+for (const [slug, faq] of Object.entries(EXTRA_FAQS)) {
+  if (LANDING_PAGES[slug]) LANDING_PAGES[slug] = { ...LANDING_PAGES[slug], faqs: [...LANDING_PAGES[slug].faqs, faq] };
+}
 
 // Slugs grouped for navigation / sitemap.
 export const ROUTE_SLUGS = [

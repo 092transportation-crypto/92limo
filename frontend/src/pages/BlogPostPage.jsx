@@ -5,7 +5,9 @@ import { Seo } from "@/components/site/Seo";
 import { CTASection } from "@/components/site/CTASection";
 import { Reveal } from "@/components/site/Reveal";
 import { BRAND } from "@/lib/data";
+import { Breadcrumbs } from "@/components/site/Breadcrumbs";
 import { BLOG_POSTS, getBlogPostBySlug } from "@/lib/blogPosts";
+import { GUIDES } from "@/lib/guides";
 import {
   Accordion, AccordionContent, AccordionItem, AccordionTrigger,
 } from "@/components/ui/accordion";
@@ -17,9 +19,13 @@ const formatDate = (iso) =>
     day: "numeric",
   });
 
-export default function BlogPostPage() {
-  const { slug } = useParams();
-  const post = getBlogPostBySlug(slug);
+// Blog posts live at /blog/<slug>; guides (lib/guides.js) share this template
+// at /<slug> and are routed with an explicit `slug` prop.
+const postPath = (p) => (GUIDES.includes(p) ? `/${p.slug}` : `/blog/${p.slug}`);
+
+export default function BlogPostPage({ slug: guideSlug }) {
+  const params = useParams();
+  const post = guideSlug ? GUIDES.find((g) => g.slug === guideSlug) : getBlogPostBySlug(params.slug);
 
   // Inject FAQPage + Article JSON-LD for this post (same pattern as FaqPage).
   useEffect(() => {
@@ -40,7 +46,10 @@ export default function BlogPostPage() {
           headline: post.title,
           datePublished: post.date,
           author: { "@type": "Organization", name: BRAND.name },
-          mainEntityOfPage: `https://www.92limo.com/blog/${post.slug}`,
+          dateModified: post.date,
+          image: `https://www.92limo.com${post.image}`,
+          publisher: { "@id": "https://www.92limo.com/#business" },
+          mainEntityOfPage: `https://www.92limo.com${postPath(post)}`,
         },
       ],
     };
@@ -57,19 +66,21 @@ export default function BlogPostPage() {
 
   if (!post) return <Navigate to="/blog" replace />;
 
-  const related = BLOG_POSTS.filter((p) => p.slug !== post.slug).slice(0, 3);
+  // Guides cross-link to other guides first, then the newest blog posts.
+  const related = [...(guideSlug ? GUIDES : []), ...BLOG_POSTS].filter((p) => p.slug !== post.slug).slice(0, 3);
 
   return (
     <>
       <Seo
         title={post.metaTitle}
         description={post.metaDescription}
-        path={`/blog/${post.slug}`}
+        path={postPath(post)}
       />
 
       {/* Header */}
       <section className="relative bg-[#090A0C] pt-32 pb-14 grain">
         <div className="max-w-3xl mx-auto px-6 lg:px-8">
+          <Breadcrumbs className="mb-6" />
           <Link
             to="/blog"
             className="inline-flex items-center gap-1.5 text-xs font-semibold tracking-widest text-neutral-400 hover:text-[#D4AF37] transition-colors"
@@ -133,6 +144,30 @@ export default function BlogPostPage() {
                   ))}
                 </ul>
               )}
+              {/* Optional H3 subsections (rendered after the section's paragraphs/list) */}
+              {section.subsections &&
+                section.subsections.map((sub, k) => (
+                  <div key={`sub-${k}`}>
+                    <h3 className="mt-7 mb-3 text-xl font-display font-semibold text-[#0A0A0A]">
+                      {sub.heading}
+                    </h3>
+                    {(sub.paragraphs || []).map((p, m) => (
+                      <p key={m} className="text-neutral-700 leading-relaxed mb-5">
+                        {p}
+                      </p>
+                    ))}
+                    {sub.list && (
+                      <ul className="mb-5 space-y-2.5">
+                        {sub.list.map((item, m) => (
+                          <li key={m} className="flex items-start gap-3 text-neutral-700 leading-relaxed">
+                            <span className="mt-2 w-1.5 h-1.5 rounded-full bg-[#B8860B] flex-shrink-0" />
+                            {item}
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+                ))}
             </Reveal>
           ))}
 
@@ -161,6 +196,28 @@ export default function BlogPostPage() {
               </a>
             </div>
           </div>
+
+          {/* Related pages (optional per-post internal links) */}
+          {post.relatedLinks && post.relatedLinks.length > 0 && (
+            <div className="mt-12" data-testid="blog-post-related-links">
+              <h2 className="text-2xl font-display font-bold text-[#0A0A0A] mb-4">
+                Related Pages
+              </h2>
+              <ul className="space-y-2.5">
+                {post.relatedLinks.map((l) => (
+                  <li key={l.to} className="flex items-start gap-3 text-neutral-700 leading-relaxed">
+                    <span className="mt-2 w-1.5 h-1.5 rounded-full bg-[#B8860B] flex-shrink-0" />
+                    <Link
+                      to={l.to}
+                      className="underline decoration-[#C9A227]/50 underline-offset-2 hover:text-[#B8860B] transition-colors"
+                    >
+                      {l.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
 
           {/* FAQs */}
           <div className="mt-14" data-testid="blog-post-faqs">
@@ -195,7 +252,7 @@ export default function BlogPostPage() {
                 {related.map((r) => (
                   <Link
                     key={r.slug}
-                    to={`/blog/${r.slug}`}
+                    to={postPath(r)}
                     className="group bg-[#F6F5F2] border border-black/10 rounded-xl p-5 hover:border-[#D4AF37]/60 transition-all"
                   >
                     <span className="text-[11px] font-semibold tracking-widest text-[#B8860B]">

@@ -71,19 +71,19 @@ export const EXTERNAL_LINKS = [
 // assets are now self-hosted in /public/images/site so they can never break
 // with a third-party host. The logo is rendered as a text wordmark in the UI
 // (Navbar/Footer). Replace these with final brand assets when available.
-const _SEDAN = "/images/site/sedan.jpg";
-const _SUV = "/images/site/suv.jpg";
-const _SCLASS = "/images/site/s-class.jpg";
-const _SPRINTER = "/images/site/sprinter.jpg";
-const _CELEBRATION = "/images/site/celebration.jpg";
-const _HERO = "/images/site/hero-escalade.jpg";
+const _SEDAN = "/images/site/sedan.webp";
+const _SUV = "/images/site/suv.webp";
+const _SCLASS = "/images/site/s-class.webp";
+const _SPRINTER = "/images/site/sprinter.webp";
+const _CELEBRATION = "/images/site/celebration.webp";
+const _HERO = "/images/site/hero-escalade.webp";
 
 export const IMAGES = {
   // Used only for meta/OG images now; UI renders a text wordmark.
   logo: _HERO,
   heroBg: _HERO,
-  longDistance: "/images/site/long-distance.jpg",
-  dcSkyline: "/images/site/dc-skyline.jpg",
+  longDistance: "/images/site/long-distance.webp",
+  dcSkyline: "/images/site/dc-skyline.webp",
   escaladeFront: _SUV,
   escaladeAngle: _SUV,
   sprinterGreen: _SPRINTER,
@@ -91,13 +91,13 @@ export const IMAGES = {
   sClassNav: _SCLASS,
   sedan: _SEDAN,
   suv: _SUV,
-  airportPickup: "/images/site/airport-pickup.jpg",
-  chauffeur: "/images/site/chauffeur.jpg",
-  corporate: "/images/site/corporate.jpg",
-  wedding: "/images/site/wedding.jpg",
+  airportPickup: "/images/site/airport-pickup.webp",
+  chauffeur: "/images/site/chauffeur.webp",
+  corporate: "/images/site/corporate.webp",
+  wedding: "/images/site/wedding.webp",
   sprinterExterior: _SPRINTER,
   sClassFirst: _SCLASS,
-  wineTour: "/images/site/wine-tour.jpg",
+  wineTour: "/images/site/wine-tour.webp",
   celebration: _CELEBRATION,
   sClassReal: _SCLASS,
   bmw7: _SEDAN,
@@ -117,7 +117,7 @@ export const FLEET = [
     bags: 2,
     carryOns: 2,
     bestFor: "Airport transfers · Corporate travel",
-    img: "/images/mercedes-e-class.jpg",
+    img: "/images/mercedes-e-class.webp",
     alt: "Black Mercedes E-Class business sedan — 92 Limo Service",
     description:
       "Perfect for solo executives and business travelers. Ideal for airport transfers and corporate travel. Mercedes E-Class or similar.",
@@ -129,7 +129,7 @@ export const FLEET = [
     bags: 2,
     carryOns: 2,
     bestFor: "Executive travel · Weddings · VIP airport transfers",
-    img: "/fleet/bmw-7-series.jpg",
+    img: "/fleet/bmw-7-series.webp",
     alt: "Black BMW 7 Series first class sedan — 92 Limo Service fleet",
     description:
       "The pinnacle of sedan luxury for discerning travelers who accept nothing less. BMW 7 Series, Mercedes S-Class or similar.",
@@ -142,7 +142,7 @@ export const FLEET = [
     bags: 4,
     carryOns: 3,
     bestFor: "Airport transfers · Small families · Extra luggage",
-    img: "/images/lincoln-nautilus.jpg",
+    img: "/images/lincoln-nautilus.webp",
     alt: "Lincoln Nautilus midsize luxury SUV — 92 Limo Service",
     description:
       "The perfect balance of comfort and practicality for families and travelers with extra luggage. Lincoln Nautilus or similar.",
@@ -155,7 +155,7 @@ export const FLEET = [
     bags: 5,
     carryOns: 5,
     bestFor: "Airport transfers · Families · Group business travel",
-    img: "/images/chevy-suburban.jpg",
+    img: "/images/chevy-suburban.webp",
     alt: "Black Chevrolet Suburban full-size luxury SUV — 92 Limo Service",
     description:
       "Maximum space without compromising luxury. Ideal for larger groups and extended journeys. Chevrolet Suburban or similar.",
@@ -168,7 +168,7 @@ export const FLEET = [
     bags: 5,
     carryOns: 5,
     bestFor: "Airport transfers · Corporate · Weddings & events",
-    img: "/images/cadillac-escalade.jpg",
+    img: "/images/cadillac-escalade.webp",
     alt: "Black Cadillac Escalade premium SUV — 92 Limo Service",
     description:
       "America's premier luxury SUV with commanding presence. Cadillac Escalade or similar.",
@@ -180,7 +180,7 @@ export const FLEET = [
     bags: 13,
     carryOns: 13,
     bestFor: "Group airport runs · Team travel · Event shuttles",
-    img: "/fleet/sprinter-shuttle-seats.jpg",
+    img: "/fleet/sprinter-shuttle-seats.webp",
     alt: "Mercedes Sprinter van shuttle interior with passenger seating — 92 Limo Service",
     description:
       "Comfortable group transportation for airport runs, corporate events, and group outings. Mercedes Sprinter or similar.",
@@ -192,7 +192,7 @@ export const FLEET = [
     bags: 13,
     carryOns: 13,
     bestFor: "Corporate groups · Roadshows · Executive retreats",
-    img: "/images/mercedes-sprinter.jpg",
+    img: "/images/mercedes-sprinter.webp",
     alt: "Mercedes Sprinter Executive van interior with lounge seating — 92 Limo Service",
     description:
       "Premium executive van with upgraded interior and luxury amenities. Perfect for corporate groups. Mercedes Sprinter or similar.",
@@ -204,7 +204,7 @@ export const FLEET = [
     bags: 6,
     carryOns: 8,
     bestFor: "Weddings · Proms · Birthdays & nights out",
-    img: "/fleet/limousine.jpg",
+    img: "/fleet/limousine.webp",
     alt: "Mercedes Sprinter limo interior with lounge seating and ambient lighting — 92 Limo Service",
     description:
       "The ultimate stretch limo experience. Perfect for weddings, proms, and special occasions that deserve a grand entrance.",
@@ -333,6 +333,7 @@ export const NAV_SERVICES = [
   { label: "Wedding Limo", to: "/wedding-transportation" },
   { label: "Wine Tours", to: "/wine-tours" },
   { label: "Birthdays", to: "/birthday-celebrations" },
+  { label: "Anniversaries", to: "/anniversary-limo-service" },
   { label: "Proms", to: "/prom-transportation" },
   { label: "Hourly Chauffeur", to: "/hourly-chauffeur" },
   { label: "Long-Distance Travel", to: "/long-distance-transportation" },
@@ -427,6 +428,16 @@ export const SERVICE_PAGES = {
       { title: "Transparent Rates", desc: "Your base rate is quoted up front; gratuity, tolls and parking are disclosed before confirmation." },
     ],
     vehicles: ["Premium SUV — Cadillac Escalade", "Sprinter Limo — Mercedes Sprinter Limo", "First Class Sedan — BMW 7 Series"],
+    details: [
+      { heading: "How a Chauffeured Wine Tour Works", paragraphs: [
+        "A wine tour is booked as hourly, as-directed service: one vehicle and one chauffeur stay with your group from the first pickup to the last drop-off. You choose the wineries and reserve the tastings; we plan the route, the drive times between stops and a realistic schedule so nobody is rushed out of a tasting room.",
+        "Most groups find that three wineries with a proper lunch makes the best day. Send us the confirmed tasting times when you book and dispatch will sequence the stops, flag any leg that looks tight, and build in the return home.",
+      ] },
+      { heading: "Maryland & Virginia Wine Country", paragraphs: [
+        "In Maryland, the vineyards of Frederick and Carroll counties, the Montgomery County countryside and the Patapsco Valley are all an easy day from Baltimore, Columbia, Annapolis and Washington. Across the river, Loudoun County in Northern Virginia has one of the densest clusters of wineries on the East Coast around Leesburg, Purcellville and Middleburg.",
+        "Pickups can start anywhere in our service area — a home in Bethesda, a hotel in Baltimore, several addresses across Howard County — and the group rides together the whole way in an SUV for up to 5 or a Mercedes Sprinter for up to 13.",
+      ] },
+    ],
   },
   "birthday-celebrations": {
     metaTitle: "Birthday Limo Service | Celebrate in Style | 92 Limo",
@@ -448,6 +459,45 @@ export const SERVICE_PAGES = {
       { title: "Transparent Pricing", desc: "Clear, upfront base rates — gratuity, tolls and parking disclosed before confirmation." },
     ],
     vehicles: ["Sprinter Limo — Mercedes Sprinter Limo", "Sprinter Shuttle — Mercedes Sprinter", "Premium SUV — Cadillac Escalade"],
+    details: [
+      { heading: "Planning a Birthday Night Out", paragraphs: [
+        "Birthday bookings are usually hourly and as-directed, which means the evening can unfold the way you want it to: collect friends from different addresses, arrive at dinner together, move on to a lounge, a show or a casino, and get everyone home safely at the end. One chauffeur and one vehicle stay with the party throughout.",
+        "Popular plans include dinner in Baltimore's Harbor East or Fells Point, a night at National Harbor or MGM, the Wharf and downtown Washington, Annapolis waterfront restaurants, and concerts at Merriweather Post Pavilion or CFG Bank Arena. Tell us the stops and the headcount and we will recommend the vehicle.",
+      ] },
+      { heading: "Milestones, Surprises & Family Celebrations", paragraphs: [
+        "For a surprise, book under your own contact details and tell us in the notes — the chauffeur will play along. For milestone birthdays with several generations, an SUV or Sprinter van keeps the family together and spares older relatives the parking and the walk. Car seats are available on request for the youngest guests.",
+      ] },
+    ],
+  },
+  "anniversary-limo-service": {
+    metaTitle: "Anniversary Limo Service | Maryland, DC & VA | 92 Limo",
+    metaDescription:
+      "Chauffeured anniversary transportation in Maryland, DC & Virginia — dinner, a show and the ride home in a luxury sedan, SUV or Sprinter Limo. (877) 609-1919.",
+    eyebrow: "ANNIVERSARIES",
+    h1: "Anniversary Limo & Chauffeur Service",
+    subtitle: "An evening where neither of you drives — a chauffeur, a beautiful car, and every stop taken care of.",
+    image: IMAGES.sClassFirst,
+    alt: "Luxury chauffeured sedan prepared for an anniversary evening",
+    intro:
+      "An anniversary deserves better than circling for parking and deciding who drives home. 92 Limo Service provides a professional chauffeur and an immaculate vehicle for the whole evening across Maryland, Washington DC and Northern Virginia — so the night is about the two of you from the moment you step outside.",
+    bullets: [
+      { title: "Yours for the Evening", desc: "Hourly, as-directed service — dinner, a show, a nightcap and home, with your chauffeur waiting at every stop." },
+      { title: "First Class Sedans", desc: "BMW 7 Series and Mercedes S-Class comfort for two; SUVs and the Sprinter Limo when family joins." },
+      { title: "Surprise-Friendly", desc: "Book under your name, tell us it's a surprise, and your chauffeur will play along." },
+      { title: "Door-to-Door", desc: "Picked up at home or your hotel and dropped at the restaurant door — no garages, no walking in the rain." },
+      { title: "Professional Chauffeurs", desc: "Licensed, background-checked, discreet, and dressed for the occasion." },
+      { title: "Transparent Pricing", desc: "Clear, upfront base rates — gratuity, tolls and parking disclosed before confirmation." },
+    ],
+    vehicles: LUXURY_VEHICLES,
+    details: [
+      { heading: "Ideas for an Anniversary Evening", paragraphs: [
+        "Dinner on the Annapolis waterfront and a walk along Ego Alley. A tasting menu in Baltimore's Harbor East followed by the symphony at the Meyerhoff or a show at the Hippodrome. The Kennedy Center and a late supper in Georgetown. A sunset table at National Harbor. A return to the venue where you were married, with a stop for photographs. Because the booking is hourly, the evening can include as many stops as you like, and the car is waiting whenever you are ready to move on.",
+        "For a daytime celebration, couples often pair an anniversary with a chauffeured wine tour through Frederick County or Loudoun County — a relaxed afternoon where neither of you has to skip a tasting.",
+      ] },
+      { heading: "Booking Details", paragraphs: [
+        "Tell us the date, the pickup address, the places you plan to visit and roughly when you expect to head home. We confirm a quote before anything is charged, and sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup (12 hours for the Sprinter Limo). If you would like flowers or a card waiting on the seat, hand them to your chauffeur beforehand or mention it when you book.",
+      ] },
+    ],
   },
   "prom-transportation": {
     metaTitle: "Prom Limo Service | Safe & Stylish | 92 Limo DC, MD, VA",

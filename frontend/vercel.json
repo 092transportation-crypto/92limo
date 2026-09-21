@@ -416,6 +416,61 @@
       "statusCode": 301
     },
     {
+      "source": "/capstone-limo-service{/}?",
+      "destination": "/cape-st-claire-limo-service",
+      "statusCode": 301
+    },
+    {
+      "source": "/snopesville-limo-service{/}?",
+      "destination": "/sykesville-limo-service",
+      "statusCode": 301
+    },
+    {
+      "source": "/anniversary-limo{/}?",
+      "destination": "/anniversary-limo-service",
+      "statusCode": 301
+    },
+    {
+      "source": "/anniversary{/}?",
+      "destination": "/anniversary-limo-service",
+      "statusCode": 301
+    },
+    {
+      "source": "/media{/}?",
+      "destination": "/press",
+      "statusCode": 301
+    },
+    {
+      "source": "/referral-program{/}?",
+      "destination": "/partners",
+      "statusCode": 301
+    },
+    {
+      "source": "/referrals{/}?",
+      "destination": "/partners",
+      "statusCode": 301
+    },
+    {
+      "source": "/images/site/:name((?!hero-escalade)[^/]+)\\.jpg",
+      "destination": "/images/site/:name.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/images/:name((?!hero-escalade)[^/]+)\\.jpg",
+      "destination": "/images/:name.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/fleet/:name((?!hero-escalade)[^/]+)\\.jpg",
+      "destination": "/fleet/:name.webp",
+      "statusCode": 301
+    },
+    {
+      "source": "/awards/:name((?!hero-escalade)[^/]+)\\.jpg",
+      "destination": "/awards/:name.webp",
+      "statusCode": 301
+    },
+    {
       "source": "/happy-new-year{/}?",
       "destination": "/",
       "statusCode": 301

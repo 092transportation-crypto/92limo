@@ -14,7 +14,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Luxury chauffeured vehicle serving Bowie, Maryland — 92 Limo Service",
     "highlightsHeading": "Why Bowie Rides With 92 Limo Service",
     "intro": [
-      "92 Limo Service is based in Columbia, which means Bowie is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Old Town Bowie, Fairwood, Mitchellville, South Bowie and Pointer Ridge and the rest of Prince George's County — for airport transfers, corporate travel, weddings and nights out.",
+      "92 Limo Service is based in Laurel, which means Bowie is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Old Town Bowie, Fairwood, Mitchellville, South Bowie and Pointer Ridge and the rest of Prince George's County — for airport transfers, corporate travel, weddings and nights out.",
       "BWI Marshall is 24 miles from Bowie, about 30–40 minutes via MD-197, MD-3 and I-97, or the BW Parkway. Reagan National is 25 miles (40–55 minutes via US-50, the Beltway and I-295) and Dulles is 50 miles (60–80 minutes via US-50, the Beltway and the Dulles Toll Road). Every airport ride is flight-tracked, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international, and meet and greet inside baggage claim is available for an additional charge.",
       "Local knowledge is the difference. Our chauffeurs know Bowie Town Center, Bowie State University, Prince George's Stadium, home of the Bowie Baysox and the Belair Mansion and Stable Museum, they know the US-50 and MD-3 interchange and the Beltway approach at Landover on the way to DCA, and they know which hotel — the Comfort Inn Conference Center Bowie and the Hilton Garden Inn Bowie — has the awkward driveway. That is why a pickup in Fairwood at 4:45 a.m. leaves on time.",
       "Bowie clients book us for Bowie State commencement weekends, Baysox games, Comfort Inn ballroom weddings and receptions, Six Flags America outings and airport runs from Fairwood and Mitchellville. Corporate accounts from Bowie State University and other employers get monthly invoicing and a dedicated contact; wedding parties at the Comfort Inn Conference Center Bowie get a Sprinter or limousine and a chauffeur who has worked the venue before."
@@ -171,7 +171,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Luxury chauffeured vehicle serving Laurel, Maryland — 92 Limo Service",
     "highlightsHeading": "Why Laurel Rides With 92 Limo Service",
     "intro": [
-      "92 Limo Service is based in Columbia, which means Laurel is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Main Street and Old Town Laurel, Russett, Maryland City, West Laurel and North Laurel and the rest of Prince George's, Howard and Anne Arundel counties — for airport transfers, corporate travel, weddings and nights out.",
+      "92 Limo Service is based in Laurel, which means Laurel is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Main Street and Old Town Laurel, Russett, Maryland City, West Laurel and North Laurel and the rest of Prince George's, Howard and Anne Arundel counties — for airport transfers, corporate travel, weddings and nights out.",
       "BWI Marshall is 14 miles from Laurel, about 20–25 minutes via the BW Parkway (MD-295) or MD-32. Reagan National is 25 miles (35–50 minutes via the BW Parkway and I-295) and Dulles is 45 miles (55–75 minutes via the ICC (MD-200), I-270 and the Dulles Toll Road). Every airport ride is flight-tracked, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international, and meet and greet inside baggage claim is available for an additional charge.",
       "Local knowledge is the difference. Our chauffeurs know Laurel Park racetrack, Montpelier Mansion, the Johns Hopkins Applied Physics Laboratory and Towne Centre at Laurel, they know the I-95 and MD-198 interchange at rush hour and the BW Parkway merge at MD-197, and they know which hotel — the DoubleTree by Hilton Laurel, the Holiday Inn Laurel West and the Hampton Inn Laurel — has the awkward driveway. That is why a pickup in Russett at 4:45 a.m. leaves on time.",
       "Laurel clients book us for APL and Fort Meade business travel, Laurel Park race days, Montpelier Mansion weddings, Main Street nights out and quick BW Parkway airport runs. Corporate accounts from Johns Hopkins APL and other employers get monthly invoicing and a dedicated contact; wedding parties at Montpelier Mansion get a Sprinter or limousine and a chauffeur who has worked the venue before."
@@ -328,7 +328,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Luxury chauffeured vehicle serving Greenbelt, Maryland — 92 Limo Service",
     "highlightsHeading": "Why Greenbelt Rides With 92 Limo Service",
     "intro": [
-      "92 Limo Service is based in Columbia, which means Greenbelt is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Historic Greenbelt, Greenbelt East, Greenbriar, Windsor Green and Greenbelt West and the rest of Prince George's County — for airport transfers, corporate travel, weddings and nights out.",
+      "92 Limo Service is based in Laurel, which means Greenbelt is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Historic Greenbelt, Greenbelt East, Greenbriar, Windsor Green and Greenbelt West and the rest of Prince George's County — for airport transfers, corporate travel, weddings and nights out.",
       "BWI Marshall is 22 miles from Greenbelt, about 25–35 minutes via the BW Parkway (MD-295). Reagan National is 16 miles (30–45 minutes via the BW Parkway, I-295 and the GW Parkway) and Dulles is 42 miles (55–70 minutes via the Beltway and the Dulles Toll Road). Every airport ride is flight-tracked, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international, and meet and greet inside baggage claim is available for an additional charge.",
       "Local knowledge is the difference. Our chauffeurs know NASA's Goddard Space Flight Center, Roosevelt Center, Greenbelt Park and the Greenbelt Metro station at the end of the Green Line, they know the Beltway–BW Parkway–I-95 interchange, one of the busiest merges in Maryland, and they know which hotel — the Greenbelt Marriott, the Courtyard Greenbelt and the Residence Inn Greenbelt — has the awkward driveway. That is why a pickup in Greenbelt East at 4:45 a.m. leaves on time.",
       "Greenbelt clients book us for Goddard contractor travel, University of Maryland graduation and game weekends, Roosevelt Center events and BW Parkway airport runs. Corporate accounts from NASA Goddard and other employers get monthly invoicing and a dedicated contact; wedding parties at the Greenbelt Marriott get a Sprinter or limousine and a chauffeur who has worked the venue before."
@@ -482,7 +482,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Luxury chauffeured vehicle serving Waldorf, Maryland — 92 Limo Service",
     "highlightsHeading": "Why Waldorf Rides With 92 Limo Service",
     "intro": [
-      "92 Limo Service is based in Columbia, which means Waldorf is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across St. Charles, Smallwood Village, Westlake, Wooded Glen and Fairway Village and the rest of Charles County — for airport transfers, corporate travel, weddings and nights out.",
+      "92 Limo Service is based in Laurel, which means Waldorf is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across St. Charles, Smallwood Village, Westlake, Wooded Glen and Fairway Village and the rest of Charles County — for airport transfers, corporate travel, weddings and nights out.",
       "BWI Marshall is 45 miles from Waldorf, about 55–75 minutes via MD-5, the Beltway and the BW Parkway. Reagan National is 27 miles (40–60 minutes via MD-5 (Branch Avenue), the Beltway and I-295) and Dulles is 55 miles (70–90 minutes via MD-5, the Beltway and the Dulles Toll Road). Every airport ride is flight-tracked, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international, and meet and greet inside baggage claim is available for an additional charge.",
       "Local knowledge is the difference. Our chauffeurs know St. Charles Towne Center, Regency Furniture Stadium, home of the Southern Maryland Blue Crabs, Waldorf Marketplace and the Capital Clubhouse, they know the US-301 and MD-5 split at Waldorf and the Branch Avenue backup at the Beltway, and they know which hotel — the Hampton Inn Waldorf, the Holiday Inn Express Waldorf and the Country Inn & Suites — has the awkward driveway. That is why a pickup in Smallwood Village at 4:45 a.m. leaves on time.",
       "Waldorf clients book us for Blue Crabs games, Southern Maryland weddings, Indian Head and Andrews-related travel, Branch Avenue commuters flying out of DCA and family trips to BWI. Corporate accounts from the Charles County government in La Plata and other employers get monthly invoicing and a dedicated contact; wedding parties at the Capital Clubhouse get a Sprinter or limousine and a chauffeur who has worked the venue before."
@@ -639,7 +639,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Luxury chauffeured vehicle serving Frederick, Maryland — 92 Limo Service",
     "highlightsHeading": "Why Frederick Rides With 92 Limo Service",
     "intro": [
-      "92 Limo Service is based in Columbia, which means Frederick is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Downtown Frederick's historic district, Baker Park, Ballenger Creek, Clover Hill and Worman's Mill and the rest of Frederick County — for airport transfers, corporate travel, weddings and nights out.",
+      "92 Limo Service is based in Laurel, which means Frederick is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Downtown Frederick's historic district, Baker Park, Ballenger Creek, Clover Hill and Worman's Mill and the rest of Frederick County — for airport transfers, corporate travel, weddings and nights out.",
       "BWI Marshall is 55 miles from Frederick, about 60–75 minutes via I-70, I-695 and the BW Parkway, or MD-32. Reagan National is 50 miles (60–80 minutes via I-270, the Beltway and the GW Parkway) and Dulles is 45 miles (55–70 minutes via US-15 through Point of Rocks and Leesburg, or I-270 and the Dulles Toll Road). Every airport ride is flight-tracked, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international, and meet and greet inside baggage claim is available for an additional charge.",
       "Local knowledge is the difference. Our chauffeurs know Carroll Creek Linear Park, Fort Detrick, Frederick Health Hospital and Hood College, they know the I-270 and I-70 interchange and the US-15 crawl through downtown, and they know which hotel — the Hilton Garden Inn Frederick, the Courtyard Frederick and the Visitation Hotel on East Church Street — has the awkward driveway. That is why a pickup in Baker Park at 4:45 a.m. leaves on time.",
       "Frederick clients book us for Fort Detrick and Riverside Research Park business travel, Ceresville Mansion and downtown weddings, Frederick Keys games, wine-country outings to Linganore and Black Ankle and Hood College weekends. Corporate accounts from Fort Detrick and other employers get monthly invoicing and a dedicated contact; wedding parties at Ceresville Mansion get a Sprinter or limousine and a chauffeur who has worked the venue before."
@@ -796,7 +796,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Luxury chauffeured vehicle serving Odenton, Maryland — 92 Limo Service",
     "highlightsHeading": "Why Odenton Rides With 92 Limo Service",
     "intro": [
-      "92 Limo Service is based in Columbia, which means Odenton is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Odenton Town Center, Piney Orchard, Seven Oaks, Two Rivers and Chapel Grove and the rest of Anne Arundel County — for airport transfers, corporate travel, weddings and nights out.",
+      "92 Limo Service is based in Laurel, which means Odenton is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Odenton Town Center, Piney Orchard, Seven Oaks, Two Rivers and Chapel Grove and the rest of Anne Arundel County — for airport transfers, corporate travel, weddings and nights out.",
       "BWI Marshall is 11 miles from Odenton, about 15–20 minutes via MD-32 and the BW Parkway, or MD-170. Reagan National is 35 miles (45–60 minutes via the BW Parkway and I-295) and Dulles is 55 miles (65–85 minutes via MD-32, the ICC and the Dulles Toll Road). Every airport ride is flight-tracked, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international, and meet and greet inside baggage claim is available for an additional charge.",
       "Local knowledge is the difference. Our chauffeurs know Fort George G. Meade and the NSA campus, the Odenton MARC station on the Penn Line, Piney Orchard Ice Arena and Waugh Chapel Towne Centre, they know the MD-32 gate backups at Fort Meade and the MD-175 corridor at shift change, and they know which hotel — the Courtyard Fort Meade, the Candlewood Suites Fort Meade and the hotels around Arundel Mills — has the awkward driveway. That is why a pickup in Piney Orchard at 4:45 a.m. leaves on time.",
       "Odenton clients book us for Fort Meade TDY and contractor travel, Piney Orchard family airport runs, Waugh Chapel nights out and Live! Casino evenings. Corporate accounts from the NSA and other employers get monthly invoicing and a dedicated contact; wedding parties at the Odenton Town Center pavilion get a Sprinter or limousine and a chauffeur who has worked the venue before."
@@ -909,7 +909,7 @@ export const MARYLAND_LANDING_PAGES = {
           },
           {
             "label": "Cape St. Claire Limo Service",
-            "to": "/capstone-limo-service"
+            "to": "/cape-st-claire-limo-service"
           }
         ]
       }
@@ -950,7 +950,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Luxury chauffeured vehicle serving Crofton, Maryland — 92 Limo Service",
     "highlightsHeading": "Why Crofton Rides With 92 Limo Service",
     "intro": [
-      "92 Limo Service is based in Columbia, which means Crofton is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Crofton Village, Crofton Meadows, Crofton Woods, Walden and Crofton Farms and the rest of Anne Arundel County — for airport transfers, corporate travel, weddings and nights out.",
+      "92 Limo Service is based in Laurel, which means Crofton is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Crofton Village, Crofton Meadows, Crofton Woods, Walden and Crofton Farms and the rest of Anne Arundel County — for airport transfers, corporate travel, weddings and nights out.",
       "BWI Marshall is 18 miles from Crofton, about 25–35 minutes via MD-3 and I-97. Reagan National is 30 miles (40–60 minutes via US-50, the Beltway and I-295) and Dulles is 50 miles (60–80 minutes via US-50, the Beltway and the Dulles Toll Road). Every airport ride is flight-tracked, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international, and meet and greet inside baggage claim is available for an additional charge.",
       "Local knowledge is the difference. Our chauffeurs know Crofton Country Club, the Crofton Parkway, the Village at Waugh Chapel and Waugh Chapel Towne Centre, they know the MD-3 and US-50 interchange and the Davidsonville Road bottleneck at Route 450, and they know which hotel — the Bowie and Annapolis hotels, the nearest full-service properties — has the awkward driveway. That is why a pickup in Crofton Meadows at 4:45 a.m. leaves on time.",
       "Crofton clients book us for Crofton Country Club weddings and golf outings, Naval Academy weekends, Fort Meade business travel and Waugh Chapel evenings out. Corporate accounts from Fort Meade and the NSA to the north and other employers get monthly invoicing and a dedicated contact; wedding parties at Crofton Country Club get a Sprinter or limousine and a chauffeur who has worked the venue before."
@@ -1066,7 +1066,7 @@ export const MARYLAND_LANDING_PAGES = {
           },
           {
             "label": "Cape St. Claire Limo Service",
-            "to": "/capstone-limo-service"
+            "to": "/cape-st-claire-limo-service"
           }
         ]
       }
@@ -1098,7 +1098,7 @@ export const MARYLAND_LANDING_PAGES = {
   },
 
   "hyattsville-limo-service": {
-    "metaTitle": "Hyattsville Limo Service | Luxury Car Service Hyattsville, MD",
+    "metaTitle": "Hyattsville Limo Service | Car Service Hyattsville, MD",
     "metaDescription": "92 Limo Service in Hyattsville, MD — flat-rate airport transfers to BWI, DCA & IAD, corporate, weddings & events. Pro chauffeurs, 24/7. Call (877) 609-1919.",
     "eyebrow": "HYATTSVILLE, MD · PRINCE GEORGE'S COUNTY",
     "h1": "Hyattsville Limo Service",
@@ -1107,7 +1107,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Luxury chauffeured vehicle serving Hyattsville, Maryland — 92 Limo Service",
     "highlightsHeading": "Why Hyattsville Rides With 92 Limo Service",
     "intro": [
-      "92 Limo Service is based in Columbia, which means Hyattsville is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across the Gateway Arts District, Historic Hyattsville, University Town Center, West Hyattsville and the Prince George's Plaza district and the rest of Prince George's County — for airport transfers, corporate travel, weddings and nights out.",
+      "92 Limo Service is based in Laurel, which means Hyattsville is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across the Gateway Arts District, Historic Hyattsville, University Town Center, West Hyattsville and the Prince George's Plaza district and the rest of Prince George's County — for airport transfers, corporate travel, weddings and nights out.",
       "BWI Marshall is 28 miles from Hyattsville, about 35–45 minutes via the BW Parkway (MD-295). Reagan National is 10 miles (20–35 minutes via Kenilworth Avenue, DC-295 and I-295) and Dulles is 38 miles (50–70 minutes via the Beltway and the Dulles Toll Road). Every airport ride is flight-tracked, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international, and meet and greet inside baggage claim is available for an additional charge.",
       "Local knowledge is the difference. Our chauffeurs know The Mall at Prince George's, the Hyattsville Crossing Metro station, Busboys and Poets Hyattsville and the Pyramid Atlantic Art Center, they know the Route 1 crawl through College Park and the East-West Highway merge at Adelphi Road, and they know which hotel — The Hotel at the University of Maryland, the Cambria College Park and the Hyattsville corridor's business hotels — has the awkward driveway. That is why a pickup in Historic Hyattsville at 4:45 a.m. leaves on time.",
       "Hyattsville clients book us for University of Maryland commencement and Terps game days, Arts District openings, Route 1 dinners and quick DCA runs down Kenilworth Avenue. Corporate accounts from the University of Maryland and other employers get monthly invoicing and a dedicated contact; wedding parties at the Pyramid Atlantic Art Center get a Sprinter or limousine and a chauffeur who has worked the venue before."
@@ -1264,7 +1264,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Luxury chauffeured vehicle serving Arnold, Maryland — 92 Limo Service",
     "highlightsHeading": "Why Arnold Rides With 92 Limo Service",
     "intro": [
-      "92 Limo Service is based in Columbia, which means Arnold is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Belvedere, Ulmstead Estates, Bay Hills, Pines on the Severn and Arnold Station and the rest of Anne Arundel County — for airport transfers, corporate travel, weddings and nights out.",
+      "92 Limo Service is based in Laurel, which means Arnold is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Belvedere, Ulmstead Estates, Bay Hills, Pines on the Severn and Arnold Station and the rest of Anne Arundel County — for airport transfers, corporate travel, weddings and nights out.",
       "BWI Marshall is 22 miles from Arnold, about 30–40 minutes via Ritchie Highway, MD-100 and I-97. Reagan National is 40 miles (55–75 minutes via US-50, the Beltway and the GW Parkway) and Dulles is 60 miles (75–95 minutes via US-50, the Beltway and the Dulles Toll Road). Every airport ride is flight-tracked, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international, and meet and greet inside baggage claim is available for an additional charge.",
       "Local knowledge is the difference. Our chauffeurs know Anne Arundel Community College, Broadneck High School, Bay Hills Golf Club and Ferry Point Marina on the Magothy, they know Ritchie Highway at College Parkway and the Severn River Bridge into Annapolis on event days, and they know which hotel — the Annapolis hotels on West Street and the Westin Annapolis, the nearest full-service properties — has the awkward driveway. That is why a pickup in Ulmstead Estates at 4:45 a.m. leaves on time.",
       "Arnold clients book us for Naval Academy weekends and Commissioning Week, AACC commencement, Magothy River boating season, Bay Hills weddings and BWI family departures. Corporate accounts from Anne Arundel Community College and other employers get monthly invoicing and a dedicated contact; wedding parties at Bay Hills Golf Club get a Sprinter or limousine and a chauffeur who has worked the venue before."
@@ -1380,7 +1380,7 @@ export const MARYLAND_LANDING_PAGES = {
           },
           {
             "label": "Cape St. Claire Limo Service",
-            "to": "/capstone-limo-service"
+            "to": "/cape-st-claire-limo-service"
           }
         ]
       }
@@ -1421,7 +1421,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Luxury chauffeured vehicle serving Riva, Maryland — 92 Limo Service",
     "highlightsHeading": "Why Riva Rides With 92 Limo Service",
     "intro": [
-      "92 Limo Service is based in Columbia, which means Riva is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Riva Trace, Heritage Harbour, South River Colony, Riva Farms and Beards Creek and the rest of Anne Arundel County — for airport transfers, corporate travel, weddings and nights out.",
+      "92 Limo Service is based in Laurel, which means Riva is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Riva Trace, Heritage Harbour, South River Colony, Riva Farms and Beards Creek and the rest of Anne Arundel County — for airport transfers, corporate travel, weddings and nights out.",
       "BWI Marshall is 28 miles from Riva, about 35–45 minutes via MD-2, I-97 and MD-100. Reagan National is 38 miles (50–70 minutes via US-50, the Beltway and the GW Parkway) and Dulles is 58 miles (70–90 minutes via US-50, the Beltway and the Dulles Toll Road). Every airport ride is flight-tracked, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international, and meet and greet inside baggage claim is available for an additional charge.",
       "Local knowledge is the difference. Our chauffeurs know the South River waterfront, Riva Festival shopping center, the Anne Arundel County government complex on Riva Road and Annapolis Harbour Center, they know the Riva Road and US-50 interchange at Parole and the Solomons Island Road crawl on summer Fridays, and they know which hotel — the Westin Annapolis, the DoubleTree Annapolis and the Parole business hotels — has the awkward driveway. That is why a pickup in Heritage Harbour at 4:45 a.m. leaves on time.",
       "Riva clients book us for South River waterfront weddings, county-government meetings, Annapolis session days, Heritage Harbour airport runs and Boat Show week. Corporate accounts from Anne Arundel County government on Riva Road and other employers get monthly invoicing and a dedicated contact; wedding parties at the South River Colony clubhouse get a Sprinter or limousine and a chauffeur who has worked the venue before."
@@ -1534,7 +1534,7 @@ export const MARYLAND_LANDING_PAGES = {
           },
           {
             "label": "Cape St. Claire Limo Service",
-            "to": "/capstone-limo-service"
+            "to": "/cape-st-claire-limo-service"
           }
         ]
       }
@@ -1565,8 +1565,8 @@ export const MARYLAND_LANDING_PAGES = {
     "ctaSubtitle": "Flat-rate luxury transportation anywhere in Riva, MD — reserve in minutes or call (877) 609-1919."
   },
 
-  "capstone-limo-service": {
-    "metaTitle": "Cape St. Claire Limo Service | Car Service Cape St. Claire, MD",
+  "cape-st-claire-limo-service": {
+    "metaTitle": "Cape St. Claire Limo Service | 92 Limo Service",
     "metaDescription": "92 Limo Service in Cape St. Claire, MD – flat-rate airport transfers to BWI, DCA & IAD, corporate, weddings & events. Pro chauffeurs. Call (877) 609-1919.",
     "eyebrow": "CAPE ST. CLAIRE, MD · ANNE ARUNDEL COUNTY",
     "h1": "Cape St. Claire Limo Service",
@@ -1575,7 +1575,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Luxury chauffeured vehicle serving Cape St. Claire, Maryland — 92 Limo Service",
     "highlightsHeading": "Why Cape St. Claire Rides With 92 Limo Service",
     "intro": [
-      "92 Limo Service is based in Columbia, which means Cape St. Claire is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Cape St. Claire proper, Deep Creek, Little Magothy, Persimmon Point and Broadneck and the rest of Anne Arundel County — for airport transfers, corporate travel, weddings and nights out.",
+      "92 Limo Service is based in Laurel, which means Cape St. Claire is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Cape St. Claire proper, Deep Creek, Little Magothy, Persimmon Point and Broadneck and the rest of Anne Arundel County — for airport transfers, corporate travel, weddings and nights out.",
       "BWI Marshall is 24 miles from Cape St. Claire, about 30–45 minutes via US-50, I-97 and MD-100. Reagan National is 42 miles (55–75 minutes via US-50, the Beltway and the GW Parkway) and Dulles is 62 miles (75–95 minutes via US-50, the Beltway and the Dulles Toll Road). Every airport ride is flight-tracked, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international, and meet and greet inside baggage claim is available for an additional charge.",
       "Local knowledge is the difference. Our chauffeurs know Cape St. Claire Beach on the Magothy, the Cape St. Claire Shopping Center, Broadneck Park and Sandy Point State Park, they know the US-50 Bay Bridge backup that spills onto Cape St. Claire Road on summer weekends, and they know which hotel — the Annapolis hotels on West Street, the nearest full-service properties — has the awkward driveway. That is why a pickup in Deep Creek at 4:45 a.m. leaves on time.",
       "Cape St. Claire clients book us for Magothy River beach weddings, Naval Academy weekends, Sandy Point outings, Bay Bridge Run mornings and BWI family departures. Corporate accounts from the Naval Academy and state government in Annapolis and other employers get monthly invoicing and a dedicated contact; wedding parties at Cape St. Claire Beach get a Sprinter or limousine and a chauffeur who has worked the venue before."
@@ -1720,7 +1720,7 @@ export const MARYLAND_LANDING_PAGES = {
   },
 
   "clarksville-limo-service": {
-    "metaTitle": "Clarksville Limo Service | Luxury Car Service Clarksville, MD",
+    "metaTitle": "Clarksville Limo Service | Car Service Clarksville, MD",
     "metaDescription": "92 Limo Service in Clarksville, MD — flat-rate airport transfers to BWI, DCA & IAD, corporate, weddings & events. Pro chauffeurs, 24/7. Call (877) 609-1919.",
     "eyebrow": "CLARKSVILLE, MD · HOWARD COUNTY",
     "h1": "Clarksville Limo Service",
@@ -1729,7 +1729,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Luxury chauffeured vehicle serving Clarksville, Maryland — 92 Limo Service",
     "highlightsHeading": "Why Clarksville Rides With 92 Limo Service",
     "intro": [
-      "92 Limo Service is based in Columbia, which means Clarksville is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across River Hill, Pointers Run, Dayton, Highland and Fulton and the rest of Howard County — for airport transfers, corporate travel, weddings and nights out.",
+      "92 Limo Service is based in Laurel, which means Clarksville is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across River Hill, Pointers Run, Dayton, Highland and Fulton and the rest of Howard County — for airport transfers, corporate travel, weddings and nights out.",
       "BWI Marshall is 20 miles from Clarksville, about 25–35 minutes via MD-32 and the BW Parkway. Reagan National is 30 miles (45–60 minutes via US-29, the Beltway and the GW Parkway) and Dulles is 35 miles (45–60 minutes via US-29, the Beltway and the Dulles Toll Road). Every airport ride is flight-tracked, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international, and meet and greet inside baggage claim is available for an additional charge.",
       "Local knowledge is the difference. Our chauffeurs know Clarksville Commons, the River Hill Village Center, Cattail Creek Country Club in Glenwood and the Howard County Conservancy, they know the MD-108 and MD-32 interchange and Clarksville Pike at school dismissal, and they know which hotel — the Columbia hotels along the Merriweather District, the nearest full-service properties — has the awkward driveway. That is why a pickup in Pointers Run at 4:45 a.m. leaves on time.",
       "Clarksville clients book us for Cattail Creek and Glenwood weddings, River Hill High School proms, Larriland Farm weekends, Merriweather concerts and I-95 corridor airport runs. Corporate accounts from Johns Hopkins APL in Laurel and other employers get monthly invoicing and a dedicated contact; wedding parties at Cattail Creek Country Club get a Sprinter or limousine and a chauffeur who has worked the venue before."
@@ -1886,7 +1886,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Luxury chauffeured vehicle serving Timonium, Maryland — 92 Limo Service",
     "highlightsHeading": "Why Timonium Rides With 92 Limo Service",
     "intro": [
-      "92 Limo Service is based in Columbia, which means Timonium is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Mays Chapel, Pot Spring, Padonia, Timonium Heights and Yorktowne and the rest of Baltimore County — for airport transfers, corporate travel, weddings and nights out.",
+      "92 Limo Service is based in Laurel, which means Timonium is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Mays Chapel, Pot Spring, Padonia, Timonium Heights and Yorktowne and the rest of Baltimore County — for airport transfers, corporate travel, weddings and nights out.",
       "BWI Marshall is 25 miles from Timonium, about 30–45 minutes via I-83, I-695 and I-97. Reagan National is 55 miles (65–85 minutes via I-83, I-695, the BW Parkway and I-295) and Dulles is 70 miles (80–105 minutes via I-83, I-695, I-95, the Beltway and the Dulles Toll Road). Every airport ride is flight-tracked, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international, and meet and greet inside baggage claim is available for an additional charge.",
       "Local knowledge is the difference. Our chauffeurs know the Maryland State Fairgrounds, the Timonium light-rail station, Timonium Business Park and Hunt Valley Towne Centre, they know the I-83 merge at Padonia Road and York Road during Fair week, and they know which hotel — the Delta Hotels Baltimore Hunt Valley, the Red Lion Hotel Baltimore North and the Holiday Inn Timonium — has the awkward driveway. That is why a pickup in Pot Spring at 4:45 a.m. leaves on time.",
       "Timonium clients book us for Maryland State Fair days, Hunt Valley corporate travel, Oregon Ridge weddings, Timonium fairgrounds shows and pre-dawn BWI runs down I-83. Corporate accounts from the corporate campuses of Timonium Business Park and Hunt Valley and other employers get monthly invoicing and a dedicated contact; wedding parties at Oregon Ridge Park get a Sprinter or limousine and a chauffeur who has worked the venue before."
@@ -2034,7 +2034,7 @@ export const MARYLAND_LANDING_PAGES = {
   },
 
   "lutherville-limo-service": {
-    "metaTitle": "Lutherville Limo Service | Luxury Car Service Lutherville, MD",
+    "metaTitle": "Lutherville Limo Service | Car Service Lutherville, MD",
     "metaDescription": "92 Limo Service in Lutherville, MD — flat-rate airport transfers to BWI, DCA & IAD, corporate, weddings & events. Pro chauffeurs, 24/7. Call (877) 609-1919.",
     "eyebrow": "LUTHERVILLE, MD · BALTIMORE COUNTY",
     "h1": "Lutherville Limo Service",
@@ -2043,7 +2043,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Luxury chauffeured vehicle serving Lutherville, Maryland — 92 Limo Service",
     "highlightsHeading": "Why Lutherville Rides With 92 Limo Service",
     "intro": [
-      "92 Limo Service is based in Columbia, which means Lutherville is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Historic Lutherville, Mays Chapel, Riderwood, Ruxton and Greenspring and the rest of Baltimore County — for airport transfers, corporate travel, weddings and nights out.",
+      "92 Limo Service is based in Laurel, which means Lutherville is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Historic Lutherville, Mays Chapel, Riderwood, Ruxton and Greenspring and the rest of Baltimore County — for airport transfers, corporate travel, weddings and nights out.",
       "BWI Marshall is 23 miles from Lutherville, about 30–45 minutes via I-695 and I-97, or I-83 and I-695. Reagan National is 53 miles (65–85 minutes via I-695, the BW Parkway and I-295) and Dulles is 68 miles (80–105 minutes via I-695, I-95, the Beltway and the Dulles Toll Road). Every airport ride is flight-tracked, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international, and meet and greet inside baggage claim is available for an additional charge.",
       "Local knowledge is the difference. Our chauffeurs know Greenspring Station, the Lutherville light-rail station, the Fire Museum of Maryland and the Historic Lutherville Victorian district, they know the York Road and I-695 interchange and Falls Road at Greenspring Station in the afternoon, and they know which hotel — the Sheraton Baltimore North in Towson and the Hunt Valley hotels — has the awkward driveway. That is why a pickup in Mays Chapel at 4:45 a.m. leaves on time.",
       "Lutherville clients book us for Greenspring Station medical appointments, St. Paul's and Notre Dame Prep events, Ruxton weddings, State Fair week next door and BWI departures. Corporate accounts from the medical practices at Greenspring Station and other employers get monthly invoicing and a dedicated contact; wedding parties at the Historic Lutherville Colonial Hall get a Sprinter or limousine and a chauffeur who has worked the venue before."
@@ -2200,7 +2200,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Luxury chauffeured vehicle serving Phoenix, Maryland — 92 Limo Service",
     "highlightsHeading": "Why Phoenix Rides With 92 Limo Service",
     "intro": [
-      "92 Limo Service is based in Columbia, which means Phoenix is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Sweet Air, Jacksonville, Glen Arm to the south, Sparks and Glencoe and Hunt Valley and the rest of Baltimore County — for airport transfers, corporate travel, weddings and nights out.",
+      "92 Limo Service is based in Laurel, which means Phoenix is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Sweet Air, Jacksonville, Glen Arm to the south, Sparks and Glencoe and Hunt Valley and the rest of Baltimore County — for airport transfers, corporate travel, weddings and nights out.",
       "BWI Marshall is 32 miles from Phoenix, about 40–50 minutes via Jarrettsville Pike, I-695 and I-97. Reagan National is 62 miles (75–95 minutes via I-83, I-695, the BW Parkway and I-295) and Dulles is 78 miles (90–115 minutes via I-83, I-695, I-95, the Beltway and the Dulles Toll Road). Every airport ride is flight-tracked, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international, and meet and greet inside baggage claim is available for an additional charge.",
       "Local knowledge is the difference. Our chauffeurs know Loch Raven Reservoir, Ladew Topiary Gardens in Monkton, Boordy Vineyards in Hydes and Oregon Ridge Park, they know the two-lane Jarrettsville Pike at school hours and the Shawan Road merge onto I-83, and they know which hotel — the Delta Hotels Baltimore Hunt Valley, the nearest full-service property — has the awkward driveway. That is why a pickup in Jacksonville at 4:45 a.m. leaves on time.",
       "Phoenix clients book us for Ladew Gardens and estate weddings, Boordy Vineyards wine tours, Hunt Valley business travel, My Lady's Manor race day and BWI departures from the horse country. Corporate accounts from the Hunt Valley corporate corridor and other employers get monthly invoicing and a dedicated contact; wedding parties at Ladew Topiary Gardens get a Sprinter or limousine and a chauffeur who has worked the venue before."
@@ -2354,7 +2354,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Luxury chauffeured vehicle serving North Bethesda, Maryland — 92 Limo Service",
     "highlightsHeading": "Why North Bethesda Rides With 92 Limo Service",
     "intro": [
-      "92 Limo Service is based in Columbia, which means North Bethesda is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Pike & Rose, White Flint, Luxmanor, Tilden Woods and Old Farm and the rest of Montgomery County — for airport transfers, corporate travel, weddings and nights out.",
+      "92 Limo Service is based in Laurel, which means North Bethesda is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Pike & Rose, White Flint, Luxmanor, Tilden Woods and Old Farm and the rest of Montgomery County — for airport transfers, corporate travel, weddings and nights out.",
       "BWI Marshall is 40 miles from North Bethesda, about 55–70 minutes via the ICC (MD-200) and I-95. Reagan National is 16 miles (30–45 minutes via the I-270 spur, the Beltway and the GW Parkway) and Dulles is 27 miles (40–55 minutes via the Beltway, the American Legion Bridge and the Dulles Toll Road). Every airport ride is flight-tracked, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international, and meet and greet inside baggage claim is available for an additional charge.",
       "Local knowledge is the difference. Our chauffeurs know the Music Center at Strathmore, Pike & Rose, the North Bethesda and Grosvenor-Strathmore Metro stations and the Nuclear Regulatory Commission headquarters, they know Rockville Pike between Montrose and Old Georgetown Road and the I-270 spur merge at the Beltway, and they know which hotel — the Canopy by Hilton at Pike & Rose and the Bethesda North Marriott Hotel & Conference Center — has the awkward driveway. That is why a pickup in White Flint at 4:45 a.m. leaves on time.",
       "North Bethesda clients book us for Strathmore concerts, Bethesda North Marriott conferences and weddings, Georgetown Prep events, Pike & Rose dinners and NIH visits. Corporate accounts from the Nuclear Regulatory Commission and other employers get monthly invoicing and a dedicated contact; wedding parties at the Bethesda North Marriott Hotel & Conference Center get a Sprinter or limousine and a chauffeur who has worked the venue before."
@@ -2502,7 +2502,7 @@ export const MARYLAND_LANDING_PAGES = {
   },
 
   "north-potomac-limo-service": {
-    "metaTitle": "North Potomac Limo Service | Luxury Car Service North Potomac, MD",
+    "metaTitle": "North Potomac Limo Service | 92 Limo Service",
     "metaDescription": "92 Limo Service in North Potomac, MD — flat-rate airport transfers to BWI, DCA & IAD, corporate, weddings & events. Pro chauffeurs, 24/7. Call (877) 609-1919.",
     "eyebrow": "NORTH POTOMAC, MD · MONTGOMERY COUNTY",
     "h1": "North Potomac Limo Service",
@@ -2511,7 +2511,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Luxury chauffeured vehicle serving North Potomac, Maryland — 92 Limo Service",
     "highlightsHeading": "Why North Potomac Rides With 92 Limo Service",
     "intro": [
-      "92 Limo Service is based in Columbia, which means North Potomac is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Travilah, Potomac Chase, Dufief, Quince Orchard Park and Fallsmead and the rest of Montgomery County — for airport transfers, corporate travel, weddings and nights out.",
+      "92 Limo Service is based in Laurel, which means North Potomac is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Travilah, Potomac Chase, Dufief, Quince Orchard Park and Fallsmead and the rest of Montgomery County — for airport transfers, corporate travel, weddings and nights out.",
       "BWI Marshall is 48 miles from North Potomac, about 60–75 minutes via I-270, the ICC (MD-200) and I-95. Reagan National is 27 miles (45–60 minutes via I-270, the Beltway and the GW Parkway) and Dulles is 30 miles (45–60 minutes via I-270, the Beltway and the Dulles Toll Road). Every airport ride is flight-tracked, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international, and meet and greet inside baggage claim is available for an additional charge.",
       "Local knowledge is the difference. Our chauffeurs know Muddy Branch Park, Thomas S. Wootton High School, Quince Orchard High School and Blockhouse Point Conservation Park, they know Darnestown Road at Quince Orchard Road in the morning and the I-270 spur in the afternoon, and they know which hotel — the Gaithersburg Marriott Washingtonian Center and the Rio hotels — has the awkward driveway. That is why a pickup in Potomac Chase at 4:45 a.m. leaves on time.",
       "North Potomac clients book us for Wootton and Quince Orchard proms, Potomac estate weddings, I-270 executive travel, Falls Road golf outings and Dulles international departures. Corporate accounts from the I-270 biotech corridor and other employers get monthly invoicing and a dedicated contact; wedding parties at the Potomac estate venues along Travilah Road get a Sprinter or limousine and a chauffeur who has worked the venue before."
@@ -2659,7 +2659,7 @@ export const MARYLAND_LANDING_PAGES = {
   },
 
   "gibson-island-limo-service": {
-    "metaTitle": "Gibson Island Limo Service | Luxury Car Service Gibson Island, MD",
+    "metaTitle": "Gibson Island Limo Service | 92 Limo Service",
     "metaDescription": "92 Limo Service in Gibson Island, MD — flat-rate airport transfers to BWI, DCA & IAD, corporate, weddings & events. Pro chauffeurs, 24/7. Call (877) 609-1919.",
     "eyebrow": "GIBSON ISLAND, MD · ANNE ARUNDEL COUNTY",
     "h1": "Gibson Island Limo Service",
@@ -2668,7 +2668,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Luxury chauffeured vehicle serving Gibson Island, Maryland — 92 Limo Service",
     "highlightsHeading": "Why Gibson Island Rides With 92 Limo Service",
     "intro": [
-      "92 Limo Service is based in Columbia, which means Gibson Island is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across the island's Magothy shore, the Chesapeake Bay side, Otter Pond, the Gibson Island Club grounds and Lake Shore and Pasadena on the mainland and the rest of Anne Arundel County — for airport transfers, corporate travel, weddings and nights out.",
+      "92 Limo Service is based in Laurel, which means Gibson Island is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across the island's Magothy shore, the Chesapeake Bay side, Otter Pond, the Gibson Island Club grounds and Lake Shore and Pasadena on the mainland and the rest of Anne Arundel County — for airport transfers, corporate travel, weddings and nights out.",
       "BWI Marshall is 18 miles from Gibson Island, about 25–35 minutes via Mountain Road (MD-177), MD-100 and I-97. Reagan National is 45 miles (60–80 minutes via MD-100, the BW Parkway and I-295) and Dulles is 65 miles (80–100 minutes via MD-100, the BW Parkway, the Beltway and the Dulles Toll Road). Every airport ride is flight-tracked, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international, and meet and greet inside baggage claim is available for an additional charge.",
       "Local knowledge is the difference. Our chauffeurs know the Gibson Island Club and its golf course, the Gibson Island Yacht Squadron, Otter Pond and the gatehouse at the causeway, they know the two-lane Mountain Road corridor through Pasadena and the gatehouse check-in, which we clear in advance with your name, and they know which hotel — the island has none — guests stay at the Annapolis or BWI hotels and we shuttle them through the gate — has the awkward driveway. That is why a pickup in the Chesapeake Bay side at 4:45 a.m. leaves on time.",
       "Gibson Island clients book us for Gibson Island Club weddings and regattas, holiday house-party arrivals, international departures from BWI and Dulles and Baltimore and Washington business days. Corporate accounts from the Baltimore and Annapolis firms whose principals live on the island and other employers get monthly invoicing and a dedicated contact; wedding parties at the Gibson Island Club get a Sprinter or limousine and a chauffeur who has worked the venue before."
@@ -2810,7 +2810,7 @@ export const MARYLAND_LANDING_PAGES = {
   },
 
   "stevensville-limo-service": {
-    "metaTitle": "Stevensville Limo Service | Luxury Car Service Stevensville, MD",
+    "metaTitle": "Stevensville Limo Service | 92 Limo Service",
     "metaDescription": "92 Limo Service in Stevensville, MD — flat-rate airport transfers to BWI, DCA & IAD, corporate, weddings & events. Pro chauffeurs, 24/7. Call (877) 609-1919.",
     "eyebrow": "STEVENSVILLE, MD · QUEEN ANNE'S COUNTY",
     "h1": "Stevensville Limo Service",
@@ -2819,7 +2819,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Luxury chauffeured vehicle serving Stevensville, Maryland — 92 Limo Service",
     "highlightsHeading": "Why Stevensville Rides With 92 Limo Service",
     "intro": [
-      "92 Limo Service is based in Columbia, which means Stevensville is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Historic Stevensville, Bay City, Cloverfields, Kent Narrows and Romancoke and the rest of Queen Anne's County — for airport transfers, corporate travel, weddings and nights out.",
+      "92 Limo Service is based in Laurel, which means Stevensville is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Historic Stevensville, Bay City, Cloverfields, Kent Narrows and Romancoke and the rest of Queen Anne's County — for airport transfers, corporate travel, weddings and nights out.",
       "BWI Marshall is 32 miles from Stevensville, about 40–55 minutes via the Bay Bridge, US-50 and I-97. Reagan National is 45 miles (60–80 minutes via the Bay Bridge, US-50, the Beltway and the GW Parkway) and Dulles is 65 miles (80–100 minutes via the Bay Bridge, US-50, the Beltway and the Dulles Toll Road). Every airport ride is flight-tracked, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international, and meet and greet inside baggage claim is available for an additional charge.",
       "Local knowledge is the difference. Our chauffeurs know the Chesapeake Bay Beach Club, Kent Narrows and its crab houses, the Kent Island Yacht Club and Terrapin Nature Park, they know Bay Bridge backups on summer weekends and the Kent Narrows drawbridge on boating days, and they know which hotel — the Hilton Garden Inn Kent Island and the Chesapeake Bay Beach Club inn — has the awkward driveway. That is why a pickup in Bay City at 4:45 a.m. leaves on time.",
       "Stevensville clients book us for Chesapeake Bay Beach Club weddings, Kent Narrows dinners, the Bay Bridge Boat Show in April, Terrapin Park outings and BWI departures across the bridge. Corporate accounts from the Queen Anne's County government in Centreville and other employers get monthly invoicing and a dedicated contact; wedding parties at the Chesapeake Bay Beach Club get a Sprinter or limousine and a chauffeur who has worked the venue before."
@@ -2967,7 +2967,7 @@ export const MARYLAND_LANDING_PAGES = {
   },
 
   "chevy-chase-limo-service": {
-    "metaTitle": "Chevy Chase Limo Service | Luxury Car Service Chevy Chase, MD",
+    "metaTitle": "Chevy Chase Limo Service | Car Service Chevy Chase, MD",
     "metaDescription": "92 Limo Service in Chevy Chase, MD — flat-rate airport transfers to BWI, DCA & IAD, corporate, weddings & events. Pro chauffeurs, 24/7. Call (877) 609-1919.",
     "eyebrow": "CHEVY CHASE, MD · MONTGOMERY COUNTY",
     "h1": "Chevy Chase Limo Service",
@@ -2976,7 +2976,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Luxury chauffeured vehicle serving Chevy Chase, Maryland — 92 Limo Service",
     "highlightsHeading": "Why Chevy Chase Rides With 92 Limo Service",
     "intro": [
-      "92 Limo Service is based in Columbia, which means Chevy Chase is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Chevy Chase Village, the Town of Chevy Chase, Martin's Additions, Chevy Chase Section 3 and Section 5 and Friendship Heights and the rest of Montgomery County — for airport transfers, corporate travel, weddings and nights out.",
+      "92 Limo Service is based in Laurel, which means Chevy Chase is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Chevy Chase Village, the Town of Chevy Chase, Martin's Additions, Chevy Chase Section 3 and Section 5 and Friendship Heights and the rest of Montgomery County — for airport transfers, corporate travel, weddings and nights out.",
       "BWI Marshall is 36 miles from Chevy Chase, about 50–65 minutes via the Beltway and the BW Parkway. Reagan National is 11 miles (25–40 minutes via Connecticut Avenue through Rock Creek Park, or the Beltway and the GW Parkway) and Dulles is 28 miles (40–55 minutes via the Beltway, the American Legion Bridge and the Dulles Toll Road). Every airport ride is flight-tracked, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international, and meet and greet inside baggage claim is available for an additional charge.",
       "Local knowledge is the difference. Our chauffeurs know the Friendship Heights Metro station, the Collection at Chevy Chase, the Chevy Chase Club and Columbia Country Club, they know Connecticut Avenue at Chevy Chase Circle and Wisconsin Avenue through Friendship Heights at rush hour, and they know which hotel — the Bethesda hotels and the Embassy Suites Chevy Chase Pavilion in Friendship Heights — has the awkward driveway. That is why a pickup in the Town of Chevy Chase at 4:45 a.m. leaves on time.",
       "Chevy Chase clients book us for Chevy Chase Club and Columbia Country Club weddings, embassy dinners, Friendship Heights shopping days, Rock Creek Park photo stops and Dulles international departures. Corporate accounts from GEICO and other employers get monthly invoicing and a dedicated contact; wedding parties at the Chevy Chase Club get a Sprinter or limousine and a chauffeur who has worked the venue before."
@@ -3123,7 +3123,7 @@ export const MARYLAND_LANDING_PAGES = {
     "ctaSubtitle": "Flat-rate luxury transportation anywhere in Chevy Chase, MD — reserve in minutes or call (877) 609-1919."
   },
 
-  "snopesville-limo-service": {
+  "sykesville-limo-service": {
     "metaTitle": "Sykesville Limo Service | Luxury Car Service Sykesville, MD",
     "metaDescription": "92 Limo Service in Sykesville, MD — flat-rate airport transfers to BWI, DCA & IAD, corporate, weddings & events. Pro chauffeurs, 24/7. Call (877) 609-1919.",
     "eyebrow": "SYKESVILLE, MD · CARROLL COUNTY",
@@ -3133,7 +3133,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Luxury chauffeured vehicle serving Sykesville, Maryland — 92 Limo Service",
     "highlightsHeading": "Why Sykesville Rides With 92 Limo Service",
     "intro": [
-      "92 Limo Service is based in Columbia, which means Sykesville is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Historic Downtown Sykesville, the Freedom District, Eldersburg, Fairhaven and Springfield and the rest of Carroll County — for airport transfers, corporate travel, weddings and nights out.",
+      "92 Limo Service is based in Laurel, which means Sykesville is home territory, not a dot on a service map. We run chauffeured sedans, SUVs, Sprinter vans and stretch limousines across Historic Downtown Sykesville, the Freedom District, Eldersburg, Fairhaven and Springfield and the rest of Carroll County — for airport transfers, corporate travel, weddings and nights out.",
       "BWI Marshall is 30 miles from Sykesville, about 40–50 minutes via MD-32 and the BW Parkway. Reagan National is 55 miles (70–90 minutes via MD-32, I-70, I-270 and the Beltway) and Dulles is 55 miles (70–90 minutes via MD-32, I-70, I-270 and the Dulles Toll Road). Every airport ride is flight-tracked, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international, and meet and greet inside baggage claim is available for an additional charge.",
       "Local knowledge is the difference. Our chauffeurs know Sykesville's Main Street and the restored B&O station, Patapsco Valley State Park, Piney Run Park and the Springfield Hospital Center grounds, they know MD-32 at the I-70 interchange and Liberty Road through Eldersburg at rush hour, and they know which hotel — the Columbia and BWI hotels, the nearest full-service properties — has the awkward driveway. That is why a pickup in the Freedom District at 4:45 a.m. leaves on time.",
       "Sykesville clients book us for Main Street weddings and Patapsco Valley receptions, Old Westminster wine tours, Freedom District proms, Liberty Road commuters flying BWI and Baltimore nights out. Corporate accounts from the Springfield Hospital Center and other employers get monthly invoicing and a dedicated contact; wedding parties at the Sykesville Main Street event spaces get a Sprinter or limousine and a chauffeur who has worked the venue before."
@@ -3674,7 +3674,7 @@ export const MARYLAND_LANDING_PAGES = {
   },
 
   "dca-to-bethesda": {
-    "metaTitle": "Reagan National Airport to Bethesda Car Service | 92 Limo Service",
+    "metaTitle": "DCA Airport to Bethesda Car Service | 92 Limo Service",
     "metaDescription": "Luxury car service from DCA Airport to Bethesda — 13 miles, 25–40 minutes. Flat-rate transfers with flight tracking and meet & greet. Call (877) 609-1919.",
     "eyebrow": "DCA → BETHESDA",
     "h1": "Reagan National Airport to Bethesda Car Service",
@@ -4691,7 +4691,7 @@ export const MARYLAND_LANDING_PAGES = {
     ],
     "faqs": [
       {
-        "q": "How is maryland wedding limo priced?",
+        "q": "How is Maryland wedding limo priced?",
         "a": "Point-to-point trips are flat rate; multi-stop days are hourly with a minimum — both quoted before you book with every charge disclosed. Call (877) 609-1919."
       },
       {
@@ -4819,7 +4819,7 @@ export const MARYLAND_LANDING_PAGES = {
     ],
     "faqs": [
       {
-        "q": "How is maryland corporate car service priced?",
+        "q": "How is Maryland corporate car service priced?",
         "a": "Point-to-point trips are flat rate; multi-stop days are hourly with a minimum — both quoted before you book with every charge disclosed. Call (877) 609-1919."
       },
       {
@@ -4947,7 +4947,7 @@ export const MARYLAND_LANDING_PAGES = {
     ],
     "faqs": [
       {
-        "q": "How is maryland prom limo priced?",
+        "q": "How is Maryland prom limo priced?",
         "a": "Point-to-point trips are flat rate; multi-stop days are hourly with a minimum — both quoted before you book with every charge disclosed. Call (877) 609-1919."
       },
       {
@@ -5075,7 +5075,7 @@ export const MARYLAND_LANDING_PAGES = {
     ],
     "faqs": [
       {
-        "q": "How is maryland concert transportation priced?",
+        "q": "How is Maryland concert transportation priced?",
         "a": "Point-to-point trips are flat rate; multi-stop days are hourly with a minimum — both quoted before you book with every charge disclosed. Call (877) 609-1919."
       },
       {
@@ -5203,7 +5203,7 @@ export const MARYLAND_LANDING_PAGES = {
     ],
     "faqs": [
       {
-        "q": "How is maryland wine tour transportation priced?",
+        "q": "How is Maryland wine tour transportation priced?",
         "a": "Point-to-point trips are flat rate; multi-stop days are hourly with a minimum — both quoted before you book with every charge disclosed. Call (877) 609-1919."
       },
       {
@@ -5233,7 +5233,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Chauffeured vehicle for Pimlico Race Course — 92 Limo Service",
     "highlightsHeading": "How 92 Limo Service Handles Pimlico Race Course",
     "intro": [
-      "92 Limo Service is based in Columbia, so Pimlico Race Course — 5201 Park Heights Avenue, Baltimore, MD 21215 — is a route our chauffeurs drive constantly for the Preakness, Black-Eyed Susan Day and the Maryland Jockey Club's spring meet. We take Northern Parkway from I-83 or I-695, Park Heights Avenue, Belvedere Avenue and Hayward Avenue, drop you at the entrance and stage the vehicle for a pickup outside the crowd.",
+      "92 Limo Service is based in Laurel, so Pimlico Race Course — 5201 Park Heights Avenue, Baltimore, MD 21215 — is a route our chauffeurs drive constantly for the Preakness, Black-Eyed Susan Day and the Maryland Jockey Club's spring meet. We take Northern Parkway from I-83 or I-695, Park Heights Avenue, Belvedere Avenue and Hayward Avenue, drop you at the entrance and stage the vehicle for a pickup outside the crowd.",
       "When it happens: Pimlico is being rebuilt: the 2026 Preakness ran at Laurel Park while construction continues, and the Preakness is scheduled to return to the new Pimlico in May 2027 with a spring meet built around it. Check the Maryland Jockey Club calendar for the current racing schedule and gate times.",
       "Parking: Pimlico's on-site lots and the Park Heights neighborhood spots fill hours before a big card, exit traffic on Northern Parkway is police-managed, and the rebuilt facility is expected to reshape the lots again in 2027 — one more reason not to drive.",
       "Pickup and drop-off: We drop at the clubhouse entrance on Hayward Avenue or the Preakness gate on Park Heights, and pick up at a pre-set corner on Northern Parkway or Belvedere so you are not standing in the post-race exodus. Nearby stops we combine with the event include Laurel Park, home of the 2026 Preakness, the Mount Washington restaurants, the Baltimore Country Club and Sinai Hospital.",
@@ -5360,7 +5360,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Chauffeured vehicle for Maryland State Fair — 92 Limo Service",
     "highlightsHeading": "How 92 Limo Service Handles Maryland State Fair",
     "intro": [
-      "92 Limo Service is based in Columbia, so the Maryland State Fair — Maryland State Fairgrounds, 2200 York Road, Timonium, MD 21093 — is a route our chauffeurs drive constantly for the Maryland State Fair, fairgrounds concerts and the Timonium Thoroughbred meet. We take I-83 exits 16 and 17, York Road (MD-45), Timonium Road and Padonia Road, drop you at the entrance and stage the vehicle for a pickup outside the crowd.",
+      "92 Limo Service is based in Laurel, so the Maryland State Fair — Maryland State Fairgrounds, 2200 York Road, Timonium, MD 21093 — is a route our chauffeurs drive constantly for the Maryland State Fair, fairgrounds concerts and the Timonium Thoroughbred meet. We take I-83 exits 16 and 17, York Road (MD-45), Timonium Road and Padonia Road, drop you at the entrance and stage the vehicle for a pickup outside the crowd.",
       "When it happens: The fair runs over three long weekends from late August through Labor Day weekend, Thursday through Sunday, with concerts, the Thoroughbred meet and the midway open into the evening; the busiest hours are Saturday afternoons and concert nights.",
       "Parking: Fairgrounds parking charges per car and the York Road lots fill by early afternoon on weekends; overflow lots sit a shuttle ride away and the light-rail station beside the grounds is packed after the concerts.",
       "Pickup and drop-off: We drop at the Timonium Road gate or the York Road main gate and set a pickup at the Timonium light-rail station side or a Padonia Road corner, away from the gridlock at the main lots. Nearby stops we combine with the event include Hunt Valley Towne Centre, the Delta Hotels Baltimore Hunt Valley, Greenspring Station and Oregon Ridge Park.",
@@ -5487,7 +5487,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Chauffeured vehicle for Oriole Park at Camden Yards — 92 Limo Service",
     "highlightsHeading": "How 92 Limo Service Handles Oriole Park at Camden Yards",
     "intro": [
-      "92 Limo Service is based in Columbia, so Oriole Park at Camden Yards — 333 West Camden Street, Baltimore, MD 21201 — is a route our chauffeurs drive constantly for Orioles home games, Opening Day, the postseason and Camden Yards concerts. We take I-395 to Conway Street, I-95 exit 52 to Russell Street, and Camden, Eutaw and Pratt Streets around the ballpark, drop you at the entrance and stage the vehicle for a pickup outside the crowd.",
+      "92 Limo Service is based in Laurel, so Oriole Park at Camden Yards — 333 West Camden Street, Baltimore, MD 21201 — is a route our chauffeurs drive constantly for Orioles home games, Opening Day, the postseason and Camden Yards concerts. We take I-395 to Conway Street, I-95 exit 52 to Russell Street, and Camden, Eutaw and Pratt Streets around the ballpark, drop you at the entrance and stage the vehicle for a pickup outside the crowd.",
       "When it happens: The Orioles play home games from late March through September, with October postseason dates when the season goes long; gates open 90 minutes before first pitch and Eutaw Street opens earlier for Friday and Saturday games.",
       "Parking: Lots A, B and C are permit-controlled and the Camden Street garages sell out for weekend series; game-day street parking in Federal Hill and Ridgely's Delight is restricted, and Conway Street is a parking lot after the ninth inning.",
       "Pickup and drop-off: Drop-off is on Camden Street at the Eutaw Street gate or on Conway Street at the home plate entrance; for pickup we meet on Pratt Street or at a Federal Hill corner and time the return so the car pulls up as you walk out. Nearby stops we combine with the event include M&T Bank Stadium, the Inner Harbor and Harborplace, the Hilton Baltimore across from the park and Federal Hill and Cross Street Market.",
@@ -5614,7 +5614,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Chauffeured vehicle for University of Maryland — 92 Limo Service",
     "highlightsHeading": "How 92 Limo Service Handles University of Maryland",
     "intro": [
-      "92 Limo Service is based in Columbia, so the University of Maryland — University of Maryland, College Park, MD 20742 — is a route our chauffeurs drive constantly for commencement, Maryland Day, football and basketball games and August move-in. We take US-1 (Baltimore Avenue), Campus Drive, Stadium Drive, MD-193 (University Boulevard) and I-495 exit 25, drop you at the entrance and stage the vehicle for a pickup outside the crowd.",
+      "92 Limo Service is based in Laurel, so the University of Maryland — University of Maryland, College Park, MD 20742 — is a route our chauffeurs drive constantly for commencement, Maryland Day, football and basketball games and August move-in. We take US-1 (Baltimore Avenue), Campus Drive, Stadium Drive, MD-193 (University Boulevard) and I-495 exit 25, drop you at the entrance and stage the vehicle for a pickup outside the crowd.",
       "When it happens: The calendar peaks at August move-in, Maryland Day in late April, commencement in mid-to-late May, Terps football Saturdays at SECU Stadium from September through November and Xfinity Center basketball from November through March.",
       "Parking: Campus garages and Lot 1 are permit-controlled on weekdays and sell out for football and commencement; Route 1 backs up from the Beltway to campus on game days and the College Park Metro garage fills by kickoff.",
       "Pickup and drop-off: We drop at the Stamp Student Union circle, SECU Stadium's Gate B on Stadium Drive, the Xfinity Center loop or the dorm curb for move-in, and pick up at a pre-set corner on Campus Drive or at The Hotel at the University of Maryland. Nearby stops we combine with the event include The Hotel at the University of Maryland, the Cambria College Park, Route 1's restaurants and the Board and Brew and the Hyattsville Arts District.",
@@ -5741,7 +5741,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Chauffeured vehicle for Navy-Marine Corps Memorial Stadium — 92 Limo Service",
     "highlightsHeading": "How 92 Limo Service Handles Navy-Marine Corps Memorial Stadium",
     "intro": [
-      "92 Limo Service is based in Columbia, so Navy-Marine Corps Memorial Stadium — 550 Taylor Avenue, Annapolis, MD 21401 — is a route our chauffeurs drive constantly for Navy football, commissioning week graduation, Navy lacrosse and the Military Bowl. We take Rowe Boulevard from US-50 exit 24, Taylor Avenue, Cedar Park Road and Farragut Road, drop you at the entrance and stage the vehicle for a pickup outside the crowd.",
+      "92 Limo Service is based in Laurel, so Navy-Marine Corps Memorial Stadium — 550 Taylor Avenue, Annapolis, MD 21401 — is a route our chauffeurs drive constantly for Navy football, commissioning week graduation, Navy lacrosse and the Military Bowl. We take Rowe Boulevard from US-50 exit 24, Taylor Avenue, Cedar Park Road and Farragut Road, drop you at the entrance and stage the vehicle for a pickup outside the crowd.",
       "When it happens: Navy football home games run September through November, the Naval Academy graduation and commissioning ceremony fills the stadium in late May, and Navy lacrosse plays here in the spring; the Blue and Gold parking lots open four hours before kickoff.",
       "Parking: The Blue and Gold lots are permit-based for football and fill for commissioning; Rowe Boulevard is one lane each way into the stadium and the exit onto US-50 after a game or graduation can take an hour.",
       "Pickup and drop-off: We drop at the Taylor Avenue or Farragut Road gates and pick up at a pre-set corner on Cedar Park Road or in West Annapolis, or at your downtown hotel if you would rather walk to City Dock after the game and let the lots empty. Nearby stops we combine with the event include the Naval Academy Yard, downtown Annapolis and City Dock, the Westin Annapolis and Graduate Annapolis and the Historic Inns of Annapolis.",
@@ -5868,7 +5868,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Chauffeured vehicle for National Harbor — 92 Limo Service",
     "highlightsHeading": "How 92 Limo Service Handles National Harbor",
     "intro": [
-      "92 Limo Service is based in Columbia, so National Harbor — National Harbor, Oxon Hill, MD 20745 — is a route our chauffeurs drive constantly for Gaylord conventions, ICE!, MGM concerts and shows, Capital Wheel weekends and Tanger Outlets trips. We take I-295 and the Beltway (I-495) exit 2 at the Woodrow Wilson Bridge, National Harbor Boulevard, Oxon Hill Road and MGM National Avenue, drop you at the entrance and stage the vehicle for a pickup outside the crowd.",
+      "92 Limo Service is based in Laurel, so National Harbor — National Harbor, Oxon Hill, MD 20745 — is a route our chauffeurs drive constantly for Gaylord conventions, ICE!, MGM concerts and shows, Capital Wheel weekends and Tanger Outlets trips. We take I-295 and the Beltway (I-495) exit 2 at the Woodrow Wilson Bridge, National Harbor Boulevard, Oxon Hill Road and MGM National Avenue, drop you at the entrance and stage the vehicle for a pickup outside the crowd.",
       "When it happens: The Gaylord National's ICE! runs from mid-November through New Year's, MGM National Harbor hosts headliners year-round, and the convention calendar peaks in spring and fall; the Capital Wheel and the waterfront restaurants are busiest on summer weekends.",
       "Parking: The Fleet Street and St. George garages charge daily rates that climb during ICE! and conventions, MGM's garage backs up onto MGM National Avenue on concert nights and the Wilson Bridge merge is slow both ways every weekday afternoon.",
       "Pickup and drop-off: We drop at the Gaylord National porte-cochère, the MGM valet circle or the Waterfront Street curb by the Capital Wheel, and we pick up wherever you finish — a restaurant, the casino or the Tanger Outlets — with the car staged out of the garage queue. Nearby stops we combine with the event include the Gaylord National Resort, MGM National Harbor, the Capital Wheel and Tanger Outlets National Harbor.",
@@ -5995,7 +5995,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Chauffeured vehicle for Chesapeake Bay Events — 92 Limo Service",
     "highlightsHeading": "How 92 Limo Service Handles Chesapeake Bay Events",
     "intro": [
-      "92 Limo Service is based in Columbia, so Chesapeake Bay Events — Annapolis, Kent Island, St. Michaels and the Chesapeake Bay shoreline — is a route our chauffeurs drive constantly for waterfront weddings, regattas and sailing events, boat shows, Naval Academy weekends and Eastern Shore getaways. We take US-50/301 across the Bay Bridge, MD-2 through Anne Arundel County, MD-33 to St. Michaels and MD-8 down Kent Island, drop you at the entrance and stage the vehicle for a pickup outside the crowd.",
+      "92 Limo Service is based in Laurel, so Chesapeake Bay Events — Annapolis, Kent Island, St. Michaels and the Chesapeake Bay shoreline — is a route our chauffeurs drive constantly for waterfront weddings, regattas and sailing events, boat shows, Naval Academy weekends and Eastern Shore getaways. We take US-50/301 across the Bay Bridge, MD-2 through Anne Arundel County, MD-33 to St. Michaels and MD-8 down Kent Island, drop you at the entrance and stage the vehicle for a pickup outside the crowd.",
       "When it happens: The Bay calendar runs from the Bay Bridge Boat Show and the spring sailboat show in April, through Naval Academy commissioning week and the Blue Angels in late May, summer regattas and waterfront weddings, the October boat shows and the Bay Bridge Run in November.",
       "Parking: Waterfront venues have small gravel lots that fill early, Annapolis garages are metered and crowded on event weekends, and the Bay Bridge is the only way across — Friday afternoons and Sunday evenings routinely back up for miles.",
       "Pickup and drop-off: We drop at the venue's front entrance or the marina gate, hold the vehicle for wedding parties and boat-show visitors, and time Eastern Shore returns around the Bay Bridge traffic so nobody watches the sunset from a standstill. Nearby stops we combine with the event include the Chesapeake Bay Beach Club in Stevensville, St. Michaels and the Inn at Perry Cabin, Sandy Point State Park and Kent Narrows and its crab houses.",
@@ -6122,7 +6122,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Chauffeured vehicle for Annapolis Boat Shows — 92 Limo Service",
     "highlightsHeading": "How 92 Limo Service Handles Annapolis Boat Shows",
     "intro": [
-      "92 Limo Service is based in Columbia, so the Annapolis Boat Shows — City Dock and Ego Alley, Annapolis, MD 21401 — is a route our chauffeurs drive constantly for the sailboat and powerboat shows in October, the spring sailboat show and the Bay Bridge Boat Show. We take Rowe Boulevard from US-50, Duke of Gloucester Street, Compromise Street and Main Street down to City Dock, drop you at the entrance and stage the vehicle for a pickup outside the crowd.",
+      "92 Limo Service is based in Laurel, so the Annapolis Boat Shows — City Dock and Ego Alley, Annapolis, MD 21401 — is a route our chauffeurs drive constantly for the sailboat and powerboat shows in October, the spring sailboat show and the Bay Bridge Boat Show. We take Rowe Boulevard from US-50, Duke of Gloucester Street, Compromise Street and Main Street down to City Dock, drop you at the entrance and stage the vehicle for a pickup outside the crowd.",
       "When it happens: The United States Sailboat Show runs Thursday through Sunday over the second weekend of October, followed by the Powerboat Show the next weekend; the Annapolis Spring Sailboat Show comes in late April and the Bay Bridge Boat Show in Stevensville the same month.",
       "Parking: Downtown closes to most traffic during the shows; the show runs shuttles from the Navy-Marine Corps Stadium lots, garages on Duke of Gloucester and Gorman Streets fill by mid-morning and Eastport's side streets are permit-restricted.",
       "Pickup and drop-off: We drop at the Compromise Street or Main Street curb a block from the show gates, or at the stadium shuttle lot if you prefer, and pick up at a downtown hotel or an Eastport restaurant so the car never enters the closed streets. Nearby stops we combine with the event include the Naval Academy and Gate 1, the Annapolis Yacht Club, the Westin Annapolis and Graduate Annapolis and Eastport's Boatyard Bar & Grill and Carrol's Creek.",
@@ -6240,7 +6240,7 @@ export const MARYLAND_LANDING_PAGES = {
   },
 
   "maryland-renaissance-festival-transportation": {
-    "metaTitle": "Maryland Renaissance Festival Transportation | 92 Limo Service",
+    "metaTitle": "Maryland Renaissance Festival Limo | 92 Limo Service",
     "metaDescription": "Chauffeured transportation to Maryland Renaissance Festival in Crownsville — door drop-off, staged pickup, flat rates. Sedans, SUVs, Sprinter vans & limos. Ca",
     "eyebrow": "FESTIVAL · CROWNSVILLE",
     "h1": "Maryland Renaissance Festival Transportation",
@@ -6249,7 +6249,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Chauffeured vehicle for Maryland Renaissance Festival — 92 Limo Service",
     "highlightsHeading": "How 92 Limo Service Handles Maryland Renaissance Festival",
     "intro": [
-      "92 Limo Service is based in Columbia, so the Maryland Renaissance Festival — 1821 Crownsville Road, Annapolis, MD 21401 — is a route our chauffeurs drive constantly for the Maryland Renaissance Festival weekends, group outings and themed birthday and bachelorette parties. We take I-97 exit 5 to Crownsville Road (MD-178), Generals Highway (MD-178) from Annapolis, and Crownsville Road from Millersville, drop you at the entrance and stage the vehicle for a pickup outside the crowd.",
+      "92 Limo Service is based in Laurel, so the Maryland Renaissance Festival — 1821 Crownsville Road, Annapolis, MD 21401 — is a route our chauffeurs drive constantly for the Maryland Renaissance Festival weekends, group outings and themed birthday and bachelorette parties. We take I-97 exit 5 to Crownsville Road (MD-178), Generals Highway (MD-178) from Annapolis, and Crownsville Road from Millersville, drop you at the entrance and stage the vehicle for a pickup outside the crowd.",
       "When it happens: The festival runs weekends from late August through late October, Saturdays and Sundays plus Labor Day Monday, from 10 a.m. to 7 p.m.; the October weekends are the busiest and rain-day mud is part of the tradition.",
       "Parking: Parking is free in grass fields along Crownsville Road that turn to mud after rain, the two-lane road backs up for a mile at opening and closing, and the walk from the far fields is long in costume and boots.",
       "Pickup and drop-off: We drop at the front gate on Crownsville Road ahead of the parking line and pick up at the same gate or a pre-set spot on Generals Highway; costumes, turkey legs and pottery all ride home in the back of an SUV or Sprinter. Nearby stops we combine with the event include Crownsville and Millersville, Annapolis and City Dock, fifteen minutes away, the Annapolis Mall in Parole and Kinder Farm Park in Millersville.",
@@ -6376,7 +6376,7 @@ export const MARYLAND_LANDING_PAGES = {
     "alt": "Chauffeured vehicle for Preakness Stakes — 92 Limo Service",
     "highlightsHeading": "How 92 Limo Service Handles Preakness Stakes",
     "intro": [
-      "92 Limo Service is based in Columbia, so the Preakness Stakes — Laurel Park in 2026; the rebuilt Pimlico Race Course in Baltimore from 2027 — is a route our chauffeurs drive constantly for the Preakness Stakes, Black-Eyed Susan Day and InfieldFest. We take For Laurel Park, MD-198 and Race Track Road off the BW Parkway or I-95; for Pimlico, Northern Parkway from I-83 or I-695 and Park Heights Avenue, drop you at the entrance and stage the vehicle for a pickup outside the crowd.",
+      "92 Limo Service is based in Laurel, so the Preakness Stakes — Laurel Park in 2026; the rebuilt Pimlico Race Course in Baltimore from 2027 — is a route our chauffeurs drive constantly for the Preakness Stakes, Black-Eyed Susan Day and InfieldFest. We take For Laurel Park, MD-198 and Race Track Road off the BW Parkway or I-95; for Pimlico, Northern Parkway from I-83 or I-695 and Park Heights Avenue, drop you at the entrance and stage the vehicle for a pickup outside the crowd.",
       "When it happens: The Preakness runs on the third Saturday in May, with Black-Eyed Susan Day the Friday before. The 2026 running was held at Laurel Park while Pimlico is rebuilt, and the race is scheduled to return to the new Pimlico on Park Heights Avenue in May 2027 — confirm the venue when you book.",
       "Parking: Preakness parking is limited, permit-heavy and expensive at either track, exits are police-managed with rolling closures, and rideshare pickup zones sit a long walk from the gates in the post-race crush.",
       "Pickup and drop-off: We drop at the clubhouse or general-admission gate and stage the vehicle at a pre-set corner outside the closure perimeter — on Race Track Road or MD-198 at Laurel, or on Northern Parkway at Pimlico — so the ride home starts within minutes of the last race. Nearby stops we combine with the event include Laurel Park and the Laurel Main Street restaurants, the Inner Harbor and Harbor East hotels, Mount Washington and Roland Park and the BWI airport hotels.",

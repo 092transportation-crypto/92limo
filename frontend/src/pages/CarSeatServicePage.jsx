@@ -6,6 +6,7 @@ import { Faq } from "@/components/site/Faq";
 import { CTASection } from "@/components/site/CTASection";
 import { Reveal } from "@/components/site/Reveal";
 import { BRAND, IMAGES } from "@/lib/data";
+import { PAGE_FAQS } from "@/lib/pageFaqs";
 
 const SEAT_TYPES = [
   {
@@ -52,28 +53,7 @@ const TRUST_SIGNALS = [
   { icon: UserCheck, label: "Professional Chauffeurs" },
 ];
 
-const FAQS = [
-  {
-    q: "Is there an extra charge for car seats?",
-    a: "Car seats are available on request for a small add-on fee that is included in your fixed quote up front — no surprises at pickup. Let us know how many seats you need when you book and we'll confirm the exact price.",
-  },
-  {
-    q: "What age/weight car seats do you provide?",
-    a: "We provide three types: infant car seats for babies 0–12 months up to 22 lbs, convertible car seats for children 1–4 years, and booster seats for children 4–8 years. Tell us your child's age and weight when booking and we'll bring the correct seat.",
-  },
-  {
-    q: "How do I request a car seat?",
-    a: "Simply select a car seat when booking online, add it in the reservation notes, or call us at (877) 609-1919. We'll confirm the seat type with you before your trip and have it installed before pickup.",
-  },
-  {
-    q: "Are the car seats clean and sanitized?",
-    a: "Yes. Every car seat is inspected, cleaned, and sanitized before each trip. Our chauffeurs check straps, buckles, and padding, and seats are properly installed in the vehicle before your pickup.",
-  },
-  {
-    q: "Can I bring my own car seat?",
-    a: "Absolutely. You're welcome to bring your own car seat, and your chauffeur will help install it and store it during your trip. If you're flying, we can also stow it with your luggage at no extra charge.",
-  },
-];
+const FAQS = PAGE_FAQS["/car-seat-service"];
 
 export default function CarSeatServicePage() {
   return (

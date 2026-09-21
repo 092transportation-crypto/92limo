@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Reveal } from "@/components/site/Reveal";
+import { Breadcrumbs } from "@/components/site/Breadcrumbs";
 
 // Shared layout + typography for legal pages (Privacy Policy, Terms).
 export const LegalLayout = ({ eyebrow, title, effectiveDate, children }) => (
@@ -12,6 +13,7 @@ export const LegalLayout = ({ eyebrow, title, effectiveDate, children }) => (
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
         >
+          <Breadcrumbs className="mb-5" />
           {eyebrow && (
             <span className="text-xs font-semibold tracking-widest text-[#D4AF37]">{eyebrow}</span>
           )}

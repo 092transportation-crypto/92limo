@@ -5,13 +5,14 @@ import { PageHero } from "@/components/site/PageHero";
 import { WhyChooseUs } from "@/components/site/WhyChooseUs";
 import { CTASection } from "@/components/site/CTASection";
 import { Reveal } from "@/components/site/Reveal";
+import { ChamberBadge } from "@/components/site/ChamberBadge";
 import { IMAGES, FLEET, AIRPORTS } from "@/lib/data";
 import { ABOUT_CONTENT } from "@/lib/staticPages";
 import { pageSchema } from "@/lib/pageSchema";
 
 const TITLE = "About 92 Transportation LLC | Maryland Chauffeurs | 92 Limo";
 const DESCRIPTION =
-  "92 Limo Service is 92 Transportation LLC — a Maryland-based, MD PSC-licensed (Carrier #6325) chauffeur company with 15+ years of industry experience, a real fleet, corporate accounts and 24/7 dispatch.";
+  "92 Limo Service is 92 Transportation LLC — a Maryland PSC-licensed (Carrier #6325) chauffeur company in Laurel, MD with 24/7 dispatch and its own fleet.";
 const SCHEMA = pageSchema("AboutPage", "/about", TITLE, DESCRIPTION, "About");
 
 // Copy lives in lib/staticPages.js (shared with the prerender); icons pair by index.
@@ -75,6 +76,7 @@ export default function AboutPage() {
               </Reveal>
             ))}
           </div>
+          <ChamberBadge className="mt-8" />
         </div>
       </section>
 

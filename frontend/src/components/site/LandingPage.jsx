@@ -10,7 +10,8 @@ import { LANDING_PAGES } from "@/lib/landingPages";
 
 const SITE_URL = "https://www.92limo.com";
 
-// LocalBusiness + Service + FAQPage JSON-LD for every landing page.
+// LocalBusiness + Service JSON-LD for every landing page. FAQPage is injected
+// by <Faq> — emitting it here as well makes Google report a duplicate FAQPage.
 function landingSchema(slug, d) {
   const url = `${SITE_URL}/${slug}`;
   return {
@@ -22,15 +23,12 @@ function landingSchema(slug, d) {
         name: "92 Limo Service",
         telephone: "+1-877-609-1919",
         url: SITE_URL,
-        priceRange: "$$",
+        priceRange: "$$$",
         address: { "@type": "PostalAddress", streetAddress: "9836 Lyon Ave", addressLocality: "Laurel", addressRegion: "MD", postalCode: "20723", addressCountry: "US" },
         areaServed: { "@type": "Place", name: d.eyebrow || "Maryland" },
         openingHours: "Mo-Su 00:00-23:59",
       },
       { "@type": "Service", name: d.h1, url, description: d.metaDescription, provider: { "@id": `${SITE_URL}/#business` } },
-      ...(d.faqs && d.faqs.length
-        ? [{ "@type": "FAQPage", mainEntity: d.faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) }]
-        : []),
     ],
   };
 }

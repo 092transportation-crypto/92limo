@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /admin
+Disallow: /card
+Disallow: /api/
 
 Sitemap: https://www.92limo.com/sitemap.xml

@@ -54,10 +54,14 @@ function loadData() {
   // Import-free modules: long-form static page copy + its JSON-LD builder.
   const plain = (file) =>
     fs.readFileSync(path.join(ROOT, file), "utf8").replace(/export\s+/g, "");
-  const staticSrc = `${plain("src/lib/staticPages.js")}\n${plain("src/lib/pageSchema.js")}`;
+  const staticSrc = [
+    "src/lib/staticPages.js", "src/lib/pageSchema.js", "src/lib/pageFaqs.js",
+    "src/lib/breadcrumbs.js", "src/lib/guides.js", "src/lib/blogPosts.js",
+  ].map(plain).join("\n");
+  const batch3Src = plain("src/lib/marylandPagesBatch3.js");
   const ctx = { console };
   vm.runInNewContext(
-    `${dataSrc}\n${generatedSrc}\n${marylandSrc}\n${landingSrc}\n${staticSrc}\nthis.__data = { SERVICE_PAGES, LANDING_PAGES, CITIES, HOME_ABOUT, EXTERNAL_LINKS, FAQS, AREAS, WHY, SOCIAL, CHAMBER, AIRPORTS, FLEET, POLICY, BOOKING_CONTENT, CONTACT_CONTENT, ABOUT_CONTENT, pageSchema };`,
+    `${dataSrc}\n${generatedSrc}\n${marylandSrc}\n${batch3Src}\n${landingSrc}\n${staticSrc}\nthis.__data = { TESTIMONIALS, NAV_SERVICES, PAGE_FAQS, cityFaqs, breadcrumbTrail, breadcrumbSchema, GUIDES, BLOG_POSTS, PRESS_CONTENT, PARTNERS_CONTENT, SERVICE_PAGES, LANDING_PAGES, CITIES, HOME_ABOUT, EXTERNAL_LINKS, FAQS, AREAS, WHY, SOCIAL, CHAMBER, AIRPORTS, FLEET, POLICY, BOOKING_CONTENT, CONTACT_CONTENT, ABOUT_CONTENT, pageSchema };`,
     ctx
   );
   return ctx.__data;
@@ -113,7 +117,7 @@ const STATIC_PAGES = {
   "/service-areas": {
     title: "All Service Areas | Cities, Airports & Routes | 92 Limo",
     description:
-      "Every location 92 Limo Service covers — Maryland, Washington DC, Northern Virginia, Delaware & Pennsylvania cities, BWI/DCA/IAD/PHL airports, point-to-point routes and event venues.",
+      "Every location 92 Limo Service covers — Maryland, DC, Northern Virginia, Delaware & Pennsylvania cities, airports, routes and event venues.",
     h1: "Everywhere We Serve",
     paras: [
       "Luxury chauffeur service throughout Maryland, Washington DC, and Northern Virginia — plus long-distance trips up and down the East Coast.",
@@ -122,7 +126,7 @@ const STATIC_PAGES = {
   "/about": {
     title: "About 92 Transportation LLC | Maryland Chauffeurs | 92 Limo",
     description:
-      "92 Limo Service is 92 Transportation LLC — a Maryland-based, MD PSC-licensed (Carrier #6325) chauffeur company with 15+ years of industry experience, a real fleet, corporate accounts and 24/7 dispatch.",
+      "92 Limo Service is 92 Transportation LLC — a Maryland PSC-licensed (Carrier #6325) chauffeur company in Laurel, MD with 24/7 dispatch and its own fleet.",
     h1: "The Standard for Luxury Chauffeur Service",
     paras: [
       "92 Limo Service is the trade name of 92 Transportation LLC, a Maryland-based luxury ground transportation company licensed by the Maryland Public Service Commission as Carrier #6325, with commercially insured vehicles and 24/7 live dispatch.",
@@ -196,13 +200,34 @@ const STATIC_PAGES = {
   "/policies": {
     title: "Booking & Cancellation Policies | 92 Limo Service",
     description:
-      "92 Limo Service booking policies — pricing inclusions, cancellation, waiting time (45/60 min airport, 15 min standard), no-show, vehicle substitution and payment authorization.",
+      "92 Limo Service policies — pricing inclusions, cancellation (3 h / 12 h), waiting time (45/60 min airport), no-show and vehicle substitution.",
     h1: "Booking & Service Policies",
     paras: [
       "Your quoted rate includes the base transportation charge. Driver gratuity, parking, tolls, additional waiting time, and other applicable charges will be clearly disclosed before confirmation.",
       "Waiting time: airport pickups include 45 minutes complimentary on domestic arrivals and 60 minutes on international arrivals; all other pickups include 15 minutes. Cancellation, no-show, vehicle substitution and payment authorization policies are published in full on this page.",
     ],
   },
+  "/blog": {
+    title: "Blog | Chauffeur & Airport Travel Tips | 92 Limo Service",
+    description:
+      "Airport guides, rideshare comparisons and local transportation advice for Maryland, DC & Virginia from the 92 Limo Service team.",
+    h1: "The 92 Limo Service Blog",
+    paras: [
+      "Practical guides to airport transportation at BWI, DCA and IAD, honest comparisons of chauffeured car service with rideshare, and local transportation guides for Maryland cities — written by the team that drives these routes every day.",
+    ],
+  },
+  "/car-seat-service": {
+    title: "Car Seat Airport Transfers MD | 92 Limo Service",
+    description:
+      "Safe, clean car seats for infants, toddlers & kids on every airport transfer. Inspected, sanitized & chauffeur-installed. Book 24/7: (877) 609-1919.",
+    h1: "Car Seat Service — Safe Airport Transportation for Families",
+    paras: [
+      "We provide safe, clean car seats for infants, toddlers, and children on all airport transfers — installed by your chauffeur before pickup.",
+      "Three seat types are available on request: infant car seats, convertible car seats and booster seats. Tell us your child's age when you book and the right seat is inspected, sanitized and installed before the vehicle arrives.",
+    ],
+  },
+  "/press": { fromContent: "PRESS_CONTENT" },
+  "/partners": { fromContent: "PARTNERS_CONTENT" },
   "/coverage": {
     title: "Coverage Area | MD, DC, VA, DE & PA | 92 Limo Service",
     description:
@@ -242,7 +267,7 @@ const RICH_STATIC = {
       `<p>${a("/policies", "Read our full booking, cancellation and no-show policies")}</p>` +
       copySections(c.sections) +
       faqBlock(c.faqHeading, c.faqs) +
-      ldJson(data.pageSchema("WebPage", "/booking", s.title, s.description, "Book a Ride"))
+      ldJson(data.pageSchema("WebPage", "/booking", s.title, s.description))
     );
   },
   "/contact": (s, data) => {
@@ -258,7 +283,7 @@ const RICH_STATIC = {
       copyCards(c.reachHeading, c.reach) +
       copySections(c.sections) +
       faqBlock(c.faqHeading, c.faqs) +
-      ldJson(data.pageSchema("ContactPage", "/contact", s.title, s.description, "Contact"))
+      ldJson(data.pageSchema("ContactPage", "/contact", s.title, s.description))
     );
   },
   "/about": (s, data) => {
@@ -278,20 +303,59 @@ const RICH_STATIC = {
       ul((data.FLEET || []).map((v) => `${esc(v.category)} — ${esc(v.name)} (${esc(v.pax)} passengers · ${esc(v.bags)} bags)`)) +
       `<p>${a("/fleet", "See the full fleet")}</p>` +
       h(2, "What Drives Us") + ul(c.values.map((v) => `${esc(v.title)} — ${esc(v.desc)}`)) +
-      ldJson(data.pageSchema("AboutPage", "/about", s.title, s.description, "About"))
+      ldJson(data.pageSchema("AboutPage", "/about", s.title, s.description))
     );
   },
+  "/press": (s, data) => {
+    const c = data.PRESS_CONTENT;
+    return (
+      h(2, c.boilerplateHeading) + c.boilerplate.map(p).join("") +
+      h(2, c.factsHeading) + ul(c.facts.map((f) => `${esc(f.label)}: ${esc(f.value)}`)) +
+      h(2, c.recognitionHeading) + ul(c.recognition.map(esc)) +
+      `<p>${a(data.CHAMBER.href, data.CHAMBER.label)}</p>` +
+      h(2, c.topicsHeading) + ul(c.topics.map(esc)) +
+      h(2, c.contactHeading) + p(c.contact) +
+      `<p>${a("/92-limo-logo.png", "Download logo (PNG)")}</p>` +
+      ldJson(data.pageSchema("WebPage", "/press", s.title, s.description))
+    );
+  },
+  "/partners": (s, data) => {
+    const c = data.PARTNERS_CONTENT;
+    return (
+      c.intro.slice(1).map(p).join("") +
+      `<p>${a(data.CHAMBER.href, data.CHAMBER.label)}</p>` +
+      copyCards(c.whoHeading, c.who) +
+      copyCards(c.howHeading, c.how) +
+      h(2, c.ctaHeading) + p(c.cta) +
+      `<p>${a("/corporate-transportation", "Corporate accounts")}</p>` +
+      ldJson(data.pageSchema("WebPage", "/partners", s.title, s.description))
+    );
+  },
+  "/faq": (s, data) => faqBlock("Booking, Pricing & Pickup Questions", data.FAQS),
+  "/blog": (s, data) =>
+    ul([
+      ...data.GUIDES.map((g) => `${a(`/${g.slug}`, g.title)} — ${esc(g.excerpt)}`),
+      ...data.BLOG_POSTS.map((b) => `${a(`/blog/${b.slug}`, b.title)} — ${esc(b.excerpt)}`),
+    ]),
 };
 
+// Page-specific FAQ block (src/lib/pageFaqs.js) — same data the React <Faq> uses.
+const pageFaqBlock = (route, data, heading = "Questions & Answers") =>
+  data.PAGE_FAQS[route] ? faqBlock(heading, data.PAGE_FAQS[route]) : "";
+
 function buildStatic(route, data) {
-  const s = STATIC_PAGES[route];
+  let s = STATIC_PAGES[route];
+  if (s.fromContent) {
+    const c = data[s.fromContent];
+    s = { title: c.title, description: c.description, h1: c.h1, paras: [c.intro ? c.intro[0] : c.subtitle] };
+  }
   if (RICH_STATIC[route]) {
     // The React hero subtitle is the intro; keep only the first STATIC para so
     // policy text is not repeated ahead of the mirrored sections.
     return {
       title: s.title,
       description: s.description,
-      body: h(1, s.h1) + p(s.paras[0]) + RICH_STATIC[route](s, data),
+      body: h(1, s.h1) + p(s.paras[0]) + RICH_STATIC[route](s, data) + pageFaqBlock(route, data),
     };
   }
   return {
@@ -300,8 +364,8 @@ function buildStatic(route, data) {
     body: route === "/"
       ? buildHomeBody(s, data)
       : route === "/service-areas"
-        ? h(1, s.h1) + s.paras.map(p).join("") + buildServiceAreas(data)
-        : h(1, s.h1) + s.paras.map(p).join(""),
+        ? h(1, s.h1) + s.paras.map(p).join("") + buildServiceAreas(data) + pageFaqBlock(route, data)
+        : h(1, s.h1) + s.paras.map(p).join("") + pageFaqBlock(route, data),
   };
 }
 
@@ -312,7 +376,6 @@ function buildHomeBody(s, data) {
   const about = data.HOME_ABOUT || { heading: "", paragraphs: [] };
   const why = (data.WHY || []).map((w) => `${esc(w.title)} — ${esc(w.desc)}`);
   const areas = data.AREAS || [];
-  const faqs = (data.FAQS || []).map((f) => h(3, f.q) + p(f.a)).join("");
   const links = (data.EXTERNAL_LINKS || [])
     .map((l) => `<li>${a(l.href, l.label)}</li>`)
     .join("");
@@ -329,7 +392,7 @@ function buildHomeBody(s, data) {
         ) +
         ul(areas.map(esc))
       : "") +
-    (faqs ? h(2, "Frequently Asked Questions") + faqs : "") +
+    ((data.FAQS || []).length ? faqBlock("Frequently Asked Questions", data.FAQS) : "") +
     (links ? h(2, "Helpful Travel Resources") + `<ul>${links}</ul>` : "")
   );
 }
@@ -347,7 +410,7 @@ function buildService(slug, data) {
         name: "92 Limo Service",
         telephone: "+1-877-609-1919",
         url: ORIGIN,
-        priceRange: "$$",
+        priceRange: "$$$",
         address: { "@type": "PostalAddress", streetAddress: "9836 Lyon Ave", addressLocality: "Laurel", addressRegion: "MD", postalCode: "20723", addressCountry: "US" },
         areaServed: { "@type": "Place", name: d.eyebrow || "Maryland" },
         openingHours: "Mo-Su 00:00-23:59",
@@ -367,7 +430,43 @@ function buildService(slug, data) {
       p(d.subtitle) +
       p(d.intro) +
       (bullets.length ? h(2, "Why choose 92 Limo Service") + ul(bullets) : "") +
-      (vehicles.length ? h(2, "Recommended vehicles") + ul(vehicles) : ""),
+      (vehicles.length ? h(2, "Recommended vehicles") + ul(vehicles) : "") +
+      (d.details ? copySections(d.details) : "") +
+      h(2, "What Riders Say About 92 Limo Service") +
+      data.TESTIMONIALS.filter((t) => t.featured).slice(0, 3)
+        .map((t) => `<blockquote><p>${esc(t.quote)}</p><cite>${esc(t.name)} — Google review</cite></blockquote>`).join("") +
+      pageFaqBlock(`/${slug}`, data, `${d.h1} FAQs`) +
+      h(2, "Related Services & Popular Pages") +
+      ul(data.NAV_SERVICES.filter((x) => x.to !== `/${slug}`).map((x) => a(x.to, x.label))),
+  };
+}
+
+// Blog posts (/blog/<slug>) and guides (/<slug>) share one article shape.
+function buildArticle(post, route) {
+  const block = (x, n) =>
+    h(n, x.heading) + (x.paragraphs || []).map(p).join("") + ul((x.list || []).map(esc)) +
+    (x.subsections || []).map((sub) => block(sub, n + 1)).join("");
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: post.title,
+    datePublished: post.date,
+    dateModified: post.date,
+    image: `${ORIGIN}${post.image}`,
+    author: { "@type": "Organization", name: "92 Limo Service" },
+    publisher: { "@id": `${ORIGIN}/#business` },
+    mainEntityOfPage: `${ORIGIN}${route}`,
+  };
+  return {
+    title: post.metaTitle,
+    description: post.metaDescription,
+    body:
+      ldJson(schema) +
+      h(1, post.title) +
+      post.intro.map(p).join("") +
+      post.sections.map((x) => block(x, 2)).join("") +
+      ((post.relatedLinks || []).length ? h(2, "Related Pages") + ul(post.relatedLinks.map((l) => a(l.to, l.label))) : "") +
+      faqBlock("Frequently Asked Questions", post.faqs),
   };
 }
 
@@ -394,7 +493,7 @@ function buildLanding(slug, data) {
         name: "92 Limo Service",
         telephone: "+1-877-609-1919",
         url: ORIGIN,
-        priceRange: "$$",
+        priceRange: "$$$",
         address: { "@type": "PostalAddress", streetAddress: "9836 Lyon Ave", addressLocality: "Laurel", addressRegion: "MD", postalCode: "20723", addressCountry: "US" },
         areaServed: { "@type": "Place", name: d.eyebrow || "Maryland" },
         openingHours: "Mo-Su 00:00-23:59",
@@ -441,7 +540,8 @@ function buildCity(slug, data) {
         "Weddings, proms and special events",
         "Hourly and as-directed chauffeur hire",
         "Maryland and Virginia wine tours",
-      ]),
+      ]) +
+      faqBlock("Questions & Answers", data.cityFaqs(c)),
   };
 }
 
@@ -461,6 +561,7 @@ function buildLinksFooter(data) {
     ["/reviews", "Reviews"],
     ["/faq", "FAQ"],
     ["/contact", "Contact"],
+    ["/blog", "Blog"],
     ["/booking", "Book a Ride"],
   ];
   const columns = [
@@ -490,7 +591,11 @@ function buildLinksFooter(data) {
       ["/fleet", "Fleet"],
       ["/reviews", "Reviews"],
       ["/contact", "Contact"],
+      ["/blog", "Blog"],
+      ["/press", "Press & Media"],
+      ["/partners", "Partners"],
     ]],
+    ["Guides", data.GUIDES.map((g) => [`/${g.slug}`, g.title])],
     ["Policies", [
       ["/privacy-policy", "Privacy Policy"],
       ["/terms-conditions", "Terms & Conditions"],
@@ -551,10 +656,18 @@ function rewriteHead(html, { title, description, url }) {
   return html;
 }
 
-function render(shell, route, content, footer) {
+function render(shell, route, content, footer, data) {
   const url = ORIGIN + (route === "/" ? "/" : route);
   let html = rewriteHead(shell, { title: content.title, description: content.description, url });
-  const main = `<div id="prerender-content"><main>${content.body}</main><footer>${footer}</footer></div>`;
+  const trail = data.breadcrumbTrail(route, {
+    services: data.SERVICE_PAGES, landing: data.LANDING_PAGES, cities: data.CITIES, posts: data.BLOG_POSTS, guides: data.GUIDES,
+  });
+  const crumbs = trail
+    ? `<nav aria-label="Breadcrumb"><ol>${trail
+        .map((c, i) => `<li>${i === trail.length - 1 ? esc(c.label) : a(c.to, c.label)}</li>`)
+        .join("")}</ol></nav>${ldJson(data.breadcrumbSchema(trail))}`
+    : "";
+  const main = `<div id="prerender-content">${crumbs}<main>${content.body}</main><footer>${footer}</footer></div>`;
   html = html.replace(/<div id="root">\s*<\/div>/, `<div id="root">${main}</div>`);
   return html;
 }
@@ -595,9 +708,11 @@ function main() {
     else if (data.SERVICE_PAGES[slug]) content = buildService(slug, data);
     else if (route.startsWith("/airport-car-service/")) content = buildCity(route.split("/").pop(), data);
     else if (data.LANDING_PAGES[slug]) content = buildLanding(slug, data);
+    else if (data.GUIDES.find((g) => g.slug === slug)) content = buildArticle(data.GUIDES.find((g) => g.slug === slug), route);
+    else if (route.startsWith("/blog/") && data.BLOG_POSTS.find((b) => b.slug === route.slice(6))) content = buildArticle(data.BLOG_POSTS.find((b) => b.slug === route.slice(6)), route);
     else continue; // unknown route -> leave as SPA shell
 
-    const html = render(shell, route, content, footer);
+    const html = render(shell, route, content, footer, data);
     const out = route === "/" ? shellPath : path.join(BUILD_DIR, slug, "index.html");
     fs.mkdirSync(path.dirname(out), { recursive: true });
     fs.writeFileSync(out, html, "utf8");

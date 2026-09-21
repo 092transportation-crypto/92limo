@@ -4,11 +4,25 @@ import { Seo } from "@/components/site/Seo";
 import { PageHero } from "@/components/site/PageHero";
 import { CTASection } from "@/components/site/CTASection";
 import { Reveal } from "@/components/site/Reveal";
-import { FLEET, SERVICE_PAGES, vehicleLabel } from "@/lib/data";
+import { Faq } from "@/components/site/Faq";
+import { Testimonials } from "@/components/site/Testimonials";
+import { FLEET, SERVICE_PAGES, NAV_SERVICES, vehicleLabel } from "@/lib/data";
+import { PAGE_FAQS } from "@/lib/pageFaqs";
+
+// Cross-links shown on every service page (besides the sibling services).
+const POPULAR_LINKS = [
+  { label: "BWI Airport Car Service", to: "/bwi-airport-car-service" },
+  { label: "DCA Airport Car Service", to: "/dca-airport-car-service" },
+  { label: "IAD Airport Car Service", to: "/iad-airport-car-service" },
+  { label: "All Service Areas", to: "/service-areas" },
+  { label: "Our Fleet", to: "/fleet" },
+  { label: "Booking & Cancellation Policies", to: "/policies" },
+];
 
 export default function ServiceDetail({ slug }) {
   const d = SERVICE_PAGES[slug];
   const vehicles = FLEET.filter((f) => d.vehicles.includes(vehicleLabel(f)));
+  const related = [...NAV_SERVICES.filter((s) => s.to !== `/${slug}`), ...POPULAR_LINKS];
 
   return (
     <>
@@ -75,6 +89,50 @@ export default function ServiceDetail({ slug }) {
             <Link to="/fleet" className="inline-flex items-center gap-2 text-sm font-semibold text-[#B8860B] hover:gap-3 transition-all">
               View full fleet <ChevronRight size={16} />
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {d.details && (
+        <section className="py-16 lg:py-20 bg-white" data-testid="service-details">
+          <div className="max-w-3xl mx-auto px-6 lg:px-8 space-y-10">
+            {d.details.map((s) => (
+              <Reveal key={s.heading}>
+                <h2 className="text-2xl sm:text-3xl font-display font-bold text-[#0A0A0A]">{s.heading}</h2>
+                <div className="mt-4 space-y-4 text-neutral-700 leading-relaxed">
+                  {s.paragraphs.map((t) => (
+                    <p key={t.slice(0, 40)}>{t}</p>
+                  ))}
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <Testimonials
+        featuredOnly
+        limit={3}
+        eyebrow="CLIENT REVIEWS"
+        heading="What Riders Say About 92 Limo Service"
+      />
+
+      <Faq faqs={PAGE_FAQS[`/${slug}`]} heading={`${d.h1} FAQs`} schemaId={`faq-${slug}`} />
+
+      <section className="py-16 lg:py-20 bg-[#F6F5F2]" data-testid="service-related">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <h2 className="text-2xl sm:text-3xl font-display font-bold text-[#0A0A0A]">Related Services &amp; Popular Pages</h2>
+          <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+            {related.map((l) => (
+              <Link
+                key={l.to}
+                to={l.to}
+                className="group flex items-center justify-between bg-white border border-black/10 rounded-xl px-5 py-4 hover:border-[#D4AF37]/60 hover:shadow-md transition-all"
+              >
+                <span className="text-sm font-semibold text-[#0A0A0A] group-hover:text-[#B8860B] transition-colors pr-3">{l.label}</span>
+                <ChevronRight size={16} className="flex-shrink-0 text-[#B8860B]" />
+              </Link>
+            ))}
           </div>
         </div>
       </section>

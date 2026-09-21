@@ -6,6 +6,13 @@ import { CTASection } from "@/components/site/CTASection";
 import { Reveal } from "@/components/site/Reveal";
 import { IMAGES } from "@/lib/data";
 import { BLOG_POSTS } from "@/lib/blogPosts";
+import { GUIDES } from "@/lib/guides";
+
+// Guides live at /<slug>; blog posts at /blog/<slug>. Newest first.
+const ALL_POSTS = [
+  ...GUIDES.map((g) => ({ ...g, to: `/${g.slug}` })),
+  ...BLOG_POSTS.map((b) => ({ ...b, to: `/blog/${b.slug}` })),
+];
 
 const formatDate = (iso) =>
   new Date(`${iso}T12:00:00`).toLocaleDateString("en-US", {
@@ -34,10 +41,10 @@ export default function BlogPage() {
       <section className="py-20 lg:py-24 bg-white" data-testid="blog-index">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {BLOG_POSTS.map((post, i) => (
-              <Reveal key={post.slug} delay={i * 0.05}>
+            {ALL_POSTS.map((post, i) => (
+              <Reveal key={post.slug} delay={(i % 3) * 0.05}>
                 <Link
-                  to={`/blog/${post.slug}`}
+                  to={post.to}
                   data-testid={`blog-card-${post.slug}`}
                   className="group flex flex-col h-full bg-[#F6F5F2] border border-black/10 rounded-2xl overflow-hidden hover:border-[#D4AF37]/60 hover:shadow-lg transition-all"
                 >
