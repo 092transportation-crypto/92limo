@@ -21,6 +21,8 @@ const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
 
+const renderLegal = require("./renderLegal");
+
 const ROOT = path.resolve(__dirname, "..");
 const BUILD_DIR = path.join(ROOT, "build");
 const PHONE = "(877) 609-1919";
@@ -61,7 +63,7 @@ function loadData() {
   const batch3Src = plain("src/lib/marylandPagesBatch3.js");
   const ctx = { console };
   vm.runInNewContext(
-    `${dataSrc}\n${generatedSrc}\n${marylandSrc}\n${batch3Src}\n${landingSrc}\n${staticSrc}\nthis.__data = { TESTIMONIALS, NAV_SERVICES, PAGE_FAQS, cityFaqs, breadcrumbTrail, breadcrumbSchema, GUIDES, BLOG_POSTS, PRESS_CONTENT, PARTNERS_CONTENT, SERVICE_PAGES, LANDING_PAGES, CITIES, HOME_ABOUT, EXTERNAL_LINKS, FAQS, AREAS, WHY, SOCIAL, CHAMBER, AIRPORTS, FLEET, POLICY, BOOKING_CONTENT, CONTACT_CONTENT, ABOUT_CONTENT, pageSchema };`,
+    `${dataSrc}\n${generatedSrc}\n${marylandSrc}\n${batch3Src}\n${landingSrc}\n${staticSrc}\nthis.__data = { BRAND, TESTIMONIALS, NAV_SERVICES, PAGE_FAQS, cityFaqs, breadcrumbTrail, breadcrumbSchema, GUIDES, BLOG_POSTS, PRESS_CONTENT, PARTNERS_CONTENT, SERVICE_PAGES, LANDING_PAGES, CITIES, HOME_ABOUT, EXTERNAL_LINKS, FAQS, AREAS, WHY, SOCIAL, CHAMBER, AIRPORTS, FLEET, POLICY, BOOKING_CONTENT, CONTACT_CONTENT, ABOUT_CONTENT, pageSchema };`,
     ctx
   );
   return ctx.__data;
@@ -343,8 +345,19 @@ const RICH_STATIC = {
 const pageFaqBlock = (route, data, heading = "Questions & Answers") =>
   data.PAGE_FAQS[route] ? faqBlock(heading, data.PAGE_FAQS[route]) : "";
 
+// Legal pages: full text is server-rendered from the JSX page itself.
+const LEGAL_PAGES = {
+  "/privacy-policy": "src/pages/PrivacyPolicyPage.jsx",
+  "/terms-conditions": "src/pages/TermsConditionsPage.jsx",
+  "/policies": "src/pages/PoliciesPage.jsx",
+};
+
 function buildStatic(route, data) {
   let s = STATIC_PAGES[route];
+  if (LEGAL_PAGES[route]) {
+    const html = renderLegal(LEGAL_PAGES[route], { POLICY: data.POLICY, BRAND: data.BRAND });
+    if (html) return { title: s.title, description: s.description, body: html + pageFaqBlock(route, data) };
+  }
   if (s.fromContent) {
     const c = data[s.fromContent];
     s = { title: c.title, description: c.description, h1: c.h1, paras: [c.intro ? c.intro[0] : c.subtitle] };
