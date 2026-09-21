@@ -180,7 +180,7 @@ export default function TermsConditionsPage() {
           Email: info@92limo.com
           <br />
           Website:{" "}
-          <a href="https://92limo.com" className="text-[#B8860B] underline">
+          <a href="https://www.92limo.com" className="text-[#B8860B] underline">
             https://92limo.com
           </a>
         </LP>

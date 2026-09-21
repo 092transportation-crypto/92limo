@@ -127,7 +127,7 @@
     },
     {
       "source": "/airport-transfer-baltimore{/}?",
-      "destination": "/baltimore-limo-service",
+      "destination": "/airport-limo-baltimore",
       "statusCode": 301
     },
     {

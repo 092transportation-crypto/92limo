@@ -57,7 +57,7 @@ export default function PrivacyPolicyPage() {
         <LP>
           Customers may provide consent to receive SMS messages by submitting a web form via our
           website{" "}
-          <a href="https://92limo.com/contact" className="text-[#B8860B] underline">
+          <a href="https://www.92limo.com/contact" className="text-[#B8860B] underline">
             https://92limo.com/contact
           </a>
           .
@@ -107,7 +107,7 @@ export default function PrivacyPolicyPage() {
         <LH3>Opt-In Method</LH3>
         <LP>
           Customers opt in to receive SMS messages by submitting the web form on our website (
-          <a href="https://92limo.com/contact" className="text-[#B8860B] underline">
+          <a href="https://www.92limo.com/contact" className="text-[#B8860B] underline">
             https://92limo.com/contact
           </a>
           ), or by providing verbal consent during a phone call or in-person conversation with a 92
@@ -135,7 +135,7 @@ export default function PrivacyPolicyPage() {
         <LH3>Help</LH3>
         <LP>
           For assistance, reply HELP to any SMS message or contact us through our website:{" "}
-          <a href="https://92limo.com/contact" className="text-[#B8860B] underline">
+          <a href="https://www.92limo.com/contact" className="text-[#B8860B] underline">
             https://92limo.com/contact
           </a>
           .
@@ -161,7 +161,7 @@ export default function PrivacyPolicyPage() {
           Email: info@92limo.com
           <br />
           Website:{" "}
-          <a href="https://92limo.com" className="text-[#B8860B] underline">
+          <a href="https://www.92limo.com" className="text-[#B8860B] underline">
             https://92limo.com
           </a>
         </LP>
@@ -169,7 +169,7 @@ export default function PrivacyPolicyPage() {
         <LH3>Policy Links</LH3>
         <LP>
           Visit{" "}
-          <a href="https://92limo.com/privacy-policy" className="text-[#B8860B] underline">
+          <a href="https://www.92limo.com/privacy-policy" className="text-[#B8860B] underline">
             https://92limo.com/privacy-policy
           </a>{" "}
           for our Privacy Policy and SMS Terms and Conditions.

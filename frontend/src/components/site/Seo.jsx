@@ -10,7 +10,9 @@ const upsertMeta = (selector, attr, value, content) => {
   el.setAttribute("content", content);
 };
 
-export const Seo = ({ title, description, path = "" }) => {
+// `schema` (optional) is a JSON-LD object injected as <script id="page-schema">;
+// keep it referentially stable (module-level const) so it is not re-injected.
+export const Seo = ({ title, description, path = "", schema = null }) => {
   useEffect(() => {
     if (title) document.title = title;
     if (description) {
@@ -30,6 +32,18 @@ export const Seo = ({ title, description, path = "" }) => {
     canonical.setAttribute("href", url);
     upsertMeta('meta[property="og:url"]', "property", "og:url", url);
   }, [title, description, path]);
+
+  useEffect(() => {
+    if (!schema) return undefined;
+    const prev = document.getElementById("page-schema");
+    if (prev) prev.remove();
+    const el = document.createElement("script");
+    el.type = "application/ld+json";
+    el.id = "page-schema";
+    el.text = JSON.stringify(schema);
+    document.head.appendChild(el);
+    return () => el.remove();
+  }, [schema]);
 
   return null;
 };

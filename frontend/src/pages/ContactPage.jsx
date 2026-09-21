@@ -4,7 +4,16 @@ import { Seo } from "@/components/site/Seo";
 import { PageHero } from "@/components/site/PageHero";
 import { ContactForm } from "@/components/site/ContactForm";
 import { Reveal } from "@/components/site/Reveal";
+import { Faq } from "@/components/site/Faq";
+import { CopyCards, CopySections } from "@/components/site/PageCopy";
 import { BRAND, IMAGES, AREAS } from "@/lib/data";
+import { CONTACT_CONTENT } from "@/lib/staticPages";
+import { pageSchema } from "@/lib/pageSchema";
+
+const TITLE = "Contact Us | 92 Limo Service | DC, MD & VA";
+const DESCRIPTION =
+  "Contact 92 Limo Service for general questions and special requests — by phone, email, or our form. Open 24/7. To reserve a ride, visit our booking page.";
+const SCHEMA = pageSchema("ContactPage", "/contact", TITLE, DESCRIPTION, "Contact");
 
 const CARDS = [
   { icon: Phone, label: "Call / Text", value: BRAND.phone, href: BRAND.phoneHref },
@@ -16,11 +25,7 @@ const CARDS = [
 export default function ContactPage() {
   return (
     <>
-      <Seo
-        title="Contact Us | 92 Limo Service | DC, MD & VA"
-        description="Contact 92 Limo Service for general questions and special requests — by phone, email, or our form. Open 24/7. To reserve a ride, visit our booking page."
-        path="/contact"
-      />
+      <Seo title={TITLE} description={DESCRIPTION} path="/contact" schema={SCHEMA} />
       <PageHero
         eyebrow="CONTACT US"
         title="Contact 92 Limo Service"
@@ -75,6 +80,9 @@ export default function ContactPage() {
       </section>
 
       <ContactForm />
+      <CopyCards eyebrow="GET IN TOUCH" heading={CONTACT_CONTENT.reachHeading} items={CONTACT_CONTENT.reach} testId="contact-reach" />
+      <CopySections sections={CONTACT_CONTENT.sections} testId="contact-copy" />
+      <Faq faqs={CONTACT_CONTENT.faqs} heading={CONTACT_CONTENT.faqHeading} schemaId="contact-faq-schema" />
     </>
   );
 }

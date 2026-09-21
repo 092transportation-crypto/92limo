@@ -5,59 +5,28 @@ import { PageHero } from "@/components/site/PageHero";
 import { WhyChooseUs } from "@/components/site/WhyChooseUs";
 import { CTASection } from "@/components/site/CTASection";
 import { Reveal } from "@/components/site/Reveal";
-import { IMAGES, BRAND, FLEET, AIRPORTS } from "@/lib/data";
+import { IMAGES, FLEET, AIRPORTS } from "@/lib/data";
+import { ABOUT_CONTENT } from "@/lib/staticPages";
+import { pageSchema } from "@/lib/pageSchema";
 
-const VALUES = [
-  { icon: Shield, title: "Safety First", desc: "Licensed, insured, and rigorously maintained vehicles operated by professional chauffeurs." },
-  { icon: Award, title: "Uncompromising Quality", desc: "A meticulously detailed, late-model fleet and white-glove service on every ride." },
-  { icon: Clock, title: "Punctuality", desc: "Traffic-aware planning and built-in buffers mean we're early, never late." },
-  { icon: Heart, title: "Genuine Hospitality", desc: "Courteous, discreet chauffeurs who treat every guest like a VIP." },
-];
+const TITLE = "About 92 Transportation LLC | Maryland Chauffeurs | 92 Limo";
+const DESCRIPTION =
+  "92 Limo Service is 92 Transportation LLC — a Maryland-based, MD PSC-licensed (Carrier #6325) chauffeur company with 15+ years of industry experience, a real fleet, corporate accounts and 24/7 dispatch.";
+const SCHEMA = pageSchema("AboutPage", "/about", TITLE, DESCRIPTION, "About");
 
-// Verifiable company facts — the "who we are" block is built from these so
-// the About page, footer and schema markup never drift apart.
-const FACTS = [
-  { icon: Building2, label: "Legal entity", value: "92 Transportation LLC, doing business as 92 Limo Service" },
-  { icon: MapPin, label: "Headquarters", value: "9836 Lyon Ave, Laurel, MD 20723 — serving the DC–Baltimore metro" },
-  { icon: BadgeCheck, label: "Operating authority", value: "Maryland Public Service Commission Carrier #6325" },
-  { icon: FileCheck, label: "Insurance", value: "Commercial auto liability coverage on every vehicle; certificates of insurance available to corporate clients on request" },
-  { icon: Award, label: "Experience", value: "15+ years of transportation industry experience across our leadership and chauffeur team" },
-  { icon: Radio, label: "Dispatch", value: "24/7 live dispatch and reservations — 365 days a year" },
-];
-
-const STANDARDS = [
-  "Licensed, background-checked and drug-tested chauffeurs",
-  "Business attire, name-sign greetings and luggage assistance",
-  "Defensive-driving standards and traffic-aware route planning",
-  "Vehicles detailed before every ride and inspected daily",
-  "Real-time flight tracking on every airport pickup",
-  "Discretion: what is said in the car stays in the car",
-];
-
-const CORPORATE = [
-  "Monthly consolidated invoicing and itemized receipts",
-  "Dedicated account contact and priority dispatch",
-  "Roadshow, conference and multi-stop coordination",
-  "Certificates of insurance and vendor onboarding paperwork",
-  "Standing airport pickups for visiting executives and clients",
-];
-
-const TERRITORY = [
-  "Washington, DC — all neighborhoods",
-  "Maryland — all 23 counties and Baltimore City",
-  "Northern Virginia — Arlington, Alexandria, Fairfax, Tysons, Loudoun",
-  "Delaware beaches and Wilmington · York & Lancaster, PA",
-  "Long-distance to Philadelphia, New York City and the I-95 corridor",
-];
+// Copy lives in lib/staticPages.js (shared with the prerender); icons pair by index.
+const VALUE_ICONS = [Shield, Award, Clock, Heart];
+const FACT_ICONS = [Building2, MapPin, BadgeCheck, FileCheck, Award, Radio];
+const VALUES = ABOUT_CONTENT.values.map((v, i) => ({ ...v, icon: VALUE_ICONS[i] }));
+const FACTS = ABOUT_CONTENT.facts.map((f, i) => ({ ...f, icon: FACT_ICONS[i] }));
+const STANDARDS = ABOUT_CONTENT.standards;
+const CORPORATE = ABOUT_CONTENT.corporate;
+const TERRITORY = ABOUT_CONTENT.territory;
 
 export default function AboutPage() {
   return (
     <>
-      <Seo
-        title="About 92 Transportation LLC | Maryland Chauffeurs | 92 Limo"
-        description="92 Limo Service is 92 Transportation LLC — a Maryland-based, MD PSC-licensed (Carrier #6325) chauffeur company with 15+ years of industry experience, a real fleet, corporate accounts and 24/7 dispatch."
-        path="/about"
-      />
+      <Seo title={TITLE} description={DESCRIPTION} path="/about" schema={SCHEMA} />
       <PageHero
         eyebrow="ABOUT US"
         title="The Standard for Luxury Chauffeur Service"
@@ -71,25 +40,9 @@ export default function AboutPage() {
           <Reveal>
             <h2 className="text-3xl sm:text-4xl font-display font-bold text-[#0A0A0A]">Who We Are</h2>
             <div className="mt-5 space-y-4 text-neutral-700 leading-relaxed">
-              <p>
-                {BRAND.name} is the trade name of <strong className="text-[#0A0A0A]">92 Transportation LLC</strong>,
-                a Maryland-based luxury ground transportation company licensed by the Maryland Public
-                Service Commission as <strong className="text-[#0A0A0A]">Carrier #6325</strong>. We provide
-                chauffeured airport, corporate, hourly, wedding and long-distance transportation across
-                Washington DC, Maryland, and Northern Virginia.
-              </p>
-              <p>
-                Our leadership and chauffeur team bring more than 15 years of transportation industry
-                experience — airport operations, executive travel and event logistics — to every
-                reservation. That experience shows in the details: chauffeurs positioned early, flights
-                tracked in real time, and a live dispatcher on the phone 24 hours a day.
-              </p>
-              <p>
-                Every vehicle we dispatch is commercially insured, inspected daily and detailed before
-                each ride. Whether you're a frequent business traveler, planning a wedding, or
-                coordinating group transportation, 92 Limo Service is the partner you can count on —
-                every mile, every time.
-              </p>
+              {ABOUT_CONTENT.who.map((t) => (
+                <p key={t.slice(0, 40)}>{t}</p>
+              ))}
             </div>
           </Reveal>
           <Reveal delay={0.1}>
@@ -179,9 +132,7 @@ export default function AboutPage() {
               ))}
             </div>
             <p className="mt-4 text-sm text-neutral-600">
-              Real-time flight tracking on every pickup, with 45 minutes of complimentary waiting time on
-              domestic arrivals and 60 minutes on international. Meet &amp; greet inside baggage claim is
-              available for an additional charge.
+              {ABOUT_CONTENT.airportsNote}
             </p>
           </Reveal>
           <Reveal delay={0.08}>
@@ -211,8 +162,7 @@ export default function AboutPage() {
               <h2 className="text-2xl font-display font-bold text-[#0A0A0A]">Our Real Fleet</h2>
             </div>
             <p className="mt-3 text-neutral-600 max-w-2xl">
-              Late-model sedans, SUVs and Mercedes Sprinter vans owned and maintained by 92 Transportation
-              LLC — no brokered rides. Reservations are made by vehicle class; see our{" "}
+              {ABOUT_CONTENT.fleetNote} See our{" "}
               <Link to="/policies#vehicle-substitution" className="text-[#B8860B] underline">Vehicle Substitution Policy</Link>.
             </p>
           </Reveal>

@@ -51,9 +51,13 @@ function loadData() {
     .replace(/^\s*import[^\n]*\n/gm, "")
     .replace(/export\s+const/g, "const")
     .replace(/export\s+/g, "");
+  // Import-free modules: long-form static page copy + its JSON-LD builder.
+  const plain = (file) =>
+    fs.readFileSync(path.join(ROOT, file), "utf8").replace(/export\s+/g, "");
+  const staticSrc = `${plain("src/lib/staticPages.js")}\n${plain("src/lib/pageSchema.js")}`;
   const ctx = { console };
   vm.runInNewContext(
-    `${dataSrc}\n${generatedSrc}\n${marylandSrc}\n${landingSrc}\nthis.__data = { SERVICE_PAGES, LANDING_PAGES, CITIES, HOME_ABOUT, EXTERNAL_LINKS, FAQS, AREAS, WHY, SOCIAL, CHAMBER };`,
+    `${dataSrc}\n${generatedSrc}\n${marylandSrc}\n${landingSrc}\n${staticSrc}\nthis.__data = { SERVICE_PAGES, LANDING_PAGES, CITIES, HOME_ABOUT, EXTERNAL_LINKS, FAQS, AREAS, WHY, SOCIAL, CHAMBER, AIRPORTS, FLEET, POLICY, BOOKING_CONTENT, CONTACT_CONTENT, ABOUT_CONTENT, pageSchema };`,
     ctx
   );
   return ctx.__data;
@@ -213,8 +217,83 @@ const STATIC_PAGES = {
 // ---------------------------------------------------------------------------
 // Per-route content builders -> { title, description, path, body }
 // ---------------------------------------------------------------------------
+const ldJson = (obj) =>
+  `<script type="application/ld+json">${JSON.stringify(obj).replace(/</g, "\\u003c")}</script>`;
+const faqBlock = (heading, faqs) =>
+  h(2, heading) +
+  faqs.map((f) => h(3, f.q) + p(f.a)).join("") +
+  ldJson({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+  });
+const copySections = (sections) => sections.map((x) => h(2, x.heading) + x.paragraphs.map(p).join("")).join("");
+const copyCards = (heading, items) => h(2, heading) + items.map((x) => h(3, x.title) + p(x.text)).join("");
+
+// Booking / Contact / About mirror the React pages section-for-section using
+// the shared copy in src/lib/staticPages.js, plus the same page-level JSON-LD.
+const RICH_STATIC = {
+  "/booking": (s, data) => {
+    const c = data.BOOKING_CONTENT;
+    return (
+      copyCards(c.stepsHeading, c.steps) +
+      h(2, "Pricing & Waiting-Time Policy") +
+      p(data.POLICY.pricing) + p(data.POLICY.waiting) + p(`${data.POLICY.meetGreetTitle} — ${data.POLICY.meetGreet}`) +
+      `<p>${a("/policies", "Read our full booking, cancellation and no-show policies")}</p>` +
+      copySections(c.sections) +
+      faqBlock(c.faqHeading, c.faqs) +
+      ldJson(data.pageSchema("WebPage", "/booking", s.title, s.description, "Book a Ride"))
+    );
+  },
+  "/contact": (s, data) => {
+    const c = data.CONTACT_CONTENT;
+    return (
+      ul([
+        `Call / Text: ${a("tel:+18776091919", PHONE)}`,
+        `Email: ${a("mailto:info@92limo.com", "info@92limo.com")}`,
+        "Business Hours: Open 24/7 · 365 days a year",
+        "Office: 9836 Lyon Ave, Laurel, MD 20723",
+        a("/booking", "Book a ride"),
+      ]) +
+      copyCards(c.reachHeading, c.reach) +
+      copySections(c.sections) +
+      faqBlock(c.faqHeading, c.faqs) +
+      ldJson(data.pageSchema("ContactPage", "/contact", s.title, s.description, "Contact"))
+    );
+  },
+  "/about": (s, data) => {
+    const c = data.ABOUT_CONTENT;
+    return (
+      h(2, "Who We Are") + c.who.map(p).join("") +
+      h(2, "Licensed, Insured & Accountable") + ul(c.facts.map((f) => `${esc(f.label)}: ${esc(f.value)}`)) +
+      h(2, "Professional Chauffeur Standards") + ul(c.standards.map(esc)) +
+      h(2, "Corporate Accounts") + ul(c.corporate.map(esc)) +
+      `<p>${a("/corporate-transportation", "Corporate transportation")}</p>` +
+      h(2, "Airports We Cover") +
+      ul((data.AIRPORTS || []).map((x) => `${esc(x.code)} — ${esc(String(x.name).replace(" Car Service", ""))}`)) +
+      p(c.airportsNote) +
+      h(2, "Service Territory") + ul(c.territory.map(esc)) +
+      `<p>${a("/service-areas", "View all service areas")}</p>` +
+      h(2, "Our Real Fleet") + p(c.fleetNote) +
+      ul((data.FLEET || []).map((v) => `${esc(v.category)} — ${esc(v.name)} (${esc(v.pax)} passengers · ${esc(v.bags)} bags)`)) +
+      `<p>${a("/fleet", "See the full fleet")}</p>` +
+      h(2, "What Drives Us") + ul(c.values.map((v) => `${esc(v.title)} — ${esc(v.desc)}`)) +
+      ldJson(data.pageSchema("AboutPage", "/about", s.title, s.description, "About"))
+    );
+  },
+};
+
 function buildStatic(route, data) {
   const s = STATIC_PAGES[route];
+  if (RICH_STATIC[route]) {
+    // The React hero subtitle is the intro; keep only the first STATIC para so
+    // policy text is not repeated ahead of the mirrored sections.
+    return {
+      title: s.title,
+      description: s.description,
+      body: h(1, s.h1) + p(s.paras[0]) + RICH_STATIC[route](s, data),
+    };
+  }
   return {
     title: s.title,
     description: s.description,

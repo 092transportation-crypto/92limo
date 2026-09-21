@@ -17,7 +17,7 @@ export default function CityPage() {
       "@context": "https://schema.org",
       "@type": "LimousineService",
       name: `92 Limo Service — ${data.name}, MD`,
-      url: `https://92limo.com/airport-car-service/${data.slug}`,
+      url: `https://www.92limo.com/airport-car-service/${data.slug}`,
       telephone: "+1-877-609-1919",
       email: BRAND.email,
       image: IMAGES.logo,
