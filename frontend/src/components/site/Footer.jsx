@@ -18,11 +18,11 @@ export const FOOTER_COLUMNS = [
   {
     heading: "Services",
     links: [
-      { label: "Airport Transportation", to: "/airport-transportation" },
-      { label: "Corporate Transportation", to: "/corporate-transportation" },
-      { label: "Hourly Chauffeur", to: "/hourly-chauffeur" },
-      { label: "Wedding Transportation", to: "/wedding-transportation" },
-      { label: "Long Distance", to: "/long-distance-transportation" },
+      { label: "Airport Car Service (BWI, DCA, IAD)", to: "/airport-transportation" },
+      { label: "Corporate Car Service", to: "/corporate-transportation" },
+      { label: "Hourly Chauffeur Service", to: "/hourly-chauffeur" },
+      { label: "Wedding Limo Service", to: "/wedding-transportation" },
+      { label: "Long-Distance Car Service", to: "/long-distance-transportation" },
     ],
   },
   {
@@ -37,11 +37,11 @@ export const FOOTER_COLUMNS = [
   {
     heading: "Popular Areas",
     links: [
-      { label: "Baltimore", to: "/baltimore-limo-service" },
-      { label: "Washington DC", to: "/washington-dc-limo-service" },
-      { label: "Annapolis", to: "/annapolis-limo-service" },
-      { label: "Columbia", to: "/columbia-md-limo-service" },
-      { label: "Northern Virginia", to: "/executive-car-service-virginia" },
+      { label: "Baltimore Limo Service", to: "/baltimore-limo-service" },
+      { label: "Washington DC Car Service", to: "/washington-dc-limo-service" },
+      { label: "Annapolis Limo Service", to: "/annapolis-limo-service" },
+      { label: "Columbia, MD Car Service", to: "/columbia-md-limo-service" },
+      { label: "Northern Virginia Executive Car Service", to: "/executive-car-service-virginia" },
     ],
     more: { label: "View All Service Areas", to: "/service-areas" },
   },

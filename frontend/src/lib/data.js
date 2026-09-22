@@ -118,7 +118,7 @@ export const FLEET = [
     carryOns: 2,
     bestFor: "Airport transfers · Corporate travel",
     img: "/images/mercedes-e-class.webp",
-    alt: "Black Mercedes E-Class business sedan — 92 Limo Service",
+    alt: "Black Mercedes-Benz E-Class business sedan for Maryland airport car service — 92 Limo Service",
     description:
       "Perfect for solo executives and business travelers. Ideal for airport transfers and corporate travel. Mercedes E-Class or similar.",
   },
@@ -130,7 +130,7 @@ export const FLEET = [
     carryOns: 2,
     bestFor: "Executive travel · Weddings · VIP airport transfers",
     img: "/fleet/bmw-7-series.webp",
-    alt: "Black BMW 7 Series first class sedan — 92 Limo Service fleet",
+    alt: "Black BMW 7 Series first class sedan for executive black car service in Maryland — 92 Limo Service",
     description:
       "The pinnacle of sedan luxury for discerning travelers who accept nothing less. BMW 7 Series, Mercedes S-Class or similar.",
   },
@@ -143,7 +143,7 @@ export const FLEET = [
     carryOns: 3,
     bestFor: "Airport transfers · Small families · Extra luggage",
     img: "/images/lincoln-nautilus.webp",
-    alt: "Lincoln Nautilus midsize luxury SUV — 92 Limo Service",
+    alt: "Lincoln Nautilus midsize luxury SUV for Maryland chauffeur service — 92 Limo Service",
     description:
       "The perfect balance of comfort and practicality for families and travelers with extra luggage. Lincoln Nautilus or similar.",
   },
@@ -156,7 +156,7 @@ export const FLEET = [
     carryOns: 5,
     bestFor: "Airport transfers · Families · Group business travel",
     img: "/images/chevy-suburban.webp",
-    alt: "Black Chevrolet Suburban full-size luxury SUV — 92 Limo Service",
+    alt: "Black Chevrolet Suburban SUV limo for BWI, DCA and IAD airport transfers — 92 Limo Service",
     description:
       "Maximum space without compromising luxury. Ideal for larger groups and extended journeys. Chevrolet Suburban or similar.",
   },
@@ -169,7 +169,7 @@ export const FLEET = [
     carryOns: 5,
     bestFor: "Airport transfers · Corporate · Weddings & events",
     img: "/images/cadillac-escalade.webp",
-    alt: "Black Cadillac Escalade premium SUV — 92 Limo Service",
+    alt: "Black Cadillac Escalade SUV limo for Maryland luxury transportation — 92 Limo Service",
     description:
       "America's premier luxury SUV with commanding presence. Cadillac Escalade or similar.",
   },
@@ -181,7 +181,7 @@ export const FLEET = [
     carryOns: 13,
     bestFor: "Group airport runs · Team travel · Event shuttles",
     img: "/fleet/sprinter-shuttle-seats.webp",
-    alt: "Mercedes Sprinter van shuttle interior with passenger seating — 92 Limo Service",
+    alt: "Mercedes Sprinter shuttle van interior for group airport transportation in Maryland — 92 Limo Service",
     description:
       "Comfortable group transportation for airport runs, corporate events, and group outings. Mercedes Sprinter or similar.",
   },
@@ -193,7 +193,7 @@ export const FLEET = [
     carryOns: 13,
     bestFor: "Corporate groups · Roadshows · Executive retreats",
     img: "/images/mercedes-sprinter.webp",
-    alt: "Mercedes Sprinter Executive van interior with lounge seating — 92 Limo Service",
+    alt: "Mercedes Sprinter Executive van interior for corporate car service in Maryland — 92 Limo Service",
     description:
       "Premium executive van with upgraded interior and luxury amenities. Perfect for corporate groups. Mercedes Sprinter or similar.",
   },
@@ -205,7 +205,7 @@ export const FLEET = [
     carryOns: 8,
     bestFor: "Weddings · Proms · Birthdays & nights out",
     img: "/fleet/limousine.webp",
-    alt: "Mercedes Sprinter limo interior with lounge seating and ambient lighting — 92 Limo Service",
+    alt: "Mercedes Sprinter limo interior for Maryland party bus and stretch limo occasions — 92 Limo Service",
     description:
       "The ultimate stretch limo experience. Perfect for weddings, proms, and special occasions that deserve a grand entrance.",
   },

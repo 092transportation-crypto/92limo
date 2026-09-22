@@ -4,6 +4,8 @@
 // render as H3 blocks. Optional relatedLinks: [{ label, to }] renders a "Related
 // pages" list before the FAQs. FAQ schema is injected by BlogPostPage.
 
+import { BLOG_POSTS_BATCH2 } from "@/lib/blogPostsBatch2";
+
 export const BLOG_POSTS = [
   {
     slug: "bwi-airport-car-service-guide-2026",
@@ -1009,6 +1011,9 @@ export const BLOG_POSTS = [
     ],
   },
 ];
+
+// 2026-09-22 keyword posts live in their own file.
+BLOG_POSTS.push(...BLOG_POSTS_BATCH2);
 
 export const getBlogPostBySlug = (slug) =>
   BLOG_POSTS.find((p) => p.slug === slug);

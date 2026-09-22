@@ -55,15 +55,18 @@ function loadData() {
     .replace(/export\s+/g, "");
   // Import-free modules: long-form static page copy + its JSON-LD builder.
   const plain = (file) =>
-    fs.readFileSync(path.join(ROOT, file), "utf8").replace(/export\s+/g, "");
+    fs
+      .readFileSync(path.join(ROOT, file), "utf8")
+      .replace(/^\s*import[^\n]*\n/gm, "")
+      .replace(/export\s+/g, "");
   const staticSrc = [
     "src/lib/staticPages.js", "src/lib/pageSchema.js", "src/lib/pageFaqs.js",
-    "src/lib/breadcrumbs.js", "src/lib/guides.js", "src/lib/blogPosts.js",
+    "src/lib/breadcrumbs.js", "src/lib/guides.js", "src/lib/blogPosts.js", "src/lib/keywordSection.js",
   ].map(plain).join("\n");
-  const batch3Src = plain("src/lib/marylandPagesBatch3.js");
+  const batch3Src = plain("src/lib/marylandPagesBatch3.js") + "\n" + plain("src/lib/marylandPagesBatch4.js") + "\n" + plain("src/lib/blogPostsBatch2.js");
   const ctx = { console };
   vm.runInNewContext(
-    `${dataSrc}\n${generatedSrc}\n${marylandSrc}\n${batch3Src}\n${landingSrc}\n${staticSrc}\nthis.__data = { BRAND, TESTIMONIALS, NAV_SERVICES, PAGE_FAQS, cityFaqs, breadcrumbTrail, breadcrumbSchema, GUIDES, BLOG_POSTS, PRESS_CONTENT, PARTNERS_CONTENT, SERVICE_PAGES, LANDING_PAGES, CITIES, HOME_ABOUT, EXTERNAL_LINKS, FAQS, AREAS, WHY, SOCIAL, CHAMBER, AIRPORTS, FLEET, POLICY, BOOKING_CONTENT, CONTACT_CONTENT, ABOUT_CONTENT, pageSchema };`,
+    `${dataSrc}\n${generatedSrc}\n${marylandSrc}\n${batch3Src}\n${landingSrc}\n${staticSrc}\nthis.__data = { keywordSection, placeName, BRAND, TESTIMONIALS, NAV_SERVICES, PAGE_FAQS, cityFaqs, breadcrumbTrail, breadcrumbSchema, GUIDES, BLOG_POSTS, PRESS_CONTENT, PARTNERS_CONTENT, SERVICE_PAGES, LANDING_PAGES, CITIES, HOME_ABOUT, EXTERNAL_LINKS, FAQS, AREAS, WHY, SOCIAL, CHAMBER, AIRPORTS, FLEET, POLICY, BOOKING_CONTENT, CONTACT_CONTENT, ABOUT_CONTENT, pageSchema };`,
     ctx
   );
   return ctx.__data;
@@ -528,6 +531,7 @@ function buildLanding(slug, data) {
       (highlights.length ? h(2, d.highlightsHeading || "Highlights") + ul(highlights) : "") +
       (areas ? h(2, "Areas We Serve") + areas : "") +
       (vehicles.length ? h(2, "Recommended vehicles") + ul(vehicles) : "") +
+      (() => { const k = data.keywordSection(slug, data.placeName(d)); return h(2, k.h2) + k.text.map(p).join(""); })() +
       (faqs ? h(2, "Frequently asked questions") + faqs : "") +
       (d.ctaTitle ? h(2, d.ctaTitle) + p(d.ctaSubtitle) : ""),
   };
@@ -554,6 +558,7 @@ function buildCity(slug, data) {
         "Hourly and as-directed chauffeur hire",
         "Maryland and Virginia wine tours",
       ]) +
+      (() => { const k = data.keywordSection(`city-${c.slug}`, `${c.name}, MD`, "place"); return h(2, k.h2) + k.text.map(p).join(""); })() +
       faqBlock("Questions & Answers", data.cityFaqs(c)),
   };
 }
@@ -579,11 +584,11 @@ function buildLinksFooter(data) {
   ];
   const columns = [
     ["Services", [
-      ["/airport-transportation", "Airport Transportation"],
-      ["/corporate-transportation", "Corporate Transportation"],
-      ["/hourly-chauffeur", "Hourly Chauffeur"],
-      ["/wedding-transportation", "Wedding Transportation"],
-      ["/long-distance-transportation", "Long Distance"],
+      ["/airport-transportation", "Airport Car Service (BWI, DCA, IAD)"],
+      ["/corporate-transportation", "Corporate Car Service"],
+      ["/hourly-chauffeur", "Hourly Chauffeur Service"],
+      ["/wedding-transportation", "Wedding Limo Service"],
+      ["/long-distance-transportation", "Long-Distance Car Service"],
     ]],
     ["Airports", [
       ["/bwi-airport-car-service", "BWI Airport Car Service"],
@@ -592,11 +597,11 @@ function buildLinksFooter(data) {
       ["/philadelphia-airport-car-service", "PHL Airport Car Service"],
     ]],
     ["Popular Areas", [
-      ["/baltimore-limo-service", "Baltimore"],
-      ["/washington-dc-limo-service", "Washington DC"],
-      ["/annapolis-limo-service", "Annapolis"],
-      ["/columbia-md-limo-service", "Columbia"],
-      ["/executive-car-service-virginia", "Northern Virginia"],
+      ["/baltimore-limo-service", "Baltimore Limo Service"],
+      ["/washington-dc-limo-service", "Washington DC Car Service"],
+      ["/annapolis-limo-service", "Annapolis Limo Service"],
+      ["/columbia-md-limo-service", "Columbia, MD Car Service"],
+      ["/executive-car-service-virginia", "Northern Virginia Executive Car Service"],
       ["/service-areas", "View All Service Areas"],
     ]],
     ["Company", [

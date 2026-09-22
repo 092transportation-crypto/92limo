@@ -2,6 +2,7 @@ import { IMAGES } from "@/lib/data";
 import { GENERATED_LANDING_PAGES } from "@/lib/landingPagesGenerated";
 import { MARYLAND_LANDING_PAGES } from "@/lib/marylandPages";
 import { MARYLAND_BATCH3_PAGES } from "@/lib/marylandPagesBatch3";
+import { MARYLAND_BATCH4_PAGES } from "@/lib/marylandPagesBatch4";
 
 // Vehicle label sets (must match `${category} — ${name}` from FLEET).
 const SEDAN_TRIO = [
@@ -24,6 +25,7 @@ export const LANDING_PAGES = {
   ...GENERATED_LANDING_PAGES,
   ...MARYLAND_LANDING_PAGES,
   ...MARYLAND_BATCH3_PAGES,
+  ...MARYLAND_BATCH4_PAGES,
 
   // ------------------------------------------------------ FLAGSHIP: BWI LIMO
   "bwi-airport-limo": {
@@ -918,7 +920,7 @@ export const LANDING_PAGES = {
   "airport-transfer-maryland": {
     metaTitle: "Airport Transfers Across Maryland | 92 Limo Service",
     metaDescription:
-      "Airport transfer service across Maryland — BWI, DCA, IAD & PHL with flight tracking, optional meet & greet and flat transparent rates, 24/7. Call (877) 609-1919.",
+      "Airport transfer service across Maryland — BWI, DCA, IAD & PHL with flight tracking, meet & greet and flat transparent rates, 24/7. Call (877) 609-1919.",
     eyebrow: "STATEWIDE AIRPORT SERVICE",
     h1: "Airport Transfer Service Across Maryland",
     subtitle:
@@ -1349,7 +1351,7 @@ export const LANDING_PAGES = {
   "phl-airport-to-philadelphia": {
     metaTitle: "PHL Airport to Philadelphia Car Service | 92 Limo",
     metaDescription:
-      "Chauffeured transfers from PHL Airport to Center City Philadelphia & the suburbs — flight tracking, optional meet & greet, luxury fleet, 24/7. Call (877) 609-1919.",
+      "Chauffeured transfers from PHL Airport to Center City Philadelphia & the suburbs — flight tracking, meet & greet, luxury fleet, 24/7. Call (877) 609-1919.",
     eyebrow: "PHL → PHILADELPHIA",
     h1: "PHL Airport to Philadelphia Car Service",
     subtitle:

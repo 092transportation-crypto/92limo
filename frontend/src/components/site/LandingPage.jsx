@@ -7,6 +7,7 @@ import { Faq } from "@/components/site/Faq";
 import { Reveal } from "@/components/site/Reveal";
 import { FLEET, vehicleLabel } from "@/lib/data";
 import { LANDING_PAGES } from "@/lib/landingPages";
+import { keywordSection, placeName } from "@/lib/keywordSection";
 
 const SITE_URL = "https://www.92limo.com";
 
@@ -54,6 +55,8 @@ export default function LandingPage({ slug }) {
       .sort((a, b) => b.score - a.score)
       .slice(0, 6);
   })();
+
+  const kw = keywordSection(slug, placeName(d));
 
   return (
     <>
@@ -194,6 +197,17 @@ export default function LandingPage({ slug }) {
           </div>
         </section>
       )}
+
+      <section className="py-16 lg:py-20 bg-white" data-testid="keyword-section">
+        <div className="max-w-3xl mx-auto px-6 lg:px-8">
+          <h2 className="text-2xl sm:text-3xl font-display font-bold text-[#0A0A0A]">{kw.h2}</h2>
+          <div className="mt-4 space-y-4 text-neutral-700 leading-relaxed">
+            {kw.text.map((t) => (
+              <p key={t.slice(0, 40)}>{t}</p>
+            ))}
+          </div>
+        </div>
+      </section>
 
       <Faq faqs={d.faqs} heading={d.faqHeading || "Frequently Asked Questions"} schemaId={`faq-${slug}`} />
 

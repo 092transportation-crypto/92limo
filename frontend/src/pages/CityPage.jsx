@@ -6,6 +6,7 @@ import { PageHero } from "@/components/site/PageHero";
 import { CTASection } from "@/components/site/CTASection";
 import { Reveal } from "@/components/site/Reveal";
 import { CITIES, SERVICES, AIRPORTS, BRAND, IMAGES } from "@/lib/data";
+import { keywordSection } from "@/lib/keywordSection";
 
 export default function CityPage() {
   const { city } = useParams();
@@ -136,6 +137,21 @@ export default function CityPage() {
         </div>
       </section>
 
+      {(() => {
+        const kw = keywordSection(`city-${data.slug}`, `${data.name}, MD`, "place");
+        return (
+          <section className="py-16 lg:py-20 bg-white" data-testid="keyword-section">
+            <div className="max-w-3xl mx-auto px-6 lg:px-8">
+              <h2 className="text-2xl sm:text-3xl font-display font-bold text-[#0A0A0A]">{kw.h2}</h2>
+              <div className="mt-4 space-y-4 text-neutral-700 leading-relaxed">
+                {kw.text.map((t) => (
+                  <p key={t.slice(0, 40)}>{t}</p>
+                ))}
+              </div>
+            </div>
+          </section>
+        );
+      })()}
       <CTASection title={`Book Your ${data.name} Car Service`} subtitle={`Luxury chauffeur service in ${data.name} and across the DMV — available 24/7.`} />
     </>
   );
