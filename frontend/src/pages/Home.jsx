@@ -4,6 +4,7 @@ import { Fleet } from "@/components/site/Fleet";
 import { Services } from "@/components/site/Services";
 import { Airports } from "@/components/site/Airports";
 import { PopularRoutes } from "@/components/site/PopularRoutes";
+import { BwiDcaHighlights } from "@/components/site/BwiDcaHighlights";
 import { WhyChooseUs } from "@/components/site/WhyChooseUs";
 import { AboutHome } from "@/components/site/AboutHome";
 import { ServiceAreas } from "@/components/site/ServiceAreas";
@@ -25,6 +26,7 @@ export default function Home() {
       <Services />
       <Fleet />
       <Airports />
+      <BwiDcaHighlights />
       <PopularRoutes />
       <WhyChooseUs />
       <AboutHome />

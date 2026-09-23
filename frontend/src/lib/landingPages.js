@@ -3,6 +3,7 @@ import { GENERATED_LANDING_PAGES } from "@/lib/landingPagesGenerated";
 import { MARYLAND_LANDING_PAGES } from "@/lib/marylandPages";
 import { MARYLAND_BATCH3_PAGES } from "@/lib/marylandPagesBatch3";
 import { MARYLAND_BATCH4_PAGES } from "@/lib/marylandPagesBatch4";
+import { MARYLAND_BATCH5_PAGES } from "@/lib/marylandPagesBatch5";
 
 // Vehicle label sets (must match `${category} — ${name}` from FLEET).
 const SEDAN_TRIO = [
@@ -26,6 +27,7 @@ export const LANDING_PAGES = {
   ...MARYLAND_LANDING_PAGES,
   ...MARYLAND_BATCH3_PAGES,
   ...MARYLAND_BATCH4_PAGES,
+  ...MARYLAND_BATCH5_PAGES,
 
   // ------------------------------------------------------ FLAGSHIP: BWI LIMO
   "bwi-airport-limo": {
@@ -38,7 +40,7 @@ export const LANDING_PAGES = {
       "Premium chauffeured limo and car service to and from BWI Marshall Airport — serving Maryland, Pennsylvania, Delaware, Washington DC, and Northern Virginia, 24/7.",
     image: IMAGES.airportPickup,
     alt: "Chauffeur greeting a traveler at BWI Marshall Airport — 92 Limo Service",
-    highlightsHeading: "Why Choose 92 Limo Service?",
+    highlightsHeading: "Why Choose 92 Limo Service for BWI Chauffeur & Car Service?",
     intro: [
       "92 Limo Service is the luxury limo service travelers trust at BWI Marshall Airport. Wherever your trip begins — a home in Maryland, an office in Washington DC, a hotel in Northern Virginia, or a small town in southern Pennsylvania or Delaware — your professional chauffeur arrives early, loads every bag, and delivers you to your terminal relaxed and on time. Arrivals work the same way in reverse: we track your flight, meet you at baggage claim or curbside, and drive you home in quiet, spotless comfort.",
       "Every BWI booking includes real-time flight tracking, so early landings and long delays never cost you a ride — your pickup adjusts automatically at no charge. Prefer a personal welcome? Add meet-and-greet service and your chauffeur can meet you inside the terminal with a name sign (optional meet & greet — additional charge). Generous complimentary wait time is standard on all arrivals.",
@@ -1498,6 +1500,12 @@ const EXTRA_FAQS = {
   "maryland-prom-limo": { q: "How many students fit in one vehicle?", a: "Up to 5 in a Luxury or Premium SUV and up to 13 in a Mercedes Sprinter or Sprinter Limo. Spring weekends sell out early, so book as soon as the group is set." },
   "maryland-concert-transportation": { q: "Where does the chauffeur wait during the show?", a: "Your chauffeur drops you at the entrance, stages nearby during the event, and returns to a pre-arranged pickup point when you call or text — so you skip the garage queue and the post-show rideshare scramble." },
   "maryland-wine-tour-transportation": { q: "How many wineries can we visit in a day?", a: "Most groups enjoy three with a relaxed lunch. Reserve the tastings with the wineries, send us the confirmed times, and we plan the route and drive times around them." },
+  "bwi-airport-limo": { q: "How much does BWI limo service cost?", a: "Every booking is one fixed, transparent price confirmed before you ride, covering the base transportation charge — gratuity, tolls, parking and any other applicable charges are disclosed before confirmation. Call (877) 609-1919 or book online for your exact rate." },
+  "bwi-airport-car-service": { q: "How much does BWI airport car service cost?", a: "Every BWI trip is quoted as a flat, transparent rate confirmed before you book — call (877) 609-1919 or request a quote online. The quoted rate covers the base transportation charge, with gratuity, tolls, parking and any other applicable charges disclosed before confirmation, so there is never a meter or a surprise total." },
+  "bwi-airport-transportation": { q: "What does BWI airport transportation typically cost?", a: "Pricing is a flat rate set before your trip is confirmed, based on vehicle class, pickup location and BWI destination. Call (877) 609-1919 or book online for an exact quote — gratuity, tolls and parking are disclosed upfront, with no surge pricing regardless of time or day." },
+  "bwi-airport-shuttle": { q: "Is BWI airport shuttle service cheaper than a private car?", a: "92 Limo Service is a private, chauffeured vehicle, not a shared shuttle, so you are never split across multiple stops. The rate is quoted as a flat fee before you ride, confirmed by phone at (877) 609-1919 or when you book online." },
+  "dca-airport-limo": { q: "How much does DCA airport limo service cost?", a: "Every DCA trip is quoted as a flat rate before you book, based on vehicle class and trip details. Call (877) 609-1919 or book online for a confirmed price — gratuity, tolls and parking are disclosed before confirmation, with no meter running and no surge pricing." },
+  "dca-airport-car-service": { q: "What's the price for DCA car service?", a: "Pricing is a flat, transparent rate confirmed before your trip, not a metered fare. Call (877) 609-1919 or book online for an exact quote based on your vehicle class and DCA pickup or drop-off location." },
 };
 for (const [slug, faq] of Object.entries(EXTRA_FAQS)) {
   if (LANDING_PAGES[slug]) LANDING_PAGES[slug] = { ...LANDING_PAGES[slug], faqs: [...LANDING_PAGES[slug].faqs, faq] };

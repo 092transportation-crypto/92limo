@@ -63,7 +63,7 @@ function loadData() {
     "src/lib/staticPages.js", "src/lib/pageSchema.js", "src/lib/pageFaqs.js",
     "src/lib/breadcrumbs.js", "src/lib/guides.js", "src/lib/blogPosts.js", "src/lib/keywordSection.js",
   ].map(plain).join("\n");
-  const batch3Src = plain("src/lib/marylandPagesBatch3.js") + "\n" + plain("src/lib/marylandPagesBatch4.js") + "\n" + plain("src/lib/blogPostsBatch2.js");
+  const batch3Src = plain("src/lib/marylandPagesBatch3.js") + "\n" + plain("src/lib/marylandPagesBatch4.js") + "\n" + plain("src/lib/marylandPagesBatch5.js") + "\n" + plain("src/lib/blogPostsBatch2.js");
   const ctx = { console };
   vm.runInNewContext(
     `${dataSrc}\n${generatedSrc}\n${marylandSrc}\n${batch3Src}\n${landingSrc}\n${staticSrc}\nthis.__data = { keywordSection, placeName, BRAND, TESTIMONIALS, NAV_SERVICES, PAGE_FAQS, cityFaqs, breadcrumbTrail, breadcrumbSchema, GUIDES, BLOG_POSTS, PRESS_CONTENT, PARTNERS_CONTENT, SERVICE_PAGES, LANDING_PAGES, CITIES, HOME_ABOUT, EXTERNAL_LINKS, FAQS, AREAS, WHY, SOCIAL, CHAMBER, AIRPORTS, FLEET, POLICY, BOOKING_CONTENT, CONTACT_CONTENT, ABOUT_CONTENT, pageSchema };`,
@@ -388,6 +388,32 @@ function buildStatic(route, data) {
 // Rich, crawlable homepage body: heading + intro, About (repeats the H1 phrase),
 // Why-Choose-Us list, service-area list, FAQ Q&A, and authoritative external
 // links. Keeps the served HTML well past 800 words with real paragraphs.
+// Mirrors src/components/site/BwiDcaHighlights.jsx.
+const BWI_HOME_LINKS = [
+  ["/bwi-airport-limo", "BWI Airport Limo"],
+  ["/bwi-airport-car-service", "BWI Airport Car Service"],
+  ["/bwi-to-washington-dc", "BWI to Washington DC"],
+  ["/bwi-corporate-transportation", "BWI Corporate Transportation"],
+  ["/bwi-airport-meet-and-greet", "BWI Airport Meet & Greet"],
+  ["/bwi-24-hour-airport-car-service", "BWI 24 Hour Car Service"],
+  ["/bwi-to-laurel-md", "BWI to Laurel, MD"],
+  ["/bwi-to-silver-spring", "BWI to Silver Spring"],
+  ["/bwi-to-tysons", "BWI to Tysons"],
+  ["/bwi-to-mclean", "BWI to McLean"],
+];
+const DCA_HOME_LINKS = [
+  ["/dca-airport-limo", "DCA Airport Limo"],
+  ["/dca-airport-car-service", "DCA Airport Car Service"],
+  ["/dca-to-washington-dc", "DCA to Washington DC"],
+  ["/dca-airport-meet-and-greet", "DCA Airport Meet & Greet"],
+  ["/dca-to-georgetown", "DCA to Georgetown"],
+  ["/dca-to-arlington", "DCA to Arlington"],
+  ["/dca-to-alexandria", "DCA to Alexandria"],
+  ["/dca-to-tysons", "DCA to Tysons"],
+  ["/dca-to-mclean", "DCA to McLean"],
+  ["/dca-to-silver-spring", "DCA to Silver Spring"],
+];
+
 function buildHomeBody(s, data) {
   const about = data.HOME_ABOUT || { heading: "", paragraphs: [] };
   const why = (data.WHY || []).map((w) => `${esc(w.title)} — ${esc(w.desc)}`);
@@ -401,6 +427,11 @@ function buildHomeBody(s, data) {
     (about.heading ? h(2, about.heading) : "") +
     (about.paragraphs || []).map(p).join("") +
     (why.length ? h(2, "Why Choose 92 Limo Service") + ul(why) : "") +
+    h(2, "Explore BWI & DCA Transportation") +
+    h(3, "BWI Marshall Airport") +
+    ul(BWI_HOME_LINKS.map(([href, label]) => a(href, label))) +
+    h(3, "Reagan National Airport (DCA)") +
+    ul(DCA_HOME_LINKS.map(([href, label]) => a(href, label))) +
     (areas.length
       ? h(2, "Service Areas Across DC, Maryland & Virginia") +
         p(
@@ -412,6 +443,18 @@ function buildHomeBody(s, data) {
     (links ? h(2, "Helpful Travel Resources") + `<ul>${links}</ul>` : "")
   );
 }
+
+// Mirrors src/components/site/ServiceDetail.jsx POPULAR_LINKS.
+const SERVICE_POPULAR_LINKS = [
+  ["/bwi-airport-car-service", "BWI Airport Car Service"],
+  ["/dca-airport-car-service", "DCA Airport Car Service"],
+  ["/iad-airport-car-service", "IAD Airport Car Service"],
+  ["/bwi-corporate-transportation", "BWI Corporate Transportation"],
+  ["/dca-airport-meet-and-greet", "DCA Airport Meet & Greet"],
+  ["/service-areas", "All Service Areas"],
+  ["/fleet", "Our Fleet"],
+  ["/policies", "Booking & Cancellation Policies"],
+];
 
 function buildService(slug, data) {
   const d = data.SERVICE_PAGES[slug];
@@ -453,7 +496,10 @@ function buildService(slug, data) {
         .map((t) => `<blockquote><p>${esc(t.quote)}</p><cite>${esc(t.name)} — Google review</cite></blockquote>`).join("") +
       pageFaqBlock(`/${slug}`, data, `${d.h1} FAQs`) +
       h(2, "Related Services & Popular Pages") +
-      ul(data.NAV_SERVICES.filter((x) => x.to !== `/${slug}`).map((x) => a(x.to, x.label))),
+      ul([
+        ...data.NAV_SERVICES.filter((x) => x.to !== `/${slug}`).map((x) => a(x.to, x.label)),
+        ...SERVICE_POPULAR_LINKS.filter(([to]) => to !== `/${slug}`).map(([to, label]) => a(to, label)),
+      ]),
   };
 }
 
