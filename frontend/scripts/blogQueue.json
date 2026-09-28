@@ -955,7 +955,10 @@
       "Surge pricing on rideshare during big games — avoided",
       "Booking a recurring game-day pickup"
     ],
-    "status": "pending"
+    "status": "published",
+    "publishedSlug": "baltimore-ravens-game-day-limo",
+    "publishedDate": "2026-09-28",
+    "note": "Pre-empted by the 2026-09-28 bulk content commission batch 2 (blogPostsBatch4.js) — this queue idea's exact outline was adapted directly into that post."
   },
   {
     "id": "honeymoon-airport-send-off",
