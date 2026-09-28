@@ -42,7 +42,9 @@ export default function BlogPostPage({ slug: guideSlug }) {
           })),
         },
         {
-          "@type": "Article",
+          // Guides (evergreen articles at /<slug>) use Article; blog posts
+          // at /blog/<slug> use the more specific BlogPosting type.
+          "@type": guideSlug ? "Article" : "BlogPosting",
           headline: post.title,
           datePublished: post.date,
           author: { "@type": "Organization", name: BRAND.name },
@@ -62,7 +64,7 @@ export default function BlogPostPage({ slug: guideSlug }) {
       const ex = document.getElementById("blog-post-schema");
       if (ex) ex.remove();
     };
-  }, [post]);
+  }, [post, guideSlug]);
 
   if (!post) return <Navigate to="/blog" replace />;
 

@@ -1,0 +1,65 @@
+name: Daily blog posts
+
+# Runs scripts/generateBlogs.js, which picks a few random ideas from
+# scripts/blogQueue.json, generates full SEO'd blog posts via the Anthropic
+# API, and writes the results locally (see that script's header comment for
+# the full list of files it touches). This workflow's job is just to run it
+# and, if it produced any changes, commit and push them — which triggers the
+# existing Vercel GitHub integration to build and deploy automatically.
+#
+# Schedule note: cron is UTC and does not observe DST, so 13:00 UTC is
+# 9:00 AM Eastern during EDT (spring-fall) and 8:00 AM during EST
+# (winter). Adjust the cron expression twice a year if you need it pinned
+# to exactly 9:00 AM ET, or leave it — a one-hour drift twice a year is
+# harmless for a content-publishing job.
+on:
+  schedule:
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+    inputs:
+      count:
+        description: "How many posts to generate this run (defaults to 4)"
+        required: false
+        default: "4"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: "npm"
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install dependencies
+        working-directory: frontend
+        run: npm ci
+
+      - name: Generate today's posts
+        id: generate
+        working-directory: frontend
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          BLOG_COUNT: ${{ github.event.inputs.count || '4' }}
+        run: npm run blogs:generate | tee /tmp/generate.log
+
+      - name: Commit and push if there are changes
+        run: |
+          git config user.name "92 Limo Blog Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "No changes to commit — queue may be exhausted, or every generation failed."
+            exit 0
+          fi
+          SLUGS=$(grep -oE '\-> /blog/\S+' /tmp/generate.log | sed 's#-> /blog/#- #' || true)
+          git add -A
+          git commit -m "$(printf 'Add %s daily automated blog post(s)\n\n%s' "$(echo "$SLUGS" | grep -c '^-' || echo 0)" "$SLUGS")"
+          git push

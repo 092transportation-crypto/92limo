@@ -68,6 +68,7 @@
     "build": "craco build",
     "postbuild": "node scripts/prerender.js",
     "sitemap": "node scripts/generateSitemap.js",
+    "blogs:generate": "node scripts/generateBlogs.js",
     "test": "craco test"
   },
   "browserslist": {

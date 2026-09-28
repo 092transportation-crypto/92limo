@@ -63,7 +63,7 @@ function loadData() {
     "src/lib/staticPages.js", "src/lib/pageSchema.js", "src/lib/pageFaqs.js",
     "src/lib/breadcrumbs.js", "src/lib/guides.js", "src/lib/blogPosts.js", "src/lib/keywordSection.js",
   ].map(plain).join("\n");
-  const batch3Src = plain("src/lib/marylandPagesBatch3.js") + "\n" + plain("src/lib/marylandPagesBatch4.js") + "\n" + plain("src/lib/marylandPagesBatch5.js") + "\n" + plain("src/lib/blogPostsBatch2.js");
+  const batch3Src = plain("src/lib/marylandPagesBatch3.js") + "\n" + plain("src/lib/marylandPagesBatch4.js") + "\n" + plain("src/lib/marylandPagesBatch5.js") + "\n" + plain("src/lib/blogPostsBatch2.js") + "\n" + plain("src/lib/blogPostsGenerated.js");
   const ctx = { console };
   vm.runInNewContext(
     `${dataSrc}\n${generatedSrc}\n${marylandSrc}\n${batch3Src}\n${landingSrc}\n${staticSrc}\nthis.__data = { keywordSection, placeName, BRAND, TESTIMONIALS, NAV_SERVICES, PAGE_FAQS, cityFaqs, breadcrumbTrail, breadcrumbSchema, GUIDES, BLOG_POSTS, PRESS_CONTENT, PARTNERS_CONTENT, SERVICE_PAGES, LANDING_PAGES, CITIES, HOME_ABOUT, EXTERNAL_LINKS, FAQS, AREAS, WHY, SOCIAL, CHAMBER, AIRPORTS, FLEET, POLICY, BOOKING_CONTENT, CONTACT_CONTENT, ABOUT_CONTENT, pageSchema };`,
@@ -504,13 +504,14 @@ function buildService(slug, data) {
 }
 
 // Blog posts (/blog/<slug>) and guides (/<slug>) share one article shape.
-function buildArticle(post, route) {
+// Blog posts use the more specific BlogPosting type; evergreen guides stay Article.
+function buildArticle(post, route, schemaType = "Article") {
   const block = (x, n) =>
     h(n, x.heading) + (x.paragraphs || []).map(p).join("") + ul((x.list || []).map(esc)) +
     (x.subsections || []).map((sub) => block(sub, n + 1)).join("");
   const schema = {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": schemaType,
     headline: post.title,
     datePublished: post.date,
     dateModified: post.date,
@@ -773,7 +774,7 @@ function main() {
     else if (route.startsWith("/airport-car-service/")) content = buildCity(route.split("/").pop(), data);
     else if (data.LANDING_PAGES[slug]) content = buildLanding(slug, data);
     else if (data.GUIDES.find((g) => g.slug === slug)) content = buildArticle(data.GUIDES.find((g) => g.slug === slug), route);
-    else if (route.startsWith("/blog/") && data.BLOG_POSTS.find((b) => b.slug === route.slice(6))) content = buildArticle(data.BLOG_POSTS.find((b) => b.slug === route.slice(6)), route);
+    else if (route.startsWith("/blog/") && data.BLOG_POSTS.find((b) => b.slug === route.slice(6))) content = buildArticle(data.BLOG_POSTS.find((b) => b.slug === route.slice(6)), route, "BlogPosting");
     else continue; // unknown route -> leave as SPA shell
 
     const html = render(shell, route, content, footer, data);

@@ -44,6 +44,7 @@ function loadData() {
     "src/lib/marylandPagesBatch4.js",
     "src/lib/marylandPagesBatch5.js",
     "src/lib/blogPostsBatch2.js",
+    "src/lib/blogPostsGenerated.js",
     "src/lib/landingPages.js",
     "src/lib/staticPages.js",
     "src/lib/pageSchema.js",
