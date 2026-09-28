@@ -5,6 +5,7 @@
 // pages" list before the FAQs. FAQ schema is injected by BlogPostPage.
 
 import { BLOG_POSTS_BATCH2 } from "@/lib/blogPostsBatch2";
+import { BLOG_POSTS_BATCH3 } from "@/lib/blogPostsBatch3";
 import { GENERATED_BLOG_POSTS } from "@/lib/blogPostsGenerated";
 
 export const BLOG_POSTS = [
@@ -1015,6 +1016,8 @@ export const BLOG_POSTS = [
 
 // 2026-09-22 keyword posts live in their own file.
 BLOG_POSTS.push(...BLOG_POSTS_BATCH2);
+// 2026-09-28 bulk content commission (10 posts) — see blogPostsBatch3.js header.
+BLOG_POSTS.push(...BLOG_POSTS_BATCH3);
 // Daily-automation posts (scripts/generateBlogs.js) — newest last, so
 // GENERATED_BLOG_POSTS is pushed after the hand-written batches.
 BLOG_POSTS.push(...GENERATED_BLOG_POSTS);

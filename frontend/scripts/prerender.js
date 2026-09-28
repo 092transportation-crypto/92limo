@@ -63,7 +63,7 @@ function loadData() {
     "src/lib/staticPages.js", "src/lib/pageSchema.js", "src/lib/pageFaqs.js",
     "src/lib/breadcrumbs.js", "src/lib/guides.js", "src/lib/blogPosts.js", "src/lib/keywordSection.js",
   ].map(plain).join("\n");
-  const batch3Src = plain("src/lib/marylandPagesBatch3.js") + "\n" + plain("src/lib/marylandPagesBatch4.js") + "\n" + plain("src/lib/marylandPagesBatch5.js") + "\n" + plain("src/lib/blogPostsBatch2.js") + "\n" + plain("src/lib/blogPostsGenerated.js");
+  const batch3Src = plain("src/lib/marylandPagesBatch3.js") + "\n" + plain("src/lib/marylandPagesBatch4.js") + "\n" + plain("src/lib/marylandPagesBatch5.js") + "\n" + plain("src/lib/blogPostsBatch2.js") + "\n" + plain("src/lib/blogPostsBatch3.js") + "\n" + plain("src/lib/blogPostsGenerated.js");
   const ctx = { console };
   vm.runInNewContext(
     `${dataSrc}\n${generatedSrc}\n${marylandSrc}\n${batch3Src}\n${landingSrc}\n${staticSrc}\nthis.__data = { keywordSection, placeName, BRAND, TESTIMONIALS, NAV_SERVICES, PAGE_FAQS, cityFaqs, breadcrumbTrail, breadcrumbSchema, GUIDES, BLOG_POSTS, PRESS_CONTENT, PARTNERS_CONTENT, SERVICE_PAGES, LANDING_PAGES, CITIES, HOME_ABOUT, EXTERNAL_LINKS, FAQS, AREAS, WHY, SOCIAL, CHAMBER, AIRPORTS, FLEET, POLICY, BOOKING_CONTENT, CONTACT_CONTENT, ABOUT_CONTENT, pageSchema };`,

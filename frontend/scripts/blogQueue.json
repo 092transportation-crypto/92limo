@@ -739,7 +739,10 @@
       "Best use cases for each option",
       "Booking ahead vs. hailing on the street"
     ],
-    "status": "pending"
+    "status": "published",
+    "publishedSlug": "black-car-service-vs-traditional-taxi",
+    "publishedDate": "2026-09-28",
+    "note": "Pre-empted by the 2026-09-28 bulk content commission (blogPostsBatch3.js) — close enough topic overlap to skip."
   },
   {
     "id": "shuttle-vs-private-car-airport",
@@ -753,7 +756,10 @@
       "Luggage handling differences",
       "When a shuttle is still the right call"
     ],
-    "status": "pending"
+    "status": "published",
+    "publishedSlug": "airport-shuttle-vs-private-limo",
+    "publishedDate": "2026-09-28",
+    "note": "Pre-empted by the 2026-09-28 bulk content commission (blogPostsBatch3.js) — close enough topic overlap to skip."
   },
   {
     "id": "wedding-limo-vs-party-bus",
@@ -1145,7 +1151,10 @@
       "What happens to your booking if plans change",
       "Setting a reminder for recurring trips"
     ],
-    "status": "pending"
+    "status": "published",
+    "publishedSlug": "best-time-to-book-airport-car-service",
+    "publishedDate": "2026-09-28",
+    "note": "Pre-empted by the 2026-09-28 bulk content commission (blogPostsBatch3.js) — close enough topic overlap to skip."
   },
   {
     "id": "whats-included-flat-rate",
