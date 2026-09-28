@@ -21,11 +21,15 @@ export const Testimonials = ({
   const reviews = limit ? pool.slice(0, limit) : pool;
 
   return (
-    <section data-testid="reviews-section" className="py-20 lg:py-28 bg-[#F6F5F2]">
+    <section data-testid="reviews-section" className="relative bg-[#F6F5F2] py-20 lg:py-28">
+      <div className="absolute inset-x-0 top-0 h-1.5 gold-gradient" aria-hidden="true" />
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <Reveal className="max-w-2xl mb-14">
-          <span className="text-xs font-semibold tracking-widest text-[#B8860B]">{eyebrow}</span>
-          <h2 className="mt-3 text-3xl sm:text-4xl font-display font-bold text-[#0A0A0A]">{heading}</h2>
+          <div className="flex items-center gap-4">
+            <span className="h-10 w-1.5 shrink-0 rounded-full gold-gradient" aria-hidden="true" />
+            <span className="text-xs font-semibold tracking-widest text-[#B8860B]">{eyebrow}</span>
+          </div>
+          <h2 className="mt-4 text-3xl sm:text-4xl font-display font-bold text-[#0A0A0A]">{heading}</h2>
           <p className="mt-3 text-neutral-600">{intro}</p>
           <div className="mt-5 flex items-center gap-3">
             <Stars />

@@ -22,6 +22,17 @@ export default function ChatWidget() {
   const scrollRef = useRef(null);
   const inputRef = useRef(null);
 
+  // Teaser bubble: "Questions? Chat with us 24/7". Shown once per visit,
+  // dismissed on open, manual close, or after 8s so it doesn't linger.
+  const [showTeaser, setShowTeaser] = useState(true);
+  useEffect(() => {
+    if (open) setShowTeaser(false);
+  }, [open]);
+  useEffect(() => {
+    const t = setTimeout(() => setShowTeaser(false), 8000);
+    return () => clearTimeout(t);
+  }, []);
+
   useEffect(() => {
     if (scrollRef.current) {
       scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
@@ -63,16 +74,36 @@ export default function ChatWidget() {
 
   return (
     <>
-      {/* Floating toggle button */}
-      <button
-        type="button"
-        onClick={() => setOpen((v) => !v)}
-        aria-label={open ? "Close chat" : "Chat with 92 Limo Assistant"}
-        data-testid="chat-widget-toggle"
-        className="fixed bottom-20 lg:bottom-6 right-4 lg:right-6 z-[60] w-14 h-14 rounded-full bg-[#0A0A0A] border border-[#C9A227]/60 shadow-lg shadow-black/40 flex items-center justify-center text-[#C9A227] hover:scale-105 hover:border-[#C9A227] transition-all"
-      >
-        {open ? <X size={24} /> : <MessageCircle size={24} />}
-      </button>
+      {/* Floating toggle button + "chat with us" teaser bubble */}
+      <div className="fixed bottom-20 lg:bottom-6 right-4 lg:right-6 z-[60] flex items-center gap-2.5">
+        {!open && showTeaser && (
+          <div
+            data-testid="chat-widget-teaser"
+            className="flex items-center gap-2 rounded-full border border-[#C9A227]/40 bg-[#0A0A0A] py-2.5 pl-4 pr-2 shadow-lg shadow-black/40 animate-in fade-in slide-in-from-right-2"
+          >
+            <span className="whitespace-nowrap text-xs font-medium text-white">
+              Questions? Chat with us 24/7
+            </span>
+            <button
+              type="button"
+              aria-label="Dismiss chat prompt"
+              onClick={() => setShowTeaser(false)}
+              className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-neutral-500 transition-colors hover:text-white"
+            >
+              <X size={12} />
+            </button>
+          </div>
+        )}
+        <button
+          type="button"
+          onClick={() => setOpen((v) => !v)}
+          aria-label={open ? "Close chat" : "Chat with 92 Limo Assistant"}
+          data-testid="chat-widget-toggle"
+          className="w-14 h-14 shrink-0 rounded-full bg-[#0A0A0A] border border-[#C9A227]/60 shadow-lg shadow-black/40 flex items-center justify-center text-[#C9A227] hover:scale-105 hover:border-[#C9A227] transition-all"
+        >
+          {open ? <X size={24} /> : <MessageCircle size={24} />}
+        </button>
+      </div>
 
       {/* Chat window */}
       {open && (

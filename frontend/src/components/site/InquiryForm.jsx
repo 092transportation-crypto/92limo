@@ -212,7 +212,8 @@ function SuccessBanner({ onDismiss }) {
   );
 }
 
-export function InquiryForm() {
+export function InquiryForm({ variant = "page" }) {
+  const isModal = variant === "modal";
   const [form, setForm] = useState(EMPTY);
   const [invalid, setInvalid] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -322,59 +323,77 @@ export function InquiryForm() {
     }
   };
 
-  return (
-    <section
-      id="book"
-      data-testid="inquiry-section"
-      className="relative overflow-hidden bg-[#0A0A0A] py-20 lg:py-28"
-    >
-      {/* Ambient gold glow */}
-      <div
-        className="pointer-events-none absolute -top-40 left-1/2 h-[30rem] w-[50rem] -translate-x-1/2 rounded-full opacity-25 blur-3xl"
-        style={{ background: "radial-gradient(closest-side, #C9A227, transparent)" }}
-        aria-hidden="true"
-      />
+  const Wrapper = isModal ? "div" : "section";
 
-      <div className="relative mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-        <motion.div
-          className="mb-12 text-center"
-          initial={{ opacity: 0, y: 24 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-80px" }}
-          transition={{ duration: 0.6 }}
-        >
-          <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#C9A227]">
-            Online Reservations
-          </span>
-          <h2 className="font-display mt-3 text-3xl font-bold text-white sm:text-4xl">
-            Reserve Your Ride
-          </h2>
-          <p className="mt-3 text-neutral-400">
-            Tell us about your trip — we'll confirm with an all-inclusive quote.
-            No payment required. Or call{" "}
-            <a href="tel:+18776091919" className="font-semibold text-[#C9A227] hover:underline">
-              (877) 609-1919
-            </a>
-            .
-          </p>
-        </motion.div>
+  return (
+    <Wrapper
+      id={isModal ? undefined : "book"}
+      data-testid="inquiry-section"
+      className={
+        isModal
+          ? "relative overflow-hidden bg-[#0A0A0A]"
+          : "relative overflow-hidden bg-[#0A0A0A] py-20 lg:py-28"
+      }
+    >
+      {/* Ambient gold glow — page variant only; too heavy for a compact modal */}
+      {!isModal && (
+        <div
+          className="pointer-events-none absolute -top-40 left-1/2 h-[30rem] w-[50rem] -translate-x-1/2 rounded-full opacity-25 blur-3xl"
+          style={{ background: "radial-gradient(closest-side, #C9A227, transparent)" }}
+          aria-hidden="true"
+        />
+      )}
+
+      <div className={isModal ? "relative" : "relative mx-auto max-w-3xl px-4 sm:px-6 lg:px-8"}>
+        {!isModal && (
+          <motion.div
+            className="mb-12 text-center"
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-80px" }}
+            transition={{ duration: 0.6 }}
+          >
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#C9A227]">
+              Online Reservations
+            </span>
+            <h2 className="font-display mt-3 text-3xl font-bold text-white sm:text-4xl">
+              Reserve Your Ride
+            </h2>
+            <p className="mt-3 text-neutral-400">
+              Tell us about your trip — we'll confirm with an all-inclusive quote.
+              No payment required. Or call{" "}
+              <a href="tel:+18776091919" className="font-semibold text-[#C9A227] hover:underline">
+                (877) 609-1919
+              </a>
+              .
+            </p>
+          </motion.div>
+        )}
 
         <motion.div
           ref={cardRef}
-          className="relative scroll-mt-28 rounded-3xl border border-white/10 bg-gradient-to-b from-white/[0.06] to-white/[0.02] shadow-[0_30px_80px_-30px_rgba(201,162,39,0.35)] backdrop-blur-sm"
-          initial={{ opacity: 0, y: 32 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-80px" }}
-          transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
+          className={
+            isModal
+              ? "relative"
+              : "relative scroll-mt-28 rounded-3xl border border-white/10 bg-gradient-to-b from-white/[0.06] to-white/[0.02] shadow-[0_30px_80px_-30px_rgba(201,162,39,0.35)] backdrop-blur-sm"
+          }
+          {...(isModal
+            ? { initial: { opacity: 0, y: 16 }, animate: { opacity: 1, y: 0 }, transition: { duration: 0.4 } }
+            : {
+                initial: { opacity: 0, y: 32 },
+                whileInView: { opacity: 1, y: 0 },
+                viewport: { once: true, margin: "-80px" },
+                transition: { duration: 0.7, ease: [0.22, 1, 0.36, 1] },
+              })}
         >
-          <div className="h-1 w-full rounded-t-3xl gold-gradient" aria-hidden="true" />
+          {!isModal && <div className="h-1 w-full rounded-t-3xl gold-gradient" aria-hidden="true" />}
 
           <AnimatePresence>
             {done && <SuccessBanner key="success" onDismiss={() => setDone(false)} />}
           </AnimatePresence>
 
           {/* Progress indicator */}
-          <div className="px-6 pt-6 sm:px-10 sm:pt-8">
+          <div className={isModal ? "px-6 pt-6 sm:px-8" : "px-6 pt-6 sm:px-10 sm:pt-8"}>
             <div className="mb-2 flex items-center justify-between text-[11px] font-bold uppercase tracking-[0.14em]">
               <span className="text-neutral-400">Trip Details</span>
               <span className="tabnums text-[#C9A227]" data-testid="inquiry-progress">
@@ -394,7 +413,7 @@ export function InquiryForm() {
             data-testid="inquiry-form"
             onSubmit={submit}
             noValidate
-            className="p-6 sm:p-10"
+            className={isModal ? "p-6 sm:p-8" : "p-6 sm:p-10"}
             variants={listVariants}
             initial="hidden"
             whileInView="show"
@@ -790,32 +809,34 @@ export function InquiryForm() {
           </motion.form>
         </motion.div>
 
-        {/* Trust badges */}
-        <motion.ul
-          data-testid="inquiry-trust-badges"
-          className="mt-10 grid grid-cols-1 gap-3 min-[430px]:grid-cols-2 sm:grid-cols-3"
-          variants={listVariants}
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: true, margin: "-40px" }}
-        >
-          {TRUST_BADGES.map(({ icon: Icon, label, sub }) => (
-            <motion.li
-              key={label}
-              variants={itemVariants}
-              className="flex items-center gap-3 rounded-xl border border-[#C9A227]/25 bg-white/[0.03] px-4 py-3 transition-colors duration-300 hover:border-[#C9A227]/60"
-            >
-              <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-[#C9A227]/40 bg-[#C9A227]/10">
-                <Icon size={17} className="text-[#C9A227]" />
-              </span>
-              <span className="min-w-0">
-                <span className="block text-[13px] font-bold leading-tight text-white">{label}</span>
-                <span className="block text-[11px] uppercase tracking-[0.08em] text-neutral-500">{sub}</span>
-              </span>
-            </motion.li>
-          ))}
-        </motion.ul>
+        {/* Trust badges — page variant only; the modal stays compact */}
+        {!isModal && (
+          <motion.ul
+            data-testid="inquiry-trust-badges"
+            className="mt-10 grid grid-cols-1 gap-3 min-[430px]:grid-cols-2 sm:grid-cols-3"
+            variants={listVariants}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, margin: "-40px" }}
+          >
+            {TRUST_BADGES.map(({ icon: Icon, label, sub }) => (
+              <motion.li
+                key={label}
+                variants={itemVariants}
+                className="flex items-center gap-3 rounded-xl border border-[#C9A227]/25 bg-white/[0.03] px-4 py-3 transition-colors duration-300 hover:border-[#C9A227]/60"
+              >
+                <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-[#C9A227]/40 bg-[#C9A227]/10">
+                  <Icon size={17} className="text-[#C9A227]" />
+                </span>
+                <span className="min-w-0">
+                  <span className="block text-[13px] font-bold leading-tight text-white">{label}</span>
+                  <span className="block text-[11px] uppercase tracking-[0.08em] text-neutral-500">{sub}</span>
+                </span>
+              </motion.li>
+            ))}
+          </motion.ul>
+        )}
       </div>
-    </section>
+    </Wrapper>
   );
 }

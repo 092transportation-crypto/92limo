@@ -23,6 +23,7 @@ export default function Home() {
         path="/"
       />
       <Hero />
+      <Testimonials featuredOnly limit={5} />
       <Services />
       <Fleet />
       <Airports />
@@ -31,7 +32,6 @@ export default function Home() {
       <WhyChooseUs />
       <AboutHome />
       <ServiceAreas />
-      <Testimonials featuredOnly />
       <Faq
         faqs={FAQS}
         heading="Frequently Asked Questions"

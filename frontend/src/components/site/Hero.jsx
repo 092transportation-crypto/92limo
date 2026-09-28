@@ -1,8 +1,9 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Phone, ChevronRight, Star, ChevronDown } from "lucide-react";
 import { BRAND, IMAGES } from "@/lib/data";
+import { QuoteModal } from "@/components/site/QuoteModal";
 
 const container = {
   hidden: {},
@@ -17,6 +18,7 @@ const item = {
 
 export const Hero = () => {
   const ref = useRef(null);
+  const [quoteOpen, setQuoteOpen] = useState(false);
   // Scroll-linked parallax: background drifts and zooms, content fades as you leave.
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -28,6 +30,7 @@ export const Hero = () => {
   const contentOpacity = useTransform(scrollYProgress, [0, 0.75], [1, 0]);
 
   return (
+    <>
     <section
       ref={ref}
       data-testid="hero-section"
@@ -70,18 +73,21 @@ export const Hero = () => {
           </motion.p>
 
           <motion.div variants={item} className="mt-9 flex flex-col sm:flex-row gap-4">
-            <Link
-              data-testid="hero-book-btn"
-              to="/booking"
-              className="group btn-press gold-gradient text-[#090A0C] font-bold px-8 py-4 rounded-full hover:brightness-110 flex items-center justify-center gap-2 text-base"
+            <motion.button
+              type="button"
+              data-testid="hero-quote-btn"
+              onClick={() => setQuoteOpen(true)}
+              whileHover={{ scale: 1.03 }}
+              whileTap={{ scale: 0.97 }}
+              className="group btn-press gold-gradient text-[#090A0C] font-extrabold px-10 py-5 sm:px-12 sm:py-6 rounded-full hover:brightness-110 flex items-center justify-center gap-2.5 text-lg sm:text-xl shadow-[0_0_50px_-8px_rgba(201,162,39,0.85)]"
             >
-              Book Now
-              <ChevronRight size={18} className="group-hover:translate-x-1 transition-transform" />
-            </Link>
+              Get a Free Quote
+              <ChevronRight size={22} className="group-hover:translate-x-1 transition-transform" />
+            </motion.button>
             <Link
               data-testid="hero-fleet-btn"
               to="/fleet"
-              className="btn-press border border-white/25 text-white font-semibold px-8 py-4 rounded-full hover:border-[#D4AF37] hover:text-[#D4AF37] flex items-center justify-center gap-2 text-base"
+              className="btn-press border border-white/25 text-white font-semibold px-8 py-4 rounded-full hover:border-[#D4AF37] hover:text-[#D4AF37] flex items-center justify-center gap-2 text-base self-center sm:self-auto"
             >
               View Fleet
             </Link>
@@ -116,5 +122,7 @@ export const Hero = () => {
         <ChevronDown size={20} className="float-soft" />
       </motion.div>
     </section>
+    <QuoteModal open={quoteOpen} onOpenChange={setQuoteOpen} />
+    </>
   );
 };
