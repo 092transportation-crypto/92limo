@@ -8,7 +8,14 @@ export const PageHero = ({ eyebrow, title, subtitle, image, alt, height = "min-h
   return (
     <section className={`relative ${height} flex items-center overflow-hidden grain`}>
       <div className="absolute inset-0 z-0">
-        <img src={image} alt={alt} className="w-full h-full object-cover" />
+        <img
+          src={image}
+          alt={alt}
+          width={1264}
+          height={848}
+          fetchPriority="high"
+          className="w-full h-full object-cover"
+        />
         <div className="absolute inset-0 bg-gradient-to-t from-[#090A0C] via-[#090A0C]/75 to-[#090A0C]/85" />
         <div className="absolute inset-0 bg-gradient-to-r from-[#090A0C] via-[#090A0C]/40 to-transparent" />
       </div>
