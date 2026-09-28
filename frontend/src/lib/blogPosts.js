@@ -21,7 +21,7 @@ export const BLOG_POSTS = [
     readTime: "9 min read",
     excerpt:
       "How BWI car service actually works in 2026 — where your chauffeur meets you, what a flat rate includes, how to time the trip, and which vehicle fits your party.",
-    image: "/images/site/airport-pickup.webp",
+    image: "/images/blog/airport-dropoff.webp",
     intro: [
       "Baltimore-Washington International Thurgood Marshall is the workhorse airport of the DMV — the Southwest hub, the value fares, the fastest security of the region's three airports. It is also where a professional car service makes the biggest visible difference, because BWI trips tend to happen at the edges of the day: the 6 a.m. departure bank, the delayed evening arrival, the family with a week of luggage. This guide covers everything worth knowing about booking a BWI car service in 2026.",
     ],
@@ -111,7 +111,7 @@ export const BLOG_POSTS = [
     readTime: "8 min read",
     excerpt:
       "Surge math, suburban cancellations, and what commercial insurance actually means — an honest Maryland-specific comparison of rideshare and professional car service.",
-    image: "/images/site/chauffeur.webp",
+    image: "/images/blog/scenario-doorman.webp",
     intro: [
       "Every Maryland traveler runs the same mental math eventually: the app is right there, so why book a car service? Sometimes the app is the right answer — and an honest comparison should say so. But Maryland has specific conditions that flip the equation more often than travelers expect: three airports with early departure banks, suburbs where driver supply runs thin, and an events calendar that makes surge pricing a local sport. Here is the full comparison.",
     ],
@@ -208,7 +208,7 @@ export const BLOG_POSTS = [
     readTime: "9 min read",
     excerpt:
       "Baltimore to Bethesda, I-270 to Annapolis — the ground-travel playbook Maryland executives use to protect their calendars, their budgets, and their client impressions.",
-    image: "/images/site/corporate.webp",
+    image: "/images/blog/scenario-corporate-1.webp",
     intro: [
       "Maryland business travel has a distinctive shape: a corporate map that stretches from Baltimore's harbor to the I-270 biotech corridor to Annapolis government offices, three competing airports, and two of America's most congested interstates stitching it together. Executives who move through it well are not lucky — they run a system. This is that system, assembled from a decade of driving Maryland's law firms, contractors, and leadership teams.",
     ],
@@ -309,7 +309,7 @@ export const BLOG_POSTS = [
     readTime: "9 min read",
     excerpt:
       "Booking windows, vetting questions, vehicle mixes, and the Maryland venue quirks that decide wedding-day transportation — a practical guide for couples and planners.",
-    image: "/images/site/wedding.webp",
+    image: "/images/blog/scenario-wedding-1.webp",
     intro: [
       "Wedding transportation is invisible when it works and unforgettable when it fails. The right company delivers more than a pretty car: it delivers a wedding party that arrives together, on time, and unwrinkled, and a couple whose exit is as composed as their entrance. Choosing that company in Maryland — with its waterfront venues, historic city curbs, and packed spring calendar — takes a little method. Here it is.",
     ],
@@ -410,7 +410,7 @@ export const BLOG_POSTS = [
     readTime: "8 min read",
     excerpt:
       "The transfer, not the flight, is where Maryland travel days go sideways. Ten habits that make the ground legs boring — airport choice, honest timing, and the night-before rule.",
-    image: "/images/site/long-distance.webp",
+    image: "/images/blog/airport-terminal-glass.webp",
     intro: [
       "Ask frequent flyers where travel days actually go wrong and few say the flight — they say the ground: the ride that cancelled at 4:30 a.m., the rush hour nobody budgeted, the garage that swallowed the first hour home. Maryland, with three airports and two famously congested interstates, rewards travelers who treat the transfer as seriously as the ticket. These ten habits are how.",
     ],
@@ -512,7 +512,7 @@ export const BLOG_POSTS = [
     readTime: "9 min read",
     excerpt:
       "Airport flat rates, hourly minimums, wedding packages, and tipping — the real numbers behind Maryland limo service in 2026, and five ways to pay less for the same car.",
-    image: "/images/site/sedan.webp",
+    image: "/images/blog/scenario-wedding-2.webp",
     intro: [
       "Search for limo pricing in Maryland and you mostly find two useless answers: suspiciously low teaser rates that triple by checkout, and 'call for a quote' pages that tell you nothing. Neither helps you budget. As a company that quotes these trips every day across the DMV, we would rather just publish the honest numbers. Here is what chauffeured transportation actually costs in Maryland in 2026 — by service type, by vehicle, and with every 'what about' answered — so you can recognize a fair price when you see one.",
       "One clarification first: in 2026, 'limo service' almost always means chauffeured sedans, SUVs, and Sprinter vans rather than stretch limousines. Stretches still exist for proms and photos, but the everyday product — the one people actually book — is a professional chauffeur in a late-model luxury vehicle. That is what the numbers below describe.",
@@ -622,7 +622,7 @@ export const BLOG_POSTS = [
     readTime: "8 min read",
     excerpt:
       "At the airport, the limo-vs-Uber question gets specific: where the car meets you, what happens when your flight is late, and what surge does to arrival-wave pricing. Here is the airport-only comparison.",
-    image: "/images/site/suv.webp",
+    image: "/images/blog/airport-tarmac-sunset.webp",
     intro: [
       "The general limo-versus-rideshare debate has been argued to death — but airports are where the two products genuinely diverge, because airports add the three things rideshare handles worst: hard deadlines, luggage, and arrival waves that spike demand on a schedule. Maryland travelers juggle three airports — BWI, Reagan National, and Dulles — and the right answer differs by trip. Having driven all three daily for years, here is the airport-specific comparison, argued honestly in both directions.",
     ],
@@ -728,7 +728,7 @@ export const BLOG_POSTS = [
     readTime: "9 min read",
     excerpt:
       "What BWI car service costs from your part of Maryland, when to book, which vehicle to choose, and the mistakes that make travelers miss flights — the planning guide to pair with our pickup-logistics guide.",
-    image: "/images/site/hero-escalade.webp",
+    image: "/images/blog/fleet-escalade-1.webp",
     intro: [
       "BWI Marshall is Maryland's airport in a way the other two never quite manage — the Southwest fares, the quick security lines, the 25-minute reach from most of the state's population. We have already published a guide to the pickup logistics themselves: terminals, curbs, and how flight-tracked dispatch works. This companion guide covers the other half of the decision: what car service to BWI actually costs from your corner of Maryland, when and how to book it, which vehicle fits your trip, and the planning mistakes that quietly cause missed flights. Consider it the local's briefing before you ever confirm a reservation.",
     ],
@@ -835,7 +835,7 @@ export const BLOG_POSTS = [
     readTime: "9 min read",
     excerpt:
       "Who actually needs a ride, what packages include, how the day-of timeline really runs, and what it all costs — the complete working manual for Maryland wedding transportation.",
-    image: "/images/site/celebration.webp",
+    image: "/images/blog/scenario-wedding-3.webp",
     intro: [
       "We have already written about how to choose a wedding transportation company — the vetting questions, the booking windows, the venue quirks. This guide is the other conversation, the one couples have after the contract is signed or before they know what to ask for: how wedding limo service actually works. Who rides in what, when the cars move, what the package includes, what it costs, and what happens if it rains sideways over the Chesapeake. Think of it as the working manual for the transportation line of your wedding plan.",
     ],
@@ -925,7 +925,7 @@ export const BLOG_POSTS = [
     readTime: "8 min read",
     excerpt:
       "Laurel sits in the DMV's transportation sweet spot — 20 minutes from BWI, between two downtowns. Here is how to tell a genuinely local, genuinely professional limo service from a dispatch broker with a stock-photo fleet.",
-    image: "/images/site/s-class.webp",
+    image: "/images/blog/fleet-sclass-1.webp",
     intro: [
       "Laurel occupies the DMV's geographic sweet spot: BWI Marshall about 14 miles up the Parkway, Washington and Baltimore each a half hour out, Fort Meade minutes away, and three interstates within reach. That location generates constant demand for professional transportation — and, predictably, a crowd of companies claiming to be Laurel's best. Some are genuinely local operations with real fleets; others are brokers with a phone number, reselling your trip to whoever answers. This guide is how you tell the difference before your flight, your wedding, or your client meeting depends on it.",
     ],

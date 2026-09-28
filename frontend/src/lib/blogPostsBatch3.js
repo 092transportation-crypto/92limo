@@ -17,7 +17,7 @@ export const BLOG_POSTS_BATCH3 = [
     readTime: "9 min read",
     excerpt:
       "A car service and a limousine solve different problems. Here's how to tell which one your BWI trip actually calls for, and which vehicle fits.",
-    image: "/images/site/s-class.webp",
+    image: "/images/blog/fleet-sclass-1.webp",
     intro: [
       "\"Limo\" gets used loosely — plenty of travelers say it when they mean any professional car service, and most of the time that's fine, because most BWI trips are exactly that: a discreet sedan or SUV, on time, flat rate, done. But some trips genuinely call for a limousine in the fuller sense of the word — a vehicle chosen as much for presentation as for transportation. Knowing the difference saves you from either overpaying for formality you don't need, or under-booking for a moment that deserved more.",
       "This guide walks through how to tell which category your BWI trip actually falls into, which vehicles in a real fleet cover the \"limousine\" role today, and how the booking process changes — lead time, information to share, pricing expectations — once presentation becomes part of the job.",
@@ -120,7 +120,7 @@ export const BLOG_POSTS_BATCH3 = [
     readTime: "8 min read",
     excerpt:
       "The honest answer isn't one number — it depends on the date, the season, and how flexible your vehicle needs are. Here's how to time it right.",
-    image: "/images/site/chauffeur.webp",
+    image: "/images/blog/scenario-airport-pickup-1.webp",
     intro: [
       "\"How early do I need to book?\" is one of the most common questions we get, and the honest answer depends on what you're booking and when. A Tuesday morning solo trip to BWI has a very different booking window than a Sprinter van for a Saturday in wedding season. Here's how to think about timing so you're never stuck scrambling the night before a flight.",
       "None of this is about rigid rules — it's about understanding which situations genuinely tighten availability, so you can tell the difference between \"book whenever\" and \"book now\" instead of guessing.",
@@ -240,7 +240,7 @@ export const BLOG_POSTS_BATCH3 = [
     readTime: "10 min read",
     excerpt:
       "The headline fare isn't the full cost. Here's what an honest airport-specific comparison between a flat-rate car service and Uber actually looks like.",
-    image: "/images/site/airport-pickup.webp",
+    image: "/images/blog/scenario-airport-pickup-2.webp",
     intro: [
       "The comparison between a professional car service and Uber usually gets argued in the abstract — \"limos cost more\" versus \"Uber is convenient.\" Airport trips are where the real math actually plays out, because airports are exactly where rideshare pricing gets least predictable: high demand, concentrated pickup zones, and exactly the kind of schedule pressure that makes a surprise fare sting the most.",
       "Here's a line-by-line look at what each option really costs for a trip to or from BWI, DCA, or IAD — not a generic \"which is better\" argument, but the actual variables that move the number in each direction.",
@@ -358,7 +358,7 @@ export const BLOG_POSTS_BATCH3 = [
     readTime: "9 min read",
     excerpt:
       "Wedding transportation pricing depends on more than 'which vehicle' — here's every factor that moves the number, and how to budget for it accurately.",
-    image: "/images/site/wedding.webp",
+    image: "/images/blog/scenario-wedding-2.webp",
     intro: [
       "Wedding transportation is one of the line items couples budget for latest and understand least — mostly because the answer to \"how much does it cost\" genuinely depends on several moving parts, not one flat number that applies to every wedding. Here's what actually drives the price of wedding limo service in Maryland, so you can budget accurately instead of guessing off a number you saw on a forum somewhere.",
       "This isn't a price list, because a real price list for wedding transportation would be misleading — a Tuesday elopement and a Saturday in June with an eight-hour block simply aren't the same booking. What follows is the actual logic behind the number, so you know what to ask for and what to expect.",
@@ -476,7 +476,7 @@ export const BLOG_POSTS_BATCH3 = [
     readTime: "9 min read",
     excerpt:
       "DC brings a few genuinely different logistics into corporate transportation. Here's what to plan for before your next client visit or executive trip.",
-    image: "/images/site/corporate.webp",
+    image: "/images/blog/scenario-corporate-2.webp",
     intro: [
       "Corporate transportation in Washington DC has a few wrinkles that don't come up the same way in most other markets — restricted zones near federal buildings, security-conscious clients, and a downtown traffic pattern that punishes anyone who doesn't plan around it. Here's what executives, and the people who book transportation on their behalf, should actually know before the next client visit, board meeting, or conference week.",
     ],
@@ -599,7 +599,7 @@ export const BLOG_POSTS_BATCH3 = [
     readTime: "8 min read",
     excerpt:
       "Shared shuttles and private car service solve the same problem differently. Here's how to know which one actually fits your trip.",
-    image: "/images/site/sedan.webp",
+    image: "/images/blog/airport-dropoff.webp",
     intro: [
       "Shared airport shuttles and private car service both get you to the airport, but the experience — and the value — differs more than the shared category name suggests. Here's a practical look at how each actually works, so you can pick based on your specific trip instead of habit or whichever option happens to come to mind first.",
     ],
@@ -730,7 +730,7 @@ export const BLOG_POSTS_BATCH3 = [
     readTime: "8 min read",
     excerpt:
       "Booking a chauffeur is simpler than it looks once you know what to decide first and what information actually speeds up the process.",
-    image: "/images/site/chauffeur.webp",
+    image: "/images/blog/scenario-doorman.webp",
     intro: [
       "Booking a professional chauffeur for the first time can feel like it requires more decisions than it actually does. Once you know the handful of things that matter, the process takes a few minutes rather than feeling like a research project. Here's the step-by-step version, covering everything from deciding what you need to knowing what to expect once the vehicle actually arrives.",
     ],
@@ -864,7 +864,7 @@ export const BLOG_POSTS_BATCH3 = [
     readTime: "9 min read",
     excerpt:
       "Group bookings hinge on more than which vehicle looks biggest online. Here's what separates a smooth group trip from a stressful one.",
-    image: "/images/site/sprinter.webp",
+    image: "/images/blog/scenario-group-boarding.webp",
     intro: [
       "Group transportation has its own logistics that a solo booking never runs into — capacity planning, splitting a large party across vehicles or not, and coordinating pickup for people who may not all be in the same place at the same time. Here's how to actually evaluate a limo service for a group, not just pick whichever one comes up first in a search.",
     ],
@@ -990,7 +990,7 @@ export const BLOG_POSTS_BATCH3 = [
     readTime: "9 min read",
     excerpt:
       "Ten specific, practical habits that make airport transfers smoother — not generic advice, but the details frequent flyers actually rely on.",
-    image: "/images/site/airport-pickup.webp",
+    image: "/images/blog/airport-terminal-glass.webp",
     intro: [
       "People who fly often develop a set of small habits around ground transportation that make every trip easier — most of it never gets written down because it seems obvious once you know it, and mysterious the first time you don't. Here are ten of those habits, grouped by where they matter most in the trip, from the moment you book through the moment you actually need to reach your chauffeur.",
     ],
@@ -1110,7 +1110,7 @@ export const BLOG_POSTS_BATCH3 = [
     readTime: "8 min read",
     excerpt:
       "They both get you where you're going, but the booking process, pricing, and accountability behind each one are genuinely different.",
-    image: "/images/site/sedan.webp",
+    image: "/images/blog/fleet-7series-1.webp",
     intro: [
       "A taxi and a black car service can look similar from the curb — a car pulls up, you get in, you get where you're going. The differences show up in how the trip is booked, priced, and backed, and those differences matter more for some trips than others. Here's the real comparison, without pretending one is universally better than the other.",
     ],

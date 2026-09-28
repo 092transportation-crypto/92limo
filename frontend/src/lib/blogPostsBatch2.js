@@ -13,7 +13,7 @@ export const BLOG_POSTS_BATCH2 = [
     readTime: "7 min read",
     excerpt:
       "There is no single number for 'a limo in Maryland' — the honest answer is that five factors set the rate, and a reputable company tells you all five before you book, not after.",
-    image: "/images/site/s-class.webp",
+    image: "/images/blog/fleet-sclass-2.webp",
     intro: [
       "Search for limo prices in Maryland and you will find a wall of conflicting numbers, because the question itself is incomplete. A one-way BWI transfer in a sedan and an eight-hour Sprinter Limo booking for a wedding party are not the same product, and quoting either as 'the price of a limo' is misleading. What actually determines your rate is a short, predictable list of factors — and once you know them, you can read any quote and understand exactly what you are paying for.",
     ],
@@ -84,7 +84,7 @@ export const BLOG_POSTS_BATCH2 = [
     readTime: "6 min read",
     excerpt:
       "Three vehicle types get lumped together as 'party transportation,' but they solve different group sizes and different nights. Here is how to pick correctly the first time.",
-    image: "/images/site/celebration.webp",
+    image: "/images/blog/scenario-group-shuttle.webp",
     intro: [
       "Bachelorette weekends, birthday nights, casino runs and prom groups all reach for the same shorthand — 'get us a party bus' — when what they actually need might be a Sprinter Limo or a stretch limousine instead. The three vehicle types overlap in purpose but differ in capacity, seating layout and how the evening actually feels, and matching the vehicle to the group avoids the two most common booking mistakes: a vehicle too small for the group, or a vehicle bigger and more expensive than the night requires.",
     ],
@@ -152,7 +152,7 @@ export const BLOG_POSTS_BATCH2 = [
     readTime: "6 min read",
     excerpt:
       "The industry's own vocabulary is confusing on purpose — three terms, one general idea. Here is the plain-English breakdown, so you know what to ask for.",
-    image: "/images/site/sedan.webp",
+    image: "/images/blog/fleet-sclass-1.webp",
     intro: [
       "Black car service, town car service and limo service are often used as if they mean three different things, when in practice they describe overlapping ideas from different eras of the industry. Knowing what each term actually implies helps you ask for the right thing — and shows why 92 Limo Service can answer 'yes' to all three without contradiction.",
     ],
@@ -215,7 +215,7 @@ export const BLOG_POSTS_BATCH2 = [
     readTime: "8 min read",
     excerpt:
       "Wedding transportation is easy to plan late and hard to fix late — vehicles for peak Maryland Saturdays sell out first. Here is the timeline that keeps it simple.",
-    image: "/images/site/wedding.webp",
+    image: "/images/blog/scenario-wedding-1.webp",
     intro: [
       "Of every vendor a couple books, transportation is the one most often left until the final weeks — and the one where waiting has the clearest cost, since Sprinter vans, limousines and multi-vehicle wedding bookings for popular Maryland Saturdays are the first vehicles to sell out. This timeline walks from the first inquiry through the getaway car, so nothing is decided under time pressure.",
     ],

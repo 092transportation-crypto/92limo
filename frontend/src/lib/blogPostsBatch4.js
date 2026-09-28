@@ -29,7 +29,7 @@ export const BLOG_POSTS_BATCH4 = [
     readTime: "10 min read",
     excerpt:
       "Whether you search 'limo service' or 'limousine service,' the buying decision is the same — here's the complete framework for choosing well in Maryland.",
-    image: "/images/site/suv.webp",
+    image: "/images/blog/fleet-escalade-2.webp",
     intro: [
       "\"Limo service\" and \"limousine service\" are the same search, the same product, and the same buying decision — the word choice is a matter of habit, not a meaningful difference in what you're looking for. This guide treats them as one topic, because they are one, and covers everything worth knowing before you book a limo service anywhere in Maryland: what the term actually covers today, how to tell a real operator from a broker, what drives pricing, and which questions actually matter.",
       "This is intentionally the broad, foundational guide — if you already know exactly what you need (a wedding, a specific airport, a corporate account), the more specific guides linked throughout this site will get you there faster. This one is for the earlier question: what does \"limo service in Maryland\" actually mean, and how do you choose well?",
@@ -148,7 +148,7 @@ export const BLOG_POSTS_BATCH4 = [
     readTime: "9 min read",
     excerpt:
       "A sedan isn't just 'the smaller option' — it's the default professional vehicle for a reason. Here's what corporate sedan service actually covers.",
-    image: "/images/site/s-class.webp",
+    image: "/images/blog/scenario-corporate-rain.webp",
     intro: [
       "When companies book ground transportation, the sedan is usually the default recommendation, and for good reason — it's the vehicle class built specifically around the kind of trip most business travel actually is: one or two people, a professional appearance, and a focus on getting to a meeting or a flight without friction. Here's what corporate sedan service actually includes, and how to think about when it's the right call.",
     ],
@@ -288,7 +288,7 @@ export const BLOG_POSTS_BATCH4 = [
     readTime: "9 min read",
     excerpt:
       "A BWI limo quote is more than one number — here's exactly what's built into it, what's billed separately, and how to read a quote correctly.",
-    image: "/images/site/airport-pickup.webp",
+    image: "/images/blog/airport-tarmac-sunset.webp",
     intro: [
       "A BWI airport limo quote can look like a single number, but it's actually made up of a few distinct components — some included by default, some billed separately, and knowing which is which is the difference between an accurate expectation and an unpleasant surprise. Here's a line-by-line breakdown of what you're actually paying for.",
     ],
@@ -426,7 +426,7 @@ export const BLOG_POSTS_BATCH4 = [
     readTime: "9 min read",
     excerpt:
       "From proms to galas to milestone birthdays — here's a practical overview of which events call for limo service, and how the booking actually differs.",
-    image: "/images/site/celebration.webp",
+    image: "/images/blog/fleet-sprinter-2.webp",
     intro: [
       "\"Event limo service\" covers a wider range of occasions than the phrase might suggest — weddings and proms are the obvious ones, but milestone birthdays, galas, quinceañeras, anniversaries, and graduations all fall under the same booking category. This guide is a practical overview: which events actually benefit from a limo service, how the booking process differs by occasion, and where to look for a deeper dive on your specific event.",
     ],
@@ -567,7 +567,7 @@ export const BLOG_POSTS_BATCH4 = [
     readTime: "8 min read",
     excerpt:
       "Stadium traffic and parking are the worst part of a Ravens game day — a booked driver removes both, tailgate and postgame pickup included.",
-    image: "/images/site/celebration.webp",
+    image: "/images/blog/landmark-baltimore-1.webp",
     intro: [
       "The football is the easy part of a Ravens game day. Getting to M&T Bank Stadium, parking, and getting back out afterward is where the day actually gets stressful — and it's the part a booked limo or car service removes almost entirely. Here's how game-day transportation actually works, from pregame tailgate to the drive home.",
     ],
@@ -712,7 +712,7 @@ export const BLOG_POSTS_BATCH4 = [
     readTime: "8 min read",
     excerpt:
       "Baltimore's concert venues each have their own parking and traffic quirks — here's how a booked car service handles all of them, before and after the show.",
-    image: "/images/site/celebration.webp",
+    image: "/images/blog/landmark-baltimore-2.webp",
     intro: [
       "Baltimore's concert scene spans downtown arenas to outdoor amphitheaters well outside the city, and each venue type comes with its own transportation headache — downtown parking scarcity at one end, a long drive and a packed exit at the other. A booked car service handles both the same way: drop off close, pick up after, skip the parking search and the post-show crowd crawl entirely.",
     ],
@@ -863,7 +863,7 @@ export const BLOG_POSTS_BATCH4 = [
     readTime: "8 min read",
     excerpt:
       "Most DC luxury car service content assumes a suit and a boardroom. Here's the case for booking one for a date night, a visit, or simply a better evening.",
-    image: "/images/site/dc-skyline.webp",
+    image: "/images/blog/scenario-doorman.webp",
     intro: [
       "Most conversations about luxury car service in DC assume a business context — a client, a boardroom, an airport pickup between meetings. That's a real use case, but it's not the only one, and it leaves out a genuinely useful category of trips: personal occasions where a chauffeur makes just as much sense as it does for an executive. Here's the case for luxury car service in DC beyond business.",
     ],
@@ -1009,7 +1009,7 @@ export const BLOG_POSTS_BATCH4 = [
     readTime: "8 min read",
     excerpt:
       "If you've only ever used rideshare or a taxi, a professional airport transfer works a little differently. Here's exactly what to expect, start to finish.",
-    image: "/images/site/airport-pickup.webp",
+    image: "/images/blog/scenario-airport-pickup-1.webp",
     intro: [
       "If you've never booked a professional car service before, the process can feel like it has more steps than it actually does — especially if your only ground-transportation experience is hailing a rideshare from an app. This guide walks through a first airport transfer from booking to arrival, in plain terms, for anyone who wants to know what to expect before doing it for the first time.",
     ],
