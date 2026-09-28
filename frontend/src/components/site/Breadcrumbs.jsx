@@ -2,12 +2,19 @@ import { useEffect, useMemo } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { ChevronRight } from "lucide-react";
 import { SERVICE_PAGES, CITIES } from "@/lib/data";
-import { LANDING_PAGES } from "@/lib/landingPages";
-import { BLOG_POSTS } from "@/lib/blogPosts";
-import { GUIDES } from "@/lib/guides";
+// Auto-generated { slug: { h1 } } / [{ slug, title }] extracts (see
+// scripts/generateRouteSlugs.js) — Breadcrumbs only ever reads one title
+// field per page, so it uses these instead of the full landing-page
+// (~1.5 MB) / blog-post (~500 KB) content objects. Breadcrumbs is rendered
+// by Layout on every route, so anything it imports lands in the eager main
+// bundle; the full objects are still imported normally, just inside the
+// already-lazy LandingPage/BlogPostPage components that actually need them.
+import { LANDING_PAGE_TITLES } from "@/lib/landingPageTitles";
+import { BLOG_POST_TITLES } from "@/lib/blogPostTitles";
+import { GUIDE_TITLES } from "@/lib/guideTitles";
 import { breadcrumbTrail, breadcrumbSchema } from "@/lib/breadcrumbs";
 
-const DATA = { services: SERVICE_PAGES, landing: LANDING_PAGES, cities: CITIES, posts: BLOG_POSTS, guides: GUIDES };
+const DATA = { services: SERVICE_PAGES, landing: LANDING_PAGE_TITLES, cities: CITIES, posts: BLOG_POST_TITLES, guides: GUIDE_TITLES };
 
 const useTrail = () => {
   const { pathname } = useLocation();

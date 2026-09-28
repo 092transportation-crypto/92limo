@@ -43,7 +43,6 @@
     "embla-carousel-react": "8.6.0",
     "framer-motion": "11.18.0",
     "input-otp": "1.4.2",
-    "lodash": "4.18.1",
     "lucide-react": "0.516.0",
     "next-themes": "0.4.6",
     "nodemailer": "^6.10.1",
@@ -54,7 +53,6 @@
     "react-resizable-panels": "3.0.1",
     "react-router-dom": "7.15.0",
     "react-scripts": "5.0.1",
-    "recharts": "3.6.0",
     "sonner": "2.0.3",
     "stripe": "^22.5.0",
     "swr": "2.3.8",
@@ -64,7 +62,9 @@
     "zod": "3.24.4"
   },
   "scripts": {
+    "prestart": "node scripts/generateRouteSlugs.js",
     "start": "craco start",
+    "prebuild": "node scripts/generateRouteSlugs.js",
     "build": "craco build",
     "postbuild": "node scripts/prerender.js",
     "sitemap": "node scripts/generateSitemap.js",
