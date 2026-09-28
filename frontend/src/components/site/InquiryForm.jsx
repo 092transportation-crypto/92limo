@@ -19,6 +19,14 @@ import {
   ShieldCheck,
   BadgeDollarSign,
   UserCheck,
+  Search,
+  Newspaper,
+  Megaphone,
+  Video,
+  ThumbsUp,
+  MapPin,
+  MessagesSquare,
+  HelpCircle,
 } from "lucide-react";
 import { track } from "@/lib/analytics";
 import { sanitizePhone, isValidPhone } from "@/lib/phone";
@@ -45,6 +53,17 @@ const SERVICE_OPTIONS = [
 
 const CHILD_SEAT_OPTIONS = ["Rear-Facing", "Front-Facing", "Booster"];
 
+const HEAR_ABOUT_OPTIONS = [
+  { value: "Google Search", icon: Search },
+  { value: "Blog Post", icon: Newspaper },
+  { value: "Google Ads", icon: Megaphone },
+  { value: "TikTok", icon: Video },
+  { value: "Facebook", icon: ThumbsUp },
+  { value: "Google Maps", icon: MapPin },
+  { value: "Word of Mouth", icon: MessagesSquare },
+  { value: "Other", icon: HelpCircle },
+];
+
 const TRUST_BADGES = [
   { icon: BadgeCheck, label: "MD PSC Carrier No. 6325", sub: "Official Carrier License" },
   { icon: ShieldCheck, label: "Licensed & Insured", sub: "Fully Certified Fleet" },
@@ -70,12 +89,15 @@ const EMPTY = {
   passengers: 1,
   child_seats: [],
   notes: "",
+  hear_about_us: "",
 };
 
 // Fields that count toward the completion meter (notes/seats are optional).
+// hear_about_us is required — it cannot be skipped (see submit()'s validation).
 const PROGRESS_FIELDS = [
   "first_name", "last_name", "phone", "email", "contact_method",
   "service_type", "pickup_location", "dropoff_location", "date", "time",
+  "hear_about_us",
 ];
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -285,6 +307,7 @@ export function InquiryForm({ variant = "page" }) {
           luggage: 0,
           service_type: form.service_type,
           vehicle_type: form.vehicle_type || "No preference",
+          hear_about_us: form.hear_about_us,
           // Flight number only applies to airport transfers.
           flight_number:
             form.service_type === "Airport Transfer"
@@ -512,6 +535,42 @@ export function InquiryForm({ variant = "page" }) {
                         }`}
                       >
                         <PillFill active={active} rounded="rounded-xl" />
+                        <span className="relative flex items-center gap-2">
+                          <Icon size={15} /> {value}
+                        </span>
+                      </motion.button>
+                    );
+                  })}
+                </div>
+              </motion.div>
+
+              {/* How did you hear about us — required, so we can measure which
+                  marketing channels actually drive inquiries. */}
+              <motion.div variants={itemVariants} className="md:col-span-2">
+                <span className={groupLabel}>
+                  How Did You Hear About Us? *
+                  {invalid.includes("hear_about_us") && (
+                    <span className="ml-2 normal-case tracking-normal text-red-400">— pick one</span>
+                  )}
+                </span>
+                <div className="flex flex-wrap gap-2">
+                  {HEAR_ABOUT_OPTIONS.map(({ value, icon: Icon }) => {
+                    const active = form.hear_about_us === value;
+                    return (
+                      <motion.button
+                        key={value}
+                        type="button"
+                        data-testid={`inquiry-hear-about-${value.toLowerCase().replace(/\s+/g, "-")}`}
+                        aria-pressed={active}
+                        whileTap={{ scale: 0.94 }}
+                        onClick={() => set("hear_about_us", value)}
+                        className={`relative flex min-h-[44px] items-center gap-2 rounded-full border px-4 text-sm font-semibold transition-colors duration-300 ${
+                          active
+                            ? "border-transparent text-[#0A0A0A]"
+                            : "border-white/15 text-neutral-300 hover:border-[#C9A227]/60 hover:text-white"
+                        }`}
+                      >
+                        <PillFill active={active} />
                         <span className="relative flex items-center gap-2">
                           <Icon size={15} /> {value}
                         </span>

@@ -76,6 +76,7 @@ module.exports = async (req, res) => {
   if (!body.time || !String(body.time).trim()) missing.push("time");
   if (!body.service_type || !String(body.service_type).trim()) missing.push("service_type");
   if (!body.vehicle_type || !String(body.vehicle_type).trim()) missing.push("vehicle_type");
+  if (!body.hear_about_us || !String(body.hear_about_us).trim()) missing.push("hear_about_us");
   if (missing.length) {
     return res.status(400).json({ detail: `Missing or invalid fields: ${missing.join(", ")}` });
   }
@@ -93,6 +94,7 @@ module.exports = async (req, res) => {
     luggage: Number(body.luggage) || 0,
     service_type: String(body.service_type).trim(),
     vehicle_type: String(body.vehicle_type).trim(),
+    hear_about_us: String(body.hear_about_us).trim(),
     flight_number: String(body.flight_number || "").trim(),
     notes: String(body.notes || "").trim(),
     pricing: normalizePricing(body.pricing),
