@@ -391,7 +391,7 @@ export const BLOG_POSTS_BATCH6 = [
     title: "How Corporate Accounts Work with a Maryland Limousine Service",
     metaTitle: "How Corporate Accounts Work: Maryland Limo Service",
     metaDescription:
-      "Setting up a corporate account with a Maryland limousine service — onboarding, invoicing, recurring travelers, and roadshow booking. (877) 609-1919.",
+      "Setting up a corporate account with a Maryland limousine service — onboarding, invoicing, recurring travelers, and priority dispatch. Call us: (877) 609-1919.",
     category: "Corporate",
     date: "2026-10-22",
     readTime: "9 min read",
@@ -483,6 +483,20 @@ export const BLOG_POSTS_BATCH6 = [
         ],
       },
       {
+        heading: "How a Corporate Account Compares to a Rideshare Business Program",
+        paragraphs: [
+          "Rideshare business programs solve a narrower problem than a corporate limousine account — they centralize billing for app-based rides, but pricing still floats with surge, vehicle quality still varies ride to ride, and there's no dedicated dispatcher who knows the account's standing preferences. A corporate account with a Maryland limousine service fixes all three: flat negotiated rates that don't move with demand, a consistent fleet standard, and a real point of contact rather than an app queue.",
+          "The two aren't mutually exclusive — some companies keep a rideshare program for low-stakes, spontaneous local trips and route anything client-facing, airport-related, or event-based through their limousine account instead, using each tool for what it actually does best.",
+        ],
+      },
+      {
+        heading: "Pausing or Closing an Account",
+        paragraphs: [
+          "Corporate accounts don't require a long-term contract to maintain — a company that slows its travel volume, goes through a seasonal lull, or simply needs to pause spending can put an account on hold without losing its negotiated setup. Traveler profiles, billing preferences, and rate history stay on file, so reactivating later is a quick call rather than a full re-onboarding.",
+          "Closing an account entirely is just as straightforward: a final consolidated invoice is issued for any outstanding trips, and there's no cancellation fee or penalty for ending the relationship when a company's needs change.",
+        ],
+      },
+      {
         heading: "Getting an Account Started",
         paragraphs: [
           "Setting up a corporate account typically takes a single conversation: describe your company's typical travel volume and pattern, and a dispatcher can outline rates, onboarding paperwork, and how quickly the account can be active. Call (877) 609-1919 or start a corporate account online, and your next trip can run on an account instead of a fresh negotiation.",
@@ -505,6 +519,10 @@ export const BLOG_POSTS_BATCH6 = [
       {
         q: "Can a corporate account cover visiting clients, not just employees?",
         a: "Yes — visitor and candidate travel, including airport meet-and-greet pickups, is commonly booked through a company's existing account and billed directly rather than reimbursed individually.",
+      },
+      {
+        q: "Is there a contract or cancellation fee to close an account?",
+        a: "No — accounts can be paused or closed at any time with no cancellation fee. A final consolidated invoice covers any outstanding trips, and reactivating later is a quick call rather than a new setup.",
       },
     ],
     relatedLinks: [

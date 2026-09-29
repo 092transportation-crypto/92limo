@@ -470,7 +470,7 @@ export const BLOG_POSTS_BATCH3 = [
     title: "Corporate Car Service in Washington DC: What Executives Need to Know",
     metaTitle: "Corporate Car Service Washington DC | 92 Limo",
     metaDescription:
-      "What sets corporate car service in Washington DC apart — security perimeters, billing, discretion, and how to set up transportation for teams and clients.",
+      "What sets corporate car service in Washington DC apart — security perimeters, billing, discretion, vehicle choice, and setting up transportation for teams.",
     category: "Planning Guides",
     date: "2026-09-28",
     readTime: "9 min read",
@@ -545,6 +545,20 @@ export const BLOG_POSTS_BATCH3 = [
         paragraphs: [
           "DC's professional class moves through a fairly predictable set of buildings, hotels, and venues — K Street law firms, the major downtown hotels, Capitol Hill office buildings, the convention center. A chauffeur who works this circuit regularly isn't just avoiding traffic more effectively; they also understand the unwritten norms of each location — which entrance a car service actually uses at a given hotel, how much lead time a specific building's security screening adds, where a vehicle can idle briefly versus where it can't.",
           "This local knowledge is easy to undervalue until you're the one standing outside a building at the wrong entrance while a meeting is starting without you. For any executive or firm booking DC transportation regularly, asking whether chauffeurs are assigned based on familiarity with the specific area is a reasonable, practical question — not an unusual one, and a company confident in its local knowledge will answer it directly rather than deflecting to generic assurances about professionalism.",
+        ],
+      },
+      {
+        heading: "Multi-Stop Business Days: When Hourly Service Makes Sense",
+        paragraphs: [
+          "A single client meeting is a flat-rate trip. A day with back-to-back stops — a breakfast meeting on K Street, a midday briefing on the Hill, a client dinner in Georgetown — is a different problem, and pricing it as three separate one-way bookings usually costs more than it needs to and adds three separate points of coordination. Hourly, as-directed service keeps one chauffeur and vehicle with you for the whole day, adjusting in real time if a meeting runs long or a stop gets added.",
+          "This format also solves a scheduling headache unique to corporate car service in Washington DC: motorcades, street closures, and event-driven traffic can turn a fifteen-minute hop into forty-five minutes without warning. A chauffeur who's already staged nearby, rather than dispatched fresh for each leg, absorbs that unpredictability instead of passing it on to your schedule.",
+        ],
+      },
+      {
+        heading: "Working With Executive Assistants and Travel Coordinators",
+        paragraphs: [
+          "Most corporate car service in Washington DC gets booked by someone other than the traveler — an executive assistant, a travel coordinator, an office manager juggling a dozen calendars. A good provider makes that role easy: standing traveler preferences on file (preferred pickup spot, usual vehicle class, known destinations), a single point of contact for last-minute changes, and confirmations sent to both the coordinator and the traveler so nothing depends on one person relaying details correctly.",
+          "This matters most during conference weeks and multi-person visits, when a coordinator might be managing five or six itineraries at once. Being able to call one dispatch line and adjust any leg of any traveler's day — rather than re-explaining the whole arrangement each time — is the practical difference between a smooth week and a stressful one.",
         ],
       },
       {
@@ -724,7 +738,7 @@ export const BLOG_POSTS_BATCH3 = [
     title: "How to Book a Luxury Chauffeur, Step by Step",
     metaTitle: "How to Book a Luxury Chauffeur | 92 Limo Service",
     metaDescription:
-      "A step-by-step guide to booking a luxury chauffeur — what to decide first, what information to have ready, and what to expect on the day of your ride.",
+      "A step-by-step guide to booking a luxury chauffeur — what to decide first, what information to have ready, pricing, and what to expect on the day of your ride.",
     category: "Planning Guides",
     date: "2026-09-28",
     readTime: "8 min read",
@@ -813,6 +827,20 @@ export const BLOG_POSTS_BATCH3 = [
         ],
       },
       {
+        heading: "Booking a Luxury Chauffeur Regularly? Set Up an Account",
+        paragraphs: [
+          "If you're booking a luxury chauffeur more than a few times a month — recurring airport runs, standing client pickups, a weekly commute pattern — a corporate or personal account is worth setting up before your next trip rather than after. It consolidates billing into one invoice, keeps your preferred vehicle class and pickup details on file, and gives dispatch a running start on every future booking instead of collecting the same information from scratch each time.",
+          "Setup is a short conversation, not a formal process: call (877) 609-1919 or mention it when you book your next ride, and it can be running in time for your very next trip.",
+        ],
+      },
+      {
+        heading: "Gratuity and Payment: What's Actually Expected",
+        paragraphs: [
+          "Payment for a luxury chauffeur is settled at booking, not negotiated curbside — the flat rate you're quoted is charged to the card on file, with gratuity either included or added at the standard 15–20 percent unless you specify otherwise. There's no cash exchange expected and no tipping conversation to have in the moment, which is part of what makes the day-of experience feel smoother than a metered ride.",
+          "If you want to adjust the gratuity for exceptional service, or have a specific payment arrangement in mind for a corporate or event booking, mention it when you book rather than after the trip — dispatch can accommodate almost any reasonable arrangement if they know about it in advance.",
+        ],
+      },
+      {
         heading: "Ready to Book",
         paragraphs: [
           "Once you've worked through the six steps above, booking itself is quick: request a quote online in about a minute, or call (877) 609-1919 to talk it through with dispatch directly. Either way, you'll have a confirmed vehicle, a confirmed price, and one less thing to think about between now and the day of your trip.",
@@ -858,7 +886,7 @@ export const BLOG_POSTS_BATCH3 = [
     title: "How to Choose the Best Limo Service for Group Travel",
     metaTitle: "Best Limo Service for Group Travel | 92 Limo",
     metaDescription:
-      "What actually matters when booking limo service for a group — vehicle capacity, billing, coordination, and questions to ask before you commit.",
+      "What actually matters when booking limo service for a group — vehicle capacity, billing, coordination, airport timing, and questions to ask before you commit.",
     category: "Planning Guides",
     date: "2026-09-28",
     readTime: "9 min read",
@@ -936,6 +964,20 @@ export const BLOG_POSTS_BATCH3 = [
         paragraphs: [
           "Once a group booking is confirmed, share the key details with the whole group, not just whoever made the reservation — pickup time, pickup location, vehicle type, and the point-of-contact policy covered earlier. A group where only one person knows the plan tends to run into small, avoidable delays: someone wandering off at the wrong moment, someone showing up at the wrong entrance of a hotel or venue.",
           "A short message to the group the day before — \"pickup is at 6 p.m. sharp from the hotel's main entrance, text [name] if you're running behind\" — does more to keep a group trip on schedule than almost anything the transportation company itself can control once the vehicle is en route. The booking gets the right vehicle to the right place; keeping the group organized on the day is a shared responsibility.",
+        ],
+      },
+      {
+        heading: "Airport Group Transfers: What's Different",
+        paragraphs: [
+          "Group airport travel adds a wrinkle solo trips don't have: not everyone always lands on the same flight. For a group arriving on separate flights, tell dispatch each flight number so the pickup can be timed to the last arrival, or coordinate a meeting point once everyone's cleared baggage claim rather than assuming a single fixed pickup window works for the whole party.",
+          "The same logic applies on departure — building in extra buffer for a larger group clearing security together is worth confirming at booking, especially for early-morning flights where the whole group needs to be ready and loaded at the same time rather than trickling out one at a time.",
+        ],
+      },
+      {
+        heading: "Building in Time Buffers for Group Departures",
+        paragraphs: [
+          "A group takes longer to load than a solo rider — bags need to go in, everyone needs to actually be ready at the same moment, and a group of eight finding their seats takes real minutes that a group of one doesn't. Padding the scheduled pickup time by ten or fifteen minutes for a larger group, rather than cutting it as close as a solo booking would, is a small adjustment that prevents the whole group's timeline from starting behind schedule.",
+          "This matters most for time-sensitive trips — an airport departure, a wedding ceremony start time — where the group's actual readiness, not just the vehicle's arrival, determines whether the day starts on time.",
         ],
       },
       {
@@ -1104,7 +1146,7 @@ export const BLOG_POSTS_BATCH3 = [
     title: "Black Car Service vs. Traditional Taxi: What's Actually Different?",
     metaTitle: "Black Car Service vs. Taxi | 92 Limo Service",
     metaDescription:
-      "How black car service actually differs from a traditional taxi — booking, pricing model, vehicle standards, and which one fits which kind of trip.",
+      "How black car service actually differs from a traditional taxi — booking, pricing, vehicle standards, licensing, reliability, and which fits your trip best.",
     category: "Comparisons",
     date: "2026-09-28",
     readTime: "8 min read",
@@ -1172,6 +1214,20 @@ export const BLOG_POSTS_BATCH3 = [
         paragraphs: [
           "Riders who've used both consistently point to two things when asked what actually feels different: knowing the price before getting in, and not having to explain the destination or watch a stranger's driving style with any uncertainty about who's behind the wheel. Neither of those is dramatic on its own, but together they add up to a noticeably calmer experience — which matters more on some trips than others.",
           "The other thing riders notice is consistency across repeat trips. A regular black car customer tends to get a similar experience every time — similar vehicle condition, similar professionalism, sometimes even a familiar chauffeur — while a taxi experience varies more by which specific cab happens to pull up that day. For someone who travels the same routes often, that consistency compounds into a meaningfully different overall impression of the service over time.",
+        ],
+      },
+      {
+        heading: "Weather and Late-Night Reliability",
+        paragraphs: [
+          "Snow, thunderstorms, and post-midnight pickups are where the gap between a taxi and a black car service widens the most. A taxi stand or hailed cab can thin out fast in bad weather or during the smallest hours of the night, exactly when demand for any ride is highest and drivers are least available. A black car service, booked and confirmed ahead of time, holds the reservation regardless of what the weather does — the vehicle assigned to your trip doesn't evaporate because it started raining.",
+          "This is also where black car service pricing holds an advantage many riders don't expect: a flat rate quoted in advance doesn't move because a storm has everyone else trying to get a ride at once. A metered taxi fare, or a surge-priced rideshare, responds directly to that same spike in demand — sometimes sharply.",
+        ],
+      },
+      {
+        heading: "Corporate and Recurring Use",
+        paragraphs: [
+          "For business travelers and companies with regular transportation needs, the comparison shifts further in black car service's favor. A corporate account consolidates trips into one monthly invoice instead of individual taxi receipts, lets a company set standing preferences for its travelers, and gives an office manager one point of contact instead of expense-reporting a stack of cab fares after the fact.",
+          "A taxi works fine for the occasional one-off trip an employee books on their own, but it doesn't scale the same way — there's no account, no consolidated billing, and no consistency in vehicle or driver across a company's recurring travel. For any organization booking transportation more than a few times a month, that difference alone is usually worth the switch.",
         ],
       },
       {

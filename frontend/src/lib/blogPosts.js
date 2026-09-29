@@ -400,6 +400,11 @@ export const BLOG_POSTS = [
         a: "Weddings are special-event bookings: cancel at least 12 hours before the scheduled pickup for no charge. Inside 12 hours the deposit may be forfeited and up to 100% of the quoted fare may be charged.",
       },
     ],
+    relatedLinks: [
+      { to: "/wedding-transportation", label: "Explore Our Wedding Transportation Service" },
+      { to: "/blog/limo-service-for-weddings-maryland", label: "Wedding Limo Packages & Timeline Planning" },
+      { to: "/booking", label: "Request a Wedding-Day Quote" },
+    ],
   },
   {
     slug: "airport-transfer-tips-maryland",
@@ -505,7 +510,7 @@ export const BLOG_POSTS = [
   },
   {
     slug: "how-much-does-limo-service-cost-maryland",
-    title: "How Much Does Limo Service Cost in Maryland in 2026?",
+    title: "Maryland Limo Pricing Guide: 2026 Costs Explained",
     metaTitle: "How Much Does Limo Service Cost in Maryland in 2026?",
     metaDescription:
       "Real 2026 Maryland limo pricing — airport flat rates, hourly service, weddings, and what's included, from 92 Limo Service. Free quotes: (877) 609-1919.",
@@ -611,6 +616,11 @@ export const BLOG_POSTS = [
         q: "Is hourly limo service worth it compared to multiple Ubers?",
         a: "For multi-stop days it often wins outright: one committed vehicle and chauffeur replaces a series of surge-priced, uncertain rideshares, keeps your schedule intact, and produces a single predictable receipt.",
       },
+    ],
+    relatedLinks: [
+      { to: "/fleet", label: "See the Sedans, SUVs & Sprinter Vans Behind These Rates" },
+      { to: "/blog/airport-limo-vs-uber-maryland", label: "Airport Limo vs. Uber in Maryland: Full Comparison" },
+      { to: "/booking", label: "Get Your Exact Flat-Rate Quote" },
     ],
   },
   {
@@ -825,6 +835,11 @@ export const BLOG_POSTS = [
         a: "A full-size SUV fits a family of four with vacation luggage comfortably; groups of six or more should book one Sprinter van rather than multiple sedans. Car seats can be arranged at booking and are installed before the vehicle arrives.",
       },
     ],
+    relatedLinks: [
+      { to: "/blog/bwi-airport-car-service-guide-2026", label: "BWI Pickup Logistics: Terminals, Curbs & Flight Tracking" },
+      { to: "/airport-transportation", label: "Explore Our Airport Transportation Service" },
+      { to: "/booking", label: "Get a Flat-Rate BWI Quote" },
+    ],
   },
   {
     slug: "limo-service-for-weddings-maryland",
@@ -914,6 +929,11 @@ export const BLOG_POSTS = [
         q: "Do we need a guest shuttle for our Maryland wedding?",
         a: "If the venue and hotel block are more than a few minutes apart, parking is limited, or the bar is generous — yes. A Sprinter running pre-ceremony trips and continuous return loops in the reception's final ninety minutes keeps guests safe and the exit smooth.",
       },
+    ],
+    relatedLinks: [
+      { to: "/blog/wedding-limo-service-maryland", label: "How to Vet & Choose a Wedding Limo Company" },
+      { to: "/wedding-transportation", label: "Explore Our Wedding Transportation Service" },
+      { to: "/fleet", label: "See the Sedans, SUVs & Sprinter Vans Available" },
     ],
   },
   {

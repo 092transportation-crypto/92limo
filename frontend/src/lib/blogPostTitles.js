@@ -25,7 +25,7 @@ export const BLOG_POST_TITLES = [
   },
   {
     "slug": "how-much-does-limo-service-cost-maryland",
-    "title": "How Much Does Limo Service Cost in Maryland in 2026?"
+    "title": "Maryland Limo Pricing Guide: 2026 Costs Explained"
   },
   {
     "slug": "airport-limo-vs-uber-maryland",
