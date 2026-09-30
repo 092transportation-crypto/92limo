@@ -801,4 +801,217 @@ export const GUIDES = [
       },
     ],
   },
+  {
+    slug: "wedding-transportation-guide-maryland-dc-virginia",
+    title: "The Complete Wedding Transportation Guide for Maryland, DC & Virginia Couples",
+    metaTitle: "Wedding Transportation Guide | Maryland, DC & VA | 92 Limo",
+    metaDescription:
+      "Flat-rate pricing, a real fleet comparison, timeline coordination and vendor questions to ask — the complete wedding transportation guide for Maryland, DC & Virginia couples.",
+    category: "Weddings",
+    date: "2026-09-30",
+    readTime: "13 min read",
+    excerpt:
+      "Real flat-rate pricing, an honest fleet comparison, wedding-day timeline coordination, and the questions worth asking any vendor before you book — everything a venue's website leaves out.",
+    image: "/images/site/wedding.webp",
+    intro: [
+      "Search for wedding transportation anywhere in Maryland, Washington DC or Northern Virginia and you will find a lot of pages that say some version of the same thing: weddings are what we do, call for a quote, here is a photo of a stretch limo. What you will not find as often is the information couples and planners actually need to make a good decision — an honest fleet comparison, a real explanation of what a quoted rate does and does not include, how the vehicles fit into a wedding-day timeline that has zero slack, and what to ask before you hand over a deposit.",
+      "This guide covers all of it. 92 Limo Service (92 Transportation LLC, Maryland PSC Carrier #6325) is based at 9836 Lyon Ave in Laurel, Maryland, and provides chauffeured wedding transportation across Maryland, Washington DC and Northern Virginia — from waterfront ceremonies in Annapolis to vineyard weddings in Frederick County, historic venues in Alexandria, and everything in between. Reserve online or call (877) 609-1919, 24/7.",
+    ],
+    sections: [
+      {
+        heading: "Flat-Rate Pricing: What \"Transparent\" Should Actually Mean",
+        paragraphs: [
+          "Almost every wedding transportation page promises transparent pricing. Very few show what that promise actually covers. Here is ours, in the exact language we quote to every couple, on every reservation: \"Your quoted rate includes the base transportation charge. Driver gratuity, parking, tolls, additional waiting time, and other applicable charges will be clearly disclosed before confirmation.\"",
+          "In practice, that means you see the full number — vehicle, hours, gratuity, tolls, parking — before you confirm the reservation, not as a surprise on the invoice after the reception. Your card is charged only once the reservation is confirmed. Wedding season fills up months in advance in this region, particularly for Saturdays in May, June, September and October, so once your venue and date are set, getting a locked-in quote is worth doing early rather than waiting until a few weeks out.",
+          "A flat rate also protects you from the one variable no couple wants to think about on their wedding day: demand-based surge pricing. Your rate is agreed when you book, and it does not move because your ceremony ran long, traffic was heavier than expected, or three other weddings booked cars in the same county that weekend.",
+        ],
+      },
+      {
+        heading: "A Real Fleet Comparison for Wedding Transportation",
+        paragraphs: [
+          "Every vehicle in our fleet is a late-model sedan, SUV, or Mercedes Sprinter, detailed before each ride and driven by a licensed, background-checked chauffeur. For a wedding, the right choice usually comes down to who is riding in it and what role it plays in the day.",
+        ],
+        list: [
+          "Mercedes E-Class (Business Sedan) — up to 3 passengers with standard luggage. A clean, understated choice for a parent's ride to the ceremony or an out-of-town officiant's airport transfer.",
+          "BMW 7 Series or Mercedes S-Class (First Class Sedan) — up to 3 passengers, the flagship option for the couple's grand entrance and exit, with the rear-seat room and presence that photograph well at the curb.",
+          "Lincoln Nautilus (Midsize SUV) — up to 4 passengers without luggage, a practical step up for a couple who wants SUV proportions without moving to a full-size vehicle.",
+          "Chevrolet Suburban (Luxury SUV) — up to 6 passengers without luggage, roomy enough for the couple plus parents or the wedding party's closest members.",
+          "Cadillac Escalade (Premium SUV) — up to 6 passengers without luggage, the fleet's most commanding SUV silhouette for a couple who wants an SUV entrance with maximum presence.",
+          "Mercedes Sprinter Shuttle or Sprinter Executive — up to 13 passengers, built for moving the bridal party or guests between hotel, ceremony and reception without splitting the group across multiple cars.",
+          "Mercedes Sprinter Limo — up to 13 passengers, described in our own fleet listing as \"the ultimate stretch limo experience,\" and the vehicle most couples picture when they hear the word limo.",
+        ],
+        subsections: [
+          {
+            heading: "Stretch Limo, Party Bus, or Shuttle — What's the Real Difference?",
+            paragraphs: [
+              "Couples researching wedding transportation often see \"party bus\" and \"shuttle\" used almost interchangeably, and the distinction matters for planning. A Sprinter Limo is built around a lounge-style cabin — forward and side-facing seating, ambient lighting, a setting meant for the ride itself to feel like part of the celebration. It suits the couple and wedding party for the entrance, the exit, and photos in between.",
+              "A Sprinter Shuttle or Sprinter Executive van is built around efficient, comfortable seating for a larger group — the guest shuttle moving people from a hotel block to the ceremony, or from the reception back at the end of the night. Both run on the same 13-passenger Sprinter platform; the difference is the interior and the job it is doing. Most weddings that use both book a Sprinter Limo for the couple's entrance and a Sprinter Shuttle for the guest logistics around it, which is exactly the kind of pairing worth discussing with dispatch when you book.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Building a Wedding-Day Timeline That Actually Holds",
+        paragraphs: [
+          "A wedding schedule has less slack than almost any other event we drive. Hair and makeup, first look, family photos, ceremony, cocktail hour, reception, send-off — every block depends on the one before it finishing close to on time, and ground transportation sits at nearly every seam between them.",
+          "When you book with us, we ask for the full day's schedule, not just a pickup time: the getting-ready address and target departure, the ceremony address and start time, whether there is a first look before the ceremony, the reception venue and cocktail-hour timing, and what time you plan to leave at the end of the night. From that, dispatch plans the pickup time backward from your ceremony, the way we already plan every airport pickup backward from a flight, and builds in a buffer rather than cutting it close.",
+        ],
+        list: [
+          "A confirmed pickup window for the getting-ready location, with the chauffeur staged and ready before the stated departure time",
+          "A drive-time buffer that accounts for the specific venue, county roads, and the day of the week — a Saturday afternoon in Annapolis or Frederick County moves differently than a Tuesday",
+          "A second vehicle or shuttle run scheduled if the bridal party and guests need to arrive in separate waves",
+          "A confirmed hold time at the ceremony and reception if the vehicle is staying for photos or the exit",
+          "A late-night return trip scheduled in advance for the send-off, so no one is arranging a ride home at 11 p.m. from the dance floor",
+        ],
+      },
+      {
+        heading: "Venues We Already Serve Across Maryland, DC & Northern Virginia",
+        paragraphs: [
+          "Because a Maryland wedding can unfold almost anywhere — a waterfront ceremony in Annapolis, a historic ballroom in Baltimore, a vineyard in Frederick County, a barn on the Eastern Shore — our chauffeurs already know the drive, the parking realities, and the access roads at the venues where weddings in this region actually happen.",
+        ],
+        list: [
+          "Annapolis waterfront venues and Anne Arundel County estates, where narrow historic streets and limited parking reward a chauffeur who already knows the drop-off",
+          "Frederick County wine country and its barn and vineyard venues, a regular booking for Sprinter vans moving guests between tastings, the ceremony, and the reception",
+          "Eastern Shore wedding country around Easton, St. Michaels and Oxford, where our Sprinters and SUVs are fixtures at the region's waterfront and countryside venues",
+          "Baltimore ballrooms and Harbor East hotels, plus Baltimore County estate and barn weddings around Sparks, Butler, Glyndon and Monkton at the end of gravel access roads that call for the right vehicle",
+          "Pikesville-area clubs including Woodholme and the Suburban Club, a steady wedding, bar and bat mitzvah calendar for our Sprinter vans and SUVs",
+          "Southern Maryland waterfront settings around Port Tobacco and the Potomac, and historic waterfront venues in Alexandria's Old Town along the Northern Virginia side of the river",
+        ],
+      },
+      {
+        heading: "Red-Carpet Package Inclusions — and What Should Be Disclosed Before You Book",
+        paragraphs: [
+          "Plenty of wedding transportation pages describe a package as some version of a red carpet, ice in the cabin, and a non-alcoholic toast for the ride. Those are nice touches, and we include comparable ones on request — bottled water, a red-carpet exit for photos, and coordination with your planner on any decor you would like placed in the vehicle beforehand.",
+          "The part that matters more is what is disclosed before you sign anything. Every airport pickup we run includes 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals, and every other pickup, wedding transportation included, includes 15 minutes of complimentary waiting time before additional waiting is billed in 15-minute increments at the applicable rate. That number is disclosed before confirmation, not discovered afterward — the same standard we hold for every reservation we take, wedding or otherwise.",
+          "If a vendor's wedding package does not spell out gratuity, tolls, parking, and the waiting-time policy in writing before you book, ask for it in writing. It is a reasonable request, and any vendor confident in their pricing will not hesitate to provide it.",
+        ],
+      },
+      {
+        heading: "How Many Vehicles Does Your Wedding Party Actually Need?",
+        paragraphs: [
+          "The honest answer depends on your bridal party size, whether the ceremony and reception share a venue, and how many guests need a shuttle rather than their own car. A couple with a four-person wedding party at a single venue may need only the couple's car and one Sprinter for parents and attendants. A wedding with a hotel block, a separate ceremony site, and a reception venue across town is a different logistics problem entirely.",
+          "We cover the full math — bridal party count, out-of-town guest shuttles, parking limitations at the venue, and how to sequence pickups when everyone cannot leave from the same address at the same time — in a dedicated guide.",
+        ],
+        list: [
+          "Read the full breakdown: How Many Cars Do You Actually Need for Your Wedding Party?",
+        ],
+      },
+      {
+        heading: "Before and After \"I Do\": Rehearsal Dinners, Bachelor & Bachelorette Parties, Proposals, and the Send-Off",
+        paragraphs: [
+          "A wedding is rarely just one day of transportation. Most couples we work with book several of the following around the ceremony itself:",
+        ],
+        list: [
+          "Bachelor and bachelorette parties — a Sprinter Limo or Sprinter Shuttle moving the whole group between a home base and a night out in Baltimore, Annapolis, Washington or Northern Virginia, with no one driving and no one splitting off in a separate car",
+          "Rehearsal dinners and next-day brunch — a shorter, lower-key booking that still benefits from a confirmed pickup window rather than a scramble the night before the wedding",
+          "Engagement and proposal transportation — a discreet, surprise-friendly ride to wherever the moment is happening, with the chauffeur briefed in advance",
+          "Airport transfers for out-of-town wedding parties and guests flying into BWI, DCA or IAD, tracked in real time so a delayed flight does not unravel the rehearsal schedule",
+          "Anniversary rides in the years after, for couples who come back to us for the same reason they booked us the first time",
+          "Honeymoon send-offs — a scheduled airport departure the morning after the reception, when the last thing a couple wants to do is drive themselves to the airport",
+        ],
+        subsections: [
+          {
+            heading: "Multicultural Ceremonies and Multi-Stop Wedding Days",
+            paragraphs: [
+              "Many of the weddings we drive in this region involve more than one ceremony location, a separate reception venue, and guest transportation coordinated around religious or cultural traditions that add their own stops and timing. We plan these the same way we plan any multi-stop wedding day — full schedule up front, vehicles matched to each leg, and one dispatcher tracking the whole day rather than a series of unrelated bookings.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "12 Questions to Ask Any Wedding Transportation Vendor Before You Book",
+        paragraphs: [
+          "\"Do you know who you're hiring?\" is a fair question for any couple to ask about a wedding vendor. Here is the concrete version — twelve questions worth asking any wedding transportation company, including us, before you put down a deposit.",
+        ],
+        list: [
+          "Is the company a licensed carrier, and can you provide the license or permit number?",
+          "Are your chauffeurs background-checked, and are they employees or independent contractors?",
+          "Is the vehicle commercially insured, and can I see proof if I ask?",
+          "What exactly does the quoted rate include, and what is billed separately — gratuity, tolls, parking, decorations?",
+          "How much complimentary waiting time is included, and what is the rate after that?",
+          "What is your cancellation and rescheduling policy, in writing?",
+          "Is the vehicle in your marketing photos the actual vehicle that will show up, or a stock image?",
+          "Who do I call on the wedding day itself if something changes — a dispatcher, or only the driver's cell phone?",
+          "Do you require a deposit, and is it refundable under any circumstances?",
+          "Can you provide the exact make, model and year of the vehicle in writing before the deposit is due?",
+          "How do you handle a multi-stop day with a rehearsal, ceremony and reception at different addresses?",
+          "Can I read reviews from other weddings you've actually driven, not just general reviews?",
+        ],
+      },
+      {
+        heading: "Cancellation, Deposits, and What Happens if Plans Change",
+        paragraphs: [
+          "Wedding plans move. Venues change hold times, ceremonies get rescheduled by a few hours, and weather occasionally forces a change of plan. Our cancellation policy is the same one we quote for every reservation: sedan and SUV bookings can be canceled free of charge up to 3 hours before pickup, and Sprinter vans, limousines and special-event bookings — which covers the great majority of wedding reservations — can be canceled free of charge up to 12 hours before pickup.",
+          "Because wedding dates book up months ahead, especially for Saturdays in peak season, we recommend confirming your vehicles as soon as your venue and timeline are set. Early booking does not lock you into an inflexible plan; it simply holds the fleet your day needs while leaving room to adjust the schedule as your planning firms up.",
+        ],
+      },
+      {
+        heading: "What Real Couples and Guests Say",
+        paragraphs: [
+          "Rather than a stock testimonial, here is an unedited five-star review from a guest who flew in for a Maryland wedding: \"I was coming up from Florida for a wedding in Frederick MD. I was flying into DCA and was very concerned about the trip. Our local limo service recommended Limo 92.\" — Faith Stone, Google review.",
+          "Book your wedding transportation online through our booking page, or call (877) 609-1919 at any hour to talk through your timeline with a real person. We serve weddings across Maryland, Washington DC and Northern Virginia, and we would be glad to plan yours.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book your wedding transportation", to: "/booking" },
+      { label: "Contact our wedding coordination team", to: "/contact" },
+      { label: "Wedding limo & chauffeur service overview", to: "/wedding-transportation" },
+      { label: "View the fleet", to: "/fleet" },
+      { label: "Wedding limo service in Maryland", to: "/wedding-transportation-maryland" },
+      { label: "Annapolis limo service", to: "/annapolis-limo-service" },
+      { label: "Baltimore limo service", to: "/baltimore-limo-service" },
+      { label: "How many cars do you need for your wedding party?", to: "/blog/how-many-cars-wedding-party-maryland" },
+      { label: "Coordinating your chauffeur with your wedding vendor timeline", to: "/blog/coordinating-chauffeur-wedding-vendor-timeline" },
+      { label: "How much does wedding limo service cost in Maryland?", to: "/blog/wedding-limo-cost-maryland" },
+      { label: "Getting a limo to a Maryland barn or farm wedding venue", to: "/blog/barn-farm-venue-wedding-transportation-maryland" },
+      { label: "Wedding transportation for Anne Arundel County's venues", to: "/blog/anne-arundel-county-wedding-venue-transportation" },
+      { label: "Bachelor & bachelorette party transportation in Maryland", to: "/blog/bachelor-bachelorette-party-transportation-maryland" },
+      { label: "Planning transportation for a multicultural wedding", to: "/blog/multicultural-wedding-transportation-logistics-maryland" },
+      { label: "Transportation for the rehearsal dinner and next-day brunch", to: "/blog/rehearsal-dinner-brunch-transportation-maryland" },
+      { label: "Wait time and cancellation policies", to: "/policies" },
+    ],
+    faqs: [
+      {
+        q: "How far in advance should we book wedding transportation in Maryland, DC or Virginia?",
+        a: "As soon as your venue and date are confirmed. Saturdays in May, June, September and October are our busiest wedding dates, and vehicles — especially the Sprinter Limo — can sell out months ahead. Booking early holds the fleet your day needs; you can still adjust the schedule as your timeline firms up.",
+      },
+      {
+        q: "What does the quoted rate for wedding transportation actually include?",
+        a: "Your quoted rate includes the base transportation charge. Driver gratuity, parking, tolls, additional waiting time, and other applicable charges will be clearly disclosed before confirmation, so the full number is known before you book, not discovered on the invoice afterward.",
+      },
+      {
+        q: "How much waiting time is included for wedding-day pickups?",
+        a: "Every non-airport pickup, including wedding transportation, includes 15 minutes of complimentary waiting time. Airport pickups for out-of-town wedding guests include 45 minutes on domestic arrivals and 60 minutes on international arrivals, timed from touchdown. Additional waiting time is billed in 15-minute increments at the applicable rate and is disclosed before confirmation.",
+      },
+      {
+        q: "What is the difference between a Sprinter Limo and a Sprinter Shuttle for a wedding?",
+        a: "Both are 13-passenger Mercedes Sprinter vans on the same platform. The Sprinter Limo has a lounge-style cabin built for the couple's entrance and exit and photos in between. The Sprinter Shuttle and Sprinter Executive are built for efficient group seating, better suited to moving guests between the hotel, ceremony and reception. Many weddings book one of each.",
+      },
+      {
+        q: "Can you coordinate transportation around our full wedding-day timeline, not just one pickup?",
+        a: "Yes. We ask for the full schedule — getting-ready address and departure time, ceremony start time, any first look, reception timing and end-of-night departure — and plan every pickup backward from your ceremony with a drive-time buffer built in, the same way we plan airport pickups backward from a flight.",
+      },
+      {
+        q: "What is your cancellation policy for a wedding reservation?",
+        a: "Sedan and SUV bookings can be canceled free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings, which cover most wedding reservations, can be canceled free of charge up to 12 hours before pickup.",
+      },
+      {
+        q: "Do you provide transportation for the rehearsal dinner, bachelor or bachelorette party, and the honeymoon send-off, not just the ceremony?",
+        a: "Yes. We regularly book rehearsal dinners and next-day brunches, bachelor and bachelorette party transportation, proposal and engagement rides, airport transfers for out-of-town wedding guests, and honeymoon send-off transfers to BWI, DCA or IAD the morning after the reception.",
+      },
+      {
+        q: "Which venues and areas do you already serve for weddings?",
+        a: "We regularly serve Annapolis waterfront venues and Anne Arundel County estates, Frederick County wine country and barn venues, Eastern Shore wedding country around Easton and St. Michaels, Baltimore ballrooms and Baltimore County estate weddings, Pikesville-area clubs, and historic waterfront venues in Alexandria, Virginia, along with locations across Washington DC and the wider Maryland, DC and Northern Virginia region.",
+      },
+      {
+        q: "How many vehicles does a typical wedding party need?",
+        a: "It depends on your bridal party size, whether the ceremony and reception share a venue, and how many guests need a shuttle. A small wedding at one venue may need only the couple's car and one Sprinter for the wedding party; a wedding with a hotel block and multiple venues usually needs more. Our dedicated guide, How Many Cars Do You Actually Need for Your Wedding Party?, walks through the math in detail.",
+      },
+      {
+        q: "What should we ask a wedding transportation company before paying a deposit?",
+        a: "Ask for their license or carrier number, whether chauffeurs are background-checked, proof of commercial insurance, a written breakdown of what the quoted rate includes, the waiting-time and cancellation policy in writing, and confirmation of the exact vehicle make, model and year — not just a stock photo. Any established vendor, including us, should answer all of these without hesitation.",
+      },
+    ],
+  },
 ];

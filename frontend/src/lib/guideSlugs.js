@@ -9,5 +9,6 @@ export const GUIDE_SLUGS = [
   "corporate-car-service-vs-uber-dc",
   "laurel-md-transportation-guide",
   "columbia-md-transportation-guide",
-  "annapolis-md-transportation-guide"
+  "annapolis-md-transportation-guide",
+  "wedding-transportation-guide-maryland-dc-virginia"
 ];

@@ -30,5 +30,9 @@ export const GUIDE_TITLES = [
   {
     "slug": "annapolis-md-transportation-guide",
     "title": "Annapolis, MD Transportation Guide: Roads, Parking, Big Events and Airports"
+  },
+  {
+    "slug": "wedding-transportation-guide-maryland-dc-virginia",
+    "title": "The Complete Wedding Transportation Guide for Maryland, DC & Virginia Couples"
   }
 ];
