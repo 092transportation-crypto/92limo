@@ -34,5 +34,9 @@ export const GUIDE_TITLES = [
   {
     "slug": "wedding-transportation-guide-maryland-dc-virginia",
     "title": "The Complete Wedding Transportation Guide for Maryland, DC & Virginia Couples"
+  },
+  {
+    "slug": "holiday-lights-limo-tours-maryland-dc-virginia",
+    "title": "Holiday Lights Limo & Chauffeur Tours: The Complete Guide for Maryland, DC & Northern Virginia"
   }
 ];

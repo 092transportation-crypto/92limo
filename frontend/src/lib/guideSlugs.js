@@ -10,5 +10,6 @@ export const GUIDE_SLUGS = [
   "laurel-md-transportation-guide",
   "columbia-md-transportation-guide",
   "annapolis-md-transportation-guide",
-  "wedding-transportation-guide-maryland-dc-virginia"
+  "wedding-transportation-guide-maryland-dc-virginia",
+  "holiday-lights-limo-tours-maryland-dc-virginia"
 ];
