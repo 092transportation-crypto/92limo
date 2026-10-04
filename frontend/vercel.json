@@ -176,7 +176,7 @@
       "statusCode": 301
     },
     {
-      "source": "/airport-transfer-:city{/}?",
+      "source": "/airport-transfer-:city((?!maryland)[^/]+){/}?",
       "destination": "/airport-transportation",
       "statusCode": 301
     },
