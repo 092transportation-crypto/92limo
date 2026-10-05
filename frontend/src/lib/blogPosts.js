@@ -10,6 +10,7 @@ import { BLOG_POSTS_BATCH4 } from "@/lib/blogPostsBatch4";
 import { BLOG_POSTS_BATCH5 } from "@/lib/blogPostsBatch5";
 import { BLOG_POSTS_BATCH6 } from "@/lib/blogPostsBatch6";
 import { BLOG_POSTS_BATCH7 } from "@/lib/blogPostsBatch7";
+import { BLOG_POSTS_BATCH8 } from "@/lib/blogPostsBatch8";
 import { GENERATED_BLOG_POSTS } from "@/lib/blogPostsGenerated";
 
 export const BLOG_POSTS = [
@@ -1053,6 +1054,9 @@ BLOG_POSTS.push(...BLOG_POSTS_BATCH6);
 // 2026-09-29 bulk content commission, batch 7 (20 long-form posts) — see
 // blogPostsBatch7.js header.
 BLOG_POSTS.push(...BLOG_POSTS_BATCH7);
+// 2026-10-04 bulk content commission, batch 8 (20 long-form posts) — see
+// blogPostsBatch8.js header.
+BLOG_POSTS.push(...BLOG_POSTS_BATCH8);
 // Daily-automation posts (scripts/generateBlogs.js) — newest last, so
 // GENERATED_BLOG_POSTS is pushed after the hand-written batches.
 BLOG_POSTS.push(...GENERATED_BLOG_POSTS);
