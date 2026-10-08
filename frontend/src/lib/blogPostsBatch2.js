@@ -67,7 +67,7 @@ export const BLOG_POSTS_BATCH2 = [
     relatedLinks: [
       { label: "Party Bus & Group Transportation in Maryland", to: "/party-bus-maryland" },
       { label: "Stretch Limo Service in Maryland", to: "/stretch-limo-maryland" },
-      { label: "Maryland Wedding Limo Planning Timeline", to: "/maryland-wedding-limo-planning-timeline" },
+      { label: "Maryland Wedding Limo Planning Timeline", to: "/blog/maryland-wedding-limo-planning-timeline" },
       { label: "Booking & Cancellation Policies", to: "/policies" },
       { label: "Our Fleet", to: "/fleet" },
       { label: "Book a Ride", to: "/booking" },
@@ -267,7 +267,7 @@ export const BLOG_POSTS_BATCH2 = [
     relatedLinks: [
       { label: "Wedding Limo Maryland", to: "/wedding-limo-maryland" },
       { label: "Wedding Transportation Maryland", to: "/wedding-transportation-maryland" },
-      { label: "How Much Does a Limo Cost in Maryland?", to: "/how-much-does-a-limo-cost-in-maryland" },
+      { label: "How Much Does a Limo Cost in Maryland?", to: "/blog/how-much-does-a-limo-cost-in-maryland" },
       { label: "Booking & Cancellation Policies", to: "/policies" },
       { label: "Our Fleet", to: "/fleet" },
       { label: "Book a Ride", to: "/booking" },
