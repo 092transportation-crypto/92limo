@@ -91,9 +91,9 @@ const ul = (items) => (items && items.length ? `<ul>${items.map((i) => `<li>${i}
 // ---------------------------------------------------------------------------
 const STATIC_PAGES = {
   "/": {
-    title: "Airport Car & Chauffeur Service | BWI, DCA, IAD | 92 Limo",
+    title: "BWI, DCA & IAD Limo & Car Service | 92 Limo Service",
     description:
-      "Luxury black car & chauffeur service in DC, Maryland & Virginia — airport transfers (BWI, DCA, IAD), corporate travel, weddings & 24/7 rides.",
+      "Chauffeured limo & black car service across MD, DC & VA — BWI/DCA/IAD transfers, weddings, corporate travel. Flat rates 24/7. Call (877) 609-1919.",
     h1: "Luxury Airport & Chauffeur Service — BWI • DCA • IAD • DC • Maryland • Northern Virginia",
     paras: [
       "Professional airport transfers, corporate travel, hourly chauffeur service, weddings, and long-distance transportation — delivered with precision, discretion, and uncompromising comfort.",

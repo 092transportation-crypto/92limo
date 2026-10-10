@@ -18,8 +18,8 @@ export default function Home() {
   return (
     <>
       <Seo
-        title="Airport Car & Chauffeur Service | BWI, DCA, IAD | 92 Limo"
-        description="Luxury black car & chauffeur service in DC, Maryland & Virginia — airport transfers (BWI, DCA, IAD), corporate travel, weddings & 24/7 rides."
+        title="BWI, DCA & IAD Limo & Car Service | 92 Limo Service"
+        description="Chauffeured limo & black car service across MD, DC & VA — BWI/DCA/IAD transfers, weddings, corporate travel. Flat rates 24/7. Call (877) 609-1919."
         path="/"
       />
       <Hero />

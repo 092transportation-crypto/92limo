@@ -49,6 +49,7 @@ function loadData() {
     "src/lib/blogPostsBatch5.js",
     "src/lib/blogPostsBatch6.js",
     "src/lib/blogPostsBatch7.js",
+    "src/lib/blogPostsBatch8.js",
     "src/lib/blogPostsGenerated.js",
     "src/lib/landingPages.js",
     "src/lib/staticPages.js",

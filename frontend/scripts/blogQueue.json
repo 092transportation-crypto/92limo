@@ -1564,5 +1564,53 @@
       "When talking to a person beats tapping a screen"
     ],
     "status": "pending"
+  },
+  {
+    "id": "bwi-to-dc-limo-cost",
+    "keyword": "How much does a limo cost from BWI to DC",
+    "title": "How Much Does a Limo Cost From BWI to DC?",
+    "category": "Pricing",
+    "outline": [
+      "How the BWI-to-DC flat rate is built from mileage brackets",
+      "Base rate by vehicle class for this specific route",
+      "What's included vs. what's added after (gratuity, tolls, parking, meet & greet)",
+      "Discounts and surcharges that change the final number",
+      "How it compares to rideshare surge pricing and downtown parking"
+    ],
+    "status": "published",
+    "publishedSlug": "how-much-does-a-limo-cost-from-bwi-to-dc",
+    "publishedDate": "2026-10-09"
+  },
+  {
+    "id": "best-time-to-book-airport-transportation",
+    "keyword": "Best time to book airport transportation",
+    "title": "Best Time to Book Airport Transportation",
+    "category": "Travel Tips",
+    "outline": [
+      "Why booking timing affects availability, price, and the pickup itself",
+      "The 24-hour-to-two-week sweet spot for most trips",
+      "When to book further ahead (prom season, events, holidays)",
+      "What's realistic for same-day and last-minute requests",
+      "Timing the pickup itself and locking in your return trip early"
+    ],
+    "status": "published",
+    "publishedSlug": "best-time-to-book-airport-transportation",
+    "publishedDate": "2026-10-09"
+  },
+  {
+    "id": "bwi-vs-dca-vs-iad-comparison",
+    "keyword": "BWI vs DCA vs IAD which airport is best",
+    "title": "BWI vs DCA vs IAD: Which Airport Is Best?",
+    "category": "Comparisons",
+    "outline": [
+      "The quick answer: it depends on where you're going",
+      "BWI Marshall as the value and variety pick",
+      "Reagan National (DCA) as the closest-to-downtown pick",
+      "Dulles (IAD) as the international gateway pick",
+      "Comparing drive times from across the region and how to choose"
+    ],
+    "status": "published",
+    "publishedSlug": "bwi-vs-dca-vs-iad-which-airport-is-best",
+    "publishedDate": "2026-10-09"
   }
 ]

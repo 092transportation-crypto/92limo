@@ -2,4 +2,295 @@
 // from scripts/generatedBlogPosts.json every time the daily automation runs.
 // Same shape as BLOG_POSTS (see blogPosts.js header comment). Merged into
 // BLOG_POSTS at the bottom of blogPosts.js.
-export const GENERATED_BLOG_POSTS = [];
+// NOTE (2026-10-09): these 3 entries were added by hand in the exact
+// finalizePost() output shape -- this sandboxed environment has no
+// ANTHROPIC_API_KEY available to run scripts/generateBlogs.js for real.
+// scripts/blogQueue.json has matching entries marked status: \"published\"
+// so the daily automation never regenerates these topics.
+export const GENERATED_BLOG_POSTS = [
+  {
+    "slug": "how-much-does-a-limo-cost-from-bwi-to-dc",
+    "title": "How Much Does a Limo Cost From BWI to DC?",
+    "metaTitle": "BWI to DC Limo Cost: 2026 Pricing Guide",
+    "metaDescription": "Real base rates for a limo or car service from BWI to DC by vehicle class, plus what's included. Call (877) 609-1919 for a flat quote.",
+    "category": "Pricing",
+    "date": "2026-10-09",
+    "readTime": "7 min read",
+    "excerpt": "Real base rates for the BWI-to-DC run, broken down by vehicle class, plus the fees and discounts that actually shape your final flat quote.",
+    "image": "/images/site/airport-pickup.webp",
+    "intro": [
+      "BWI Marshall Airport to downtown Washington DC is one of the most frequently booked car service routes in the region — roughly 30 to 35 miles depending on your exact pickup terminal and drop-off address, typically 45 to 75 minutes via the BW Parkway or I-95, traffic depending. It's also one of the easiest trips to get a real number on before you book, because reputable car services quote this route as a flat rate tied to distance and vehicle class, not a meter that climbs with every red light on New York Avenue.",
+      "Here's what that flat rate is actually built from, what typically changes the final number, and how it stacks up against the alternatives."
+    ],
+    "sections": [
+      {
+        "heading": "How the BWI-to-DC Fare Is Built",
+        "paragraphs": [
+          "Flat-rate car services price point-to-point trips using mileage brackets rather than a live meter: every five miles of distance moves you into the next pricing tier, and the rate for that tier is fixed regardless of how long the drive actually takes once you're on the road. For the BWI-to-DC run, that typically lands in the 30-to-35-mile bracket, which puts the trip solidly in the middle of the standard bracket table most DMV car services use.",
+          "Because the rate is locked to the bracket, not the clock, a slow Friday evening on the BW Parkway doesn't cost you anything extra, and neither does a flight that gets you out of the terminal faster than expected. The number you're quoted when you book is the number on the invoice."
+        ]
+      },
+      {
+        "heading": "What a Sedan, SUV, or Sprinter Actually Costs",
+        "paragraphs": [
+          "Vehicle class is the single biggest factor in the final price, and the gap between classes is substantial enough to plan around. For a trip in the 30-to-35-mile bracket, published base rates typically run in this range before any discount or fee is applied:"
+        ],
+        "list": [
+          "Business Sedan (Mercedes E-Class) — around $170, seats up to 3",
+          "Mid-Size SUV (Lincoln Nautilus) — around $185, seats up to 5",
+          "Luxury SUV (Chevrolet Suburban) — around $205, seats up to 6 with heavy luggage room",
+          "Premium SUV (Cadillac Escalade) — around $220, seats up to 6",
+          "First Class Sedan (BMW 7 Series / Mercedes S-Class) — around $275, seats up to 3",
+          "Sprinter Van — around $425, seats up to 14",
+          "Sprinter Executive — around $500, seats up to 14 with upgraded interior"
+        ]
+      },
+      {
+        "heading": "What's Included (and What Gets Added After)",
+        "paragraphs": [
+          "The base rate above covers the transportation itself. On top of it, expect gratuity, tolls, and parking to be disclosed and added before you confirm the booking — these are standard line items on almost every reputable car service quote, not hidden fees. Real-time flight tracking is included at no extra charge on every airport pickup, so a delayed inbound flight doesn't cost you anything beyond the wait.",
+          "Meet-and-greet service, where your chauffeur comes inside to baggage claim with a name sign and helps with your bags from the carousel rather than meeting you curbside, is typically offered as an optional add-on for an additional charge. Curbside pickup, by contrast, is standard and included at no extra cost."
+        ]
+      },
+      {
+        "heading": "Discounts and Surcharges That Change the Number",
+        "paragraphs": [
+          "Two things commonly move the number in your favor: booking online instead of by phone often triggers an automatic discount (commonly around 10% off the base rate before fees), and booking further ahead of your trip avoids the opposite problem — a short-notice surcharge that many car services apply to bookings made within a few hours of pickup, since last-minute requests are harder to staff reliably.",
+          "A small card-processing fee (typically in the low single digits as a percentage) is standard on most instant online quotes, applied after any discount. None of these adjustments are hidden — a transparent operator shows you the math, not just a final number."
+        ]
+      },
+      {
+        "heading": "How a Limo Compares to Rideshare and Driving Yourself",
+        "paragraphs": [
+          "Rideshare pricing on this exact route is the real wild card. A quoted rideshare fare from BWI can look competitive on a quiet Tuesday afternoon, then double or more during a surge window — and BWI generates surge conditions constantly, since flight banks land in clusters and hundreds of passengers open the same app within minutes of each other. A flat-rate car service quote doesn't move no matter how many flights land at the same time as yours.",
+          "Driving yourself and parking downtown adds its own costs — DC garage parking easily runs $25 to $45 a day — plus the stress of driving in city traffic after a flight. For most travelers, a flat-rate chauffeured sedan at a known price, with a professional driver handling the BW Parkway and DC's one-way streets, is the more predictable option even before factoring in parking."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How far is it from BWI Airport to downtown DC?",
+        "a": "About 30 to 35 miles, depending on your exact pickup terminal and drop-off address, typically a 45-to-75-minute drive via the BW Parkway or I-95 depending on traffic."
+      },
+      {
+        "q": "Is gratuity included in the quoted rate?",
+        "a": "Gratuity is disclosed and added before you confirm your booking, along with tolls and parking — it's part of the final flat number you approve, not a surprise on the invoice."
+      },
+      {
+        "q": "Does the price change if my flight is delayed?",
+        "a": "No. Real-time flight tracking is included on every airport pickup at no extra charge, so a delay changes your pickup time, not your fare."
+      },
+      {
+        "q": "Is it cheaper to book a sedan instead of an SUV for one or two passengers?",
+        "a": "Yes — a Business Sedan is the lowest-cost option for one to three passengers with normal luggage. SUVs and Sprinters cost more but make sense for extra luggage, car seats, or a larger group."
+      },
+      {
+        "q": "Do you charge extra for last-minute bookings?",
+        "a": "Many car services, including flat-rate operators in this market, apply a short-notice surcharge for bookings made within about four hours of pickup. Booking a day or more ahead avoids it."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "to": "/baltimore-to-dc-car-service",
+        "label": "Baltimore to DC Car Service"
+      },
+      {
+        "to": "/bwi-airport-car-service",
+        "label": "BWI Airport Car Service"
+      },
+      {
+        "to": "/booking",
+        "label": "Book a Ride"
+      }
+    ]
+  },
+  {
+    "slug": "best-time-to-book-airport-transportation",
+    "title": "Best Time to Book Airport Transportation",
+    "metaTitle": "Best Time to Book Airport Transportation",
+    "metaDescription": "When to book airport car service for the best availability and a smoother pickup — and when same-day booking still works. Call (877) 609-1919.",
+    "category": "Travel Tips",
+    "date": "2026-10-09",
+    "readTime": "6 min read",
+    "excerpt": "The real answer isn't just \"as early as possible\" — here's how timing actually affects availability, pricing, and how smoothly your pickup goes.",
+    "image": "/images/site/airport-pickup.webp",
+    "intro": [
+      "\"Book early\" is true but not very useful on its own — early compared to what, and does it actually change anything? The honest answer is that timing your airport transportation booking affects three separate things: whether your preferred vehicle is available, whether you pay a short-notice surcharge, and how smoothly the day-of pickup actually goes. Here's how to think about each one."
+    ],
+    "sections": [
+      {
+        "heading": "The Sweet Spot: 24 Hours to Two Weeks Ahead",
+        "paragraphs": [
+          "For most trips, booking anywhere from 24 hours to about two weeks before your pickup hits the sweet spot. It's far enough ahead that your preferred vehicle class is reliably available and you avoid any short-notice surcharge, but not so far out that your flight schedule is likely to have changed by the time the trip actually happens.",
+          "Within that window, there's rarely a meaningful advantage to booking three weeks out instead of three days out — availability and pricing are generally stable once you're past the short-notice cutoff, which most flat-rate car services set at around four hours before pickup."
+        ]
+      },
+      {
+        "heading": "When You Should Book Further Ahead",
+        "paragraphs": [
+          "A handful of situations genuinely call for booking well in advance — ideally a few weeks out rather than a few days:"
+        ],
+        "list": [
+          "Weekend travel during spring and early summer, when prom, graduation, and wedding season compete for the same Sprinter vans and SUVs",
+          "Major regional events — Preakness, the Maryland Renaissance Festival, a big concert or playoff run at a DMV stadium — that pull cars and chauffeurs toward event transportation the same weekend",
+          "Thanksgiving week and the days around Christmas and New Year's, the single heaviest travel stretch of the year at BWI, DCA, and IAD alike",
+          "Group bookings that need a specific Sprinter or multiple coordinated vehicles, since larger vehicles exist in smaller numbers than sedans"
+        ]
+      },
+      {
+        "heading": "Same-Day and Last-Minute Requests: What's Realistic",
+        "paragraphs": [
+          "Same-day booking is not a lost cause — a licensed operator with a real fleet can often accommodate a request made just a few hours out, especially for a sedan rather than a specialty vehicle. The honest tradeoffs are a possible short-notice surcharge and a smaller menu of available vehicles, since the ones already booked for that window simply aren't available to add on.",
+          "If your trip is genuinely last-minute — a same-day business meeting, an unexpected family trip — it's almost always worth calling directly rather than assuming nothing's available. Dispatch can see real-time availability that an online quote tool sometimes can't."
+        ]
+      },
+      {
+        "heading": "Timing the Pickup Itself, Not Just the Booking",
+        "paragraphs": [
+          "Once your booking is made, the other kind of timing that matters is the pickup time itself. For arrivals, this is largely handled for you: real-time flight tracking means your pickup is dispatched against your actual landing time, not the printed schedule, so an early or late flight doesn't require you to do anything.",
+          "For departures, build in buffer beyond the airline's suggested arrival window — rush-hour traffic on I-95, the BW Parkway, or the Dulles Toll Road can add 20 to 30 minutes to an otherwise ordinary drive, and a professional chauffeur who drives the route daily will plan around that rather than cutting it close."
+        ]
+      },
+      {
+        "heading": "Lock In Your Return Trip Early",
+        "paragraphs": [
+          "If you know your return date and flight, booking the round trip at the same time as your departure is worth doing even if everything else on this list points to flexibility. It guarantees your return vehicle is reserved before you ever leave, which matters most after a long trip when you'd rather not be calling around for a ride at baggage claim."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How far in advance should I book airport transportation?",
+        "a": "Anywhere from 24 hours to about two weeks ahead is the practical sweet spot for most trips — far enough out to avoid a short-notice surcharge and guarantee vehicle availability, without booking so early that your flight details might still change."
+      },
+      {
+        "q": "Can I still book a ride the same day?",
+        "a": "Often, yes, especially for a standard sedan. Call directly rather than relying only on an online quote tool, since dispatch can see real-time vehicle availability. A short-notice surcharge may apply."
+      },
+      {
+        "q": "Does booking early get me a better rate?",
+        "a": "Booking early mainly protects your vehicle choice and avoids a short-notice surcharge rather than unlocking a separate discount — pricing within the normal booking window is generally stable."
+      },
+      {
+        "q": "What's the busiest season for airport car service in the DMV?",
+        "a": "Late spring (prom and graduation season), major event weekends, and the Thanksgiving-through-New Year's stretch are consistently the busiest, with Sprinter vans and SUVs booking up first."
+      },
+      {
+        "q": "Should I book my return trip at the same time as my departure?",
+        "a": "Yes, if your return date is known — it guarantees a vehicle is reserved for you before you travel, so you're not arranging a ride home after a long trip."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "to": "/airport-transportation",
+        "label": "Airport Car Service — BWI, DCA, IAD, MTN & PHL"
+      },
+      {
+        "to": "/bwi-airport-car-service",
+        "label": "BWI Airport Car Service"
+      },
+      {
+        "to": "/booking",
+        "label": "Book a Ride"
+      }
+    ]
+  },
+  {
+    "slug": "bwi-vs-dca-vs-iad-which-airport-is-best",
+    "title": "BWI vs DCA vs IAD: Which Airport Is Best?",
+    "metaTitle": "BWI vs DCA vs IAD: Which Airport Is Best?",
+    "metaDescription": "Comparing BWI, DCA, and IAD on fares, drive times, and convenience to help you pick the right mid-Atlantic airport. Call (877) 609-1919.",
+    "category": "Comparisons",
+    "date": "2026-10-09",
+    "readTime": "7 min read",
+    "excerpt": "BWI, DCA, and IAD each have a clear strength and a clear tradeoff — here's how to pick the right one for your specific trip, not just the closest one.",
+    "image": "/images/site/airport-pickup.webp",
+    "intro": [
+      "The DC metro area is unusual in having three major airports within reasonable driving distance of almost anywhere in the region, and each one has a genuinely different personality: one wins on fares and variety, one wins on proximity to downtown, and one wins on international reach. Which is \"best\" depends entirely on where you're going, where you're starting from, and what you're optimizing for."
+    ],
+    "sections": [
+      {
+        "heading": "The Quick Answer: It Depends on Where You're Going",
+        "paragraphs": [
+          "If there's a one-line answer, it's this: BWI Marshall usually wins on price and route variety, Reagan National (DCA) wins on being closest to downtown DC and Northern Virginia, and Dulles (IAD) wins if you're flying internationally or on United. The rest of this comes down to where in the region you actually live or work, since drive time to each airport varies more than most travelers expect."
+        ]
+      },
+      {
+        "heading": "BWI Marshall: The Value and Variety Pick",
+        "paragraphs": [
+          "BWI is the region's busiest airport by passenger volume and its best-known value play, anchored by Southwest's largest East Coast operation alongside a wide mix of other carriers. For travelers in Baltimore, Howard County, Anne Arundel County, and much of central Maryland, it's also the closest major airport by a wide margin — often just 10 to 20 minutes from home.",
+          "The tradeoff is distance from DC and Northern Virginia. A trip from downtown DC to BWI typically runs 45 to 75 minutes depending on traffic, which is a real factor if your flight time is tight or your trip starts mid-afternoon on a weekday."
+        ]
+      },
+      {
+        "heading": "Reagan National (DCA): Closest to Downtown",
+        "paragraphs": [
+          "DCA's defining feature is location — it sits just across the Potomac from downtown DC, close enough that a trip from Capitol Hill, Georgetown, or most of Arlington and Alexandria can run 15 to 25 minutes. For a traveler whose trip starts or ends downtown, that proximity alone often outweighs other factors.",
+          "The tradeoff is a federally mandated perimeter rule limiting most nonstop DCA flights to destinations within roughly 1,250 miles, so the large majority of DCA departures are domestic, shorter-haul routes rather than long-haul or international flights. If you need a true international nonstop, DCA usually isn't the airport that has it."
+        ]
+      },
+      {
+        "heading": "Dulles (IAD): The International Gateway",
+        "paragraphs": [
+          "Dulles is the region's international hub and United's largest mid-Atlantic operation, with the widest selection of long-haul and international nonstop routes of the three airports. It's the natural choice for Northern Virginia residents in Loudoun and Fairfax counties — Sterling, Herndon, Reston, and Tysons are all a short drive away — and for anyone flying somewhere BWI and DCA simply don't serve directly.",
+          "The tradeoff is distance from Baltimore and much of Maryland, where a trip to Dulles can run well over an hour depending on Beltway traffic, plus a terminal layout that involves more walking (or an AeroTrain ride) between the main terminal and several concourses."
+        ]
+      },
+      {
+        "heading": "Comparing Drive Times From Across the Region",
+        "paragraphs": [
+          "Rather than one airport being universally \"closer,\" drive time really depends on where you're starting:"
+        ],
+        "list": [
+          "From Baltimore or Columbia: BWI is closest by far; DCA and IAD both run well over an hour",
+          "From downtown DC or Arlington: DCA is closest; BWI and IAD are both roughly 45–75 minutes depending on traffic",
+          "From Tysons, Reston, or Loudoun County: IAD is closest, often under 30 minutes; BWI and DCA both run significantly longer",
+          "From Southern Maryland or Prince George's County: DCA is usually closest; BWI and IAD are comparable second options depending on the exact town"
+        ]
+      },
+      {
+        "heading": "Which Airport Should You Actually Choose?",
+        "paragraphs": [
+          "If price and flight frequency matter most and you're anywhere in Maryland, start with BWI. If your trip is domestic and your day starts or ends in DC or Northern Virginia, DCA's proximity is hard to beat. If you're flying internationally, flying United, or you live in the Dulles corridor, IAD is usually the right call even with the longer drive for Maryland residents.",
+          "Whichever airport you choose, the car service side of the equation is the same either way: a flight-tracked, flat-rate chauffeur removes the guesswork about traffic and timing regardless of which of the three you fly out of."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which airport is closest to downtown DC?",
+        "a": "Reagan National (DCA) is closest to downtown DC and most of Arlington and Alexandria, often just a 15-to-25-minute drive."
+      },
+      {
+        "q": "Which airport usually has the cheapest flights?",
+        "a": "BWI Marshall is generally the value leader in the region, anchored by Southwest's large operation there alongside a wide mix of other carriers, though exact fares vary by route and date."
+      },
+      {
+        "q": "Is IAD a good choice for international or United flights?",
+        "a": "Yes — Dulles is the region's primary international gateway and United's largest mid-Atlantic hub, with the widest selection of long-haul and international nonstop routes of the three airports."
+      },
+      {
+        "q": "Does it matter which airport I fly into if I'm being picked up by a car service?",
+        "a": "Not for reliability — a flight-tracked, flat-rate chauffeur service covers BWI, DCA, and IAD equally well. It mainly affects your drive time and fare, which vary by airport and your starting point."
+      },
+      {
+        "q": "Can 92 Limo Service pick me up at all three airports?",
+        "a": "Yes. We provide flight-tracked, flat-rate chauffeured transportation to and from BWI, DCA, and IAD, 24 hours a day."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "to": "/bwi-airport-car-service",
+        "label": "BWI Airport Car Service"
+      },
+      {
+        "to": "/dca-airport-car-service",
+        "label": "DCA Airport Car Service"
+      },
+      {
+        "to": "/iad-airport-car-service",
+        "label": "IAD Airport Car Service"
+      }
+    ]
+  }
+];

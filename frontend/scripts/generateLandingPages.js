@@ -155,14 +155,37 @@ const AREA_CITIES = [
 
 // Search-intent title overrides for the highest-value pages (keep ≤ 60 chars).
 const CITY_TITLE_OVERRIDES = {
-  Baltimore: "Baltimore Limo & Black Car Service | 92 Limo",
-  "Washington DC": "Washington DC Limo & Black Car Service | 92 Limo",
-  Annapolis: "Annapolis Limo & Airport Car Service | 92 Limo",
+  Baltimore: "Baltimore Limo Service — Flat Rates, 24/7 | 92 Limo",
+  "Washington DC": "Washington DC Limo Service — Flat Rates 24/7 | 92 Limo",
+  Annapolis: "Annapolis Limo Service — Flat Rates, 24/7 | 92 Limo",
+  Bethesda: "Bethesda, MD Limo & Car Service 24/7 | 92 Limo",
+  Arlington: "Arlington, VA Limo & Black Car Service | 92 Limo",
+  Alexandria: "Alexandria, VA Limo & Car Service 24/7 | 92 Limo",
+  "Tysons Corner": "Tysons Corner Limo & Car Service 24/7 | 92 Limo",
+};
+// Matching description overrides for the same highest-value city pages — the
+// generic cityPage() description below doesn't carry the phone number, but
+// these top pages should lead with a clear CTA per the 2026-10-09 SEO pass.
+const CITY_DESC_OVERRIDES = {
+  Baltimore: "Chauffeured limo & black car service in Baltimore — BWI transfers, weddings, corporate travel. Flat rates, 24/7. Call (877) 609-1919.",
+  "Washington DC": "Chauffeured limo & black car service in Washington DC — DCA/IAD transfers, corporate travel, weddings. Flat rates. Call (877) 609-1919.",
+  Annapolis: "Chauffeured limo & airport car service in Annapolis, MD — BWI transfers, weddings, Naval Academy events. Call (877) 609-1919.",
+  Bethesda: "Chauffeured limo & car service in Bethesda, MD — DCA/IAD transfers, corporate & medical-campus travel. Flat rates. Call (877) 609-1919.",
+  Arlington: "Chauffeured limo & black car service in Arlington, VA — DCA transfers, Pentagon & HQ2 travel. Flat rates. Call (877) 609-1919.",
+  Alexandria: "Chauffeured limo & car service in Alexandria, VA — DCA transfers, Old Town events, corporate travel. Call (877) 609-1919.",
+  "Tysons Corner": "Chauffeured limo & car service in Tysons Corner, VA — IAD transfers, corporate travel & shopping. Flat rates. Call (877) 609-1919.",
 };
 const AIRPORT_TITLE_OVERRIDES = {
-  "bwi-airport-car-service": "BWI Airport Car Service | Private Chauffeur | 92 Limo",
-  "dca-airport-car-service": "DCA Airport Car Service | Private Chauffeur | 92 Limo",
-  "iad-airport-car-service": "IAD Airport Car Service | Private Chauffeur | 92 Limo",
+  "bwi-airport-car-service": "BWI Airport Car Service | Flat Rates 24/7 | 92 Limo",
+  "dca-airport-car-service": "DCA Airport Car Service | Flat Rates 24/7 | 92 Limo",
+  "iad-airport-car-service": "IAD Airport Car Service | Flat Rates 24/7 | 92 Limo",
+};
+// Matching description overrides so our 3 flagship airport hub pages lead
+// with the phone number and a clear CTA (2026-10-09 SEO pass).
+const AIRPORT_DESC_OVERRIDES = {
+  "bwi-airport-car-service": "Premium BWI Airport car service with flight tracking, meet & greet & flat transparent rates. Call (877) 609-1919 to book your chauffeur.",
+  "dca-airport-car-service": "Premium DCA Airport car service with flight tracking, meet & greet & flat transparent rates. Call (877) 609-1919 to book your chauffeur.",
+  "iad-airport-car-service": "Premium IAD Airport car service with flight tracking, meet & greet & flat transparent rates. Call (877) 609-1919 to book your chauffeur.",
 };
 
 const AIRPORT_PAGES = [
@@ -282,7 +305,7 @@ function cityPage(c, i) {
     slug: `${c.slug}-limo-service`,
     entry: {
       metaTitle: CITY_TITLE_OVERRIDES[c.name] || `Limo Service ${c.name} ${c.st} | 92 Limo Service`,
-      metaDescription: `Luxury limo & car service in ${c.name}, ${c.st}. Airport transfers to BWI, DCA & IAD, corporate travel, weddings & events. Flat rates, pro chauffeurs, 24/7.`,
+      metaDescription: CITY_DESC_OVERRIDES[c.name] || `Luxury limo & car service in ${c.name}, ${c.st}. Airport transfers to BWI, DCA & IAD, corporate travel, weddings & events. Flat rates, pro chauffeurs, 24/7.`,
       eyebrow: `${c.name.toUpperCase()}, ${c.st}`,
       h1: `Limo Service in ${c.name}, ${c.st}`,
       subtitle: `Chauffeured luxury transportation for ${c.name} — airport transfers, corporate travel, and special events, quoted flat and driven right.`,
@@ -410,7 +433,7 @@ function airportPage(a, i) {
     slug: a.slug,
     entry: {
       metaTitle: AIRPORT_TITLE_OVERRIDES[a.slug] || `${a.kw} | 92 Limo Service`,
-      metaDescription: metaDesc(`${a.kw} with flight tracking, optional meet & greet, and flat transparent rates. Pro chauffeurs and luxury vehicles, 24/7.`),
+      metaDescription: AIRPORT_DESC_OVERRIDES[a.slug] || metaDesc(`${a.kw} with flight tracking, optional meet & greet, and flat transparent rates. Pro chauffeurs and luxury vehicles, 24/7.`),
       eyebrow: a.code === "BWI" ? "BWI MARSHALL" : a.code === "DCA" ? "REAGAN NATIONAL" : "DULLES INTERNATIONAL",
       h1: a.kw,
       subtitle: `Reliable, chauffeured ${noun} at ${a.airport} — flight-tracked pickups, flat rates, and luxury vehicles around the clock.`,

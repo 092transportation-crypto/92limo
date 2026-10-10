@@ -346,9 +346,9 @@ const LUXURY_VEHICLES = ["First Class Sedan — BMW 7 Series", "Premium SUV — 
 
 export const SERVICE_PAGES = {
   "airport-transportation": {
-    metaTitle: "Airport Car Service | BWI, DCA, IAD & More | 92 Limo",
+    metaTitle: "BWI, DCA & IAD Airport Car Service | 92 Limo",
     metaDescription:
-      "Airport car service to and from BWI, DCA, IAD, Martin State & Philadelphia. Flight tracking, meet & greet, and 24/7 chauffeurs across DC, MD & VA.",
+      "Flight-tracked airport car service to BWI, DCA, IAD & PHL. Flat rates, meet & greet, 24/7 chauffeurs. Call (877) 609-1919 to book.",
     eyebrow: "AIRPORT TRANSPORTATION",
     h1: "Airport Car Service — BWI, DCA, IAD, MTN & PHL",
     subtitle: "Stress-free luxury transfers to every major airport in the region — with real-time flight tracking and curbside or meet & greet pickup.",
@@ -367,9 +367,9 @@ export const SERVICE_PAGES = {
     vehicles: AIRPORT_VEHICLES,
   },
   "corporate-transportation": {
-    metaTitle: "Corporate & Executive Car Service | 92 Limo DC, MD, VA",
+    metaTitle: "Corporate Car Service | Executive Travel | 92 Limo",
     metaDescription:
-      "Professional corporate car service across the DMV — executive sedans and SUVs, roadshows, airport transfers, and discreet, reliable chauffeurs.",
+      "Discreet corporate & executive car service across DC, MD & VA — roadshows, airport transfers, billing accounts. Call (877) 609-1919.",
     eyebrow: "CORPORATE TRANSPORTATION",
     h1: "Corporate & Executive Car Service",
     subtitle: "Reliable, discreet chauffeured travel that keeps your executives, clients, and teams moving on schedule across the DMV.",
@@ -388,9 +388,9 @@ export const SERVICE_PAGES = {
     vehicles: LUXURY_VEHICLES,
   },
   "wedding-transportation": {
-    metaTitle: "Wedding Limo Service | 92 Limo DC, Maryland & Virginia",
+    metaTitle: "Wedding Limo Service DC, MD & VA | 92 Limo",
     metaDescription:
-      "Elegant wedding limo and chauffeur service across DC, Maryland & Virginia — bridal-party transport in luxury sedans, SUVs, and Sprinter vans.",
+      "Elegant wedding limo & chauffeur service in DC, Maryland & Virginia — sedans, SUVs & Sprinters. Call (877) 609-1919 to book your day.",
     eyebrow: "WEDDING LIMO",
     h1: "Wedding Limo & Chauffeur Service",
     subtitle: "Make every arrival unforgettable with pristine luxury vehicles, red-carpet service, and chauffeurs who treat your day like their own.",
@@ -409,9 +409,9 @@ export const SERVICE_PAGES = {
     vehicles: LUXURY_VEHICLES,
   },
   "wine-tours": {
-    metaTitle: "Wine Tour Limo Service | MD & VA Vineyards | 92 Limo",
+    metaTitle: "Wine Tour Limo Service | MD & VA Wineries | 92 Limo",
     metaDescription:
-      "Chauffeured wine tours of Maryland and Virginia wine country. Relax with a professional driver and comfortable, door-to-door service.",
+      "Chauffeured wine tours of Maryland & Virginia vineyards — relax, taste, and let a pro drive. Call (877) 609-1919 to plan your tour.",
     eyebrow: "WINE TOURS",
     h1: "Wine Tour Chauffeur Service",
     subtitle: "Savor Maryland & Virginia wine country without worrying about the drive. Sit back, sip, and let your chauffeur handle the rest.",
@@ -440,9 +440,9 @@ export const SERVICE_PAGES = {
     ],
   },
   "birthday-celebrations": {
-    metaTitle: "Birthday Limo Service | Celebrate in Style | 92 Limo",
+    metaTitle: "Birthday Limo Service DC, MD & VA | 92 Limo",
     metaDescription:
-      "Chauffeured birthday transportation across DC, MD & VA. Safe, stylish rides in luxury sedans, SUVs, and Sprinter vans for a worry-free celebration.",
+      "Chauffeured birthday transportation across DC, MD & VA — safe, stylish rides for any group size. Call (877) 609-1919 to celebrate.",
     eyebrow: "BIRTHDAYS",
     h1: "Birthday Limo & Party Transportation",
     subtitle: "Turn heads and skip the parking — celebrate your birthday with a stylish, worry-free ride for you and your guests.",
@@ -500,9 +500,9 @@ export const SERVICE_PAGES = {
     ],
   },
   "prom-transportation": {
-    metaTitle: "Prom Limo Service | Safe & Stylish | 92 Limo DC, MD, VA",
+    metaTitle: "Prom Limo Service DC, MD & VA | 92 Limo",
     metaDescription:
-      "Safe, stylish, and supervised prom limo transportation across DC, Maryland & Virginia. Professional chauffeurs parents trust for a memorable night.",
+      "Safe, supervised prom limo service across DC, Maryland & Virginia that parents trust. Call (877) 609-1919 to book the ride home too.",
     eyebrow: "PROMS",
     h1: "Prom Limo Service",
     subtitle: "A picture-perfect, safe entrance to prom — with professional chauffeurs and pristine vehicles that parents trust.",
@@ -521,9 +521,9 @@ export const SERVICE_PAGES = {
     vehicles: ["Sprinter Limo — Mercedes Sprinter Limo", "Sprinter Shuttle — Mercedes Sprinter", "Premium SUV — Cadillac Escalade"],
   },
   "hourly-chauffeur": {
-    metaTitle: "Hourly Chauffeur Service | As-Directed Hire | 92 Limo",
+    metaTitle: "Hourly Chauffeur Service DC, MD & VA | 92 Limo",
     metaDescription:
-      "Hourly chauffeur service across DC, Maryland & Virginia. A dedicated vehicle and driver for meetings, events, shopping, and multi-stop days.",
+      "As-directed hourly chauffeur service across DC, Maryland & Virginia — one vehicle, one driver, all day. Call (877) 609-1919 to book.",
     eyebrow: "HOURLY CHAUFFEUR",
     h1: "Hourly Chauffeur Service",
     subtitle: "Your own luxury vehicle and professional chauffeur, on demand and as-directed — for as long as you need.",
@@ -544,7 +544,7 @@ export const SERVICE_PAGES = {
   "long-distance-transportation": {
     metaTitle: "Long-Distance Car Service to NYC & Philly | 92 Limo",
     metaDescription:
-      "Long-distance private car service from DC, MD & VA to NYC, Philadelphia, the Delaware beaches & beyond. Flat-rate, comfortable chauffeured travel.",
+      "Flat-rate long-distance car service from DC, MD & VA to NYC, Philadelphia & the Delaware beaches. Call (877) 609-1919 to book.",
     eyebrow: "LONG-DISTANCE TRAVEL",
     h1: "Long-Distance Private Car Service",
     subtitle: "Skip the airport hassle and the rental car. Travel city-to-city in total comfort with a professional chauffeur and a luxury vehicle that's all yours.",

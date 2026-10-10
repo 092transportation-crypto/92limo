@@ -3,8 +3,8 @@ import { IMAGES } from "@/lib/data";
 
 export const GENERATED_LANDING_PAGES = {
   "baltimore-limo-service": {
-    "metaTitle": "Baltimore Limo & Black Car Service | 92 Limo",
-    "metaDescription": "Luxury limo & car service in Baltimore, MD. Airport transfers to BWI, DCA & IAD, corporate travel, weddings & events. Flat rates, pro chauffeurs, 24/7.",
+    "metaTitle": "Baltimore Limo Service — Flat Rates, 24/7 | 92 Limo",
+    "metaDescription": "Chauffeured limo & black car service in Baltimore — BWI transfers, weddings, corporate travel. Flat rates, 24/7. Call (877) 609-1919.",
     "eyebrow": "BALTIMORE, MD",
     "h1": "Limo Service in Baltimore, MD",
     "subtitle": "Chauffeured luxury transportation for Baltimore — airport transfers, corporate travel, and special events, quoted flat and driven right.",
@@ -76,8 +76,8 @@ export const GENERATED_LANDING_PAGES = {
   },
 
   "washington-dc-limo-service": {
-    "metaTitle": "Washington DC Limo & Black Car Service | 92 Limo",
-    "metaDescription": "Luxury limo & car service in Washington DC, DC. Airport transfers to BWI, DCA & IAD, corporate travel, weddings & events. Flat rates, pro chauffeurs, 24/7.",
+    "metaTitle": "Washington DC Limo Service — Flat Rates 24/7 | 92 Limo",
+    "metaDescription": "Chauffeured limo & black car service in Washington DC — DCA/IAD transfers, corporate travel, weddings. Flat rates. Call (877) 609-1919.",
     "eyebrow": "WASHINGTON DC, DC",
     "h1": "Limo Service in Washington DC, DC",
     "subtitle": "Chauffeured luxury transportation for Washington DC — airport transfers, corporate travel, and special events, quoted flat and driven right.",
@@ -149,8 +149,8 @@ export const GENERATED_LANDING_PAGES = {
   },
 
   "annapolis-limo-service": {
-    "metaTitle": "Annapolis Limo & Airport Car Service | 92 Limo",
-    "metaDescription": "Luxury limo & car service in Annapolis, MD. Airport transfers to BWI, DCA & IAD, corporate travel, weddings & events. Flat rates, pro chauffeurs, 24/7.",
+    "metaTitle": "Annapolis Limo Service — Flat Rates, 24/7 | 92 Limo",
+    "metaDescription": "Chauffeured limo & airport car service in Annapolis, MD — BWI transfers, weddings, Naval Academy events. Call (877) 609-1919.",
     "eyebrow": "ANNAPOLIS, MD",
     "h1": "Limo Service in Annapolis, MD",
     "subtitle": "Chauffeured luxury transportation for Annapolis — airport transfers, corporate travel, and special events, quoted flat and driven right.",
@@ -295,8 +295,8 @@ export const GENERATED_LANDING_PAGES = {
   },
 
   "bethesda-limo-service": {
-    "metaTitle": "Limo Service Bethesda MD | 92 Limo Service",
-    "metaDescription": "Luxury limo & car service in Bethesda, MD. Airport transfers to BWI, DCA & IAD, corporate travel, weddings & events. Flat rates, pro chauffeurs, 24/7.",
+    "metaTitle": "Bethesda, MD Limo & Car Service 24/7 | 92 Limo",
+    "metaDescription": "Chauffeured limo & car service in Bethesda, MD — DCA/IAD transfers, corporate & medical-campus travel. Flat rates. Call (877) 609-1919.",
     "eyebrow": "BETHESDA, MD",
     "h1": "Limo Service in Bethesda, MD",
     "subtitle": "Chauffeured luxury transportation for Bethesda — airport transfers, corporate travel, and special events, quoted flat and driven right.",
@@ -1828,8 +1828,8 @@ export const GENERATED_LANDING_PAGES = {
   },
 
   "arlington-va-limo-service": {
-    "metaTitle": "Limo Service Arlington VA | 92 Limo Service",
-    "metaDescription": "Luxury limo & car service in Arlington, VA. Airport transfers to BWI, DCA & IAD, corporate travel, weddings & events. Flat rates, pro chauffeurs, 24/7.",
+    "metaTitle": "Arlington, VA Limo & Black Car Service | 92 Limo",
+    "metaDescription": "Chauffeured limo & black car service in Arlington, VA — DCA transfers, Pentagon & HQ2 travel. Flat rates. Call (877) 609-1919.",
     "eyebrow": "ARLINGTON, VA",
     "h1": "Limo Service in Arlington, VA",
     "subtitle": "Chauffeured luxury transportation for Arlington — airport transfers, corporate travel, and special events, quoted flat and driven right.",
@@ -1901,8 +1901,8 @@ export const GENERATED_LANDING_PAGES = {
   },
 
   "alexandria-va-limo-service": {
-    "metaTitle": "Limo Service Alexandria VA | 92 Limo Service",
-    "metaDescription": "Luxury limo & car service in Alexandria, VA. Airport transfers to BWI, DCA & IAD, corporate travel, weddings & events. Flat rates, pro chauffeurs, 24/7.",
+    "metaTitle": "Alexandria, VA Limo & Car Service 24/7 | 92 Limo",
+    "metaDescription": "Chauffeured limo & car service in Alexandria, VA — DCA transfers, Old Town events, corporate travel. Call (877) 609-1919.",
     "eyebrow": "ALEXANDRIA, VA",
     "h1": "Limo Service in Alexandria, VA",
     "subtitle": "Chauffeured luxury transportation for Alexandria — airport transfers, corporate travel, and special events, quoted flat and driven right.",
@@ -2047,8 +2047,8 @@ export const GENERATED_LANDING_PAGES = {
   },
 
   "tysons-corner-limo-service": {
-    "metaTitle": "Limo Service Tysons Corner VA | 92 Limo Service",
-    "metaDescription": "Luxury limo & car service in Tysons Corner, VA. Airport transfers to BWI, DCA & IAD, corporate travel, weddings & events. Flat rates, pro chauffeurs, 24/7.",
+    "metaTitle": "Tysons Corner Limo & Car Service 24/7 | 92 Limo",
+    "metaDescription": "Chauffeured limo & car service in Tysons Corner, VA — IAD transfers, corporate travel & shopping. Flat rates. Call (877) 609-1919.",
     "eyebrow": "TYSONS CORNER, VA",
     "h1": "Limo Service in Tysons Corner, VA",
     "subtitle": "Chauffeured luxury transportation for Tysons Corner — airport transfers, corporate travel, and special events, quoted flat and driven right.",
@@ -4917,14 +4917,14 @@ export const GENERATED_LANDING_PAGES = {
   },
 
   "bwi-airport-car-service": {
-    "metaTitle": "BWI Airport Car Service | Private Chauffeur | 92 Limo",
-    "metaDescription": "BWI Airport Car Service with flight tracking, optional meet & greet, and flat transparent rates. Pro chauffeurs and luxury vehicles, 24/7.",
+    "metaTitle": "BWI Airport Car Service | Flat Rates 24/7 | 92 Limo",
+    "metaDescription": "Premium BWI Airport car service with flight tracking, meet & greet & flat transparent rates. Call (877) 609-1919 to book your chauffeur.",
     "eyebrow": "BWI MARSHALL",
     "h1": "BWI Airport Car Service",
     "subtitle": "Reliable, chauffeured airport car service at BWI Marshall Airport — flight-tracked pickups, flat rates, and luxury vehicles around the clock.",
     "image": IMAGES.airportPickup,
     "alt": "Chauffeur meeting a traveler — bwi airport car service by 92 Limo Service",
-    "highlightsHeading": "What Makes Our BWI Black Car & Executive Car Service Different",
+    "highlightsHeading": "What Makes Our BWI Service Different",
     "intro": [
       "92 Limo Service provides premium airport car service to and from BWI Marshall Airport — 24 hours a day, 365 days a year. Your chauffeur tracks the flight, meets you at baggage claim or curbside, handles every bag, and drives a spotless luxury vehicle to your door. No shuttles, no shared vans, no surge pricing.",
       "Arrivals are effortless. We monitor your inbound flight in real time, so an early landing or a two-hour delay changes nothing — your vehicle is staged when you walk out. Choose curbside pickup or an optional inside meet-and-greet with a name sign (additional charge), and enjoy generous complimentary wait time while you clear baggage claim.",
@@ -5001,7 +5001,7 @@ export const GENERATED_LANDING_PAGES = {
     "subtitle": "Reliable, chauffeured airport transportation at BWI Marshall Airport — flight-tracked pickups, flat rates, and luxury vehicles around the clock.",
     "image": IMAGES.airportPickup,
     "alt": "Chauffeur meeting a traveler — bwi airport transportation by 92 Limo Service",
-    "highlightsHeading": "What Makes Our BWI Chauffeur & Corporate Transportation Different",
+    "highlightsHeading": "What Makes Our BWI Service Different",
     "intro": [
       "When the flight matters, the ride to the airport should never be the weak link. 92 Limo Service delivers airport transportation at BWI Marshall Airport with professional chauffeurs, late-model luxury vehicles, and flat transparent rates — trusted by business travelers, families, and frequent flyers across the DMV.",
       "Every airport booking includes real-time flight tracking. Land early and your chauffeur is already there. Get delayed and your pickup adjusts automatically, free of charge. Inside meet-and-greet with a name sign is available on request, and luggage assistance is always included.",
@@ -5078,7 +5078,7 @@ export const GENERATED_LANDING_PAGES = {
     "subtitle": "Reliable, chauffeured private shuttle service at BWI Marshall Airport — flight-tracked pickups, flat rates, and luxury vehicles around the clock.",
     "image": IMAGES.airportPickup,
     "alt": "Chauffeur meeting a traveler — bwi airport shuttle by 92 Limo Service",
-    "highlightsHeading": "What Makes Our BWI Town Car & Sprinter Shuttle Different",
+    "highlightsHeading": "What Makes Our BWI Service Different",
     "intro": [
       "92 Limo Service provides premium private shuttle service to and from BWI Marshall Airport — 24 hours a day, 365 days a year. Your chauffeur tracks the flight, meets you at baggage claim or curbside, handles every bag, and drives a spotless luxury vehicle to your door. No shuttles, no shared vans, no surge pricing.",
       "Arrivals are effortless. We monitor your inbound flight in real time, so an early landing or a two-hour delay changes nothing — your vehicle is staged when you walk out. Choose curbside pickup or an optional inside meet-and-greet with a name sign (additional charge), and enjoy generous complimentary wait time while you clear baggage claim.",
@@ -5155,7 +5155,7 @@ export const GENERATED_LANDING_PAGES = {
     "subtitle": "Reliable, chauffeured limo service at Reagan National Airport (DCA) — flight-tracked pickups, flat rates, and luxury vehicles around the clock.",
     "image": IMAGES.airportPickup,
     "alt": "Chauffeur meeting a traveler — dca reagan airport limo by 92 Limo Service",
-    "highlightsHeading": "What Makes Our DCA Black Car & Limo Service Different",
+    "highlightsHeading": "What Makes Our DCA Service Different",
     "intro": [
       "When the flight matters, the ride to the airport should never be the weak link. 92 Limo Service delivers limo service at Reagan National Airport (DCA) with professional chauffeurs, late-model luxury vehicles, and flat transparent rates — trusted by business travelers, families, and frequent flyers across the DMV.",
       "Every airport booking includes real-time flight tracking. Land early and your chauffeur is already there. Get delayed and your pickup adjusts automatically, free of charge. Inside meet-and-greet with a name sign is available on request, and luggage assistance is always included.",
@@ -5225,14 +5225,14 @@ export const GENERATED_LANDING_PAGES = {
   },
 
   "dca-airport-car-service": {
-    "metaTitle": "DCA Airport Car Service | Private Chauffeur | 92 Limo",
-    "metaDescription": "DCA Airport Car Service with flight tracking, optional meet & greet, and flat transparent rates. Pro chauffeurs and luxury vehicles, 24/7.",
+    "metaTitle": "DCA Airport Car Service | Flat Rates 24/7 | 92 Limo",
+    "metaDescription": "Premium DCA Airport car service with flight tracking, meet & greet & flat transparent rates. Call (877) 609-1919 to book your chauffeur.",
     "eyebrow": "REAGAN NATIONAL",
     "h1": "DCA Airport Car Service",
     "subtitle": "Reliable, chauffeured airport car service at Reagan National Airport (DCA) — flight-tracked pickups, flat rates, and luxury vehicles around the clock.",
     "image": IMAGES.airportPickup,
     "alt": "Chauffeur meeting a traveler — dca airport car service by 92 Limo Service",
-    "highlightsHeading": "What Makes Our DCA Executive Transportation & Corporate Car Service Different",
+    "highlightsHeading": "What Makes Our DCA Service Different",
     "intro": [
       "92 Limo Service provides premium airport car service to and from Reagan National Airport (DCA) — 24 hours a day, 365 days a year. Your chauffeur tracks the flight, meets you at baggage claim or curbside, handles every bag, and drives a spotless luxury vehicle to your door. No shuttles, no shared vans, no surge pricing.",
       "Arrivals are effortless. We monitor your inbound flight in real time, so an early landing or a two-hour delay changes nothing — your vehicle is staged when you walk out. Choose curbside pickup or an optional inside meet-and-greet with a name sign (additional charge), and enjoy generous complimentary wait time while you clear baggage claim.",
@@ -5379,8 +5379,8 @@ export const GENERATED_LANDING_PAGES = {
   },
 
   "iad-airport-car-service": {
-    "metaTitle": "IAD Airport Car Service | Private Chauffeur | 92 Limo",
-    "metaDescription": "IAD Airport Car Service with flight tracking, optional meet & greet, and flat transparent rates. Pro chauffeurs and luxury vehicles, 24/7.",
+    "metaTitle": "IAD Airport Car Service | Flat Rates 24/7 | 92 Limo",
+    "metaDescription": "Premium IAD Airport car service with flight tracking, meet & greet & flat transparent rates. Call (877) 609-1919 to book your chauffeur.",
     "eyebrow": "DULLES INTERNATIONAL",
     "h1": "IAD Airport Car Service",
     "subtitle": "Reliable, chauffeured airport car service at Dulles International Airport (IAD) — flight-tracked pickups, flat rates, and luxury vehicles around the clock.",
