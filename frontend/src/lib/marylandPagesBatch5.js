@@ -528,6 +528,7 @@ export const MARYLAND_BATCH5_PAGES = {
       "Beyond Old Town, we regularly serve Del Ray, Carlyle and the West End, including corporate offices with standing accounts and weddings at Alexandria's historic venues along the waterfront. Cruise passengers connecting through Alexandria hotels before or after a trip also use this route often.",
       "Every DCA pickup includes real-time flight tracking, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international. Meet & greet inside baggage claim is available for an additional charge, useful for guests unfamiliar with Reagan National.",
       "Your rate is confirmed before you ride and covers the base transportation charge, with gratuity, tolls and parking disclosed before confirmation. Tell us your flight and Alexandria address, and a chauffeur will be ready.",
+      "Return trips from Alexandria back to DCA are just as common as arrivals, and we recommend booking both legs together so your departure ride is locked in before you even check in for your flight. Early-morning pickups from Old Town hotels are routine, and dispatch can meet you anywhere between King Street and the West End.",
     ],
     highlights: [
       { title: "10–20 Minute Trip", desc: "A short, flat-rate run via the GW Parkway or Route 1, just south of DCA." },
@@ -634,6 +635,7 @@ export const MARYLAND_BATCH5_PAGES = {
       "Corporate accounts are available for McLean-based companies and households with standing airport travel, including monthly invoicing and priority dispatch. This route also sees regular use from executives who split their travel between DCA and Dulles depending on the destination.",
       "Every DCA pickup includes real-time flight tracking, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international. Meet & greet inside baggage claim is available for an additional charge.",
       "Your rate is confirmed before you ride and covers the base transportation charge, with gratuity, tolls and parking disclosed before confirmation. Tell us your flight and McLean address and a chauffeur will be ready.",
+      "Many McLean households book a standing weekly or monthly schedule rather than a one-off reservation, especially for family members who travel often between DCA and the CIA-campus corridor or Tysons. The same chauffeur can be requested for repeat trips, which residents who value familiarity and discretion tend to prefer over a different driver each time.",
     ],
     highlights: [
       { title: "25–35 Minute Trip", desc: "Often the closer airport choice for McLean, via the GW Parkway, I-495 and Route 123." },
@@ -687,6 +689,7 @@ export const MARYLAND_BATCH5_PAGES = {
       "Silver Spring's Discovery District offices and downtown corridor generate steady corporate travel to DCA, and we support that with standing accounts and monthly invoicing. Families and groups also use this route for weddings, proms and event travel connecting Silver Spring to destinations across the region.",
       "Every DCA pickup includes real-time flight tracking, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international. Meet & greet inside baggage claim is available for an additional charge.",
       "Your rate is confirmed before you ride and covers the base transportation charge, with gratuity, tolls and parking disclosed before confirmation. Tell us your flight and Silver Spring address and a chauffeur will be ready.",
+      "Because the route can run through downtown DC or around the Beltway depending on the hour, we build extra buffer into early-evening and weekday-morning pickups rather than quoting the fastest possible time and hoping traffic cooperates. That buffer is already included in your confirmed rate, not billed as an extra if the drive runs long.",
     ],
     highlights: [
       { title: "35–55 Minute Trip", desc: "A cross-district run through DC or around the Beltway, timed against real traffic conditions." },
@@ -1218,6 +1221,7 @@ export const MARYLAND_BATCH5_PAGES = {
       "Your chauffeur tracks your flight in real time and drives straight to Reston Town Center, the Sunset Hills Road office corridor, or any residential address around Lake Anne and South Lakes without a single unnecessary stop. Reverse trips, round trips, and late-night departures are all available 24/7.",
       "Reston's tech and professional-services companies along the Dulles Toll Road corridor make this one of our steadiest corporate routes, and we run standing accounts with consolidated monthly invoicing for firms that fly visiting staff and executives through Dulles on a regular basis.",
       "Choose a Mercedes E-Class or BMW 7 Series sedan for business travel, or a Cadillac Escalade or Sprinter van if you are arriving with a group or heavy luggage. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote.",
+      "Because the run is so short, Reston travelers often add it to a same-day round trip without a second thought — land, meet downtown, and be back at the terminal within a few hours. We recommend booking the return leg at the same time so a vehicle is already held against your departure flight.",
     ],
     highlights: [
       { title: "15–20 Minute Transfer", desc: "A short, direct run via the Dulles Toll Road — one of the shortest airport trips in the corridor." },
@@ -1322,6 +1326,7 @@ export const MARYLAND_BATCH5_PAGES = {
       "Your chauffeur tracks your flight in real time and drives straight to Leesburg's historic downtown, the Lansdowne resort corridor, or Loudoun's wine country just beyond town, handling every bag along the way. Reverse trips, round trips, and late-night departures are all available 24/7.",
       "Leesburg's wedding venues and wineries make this one of our more event-heavy routes: wedding parties flying in for a Loudoun County celebration, guests connecting through Dulles for a winery weekend, and Lansdowne Resort visitors all use this transfer regularly. We also cover the Dulles Greenway toll in the flat quoted rate.",
       "Choose a Mercedes E-Class sedan for a quick solo transfer, or a Cadillac Escalade or Sprinter van for a wedding party or wine-tour group. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote.",
+      "Weekend wedding traffic into Loudoun County tends to cluster around Friday afternoons and Sunday mornings, so we stage extra vehicles on the Greenway during peak season rather than scrambling to find one. If your itinerary includes a stop at a specific winery before checking into a hotel, tell us when you book and we will build it into the route.",
     ],
     highlights: [
       { title: "20–25 Minute Transfer", desc: "A direct run via the Dulles Greenway, with the toll included in your flat quoted rate." },
@@ -1374,6 +1379,7 @@ export const MARYLAND_BATCH5_PAGES = {
       "Your chauffeur tracks your flight in real time and drives straight to historic downtown Herndon, the Herndon Parkway office corridor, or any residential address near the W&OD Trail, handling every bag along the way. Reverse trips, round trips, and late-night departures are all available 24/7.",
       "Because this route is so short, it is one of the easiest same-day requests on our schedule — a last-minute business trip, an unplanned connection, or a family member landing a few hours earlier than expected are all easy to accommodate when vehicles are available.",
       "Choose a Mercedes E-Class sedan for a quick business transfer, or a Cadillac Escalade or Sprinter van for a family or group with luggage. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote.",
+      "Herndon's tech corridor along the Toll Road and the W&OD Trail's residential streets both fall within this short run, so whether you are headed to an office park or a front door near the trail, the trip and the flat rate stay about the same. Repeat business travelers often keep our number saved for exactly this reason.",
     ],
     highlights: [
       { title: "10–15 Minute Transfer", desc: "One of the shortest airport transfers we offer, via Centreville Road or the Dulles Toll Road." },
@@ -1426,6 +1432,7 @@ export const MARYLAND_BATCH5_PAGES = {
       "Your chauffeur tracks your flight in real time, loads every bag, and plans the route around Beltway traffic before you ever feel it. Drop-off works at any address in Leesburg's historic downtown, the Lansdowne resort corridor, or Loudoun wine country just beyond town. Reverse trips, round trips, and late-night departures are all available 24/7.",
       "This route is popular with Loudoun County wedding parties and winery groups who book flights through BWI when Dulles fares run higher, and with travelers who prefer BWI's domestic route network for a Leesburg visit or event.",
       "Choose a Mercedes E-Class or BMW 7 Series sedan for a comfortable long ride, or a Cadillac Escalade or Sprinter van for a group or wedding party. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote.",
+      "At roughly 65 miles and well over an hour, this is one of the longer transfers we run regularly, so your chauffeur builds in a buffer for Beltway slowdowns rather than quoting the best-case time. Water and chargers are on board for the ride, and the cabin stays quiet enough to catch up on sleep or work before you arrive.",
     ],
     highlights: [
       { title: "75–90 Minute Transfer", desc: "A comfortable long-distance run via I-495 and the Dulles Greenway or Route 7." },
@@ -1478,6 +1485,7 @@ export const MARYLAND_BATCH5_PAGES = {
       "Your chauffeur tracks your flight in real time, loads every bag, and plans the route around Beltway traffic before you ever feel it. This run is especially popular with technology and data-center professionals who fly into BWI on routes that aren't served from Dulles directly, then need a reliable transfer straight to Sterling's Data Center Alley or Dulles Town Center.",
       "Corporate accounts with monthly invoicing are common for firms that regularly fly visiting staff into BWI for Sterling-area site visits, and we coordinate pickup timing closely with flight schedules to minimize downtime between landing and the next meeting.",
       "Choose a Mercedes E-Class or BMW 7 Series sedan for a comfortable long ride, or a Cadillac Escalade or Sprinter van for a group. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote.",
+      "Many of our Sterling bookings are one leg of a multi-stop business trip — a BWI arrival, a data-center visit, and a same-day return — so we are glad to hold a vehicle on standby for a return pickup later that evening without a separate reservation call. Just let dispatch know your rough timeline when you book the first leg.",
     ],
     highlights: [
       { title: "75–85 Minute Transfer", desc: "A comfortable long-distance run via I-495 and the Dulles Access Road or Greenway." },
@@ -1530,6 +1538,7 @@ export const MARYLAND_BATCH5_PAGES = {
       "Your chauffeur tracks your flight in real time and drives straight to George Mason University, historic Fairfax City, or the Fair Oaks and Fairfax Corner shopping corridors, handling every bag along the way. Reverse trips, round trips, and late-night departures are all available 24/7.",
       "George Mason University events at EagleBank Arena, family weekends, commencements, and visiting faculty travel all generate steady demand on this route, and we plan event-night pickups in advance around campus traffic. Fairfax's county government offices and courthouse also send a regular flow of business travelers our way.",
       "Choose a Mercedes E-Class or BMW 7 Series sedan for business travel, or a Cadillac Escalade or Sprinter van for a family or group. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote.",
+      "Move-in weekends and commencement at George Mason can tie up Fairfax's streets for hours, and we plan pickup timing around the campus calendar rather than guessing. Families coordinating several pickups for the same weekend — one from DCA, one by car — can have both handled under a single point of contact.",
     ],
     highlights: [
       { title: "30–40 Minute Transfer", desc: "A direct run via I-395 and I-66 West, with buffer time built in for commuter traffic." },
@@ -1738,6 +1747,7 @@ export const MARYLAND_BATCH5_PAGES = {
       "We plan drop-offs and pickups around stadium-event traffic whenever a game and a casino night overlap, which is often, and we stage the return pickup at a confirmed meeting point so you are never standing on a casino curb waving down a rideshare that surge-priced itself out of reach.",
       "Groups book us for birthdays, bachelor and bachelorette nights, and corporate outings that start with dinner in Harbor East or Fells Point and end at the casino, all in one vehicle with one flat rate for the whole evening. Out-of-town guests can pair the trip with an airport transfer from BWI, which is about 15 minutes away with flight tracking included.",
       "Whether it is a quick sedan ride for two or a Sprinter van for a full group, every trip is quoted as one flat, transparent rate before you book — call (877) 609-1919 or reserve online.",
+      "Late-night pickups are routine here — a casino evening rarely ends on a predictable schedule, and our chauffeurs are used to waiting past the time originally booked without treating it as an inconvenience. Text your chauffeur when you are ready and the vehicle will already be close by.",
     ],
     highlights: [
       { title: "Beside the Stadium District", desc: "Chauffeurs who plan around M&T Bank Stadium and Camden Yards event traffic on game nights." },

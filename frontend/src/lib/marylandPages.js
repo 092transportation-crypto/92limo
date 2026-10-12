@@ -4595,7 +4595,7 @@ export const MARYLAND_LANDING_PAGES = {
 
   "maryland-wedding-limo": {
     "metaTitle": "Maryland Wedding Limo | 92 Limo Service",
-    "metaDescription": "Maryland Wedding Limo from 92 Limo Service — sedans, SUVs, Sprinter vans & stretch limos with professional chauffeurs across Baltimore and beyond. Call (877) ",
+    "metaDescription": "Maryland wedding limo service from 92 Limo Service — sedans, SUVs & Sprinter vans with professional chauffeurs across Baltimore and beyond. Call (877) 609-1919.",
     "eyebrow": "MARYLAND WEDDING LIMO",
     "h1": "Maryland Wedding Limo Service",
     "subtitle": "Chauffeured wedding transportation across Baltimore and the rest of Maryland — planned around getting-ready pickups.",
@@ -4606,7 +4606,8 @@ export const MARYLAND_LANDING_PAGES = {
       "92 Limo Service provides wedding transportation across Baltimore, Annapolis, Howard County, Montgomery County, Frederick and the Eastern Shore, with the same flat, transparent pricing and professional chauffeurs we bring to every airport transfer.",
       "We regularly serve Belmont Manor in Elkridge, the Elkridge Furnace Inn, Chesapeake Bay Beach Club in Stevensville, the Historic Inns of Annapolis, Glenview Mansion in Rockville and Ceresville Mansion in Frederick. Knowing each venue's loading zone, entrance and traffic pattern is what turns a nice vehicle into a reliable one.",
       "Each booking is planned around getting-ready pickups, first-look transfers, the ceremony-to-reception move, guest shuttles from hotel blocks and the getaway car at the end of the night. We confirm the itinerary the day before, stage the vehicle early and keep dispatch on the line throughout — demand peaks around the May through October peak, Commissioning Week in Annapolis and the October Eastern Shore rush, so reserve early for Saturday dates.",
-      "Choose a Mercedes E-Class or BMW 7 Series for couples and executives, a Cadillac Escalade or Chevrolet Suburban for six with luggage, a Mercedes Sprinter van for up to 14 or a stretch limousine for the occasion — and mix vehicles under one reservation."
+      "Choose a Mercedes E-Class or BMW 7 Series for couples and executives, a Cadillac Escalade or Chevrolet Suburban for six with luggage, a Mercedes Sprinter van for up to 14 or a stretch limousine for the occasion — and mix vehicles under one reservation.",
+      "A wedding planner or coordinator is welcome to confirm timing directly with our dispatch team, and we build the schedule around photo locations, a receiving line, or a sparkler exit that runs long. Special-event bookings, weddings included, cancel free of charge up to 12 hours before the scheduled pickup, so a shifted ceremony time is never a financial trap. Out-of-town wedding guests flying into BWI, DCA or IAD can also be booked on the same reservation, arriving at the venue in the same fleet as the wedding party.",
     ],
     "highlights": [
       {
@@ -4723,7 +4724,7 @@ export const MARYLAND_LANDING_PAGES = {
 
   "maryland-corporate-car-service": {
     "metaTitle": "Maryland Corporate Car Service | 92 Limo Service",
-    "metaDescription": "Maryland Corporate Car Service from 92 Limo Service — sedans, SUVs, Sprinter vans & stretch limos with professional chauffeurs across Baltimore and beyond. Ca",
+    "metaDescription": "Maryland corporate car service from 92 Limo — sedans, SUVs & Sprinter vans with professional chauffeurs across Baltimore and beyond. Call (877) 609-1919.",
     "eyebrow": "MARYLAND CORPORATE CAR SERVICE",
     "h1": "Maryland Corporate Car Service",
     "subtitle": "Chauffeured corporate transportation across Baltimore and the rest of Maryland — planned around airport meets for visiting executives.",
@@ -4734,7 +4735,8 @@ export const MARYLAND_LANDING_PAGES = {
       "92 Limo Service provides corporate transportation across Baltimore, Columbia, Bethesda, Rockville, Annapolis, Fort Meade and downtown Washington, with the same flat, transparent pricing and professional chauffeurs we bring to every airport transfer.",
       "We regularly serve NIH and Walter Reed in Bethesda, Fort Meade and the NSA, Johns Hopkins and the University of Maryland Medical Center, Northrop Grumman in Linthicum, Marriott International and Lockheed Martin in Bethesda and T. Rowe Price and Under Armour in Baltimore. Knowing each venue's loading zone, entrance and traffic pattern is what turns a nice vehicle into a reliable one.",
       "Each booking is planned around airport meets for visiting executives, roadshow days with multiple stops, board dinners, conference shuttles and standing weekly commutes. We confirm the itinerary the day before, stage the vehicle early and keep dispatch on the line throughout — demand peaks around conference season at the Baltimore Convention Center and Gaylord National, fiscal year-end travel and the January-to-April legislative session in Annapolis, so reserve early for Saturday dates.",
-      "Choose a Mercedes E-Class or BMW 7 Series for couples and executives, a Cadillac Escalade or Chevrolet Suburban for six with luggage, a Mercedes Sprinter van for up to 14 or a stretch limousine for the occasion — and mix vehicles under one reservation."
+      "Choose a Mercedes E-Class or BMW 7 Series for couples and executives, a Cadillac Escalade or Chevrolet Suburban for six with luggage, a Mercedes Sprinter van for up to 14 or a stretch limousine for the occasion — and mix vehicles under one reservation.",
+      "Visiting executives and board members can be met curbside or inside the terminal with a name sign, and consolidated monthly invoicing with itemized receipts keeps finance teams happy on recurring travel. Confidentiality is standard practice — conversations and destinations stay private, and trip details are shared only with the people who booked.",
     ],
     "highlights": [
       {
@@ -4851,7 +4853,7 @@ export const MARYLAND_LANDING_PAGES = {
 
   "maryland-prom-limo": {
     "metaTitle": "Maryland Prom Limo | 92 Limo Service",
-    "metaDescription": "Maryland Prom Limo from 92 Limo Service — sedans, SUVs, Sprinter vans & stretch limos with professional chauffeurs across Howard and beyond. Call (877) 609-19",
+    "metaDescription": "Maryland prom limo service from 92 Limo — sedans, SUVs & Sprinter vans with professional chauffeurs across Howard County and beyond. Call (877) 609-1919.",
     "eyebrow": "MARYLAND PROM LIMO",
     "h1": "Maryland Prom Limo Service",
     "subtitle": "Chauffeured prom transportation across Howard and the rest of Maryland — planned around the pre-prom photo stop.",
@@ -4862,7 +4864,8 @@ export const MARYLAND_LANDING_PAGES = {
       "92 Limo Service provides prom transportation across Howard, Anne Arundel, Montgomery, Prince George's, Baltimore and Frederick counties, with the same flat, transparent pricing and professional chauffeurs we bring to every airport transfer.",
       "We regularly serve Martin's West and Martin's Valley Mansion, Turf Valley Resort, the BWI Airport Marriott, the Baltimore Museum of Industry, the Bethesda North Marriott and the Hotel at Arundel Preserve. Knowing each venue's loading zone, entrance and traffic pattern is what turns a nice vehicle into a reliable one.",
       "Each booking is planned around the pre-prom photo stop, the ride to the venue, the after-party transfer and the safe ride home at the end of the night. We confirm the itinerary the day before, stage the vehicle early and keep dispatch on the line throughout — demand peaks around the late-April through early-June prom calendar, when Saturday vehicles book out weeks ahead, so reserve early for Saturday dates.",
-      "Choose a Mercedes E-Class or BMW 7 Series for couples and executives, a Cadillac Escalade or Chevrolet Suburban for six with luggage, a Mercedes Sprinter van for up to 14 or a stretch limousine for the occasion — and mix vehicles under one reservation."
+      "Choose a Mercedes E-Class or BMW 7 Series for couples and executives, a Cadillac Escalade or Chevrolet Suburban for six with luggage, a Mercedes Sprinter van for up to 14 or a stretch limousine for the occasion — and mix vehicles under one reservation.",
+      "A parent or guardian should be the one to book, since a valid card is required to confirm every reservation and that adult becomes our point of contact for the night. Spring Fridays and Saturdays are the busiest nights of the year for Sprinters and limousines, so reserving a few weeks ahead keeps your first-choice vehicle available. Several friend groups can split one Sprinter's cost across the night, and we are glad to help coordinate pickup addresses so everyone boards together.",
     ],
     "highlights": [
       {
@@ -4979,7 +4982,7 @@ export const MARYLAND_LANDING_PAGES = {
 
   "maryland-concert-transportation": {
     "metaTitle": "Maryland Concert Transportation | 92 Limo Service",
-    "metaDescription": "Maryland Concert Transportation from 92 Limo Service — sedans, SUVs, Sprinter vans & stretch limos with professional chauffeurs across Columbia and beyond. Ca",
+    "metaDescription": "Maryland concert transportation from 92 Limo — sedans, SUVs & Sprinter vans with professional chauffeurs across Columbia and beyond. Call (877) 609-1919.",
     "eyebrow": "MARYLAND CONCERT TRANSPORTATION",
     "h1": "Maryland Concert Transportation",
     "subtitle": "Chauffeured concert transportation across Columbia and the rest of Maryland — planned around the pickup from home or hotel.",
@@ -4990,7 +4993,8 @@ export const MARYLAND_LANDING_PAGES = {
       "92 Limo Service provides concert transportation across Columbia, Baltimore, Washington, Silver Spring, College Park and Northern Virginia, with the same flat, transparent pricing and professional chauffeurs we bring to every airport transfer.",
       "We regularly serve Merriweather Post Pavilion in Columbia, CFG Bank Arena in Baltimore, Pier Six Pavilion at the Inner Harbor, Capital One Arena in Washington, The Anthem at the Wharf and Wolf Trap in Vienna. Knowing each venue's loading zone, entrance and traffic pattern is what turns a nice vehicle into a reliable one.",
       "Each booking is planned around the pickup from home or hotel, a pre-show dinner stop, curbside drop-off at the venue and a staged pickup at a set meeting point after the encore. We confirm the itinerary the day before, stage the vehicle early and keep dispatch on the line throughout — demand peaks around the Merriweather summer season, arena tours through CFG Bank Arena and Capital One Arena and festival weekends at the Anthem and Wolf Trap, so reserve early for Saturday dates.",
-      "Choose a Mercedes E-Class or BMW 7 Series for couples and executives, a Cadillac Escalade or Chevrolet Suburban for six with luggage, a Mercedes Sprinter van for up to 14 or a stretch limousine for the occasion — and mix vehicles under one reservation."
+      "Choose a Mercedes E-Class or BMW 7 Series for couples and executives, a Cadillac Escalade or Chevrolet Suburban for six with luggage, a Mercedes Sprinter van for up to 14 or a stretch limousine for the occasion — and mix vehicles under one reservation.",
+      "Venue load-in and load-out can bottleneck fast after a sold-out show, and our chauffeurs plan the pickup spot and timing around it instead of circling the block. Group bookings for a full row of friends ride together in one Sprinter van rather than splitting across several rideshares.",
     ],
     "highlights": [
       {
@@ -5107,7 +5111,7 @@ export const MARYLAND_LANDING_PAGES = {
 
   "maryland-wine-tour-transportation": {
     "metaTitle": "Maryland Wine Tour Transportation | 92 Limo Service",
-    "metaDescription": "Maryland Wine Tour Transportation from 92 Limo Service — sedans, SUVs, Sprinter vans & stretch limos with professional chauffeurs across the Frederick wine tr",
+    "metaDescription": "Maryland wine tour transportation from 92 Limo Service — sedans, SUVs & Sprinter vans across the Frederick wine trail and beyond. Call (877) 609-1919.",
     "eyebrow": "MARYLAND WINE TOUR TRANSPORTATION",
     "h1": "Maryland Wine Tour Transportation",
     "subtitle": "Chauffeured wine tour transportation across the Frederick wine trail and the rest of Maryland — planned around a morning pickup.",
@@ -5118,7 +5122,8 @@ export const MARYLAND_LANDING_PAGES = {
       "92 Limo Service provides wine tour transportation across the Frederick wine trail, the Carroll County vineyards, northern Baltimore County, Sugarloaf Mountain and the Annapolis and Eastern Shore wineries, with the same flat, transparent pricing and professional chauffeurs we bring to every airport transfer.",
       "We regularly serve Linganore Winecellars in Mount Airy, Black Ankle Vineyards, Boordy Vineyards in Hydes, Elk Run Vineyards, Sugarloaf Mountain Vineyard in Dickerson and Old Westminster Winery. Knowing each venue's loading zone, entrance and traffic pattern is what turns a nice vehicle into a reliable one.",
       "Each booking is planned around a morning pickup, three or four tasting stops, a lunch reservation between vineyards and a relaxed ride home with the cases packed in the back. We confirm the itinerary the day before, stage the vehicle early and keep dispatch on the line throughout — demand peaks around harvest and crush season in September and October, spring release weekends and summer concert series at Linganore and Boordy, so reserve early for Saturday dates.",
-      "Choose a Mercedes E-Class or BMW 7 Series for couples and executives, a Cadillac Escalade or Chevrolet Suburban for six with luggage, a Mercedes Sprinter van for up to 14 or a stretch limousine for the occasion — and mix vehicles under one reservation."
+      "Choose a Mercedes E-Class or BMW 7 Series for couples and executives, a Cadillac Escalade or Chevrolet Suburban for six with luggage, a Mercedes Sprinter van for up to 14 or a stretch limousine for the occasion — and mix vehicles under one reservation.",
+      "Most groups comfortably visit three wineries in a day once tasting time is factored in, and we are glad to suggest a route by region if you have not booked tastings yet. The vehicle and chauffeur stay with your group the whole day, so no one has to stay sober to drive between stops.",
     ],
     "highlights": [
       {
@@ -5235,7 +5240,7 @@ export const MARYLAND_LANDING_PAGES = {
 
   "pimlico-race-course-transportation": {
     "metaTitle": "Pimlico Race Course Transportation | 92 Limo Service",
-    "metaDescription": "Chauffeured transportation to Pimlico Race Course in Baltimore — door drop-off, staged pickup, flat rates. Sedans, SUVs, Sprinter vans & limos. Call (877) 609",
+    "metaDescription": "Chauffeured transportation to Pimlico Race Course in Baltimore — door drop-off, staged pickup, flat rates. Sedans, SUVs & vans. Call (877) 609-1919.",
     "eyebrow": "RACETRACK · BALTIMORE",
     "h1": "Pimlico Race Course Transportation",
     "subtitle": "Door-to-door chauffeured service for the Preakness — flat, transparent pricing and a pickup that skips the parking exodus.",
@@ -5362,7 +5367,7 @@ export const MARYLAND_LANDING_PAGES = {
 
   "maryland-state-fair-transportation": {
     "metaTitle": "Maryland State Fair Transportation | 92 Limo Service",
-    "metaDescription": "Chauffeured transportation to Maryland State Fair in Timonium — door drop-off, staged pickup, flat rates. Sedans, SUVs, Sprinter vans & limos. Call (877) 609-",
+    "metaDescription": "Chauffeured transportation to the Maryland State Fair in Timonium — door drop-off, staged pickup, flat rates. Sedans, SUVs & vans. Call (877) 609-1919.",
     "eyebrow": "FAIR · TIMONIUM",
     "h1": "Maryland State Fair Transportation",
     "subtitle": "Door-to-door chauffeured service for the Maryland State Fair — flat, transparent pricing and a pickup that skips the parking exodus.",
@@ -5489,7 +5494,7 @@ export const MARYLAND_LANDING_PAGES = {
 
   "oriole-park-camden-yards-transportation": {
     "metaTitle": "Oriole Park at Camden Yards Transportation | 92 Limo Service",
-    "metaDescription": "Chauffeured transportation to Oriole Park at Camden Yards in Baltimore — door drop-off, staged pickup, flat rates. Sedans, SUVs, Sprinter vans & limos. Call (",
+    "metaDescription": "Chauffeured transportation to Oriole Park at Camden Yards in Baltimore — door drop-off, flat rates. Sedans, SUVs & vans. Call (877) 609-1919.",
     "eyebrow": "BALLPARK · BALTIMORE",
     "h1": "Oriole Park at Camden Yards Transportation",
     "subtitle": "Door-to-door chauffeured service for Orioles home games — flat, transparent pricing and a pickup that skips the parking exodus.",
@@ -5616,7 +5621,7 @@ export const MARYLAND_LANDING_PAGES = {
 
   "university-of-maryland-transportation": {
     "metaTitle": "University of Maryland Transportation | 92 Limo Service",
-    "metaDescription": "Chauffeured transportation to University of Maryland in College Park — door drop-off, staged pickup, flat rates. Sedans, SUVs, Sprinter vans & limos. Call (87",
+    "metaDescription": "Chauffeured transportation to the University of Maryland in College Park — door drop-off, flat rates. Sedans, SUVs & vans. Call (877) 609-1919.",
     "eyebrow": "UNIVERSITY · COLLEGE PARK",
     "h1": "University of Maryland Transportation",
     "subtitle": "Door-to-door chauffeured service for commencement — flat, transparent pricing and a pickup that skips the parking exodus.",
@@ -5870,7 +5875,7 @@ export const MARYLAND_LANDING_PAGES = {
 
   "national-harbor-transportation": {
     "metaTitle": "National Harbor Transportation | 92 Limo Service",
-    "metaDescription": "Chauffeured transportation to National Harbor in Oxon Hill — door drop-off, staged pickup, flat rates. Sedans, SUVs, Sprinter vans & limos. Call (877) 609-191",
+    "metaDescription": "Chauffeured transportation to National Harbor in Oxon Hill — door drop-off, staged pickup, flat rates. Sedans, SUVs & vans. Call (877) 609-1919.",
     "eyebrow": "RESORT DISTRICT · OXON HILL",
     "h1": "National Harbor Transportation",
     "subtitle": "Door-to-door chauffeured service for Gaylord conventions — flat, transparent pricing and a pickup that skips the parking exodus.",
@@ -5997,7 +6002,7 @@ export const MARYLAND_LANDING_PAGES = {
 
   "chesapeake-bay-events-transportation": {
     "metaTitle": "Chesapeake Bay Events Transportation | 92 Limo Service",
-    "metaDescription": "Chauffeured transportation to Chesapeake Bay Events in Annapolis and the Eastern Shore — door drop-off, staged pickup, flat rates. Sedans, SUVs, Sprinter vans",
+    "metaDescription": "Chauffeured transportation to Chesapeake Bay events in Annapolis and the Eastern Shore — flat-rate sedans, SUVs & vans. Call (877) 609-1919.",
     "eyebrow": "EVENT REGION · ANNAPOLIS AND THE EASTERN SHORE",
     "h1": "Chesapeake Bay Events Transportation",
     "subtitle": "Door-to-door chauffeured service for waterfront weddings — flat, transparent pricing and a pickup that skips the parking exodus.",
@@ -6124,7 +6129,7 @@ export const MARYLAND_LANDING_PAGES = {
 
   "annapolis-boat-show-transportation": {
     "metaTitle": "Annapolis Boat Shows Transportation | 92 Limo Service",
-    "metaDescription": "Chauffeured transportation to Annapolis Boat Shows in Annapolis — door drop-off, staged pickup, flat rates. Sedans, SUVs, Sprinter vans & limos. Call (877) 60",
+    "metaDescription": "Chauffeured transportation to the Annapolis Boat Shows — door drop-off, staged pickup, flat rates. Sedans, SUVs & vans. Call (877) 609-1919.",
     "eyebrow": "BOAT SHOW · ANNAPOLIS",
     "h1": "Annapolis Boat Shows Transportation",
     "subtitle": "Door-to-door chauffeured service for the sailboat and powerboat shows in October — flat, transparent pricing and a pickup that skips the parking exodus.",
@@ -6251,7 +6256,7 @@ export const MARYLAND_LANDING_PAGES = {
 
   "maryland-renaissance-festival-transportation": {
     "metaTitle": "Maryland Renaissance Festival Limo | 92 Limo Service",
-    "metaDescription": "Chauffeured transportation to Maryland Renaissance Festival in Crownsville — door drop-off, staged pickup, flat rates. Sedans, SUVs, Sprinter vans & limos. Ca",
+    "metaDescription": "Chauffeured transportation to the Maryland Renaissance Festival in Crownsville — flat-rate sedans, SUVs & vans. Call (877) 609-1919.",
     "eyebrow": "FESTIVAL · CROWNSVILLE",
     "h1": "Maryland Renaissance Festival Transportation",
     "subtitle": "Door-to-door chauffeured service for the Maryland Renaissance Festival weekends — flat, transparent pricing and a pickup that skips the parking exodus.",
@@ -6378,7 +6383,7 @@ export const MARYLAND_LANDING_PAGES = {
 
   "preakness-stakes-transportation": {
     "metaTitle": "Preakness Stakes Transportation | 92 Limo Service",
-    "metaDescription": "Chauffeured transportation to Preakness Stakes in Baltimore and Laurel — door drop-off, staged pickup, flat rates. Sedans, SUVs, Sprinter vans & limos. Call (",
+    "metaDescription": "Chauffeured transportation to Preakness Stakes in Baltimore and Laurel — door drop-off, staged pickup, flat rates. Sedans, SUVs & vans. Call (877) 609-1919.",
     "eyebrow": "RACE DAY · BALTIMORE AND LAUREL",
     "h1": "Preakness Stakes Transportation",
     "subtitle": "Door-to-door chauffeured service for the Preakness Stakes — flat, transparent pricing and a pickup that skips the parking exodus.",

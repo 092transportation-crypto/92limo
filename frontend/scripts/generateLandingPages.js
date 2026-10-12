@@ -467,6 +467,7 @@ function servicePage(s, i) {
         `We work directly with families and funeral directors to time every movement: home to church, church to cemetery, and the return. Our chauffeurs are experienced with processions and arrive early, dressed appropriately, with the vehicle immaculate.`,
         `Sedans carry immediate family in comfort, while our SUVs and Sprinter vans keep extended family together — especially helpful when relatives fly in and need airport pickups the same weekend. One call handles every ride.`,
         `Arrangements are handled with care and clear, flat pricing — no surprises added to an already heavy week. Call ${PHONE} and we will take transportation off your list.`,
+        `Services can be scheduled days or weeks in advance once the date is set, and changes to timing or vehicle count are accommodated without hassle as final arrangements come together. Our dispatch team stays reachable directly with the family or the funeral director, so there is one point of contact rather than a different driver to brief each time.`,
       ]]
     : care
     ? [[
@@ -548,12 +549,14 @@ function vehiclePage(v, i) {
       `This is chauffeured service, not a rental counter. Your licensed, background-checked chauffeur handles the driving, the luggage, and the timing, so you use the ride to work, relax, or celebrate. Hourly hires, one-way transfers, and airport runs are all available.`,
       `The ${v.vehicle} pairs beautifully with the rest of our fleet for larger plans: sedans lead the executive convoy, SUVs carry the family, and Sprinter vans move the whole group. Mixed-vehicle bookings for weddings and corporate events are quoted as one flat package.`,
       `Availability is 24/7 across Maryland, Washington DC, and Northern Virginia. Request your quote online or call ${PHONE} — every booking is confirmed with one flat, transparent rate.`,
+      `Corporate accounts can standardize on the ${v.vehicle} for recurring client pickups and executive travel, with consolidated monthly billing and a dedicated contact for scheduling. For one-off bookings, the same flat-rate promise applies: the quote you approve is the price you pay, with no meter and no surge regardless of traffic or time of day.`,
     ],
     [
       `Some occasions deserve a specific vehicle. The ${v.vehicle} is our ${v.cls} — ${v.pax}, chauffeur-driven, and ideal for ${v.best}. 92 Limo Service keeps it showroom-clean and books it around the clock across the DMV.`,
       `Every reservation includes a professional chauffeur who arrives early, loads luggage, and drives the route he has already planned around traffic. Airport pickups add real-time flight tracking and meet-and-greet service at BWI, DCA, and Dulles.`,
       `Book it by the trip or by the hour. Point-to-point transfers are quoted flat; hourly charters keep the vehicle and chauffeur with you for multi-stop days, evening events, or as-directed business travel.`,
       `Compare that to a rideshare guess or a rental you have to drive yourself, and the choice is easy. Call ${PHONE} or reserve online — the ${v.vehicle} books quickly on weekends.`,
+      `The vehicle arrives pre-inspected and detailed for every trip, with water on board and a chauffeur who stays reachable by text if your plans shift. Multi-vehicle bookings that pair the ${v.vehicle} with sedans or Sprinter vans for the rest of your group are quoted as one package.`,
     ],
   ];
   return {

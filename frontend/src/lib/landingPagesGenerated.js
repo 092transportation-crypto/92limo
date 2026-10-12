@@ -6936,7 +6936,8 @@ export const GENERATED_LANDING_PAGES = {
       "In difficult moments, transportation should be one thing your family does not have to think about. 92 Limo Service provides dignified funeral transportation across Maryland — quiet, punctual chauffeured vehicles for immediate family, out-of-town relatives, and clergy, coordinated gently around the service schedule.",
       "We work directly with families and funeral directors to time every movement: home to church, church to cemetery, and the return. Our chauffeurs are experienced with processions and arrive early, dressed appropriately, with the vehicle immaculate.",
       "Sedans carry immediate family in comfort, while our SUVs and Sprinter vans keep extended family together — especially helpful when relatives fly in and need airport pickups the same weekend. One call handles every ride.",
-      "Arrangements are handled with care and clear, flat pricing — no surprises added to an already heavy week. Call (877) 609-1919 and we will take transportation off your list."
+      "Arrangements are handled with care and clear, flat pricing — no surprises added to an already heavy week. Call (877) 609-1919 and we will take transportation off your list.",
+      "Services can be scheduled days or weeks in advance once the date is set, and changes to timing or vehicle count are accommodated without hassle as final arrangements come together. Our dispatch team stays reachable directly with the family or the funeral director, so there is one point of contact rather than a different driver to brief each time."
     ],
     "highlights": [
       {
@@ -7082,7 +7083,8 @@ export const GENERATED_LANDING_PAGES = {
       "Reserve the Mercedes-Benz S-Class — a flagship luxury sedan seating up to 3 passengers — with a professional chauffeur from 92 Limo Service. It is the right vehicle for executive travel, weddings, and VIP airport transfers, and it arrives detailed, fueled, and stocked with water and chargers.",
       "This is chauffeured service, not a rental counter. Your licensed, background-checked chauffeur handles the driving, the luggage, and the timing, so you use the ride to work, relax, or celebrate. Hourly hires, one-way transfers, and airport runs are all available.",
       "The Mercedes-Benz S-Class pairs beautifully with the rest of our fleet for larger plans: sedans lead the executive convoy, SUVs carry the family, and Sprinter vans move the whole group. Mixed-vehicle bookings for weddings and corporate events are quoted as one flat package.",
-      "Availability is 24/7 across Maryland, Washington DC, and Northern Virginia. Request your quote online or call (877) 609-1919 — every booking is confirmed with one flat, transparent rate."
+      "Availability is 24/7 across Maryland, Washington DC, and Northern Virginia. Request your quote online or call (877) 609-1919 — every booking is confirmed with one flat, transparent rate.",
+      "Corporate accounts can standardize on the Mercedes-Benz S-Class for recurring client pickups and executive travel, with consolidated monthly billing and a dedicated contact for scheduling. For one-off bookings, the same flat-rate promise applies: the quote you approve is the price you pay, with no meter and no surge regardless of traffic or time of day."
     ],
     "highlights": [
       {
@@ -7155,7 +7157,8 @@ export const GENERATED_LANDING_PAGES = {
       "Some occasions deserve a specific vehicle. The Cadillac Escalade is our premium full-size SUV — up to 6 passengers, chauffeur-driven, and ideal for families, executives, and red-carpet arrivals. 92 Limo Service keeps it showroom-clean and books it around the clock across the DMV.",
       "Every reservation includes a professional chauffeur who arrives early, loads luggage, and drives the route he has already planned around traffic. Airport pickups add real-time flight tracking and meet-and-greet service at BWI, DCA, and Dulles.",
       "Book it by the trip or by the hour. Point-to-point transfers are quoted flat; hourly charters keep the vehicle and chauffeur with you for multi-stop days, evening events, or as-directed business travel.",
-      "Compare that to a rideshare guess or a rental you have to drive yourself, and the choice is easy. Call (877) 609-1919 or reserve online — the Cadillac Escalade books quickly on weekends."
+      "Compare that to a rideshare guess or a rental you have to drive yourself, and the choice is easy. Call (877) 609-1919 or reserve online — the Cadillac Escalade books quickly on weekends.",
+      "The vehicle arrives pre-inspected and detailed for every trip, with water on board and a chauffeur who stays reachable by text if your plans shift. Multi-vehicle bookings that pair the Cadillac Escalade with sedans or Sprinter vans for the rest of your group are quoted as one package."
     ],
     "highlights": [
       {
@@ -7228,7 +7231,8 @@ export const GENERATED_LANDING_PAGES = {
       "Reserve the Lincoln Navigator — a American luxury SUV seating up to 6 passengers — with a professional chauffeur from 92 Limo Service. It is the right vehicle for airport transfers, proms, and group nights out, and it arrives detailed, fueled, and stocked with water and chargers.",
       "This is chauffeured service, not a rental counter. Your licensed, background-checked chauffeur handles the driving, the luggage, and the timing, so you use the ride to work, relax, or celebrate. Hourly hires, one-way transfers, and airport runs are all available.",
       "The Lincoln Navigator pairs beautifully with the rest of our fleet for larger plans: sedans lead the executive convoy, SUVs carry the family, and Sprinter vans move the whole group. Mixed-vehicle bookings for weddings and corporate events are quoted as one flat package.",
-      "Availability is 24/7 across Maryland, Washington DC, and Northern Virginia. Request your quote online or call (877) 609-1919 — every booking is confirmed with one flat, transparent rate."
+      "Availability is 24/7 across Maryland, Washington DC, and Northern Virginia. Request your quote online or call (877) 609-1919 — every booking is confirmed with one flat, transparent rate.",
+      "Corporate accounts can standardize on the Lincoln Navigator for recurring client pickups and executive travel, with consolidated monthly billing and a dedicated contact for scheduling. For one-off bookings, the same flat-rate promise applies: the quote you approve is the price you pay, with no meter and no surge regardless of traffic or time of day."
     ],
     "highlights": [
       {
@@ -7301,7 +7305,8 @@ export const GENERATED_LANDING_PAGES = {
       "Some occasions deserve a specific vehicle. The Mercedes Sprinter is our executive van — up to 14 passengers, chauffeur-driven, and ideal for group airport runs, wine tours, and corporate shuttles. 92 Limo Service keeps it showroom-clean and books it around the clock across the DMV.",
       "Every reservation includes a professional chauffeur who arrives early, loads luggage, and drives the route he has already planned around traffic. Airport pickups add real-time flight tracking and meet-and-greet service at BWI, DCA, and Dulles.",
       "Book it by the trip or by the hour. Point-to-point transfers are quoted flat; hourly charters keep the vehicle and chauffeur with you for multi-stop days, evening events, or as-directed business travel.",
-      "Compare that to a rideshare guess or a rental you have to drive yourself, and the choice is easy. Call (877) 609-1919 or reserve online — the Mercedes Sprinter books quickly on weekends."
+      "Compare that to a rideshare guess or a rental you have to drive yourself, and the choice is easy. Call (877) 609-1919 or reserve online — the Mercedes Sprinter books quickly on weekends.",
+      "The vehicle arrives pre-inspected and detailed for every trip, with water on board and a chauffeur who stays reachable by text if your plans shift. Multi-vehicle bookings that pair the Mercedes Sprinter with sedans or Sprinter vans for the rest of your group are quoted as one package."
     ],
     "highlights": [
       {
@@ -7374,7 +7379,8 @@ export const GENERATED_LANDING_PAGES = {
       "Reserve the Sprinter Limo — a limo-style party van seating up to 12 passengers — with a professional chauffeur from 92 Limo Service. It is the right vehicle for birthdays, bachelorette parties, and nights on the town, and it arrives detailed, fueled, and stocked with water and chargers.",
       "This is chauffeured service, not a rental counter. Your licensed, background-checked chauffeur handles the driving, the luggage, and the timing, so you use the ride to work, relax, or celebrate. Hourly hires, one-way transfers, and airport runs are all available.",
       "The Sprinter Limo pairs beautifully with the rest of our fleet for larger plans: sedans lead the executive convoy, SUVs carry the family, and Sprinter vans move the whole group. Mixed-vehicle bookings for weddings and corporate events are quoted as one flat package.",
-      "Availability is 24/7 across Maryland, Washington DC, and Northern Virginia. Request your quote online or call (877) 609-1919 — every booking is confirmed with one flat, transparent rate."
+      "Availability is 24/7 across Maryland, Washington DC, and Northern Virginia. Request your quote online or call (877) 609-1919 — every booking is confirmed with one flat, transparent rate.",
+      "Corporate accounts can standardize on the Sprinter Limo for recurring client pickups and executive travel, with consolidated monthly billing and a dedicated contact for scheduling. For one-off bookings, the same flat-rate promise applies: the quote you approve is the price you pay, with no meter and no surge regardless of traffic or time of day."
     ],
     "highlights": [
       {
@@ -7447,7 +7453,8 @@ export const GENERATED_LANDING_PAGES = {
       "Some occasions deserve a specific vehicle. The Sprinter Limo is our modern stretch-limo alternative — up to 12 passengers, chauffeur-driven, and ideal for weddings, proms, and milestone celebrations. 92 Limo Service keeps it showroom-clean and books it around the clock across the DMV.",
       "Every reservation includes a professional chauffeur who arrives early, loads luggage, and drives the route he has already planned around traffic. Airport pickups add real-time flight tracking and meet-and-greet service at BWI, DCA, and Dulles.",
       "Book it by the trip or by the hour. Point-to-point transfers are quoted flat; hourly charters keep the vehicle and chauffeur with you for multi-stop days, evening events, or as-directed business travel.",
-      "Compare that to a rideshare guess or a rental you have to drive yourself, and the choice is easy. Call (877) 609-1919 or reserve online — the Sprinter Limo books quickly on weekends."
+      "Compare that to a rideshare guess or a rental you have to drive yourself, and the choice is easy. Call (877) 609-1919 or reserve online — the Sprinter Limo books quickly on weekends.",
+      "The vehicle arrives pre-inspected and detailed for every trip, with water on board and a chauffeur who stays reachable by text if your plans shift. Multi-vehicle bookings that pair the Sprinter Limo with sedans or Sprinter vans for the rest of your group are quoted as one package."
     ],
     "highlights": [
       {
@@ -7520,7 +7527,8 @@ export const GENERATED_LANDING_PAGES = {
       "Reserve the Chevrolet Suburban — a full-size luxury SUV seating up to 6 passengers — with a professional chauffeur from 92 Limo Service. It is the right vehicle for families with luggage, security details, and group airport travel, and it arrives detailed, fueled, and stocked with water and chargers.",
       "This is chauffeured service, not a rental counter. Your licensed, background-checked chauffeur handles the driving, the luggage, and the timing, so you use the ride to work, relax, or celebrate. Hourly hires, one-way transfers, and airport runs are all available.",
       "The Chevrolet Suburban pairs beautifully with the rest of our fleet for larger plans: sedans lead the executive convoy, SUVs carry the family, and Sprinter vans move the whole group. Mixed-vehicle bookings for weddings and corporate events are quoted as one flat package.",
-      "Availability is 24/7 across Maryland, Washington DC, and Northern Virginia. Request your quote online or call (877) 609-1919 — every booking is confirmed with one flat, transparent rate."
+      "Availability is 24/7 across Maryland, Washington DC, and Northern Virginia. Request your quote online or call (877) 609-1919 — every booking is confirmed with one flat, transparent rate.",
+      "Corporate accounts can standardize on the Chevrolet Suburban for recurring client pickups and executive travel, with consolidated monthly billing and a dedicated contact for scheduling. For one-off bookings, the same flat-rate promise applies: the quote you approve is the price you pay, with no meter and no surge regardless of traffic or time of day."
     ],
     "highlights": [
       {
@@ -7593,7 +7601,8 @@ export const GENERATED_LANDING_PAGES = {
       "Some occasions deserve a specific vehicle. The BMW 7 Series is our first-class executive sedan — up to 3 passengers, chauffeur-driven, and ideal for C-suite travel, client pickups, and premium airport service. 92 Limo Service keeps it showroom-clean and books it around the clock across the DMV.",
       "Every reservation includes a professional chauffeur who arrives early, loads luggage, and drives the route he has already planned around traffic. Airport pickups add real-time flight tracking and meet-and-greet service at BWI, DCA, and Dulles.",
       "Book it by the trip or by the hour. Point-to-point transfers are quoted flat; hourly charters keep the vehicle and chauffeur with you for multi-stop days, evening events, or as-directed business travel.",
-      "Compare that to a rideshare guess or a rental you have to drive yourself, and the choice is easy. Call (877) 609-1919 or reserve online — the BMW 7 Series books quickly on weekends."
+      "Compare that to a rideshare guess or a rental you have to drive yourself, and the choice is easy. Call (877) 609-1919 or reserve online — the BMW 7 Series books quickly on weekends.",
+      "The vehicle arrives pre-inspected and detailed for every trip, with water on board and a chauffeur who stays reachable by text if your plans shift. Multi-vehicle bookings that pair the BMW 7 Series with sedans or Sprinter vans for the rest of your group are quoted as one package."
     ],
     "highlights": [
       {
