@@ -39,7 +39,7 @@ export const BLOG_POSTS_BATCH4 = [
         heading: "What \"Limo Service\" Actually Means Today",
         paragraphs: [
           "The word \"limo\" originally meant one specific thing — a stretched luxury sedan — but the industry term has broadened considerably. Today, \"limo service\" and \"limousine service\" are used interchangeably to describe professional, chauffeured ground transportation generally: sedans, SUVs, and passenger vans included, not just stretch vehicles. When most people search either phrase, they're looking for a professional car service, not specifically a stretch limousine.",
-          "This matters because it changes what you should expect a quote to include. A company quoting \"limo service\" in Maryland today is typically offering a fleet spanning business sedans through Sprinter vans, with an actual stretch limousine or Sprinter Limo as one option among several, not the default. Knowing this upfront saves a confusing first phone call.",
+          "This matters because it changes what you should expect a quote to include. A company quoting \"limo service\" in Maryland today is typically offering a fleet spanning business sedans through Sprinter vans, with an actual stretch limousine or Sprinter Executive as one option among several, not the default. Knowing this upfront saves a confusing first phone call.",
           "It's worth noting the actual classic stretch limousine still exists and still gets booked — proms, milestone anniversaries, some weddings — but it's a specific vehicle choice within a broader category now, not a synonym for the category itself.",
         ],
       },
@@ -49,7 +49,7 @@ export const BLOG_POSTS_BATCH4 = [
           "Business and First Class Sedans (Mercedes E-Class, BMW 7 Series, Mercedes S-Class) cover one or two passengers with a polished, professional presentation — the default for airport transfers and business trips.",
           "Midsize and Luxury SUVs (Lincoln Nautilus, Chevrolet Suburban) add capacity for a small group or extra luggage without losing the professional feel — a common choice for families and small wedding parties.",
           "The Premium SUV tier (Cadillac Escalade) adds presence for occasions where the vehicle itself is part of the impression — VIP arrivals, milestone celebrations, executive client pickups.",
-          "Sprinter Vans and Sprinter Limos cover larger groups — 8 to 14+ passengers — in one vehicle, which matters for weddings, corporate outings, and any trip where splitting the group across multiple cars would complicate logistics.",
+          "Sprinter Vans cover larger groups — 8 to 14+ passengers — in one vehicle, which matters for weddings, corporate outings, and any trip where splitting the group across multiple cars would complicate logistics.",
         ],
       },
       {
@@ -443,13 +443,13 @@ export const BLOG_POSTS_BATCH4 = [
         heading: "How Booking Differs by Occasion",
         paragraphs: [
           "Weddings and multi-stop personal celebrations are almost always hourly bookings — a block of time covering several stops, with a minimum hour requirement that varies by company. Single-destination events (a gala, a milestone dinner at one venue) are often better served by a simple round-trip booking: pickup, drop-off, and a scheduled return.",
-          "Group size shapes the vehicle recommendation more than the occasion itself does — a couple's anniversary dinner and a two-person client pickup call for similar vehicles, while a full wedding party or a milestone birthday group both point toward a Sprinter Van or Sprinter Limo regardless of how different the two occasions otherwise are.",
+          "Group size shapes the vehicle recommendation more than the occasion itself does — a couple's anniversary dinner and a two-person client pickup call for similar vehicles, while a full wedding party or a milestone birthday group both point toward a Sprinter Van regardless of how different the two occasions otherwise are.",
         ],
       },
       {
         heading: "Vehicle Presentation Matters More for Some Events Than Others",
         paragraphs: [
-          "For some events, the vehicle is genuinely part of the experience — weddings, milestone celebrations, VIP arrivals — and a premium SUV or Sprinter Limo earns its cost through presentation as much as transportation. For others, a professional sedan or standard SUV covers the trip perfectly well without needing the presentation upgrade — a gala where guests arrive independently, for instance, rarely calls for anything beyond a clean, professional vehicle.",
+          "For some events, the vehicle is genuinely part of the experience — weddings, milestone celebrations, VIP arrivals — and a premium SUV or Sprinter Executive earns its cost through presentation as much as transportation. For others, a professional sedan or standard SUV covers the trip perfectly well without needing the presentation upgrade — a gala where guests arrive independently, for instance, rarely calls for anything beyond a clean, professional vehicle.",
           "Knowing which category your event falls into before you request a quote saves time and helps you avoid either overpaying for formality the occasion doesn't need, or under-booking for a moment where the vehicle genuinely mattered.",
         ],
       },

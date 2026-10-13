@@ -20,7 +20,7 @@ This step matters more than it seems, because the booking structure itself chang
 
 ## Step 2: Choose a Vehicle Class
 
-For one or two people, a Business Sedan or First Class Sedan covers most trips comfortably. Groups or extra luggage call for a Midsize or Luxury SUV. Larger parties fit best in a Sprinter Van or Sprinter Limo. If you're not sure, describe the group size and occasion when you book — we'll recommend the right fit rather than making you guess from a list of unfamiliar vehicle names.
+For one or two people, a Business Sedan or First Class Sedan covers most trips comfortably. Groups or extra luggage call for a Midsize or Luxury SUV. Larger parties fit best in a Sprinter Van. If you're not sure, describe the group size and occasion when you book — we'll recommend the right fit rather than making you guess from a list of unfamiliar vehicle names.
 
 It's worth being honest about luggage at this stage too, not just passenger count — a group that fits comfortably for seating can still be tight on space once everyone's actual bags are loaded, especially for airport trips or multi-day travel.
 

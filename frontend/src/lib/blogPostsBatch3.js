@@ -44,7 +44,7 @@ export const BLOG_POSTS_BATCH3 = [
         paragraphs: [
           "For most special-occasion BWI pickups, a Mercedes-Benz S-Class or BMW 7 Series first-class sedan strikes the right balance — genuinely upscale, still practical for airport curb logistics and a reasonable amount of luggage. These are the vehicles that read as \"this is a nice car service\" the moment they pull up, without requiring the extra planning a larger vehicle needs.",
           "For a couple or small wedding party, a Cadillac Escalade or Chevrolet Suburban premium SUV adds presence and a taller, more commanding profile without sacrificing the practicality of getting through arrivals traffic and a curb pickup smoothly. These also solve the luggage problem more comfortably than a sedan when a wedding weekend means more bags than usual.",
-          "For a larger group — a full wedding party, a family reunion arrival, or a group of groomsmen or bridesmaids flying in together — the Mercedes Sprinter Limo is the closer match to what people actually picture when they say \"limo\": more seating, more interior presence, and everyone arriving together instead of splitting into two or three separate sedans that show up at different times.",
+          "For a larger group — a full wedding party, a family reunion arrival, or a group of groomsmen or bridesmaids flying in together — the Mercedes Sprinter Executive is the closer match to what people actually picture when they say \"limo\": more seating, more interior presence, and everyone arriving together instead of splitting into two or three separate sedans that show up at different times.",
           "One detail worth flagging: matching the vehicle to the actual headcount and luggage matters more for a special occasion than a routine trip, precisely because the vehicle itself is part of what's being noticed. A wedding party of six squeezed uncomfortably into a five-seat sedan undercuts the whole point of upgrading in the first place.",
         ],
       },
@@ -68,7 +68,7 @@ export const BLOG_POSTS_BATCH3 = [
         heading: "What This Actually Costs Compared to a Standard Car Service",
         paragraphs: [
           "The price difference between a standard BWI car service and a special-occasion booking is usually smaller than people assume — you're paying for a higher vehicle tier, not a different category of service entirely. Moving from a Business Sedan to a First Class Sedan or premium SUV is a meaningful but predictable step up, not a multiple of the base price.",
-          "Where the cost grows is with the Sprinter Limo for larger groups, simply because it's a larger, more specialized vehicle with fewer units in any fleet. Even there, pricing is flat and quoted upfront, so you're deciding whether the group-together convenience is worth it with real numbers in front of you, not guessing.",
+          "Where the cost grows is with the Sprinter Executive for larger groups, simply because it's a larger, more specialized vehicle with fewer units in any fleet. Even there, pricing is flat and quoted upfront, so you're deciding whether the group-together convenience is worth it with real numbers in front of you, not guessing.",
           "The honest advice: get a quote for both the standard vehicle and the upgraded one when you call. Seeing the actual gap side by side makes the decision easier than trying to estimate it, and it costs nothing to ask for both numbers before you commit.",
         ],
       },
@@ -77,14 +77,14 @@ export const BLOG_POSTS_BATCH3 = [
         paragraphs: [
           "The most common mistake is booking a special occasion the same way you'd book a routine airport run — same lead time, same generic notes, same standard vehicle — and then being disappointed when the day feels rushed. Telling dispatch what the trip is actually for is what unlocks the right planning on our end; it costs nothing and changes how the booking gets handled.",
           "The second most common mistake is under-sizing the vehicle for the actual group, usually to save a modest amount on a larger booking. A cramped, luggage-stuffed sedan undercuts the entire point of upgrading for the occasion in the first place — if presentation matters enough to book a nicer vehicle, it's worth sizing it correctly.",
-          "The third is waiting too long to book a vehicle tied to a specific date. Special-occasion vehicles — premium SUVs and the Sprinter Limo especially — are a smaller pool than standard sedans, and they go first for weddings and graduation weekends. If you know the date, book it. A brief call well ahead of the date, even before every detail is settled, is enough to hold the vehicle you actually want.",
+          "The third is waiting too long to book a vehicle tied to a specific date. Special-occasion vehicles — premium SUVs and the Sprinter Executive especially — are a smaller pool than standard sedans, and they go first for weddings and graduation weekends. If you know the date, book it. A brief call well ahead of the date, even before every detail is settled, is enough to hold the vehicle you actually want.",
         ],
       },
     ],
     faqs: [
       {
         q: "Do you offer a true stretch limousine at BWI?",
-        a: "Our special-occasion fleet centers on first-class sedans, premium SUVs, and the Mercedes Sprinter Limo for larger groups — vehicles that read as a genuine step up for an airport pickup while staying practical for curb logistics. Call (877) 609-1919 to talk through exactly what a specific occasion calls for.",
+        a: "Our special-occasion fleet centers on first-class sedans, premium SUVs, and the Mercedes Sprinter Executive for larger groups — vehicles that read as a genuine step up for an airport pickup while staying practical for curb logistics. Call (877) 609-1919 to talk through exactly what a specific occasion calls for.",
       },
       {
         q: "How far ahead should I book a wedding or graduation pickup at BWI?",
@@ -100,7 +100,7 @@ export const BLOG_POSTS_BATCH3 = [
       },
       {
         q: "Can you fit a full wedding party in one vehicle?",
-        a: "For larger groups, the Mercedes Sprinter Limo is usually the right call so everyone arrives together instead of splitting across multiple cars.",
+        a: "For larger groups, the Mercedes Sprinter Executive is usually the right call so everyone arrives together instead of splitting across multiple cars.",
       },
     ],
     relatedLinks: [
@@ -152,7 +152,7 @@ export const BLOG_POSTS_BATCH3 = [
       {
         heading: "What Same-Day Booking Actually Looks Like",
         paragraphs: [
-          "Same-day requests aren't off the table — they're handled whenever a vehicle and chauffeur are available, and during a normal weekday that's usually the case. What changes is your odds of getting a specific vehicle class on short notice; a sedan is far easier to produce same-day than a Sprinter Limo, simply because there are more sedans in circulation at any given moment.",
+          "Same-day requests aren't off the table — they're handled whenever a vehicle and chauffeur are available, and during a normal weekday that's usually the case. What changes is your odds of getting a specific vehicle class on short notice; a sedan is far easier to produce same-day than a Sprinter Executive, simply because there are more sedans in circulation at any given moment.",
           "If a same-day trip comes up, call rather than relying on a form submission — (877) 609-1919 gets a live person who can tell you immediately what's actually available, instead of you waiting on a response while the clock runs. A phone call also lets dispatch offer an alternative vehicle class on the spot if your first choice isn't available in the time window you need.",
         ],
       },
@@ -367,7 +367,7 @@ export const BLOG_POSTS_BATCH3 = [
       {
         heading: "The Big Four Cost Drivers",
         paragraphs: [
-          "Four factors set most of the price: vehicle class (a sedan costs less than a Sprinter Limo), the number of hours booked, the day and season (Saturdays in May, June, September, and October are peak demand across the entire Maryland wedding industry, not just transportation), and how many stops the day involves — a straightforward ceremony-to-reception run costs less than a multi-location photo itinerary with several stops across the day.",
+          "Four factors set most of the price: vehicle class (a sedan costs less than a Sprinter Executive), the number of hours booked, the day and season (Saturdays in May, June, September, and October are peak demand across the entire Maryland wedding industry, not just transportation), and how many stops the day involves — a straightforward ceremony-to-reception run costs less than a multi-location photo itinerary with several stops across the day.",
           "Distance matters too, but less than people expect — most Maryland weddings happen within a fairly compact radius (a venue, a church, a reception hall all within the same county or an adjacent one), so hours and vehicle class tend to move the number more than mileage does. A wedding transportation quote is rarely dominated by how far apart the locations are.",
           "Day of the week is worth calling out separately from season: a Friday or Sunday wedding, or a weekday elopement, often has meaningfully more vehicle availability and sometimes more competitive pricing than a peak Saturday, simply because demand across every vendor category — not just transportation — concentrates so heavily on Saturdays.",
         ],
@@ -376,7 +376,7 @@ export const BLOG_POSTS_BATCH3 = [
         heading: "What Vehicle Tiers Typically Run",
         paragraphs: [
           "For the couple alone, a first-class sedan (Mercedes S-Class or BMW 7 Series) or a premium SUV like the Cadillac Escalade covers the getaway car role comfortably, with enough presence for photos without the cost of a larger vehicle neither of you needs for two people.",
-          "For the wedding party, a Chevrolet Suburban fits a smaller group comfortably, while the Mercedes Sprinter Van or Sprinter Limo covers larger bridal parties or the guest shuttle role in one vehicle instead of splitting across several cars and coordinating multiple pickup times on what's already the most schedule-sensitive day of the event.",
+          "For the wedding party, a Chevrolet Suburban fits a smaller group comfortably, while the Mercedes Sprinter Van covers larger bridal parties or the guest shuttle role in one vehicle instead of splitting across several cars and coordinating multiple pickup times on what's already the most schedule-sensitive day of the event.",
           "Exact pricing depends on hours and date, which is why we quote per-wedding rather than publishing a flat menu online. Two couples asking about the same vehicle for the same rough hour count can still land on different numbers depending on the specific Saturday, since demand isn't flat across the wedding season.",
         ],
       },
@@ -759,7 +759,7 @@ export const BLOG_POSTS_BATCH3 = [
       {
         heading: "Step 2: Choose a Vehicle Class",
         paragraphs: [
-          "For one or two people, a Business Sedan or First Class Sedan covers most trips comfortably. Groups or extra luggage call for a Midsize or Luxury SUV. Larger parties fit best in a Sprinter Van or Sprinter Limo. If you're not sure, describe the group size and occasion when you book — we'll recommend the right fit rather than making you guess from a list of unfamiliar vehicle names.",
+          "For one or two people, a Business Sedan or First Class Sedan covers most trips comfortably. Groups or extra luggage call for a Midsize or Luxury SUV. Larger parties fit best in a Sprinter Van. If you're not sure, describe the group size and occasion when you book — we'll recommend the right fit rather than making you guess from a list of unfamiliar vehicle names.",
           "It's worth being honest about luggage at this stage too, not just passenger count — a group that fits comfortably for seating can still be tight on space once everyone's actual bags are loaded, especially for airport trips or multi-day travel.",
         ],
       },
@@ -907,7 +907,7 @@ export const BLOG_POSTS_BATCH3 = [
       {
         heading: "One Vehicle or Multiple?",
         paragraphs: [
-          "For groups up to around 14 passengers, a single Mercedes Sprinter Van or Sprinter Limo usually keeps everyone together — simpler logistics, one pickup time, one point of coordination, and no risk of half the group arriving before the other half. Larger groups may need two vehicles; if so, ask how pickup timing is coordinated between them so the group doesn't end up split at different ends of a terminal or venue with no way to regroup easily.",
+          "For groups up to around 14 passengers, a single Mercedes Sprinter Van usually keeps everyone together — simpler logistics, one pickup time, one point of coordination, and no risk of half the group arriving before the other half. Larger groups may need two vehicles; if so, ask how pickup timing is coordinated between them so the group doesn't end up split at different ends of a terminal or venue with no way to regroup easily.",
           "There's a real trade-off worth naming here: one large vehicle is simpler to coordinate but less flexible if the group needs to split up partway through the day (some people leaving earlier, a subset going to a different stop), while two smaller vehicles cost more to coordinate upfront but offer more flexibility if the day's plan isn't fully locked in yet.",
         ],
       },

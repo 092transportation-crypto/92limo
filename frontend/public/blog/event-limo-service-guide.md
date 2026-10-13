@@ -24,11 +24,11 @@ On the professional side, galas, award dinners, and VIP client events call for t
 
 Weddings and multi-stop personal celebrations are almost always hourly bookings — a block of time covering several stops, with a minimum hour requirement that varies by company. Single-destination events (a gala, a milestone dinner at one venue) are often better served by a simple round-trip booking: pickup, drop-off, and a scheduled return.
 
-Group size shapes the vehicle recommendation more than the occasion itself does — a couple's anniversary dinner and a two-person client pickup call for similar vehicles, while a full wedding party or a milestone birthday group both point toward a Sprinter Van or Sprinter Limo regardless of how different the two occasions otherwise are.
+Group size shapes the vehicle recommendation more than the occasion itself does — a couple's anniversary dinner and a two-person client pickup call for similar vehicles, while a full wedding party or a milestone birthday group both point toward a Sprinter Van regardless of how different the two occasions otherwise are.
 
 ## Vehicle Presentation Matters More for Some Events Than Others
 
-For some events, the vehicle is genuinely part of the experience — weddings, milestone celebrations, VIP arrivals — and a premium SUV or Sprinter Limo earns its cost through presentation as much as transportation. For others, a professional sedan or standard SUV covers the trip perfectly well without needing the presentation upgrade — a gala where guests arrive independently, for instance, rarely calls for anything beyond a clean, professional vehicle.
+For some events, the vehicle is genuinely part of the experience — weddings, milestone celebrations, VIP arrivals — and a premium SUV or Sprinter Executive earns its cost through presentation as much as transportation. For others, a professional sedan or standard SUV covers the trip perfectly well without needing the presentation upgrade — a gala where guests arrive independently, for instance, rarely calls for anything beyond a clean, professional vehicle.
 
 Knowing which category your event falls into before you request a quote saves time and helps you avoid either overpaying for formality the occasion doesn't need, or under-booking for a moment where the vehicle genuinely mattered.
 

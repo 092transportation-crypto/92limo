@@ -15,14 +15,14 @@ export const BLOG_POSTS_BATCH2 = [
       "There is no single number for 'a limo in Maryland' — the honest answer is that five factors set the rate, and a reputable company tells you all five before you book, not after.",
     image: "/images/blog/fleet-sclass-2.webp",
     intro: [
-      "Search for limo prices in Maryland and you will find a wall of conflicting numbers, because the question itself is incomplete. A one-way BWI transfer in a sedan and an eight-hour Sprinter Limo booking for a wedding party are not the same product, and quoting either as 'the price of a limo' is misleading. What actually determines your rate is a short, predictable list of factors — and once you know them, you can read any quote and understand exactly what you are paying for.",
+      "Search for limo prices in Maryland and you will find a wall of conflicting numbers, because the question itself is incomplete. A one-way BWI transfer in a sedan and an eight-hour Sprinter Executive booking for a wedding party are not the same product, and quoting either as 'the price of a limo' is misleading. What actually determines your rate is a short, predictable list of factors — and once you know them, you can read any quote and understand exactly what you are paying for.",
     ],
     sections: [
       {
         heading: "Vehicle Class Is the Biggest Lever",
         paragraphs: [
-          "92 Limo Service prices by vehicle class, and the classes exist because they solve different problems. A Business Sedan (Mercedes E-Class) or First Class Sedan (BMW 7 Series / Mercedes S-Class) suits one to three travelers with standard luggage. A Midsize or Luxury SUV adds passengers and cargo room. A Premium SUV (Cadillac Escalade) is the top of the sedan-and-SUV tier. Above that, the Mercedes Sprinter Shuttle and Sprinter Executive seat up to 13, and the Sprinter Limo is the party-style vehicle for celebrations.",
-          "The company does not operate a separate stretch limousine or party bus in its owned fleet — the Sprinter Limo fills that role for group celebrations, and a traditional stretch limousine or party bus can be arranged on request, subject to availability, if your event specifically calls for one.",
+          "92 Limo Service prices by vehicle class, and the classes exist because they solve different problems. A Business Sedan (Mercedes E-Class) or First Class Sedan (BMW 7 Series / Mercedes S-Class) suits one to three travelers with standard luggage. A Midsize or Luxury SUV adds passengers and cargo room. A Premium SUV (Cadillac Escalade) is the top of the sedan-and-SUV tier. Above that, the Mercedes Sprinter Shuttle and Sprinter Executive both seat up to 13 — the Shuttle for straightforward group transport, and the Executive with a premium interior for corporate groups and celebrations alike.",
+          "The company does not operate a separate stretch limousine or party bus in its owned fleet — the Sprinter Executive fills that role for group celebrations, and a traditional stretch limousine or party bus can be arranged on request, subject to availability, if your event specifically calls for one.",
         ],
       },
       {
@@ -59,7 +59,7 @@ export const BLOG_POSTS_BATCH2 = [
     ],
     faqs: [
       { q: "Is hourly or point-to-point cheaper for a wedding?", a: "It depends on the day's structure. A single ceremony-to-reception transfer suits point-to-point pricing; a day with getting-ready photos, a ceremony, a reception and a late-night exit usually works out better on hourly as-directed service, since the vehicle stays with you the whole time." },
-      { q: "Does 92 Limo Service have a stretch limousine or party bus?", a: "The owned fleet's party-style vehicle is the Mercedes Sprinter Limo. A traditional stretch limousine or party bus can be arranged on request, subject to availability, for events that call for one specifically." },
+      { q: "Does 92 Limo Service have a stretch limousine or party bus?", a: "The owned fleet's party-style vehicle is the Mercedes Sprinter Executive. A traditional stretch limousine or party bus can be arranged on request, subject to availability, for events that call for one specifically." },
       { q: "Why do two quotes for the same trip look different?", a: "Usually because one figure is the base transportation charge and the other already includes gratuity, tolls and parking. Ask what is and is not included before comparing two numbers directly." },
       { q: "When is my card actually charged?", a: "Only after the reservation and the rate have been confirmed with you — never automatically at the time of an online request." },
       { q: "Does booking early change the price?", a: "Booking early does not guarantee a lower rate, but it guarantees availability for peak dates — proms, weddings and major event weekends fill vehicles first, regardless of price." },
@@ -86,13 +86,13 @@ export const BLOG_POSTS_BATCH2 = [
       "Three vehicle types get lumped together as 'party transportation,' but they solve different group sizes and different nights. Here is how to pick correctly the first time.",
     image: "/images/blog/scenario-group-shuttle.webp",
     intro: [
-      "Bachelorette weekends, birthday nights, casino runs and prom groups all reach for the same shorthand — 'get us a party bus' — when what they actually need might be a Sprinter Limo or a stretch limousine instead. The three vehicle types overlap in purpose but differ in capacity, seating layout and how the evening actually feels, and matching the vehicle to the group avoids the two most common booking mistakes: a vehicle too small for the group, or a vehicle bigger and more expensive than the night requires.",
+      "Bachelorette weekends, birthday nights, casino runs and prom groups all reach for the same shorthand — 'get us a party bus' — when what they actually need might be a Sprinter Executive or a stretch limousine instead. The three vehicle types overlap in purpose but differ in capacity, seating layout and how the evening actually feels, and matching the vehicle to the group avoids the two most common booking mistakes: a vehicle too small for the group, or a vehicle bigger and more expensive than the night requires.",
     ],
     sections: [
       {
-        heading: "Mercedes Sprinter Limo — 92 Limo Service's Own Party Vehicle",
+        heading: "Mercedes Sprinter Executive — 92 Limo Service's Own Party Vehicle",
         paragraphs: [
-          "The Sprinter Limo is the vehicle 92 Limo Service owns and operates for group celebrations, seating up to 13. It has the lounge-style interior and ambient lighting associated with a party vehicle, in the higher, more stable Sprinter body, and it is the vehicle used for most birthday, bachelorette and casino-trip bookings across Maryland.",
+          "The Sprinter Executive is the vehicle 92 Limo Service owns and operates for group celebrations, seating up to 13. It has the lounge-style interior and ambient lighting associated with a party vehicle, in the higher, more stable Sprinter body, and it is the vehicle used for most birthday, bachelorette and casino-trip bookings across Maryland.",
         ],
       },
       {
@@ -110,10 +110,10 @@ export const BLOG_POSTS_BATCH2 = [
       {
         heading: "Matching the Vehicle to the Group",
         paragraphs: [
-          "For most Maryland groups — a birthday party, a bachelorette weekend, a casino trip to Live! or MGM National Harbor, a night out in Baltimore or DC — the Sprinter Limo's 13-passenger capacity and lounge feel is the right fit and the one 92 Limo Service can confirm fastest, since it is company-owned rather than sourced on request. For a wedding getaway car look or a larger group than a Sprinter accommodates, ask about a stretch limousine or party bus when you book, and dispatch will confirm availability before you commit.",
+          "For most Maryland groups — a birthday party, a bachelorette weekend, a casino trip to Live! or MGM National Harbor, a night out in Baltimore or DC — the Sprinter Executive's 13-passenger capacity and lounge feel is the right fit and the one 92 Limo Service can confirm fastest, since it is company-owned rather than sourced on request. For a wedding getaway car look or a larger group than a Sprinter accommodates, ask about a stretch limousine or party bus when you book, and dispatch will confirm availability before you commit.",
         ],
         list: [
-          "Up to 13 guests, want the lounge feel now: Sprinter Limo",
+          "Up to 13 guests, want the lounge feel now: Sprinter Executive",
           "Want the classic low-profile limousine look: stretch limousine, arranged on request",
           "Larger group than 13, want a dedicated party bus: arranged on request",
         ],
@@ -126,10 +126,10 @@ export const BLOG_POSTS_BATCH2 = [
       },
     ],
     faqs: [
-      { q: "How many people fit in the Sprinter Limo?", a: "Up to 13 passengers, in the lounge-style interior with ambient lighting that 92 Limo Service owns and operates directly." },
+      { q: "How many people fit in the Sprinter Executive?", a: "Up to 13 passengers, in the lounge-style interior with ambient lighting that 92 Limo Service owns and operates directly." },
       { q: "Can I book a stretch limousine directly online?", a: "Stretch limousines are arranged on request rather than kept in the owned fleet — call or mention it when you book and dispatch will confirm availability." },
-      { q: "Is a party bus available for a group larger than 13?", a: "A party bus can be arranged on request, subject to availability, for groups that exceed Sprinter Limo capacity." },
-      { q: "What is the best vehicle for a casino trip to Live! or MGM National Harbor?", a: "The Sprinter Limo suits most casino-trip groups and is the vehicle 92 Limo Service can confirm fastest, since it is part of the owned fleet." },
+      { q: "Is a party bus available for a group larger than 13?", a: "A party bus can be arranged on request, subject to availability, for groups that exceed Sprinter Executive capacity." },
+      { q: "What is the best vehicle for a casino trip to Live! or MGM National Harbor?", a: "The Sprinter Executive suits most casino-trip groups and is the vehicle 92 Limo Service can confirm fastest, since it is part of the owned fleet." },
       { q: "How is a party-night booking priced?", a: "Usually hourly, as-directed — the vehicle and chauffeur stay with your group for the evening rather than making a single drop-off." },
     ],
     relatedLinks: [
@@ -183,14 +183,14 @@ export const BLOG_POSTS_BATCH2 = [
         list: [
           "Executive sedan, one to three passengers: Business or First Class Sedan",
           "Group or extra luggage: Luxury or Premium SUV",
-          "Larger group, shuttle-style: Sprinter Shuttle or Sprinter Executive",
-          "Celebration or party-style ride: Sprinter Limo",
+          "Larger group, shuttle-style: Sprinter Shuttle",
+          "Celebration or party-style ride: Sprinter Executive",
         ],
       },
     ],
     faqs: [
       { q: "Is a town car the same as a black car?", a: "Functionally yes — 'town car' is the older term for the same idea a modern black car service describes: a professional sedan with a chauffeur." },
-      { q: "Does 92 Limo Service operate actual stretch limousines?", a: "The owned fleet's celebration vehicle is the Mercedes Sprinter Limo. A traditional stretch limousine can be arranged on request, subject to availability." },
+      { q: "Does 92 Limo Service operate actual stretch limousines?", a: "The owned fleet's celebration vehicle is the Mercedes Sprinter Executive. A traditional stretch limousine can be arranged on request, subject to availability." },
       { q: "What vehicle should I request for a corporate airport pickup?", a: "A Business Sedan or First Class Sedan is standard for one to three executive travelers; ask about a Luxury or Premium SUV if the group or luggage is larger." },
       { q: "Is black car service more expensive than a taxi?", a: "Pricing structures differ — black car service is quoted and confirmed before you ride, while taxi and rideshare fares can vary with demand. Compare the confirmed rate to your specific trip rather than assuming either is automatically cheaper." },
       { q: "Do I need to know the exact term to book?", a: "No. Tell dispatch your passenger count, luggage, and pickup and drop-off details, and they will recommend the right vehicle class regardless of which term you used." },

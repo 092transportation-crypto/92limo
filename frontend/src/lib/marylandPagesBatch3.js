@@ -184,7 +184,7 @@ export const MARYLAND_BATCH3_PAGES = {
     vehicles: [
       "Business Sedan — Mercedes E-Class",
       "Premium SUV — Cadillac Escalade",
-      "Sprinter Limo — Mercedes Sprinter Limo"
+      "Sprinter Executive — Mercedes Sprinter"
     ],
     areas: [
       {
@@ -325,13 +325,13 @@ export const MARYLAND_BATCH3_PAGES = {
       "Westminster is the seat of Carroll County and a long way from any interstate, which is part of its appeal and the main reason an airport trip needs planning. 92 Limo Service provides pre-arranged chauffeured transportation in Westminster and the surrounding towns, with sedans, SUVs and Sprinter vans dispatched around the clock. We are the trade name of 92 Transportation LLC, Maryland PSC Carrier #6325, based in Laurel.",
       "Getting to BWI from Westminster means MD-140 southeast through Finksburg to I-795, then the Baltimore Beltway to I-97. It is a real haul — generally 60 to 80 minutes depending on traffic — and the traffic signals on MD-140 through Westminster and Reisterstown make the first leg slower than the map suggests. For a morning flight, a reserved car that arrives at your door on schedule is worth far more than hoping an on-demand ride is available in Carroll County before sunrise. We also run MD-97 south toward I-70 for trips to Dulles, Reagan National and Washington.",
       "Carroll County is farm and vineyard country, and we drive plenty of relaxed days as well as urgent ones. Groups book a Sprinter for an afternoon among the county's wineries and farm breweries, for the Maryland Wine Festival at the Carroll County Farm Museum, or for a trip up MD-97 to Gettysburg. With an hourly chauffeur, nobody in the party has to be the driver on unlit two-lane roads.",
-      "Weddings here often take place on working farms and restored barns outside New Windsor, Union Bridge, Taneytown and Hampstead. Those venues rarely have room for every guest to park, and the nearest hotels are back in Westminster. We shuttle guests between the hotels and the venue, carry the wedding party in a Sprinter limo, and return for the late departure at the end of the reception.",
+      "Weddings here often take place on working farms and restored barns outside New Windsor, Union Bridge, Taneytown and Hampstead. Those venues rarely have room for every guest to park, and the nearest hotels are back in Westminster. We shuttle guests between the hotels and the venue, carry the wedding party in a Sprinter Executive, and return for the late departure at the end of the reception.",
       "McDaniel College brings its own traffic: families arriving for commencement and homecoming, visiting lecturers and prospective students flying into BWI. Carroll Hospital and the businesses along MD-140 and near the Carroll County Regional Airport add corporate and medical travelers. Whatever the trip, the quote is confirmed before you ride; it covers the base transportation charge, and gratuity, tolls, parking and other applicable charges are disclosed before you confirm."
     ],
     highlights: [
       { title: "Reliable Long-Haul Airport Rides", desc: "BWI is generally 60 to 80 minutes from Westminster depending on traffic, so a scheduled chauffeur matters, especially before dawn." },
       { title: "Winery and Farm Tours", desc: "Hourly Sprinter and SUV service for Carroll County wineries, farm breweries and festival days, with a chauffeur handling the back roads." },
-      { title: "Barn and Farm Weddings", desc: "Guest shuttles from Westminster hotels to rural venues, plus a Sprinter limo for the wedding party and a late return run." },
+      { title: "Barn and Farm Weddings", desc: "Guest shuttles from Westminster hotels to rural venues, plus a Sprinter Executive for the wedding party and a late return run." },
       { title: "Flight Tracking", desc: "Real-time tracking on every airport pickup, with 45 minutes of complimentary waiting on domestic arrivals and 60 on international, from touchdown." },
       { title: "Beyond Maryland", desc: "Long-distance transfers to Gettysburg, Washington, Northern Virginia and Philadelphia International, quoted and confirmed ahead of time." },
       { title: "Licensed and Insured", desc: "Maryland PSC Carrier #6325, with licensed, background-checked chauffeurs and commercially insured vehicles." }
@@ -402,7 +402,7 @@ export const MARYLAND_BATCH3_PAGES = {
     intro: [
       "Havre de Grace sits at the top of the Chesapeake Bay, a waterfront town of Victorian houses, marinas and a boardwalk Promenade that ends at Concord Point Lighthouse. 92 Limo Service brings chauffeured sedans, SUVs and Sprinter vans to Havre de Grace for airport travel, weddings, golf outings and corporate trips. We are based in Laurel, hold Maryland PSC Carrier #6325, and keep dispatch open 24 hours a day.",
       "Travelers here have a real choice of airports. BWI Marshall is south on I-95, through or around Baltimore, and generally 55 to 75 minutes away depending on traffic. Philadelphia International is north on I-95 across the Susquehanna and through Delaware, generally 60 to 85 minutes depending on traffic. We serve both, along with Martin State Airport for private aviation. Either direction involves toll facilities, and tolls are among the charges we disclose before you confirm. Flights are tracked in real time, with 45 minutes of complimentary waiting on domestic arrivals and 60 on international.",
-      "The town is a popular place to get married. Ceremonies take place at waterfront inns, at Bulle Rock and in the park beside the lighthouse, and guests often stay across several small inns and the hotels out near I-95 and in Aberdeen. We run shuttles between them so that nobody drives back along US-40 or MD-155 after the reception, and we provide a Sprinter limo or first class sedan for the couple.",
+      "The town is a popular place to get married. Ceremonies take place at waterfront inns, at Bulle Rock and in the park beside the lighthouse, and guests often stay across several small inns and the hotels out near I-95 and in Aberdeen. We run shuttles between them so that nobody drives back along US-40 or MD-155 after the reception, and we provide a Sprinter Executive or first class sedan for the couple.",
       "Bulle Rock draws golfers from Baltimore, Wilmington and Philadelphia. A Sprinter with room for clubs lets a foursome or a corporate outing travel together, and the chauffeur is waiting when the round and the dinner are finished. We also carry visitors to the Decoy Museum, the Maritime Museum and Susquehanna State Park, and across the Hatem Bridge to Perryville.",
       "For business travelers, Havre de Grace is minutes from Aberdeen Proving Ground and the Amtrak and MARC station in Aberdeen. We move contractors and visiting staff between the base gates, the hotels and the airports on a schedule that is set and quoted in advance. The quoted rate covers the base transportation charge; gratuity, tolls, parking and any other applicable charges are disclosed before confirmation."
     ],
@@ -417,7 +417,7 @@ export const MARYLAND_BATCH3_PAGES = {
     vehicles: [
       "First Class Sedan — BMW 7 Series",
       "Luxury SUV — Chevrolet Suburban",
-      "Sprinter Limo — Mercedes Sprinter Limo"
+      "Sprinter Executive — Mercedes Sprinter"
     ],
     areas: [
       {
@@ -714,21 +714,21 @@ export const MARYLAND_BATCH3_PAGES = {
       "White Marsh is the commercial center of northeast Baltimore County, built around the I-95 interchange with White Marsh Boulevard, MD-43. Perry Hall lies to the north along Belair Road and Nottingham fills the space between. 92 Limo Service covers the whole area with chauffeured sedans, SUVs and Sprinter vans, 24 hours a day. We are the trade name of 92 Transportation LLC, based in Laurel, Maryland PSC Carrier #6325.",
       "BWI Marshall is a direct run down I-95. The chauffeur chooses between the Fort McHenry Tunnel and the Harbor Tunnel Thruway depending on conditions and continues to I-195, a trip that typically takes 30 to 50 minutes depending on traffic. Both tunnels are tolled, and tolls are disclosed before you confirm. For private and charter flights, Martin State Airport in Middle River is very close: MD-43 now extends east to Eastern Boulevard, a few minutes from the terminal. Martin State is one of the airports we serve, along with Philadelphia International for travelers heading north.",
       "The hotels near The Avenue at White Marsh and White Marsh Mall host a steady flow of business travelers, youth sports teams and wedding blocks. We carry corporate guests to offices along MD-43 and Philadelphia Road, to meetings in downtown Baltimore and Harbor East, and to MedStar Franklin Square Medical Center. Teams and families use our Sprinter vans to move together between hotel, venue and dinner.",
-      "Perry Hall and Nottingham are residential, and residents call us for the milestones: a Sprinter limo for prom, a first class sedan for an anniversary dinner, a Suburban to take a family and its luggage to the cruise terminal in Baltimore, or a shuttle for wedding guests to a venue in Kingsville or along the Gunpowder. We also drive fans to Ravens and Orioles games, which removes stadium parking and the I-95 return from the evening.",
+      "Perry Hall and Nottingham are residential, and residents call us for the milestones: a Sprinter Executive for prom, a first class sedan for an anniversary dinner, a Suburban to take a family and its luggage to the cruise terminal in Baltimore, or a shuttle for wedding guests to a venue in Kingsville or along the Gunpowder. We also drive fans to Ravens and Orioles games, which removes stadium parking and the I-95 return from the evening.",
       "Our terms are simple. The quote is confirmed before you ride and covers the base transportation charge, with gratuity, tolls, parking and other applicable charges disclosed before confirmation. Sedans and SUVs can be cancelled without charge up to 3 hours before pickup, and Sprinter vans, limousines and special events up to 12 hours before."
     ],
     highlights: [
       { title: "Direct I-95 Run to BWI", desc: "Typically 30 to 50 minutes depending on traffic, with the chauffeur choosing the Fort McHenry or Harbor Tunnel route according to conditions." },
       { title: "Martin State Airport", desc: "Pickups and drop-offs for private and charter flights in Middle River, a few minutes from White Marsh by MD-43." },
       { title: "Hotel and Corporate Service", desc: "Transfers for business travelers staying near The Avenue, and group moves for teams and wedding blocks in Sprinter vans." },
-      { title: "Prom, Weddings and Milestones", desc: "Sprinter limos and first class sedans for the celebrations that Perry Hall and Nottingham families plan well in advance." },
+      { title: "Prom, Weddings and Milestones", desc: "Sprinter Executives and first class sedans for the celebrations that Perry Hall and Nottingham families plan well in advance." },
       { title: "Flight Tracking", desc: "Every airport pickup is tracked in real time, with 45 minutes of complimentary waiting on domestic arrivals and 60 on international." },
       { title: "Licensed and Insured", desc: "Maryland PSC Carrier #6325, with licensed, background-checked chauffeurs and commercially insured vehicles." }
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
       "Luxury SUV — Chevrolet Suburban",
-      "Sprinter Limo — Mercedes Sprinter Limo"
+      "Sprinter Executive — Mercedes Sprinter"
     ],
     areas: [
       {
@@ -771,7 +771,7 @@ export const MARYLAND_BATCH3_PAGES = {
     faqs: [
       { q: "How long does it take to reach BWI from White Marsh?", a: "Typically 30 to 50 minutes depending on traffic, down I-95 and through either the Fort McHenry Tunnel or the Harbor Tunnel to I-195. The chauffeur selects the tunnel route according to conditions at the time." },
       { q: "Do you pick up at Martin State Airport?", a: "Yes. Martin State in Middle River is one of the airports we serve. Give us the tail number or the scheduled arrival time and the chauffeur will be in position when the aircraft lands." },
-      { q: "Can you provide a vehicle for prom in Perry Hall or Nottingham?", a: "Yes. The Sprinter limo is the usual choice for prom groups. Prom is treated as a special event, so free cancellation is available up to 12 hours before pickup. Parents are welcome to call (877) 609-1919 with questions." },
+      { q: "Can you provide a vehicle for prom in Perry Hall or Nottingham?", a: "Yes. The Sprinter Executive is the usual choice for prom groups. Prom is treated as a special event, so free cancellation is available up to 12 hours before pickup. Parents are welcome to call (877) 609-1919 with questions." },
       { q: "Are tunnel tolls included in my quote?", a: "The quoted rate covers the base transportation charge. Tolls, gratuity, parking and any other applicable charges are disclosed before you confirm, so there are no unexplained items afterward." },
       { q: "Do you serve hotels near The Avenue at White Marsh?", a: "Yes. We pick up and drop off at all of the area hotels for airport transfers, corporate travel and wedding guest shuttles. Non-airport pickups include 15 minutes of complimentary waiting." }
     ],
@@ -799,14 +799,14 @@ export const MARYLAND_BATCH3_PAGES = {
       { title: "Entrance Drop-Off", desc: "Arrive at the resort entrance rather than circling the garage, which matters most in the last half hour before a show at The Theater." },
       { title: "Late-Night Returns", desc: "24/7 dispatch means a confirmed ride home after midnight, whether you book hourly or a scheduled return transfer." },
       { title: "No Designated Driver", desc: "Everyone in the party enjoys the evening, and everyone gets home safely with a licensed, background-checked chauffeur." },
-      { title: "Group-Friendly Vehicles", desc: "Mercedes Sprinter limos and SUVs for birthdays, bachelor and bachelorette parties and office outings." },
+      { title: "Group-Friendly Vehicles", desc: "Mercedes Sprinter Executives and SUVs for birthdays, bachelor and bachelorette parties and office outings." },
       { title: "Airport Connections", desc: "Transfers for resort guests from DCA, BWI and Dulles, with flight tracking and complimentary waiting time at the airport." },
       { title: "Confirmed Quotes", desc: "The rate is confirmed before you ride, with gratuity, tolls, parking and other applicable charges disclosed before confirmation." }
     ],
     vehicles: [
       "First Class Sedan — BMW 7 Series",
       "Premium SUV — Cadillac Escalade",
-      "Sprinter Limo — Mercedes Sprinter Limo"
+      "Sprinter Executive — Mercedes Sprinter"
     ],
     areas: [
       {
@@ -846,7 +846,7 @@ export const MARYLAND_BATCH3_PAGES = {
       { q: "Where does the chauffeur drop off and pick up at MGM National Harbor?", a: "We drop off at the resort entrance and agree on a pickup door with you before you go inside. After a show the chauffeur stages nearby and comes to that door once you call or text that you are on your way out." },
       { q: "Can I book a ride home from MGM late at night?", a: "Yes. Dispatch is open 24/7. You can schedule a return transfer for a set time, or book hourly service so the vehicle remains available until you decide to leave." },
       { q: "How is an MGM trip priced?", a: "Transfers and hourly service are both quoted and confirmed before you ride. The quoted rate covers the base transportation charge, and gratuity, tolls, parking and any other applicable charges are disclosed before you confirm. Call (877) 609-1919 for a quote." },
-      { q: "What vehicle is best for a group casino night?", a: "A Sprinter limo keeps a larger party together, and a Cadillac Escalade suits a smaller one. For bigger groups we coordinate several vehicles to arrive at the same time. Remember that casino floor access is limited to guests 21 and over." },
+      { q: "What vehicle is best for a group casino night?", a: "A Sprinter Executive keeps a larger party together, and a Cadillac Escalade suits a smaller one. For bigger groups we coordinate several vehicles to arrive at the same time. Remember that casino floor access is limited to guests 21 and over." },
       { q: "What is the cancellation policy for a show night?", a: "Sedan and SUV bookings can be cancelled free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event reservations can be cancelled free of charge up to 12 hours before pickup." }
     ],
     ctaTitle: "Book MGM National Harbor Transportation",
@@ -880,7 +880,7 @@ export const MARYLAND_BATCH3_PAGES = {
     vehicles: [
       "Business Sedan — Mercedes E-Class",
       "Premium SUV — Cadillac Escalade",
-      "Sprinter Limo — Mercedes Sprinter Limo"
+      "Sprinter Executive — Mercedes Sprinter"
     ],
     areas: [
       {
@@ -920,7 +920,7 @@ export const MARYLAND_BATCH3_PAGES = {
       { q: "How far is Live! Casino & Hotel Maryland from BWI Airport?", a: "It is very close — typically 10 to 15 minutes by car depending on traffic. We track your flight in real time and include 45 minutes of complimentary waiting on domestic arrivals and 60 on international, timed from touchdown." },
       { q: "Where will the chauffeur drop us off?", a: "At the casino or hotel entrance, whichever you prefer. We agree on the pickup door before you go inside, and the chauffeur returns there when you are ready to leave." },
       { q: "Can we book a car for a concert at The HALL at Live!?", a: "Yes. Choose hourly service if you would like the vehicle to wait through dinner and the show, or book a drop-off and a scheduled return. Either way the quote is confirmed before you ride." },
-      { q: "Do you take groups on casino trips to Live!?", a: "Yes. SUVs suit small parties and Sprinter vans or a Sprinter limo suit larger ones. Sprinter and special-event reservations can be cancelled free of charge up to 12 hours before pickup." },
+      { q: "Do you take groups on casino trips to Live!?", a: "Yes. SUVs suit small parties and Sprinter vans suit larger ones. Sprinter and special-event reservations can be cancelled free of charge up to 12 hours before pickup." },
       { q: "What does the price cover?", a: "The quoted rate covers the base transportation charge. Gratuity, tolls, parking and any other applicable charges are disclosed before you confirm. Call (877) 609-1919 or book online for a quote." }
     ],
     ctaTitle: "Book Your Ride to Live! Casino & Hotel",
@@ -947,14 +947,14 @@ export const MARYLAND_BATCH3_PAGES = {
       { title: "Planned Around Beltway Traffic", desc: "Pickup times set for the Central Avenue, Arena Drive and Landover Road approaches, based on when you want to be inside." },
       { title: "Designated Drop-Off Areas", desc: "We use the limousine and drop-off zones assigned for each event and tell you exactly where the vehicle will be afterward." },
       { title: "Nobody Drives Home", desc: "Tailgate and celebrate without a designated driver. A licensed, background-checked chauffeur handles the trip back." },
-      { title: "Sprinters for Groups", desc: "Season-ticket groups, corporate hospitality and family outings travel together in a Mercedes Sprinter or Sprinter limo." },
+      { title: "Sprinters for Groups", desc: "Season-ticket groups, corporate hospitality and family outings travel together in a Mercedes Sprinter." },
       { title: "Concerts and Soccer Too", desc: "The same service for stadium concert tours and international matches, when crowds and traffic equal those of an NFL Sunday." },
       { title: "Clear, Confirmed Pricing", desc: "Quote confirmed before you ride, with gratuity, tolls, parking and other applicable charges disclosed before confirmation." }
     ],
     vehicles: [
       "Luxury SUV — Chevrolet Suburban",
       "Sprinter Shuttle — Mercedes Sprinter",
-      "Sprinter Limo — Mercedes Sprinter Limo"
+      "Sprinter Executive — Mercedes Sprinter"
     ],
     areas: [
       {

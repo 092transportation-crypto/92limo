@@ -3,23 +3,23 @@
 // LANDING_PAGES by spreading it in landingPages.js.
 export const MARYLAND_BATCH4_PAGES = {
   "party-bus-maryland": {
-    metaTitle: "Party Bus Maryland | Sprinter Limo for Group Nights",
-    metaDescription: "Party bus style transportation in Maryland — the Mercedes Sprinter Limo for up to 13 guests, plus stretch limos. Call (877) 609-1919.",
+    metaTitle: "Party Bus Maryland | Sprinter Executive for Group Nights",
+    metaDescription: "Party bus style transportation in Maryland — the Mercedes Sprinter Executive for up to 13 guests, plus stretch limos. Call (877) 609-1919.",
     eyebrow: "GROUP CELEBRATIONS · STATEWIDE",
     h1: "Party Bus Limo Service in Maryland",
-    subtitle: "A chauffeured Mercedes Sprinter Limo for birthdays, bachelor and bachelorette nights, game days and concerts across Maryland, DC and Northern Virginia — with a traditional party bus or stretch limousine arranged on request.",
+    subtitle: "A chauffeured Mercedes Sprinter Executive for birthdays, bachelor and bachelorette nights, game days and concerts across Maryland, DC and Northern Virginia — with a traditional party bus or stretch limousine arranged on request.",
     image: "/images/site/celebration.webp",
-    alt: "Mercedes Sprinter Limo party bus style chauffeur service for Maryland celebrations — 92 Limo Service",
+    alt: "Mercedes Sprinter Executive party bus style chauffeur service for Maryland celebrations — 92 Limo Service",
     highlightsHeading: "Why Groups Choose Our Party-Style Car Service",
     intro: [
-      "When a Maryland group searches for a party bus, what they usually want is simple: everyone in one vehicle, nobody driving, and a ride that feels like part of the night. 92 Limo Service, the trade name of 92 Transportation LLC, answers that request with the Mercedes Sprinter Limo, a chauffeured limousine-style van that seats up to 13 guests. We are based in Laurel, licensed as Maryland PSC Carrier #6325, and our dispatch desk is staffed 24 hours a day.",
-      "We want to be direct about what we operate. Our own fleet does not include a full-size party bus or a stretch limousine. The Sprinter Limo is the party-style vehicle we own and drive, and for most groups it is the better choice: it fits in a hotel driveway or a downtown drop-off lane, it seats the whole party facing one another, and it carries a licensed, background-checked chauffeur who knows the venue. If your group is larger or has its heart set on a traditional party bus or stretch limousine, we can arrange one on request, subject to availability, and confirm the details with you before you book.",
-      "The Sprinter Limo earns its keep on the nights Maryland does best. Bachelorette parties ride from Federal Hill to Fells Point and Canton; birthday groups head to dinner in Harbor East or National Harbor; friends leave Columbia or Annapolis for a concert at Merriweather Post Pavilion or CFG Bank Arena; and fans roll from the suburbs to a Ravens or Orioles game with the vehicle waiting afterward. Wine tour groups use it for a day in the Frederick County and Carroll County vineyards, where a chauffeur is the difference between tasting and abstaining.",
+      "When a Maryland group searches for a party bus, what they usually want is simple: everyone in one vehicle, nobody driving, and a ride that feels like part of the night. 92 Limo Service, the trade name of 92 Transportation LLC, answers that request with the Mercedes Sprinter Executive, a chauffeured limousine-style van that seats up to 13 guests. We are based in Laurel, licensed as Maryland PSC Carrier #6325, and our dispatch desk is staffed 24 hours a day.",
+      "We want to be direct about what we operate. Our own fleet does not include a full-size party bus or a stretch limousine. The Sprinter Executive is the party-style vehicle we own and drive, and for most groups it is the better choice: it fits in a hotel driveway or a downtown drop-off lane, it seats the whole party facing one another, and it carries a licensed, background-checked chauffeur who knows the venue. If your group is larger or has its heart set on a traditional party bus or stretch limousine, we can arrange one on request, subject to availability, and confirm the details with you before you book.",
+      "The Sprinter Executive earns its keep on the nights Maryland does best. Bachelorette parties ride from Federal Hill to Fells Point and Canton; birthday groups head to dinner in Harbor East or National Harbor; friends leave Columbia or Annapolis for a concert at Merriweather Post Pavilion or CFG Bank Arena; and fans roll from the suburbs to a Ravens or Orioles game with the vehicle waiting afterward. Wine tour groups use it for a day in the Frederick County and Carroll County vineyards, where a chauffeur is the difference between tasting and abstaining.",
       "We recommend hourly chauffeur service for celebrations, because the vehicle and chauffeur stay with you between stops and you are never waiting for a return car. A point-to-point drop-off and pickup is available when the plan is fixed, such as a wedding shuttle or a single-venue event. Sprinter and special-event reservations may be cancelled without charge up to 12 hours before pickup.",
       "Every quote is confirmed before you ride. The rate covers the base transportation charge, and gratuity, tolls, parking and any other applicable charges are disclosed before you confirm. Tell us the date, the pickup point, the stops you have in mind and the size of the group, and we will match the right vehicle to the night."
     ],
     highlights: [
-      { title: "Sprinter Limo for 13", desc: "Our party-style vehicle: a chauffeured Mercedes Sprinter Limo with limousine seating for up to 13 guests, company-owned and commercially insured." },
+      { title: "Sprinter Executive for 13", desc: "Our party-style vehicle: a chauffeured Mercedes Sprinter Executive with limousine seating for up to 13 guests, company-owned and commercially insured." },
       { title: "Party Bus on Request", desc: "A traditional party bus or stretch limousine can be arranged on request, subject to availability, with details confirmed before you book." },
       { title: "Hourly Chauffeur Service", desc: "The vehicle stays with your group between bars, restaurants, wineries and venues, so nobody waits for a return car." },
       { title: "Venue Know-How", desc: "Chauffeurs who know the drop-off lanes at Camden Yards, M&T Bank Stadium, Merriweather, National Harbor and downtown Baltimore." },
@@ -27,7 +27,7 @@ export const MARYLAND_BATCH4_PAGES = {
       { title: "Licensed and Insured", desc: "Maryland PSC Carrier #6325, with licensed, background-checked chauffeurs on every celebration." }
     ],
     vehicles: [
-      "Sprinter Limo — Mercedes Sprinter Limo",
+      "Sprinter Executive — Mercedes Sprinter",
       "Sprinter Shuttle — Mercedes Sprinter",
       "Premium SUV — Cadillac Escalade"
     ],
@@ -67,34 +67,34 @@ export const MARYLAND_BATCH4_PAGES = {
       }
     ],
     faqs: [
-      { q: "Do you own a party bus in Maryland?", a: "Not in our own fleet. Our party-style vehicle is the Mercedes Sprinter Limo, which seats up to 13 guests in limousine-style seating. A traditional party bus or stretch limousine can be arranged on request, subject to availability, and we confirm the details with you before you book." },
-      { q: "How many people fit in your party limo service?", a: "The Sprinter Limo carries up to 13 passengers, and the Sprinter Shuttle carries 13 in forward-facing seats. For a larger group we can run two vehicles together or arrange a party bus on request." },
+      { q: "Do you own a party bus in Maryland?", a: "Not in our own fleet. Our party-style vehicle is the Mercedes Sprinter Executive, which seats up to 13 guests in limousine-style seating. A traditional party bus or stretch limousine can be arranged on request, subject to availability, and we confirm the details with you before you book." },
+      { q: "How many people fit in your party limo service?", a: "The Sprinter Executive carries up to 13 passengers, and the Sprinter Shuttle carries 13 in forward-facing seats. For a larger group we can run two vehicles together or arrange a party bus on request." },
       { q: "Is hourly chauffeur service better than a drop-off for a night out?", a: "For bar crawls, birthdays and wine tours, yes. The chauffeur stays with the group between stops and you leave whenever you are ready. A drop-off with a scheduled return works well for a single venue such as a concert or a game." },
       { q: "Can we bring drinks on the party car service?", a: "Rules depend on the vehicle and the nature of the trip, and we will explain them when you book so there are no surprises on the night. Whatever the plan, your chauffeur is licensed, background-checked and does not drink." },
       { q: "How do I get a party bus quote in Maryland?", a: "Call (877) 609-1919 or book online with the date, pickup address, stops and group size. Your quote is confirmed before you ride, and gratuity, tolls, parking and other applicable charges are disclosed before confirmation." }
     ],
     ctaTitle: "Book Your Maryland Party Limo",
-    ctaSubtitle: "Sprinter Limo nights out, birthdays and bachelorette parties across Maryland — reserve online or call (877) 609-1919."
+    ctaSubtitle: "Sprinter Executive nights out, birthdays and bachelorette parties across Maryland — reserve online or call (877) 609-1919."
   },
 
   "stretch-limo-maryland": {
     metaTitle: "Stretch Limo Maryland | Limousine Service on Request",
-    metaDescription: "Stretch limousine service in Maryland — Sprinter Limo from our own fleet, stretch limos arranged on request for weddings, proms. Call (877) 609-1919.",
+    metaDescription: "Stretch limousine service in Maryland — Sprinter Executive from our own fleet, stretch limos arranged on request for weddings, proms. Call (877) 609-1919.",
     eyebrow: "LIMOUSINE SERVICE · MARYLAND",
     h1: "Stretch Limo Service in Maryland",
-    subtitle: "Limousine-style chauffeur service for weddings, proms, anniversaries and celebrations — our Mercedes Sprinter Limo in the fleet, and a classic stretch limousine arranged on request when the occasion calls for it.",
+    subtitle: "Limousine-style chauffeur service for weddings, proms, anniversaries and celebrations — our Mercedes Sprinter Executive in the fleet, and a classic stretch limousine arranged on request when the occasion calls for it.",
     image: "/images/site/wedding.webp",
     alt: "Chauffeured limousine service for Maryland weddings and proms — 92 Limo Service",
     highlightsHeading: "What Our Maryland Limousine Car Service Includes",
     intro: [
       "A stretch limousine is the vehicle most people picture when they hear the word limo, and for weddings, proms and milestone anniversaries it still carries a sense of occasion nothing else matches. 92 Limo Service, the trade name of 92 Transportation LLC, provides limousine service throughout Maryland, Washington, DC and Northern Virginia from our base in Laurel. We are licensed as Maryland PSC Carrier #6325, and our chauffeurs are licensed and background-checked.",
-      "Here is the honest picture of what we drive. Our company-owned fleet includes the Mercedes Sprinter Limo, a limousine-style vehicle with wraparound seating for up to 13 guests, along with executive sedans and luxury SUVs. We do not own a traditional stretch limousine. When a client wants the classic stretch for a wedding exit, a prom or a landmark birthday, we arrange one on request, subject to availability, and confirm the vehicle and the details with you before the reservation is finalized. If the stretch is not available for your date, we tell you early rather than late.",
-      "For many Maryland occasions the Sprinter Limo is the stronger choice. It seats a full wedding party with room for gowns, it clears the porte-cochere at hotels in Baltimore and National Harbor without a three-point turn, and it handles the long driveways of Howard County and Montgomery County estates. Prom groups from Columbia, Bowie, Bel Air and Frederick ride together with a chauffeur who has done the school's drop-off routine before. Anniversary couples often prefer a BMW 7 Series or Mercedes S-Class for a quieter, more private evening.",
+      "Here is the honest picture of what we drive. Our company-owned fleet includes the Mercedes Sprinter Executive, a limousine-style vehicle with wraparound seating for up to 13 guests, along with executive sedans and luxury SUVs. We do not own a traditional stretch limousine. When a client wants the classic stretch for a wedding exit, a prom or a landmark birthday, we arrange one on request, subject to availability, and confirm the vehicle and the details with you before the reservation is finalized. If the stretch is not available for your date, we tell you early rather than late.",
+      "For many Maryland occasions the Sprinter Executive is the stronger choice. It seats a full wedding party with room for gowns, it clears the porte-cochere at hotels in Baltimore and National Harbor without a three-point turn, and it handles the long driveways of Howard County and Montgomery County estates. Prom groups from Columbia, Bowie, Bel Air and Frederick ride together with a chauffeur who has done the school's drop-off routine before. Anniversary couples often prefer a BMW 7 Series or Mercedes S-Class for a quieter, more private evening.",
       "Limousine reservations are usually booked hourly so the vehicle stays with you between ceremony, photographs and reception, or between dinner and the after-party. We coordinate timing with wedding planners and photographers, and we build in the buffer that Maryland traffic demands on a Saturday. Limousine and special-event reservations may be cancelled without charge up to 12 hours before pickup.",
-      "Quotes are confirmed before you ride. The rate covers the base transportation charge, and gratuity, tolls, parking and any other applicable charges are disclosed before you confirm. Tell us the occasion, the date and the number of guests, and we will recommend the vehicle that fits, whether that is our own Sprinter Limo or a stretch arranged for the day."
+      "Quotes are confirmed before you ride. The rate covers the base transportation charge, and gratuity, tolls, parking and any other applicable charges are disclosed before you confirm. Tell us the occasion, the date and the number of guests, and we will recommend the vehicle that fits, whether that is our own Sprinter Executive or a stretch arranged for the day."
     ],
     highlights: [
-      { title: "Sprinter Limo in Our Fleet", desc: "A company-owned Mercedes Sprinter Limo with limousine seating for up to 13 guests, driven by our own licensed chauffeurs." },
+      { title: "Sprinter Executive in Our Fleet", desc: "A company-owned Mercedes Sprinter Executive with limousine seating for up to 13 guests, driven by our own licensed chauffeurs." },
       { title: "Stretch Limousine on Request", desc: "A classic stretch limousine can be arranged for your date, subject to availability, with the vehicle confirmed before you book." },
       { title: "Wedding and Prom Timing", desc: "Hourly service that stays with the party from ceremony to reception, or from pre-prom photographs to the school's designated drop-off." },
       { title: "Sedans for Couples", desc: "BMW 7 Series and Mercedes S-Class sedans for anniversaries, proposals and quiet evenings when a stretch is more than you need." },
@@ -102,7 +102,7 @@ export const MARYLAND_BATCH4_PAGES = {
       { title: "Special-Event Cancellation", desc: "Limousine and special-event bookings may be cancelled free of charge up to 12 hours before pickup." }
     ],
     vehicles: [
-      "Sprinter Limo — Mercedes Sprinter Limo",
+      "Sprinter Executive — Mercedes Sprinter",
       "First Class Sedan — BMW 7 Series",
       "Premium SUV — Cadillac Escalade"
     ],
@@ -142,14 +142,14 @@ export const MARYLAND_BATCH4_PAGES = {
       }
     ],
     faqs: [
-      { q: "Do you have a stretch limo in your Maryland fleet?", a: "Our own fleet includes the Mercedes Sprinter Limo, executive sedans and luxury SUVs, but not a traditional stretch limousine. We arrange a stretch on request, subject to availability, and confirm the vehicle with you before the booking is finalized." },
-      { q: "What is the difference between a Sprinter Limo and a stretch limousine?", a: "Both offer limousine-style seating and a chauffeur. The Sprinter Limo is taller, seats up to 13, and fits into hotel driveways and downtown lanes more easily. A stretch is lower and longer, seats fewer guests, and carries the classic look some couples and prom groups prefer." },
+      { q: "Do you have a stretch limo in your Maryland fleet?", a: "Our own fleet includes the Mercedes Sprinter Executive, executive sedans and luxury SUVs, but not a traditional stretch limousine. We arrange a stretch on request, subject to availability, and confirm the vehicle with you before the booking is finalized." },
+      { q: "What is the difference between the Sprinter Executive and a stretch limousine?", a: "Both offer limousine-style seating and a chauffeur. The Sprinter Executive is taller, seats up to 13, and fits into hotel driveways and downtown lanes more easily. A stretch is lower and longer, seats fewer guests, and carries the classic look some couples and prom groups prefer." },
       { q: "How far ahead should I book limo service for a wedding or prom?", a: "As early as your date is set. Spring and early summer weekends fill first for proms and weddings, and a stretch arranged on request needs lead time. Booking early also gives us time to plan the route and the drop-off with your venue." },
       { q: "Is your limousine chauffeur service licensed?", a: "Yes. 92 Limo Service operates as Maryland PSC Carrier #6325. Our chauffeurs are licensed and background-checked, and company-owned vehicles are commercially insured." },
       { q: "How is a stretch limo car service quoted?", a: "Call (877) 609-1919 or book online with the date, pickup point, occasion and guest count. Your quote is confirmed before you ride, and gratuity, tolls, parking and other applicable charges are disclosed before confirmation." }
     ],
     ctaTitle: "Reserve Maryland Limousine Service",
-    ctaSubtitle: "Sprinter Limo from our fleet, or a stretch limousine arranged for your date — call (877) 609-1919 or book online."
+    ctaSubtitle: "Sprinter Executive from our fleet, or a stretch limousine arranged for your date — call (877) 609-1919 or book online."
   },
 
   "suv-limo-maryland": {
@@ -470,14 +470,14 @@ export const MARYLAND_BATCH4_PAGES = {
     highlights: [
       { title: "Every Home Venue", desc: "Ravens, Orioles, Terps, Commanders, Capitals, Wizards, Nationals and Navy, plus Preakness weekend at Pimlico." },
       { title: "Drop-Off Zones Known", desc: "Chauffeurs use the designated limousine and drop-off areas for each event and confirm the pickup point with you before you go in." },
-      { title: "Sprinters for Groups", desc: "Up to 13 fans in a Mercedes Sprinter shuttle or Sprinter Limo, with SUVs for smaller parties." },
+      { title: "Sprinters for Groups", desc: "Up to 13 fans in a Mercedes Sprinter, with SUVs for smaller parties." },
       { title: "Hourly Game Day Service", desc: "The vehicle stays with you, so you leave when the final whistle blows rather than waiting for a return car." },
       { title: "Visiting Fans Welcome", desc: "Airport transfers from BWI, DCA and Dulles with flight tracking and complimentary waiting on arrival." },
       { title: "Clear, Confirmed Pricing", desc: "Quote confirmed before you ride; gratuity, tolls, parking and other applicable charges disclosed before confirmation." }
     ],
     vehicles: [
       "Sprinter Shuttle — Mercedes Sprinter",
-      "Sprinter Limo — Mercedes Sprinter Limo",
+      "Sprinter Executive — Mercedes Sprinter",
       "Luxury SUV — Chevrolet Suburban"
     ],
     areas: [
@@ -548,13 +548,13 @@ export const MARYLAND_BATCH4_PAGES = {
     highlights: [
       { title: "Six Maryland Casinos", desc: "Live! Casino & Hotel, MGM National Harbor, Horseshoe Baltimore, Ocean Downs, Hollywood Casino Perryville and Rocky Gap, plus Delaware and West Virginia venues." },
       { title: "Nobody Drives Home", desc: "A licensed, background-checked chauffeur handles the trip back, whatever time the night ends." },
-      { title: "Sprinters for Groups", desc: "Up to 13 guests together in a Mercedes Sprinter shuttle or Sprinter Limo for birthdays, bachelor parties and company outings." },
+      { title: "Sprinters for Groups", desc: "Up to 13 guests together in a Mercedes Sprinter for birthdays, bachelor parties and company outings." },
       { title: "Hourly or Transfer", desc: "Keep the vehicle for the evening or book a drop-off and return for a hotel stay." },
       { title: "Airport Add-Ons", desc: "Visiting players can pair casino service with a BWI, DCA or Dulles transfer with flight tracking." },
       { title: "Quotes Confirmed First", desc: "Rate confirmed before you ride; gratuity, tolls, parking and other applicable charges disclosed before confirmation." }
     ],
     vehicles: [
-      "Sprinter Limo — Mercedes Sprinter Limo",
+      "Sprinter Executive — Mercedes Sprinter",
       "Premium SUV — Cadillac Escalade",
       "First Class Sedan — BMW 7 Series"
     ],
@@ -597,7 +597,7 @@ export const MARYLAND_BATCH4_PAGES = {
     faqs: [
       { q: "Which casinos does your Maryland casino limo service go to?", a: "All of Maryland's casinos: Live! Casino & Hotel in Hanover, MGM National Harbor, Horseshoe Baltimore, Hollywood Casino Perryville, Ocean Downs near Ocean City and Rocky Gap near Cumberland. We also drive to Delaware Park and Charles Town." },
       { q: "Is hourly casino car service better than a round-trip transfer?", a: "Hourly service is the flexible choice for an evening that may include dinner, the casino floor and a show, because the vehicle stays with you. A drop-off and return works well when you are staying at the hotel overnight." },
-      { q: "Can a group ride together to Live! or MGM?", a: "Yes. A Mercedes Sprinter shuttle or Sprinter Limo carries up to 13 guests, and an Escalade or Suburban carries five. For larger parties we coordinate more than one vehicle." },
+      { q: "Can a group ride together to Live! or MGM?", a: "Yes. A Mercedes Sprinter carries up to 13 guests, and an Escalade or Suburban carries five. For larger parties we coordinate more than one vehicle." },
       { q: "Where does the casino chauffeur service drop off and pick up?", a: "At the valet or designated limousine area of each casino, and the chauffeur confirms the meeting point with you before you go inside so the pickup is simple at the end of the night." },
       { q: "How do I get a casino limo quote in Maryland?", a: "Call (877) 609-1919 or book online with your pickup address, the casino and your group size. The quote is confirmed before you ride, and gratuity, tolls, parking and other applicable charges are disclosed before confirmation." }
     ],
@@ -626,7 +626,7 @@ export const MARYLAND_BATCH4_PAGES = {
       { title: "Flight Tracking Included", desc: "Real-time tracking with 45 minutes of complimentary waiting on domestic arrivals and 60 on international, plus optional meet and greet." },
       { title: "Port and Tradepoint Business", desc: "Executive sedans and Sprinter shuttles for Tradepoint Atlantic, the marine terminal and CCBC Dundalk visitors." },
       { title: "Stadium Nights Downtown", desc: "SUVs and Sprinters to M&T Bank Stadium, Camden Yards and CFG Bank Arena with no parking hunt." },
-      { title: "Weddings and Proms", desc: "Sprinter Limo and Escalade service for waterfront weddings, proms and family celebrations in Dundalk." },
+      { title: "Weddings and Proms", desc: "Sprinter Executive and Escalade service for waterfront weddings, proms and family celebrations in Dundalk." },
       { title: "Licensed and Insured", desc: "Maryland PSC Carrier #6325, licensed background-checked chauffeurs and commercially insured company-owned vehicles." }
     ],
     vehicles: [
@@ -703,14 +703,14 @@ export const MARYLAND_BATCH4_PAGES = {
       { title: "I-95 to Every Airport", desc: "BWI, Martin State and Philadelphia International served from the White Marsh interchange, with pickup times set around Beltway traffic." },
       { title: "Flight Tracking Included", desc: "We watch your arrival in real time. Domestic arrivals include 45 minutes of complimentary waiting and international arrivals 60 minutes." },
       { title: "Corporate Ready", desc: "Executive sedans and Sprinter shuttles for White Marsh, Nottingham and Harford County offices and downtown meetings." },
-      { title: "Prom and Wedding Service", desc: "Sprinter Limo and Escalade service for Perry Hall High School prom, Gunpowder-area weddings and family celebrations." },
+      { title: "Prom and Wedding Service", desc: "Sprinter Executive and Escalade service for Perry Hall High School prom, Gunpowder-area weddings and family celebrations." },
       { title: "Baltimore Nights Out", desc: "Door-to-door rides to Harbor East, Fells Point, CFG Bank Arena and the stadiums with no parking garage at either end." },
       { title: "Quotes Confirmed First", desc: "Rate confirmed before you ride; gratuity, tolls, parking and other applicable charges disclosed before confirmation." }
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
       "Luxury SUV — Chevrolet Suburban",
-      "Sprinter Limo — Mercedes Sprinter Limo"
+      "Sprinter Executive — Mercedes Sprinter"
     ],
     areas: [
       {
@@ -753,7 +753,7 @@ export const MARYLAND_BATCH4_PAGES = {
     faqs: [
       { q: "Which airport is best for Perry Hall travelers?", a: "BWI is the home airport and the most common transfer, reached by I-95 south. Martin State in Middle River is close for private flights, and Philadelphia International is a reasonable choice for some international routes. We serve all of them plus Reagan National and Dulles." },
       { q: "How is a Perry Hall car service trip priced?", a: "Every trip is quoted and confirmed before you ride. The rate covers the base transportation charge, and gratuity, tolls, parking and other applicable charges are disclosed before you confirm. Call (877) 609-1919 or book online for a quote." },
-      { q: "Do you provide prom limo service for Perry Hall High School?", a: "Yes. Our Sprinter Limo seats up to 13 and is a popular prom vehicle, with an Escalade for smaller groups. A stretch limousine can be arranged on request, subject to availability." },
+      { q: "Do you provide prom limo service for Perry Hall High School?", a: "Yes. Our Sprinter Executive seats up to 13 and is a popular prom vehicle, with an Escalade for smaller groups. A stretch limousine can be arranged on request, subject to availability." },
       { q: "Will the chauffeur wait if my flight into BWI is delayed?", a: "Yes. We track flights in real time and adjust the pickup to the actual arrival. Domestic arrivals include 45 minutes of complimentary waiting and international arrivals 60 minutes, timed from touchdown." },
       { q: "Is your Perry Hall chauffeur service available overnight?", a: "Yes. Dispatch is staffed 24 hours a day, and early-morning departures and late-night arrivals are a routine part of the schedule." }
     ],
@@ -774,7 +774,7 @@ export const MARYLAND_BATCH4_PAGES = {
       "Cockeysville stretches along York Road between Timonium and Hunt Valley, with I-83 running beside it and the Loch Raven and Oregon Ridge parklands at its edges. 92 Limo Service, the trade name of 92 Transportation LLC, provides chauffeured limo and car service across Cockeysville for airport travel, business, weddings and evenings out. We are based in Laurel, licensed as Maryland PSC Carrier #6325, and our dispatch desk answers 24 hours a day.",
       "The airport run from Cockeysville is straightforward: I-83 south to the Baltimore Beltway and on to I-97 or I-195 for BWI. The Beltway's west side and the I-83 merge slow on weekday mornings, so we set pickup times for early flights accordingly. Reagan National and Dulles are longer transfers we make regularly for travelers with nonstop or international flights. We track every flight, and arriving passengers receive 45 minutes of complimentary waiting on domestic flights and 60 minutes on international flights.",
       "Corporate travel drives the weekday schedule. Hunt Valley's business park sits just up the road, offices line York Road and Padonia Road, and companies along Warren Road and Beaver Dam Road bring in customers, auditors and new hires through BWI. We meet them at the airport, deliver them to the office or the hotel, and run Sprinter shuttles when a team needs to move together for a training week or a client dinner in Hunt Valley or downtown.",
-      "Cockeysville is close to some of Baltimore County's best-known events. The Maryland State Fairgrounds in Timonium host the State Fair and horse racing, Oregon Ridge Park hosts the Baltimore Symphony's summer concerts, and the wedding venues in the Worthington Valley and along the Gunpowder are a short drive up York Road. A chauffeured SUV or Sprinter Limo keeps the group together and makes parking someone else's problem.",
+      "Cockeysville is close to some of Baltimore County's best-known events. The Maryland State Fairgrounds in Timonium host the State Fair and horse racing, Oregon Ridge Park hosts the Baltimore Symphony's summer concerts, and the wedding venues in the Worthington Valley and along the Gunpowder are a short drive up York Road. A chauffeured SUV or Sprinter Executive keeps the group together and makes parking someone else's problem.",
       "Every quote is confirmed before you ride. The rate covers the base transportation charge, and gratuity, tolls, parking and any other applicable charges are disclosed before you confirm. Sedan and SUV reservations may be cancelled without charge up to 3 hours before pickup; Sprinter and special-event reservations up to 12 hours before."
     ],
     highlights: [
@@ -782,7 +782,7 @@ export const MARYLAND_BATCH4_PAGES = {
       { title: "Hunt Valley Business Travel", desc: "Executive sedans and Sprinter shuttles for offices on York Road, Padonia Road, Warren Road and the Hunt Valley business park." },
       { title: "Flight Tracking Included", desc: "Real-time tracking with 45 minutes of complimentary waiting on domestic arrivals and 60 on international." },
       { title: "State Fair and Oregon Ridge", desc: "Timed drop-offs and returns for the Timonium fairgrounds, Oregon Ridge concerts and valley wedding venues." },
-      { title: "Sprinters for Groups", desc: "Mercedes Sprinter shuttle and Sprinter Limo for up to 13 guests on wedding days, wine tours and nights out." },
+      { title: "Sprinters for Groups", desc: "Mercedes Sprinter shuttle and executive vans for up to 13 guests on wedding days, wine tours and nights out." },
       { title: "Licensed and Insured", desc: "Maryland PSC Carrier #6325, with licensed, background-checked chauffeurs and commercially insured vehicles." }
     ],
     vehicles: [
@@ -860,7 +860,7 @@ export const MARYLAND_BATCH4_PAGES = {
       { title: "Flight Tracking Included", desc: "Real-time tracking with 45 minutes of complimentary waiting on domestic arrivals and 60 on international." },
       { title: "Carroll County Weddings", desc: "Sprinter shuttles for guests and Escalades for the couple at farm and barn venues around Sykesville, Westminster and Mount Airy." },
       { title: "Wine Tours by the Hour", desc: "Hourly chauffeur service for Carroll and Frederick County vineyards, so tasting never depends on a designated driver." },
-      { title: "Prom and Game Nights", desc: "Sprinter Limo service for Liberty and Century High School proms, and SUVs for Ravens, Orioles and concert nights in Baltimore." },
+      { title: "Prom and Game Nights", desc: "Sprinter Executive service for Liberty and Century High School proms, and SUVs for Ravens, Orioles and concert nights in Baltimore." },
       { title: "Quotes Confirmed First", desc: "Rate confirmed before you ride; gratuity, tolls, parking and other applicable charges disclosed before confirmation." }
     ],
     vehicles: [
@@ -1014,7 +1014,7 @@ export const MARYLAND_BATCH4_PAGES = {
     highlights: [
       { title: "Three Airports Covered", desc: "Dulles and Reagan National via I-270, BWI via I-70 or the ICC, with pickup times set around the morning slowdowns." },
       { title: "Flight Tracking Included", desc: "Real-time tracking with 45 minutes of complimentary waiting on domestic arrivals and 60 on international, plus optional meet and greet." },
-      { title: "Prom and Graduation Service", desc: "Sprinter Limo and Escalade service for Damascus High School prom and graduation celebrations." },
+      { title: "Prom and Graduation Service", desc: "Sprinter Executive and Escalade service for Damascus High School prom and graduation celebrations." },
       { title: "Farm and Vineyard Weddings", desc: "Sprinter shuttles for guests and sedans for the couple at venues around Damascus, Mount Airy and Clarksburg." },
       { title: "I-270 Business Travel", desc: "Executive sedans and hourly service for Gaithersburg, Rockville, Bethesda, Tysons and downtown Washington." },
       { title: "Quotes Confirmed First", desc: "Rate confirmed before you ride; gratuity, tolls, parking and other applicable charges disclosed before confirmation." }
@@ -1022,7 +1022,7 @@ export const MARYLAND_BATCH4_PAGES = {
     vehicles: [
       "First Class Sedan — BMW 7 Series",
       "Luxury SUV — Chevrolet Suburban",
-      "Sprinter Limo — Mercedes Sprinter Limo"
+      "Sprinter Executive — Mercedes Sprinter"
     ],
     areas: [
       {
@@ -1064,7 +1064,7 @@ export const MARYLAND_BATCH4_PAGES = {
     ],
     faqs: [
       { q: "Which airport is closest to Damascus, MD?", a: "Dulles is usually the most direct, via I-270 and the Beltway, with Reagan National reached the same way into the District. BWI is served by I-70 or the Intercounty Connector. We serve all three and plan the route around the flight you choose." },
-      { q: "Do you provide prom limo service for Damascus High School?", a: "Yes. The Sprinter Limo seats up to 13 and is our most popular prom vehicle, with an Escalade for smaller groups. A stretch limousine can be arranged on request, subject to availability." },
+      { q: "Do you provide prom limo service for Damascus High School?", a: "Yes. The Sprinter Executive seats up to 13 and is our most popular prom vehicle, with an Escalade for smaller groups. A stretch limousine can be arranged on request, subject to availability." },
       { q: "Can your car service pick up early in the morning in Damascus?", a: "Yes. Dispatch is staffed 24 hours a day and pre-dawn airport pickups are routine. The pickup is confirmed the day before, and the chauffeur plans for the I-270 stretch." },
       { q: "Will the chauffeur service wait if my flight into Dulles is late?", a: "Yes. We track flights in real time and adjust the pickup to the actual arrival. Domestic arrivals include 45 minutes of complimentary waiting and international arrivals 60 minutes, timed from touchdown." },
       { q: "How do I get a Damascus limo service quote?", a: "Call (877) 609-1919 or book online with your pickup address, destination and time. The quote is confirmed before you ride, and gratuity, tolls, parking and other applicable charges are disclosed before confirmation." }
@@ -1094,7 +1094,7 @@ export const MARYLAND_BATCH4_PAGES = {
       { title: "Flight Tracking Included", desc: "Real-time tracking with 45 minutes of complimentary waiting on domestic arrivals and 60 on international, plus optional meet and greet." },
       { title: "Corridor Business Travel", desc: "Executive sedans and hourly service for Germantown, Gaithersburg, Rockville, Bethesda, Tysons and downtown Washington." },
       { title: "Sprinters for Teams", desc: "Mercedes Sprinter executive and shuttle configurations for up to 13 on off-sites, company events and group trips." },
-      { title: "Weddings and Proms", desc: "Sprinter Limo and Escalade service for upper-county weddings and Clarksburg High School prom." },
+      { title: "Weddings and Proms", desc: "Sprinter Executive and Escalade service for upper-county weddings and Clarksburg High School prom." },
       { title: "Licensed and Insured", desc: "Maryland PSC Carrier #6325, licensed background-checked chauffeurs and commercially insured company-owned vehicles." }
     ],
     vehicles: [
@@ -1164,21 +1164,21 @@ export const MARYLAND_BATCH4_PAGES = {
       "Wheaton sits at the crossing of Georgia Avenue, University Boulevard and Veirs Mill Road, an inside-the-Beltway community with a Metro station, a redeveloping downtown and Brookside Gardens at its edge. 92 Limo Service, the trade name of 92 Transportation LLC, provides chauffeured limo and car service throughout Wheaton for airport transfers, business travel, weddings and evenings out. We are based in Laurel, licensed as Maryland PSC Carrier #6325, with 24/7 dispatch.",
       "Wheaton is well placed for all three regional airports. Reagan National is reached down Georgia Avenue or 16th Street and across the District, or by the Beltway and the George Washington Parkway. Dulles follows the Beltway west and the Dulles Access Road. BWI is served by the Beltway to I-95 or by the Intercounty Connector from Georgia Avenue. The Beltway near Georgia Avenue and Connecticut Avenue is the variable, so we set pickup times with it in mind. We track every flight, and arriving passengers receive 45 minutes of complimentary waiting on domestic flights and 60 minutes on international flights.",
       "Business travel from Wheaton follows Georgia Avenue south to Silver Spring and downtown Washington, and the Beltway to Bethesda, NIH and Tysons. We provide executive sedans for airport transfers and client meetings, hourly chauffeur service for days that move between several offices, and Sprinter shuttles for teams heading to a conference at the Washington Convention Center or an off-site meeting.",
-      "Wheaton's neighborhoods are diverse and family-centered, and much of our work is personal: weddings at Brookside Gardens and at venues in Kensington and Silver Spring, quinceaneras and milestone birthdays, prom night at Wheaton and Albert Einstein High Schools, and relatives arriving through Dulles or BWI for a celebration. A Sprinter Limo keeps a large family together, and an Escalade suits a smaller party. Car seats are available on request.",
+      "Wheaton's neighborhoods are diverse and family-centered, and much of our work is personal: weddings at Brookside Gardens and at venues in Kensington and Silver Spring, quinceaneras and milestone birthdays, prom night at Wheaton and Albert Einstein High Schools, and relatives arriving through Dulles or BWI for a celebration. A Sprinter Executive keeps a large family together, and an Escalade suits a smaller party. Car seats are available on request.",
       "Every quote is confirmed before you ride. The rate covers the base transportation charge, and gratuity, tolls, parking and any other applicable charges are disclosed before you confirm. Sedan and SUV reservations may be cancelled without charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before."
     ],
     highlights: [
       { title: "Three Airports Close", desc: "Reagan National, Dulles and BWI all within reach by Georgia Avenue, the Beltway or the ICC, with pickup times set for Beltway traffic." },
       { title: "Flight Tracking Included", desc: "Real-time tracking with 45 minutes of complimentary waiting on domestic arrivals and 60 on international, plus optional meet and greet." },
       { title: "Georgia Avenue Business Travel", desc: "Executive sedans and hourly service for Silver Spring, downtown Washington, Bethesda, NIH and Tysons." },
-      { title: "Family Celebrations", desc: "Sprinter Limo and Escalade service for weddings, quinceaneras, proms and milestone birthdays across Wheaton." },
+      { title: "Family Celebrations", desc: "Sprinter Executive and Escalade service for weddings, quinceaneras, proms and milestone birthdays across Wheaton." },
       { title: "Evenings in the District", desc: "Door-to-door rides to Capital One Arena, the Kennedy Center, the Wharf and Georgetown with no parking to find." },
       { title: "Quotes Confirmed First", desc: "Rate confirmed before you ride; gratuity, tolls, parking and other applicable charges disclosed before confirmation." }
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
       "Premium SUV — Cadillac Escalade",
-      "Sprinter Limo — Mercedes Sprinter Limo"
+      "Sprinter Executive — Mercedes Sprinter"
     ],
     areas: [
       {
@@ -1221,7 +1221,7 @@ export const MARYLAND_BATCH4_PAGES = {
     faqs: [
       { q: "Which airport is easiest from Wheaton?", a: "All three are practical. Reagan National is reached through the District or by the Beltway and GW Parkway, Dulles by the Beltway west, and BWI by I-95 or the Intercounty Connector. We serve each and plan the pickup around your flight." },
       { q: "Do you provide car service from Wheaton to downtown Washington?", a: "Yes. Sedans, SUVs and Sprinters run down Georgia Avenue or 16th Street to downtown offices, hotels, the Convention Center and the Kennedy Center, with hourly service available for the evening." },
-      { q: "Can your limo service handle a large family celebration in Wheaton?", a: "Yes. The Sprinter Limo seats up to 13, the Sprinter Shuttle carries 13, and an Escalade or Suburban carries five. We can coordinate more than one vehicle for a wedding or quinceanera." },
+      { q: "Can your limo service handle a large family celebration in Wheaton?", a: "Yes. The Sprinter Executive seats up to 13, the Sprinter Shuttle carries 13, and an Escalade or Suburban carries five. We can coordinate more than one vehicle for a wedding or quinceanera." },
       { q: "Will the chauffeur service wait if my flight is late?", a: "Yes. We track flights in real time and adjust the pickup to the actual arrival. Domestic arrivals include 45 minutes of complimentary waiting and international arrivals 60 minutes, timed from touchdown." },
       { q: "How do I get a Wheaton car service quote?", a: "Call (877) 609-1919 or book online with your pickup address, destination and time. The quote is confirmed before you ride, and gratuity, tolls, parking and other applicable charges are disclosed before confirmation." }
     ],
@@ -1250,7 +1250,7 @@ export const MARYLAND_BATCH4_PAGES = {
       { title: "Flight Tracking Included", desc: "Real-time tracking with 45 minutes of complimentary waiting on domestic arrivals and 60 on international, plus optional meet and greet." },
       { title: "Neighborhood Know-How", desc: "Chauffeurs who know Takoma Park's narrow streets, one-way blocks and the District line, and who arrive quietly for early pickups." },
       { title: "Downtown Business Travel", desc: "Executive sedans and hourly service for the Hill, K Street, Silver Spring and Bethesda." },
-      { title: "Weddings and Festivals", desc: "Sprinter Limo and Escalade service for weddings, festival weekends and family celebrations across Takoma Park." },
+      { title: "Weddings and Festivals", desc: "Sprinter Executive and Escalade service for weddings, festival weekends and family celebrations across Takoma Park." },
       { title: "Licensed and Insured", desc: "Maryland PSC Carrier #6325, licensed background-checked chauffeurs and commercially insured company-owned vehicles." }
     ],
     vehicles: [
@@ -1328,13 +1328,13 @@ export const MARYLAND_BATCH4_PAGES = {
       { title: "Flight Tracking Included", desc: "Real-time tracking with 45 minutes of complimentary waiting on domestic arrivals and 60 on international, plus optional meet and greet." },
       { title: "National Harbor Evenings", desc: "Door-to-door rides to MGM National Harbor, the Gaylord and the waterfront restaurants with no garage to navigate." },
       { title: "Joint Base Andrews Travel", desc: "Sedans and SUVs for service members, contractors and visiting families between the base, hotels and the airports." },
-      { title: "Weddings and Proms", desc: "Sprinter Limo and Escalade service for waterfront weddings, Friendly and Oxon Hill High School proms and family reunions." },
+      { title: "Weddings and Proms", desc: "Sprinter Executive and Escalade service for waterfront weddings, Friendly and Oxon Hill High School proms and family reunions." },
       { title: "Quotes Confirmed First", desc: "Rate confirmed before you ride; gratuity, tolls, parking and other applicable charges disclosed before confirmation." }
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
       "Premium SUV — Cadillac Escalade",
-      "Sprinter Limo — Mercedes Sprinter Limo"
+      "Sprinter Executive — Mercedes Sprinter"
     ],
     areas: [
       {
@@ -1405,7 +1405,7 @@ export const MARYLAND_BATCH4_PAGES = {
       { title: "Reagan National Close", desc: "Short runs by the Suitland Parkway and I-295 or across the Wilson Bridge, with BWI and Dulles served just as readily." },
       { title: "Flight Tracking Included", desc: "Real-time tracking with 45 minutes of complimentary waiting on domestic arrivals and 60 on international, plus optional meet and greet." },
       { title: "Joint Base Andrews Travel", desc: "Sedans, SUVs and Sprinters for service members, contractors and visiting families between the base, hotels and the airports at any hour." },
-      { title: "Weddings and Proms", desc: "Sprinter Limo and Escalade service for Branch Avenue weddings, Surrattsville and Gwynn Park proms and family reunions." },
+      { title: "Weddings and Proms", desc: "Sprinter Executive and Escalade service for Branch Avenue weddings, Surrattsville and Gwynn Park proms and family reunions." },
       { title: "National Harbor and DC Nights", desc: "Door-to-door rides to MGM National Harbor, the Wharf and Capital One Arena with no parking garage to find." },
       { title: "Licensed and Insured", desc: "Maryland PSC Carrier #6325, licensed background-checked chauffeurs and commercially insured company-owned vehicles." }
     ],
@@ -1455,7 +1455,7 @@ export const MARYLAND_BATCH4_PAGES = {
     faqs: [
       { q: "Do you provide car service to and from Joint Base Andrews?", a: "Yes. We carry service members, civilian employees, contractors and visiting families between the base, area hotels and the airports at any hour. Passengers handle their own gate access, and the chauffeur meets at the agreed point." },
       { q: "Which airport is closest to Clinton, MD?", a: "Reagan National is the closest, reached by the Suitland Parkway and I-295 or across the Wilson Bridge. BWI is a straightforward run up the Beltway and I-95 or the BW Parkway, and Dulles is served by the Beltway around Virginia." },
-      { q: "Can your limo service handle prom night for Surrattsville or Gwynn Park?", a: "Yes. The Sprinter Limo seats up to 13 and is a popular prom vehicle, with an Escalade for smaller groups. A stretch limousine can be arranged on request, subject to availability." },
+      { q: "Can your limo service handle prom night for Surrattsville or Gwynn Park?", a: "Yes. The Sprinter Executive seats up to 13 and is a popular prom vehicle, with an Escalade for smaller groups. A stretch limousine can be arranged on request, subject to availability." },
       { q: "Is early-morning chauffeur service available in Clinton?", a: "Yes. Dispatch is staffed 24 hours a day, and pre-dawn pickups for flights and base travel are routine. The pickup is confirmed the day before." },
       { q: "How do I get a Clinton car service quote?", a: "Call (877) 609-1919 or book online with your pickup address, destination and time. The quote is confirmed before you ride, and gratuity, tolls, parking and other applicable charges are disclosed before confirmation." }
     ],
@@ -1484,7 +1484,7 @@ export const MARYLAND_BATCH4_PAGES = {
       { title: "Flight Tracking Included", desc: "Real-time tracking with 45 minutes of complimentary waiting on domestic arrivals and 60 on international, plus optional meet and greet." },
       { title: "Pax River Business Travel", desc: "Sedans, SUVs and Sprinter shuttles for contractors and program teams between the airports, the base gates, hotels and technology parks." },
       { title: "Solomons and St. Mary's Weddings", desc: "Sprinter shuttles for guests and Escalades for the couple at waterfront venues across the Thomas Johnson Bridge and along the Patuxent." },
-      { title: "Proms and College Events", desc: "Sprinter Limo service for Great Mills and Leonardtown proms, and sedans for St. Mary's College visitors." },
+      { title: "Proms and College Events", desc: "Sprinter Executive service for Great Mills and Leonardtown proms, and sedans for St. Mary's College visitors." },
       { title: "Quotes Confirmed First", desc: "Rate confirmed before you ride; gratuity, tolls, parking and other applicable charges disclosed before confirmation." }
     ],
     vehicles: [
@@ -1561,14 +1561,14 @@ export const MARYLAND_BATCH4_PAGES = {
       { title: "Approaches Planned", desc: "South Capitol Street, the Douglass Bridge, I-295 and the 14th Street Bridge, with pickup times set around game-night street management." },
       { title: "Designated Drop-Off Areas", desc: "We use the ballpark's drop-off zones for each event and confirm the exact meeting point with you before you head inside." },
       { title: "Nobody Drives Home", desc: "A licensed, background-checked chauffeur handles the trip back, whatever inning the night ends in." },
-      { title: "Sprinters for Groups", desc: "Season-ticket groups, corporate suites and birthday parties ride together in a Mercedes Sprinter or Sprinter Limo for up to 13." },
+      { title: "Sprinters for Groups", desc: "Season-ticket groups, corporate suites and birthday parties ride together in a Mercedes Sprinter for up to 13." },
       { title: "Concerts and Audi Field Too", desc: "The same service for stadium concert tours at Nationals Park and D.C. United matches across the street." },
       { title: "Clear, Confirmed Pricing", desc: "Quote confirmed before you ride; gratuity, tolls, parking and other applicable charges disclosed before confirmation." }
     ],
     vehicles: [
       "Luxury SUV — Chevrolet Suburban",
       "Sprinter Shuttle — Mercedes Sprinter",
-      "Sprinter Limo — Mercedes Sprinter Limo"
+      "Sprinter Executive — Mercedes Sprinter"
     ],
     areas: [
       {
@@ -1775,7 +1775,7 @@ export const MARYLAND_BATCH4_PAGES = {
     intro: [
       "The Anthem anchors the Wharf on Washington's Southwest Waterfront, a purpose-built concert hall that draws touring acts of every kind and fills the surrounding piers, restaurants and hotels on show nights. 92 Limo Service, the trade name of 92 Transportation LLC, provides chauffeured transportation to The Anthem from across Maryland, Washington and Northern Virginia. We are based in Laurel and licensed as Maryland PSC Carrier #6325.",
       "The Wharf is a great place to be and a difficult place to park. Maine Avenue carries most traffic in, with I-395 and the 14th Street Bridge feeding it from Virginia and I-295 and South Capitol Street from Maryland. The garages fill early on show nights and empty slowly, and Wharf Street itself closes to vehicles during events. Our chauffeurs use the designated drop-off area near the venue, confirm the pickup point with you, and have the vehicle positioned so you leave as soon as you reach it.",
-      "Most clients make an evening of the Wharf: dinner at a restaurant on the piers, the show, and a drink afterward, then a chauffeured ride home to Bethesda, Columbia or Alexandria. Hourly chauffeur service is the easy way to do it, because the same vehicle and chauffeur stay with you throughout. Groups celebrating a birthday or a bachelorette ride together in a Mercedes Sprinter or Sprinter Limo for up to 13, and couples choose an Escalade or a sedan.",
+      "Most clients make an evening of the Wharf: dinner at a restaurant on the piers, the show, and a drink afterward, then a chauffeured ride home to Bethesda, Columbia or Alexandria. Hourly chauffeur service is the easy way to do it, because the same vehicle and chauffeur stay with you throughout. Groups celebrating a birthday or a bachelorette ride together in a Mercedes Sprinter for up to 13, and couples choose an Escalade or a sedan.",
       "The Anthem sits within a short drive of Nationals Park and Audi Field, and on nights when events overlap the streets around South Capitol and Maine Avenue are managed for crowds. A chauffeur who works the District regularly knows how to approach and where to wait. Visiting fans flying in for a show can pair it with a transfer from Reagan National, minutes away across the 14th Street Bridge, or from BWI and Dulles, all with flight tracking and complimentary waiting on arrival.",
       "Every quote is confirmed before you ride. The rate covers the base transportation charge, and gratuity, tolls, parking and any other applicable charges are disclosed before you confirm. Sedan and SUV reservations may be cancelled without charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before."
     ],
@@ -1783,14 +1783,14 @@ export const MARYLAND_BATCH4_PAGES = {
       { title: "Drop-Off at the Wharf", desc: "We use the designated drop-off area near The Anthem and confirm the pickup point with you before you go in." },
       { title: "No Garage Queue", desc: "The vehicle is positioned for a quick exit after the encore, so you skip the slow crawl out of the Wharf garages." },
       { title: "Dinner, Show, Home", desc: "Hourly chauffeur service keeps one vehicle with you for the piers, the concert and the ride back to Maryland or Virginia." },
-      { title: "Sprinters for Groups", desc: "Birthday, bachelorette and company groups ride together in a Mercedes Sprinter or Sprinter Limo for up to 13." },
+      { title: "Sprinters for Groups", desc: "Birthday, bachelorette and company groups ride together in a Mercedes Sprinter for up to 13." },
       { title: "Overlap Nights Planned", desc: "Chauffeurs who plan for Nationals Park and Audi Field crowds on the same evening." },
       { title: "Clear, Confirmed Pricing", desc: "Quote confirmed before you ride; gratuity, tolls, parking and other applicable charges disclosed before confirmation." }
     ],
     vehicles: [
       "Premium SUV — Cadillac Escalade",
       "Sprinter Shuttle — Mercedes Sprinter",
-      "Sprinter Limo — Mercedes Sprinter Limo"
+      "Sprinter Executive — Mercedes Sprinter"
     ],
     areas: [
       {
@@ -1829,7 +1829,7 @@ export const MARYLAND_BATCH4_PAGES = {
     faqs: [
       { q: "Where does your car service drop off for The Anthem?", a: "At the designated drop-off area near the venue on the Wharf. Wharf Street closes to vehicles during events, so the chauffeur confirms the exact pickup point with you before you go in." },
       { q: "Is hourly limo service better for a concert at The Anthem?", a: "Usually, yes. The same vehicle and chauffeur stay with you for dinner on the piers, the show and the ride home, and you leave as soon as you reach the car. A drop-off with a scheduled return is also available." },
-      { q: "Can your chauffeur service take a birthday group to The Anthem?", a: "Yes. A Mercedes Sprinter or Sprinter Limo carries up to 13, and an Escalade or Suburban carries five. For larger groups we coordinate more than one vehicle to arrive together." },
+      { q: "Can your chauffeur service take a birthday group to The Anthem?", a: "Yes. A Mercedes Sprinter carries up to 13, and an Escalade or Suburban carries five. For larger groups we coordinate more than one vehicle to arrive together." },
       { q: "How early should we leave for a show at the Wharf?", a: "Earlier than you expect on weeknights, when commuters and concertgoers share I-395, the 14th Street Bridge and Maine Avenue. Tell us whether you want dinner first or just the show, and we will recommend a pickup time." },
       { q: "How do I get a quote for The Anthem transportation?", a: "Call (877) 609-1919 or book online with your pickup address, the show time and your group size. The quote is confirmed before you ride, and gratuity, tolls, parking and other applicable charges are disclosed before confirmation." }
     ],

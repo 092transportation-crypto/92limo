@@ -18,7 +18,7 @@ This is intentionally the broad, foundational guide — if you already know exac
 
 The word "limo" originally meant one specific thing — a stretched luxury sedan — but the industry term has broadened considerably. Today, "limo service" and "limousine service" are used interchangeably to describe professional, chauffeured ground transportation generally: sedans, SUVs, and passenger vans included, not just stretch vehicles. When most people search either phrase, they're looking for a professional car service, not specifically a stretch limousine.
 
-This matters because it changes what you should expect a quote to include. A company quoting "limo service" in Maryland today is typically offering a fleet spanning business sedans through Sprinter vans, with an actual stretch limousine or Sprinter Limo as one option among several, not the default. Knowing this upfront saves a confusing first phone call.
+This matters because it changes what you should expect a quote to include. A company quoting "limo service" in Maryland today is typically offering a fleet spanning business sedans through Sprinter vans, with an actual stretch limousine or Sprinter Executive as one option among several, not the default. Knowing this upfront saves a confusing first phone call.
 
 It's worth noting the actual classic stretch limousine still exists and still gets booked — proms, milestone anniversaries, some weddings — but it's a specific vehicle choice within a broader category now, not a synonym for the category itself.
 
@@ -30,7 +30,7 @@ Midsize and Luxury SUVs (Lincoln Nautilus, Chevrolet Suburban) add capacity for 
 
 The Premium SUV tier (Cadillac Escalade) adds presence for occasions where the vehicle itself is part of the impression — VIP arrivals, milestone celebrations, executive client pickups.
 
-Sprinter Vans and Sprinter Limos cover larger groups — 8 to 14+ passengers — in one vehicle, which matters for weddings, corporate outings, and any trip where splitting the group across multiple cars would complicate logistics.
+Sprinter Vans cover larger groups — 8 to 14+ passengers — in one vehicle, which matters for weddings, corporate outings, and any trip where splitting the group across multiple cars would complicate logistics.
 
 ## How Pricing Actually Works
 

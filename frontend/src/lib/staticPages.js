@@ -17,7 +17,7 @@ export const BOOKING_CONTENT = {
       heading: "What You Can Reserve Here",
       paragraphs: [
         "This one form books every service 92 Limo Service offers: airport transfers to and from BWI Marshall, Reagan National (DCA), Dulles (IAD), Philadelphia (PHL) and Martin State Airport; corporate and executive travel; hourly as-directed chauffeur service; weddings, proms, birthdays and wine tours; and long-distance private car service to Philadelphia, New York City, the Delaware beaches and anywhere along the I-95 corridor.",
-        "Choose the vehicle class that fits your party — Business Sedan, First Class Sedan, Midsize, Luxury or Premium SUV, Mercedes Sprinter van or Sprinter Limo. Reservations are made by vehicle class, and if you are unsure what you need, tell us the passenger and luggage count in the notes and we will recommend the right vehicle.",
+        "Choose the vehicle class that fits your party — Business Sedan, First Class Sedan, Midsize, Luxury or Premium SUV, or Mercedes Sprinter van. Reservations are made by vehicle class, and if you are unsure what you need, tell us the passenger and luggage count in the notes and we will recommend the right vehicle.",
       ],
     },
     {

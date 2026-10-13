@@ -837,15 +837,15 @@ export const GUIDES = [
           "Lincoln Nautilus (Midsize SUV) — up to 4 passengers without luggage, a practical step up for a couple who wants SUV proportions without moving to a full-size vehicle.",
           "Chevrolet Suburban (Luxury SUV) — up to 6 passengers without luggage, roomy enough for the couple plus parents or the wedding party's closest members.",
           "Cadillac Escalade (Premium SUV) — up to 6 passengers without luggage, the fleet's most commanding SUV silhouette for a couple who wants an SUV entrance with maximum presence.",
-          "Mercedes Sprinter Shuttle or Sprinter Executive — up to 13 passengers, built for moving the bridal party or guests between hotel, ceremony and reception without splitting the group across multiple cars.",
-          "Mercedes Sprinter Limo — up to 13 passengers, described in our own fleet listing as \"the ultimate stretch limo experience,\" and the vehicle most couples picture when they hear the word limo.",
+          "Mercedes Sprinter Shuttle — up to 13 passengers, built for moving the bridal party or guests between hotel, ceremony and reception without splitting the group across multiple cars.",
+          "Mercedes Sprinter Executive — up to 13 passengers, with an upgraded lounge-style interior that turns the ride itself into part of the celebration for the couple's entrance and exit.",
         ],
         subsections: [
           {
             heading: "Stretch Limo, Party Bus, or Shuttle — What's the Real Difference?",
             paragraphs: [
-              "Couples researching wedding transportation often see \"party bus\" and \"shuttle\" used almost interchangeably, and the distinction matters for planning. A Sprinter Limo is built around a lounge-style cabin — forward and side-facing seating, ambient lighting, a setting meant for the ride itself to feel like part of the celebration. It suits the couple and wedding party for the entrance, the exit, and photos in between.",
-              "A Sprinter Shuttle or Sprinter Executive van is built around efficient, comfortable seating for a larger group — the guest shuttle moving people from a hotel block to the ceremony, or from the reception back at the end of the night. Both run on the same 13-passenger Sprinter platform; the difference is the interior and the job it is doing. Most weddings that use both book a Sprinter Limo for the couple's entrance and a Sprinter Shuttle for the guest logistics around it, which is exactly the kind of pairing worth discussing with dispatch when you book.",
+              "Couples researching wedding transportation often see \"party bus\" and \"shuttle\" used almost interchangeably, and the distinction matters for planning. The Sprinter Executive is built around a lounge-style cabin — forward and side-facing seating, ambient lighting, a setting meant for the ride itself to feel like part of the celebration. It suits the couple and wedding party for the entrance, the exit, and photos in between.",
+              "The Sprinter Shuttle is built around efficient, comfortable seating for a larger group — the guest shuttle moving people from a hotel block to the ceremony, or from the reception back at the end of the night. Both run on the same 13-passenger Sprinter platform; the difference is the interior and the job it is doing. Most weddings that use both book a Sprinter Executive for the couple's entrance and a Sprinter Shuttle for the guest logistics around it, which is exactly the kind of pairing worth discussing with dispatch when you book.",
             ],
           },
         ],
@@ -902,7 +902,7 @@ export const GUIDES = [
           "A wedding is rarely just one day of transportation. Most couples we work with book several of the following around the ceremony itself:",
         ],
         list: [
-          "Bachelor and bachelorette parties — a Sprinter Limo or Sprinter Shuttle moving the whole group between a home base and a night out in Baltimore, Annapolis, Washington or Northern Virginia, with no one driving and no one splitting off in a separate car",
+          "Bachelor and bachelorette parties — a Sprinter Executive or Sprinter Shuttle moving the whole group between a home base and a night out in Baltimore, Annapolis, Washington or Northern Virginia, with no one driving and no one splitting off in a separate car",
           "Rehearsal dinners and next-day brunch — a shorter, lower-key booking that still benefits from a confirmed pickup window rather than a scramble the night before the wedding",
           "Engagement and proposal transportation — a discreet, surprise-friendly ride to wherever the moment is happening, with the chauffeur briefed in advance",
           "Airport transfers for out-of-town wedding parties and guests flying into BWI, DCA or IAD, tracked in real time so a delayed flight does not unravel the rehearsal schedule",
@@ -974,7 +974,7 @@ export const GUIDES = [
     faqs: [
       {
         q: "How far in advance should we book wedding transportation in Maryland, DC or Virginia?",
-        a: "As soon as your venue and date are confirmed. Saturdays in May, June, September and October are our busiest wedding dates, and vehicles — especially the Sprinter Limo — can sell out months ahead. Booking early holds the fleet your day needs; you can still adjust the schedule as your timeline firms up.",
+        a: "As soon as your venue and date are confirmed. Saturdays in May, June, September and October are our busiest wedding dates, and vehicles — especially the Sprinter Executive — can sell out months ahead. Booking early holds the fleet your day needs; you can still adjust the schedule as your timeline firms up.",
       },
       {
         q: "What does the quoted rate for wedding transportation actually include?",
@@ -985,8 +985,8 @@ export const GUIDES = [
         a: "Every non-airport pickup, including wedding transportation, includes 15 minutes of complimentary waiting time. Airport pickups for out-of-town wedding guests include 45 minutes on domestic arrivals and 60 minutes on international arrivals, timed from touchdown. Additional waiting time is billed in 15-minute increments at the applicable rate and is disclosed before confirmation.",
       },
       {
-        q: "What is the difference between a Sprinter Limo and a Sprinter Shuttle for a wedding?",
-        a: "Both are 13-passenger Mercedes Sprinter vans on the same platform. The Sprinter Limo has a lounge-style cabin built for the couple's entrance and exit and photos in between. The Sprinter Shuttle and Sprinter Executive are built for efficient group seating, better suited to moving guests between the hotel, ceremony and reception. Many weddings book one of each.",
+        q: "What is the difference between the Sprinter Executive and the Sprinter Shuttle for a wedding?",
+        a: "Both are 13-passenger Mercedes Sprinter vans on the same platform. The Sprinter Executive has a lounge-style cabin built for the couple's entrance and exit and photos in between. The Sprinter Shuttle is built for efficient group seating, better suited to moving guests between the hotel, ceremony and reception. Many weddings book one of each.",
       },
       {
         q: "Can you coordinate transportation around our full wedding-day timeline, not just one pickup?",
@@ -1078,7 +1078,7 @@ export const GUIDES = [
           "Chevrolet Suburban (Luxury SUV) — up to 6 passengers without luggage, with good window visibility for every seat on a drive-through route.",
           "Cadillac Escalade (Premium SUV) — up to 6 passengers without luggage, our most commanding SUV silhouette for a special family tradition.",
           "Mercedes Sprinter Shuttle or Sprinter Executive — up to 13 passengers, built for an extended-family outing or a group of friends making a tradition of it, with enough room that no one is squeezed in for a two-to-three-hour evening.",
-          "Mercedes Sprinter Limo — up to 13 passengers, a lounge-style cabin that turns the ride itself into part of the celebration for a milestone family gathering or a corporate group.",
+          "Mercedes Sprinter Executive — up to 13 passengers, a lounge-style cabin that turns the ride itself into part of the celebration for a milestone family gathering or a corporate group.",
         ],
       },
       {
@@ -1161,7 +1161,7 @@ export const GUIDES = [
       },
       {
         q: "What vehicle works best for a family holiday lights outing?",
-        a: "A Lincoln Nautilus or Chevrolet Suburban comfortably fits a family of four to six with good window visibility. A Mercedes Sprinter Shuttle or Sprinter Limo suits a larger extended-family group or a corporate outing.",
+        a: "A Lincoln Nautilus or Chevrolet Suburban comfortably fits a family of four to six with good window visibility. A Mercedes Sprinter Shuttle or Sprinter Executive suits a larger extended-family group or a corporate outing.",
       },
       {
         q: "What does the quoted rate for a holiday lights tour include?",

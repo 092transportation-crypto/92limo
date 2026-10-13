@@ -7373,14 +7373,14 @@ export const GENERATED_LANDING_PAGES = {
     "h1": "Party Bus Baltimore",
     "subtitle": "A chauffeur-driven limo-style party van for birthdays, bachelorette parties, and nights on the town — flat-rated and available 24/7.",
     "image": IMAGES.sprinterPink,
-    "alt": "Sprinter Limo — chauffeured limo-style party van from 92 Limo Service",
-    "highlightsHeading": "Why Clients Choose the Sprinter Limo",
+    "alt": "Sprinter Executive — chauffeured limo-style party van from 92 Limo Service",
+    "highlightsHeading": "Why Clients Choose the Sprinter Executive",
     "intro": [
-      "Reserve the Sprinter Limo — a limo-style party van seating up to 12 passengers — with a professional chauffeur from 92 Limo Service. It is the right vehicle for birthdays, bachelorette parties, and nights on the town, and it arrives detailed, fueled, and stocked with water and chargers.",
+      "Reserve the Sprinter Executive — a limo-style party van seating up to 12 passengers — with a professional chauffeur from 92 Limo Service. It is the right vehicle for birthdays, bachelorette parties, and nights on the town, and it arrives detailed, fueled, and stocked with water and chargers.",
       "This is chauffeured service, not a rental counter. Your licensed, background-checked chauffeur handles the driving, the luggage, and the timing, so you use the ride to work, relax, or celebrate. Hourly hires, one-way transfers, and airport runs are all available.",
-      "The Sprinter Limo pairs beautifully with the rest of our fleet for larger plans: sedans lead the executive convoy, SUVs carry the family, and Sprinter vans move the whole group. Mixed-vehicle bookings for weddings and corporate events are quoted as one flat package.",
+      "The Sprinter Executive pairs beautifully with the rest of our fleet for larger plans: sedans lead the executive convoy, SUVs carry the family, and Sprinter vans move the whole group. Mixed-vehicle bookings for weddings and corporate events are quoted as one flat package.",
       "Availability is 24/7 across Maryland, Washington DC, and Northern Virginia. Request your quote online or call (877) 609-1919 — every booking is confirmed with one flat, transparent rate.",
-      "Corporate accounts can standardize on the Sprinter Limo for recurring client pickups and executive travel, with consolidated monthly billing and a dedicated contact for scheduling. For one-off bookings, the same flat-rate promise applies: the quote you approve is the price you pay, with no meter and no surge regardless of traffic or time of day."
+      "Corporate accounts can standardize on the Sprinter Executive for recurring client pickups and executive travel, with consolidated monthly billing and a dedicated contact for scheduling. For one-off bookings, the same flat-rate promise applies: the quote you approve is the price you pay, with no meter and no surge regardless of traffic or time of day."
     ],
     "highlights": [
       {
@@ -7415,15 +7415,15 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "faqs": [
       {
-        "q": "Is the Sprinter Limo self-drive or chauffeured?",
+        "q": "Is the Sprinter Executive self-drive or chauffeured?",
         "a": "All of our vehicles are chauffeur-driven. Your licensed, insured chauffeur handles driving, luggage, and timing on every reservation."
       },
       {
-        "q": "How many passengers fit in the Sprinter Limo?",
-        "a": "The Sprinter Limo seats up to 12 passengers comfortably, with dedicated space for luggage. For larger groups, ask about our Sprinter vans and multi-vehicle packages."
+        "q": "How many passengers fit in the Sprinter Executive?",
+        "a": "The Sprinter Executive seats up to 12 passengers comfortably, with dedicated space for luggage. For larger groups, ask about our Sprinter vans and multi-vehicle packages."
       },
       {
-        "q": "Can I book the Sprinter Limo by the hour?",
+        "q": "Can I book the Sprinter Executive by the hour?",
         "a": "Yes. Hourly charters keep the vehicle and chauffeur with you for events, meetings, tours, and nights out — quoted flat and in advance."
       },
       {
@@ -7435,7 +7435,7 @@ export const GENERATED_LANDING_PAGES = {
         "a": "We recommend booking at least 24 hours ahead, and earlier for weekends and special events. Same-day requests are welcome when vehicles are available — call (877) 609-1919 anytime."
       }
     ],
-    "ctaTitle": "Reserve the Sprinter Limo",
+    "ctaTitle": "Reserve the Sprinter Executive",
     "ctaSubtitle": "Chauffeur-driven, flat-rated, and detailed before every trip — book online or call (877) 609-1919.",
     "category": "vehicle"
   },
@@ -7447,14 +7447,14 @@ export const GENERATED_LANDING_PAGES = {
     "h1": "Stretch Limo Alternative Baltimore",
     "subtitle": "A chauffeur-driven modern stretch-limo alternative for weddings, proms, and milestone celebrations — flat-rated and available 24/7.",
     "image": IMAGES.sprinterPink,
-    "alt": "Sprinter Limo — chauffeured modern stretch-limo alternative from 92 Limo Service",
-    "highlightsHeading": "Why Clients Choose the Sprinter Limo",
+    "alt": "Sprinter Executive — chauffeured modern stretch-limo alternative from 92 Limo Service",
+    "highlightsHeading": "Why Clients Choose the Sprinter Executive",
     "intro": [
-      "Some occasions deserve a specific vehicle. The Sprinter Limo is our modern stretch-limo alternative — up to 12 passengers, chauffeur-driven, and ideal for weddings, proms, and milestone celebrations. 92 Limo Service keeps it showroom-clean and books it around the clock across the DMV.",
+      "Some occasions deserve a specific vehicle. The Sprinter Executive is our modern stretch-limo alternative — up to 12 passengers, chauffeur-driven, and ideal for weddings, proms, and milestone celebrations. 92 Limo Service keeps it showroom-clean and books it around the clock across the DMV.",
       "Every reservation includes a professional chauffeur who arrives early, loads luggage, and drives the route he has already planned around traffic. Airport pickups add real-time flight tracking and meet-and-greet service at BWI, DCA, and Dulles.",
       "Book it by the trip or by the hour. Point-to-point transfers are quoted flat; hourly charters keep the vehicle and chauffeur with you for multi-stop days, evening events, or as-directed business travel.",
-      "Compare that to a rideshare guess or a rental you have to drive yourself, and the choice is easy. Call (877) 609-1919 or reserve online — the Sprinter Limo books quickly on weekends.",
-      "The vehicle arrives pre-inspected and detailed for every trip, with water on board and a chauffeur who stays reachable by text if your plans shift. Multi-vehicle bookings that pair the Sprinter Limo with sedans or Sprinter vans for the rest of your group are quoted as one package."
+      "Compare that to a rideshare guess or a rental you have to drive yourself, and the choice is easy. Call (877) 609-1919 or reserve online — the Sprinter Executive books quickly on weekends.",
+      "The vehicle arrives pre-inspected and detailed for every trip, with water on board and a chauffeur who stays reachable by text if your plans shift. Multi-vehicle bookings that pair the Sprinter Executive with sedans or Sprinter vans for the rest of your group are quoted as one package."
     ],
     "highlights": [
       {
@@ -7489,15 +7489,15 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "faqs": [
       {
-        "q": "Is the Sprinter Limo self-drive or chauffeured?",
+        "q": "Is the Sprinter Executive self-drive or chauffeured?",
         "a": "All of our vehicles are chauffeur-driven. Your licensed, insured chauffeur handles driving, luggage, and timing on every reservation."
       },
       {
-        "q": "How many passengers fit in the Sprinter Limo?",
-        "a": "The Sprinter Limo seats up to 12 passengers comfortably, with dedicated space for luggage. For larger groups, ask about our Sprinter vans and multi-vehicle packages."
+        "q": "How many passengers fit in the Sprinter Executive?",
+        "a": "The Sprinter Executive seats up to 12 passengers comfortably, with dedicated space for luggage. For larger groups, ask about our Sprinter vans and multi-vehicle packages."
       },
       {
-        "q": "Can I book the Sprinter Limo by the hour?",
+        "q": "Can I book the Sprinter Executive by the hour?",
         "a": "Yes. Hourly charters keep the vehicle and chauffeur with you for events, meetings, tours, and nights out — quoted flat and in advance."
       },
       {
@@ -7509,7 +7509,7 @@ export const GENERATED_LANDING_PAGES = {
         "a": "We recommend booking at least 24 hours ahead, and earlier for weekends and special events. Same-day requests are welcome when vehicles are available — call (877) 609-1919 anytime."
       }
     ],
-    "ctaTitle": "Reserve the Sprinter Limo",
+    "ctaTitle": "Reserve the Sprinter Executive",
     "ctaSubtitle": "Chauffeur-driven, flat-rated, and detailed before every trip — book online or call (877) 609-1919.",
     "category": "vehicle"
   },

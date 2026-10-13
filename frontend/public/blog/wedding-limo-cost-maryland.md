@@ -16,7 +16,7 @@ This isn't a price list, because a real price list for wedding transportation wo
 
 ## The Big Four Cost Drivers
 
-Four factors set most of the price: vehicle class (a sedan costs less than a Sprinter Limo), the number of hours booked, the day and season (Saturdays in May, June, September, and October are peak demand across the entire Maryland wedding industry, not just transportation), and how many stops the day involves — a straightforward ceremony-to-reception run costs less than a multi-location photo itinerary with several stops across the day.
+Four factors set most of the price: vehicle class (a sedan costs less than a Sprinter Executive), the number of hours booked, the day and season (Saturdays in May, June, September, and October are peak demand across the entire Maryland wedding industry, not just transportation), and how many stops the day involves — a straightforward ceremony-to-reception run costs less than a multi-location photo itinerary with several stops across the day.
 
 Distance matters too, but less than people expect — most Maryland weddings happen within a fairly compact radius (a venue, a church, a reception hall all within the same county or an adjacent one), so hours and vehicle class tend to move the number more than mileage does. A wedding transportation quote is rarely dominated by how far apart the locations are.
 
@@ -26,7 +26,7 @@ Day of the week is worth calling out separately from season: a Friday or Sunday 
 
 For the couple alone, a first-class sedan (Mercedes S-Class or BMW 7 Series) or a premium SUV like the Cadillac Escalade covers the getaway car role comfortably, with enough presence for photos without the cost of a larger vehicle neither of you needs for two people.
 
-For the wedding party, a Chevrolet Suburban fits a smaller group comfortably, while the Mercedes Sprinter Van or Sprinter Limo covers larger bridal parties or the guest shuttle role in one vehicle instead of splitting across several cars and coordinating multiple pickup times on what's already the most schedule-sensitive day of the event.
+For the wedding party, a Chevrolet Suburban fits a smaller group comfortably, while the Mercedes Sprinter Van covers larger bridal parties or the guest shuttle role in one vehicle instead of splitting across several cars and coordinating multiple pickup times on what's already the most schedule-sensitive day of the event.
 
 Exact pricing depends on hours and date, which is why we quote per-wedding rather than publishing a flat menu online. Two couples asking about the same vehicle for the same rough hour count can still land on different numbers depending on the specific Saturday, since demand isn't flat across the wedding season.
 

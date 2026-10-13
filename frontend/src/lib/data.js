@@ -54,7 +54,7 @@ export const HOME_ABOUT = {
     "What sets our luxury black car service apart is consistency. Every vehicle in our fleet is a late-model sedan, SUV, or Mercedes Sprinter van, immaculately detailed before each ride and driven by a licensed, background-checked chauffeur. From the moment you book to the moment you arrive, you deal with professionals who treat your schedule — and your safety — as their own.",
     "We provide luxury black car service throughout the entire Washington DC, Maryland, and Virginia region, with flat-rate, transparently priced transfers to and from BWI, Ronald Reagan National (DCA), and Washington Dulles (IAD) airports. Whether you need an early-morning ride to catch a flight, executive transportation for a client visit, or an elegant arrival on your wedding day, 92 Limo Service delivers the same reliable luxury every time.",
     "Booking is simple and available 24/7. Request a transparent quote online or call our team, and we will confirm a professional chauffeur, track your flight, and handle every detail door to door — so your only job is to relax and enjoy the ride.",
-    "Beyond the airport, our luxury black car service covers corporate roadshows, executive travel, wine tours through Maryland and Virginia wine country, proms, birthdays, cruise-port transfers, and long-distance trips to New York, Philadelphia, and the Delaware beaches. Groups are welcome too — our Mercedes Sprinter vans and Sprinter limo keep everyone together in comfort. Whatever the occasion, you can expect the same clean vehicles, professional chauffeurs, and transparent pricing that have earned 92 Limo Service a five-star reputation across the DMV.",
+    "Beyond the airport, our luxury black car service covers corporate roadshows, executive travel, wine tours through Maryland and Virginia wine country, proms, birthdays, cruise-port transfers, and long-distance trips to New York, Philadelphia, and the Delaware beaches. Groups are welcome too — our Mercedes Sprinter vans keep everyone together in comfort. Whatever the occasion, you can expect the same clean vehicles, professional chauffeurs, and transparent pricing that have earned 92 Limo Service a five-star reputation across the DMV.",
   ],
 };
 
@@ -191,23 +191,11 @@ export const FLEET = [
     pax: 13,
     bags: 13,
     carryOns: 13,
-    bestFor: "Corporate groups · Roadshows · Executive retreats",
+    bestFor: "Corporate groups · Weddings & proms · Birthdays & nights out",
     img: "/images/mercedes-sprinter.webp",
     alt: "Mercedes Sprinter Executive van interior for corporate car service in Maryland — 92 Limo Service",
     description:
-      "Premium executive van with upgraded interior and luxury amenities. Perfect for corporate groups. Mercedes Sprinter or similar.",
-  },
-  {
-    category: "Sprinter Limo",
-    name: "Mercedes Sprinter Limo",
-    pax: 13,
-    bags: 6,
-    carryOns: 8,
-    bestFor: "Weddings · Proms · Birthdays & nights out",
-    img: "/fleet/limousine.webp",
-    alt: "Mercedes Sprinter limo interior for Maryland party bus and stretch limo occasions — 92 Limo Service",
-    description:
-      "The ultimate stretch limo experience. Perfect for weddings, proms, and special occasions that deserve a grand entrance.",
+      "Premium executive van with upgraded interior, mood lighting, and luxury amenities. Perfect for corporate groups, weddings, proms, and special occasions that deserve a grand entrance. Mercedes Sprinter or similar.",
   },
 ];
 
@@ -294,7 +282,7 @@ export const FAQS = [
   { q: "How far in advance should I book?", a: "Book by the night before at the latest — earlier for pre-dawn departures, holidays, and event weekends when vehicles sell out. We accommodate same-day requests whenever availability allows, and our line answers 24/7 at (877) 609-1919." },
   { q: "How do I book a ride or get a free quote?", a: "Use the booking form on our Booking page or simply call us at (877) 609-1919. We confirm every reservation with a transparent quote before you ride." },
   { q: "What does my quoted rate include?", a: POLICY.pricing },
-  { q: "What vehicles are in your fleet?", a: "Our fleet includes the Business Sedan (Mercedes-Benz E-Class), First Class Sedans (BMW 7 Series and Mercedes-Benz S-Class), Midsize SUV (Lincoln Nautilus), Luxury SUV (Chevrolet Suburban), Premium SUV (Cadillac Escalade), the Mercedes Sprinter Shuttle and Sprinter Executive vans, and the Mercedes Sprinter Limo." },
+  { q: "What vehicles are in your fleet?", a: "Our fleet includes the Business Sedan (Mercedes-Benz E-Class), First Class Sedans (BMW 7 Series and Mercedes-Benz S-Class), Midsize SUV (Lincoln Nautilus), Luxury SUV (Chevrolet Suburban), Premium SUV (Cadillac Escalade), the Mercedes Sprinter Shuttle and Sprinter Executive vans." },
   { q: "Do you offer wine tours, weddings, proms, and birthdays?", a: "Absolutely. Beyond airport and corporate travel, we offer wine tours, wedding limo service, prom transportation, and birthday celebrations across Maryland, Virginia, and Washington DC." },
 ];
 
@@ -342,7 +330,7 @@ export const NAV_SERVICES = [
 ];
 
 const AIRPORT_VEHICLES = ["Business Sedan — Mercedes E-Class", "Premium SUV — Cadillac Escalade", "Sprinter Executive — Mercedes Sprinter"];
-const LUXURY_VEHICLES = ["First Class Sedan — BMW 7 Series", "Premium SUV — Cadillac Escalade", "Sprinter Limo — Mercedes Sprinter Limo"];
+const LUXURY_VEHICLES = ["First Class Sedan — BMW 7 Series", "Premium SUV — Cadillac Escalade", "Sprinter Executive — Mercedes Sprinter"];
 
 export const SERVICE_PAGES = {
   "airport-transportation": {
@@ -427,7 +415,7 @@ export const SERVICE_PAGES = {
       { title: "Door-to-Door", desc: "Hassle-free pickup and drop-off at your home or hotel." },
       { title: "Transparent Rates", desc: "Your base rate is quoted up front; gratuity, tolls and parking are disclosed before confirmation." },
     ],
-    vehicles: ["Premium SUV — Cadillac Escalade", "Sprinter Limo — Mercedes Sprinter Limo", "First Class Sedan — BMW 7 Series"],
+    vehicles: ["Premium SUV — Cadillac Escalade", "Sprinter Executive — Mercedes Sprinter", "First Class Sedan — BMW 7 Series"],
     details: [
       { heading: "How a Chauffeured Wine Tour Works", paragraphs: [
         "A wine tour is booked as hourly, as-directed service: one vehicle and one chauffeur stay with your group from the first pickup to the last drop-off. You choose the wineries and reserve the tastings; we plan the route, the drive times between stops and a realistic schedule so nobody is rushed out of a tasting room.",
@@ -458,7 +446,7 @@ export const SERVICE_PAGES = {
       { title: "Any Group Size", desc: "From an intimate dinner to a full crew in the Sprinter van." },
       { title: "Transparent Pricing", desc: "Clear, upfront base rates — gratuity, tolls and parking disclosed before confirmation." },
     ],
-    vehicles: ["Sprinter Limo — Mercedes Sprinter Limo", "Sprinter Shuttle — Mercedes Sprinter", "Premium SUV — Cadillac Escalade"],
+    vehicles: ["Sprinter Executive — Mercedes Sprinter", "Sprinter Shuttle — Mercedes Sprinter", "Premium SUV — Cadillac Escalade"],
     details: [
       { heading: "Planning a Birthday Night Out", paragraphs: [
         "Birthday bookings are usually hourly and as-directed, which means the evening can unfold the way you want it to: collect friends from different addresses, arrive at dinner together, move on to a lounge, a show or a casino, and get everyone home safely at the end. One chauffeur and one vehicle stay with the party throughout.",
@@ -472,7 +460,7 @@ export const SERVICE_PAGES = {
   "anniversary-limo-service": {
     metaTitle: "Anniversary Limo Service | Maryland, DC & VA | 92 Limo",
     metaDescription:
-      "Chauffeured anniversary transportation in Maryland, DC & Virginia — dinner, a show and the ride home in a luxury sedan, SUV or Sprinter Limo. (877) 609-1919.",
+      "Chauffeured anniversary transportation in Maryland, DC & Virginia — dinner, a show and the ride home in a luxury sedan, SUV or Sprinter Executive van. (877) 609-1919.",
     eyebrow: "ANNIVERSARIES",
     h1: "Anniversary Limo & Chauffeur Service",
     subtitle: "An evening where neither of you drives — a chauffeur, a beautiful car, and every stop taken care of.",
@@ -482,7 +470,7 @@ export const SERVICE_PAGES = {
       "An anniversary deserves better than circling for parking and deciding who drives home. 92 Limo Service provides a professional chauffeur and an immaculate vehicle for the whole evening across Maryland, Washington DC and Northern Virginia — so the night is about the two of you from the moment you step outside.",
     bullets: [
       { title: "Yours for the Evening", desc: "Hourly, as-directed service — dinner, a show, a nightcap and home, with your chauffeur waiting at every stop." },
-      { title: "First Class Sedans", desc: "BMW 7 Series and Mercedes S-Class comfort for two; SUVs and the Sprinter Limo when family joins." },
+      { title: "First Class Sedans", desc: "BMW 7 Series and Mercedes S-Class comfort for two; SUVs and the Sprinter Executive when family joins." },
       { title: "Surprise-Friendly", desc: "Book under your name, tell us it's a surprise, and your chauffeur will play along." },
       { title: "Door-to-Door", desc: "Picked up at home or your hotel and dropped at the restaurant door — no garages, no walking in the rain." },
       { title: "Professional Chauffeurs", desc: "Licensed, background-checked, discreet, and dressed for the occasion." },
@@ -495,7 +483,7 @@ export const SERVICE_PAGES = {
         "For a daytime celebration, couples often pair an anniversary with a chauffeured wine tour through Frederick County or Loudoun County — a relaxed afternoon where neither of you has to skip a tasting.",
       ] },
       { heading: "Booking Details", paragraphs: [
-        "Tell us the date, the pickup address, the places you plan to visit and roughly when you expect to head home. We confirm a quote before anything is charged, and sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup (12 hours for the Sprinter Limo). If you would like flowers or a card waiting on the seat, hand them to your chauffeur beforehand or mention it when you book.",
+        "Tell us the date, the pickup address, the places you plan to visit and roughly when you expect to head home. We confirm a quote before anything is charged, and sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup (12 hours for the Sprinter Executive). If you would like flowers or a card waiting on the seat, hand them to your chauffeur beforehand or mention it when you book.",
       ] },
     ],
   },
@@ -518,7 +506,7 @@ export const SERVICE_PAGES = {
       { title: "Parent Peace of Mind", desc: "Clear itineraries and dependable, professional service." },
       { title: "Transparent Pricing", desc: "Upfront prom packages with no hidden fees." },
     ],
-    vehicles: ["Sprinter Limo — Mercedes Sprinter Limo", "Sprinter Shuttle — Mercedes Sprinter", "Premium SUV — Cadillac Escalade"],
+    vehicles: ["Sprinter Executive — Mercedes Sprinter", "Sprinter Shuttle — Mercedes Sprinter", "Premium SUV — Cadillac Escalade"],
   },
   "hourly-chauffeur": {
     metaTitle: "Hourly Chauffeur Service DC, MD & VA | 92 Limo",

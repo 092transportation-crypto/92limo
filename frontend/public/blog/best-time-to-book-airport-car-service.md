@@ -38,7 +38,7 @@ There's also a practical reason early departures deserve more buffer: BWI's firs
 
 ## What Same-Day Booking Actually Looks Like
 
-Same-day requests aren't off the table — they're handled whenever a vehicle and chauffeur are available, and during a normal weekday that's usually the case. What changes is your odds of getting a specific vehicle class on short notice; a sedan is far easier to produce same-day than a Sprinter Limo, simply because there are more sedans in circulation at any given moment.
+Same-day requests aren't off the table — they're handled whenever a vehicle and chauffeur are available, and during a normal weekday that's usually the case. What changes is your odds of getting a specific vehicle class on short notice; a sedan is far easier to produce same-day than a Sprinter Executive, simply because there are more sedans in circulation at any given moment.
 
 If a same-day trip comes up, call rather than relying on a form submission — (877) 609-1919 gets a live person who can tell you immediately what's actually available, instead of you waiting on a response while the clock runs. A phone call also lets dispatch offer an alternative vehicle class on the spot if your first choice isn't available in the time window you need.
 

@@ -440,7 +440,7 @@ export const BLOG_POSTS_BATCH5 = [
       {
         heading: "Group Sizes and Vehicle Options",
         paragraphs: [
-          "A small group of four to five fits comfortably in a Luxury or Premium SUV. Larger groups of up to 13 typically book a Mercedes Sprinter or Sprinter Limo, which keeps the whole friend group together in one vehicle for photos, dinner, and the dance itself.",
+          "A small group of four to five fits comfortably in a Luxury or Premium SUV. Larger groups of up to 13 typically book a Mercedes Sprinter, which keeps the whole friend group together in one vehicle for photos, dinner, and the dance itself.",
         ],
       },
       {
@@ -475,7 +475,7 @@ export const BLOG_POSTS_BATCH5 = [
       },
       {
         q: "How many students fit in one vehicle?",
-        a: "Up to 5 in a Luxury or Premium SUV, and up to 13 in a Mercedes Sprinter or Sprinter Limo. Call (877) 609-1919 with your group size for a quote.",
+        a: "Up to 5 in a Luxury or Premium SUV, and up to 13 in a Mercedes Sprinter. Call (877) 609-1919 with your group size for a quote.",
       },
       {
         q: "Are the chauffeurs background-checked?",

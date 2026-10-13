@@ -36,7 +36,7 @@ For most special-occasion BWI pickups, a Mercedes-Benz S-Class or BMW 7 Series f
 
 For a couple or small wedding party, a Cadillac Escalade or Chevrolet Suburban premium SUV adds presence and a taller, more commanding profile without sacrificing the practicality of getting through arrivals traffic and a curb pickup smoothly. These also solve the luggage problem more comfortably than a sedan when a wedding weekend means more bags than usual.
 
-For a larger group — a full wedding party, a family reunion arrival, or a group of groomsmen or bridesmaids flying in together — the Mercedes Sprinter Limo is the closer match to what people actually picture when they say "limo": more seating, more interior presence, and everyone arriving together instead of splitting into two or three separate sedans that show up at different times.
+For a larger group — a full wedding party, a family reunion arrival, or a group of groomsmen or bridesmaids flying in together — the Mercedes Sprinter Executive is the closer match to what people actually picture when they say "limo": more seating, more interior presence, and everyone arriving together instead of splitting into two or three separate sedans that show up at different times.
 
 One detail worth flagging: matching the vehicle to the actual headcount and luggage matters more for a special occasion than a routine trip, precisely because the vehicle itself is part of what's being noticed. A wedding party of six squeezed uncomfortably into a five-seat sedan undercuts the whole point of upgrading in the first place.
 
@@ -60,7 +60,7 @@ Presentation extends to the small details too: the vehicle arrives clean and rea
 
 The price difference between a standard BWI car service and a special-occasion booking is usually smaller than people assume — you're paying for a higher vehicle tier, not a different category of service entirely. Moving from a Business Sedan to a First Class Sedan or premium SUV is a meaningful but predictable step up, not a multiple of the base price.
 
-Where the cost grows is with the Sprinter Limo for larger groups, simply because it's a larger, more specialized vehicle with fewer units in any fleet. Even there, pricing is flat and quoted upfront, so you're deciding whether the group-together convenience is worth it with real numbers in front of you, not guessing.
+Where the cost grows is with the Sprinter Executive for larger groups, simply because it's a larger, more specialized vehicle with fewer units in any fleet. Even there, pricing is flat and quoted upfront, so you're deciding whether the group-together convenience is worth it with real numbers in front of you, not guessing.
 
 The honest advice: get a quote for both the standard vehicle and the upgraded one when you call. Seeing the actual gap side by side makes the decision easier than trying to estimate it, and it costs nothing to ask for both numbers before you commit.
 
@@ -70,13 +70,13 @@ The most common mistake is booking a special occasion the same way you'd book a 
 
 The second most common mistake is under-sizing the vehicle for the actual group, usually to save a modest amount on a larger booking. A cramped, luggage-stuffed sedan undercuts the entire point of upgrading for the occasion in the first place — if presentation matters enough to book a nicer vehicle, it's worth sizing it correctly.
 
-The third is waiting too long to book a vehicle tied to a specific date. Special-occasion vehicles — premium SUVs and the Sprinter Limo especially — are a smaller pool than standard sedans, and they go first for weddings and graduation weekends. If you know the date, book it. A brief call well ahead of the date, even before every detail is settled, is enough to hold the vehicle you actually want.
+The third is waiting too long to book a vehicle tied to a specific date. Special-occasion vehicles — premium SUVs and the Sprinter Executive especially — are a smaller pool than standard sedans, and they go first for weddings and graduation weekends. If you know the date, book it. A brief call well ahead of the date, even before every detail is settled, is enough to hold the vehicle you actually want.
 
 ## Frequently Asked Questions
 
 **Do you offer a true stretch limousine at BWI?**
 
-Our special-occasion fleet centers on first-class sedans, premium SUVs, and the Mercedes Sprinter Limo for larger groups — vehicles that read as a genuine step up for an airport pickup while staying practical for curb logistics. Call (877) 609-1919 to talk through exactly what a specific occasion calls for.
+Our special-occasion fleet centers on first-class sedans, premium SUVs, and the Mercedes Sprinter Executive for larger groups — vehicles that read as a genuine step up for an airport pickup while staying practical for curb logistics. Call (877) 609-1919 to talk through exactly what a specific occasion calls for.
 
 **How far ahead should I book a wedding or graduation pickup at BWI?**
 
@@ -92,7 +92,7 @@ It's still flat-rate and quoted before you book — you're paying for the vehicl
 
 **Can you fit a full wedding party in one vehicle?**
 
-For larger groups, the Mercedes Sprinter Limo is usually the right call so everyone arrives together instead of splitting across multiple cars.
+For larger groups, the Mercedes Sprinter Executive is usually the right call so everyone arrives together instead of splitting across multiple cars.
 
 ## Related Pages
 

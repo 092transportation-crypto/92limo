@@ -48,7 +48,7 @@ export const MARYLAND_LANDING_PAGES = {
     "vehicles": [
       "First Class Sedan — BMW 7 Series",
       "Luxury SUV — Chevrolet Suburban",
-      "Sprinter Limo — Mercedes Sprinter Limo"
+      "Sprinter Executive — Mercedes Sprinter"
     ],
     "areas": [
       {
@@ -362,7 +362,7 @@ export const MARYLAND_LANDING_PAGES = {
     "vehicles": [
       "First Class Sedan — BMW 7 Series",
       "Luxury SUV — Chevrolet Suburban",
-      "Sprinter Limo — Mercedes Sprinter Limo"
+      "Sprinter Executive — Mercedes Sprinter"
     ],
     "areas": [
       {
@@ -516,7 +516,7 @@ export const MARYLAND_LANDING_PAGES = {
     "vehicles": [
       "First Class Sedan — BMW 7 Series",
       "Luxury SUV — Chevrolet Suburban",
-      "Sprinter Limo — Mercedes Sprinter Limo"
+      "Sprinter Executive — Mercedes Sprinter"
     ],
     "areas": [
       {
@@ -673,7 +673,7 @@ export const MARYLAND_LANDING_PAGES = {
     "vehicles": [
       "First Class Sedan — BMW 7 Series",
       "Luxury SUV — Chevrolet Suburban",
-      "Sprinter Limo — Mercedes Sprinter Limo"
+      "Sprinter Executive — Mercedes Sprinter"
     ],
     "areas": [
       {
@@ -830,7 +830,7 @@ export const MARYLAND_LANDING_PAGES = {
     "vehicles": [
       "First Class Sedan — BMW 7 Series",
       "Luxury SUV — Chevrolet Suburban",
-      "Sprinter Limo — Mercedes Sprinter Limo"
+      "Sprinter Executive — Mercedes Sprinter"
     ],
     "areas": [
       {
@@ -984,7 +984,7 @@ export const MARYLAND_LANDING_PAGES = {
     "vehicles": [
       "First Class Sedan — BMW 7 Series",
       "Luxury SUV — Chevrolet Suburban",
-      "Sprinter Limo — Mercedes Sprinter Limo"
+      "Sprinter Executive — Mercedes Sprinter"
     ],
     "areas": [
       {
@@ -1141,7 +1141,7 @@ export const MARYLAND_LANDING_PAGES = {
     "vehicles": [
       "First Class Sedan — BMW 7 Series",
       "Luxury SUV — Chevrolet Suburban",
-      "Sprinter Limo — Mercedes Sprinter Limo"
+      "Sprinter Executive — Mercedes Sprinter"
     ],
     "areas": [
       {
@@ -1609,7 +1609,7 @@ export const MARYLAND_LANDING_PAGES = {
     "vehicles": [
       "First Class Sedan — BMW 7 Series",
       "Luxury SUV — Chevrolet Suburban",
-      "Sprinter Limo — Mercedes Sprinter Limo"
+      "Sprinter Executive — Mercedes Sprinter"
     ],
     "areas": [
       {
@@ -1763,7 +1763,7 @@ export const MARYLAND_LANDING_PAGES = {
     "vehicles": [
       "First Class Sedan — BMW 7 Series",
       "Luxury SUV — Chevrolet Suburban",
-      "Sprinter Limo — Mercedes Sprinter Limo"
+      "Sprinter Executive — Mercedes Sprinter"
     ],
     "areas": [
       {
@@ -2077,7 +2077,7 @@ export const MARYLAND_LANDING_PAGES = {
     "vehicles": [
       "First Class Sedan — BMW 7 Series",
       "Luxury SUV — Chevrolet Suburban",
-      "Sprinter Limo — Mercedes Sprinter Limo"
+      "Sprinter Executive — Mercedes Sprinter"
     ],
     "areas": [
       {
@@ -2234,7 +2234,7 @@ export const MARYLAND_LANDING_PAGES = {
     "vehicles": [
       "First Class Sedan — BMW 7 Series",
       "Luxury SUV — Chevrolet Suburban",
-      "Sprinter Limo — Mercedes Sprinter Limo"
+      "Sprinter Executive — Mercedes Sprinter"
     ],
     "areas": [
       {
@@ -2545,7 +2545,7 @@ export const MARYLAND_LANDING_PAGES = {
     "vehicles": [
       "First Class Sedan — BMW 7 Series",
       "Luxury SUV — Chevrolet Suburban",
-      "Sprinter Limo — Mercedes Sprinter Limo"
+      "Sprinter Executive — Mercedes Sprinter"
     ],
     "areas": [
       {
@@ -2702,7 +2702,7 @@ export const MARYLAND_LANDING_PAGES = {
     "vehicles": [
       "First Class Sedan — BMW 7 Series",
       "Luxury SUV — Chevrolet Suburban",
-      "Sprinter Limo — Mercedes Sprinter Limo"
+      "Sprinter Executive — Mercedes Sprinter"
     ],
     "areas": [
       {
@@ -3010,7 +3010,7 @@ export const MARYLAND_LANDING_PAGES = {
     "vehicles": [
       "First Class Sedan — BMW 7 Series",
       "Luxury SUV — Chevrolet Suburban",
-      "Sprinter Limo — Mercedes Sprinter Limo"
+      "Sprinter Executive — Mercedes Sprinter"
     ],
     "areas": [
       {
@@ -4636,7 +4636,7 @@ export const MARYLAND_LANDING_PAGES = {
       }
     ],
     "vehicles": [
-      "Sprinter Limo — Mercedes Sprinter Limo",
+      "Sprinter Executive — Mercedes Sprinter",
       "Premium SUV — Cadillac Escalade",
       "First Class Sedan — BMW 7 Series"
     ],
@@ -4765,7 +4765,7 @@ export const MARYLAND_LANDING_PAGES = {
       }
     ],
     "vehicles": [
-      "Sprinter Limo — Mercedes Sprinter Limo",
+      "Sprinter Executive — Mercedes Sprinter",
       "Premium SUV — Cadillac Escalade",
       "First Class Sedan — BMW 7 Series"
     ],
@@ -4894,7 +4894,7 @@ export const MARYLAND_LANDING_PAGES = {
       }
     ],
     "vehicles": [
-      "Sprinter Limo — Mercedes Sprinter Limo",
+      "Sprinter Executive — Mercedes Sprinter",
       "Premium SUV — Cadillac Escalade",
       "First Class Sedan — BMW 7 Series"
     ],
@@ -5023,7 +5023,7 @@ export const MARYLAND_LANDING_PAGES = {
       }
     ],
     "vehicles": [
-      "Sprinter Limo — Mercedes Sprinter Limo",
+      "Sprinter Executive — Mercedes Sprinter",
       "Premium SUV — Cadillac Escalade",
       "First Class Sedan — BMW 7 Series"
     ],
@@ -5152,7 +5152,7 @@ export const MARYLAND_LANDING_PAGES = {
       }
     ],
     "vehicles": [
-      "Sprinter Limo — Mercedes Sprinter Limo",
+      "Sprinter Executive — Mercedes Sprinter",
       "Premium SUV — Cadillac Escalade",
       "First Class Sedan — BMW 7 Series"
     ],
@@ -5282,7 +5282,7 @@ export const MARYLAND_LANDING_PAGES = {
     ],
     "vehicles": [
       "Premium SUV — Cadillac Escalade",
-      "Sprinter Limo — Mercedes Sprinter Limo",
+      "Sprinter Executive — Mercedes Sprinter",
       "First Class Sedan — BMW 7 Series"
     ],
     "areas": [
@@ -5409,7 +5409,7 @@ export const MARYLAND_LANDING_PAGES = {
     ],
     "vehicles": [
       "Premium SUV — Cadillac Escalade",
-      "Sprinter Limo — Mercedes Sprinter Limo",
+      "Sprinter Executive — Mercedes Sprinter",
       "First Class Sedan — BMW 7 Series"
     ],
     "areas": [
@@ -5536,7 +5536,7 @@ export const MARYLAND_LANDING_PAGES = {
     ],
     "vehicles": [
       "Premium SUV — Cadillac Escalade",
-      "Sprinter Limo — Mercedes Sprinter Limo",
+      "Sprinter Executive — Mercedes Sprinter",
       "First Class Sedan — BMW 7 Series"
     ],
     "areas": [
@@ -5663,7 +5663,7 @@ export const MARYLAND_LANDING_PAGES = {
     ],
     "vehicles": [
       "Premium SUV — Cadillac Escalade",
-      "Sprinter Limo — Mercedes Sprinter Limo",
+      "Sprinter Executive — Mercedes Sprinter",
       "First Class Sedan — BMW 7 Series"
     ],
     "areas": [
@@ -5790,7 +5790,7 @@ export const MARYLAND_LANDING_PAGES = {
     ],
     "vehicles": [
       "Premium SUV — Cadillac Escalade",
-      "Sprinter Limo — Mercedes Sprinter Limo",
+      "Sprinter Executive — Mercedes Sprinter",
       "First Class Sedan — BMW 7 Series"
     ],
     "areas": [
@@ -5917,7 +5917,7 @@ export const MARYLAND_LANDING_PAGES = {
     ],
     "vehicles": [
       "Premium SUV — Cadillac Escalade",
-      "Sprinter Limo — Mercedes Sprinter Limo",
+      "Sprinter Executive — Mercedes Sprinter",
       "First Class Sedan — BMW 7 Series"
     ],
     "areas": [
@@ -6044,7 +6044,7 @@ export const MARYLAND_LANDING_PAGES = {
     ],
     "vehicles": [
       "Premium SUV — Cadillac Escalade",
-      "Sprinter Limo — Mercedes Sprinter Limo",
+      "Sprinter Executive — Mercedes Sprinter",
       "First Class Sedan — BMW 7 Series"
     ],
     "areas": [
@@ -6171,7 +6171,7 @@ export const MARYLAND_LANDING_PAGES = {
     ],
     "vehicles": [
       "Premium SUV — Cadillac Escalade",
-      "Sprinter Limo — Mercedes Sprinter Limo",
+      "Sprinter Executive — Mercedes Sprinter",
       "First Class Sedan — BMW 7 Series"
     ],
     "areas": [
@@ -6298,7 +6298,7 @@ export const MARYLAND_LANDING_PAGES = {
     ],
     "vehicles": [
       "Premium SUV — Cadillac Escalade",
-      "Sprinter Limo — Mercedes Sprinter Limo",
+      "Sprinter Executive — Mercedes Sprinter",
       "First Class Sedan — BMW 7 Series"
     ],
     "areas": [
@@ -6425,7 +6425,7 @@ export const MARYLAND_LANDING_PAGES = {
     ],
     "vehicles": [
       "Premium SUV — Cadillac Escalade",
-      "Sprinter Limo — Mercedes Sprinter Limo",
+      "Sprinter Executive — Mercedes Sprinter",
       "First Class Sedan — BMW 7 Series"
     ],
     "areas": [

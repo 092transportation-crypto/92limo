@@ -20,7 +20,7 @@ This matters even more for groups with mixed luggage needs — golf clubs for a 
 
 ## One Vehicle or Multiple?
 
-For groups up to around 14 passengers, a single Mercedes Sprinter Van or Sprinter Limo usually keeps everyone together — simpler logistics, one pickup time, one point of coordination, and no risk of half the group arriving before the other half. Larger groups may need two vehicles; if so, ask how pickup timing is coordinated between them so the group doesn't end up split at different ends of a terminal or venue with no way to regroup easily.
+For groups up to around 14 passengers, a single Mercedes Sprinter Van usually keeps everyone together — simpler logistics, one pickup time, one point of coordination, and no risk of half the group arriving before the other half. Larger groups may need two vehicles; if so, ask how pickup timing is coordinated between them so the group doesn't end up split at different ends of a terminal or venue with no way to regroup easily.
 
 There's a real trade-off worth naming here: one large vehicle is simpler to coordinate but less flexible if the group needs to split up partway through the day (some people leaving earlier, a subset going to a different stop), while two smaller vehicles cost more to coordinate upfront but offer more flexibility if the day's plan isn't fully locked in yet.
 

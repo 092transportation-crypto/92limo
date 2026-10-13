@@ -21,7 +21,7 @@ export const PAGE_FAQS = {
     { q: "Can one reservation cover a group with several vehicles?", a: `Yes. Weddings, corporate events and group airport moves are coordinated as a single booking with multiple vehicles — Sprinter vans for groups and sedans or SUVs for VIPs. Call ${PHONE_TXT} or use the booking form and describe the group.` },
   ],
   "/fleet": [
-    { q: "How many passengers does each vehicle hold?", a: "Business and First Class Sedans seat up to 3 passengers, the Midsize SUV seats 3 with extra luggage room, Luxury and Premium SUVs seat up to 5, and Mercedes Sprinter vans and the Sprinter Limo seat up to 13." },
+    { q: "How many passengers does each vehicle hold?", a: "Business and First Class Sedans seat up to 3 passengers, the Midsize SUV seats 3 with extra luggage room, Luxury and Premium SUVs seat up to 5, and Mercedes Sprinter vans seat up to 13." },
     { q: "Which vehicle is best for airport trips with a lot of luggage?", a: "A Luxury or Premium SUV (Chevrolet Suburban or Cadillac Escalade) carries up to 5 passengers and about 5 bags. For larger parties, a Sprinter Shuttle or Sprinter Executive van carries up to 13 passengers with their luggage in one vehicle." },
     { q: "Am I guaranteed the exact make and model shown?", a: "Reservations are made by vehicle class. The exact make and model may vary within that class, and if a vehicle becomes unavailable we provide a comparable or upgraded vehicle at no additional cost — never a smaller one without your agreement." },
     { q: "Are the vehicles owned by 92 Limo Service?", a: "Yes. The fleet is owned and maintained by 92 Transportation LLC, commercially insured, inspected daily and detailed before each ride." },
@@ -51,7 +51,7 @@ export const PAGE_FAQS = {
   "/gallery": [
     { q: "Are these photos of your actual vehicles?", a: "Vehicle images on this site are representative of each vehicle class. Reservations are made by class, and the exact make and model may vary within it." },
     { q: "Can I see a vehicle before booking a wedding or event?", a: `Call ${PHONE_TXT} and we will do our best to arrange a viewing of the vehicle class you are considering, subject to availability.` },
-    { q: "What vehicle classes are available?", a: "Business Sedan, First Class Sedan, Midsize SUV, Luxury SUV, Premium SUV, Sprinter Shuttle, Sprinter Executive and Sprinter Limo." },
+    { q: "What vehicle classes are available?", a: "Business Sedan, First Class Sedan, Midsize SUV, Luxury SUV, Premium SUV, Sprinter Shuttle and Sprinter Executive." },
     { q: "How are vehicles prepared before a ride?", a: "Every vehicle is inspected daily and detailed before each ride." },
     { q: "Which vehicle photographs best for weddings?", a: "Couples usually choose a First Class Sedan or Premium SUV for the couple and a Sprinter for the wedding party. Tell us your party size and we will recommend a combination." },
   ],
@@ -145,7 +145,7 @@ export const PAGE_FAQS = {
     { q: "How is a wine tour priced?", a: "Hourly, as-directed — the vehicle and chauffeur stay with your group all day. " + QUOTE_TXT },
   ],
   "/birthday-celebrations": [
-    { q: "What vehicles do you offer for birthdays?", a: "Sedans and SUVs for dinners and small groups, and the Mercedes Sprinter Limo or Sprinter vans for parties of up to 13 who want to ride together." },
+    { q: "What vehicles do you offer for birthdays?", a: "Sedans and SUVs for dinners and small groups, and the Mercedes Sprinter van for parties of up to 13 who want to ride together." },
     { q: "Can we make several stops during the night?", a: "Yes. Birthday bookings are usually hourly and as-directed, so dinner, a venue or two and the ride home are all part of one reservation." },
     { q: "Can you pick up guests from different addresses?", a: "Yes. List the pickup addresses when you book and we will sequence them so the group arrives together." },
     { q: "Is there a cancellation window for party bookings?", a: CANCEL_TXT },
@@ -154,7 +154,7 @@ export const PAGE_FAQS = {
   "/prom-transportation": [
     { q: "Is prom transportation safe for students?", a: "Chauffeurs are licensed, background-checked and drug-tested, vehicles are commercially insured, and the parent or guardian who books receives the confirmed itinerary." },
     { q: "Who needs to book — the student or a parent?", a: "A parent or guardian should book. A valid credit or debit card is required to confirm every reservation, and the adult who books is our point of contact on the night." },
-    { q: "How many students fit in one vehicle?", a: "Up to 5 in a Luxury or Premium SUV and up to 13 in a Mercedes Sprinter or Sprinter Limo." },
+    { q: "How many students fit in one vehicle?", a: "Up to 5 in a Luxury or Premium SUV and up to 13 in a Mercedes Sprinter." },
     { q: "How early should we book for prom season?", a: "Early. Spring Fridays and Saturdays are the busiest nights of the year for Sprinters and limousines, and they sell out first." },
     { q: "Can the group stop for photos and dinner?", a: "Yes. Prom bookings are typically hourly, so photo locations, dinner and the return home are all covered by the same vehicle and chauffeur." },
   ],
@@ -174,7 +174,7 @@ export const PAGE_FAQS = {
   ],
   "/anniversary-limo-service": [
     { q: "What does an anniversary limo booking usually include?", a: "A chauffeur and vehicle for the evening — pickup at home or your hotel, the drive to dinner or a show, waiting while you celebrate, and the ride home. Bookings are typically hourly and as-directed." },
-    { q: "Which vehicle do couples choose?", a: "Most couples choose a First Class Sedan (BMW 7 Series or Mercedes S-Class). For a celebration with family or friends, a Premium SUV seats up to 5 and the Sprinter Limo up to 13." },
+    { q: "Which vehicle do couples choose?", a: "Most couples choose a First Class Sedan (BMW 7 Series or Mercedes S-Class). For a celebration with family or friends, a Premium SUV seats up to 5 and the Mercedes Sprinter up to 13." },
     { q: "Can I arrange a surprise?", a: "Yes. Book under your own details, tell us it is a surprise in the notes, and share any timing your chauffeur should know. If you would like flowers or a note waiting in the car, bring them to the chauffeur or ask us when you book." },
     { q: "Can we combine dinner with another stop?", a: "Yes. A waterfront stop in Annapolis, a show in Baltimore or DC, or a return to the place you were married — hourly service covers as many stops as the evening needs." },
     { q: "How is it priced and what if plans change?", a: QUOTE_TXT + " " + CANCEL_TXT },
