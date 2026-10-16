@@ -2,15 +2,17 @@ import { Seo } from "@/components/site/Seo";
 import { PageHero } from "@/components/site/PageHero";
 import { Fleet } from "@/components/site/Fleet";
 import { CTASection } from "@/components/site/CTASection";
+import { pageSchema } from "@/lib/pageSchema";
+
+const TITLE = "Luxury Fleet | Sedans, SUVs & Sprinter Vans | 92 Limo";
+const DESCRIPTION =
+  "Explore the 92 Limo Service fleet: Mercedes E-Class, BMW 7 Series, Lincoln Nautilus, Chevrolet Suburban, Cadillac Escalade, Sprinter vans & limousines.";
+const SCHEMA = pageSchema("WebPage", "/fleet", TITLE, DESCRIPTION);
 
 export default function FleetPage() {
   return (
     <>
-      <Seo
-        title="Luxury Fleet | Sedans, SUVs & Sprinter Vans | 92 Limo"
-        description="Explore the 92 Limo Service fleet: Mercedes E-Class, BMW 7 Series, Lincoln Nautilus, Chevrolet Suburban, Cadillac Escalade, Sprinter vans & limousines."
-        path="/fleet"
-      />
+      <Seo title={TITLE} description={DESCRIPTION} path="/fleet" schema={SCHEMA} />
       <PageHero
         eyebrow="OUR FLEET"
         title="A Luxury Vehicle for Every Journey"

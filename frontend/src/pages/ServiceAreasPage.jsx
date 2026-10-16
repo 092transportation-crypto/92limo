@@ -6,6 +6,12 @@ import { CTASection } from "@/components/site/CTASection";
 import { Reveal } from "@/components/site/Reveal";
 import { IMAGES, CITIES, SERVICE_PAGES } from "@/lib/data";
 import { LANDING_PAGES, ROUTE_SLUGS, BEACH_SLUGS } from "@/lib/landingPages";
+import { pageSchema } from "@/lib/pageSchema";
+
+const SA_TITLE = "All Service Areas | Cities, Airports & Routes | 92 Limo";
+const SA_DESCRIPTION =
+  "Every location 92 Limo Service covers — Maryland, DC, Northern Virginia, Delaware & Pennsylvania cities, airports, routes and event venues.";
+const SA_SCHEMA = pageSchema("WebPage", "/service-areas", SA_TITLE, SA_DESCRIPTION);
 
 // ---------------------------------------------------------------------------
 // Build the complete directory of every location, airport, route, vehicle and
@@ -94,11 +100,7 @@ export default function ServiceAreasPage() {
 
   return (
     <>
-      <Seo
-        title="All Service Areas | Cities, Airports & Routes | 92 Limo"
-        description="Every location 92 Limo Service covers — Maryland, DC, Northern Virginia, Delaware & Pennsylvania cities, airports, routes and event venues."
-        path="/service-areas"
-      />
+      <Seo title={SA_TITLE} description={SA_DESCRIPTION} path="/service-areas" schema={SA_SCHEMA} />
       <PageHero
         eyebrow="SERVICE AREAS"
         title="Everywhere We Serve"

@@ -4,9 +4,15 @@ import { PageHero } from "@/components/site/PageHero";
 import { CTASection } from "@/components/site/CTASection";
 import { Reveal } from "@/components/site/Reveal";
 import { FAQS, IMAGES } from "@/lib/data";
+import { pageSchema } from "@/lib/pageSchema";
 import {
   Accordion, AccordionContent, AccordionItem, AccordionTrigger,
 } from "@/components/ui/accordion";
+
+const TITLE = "FAQ | Booking, Pricing & Pickup Answers | 92 Limo";
+const DESCRIPTION =
+  "Answers to common questions about 92 Limo Service — booking, pricing, flight tracking, vehicles, service areas, and 24/7 availability in DC, MD & VA.";
+const SCHEMA = pageSchema("WebPage", "/faq", TITLE, DESCRIPTION);
 
 export default function FaqPage() {
   useEffect(() => {
@@ -32,11 +38,7 @@ export default function FaqPage() {
 
   return (
     <>
-      <Seo
-        title="FAQ | Booking, Pricing & Pickup Answers | 92 Limo"
-        description="Answers to common questions about 92 Limo Service — booking, pricing, flight tracking, vehicles, service areas, and 24/7 availability in DC, MD & VA."
-        path="/faq"
-      />
+      <Seo title={TITLE} description={DESCRIPTION} path="/faq" schema={SCHEMA} />
       <PageHero
         eyebrow="FAQ"
         title="Frequently Asked Questions"

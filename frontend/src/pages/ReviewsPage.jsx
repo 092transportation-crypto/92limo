@@ -3,15 +3,17 @@ import { PageHero } from "@/components/site/PageHero";
 import { Testimonials } from "@/components/site/Testimonials";
 import { CTASection } from "@/components/site/CTASection";
 import { IMAGES } from "@/lib/data";
+import { pageSchema } from "@/lib/pageSchema";
+
+const TITLE = "Reviews & Testimonials | 92 Limo | DC, MD & VA";
+const DESCRIPTION =
+  "Read verified Google reviews from 92 Limo Service clients across Washington DC, Maryland & Northern Virginia — airport, corporate, weddings & more.";
+const SCHEMA = pageSchema("WebPage", "/reviews", TITLE, DESCRIPTION);
 
 export default function ReviewsPage() {
   return (
     <>
-      <Seo
-        title="Reviews & Testimonials | 92 Limo | DC, MD & VA"
-        description="Read verified Google reviews from 92 Limo Service clients across Washington DC, Maryland & Northern Virginia — airport, corporate, weddings & more."
-        path="/reviews"
-      />
+      <Seo title={TITLE} description={DESCRIPTION} path="/reviews" schema={SCHEMA} />
       <PageHero
         eyebrow="REVIEWS"
         title="What Our Clients Say"

@@ -3,6 +3,12 @@ import { PageHero } from "@/components/site/PageHero";
 import { CTASection } from "@/components/site/CTASection";
 import { Reveal } from "@/components/site/Reveal";
 import { IMAGES } from "@/lib/data";
+import { pageSchema } from "@/lib/pageSchema";
+
+const TITLE = "Gallery | Luxury Fleet & Chauffeur Service | 92 Limo";
+const DESCRIPTION =
+  "Browse the 92 Limo Service gallery — luxury sedans, Cadillac Escalade, Sprinter vans, chauffeurs, and airport pickups across DC, Maryland & Virginia.";
+const SCHEMA = pageSchema("WebPage", "/gallery", TITLE, DESCRIPTION);
 
 const GALLERY = [
   { img: IMAGES.escaladeFront, alt: "Black Cadillac Escalade ESV at night in Maryland" },
@@ -22,11 +28,7 @@ const GALLERY = [
 export default function GalleryPage() {
   return (
     <>
-      <Seo
-        title="Gallery | Luxury Fleet & Chauffeur Service | 92 Limo"
-        description="Browse the 92 Limo Service gallery — luxury sedans, Cadillac Escalade, Sprinter vans, chauffeurs, and airport pickups across DC, Maryland & Virginia."
-        path="/gallery"
-      />
+      <Seo title={TITLE} description={DESCRIPTION} path="/gallery" schema={SCHEMA} />
       <PageHero
         eyebrow="GALLERY"
         title="Our Fleet & Service in Pictures"

@@ -7,6 +7,12 @@ import { CTASection } from "@/components/site/CTASection";
 import { Reveal } from "@/components/site/Reveal";
 import { BRAND, IMAGES } from "@/lib/data";
 import { PAGE_FAQS } from "@/lib/pageFaqs";
+import { pageSchema } from "@/lib/pageSchema";
+
+const CS_TITLE = "Car Seat Airport Transfers MD | 92 Limo Service";
+const CS_DESCRIPTION =
+  "Safe, clean car seats for infants, toddlers & kids on every airport transfer. Inspected, sanitized & chauffeur-installed. Book 24/7: (877) 609-1919.";
+const CS_SCHEMA = pageSchema("WebPage", "/car-seat-service", CS_TITLE, CS_DESCRIPTION);
 
 const SEAT_TYPES = [
   {
@@ -58,11 +64,7 @@ const FAQS = PAGE_FAQS["/car-seat-service"];
 export default function CarSeatServicePage() {
   return (
     <>
-      <Seo
-        title="Car Seat Airport Transfers MD | 92 Limo Service"
-        description="Safe, clean car seats for infants, toddlers & kids on every airport transfer. Inspected, sanitized & chauffeur-installed. Book 24/7: (877) 609-1919."
-        path="/car-seat-service"
-      />
+      <Seo title={CS_TITLE} description={CS_DESCRIPTION} path="/car-seat-service" schema={CS_SCHEMA} />
       <PageHero
         eyebrow="FAMILY AIRPORT TRANSFERS"
         title="Car Seat Service — Safe Airport Transportation for Families"

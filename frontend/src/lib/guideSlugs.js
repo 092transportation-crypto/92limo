@@ -11,5 +11,10 @@ export const GUIDE_SLUGS = [
   "columbia-md-transportation-guide",
   "annapolis-md-transportation-guide",
   "wedding-transportation-guide-maryland-dc-virginia",
-  "holiday-lights-limo-tours-maryland-dc-virginia"
+  "holiday-lights-limo-tours-maryland-dc-virginia",
+  "how-much-does-a-limo-cost-from-bwi-to-annapolis",
+  "best-car-service-from-bwi-airport",
+  "how-early-should-you-book-bwi-airport-transportation",
+  "bwi-rental-car-vs-car-service",
+  "bwi-airport-pickup-what-to-expect"
 ];

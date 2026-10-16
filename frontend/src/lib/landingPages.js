@@ -4,6 +4,7 @@ import { MARYLAND_LANDING_PAGES } from "@/lib/marylandPages";
 import { MARYLAND_BATCH3_PAGES } from "@/lib/marylandPagesBatch3";
 import { MARYLAND_BATCH4_PAGES } from "@/lib/marylandPagesBatch4";
 import { MARYLAND_BATCH5_PAGES } from "@/lib/marylandPagesBatch5";
+import { MARYLAND_BATCH6_PAGES } from "@/lib/marylandPagesBatch6";
 
 // Vehicle label sets (must match `${category} — ${name}` from FLEET).
 const SEDAN_TRIO = [
@@ -28,6 +29,7 @@ export const LANDING_PAGES = {
   ...MARYLAND_BATCH3_PAGES,
   ...MARYLAND_BATCH4_PAGES,
   ...MARYLAND_BATCH5_PAGES,
+  ...MARYLAND_BATCH6_PAGES,
 
   // ------------------------------------------------------ FLAGSHIP: BWI LIMO
   "bwi-airport-limo": {

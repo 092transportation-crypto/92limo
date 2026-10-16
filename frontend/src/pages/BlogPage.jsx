@@ -7,6 +7,12 @@ import { Reveal } from "@/components/site/Reveal";
 import { IMAGES } from "@/lib/data";
 import { BLOG_POSTS } from "@/lib/blogPosts";
 import { GUIDES } from "@/lib/guides";
+import { pageSchema } from "@/lib/pageSchema";
+
+const TITLE = "Blog | Travel Guides & Tips | 92 Limo Service";
+const DESCRIPTION =
+  "Guides and tips from 92 Limo Service — BWI, DCA & IAD airport travel, corporate transportation, weddings, and getting around the DMV in style.";
+const SCHEMA = pageSchema("WebPage", "/blog", TITLE, DESCRIPTION);
 
 // Guides live at /<slug>; blog posts at /blog/<slug>. Newest first.
 const ALL_POSTS = [
@@ -24,11 +30,7 @@ const formatDate = (iso) =>
 export default function BlogPage() {
   return (
     <>
-      <Seo
-        title="Blog | Travel Guides & Tips | 92 Limo Service"
-        description="Guides and tips from 92 Limo Service — BWI, DCA & IAD airport travel, corporate transportation, weddings, and getting around the DMV in style."
-        path="/blog"
-      />
+      <Seo title={TITLE} description={DESCRIPTION} path="/blog" schema={SCHEMA} />
       <PageHero
         eyebrow="THE 92 LIMO BLOG"
         title="Travel Guides & Tips"

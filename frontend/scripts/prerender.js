@@ -63,7 +63,7 @@ function loadData() {
     "src/lib/staticPages.js", "src/lib/pageSchema.js", "src/lib/pageFaqs.js",
     "src/lib/breadcrumbs.js", "src/lib/guides.js", "src/lib/blogPosts.js", "src/lib/keywordSection.js",
   ].map(plain).join("\n");
-  const batch3Src = plain("src/lib/marylandPagesBatch3.js") + "\n" + plain("src/lib/marylandPagesBatch4.js") + "\n" + plain("src/lib/marylandPagesBatch5.js") + "\n" + plain("src/lib/blogPostsBatch2.js") + "\n" + plain("src/lib/blogPostsBatch3.js") + "\n" + plain("src/lib/blogPostsBatch4.js") + "\n" + plain("src/lib/blogPostsBatch5.js") + "\n" + plain("src/lib/blogPostsBatch6.js") + "\n" + plain("src/lib/blogPostsBatch7.js") + "\n" + plain("src/lib/blogPostsBatch8.js") + "\n" + plain("src/lib/blogPostsGenerated.js");
+  const batch3Src = plain("src/lib/marylandPagesBatch3.js") + "\n" + plain("src/lib/marylandPagesBatch4.js") + "\n" + plain("src/lib/marylandPagesBatch5.js") + "\n" + plain("src/lib/marylandPagesBatch6.js") + "\n" + plain("src/lib/blogPostsBatch2.js") + "\n" + plain("src/lib/blogPostsBatch3.js") + "\n" + plain("src/lib/blogPostsBatch4.js") + "\n" + plain("src/lib/blogPostsBatch5.js") + "\n" + plain("src/lib/blogPostsBatch6.js") + "\n" + plain("src/lib/blogPostsBatch7.js") + "\n" + plain("src/lib/blogPostsBatch8.js") + "\n" + plain("src/lib/blogPostsGenerated.js");
   const ctx = { console };
   vm.runInNewContext(
     `${dataSrc}\n${generatedSrc}\n${marylandSrc}\n${batch3Src}\n${landingSrc}\n${staticSrc}\nthis.__data = { keywordSection, placeName, BRAND, TESTIMONIALS, NAV_SERVICES, PAGE_FAQS, cityFaqs, breadcrumbTrail, breadcrumbSchema, GUIDES, BLOG_POSTS, PRESS_CONTENT, PARTNERS_CONTENT, SERVICE_PAGES, LANDING_PAGES, CITIES, HOME_ABOUT, EXTERNAL_LINKS, FAQS, AREAS, WHY, SOCIAL, CHAMBER, AIRPORTS, FLEET, POLICY, BOOKING_CONTENT, CONTACT_CONTENT, ABOUT_CONTENT, pageSchema };`,
@@ -91,10 +91,10 @@ const ul = (items) => (items && items.length ? `<ul>${items.map((i) => `<li>${i}
 // ---------------------------------------------------------------------------
 const STATIC_PAGES = {
   "/": {
-    title: "BWI, DCA & IAD Limo & Car Service | 92 Limo Service",
+    title: "Limo & Car Service in Maryland, DC & Virginia | 92 Limo",
     description:
-      "Chauffeured limo & black car service across MD, DC & VA — BWI/DCA/IAD transfers, weddings, corporate travel. Flat rates 24/7. Call (877) 609-1919.",
-    h1: "Luxury Airport & Chauffeur Service — BWI • DCA • IAD • DC • Maryland • Northern Virginia",
+      "Chauffeured luxury limo & black car service across Maryland, DC & Virginia — airport transfers, weddings, corporate travel. Flat rates, 24/7. (877) 609-1919.",
+    h1: "Luxury Black Car Service in Washington DC, Maryland & Virginia",
     paras: [
       "Professional airport transfers, corporate travel, hourly chauffeur service, weddings, and long-distance transportation — delivered with precision, discretion, and uncompromising comfort.",
       "92 Limo Service (92 Transportation LLC, MD PSC Carrier #6325) provides 24/7 chauffeured car service across the DMV, with real-time flight tracking, optional meet & greet pickups, and a fleet of immaculate late-model sedans, SUVs and Sprinter vans.",
@@ -213,9 +213,9 @@ const STATIC_PAGES = {
     ],
   },
   "/blog": {
-    title: "Blog | Chauffeur & Airport Travel Tips | 92 Limo Service",
+    title: "Blog | Travel Guides & Tips | 92 Limo Service",
     description:
-      "Airport guides, rideshare comparisons and local transportation advice for Maryland, DC & Virginia from the 92 Limo Service team.",
+      "Guides and tips from 92 Limo Service — BWI, DCA & IAD airport travel, corporate transportation, weddings, and getting around the DMV in style.",
     h1: "The 92 Limo Service Blog",
     paras: [
       "Practical guides to airport transportation at BWI, DCA and IAD, honest comparisons of chauffeured car service with rideshare, and local transportation guides for Maryland cities — written by the team that drives these routes every day.",
@@ -341,7 +341,7 @@ const RICH_STATIC = {
     ul([
       ...data.GUIDES.map((g) => `${a(`/${g.slug}`, g.title)} — ${esc(g.excerpt)}`),
       ...data.BLOG_POSTS.map((b) => `${a(`/blog/${b.slug}`, b.title)} — ${esc(b.excerpt)}`),
-    ]),
+    ]) + ldJson(data.pageSchema("WebPage", "/blog", s.title, s.description)),
 };
 
 // Page-specific FAQ block (src/lib/pageFaqs.js) — same data the React <Faq> uses.
@@ -359,7 +359,13 @@ function buildStatic(route, data) {
   let s = STATIC_PAGES[route];
   if (LEGAL_PAGES[route]) {
     const html = renderLegal(LEGAL_PAGES[route], { POLICY: data.POLICY, BRAND: data.BRAND });
-    if (html) return { title: s.title, description: s.description, body: html + pageFaqBlock(route, data) };
+    if (html) {
+      return {
+        title: s.title,
+        description: s.description,
+        body: ldJson(data.pageSchema("WebPage", route, s.title, s.description)) + html + pageFaqBlock(route, data),
+      };
+    }
   }
   if (s.fromContent) {
     const c = data[s.fromContent];
@@ -380,8 +386,8 @@ function buildStatic(route, data) {
     body: route === "/"
       ? buildHomeBody(s, data)
       : route === "/service-areas"
-        ? h(1, s.h1) + s.paras.map(p).join("") + buildServiceAreas(data) + pageFaqBlock(route, data)
-        : h(1, s.h1) + s.paras.map(p).join("") + pageFaqBlock(route, data),
+        ? ldJson(data.pageSchema("WebPage", route, s.title, s.description)) + h(1, s.h1) + s.paras.map(p).join("") + buildServiceAreas(data) + pageFaqBlock(route, data)
+        : ldJson(data.pageSchema("WebPage", route, s.title, s.description)) + h(1, s.h1) + s.paras.map(p).join("") + pageFaqBlock(route, data),
   };
 }
 
@@ -422,6 +428,7 @@ function buildHomeBody(s, data) {
     .map((l) => `<li>${a(l.href, l.label)}</li>`)
     .join("");
   return (
+    ldJson(data.pageSchema("WebPage", "/", s.title, s.description)) +
     h(1, s.h1) +
     s.paras.map(p).join("") +
     (about.heading ? h(2, about.heading) : "") +

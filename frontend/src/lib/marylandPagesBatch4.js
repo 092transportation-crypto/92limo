@@ -645,7 +645,7 @@ export const MARYLAND_BATCH4_PAGES = {
           { label: "North Point" },
           { label: "Turner Station" },
           { label: "Eastpoint" },
-          { label: "Essex" },
+          { label: "Essex", to: "/essex-md-limo-service" },
           { label: "White Marsh", to: "/white-marsh-limo-service" }
         ]
       },
@@ -1187,7 +1187,7 @@ export const MARYLAND_BATCH4_PAGES = {
         places: [
           { label: "Downtown Wheaton" },
           { label: "Glenmont" },
-          { label: "Kensington" },
+          { label: "Kensington", to: "/kensington-md-limo-service" },
           { label: "Aspen Hill" },
           { label: "Forest Glen" },
           { label: "Kemp Mill" },

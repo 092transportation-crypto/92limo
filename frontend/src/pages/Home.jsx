@@ -13,15 +13,17 @@ import { Testimonials } from "@/components/site/Testimonials";
 import { Awards } from "@/components/site/Awards";
 import { CTASection } from "@/components/site/CTASection";
 import { FAQS } from "@/lib/data";
+import { pageSchema } from "@/lib/pageSchema";
+
+const TITLE = "Limo & Car Service in Maryland, DC & Virginia | 92 Limo";
+const DESCRIPTION =
+  "Chauffeured luxury limo & black car service across Maryland, DC & Virginia — airport transfers, weddings, corporate travel. Flat rates, 24/7. (877) 609-1919.";
+const SCHEMA = pageSchema("WebPage", "/", TITLE, DESCRIPTION);
 
 export default function Home() {
   return (
     <>
-      <Seo
-        title="Limo & Car Service in Maryland, DC & Virginia | 92 Limo"
-        description="Chauffeured luxury limo & black car service across Maryland, DC & Virginia — airport transfers, weddings, corporate travel. Flat rates, 24/7. (877) 609-1919."
-        path="/"
-      />
+      <Seo title={TITLE} description={DESCRIPTION} path="/" schema={SCHEMA} />
       <Hero />
       <Testimonials featuredOnly limit={5} />
       <Services />

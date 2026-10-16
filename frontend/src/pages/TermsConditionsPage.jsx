@@ -2,15 +2,17 @@ import { Seo } from "@/components/site/Seo";
 import { Link } from "react-router-dom";
 import { LegalLayout, LH2, LP, LUL } from "@/components/site/LegalLayout";
 import { POLICY } from "@/lib/data";
+import { pageSchema } from "@/lib/pageSchema";
+
+const TITLE = "Terms & Conditions | 92 Limo Service";
+const DESCRIPTION =
+  "92 Limo Service Terms & Conditions — SMS terms, bookings, payment, cancellation, liability, and service area across DC, Maryland & Virginia.";
+const SCHEMA = pageSchema("WebPage", "/terms-conditions", TITLE, DESCRIPTION);
 
 export default function TermsConditionsPage() {
   return (
     <>
-      <Seo
-        title="Terms & Conditions | 92 Limo Service"
-        description="92 Limo Service Terms & Conditions — SMS terms, bookings, payment, cancellation, liability, and service area across DC, Maryland & Virginia."
-        path="/terms-conditions"
-      />
+      <Seo title={TITLE} description={DESCRIPTION} path="/terms-conditions" schema={SCHEMA} />
       <LegalLayout eyebrow="LEGAL" title="Terms and Conditions" effectiveDate="June 29, 2026">
         <LP>
           These Terms and Conditions ("Terms") govern your use of the transportation services

@@ -5,15 +5,17 @@ import { Airports } from "@/components/site/Airports";
 import { PopularRoutes } from "@/components/site/PopularRoutes";
 import { CTASection } from "@/components/site/CTASection";
 import { IMAGES } from "@/lib/data";
+import { pageSchema } from "@/lib/pageSchema";
+
+const TITLE = "Our Services | Airport, Corporate & Wedding | 92 Limo";
+const DESCRIPTION =
+  "Airport car service (BWI, DCA, IAD), corporate travel, hourly chauffeur, weddings, and long-distance private car service across DC, Maryland & Virginia.";
+const SCHEMA = pageSchema("WebPage", "/services", TITLE, DESCRIPTION);
 
 export default function ServicesPage() {
   return (
     <>
-      <Seo
-        title="Our Services | Airport, Corporate & Wedding | 92 Limo"
-        description="Airport car service (BWI, DCA, IAD), corporate travel, hourly chauffeur, weddings, and long-distance private car service across DC, Maryland & Virginia."
-        path="/services"
-      />
+      <Seo title={TITLE} description={DESCRIPTION} path="/services" schema={SCHEMA} />
       <PageHero
         eyebrow="OUR SERVICES"
         title="Premium Chauffeur Services Across the DMV"

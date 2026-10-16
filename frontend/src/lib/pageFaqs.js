@@ -91,6 +91,21 @@ export const PAGE_FAQS = {
     { q: "Do you work with other limousine companies?", a: "Yes. Out-of-state operators use us as their on-the-ground affiliate for Baltimore–Washington trips. We are licensed by the Maryland PSC as Carrier #6325 and can provide certificates of insurance." },
   ],
 
+  "/privacy-policy": [
+    { q: "What personal information does 92 Limo Service collect?", a: "Only what is needed to book and complete your ride: name, phone number, email, pickup and drop-off addresses, flight details when relevant, and payment information processed through our secure payment provider." },
+    { q: "Do you share or sell my information to other companies?", a: "No. Your information is used to operate your reservation and is never sold to third parties. Mobile opt-in data and SMS consent in particular are never shared with third parties for marketing." },
+    { q: "How do I opt out of SMS text messages?", a: `Reply STOP to any text message, or call ${PHONE_TXT} and ask to be removed from SMS notifications. You will still receive essential trip confirmations by phone or email.` },
+    { q: "Is my payment information stored securely?", a: "Yes. Payment details are processed through a secure, PCI-compliant payment provider. 92 Limo Service does not store full card numbers on its own systems." },
+    { q: "Who can I contact with a privacy question?", a: "Email info@92limo.com or call " + PHONE_TXT + " and we will address your question directly." },
+  ],
+  "/terms-conditions": [
+    { q: "What do these terms cover?", a: "Bookings, payment, cancellation, liability, SMS messaging and our service area across DC, Maryland and Virginia. Booking with 92 Limo Service means you agree to these terms." },
+    { q: "When is my payment method charged?", a: "Only after your reservation and rate are confirmed — never automatically at the moment of an online request. A temporary pre-authorization hold may be placed before the trip." },
+    { q: "What is the cancellation policy under these terms?", a: CANCEL_TXT + " Cancellations inside those windows may be charged up to 100% of the quoted fare." },
+    { q: "What happens if I am a no-show?", a: "A reservation is treated as a no-show when the passenger cannot be reached and does not appear within the complimentary waiting-time allowance, and is charged the full quoted fare plus any applicable charges already incurred." },
+    { q: "Do these terms cover liability for delays outside your control?", a: "Yes — liability provisions, including those for events outside our reasonable control such as severe weather or road closures, are detailed in full in these terms. Call " + PHONE_TXT + " with any specific question before you book." },
+  ],
+
   // Rendered inline by CarSeatServicePage.jsx.
   "/car-seat-service": [
   {

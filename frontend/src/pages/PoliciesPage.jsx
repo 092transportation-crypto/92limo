@@ -3,6 +3,12 @@ import { Link, useLocation } from "react-router-dom";
 import { Seo } from "@/components/site/Seo";
 import { LegalLayout, LH2, LP, LUL } from "@/components/site/LegalLayout";
 import { POLICY, BRAND } from "@/lib/data";
+import { pageSchema } from "@/lib/pageSchema";
+
+const TITLE = "Booking & Cancellation Policies | 92 Limo Service";
+const DESCRIPTION =
+  "92 Limo Service policies — pricing inclusions, cancellation (3 h / 12 h), waiting time (45/60 min airport), no-show and vehicle substitution.";
+const SCHEMA = pageSchema("WebPage", "/policies", TITLE, DESCRIPTION);
 
 // Combined policies page. Each section has a stable id so the footer and
 // booking page can deep-link (e.g. /policies#cancellation).
@@ -31,11 +37,7 @@ export default function PoliciesPage() {
 
   return (
     <>
-      <Seo
-        title="Booking & Cancellation Policies | 92 Limo Service"
-        description="92 Limo Service policies — pricing inclusions, cancellation (3 h / 12 h), waiting time (45/60 min airport), no-show and vehicle substitution."
-        path="/policies"
-      />
+      <Seo title={TITLE} description={DESCRIPTION} path="/policies" schema={SCHEMA} />
       <LegalLayout eyebrow="POLICIES" title="Booking & Service Policies" effectiveDate="August 24, 2026">
         <LP>
           These policies apply to every reservation with 92 Limo Service ({BRAND.legal}, {BRAND.psc})

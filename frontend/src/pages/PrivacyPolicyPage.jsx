@@ -1,14 +1,16 @@
 import { Seo } from "@/components/site/Seo";
 import { LegalLayout, LH2, LH3, LP, LUL } from "@/components/site/LegalLayout";
+import { pageSchema } from "@/lib/pageSchema";
+
+const TITLE = "Privacy Policy & SMS Terms | 92 Limo Service";
+const DESCRIPTION =
+  "92 Limo Service Privacy Policy & SMS Terms — what we collect, how we use it, and SMS opt-in/opt-out. Mobile opt-in data is never shared for marketing.";
+const SCHEMA = pageSchema("WebPage", "/privacy-policy", TITLE, DESCRIPTION);
 
 export default function PrivacyPolicyPage() {
   return (
     <>
-      <Seo
-        title="Privacy Policy & SMS Terms | 92 Limo Service"
-        description="92 Limo Service Privacy Policy & SMS Terms — what we collect, how we use it, and SMS opt-in/opt-out. Mobile opt-in data is never shared for marketing."
-        path="/privacy-policy"
-      />
+      <Seo title={TITLE} description={DESCRIPTION} path="/privacy-policy" schema={SCHEMA} />
       <LegalLayout
         eyebrow="LEGAL"
         title="Privacy Policy & SMS Terms and Conditions"

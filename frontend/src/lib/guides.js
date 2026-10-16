@@ -1189,4 +1189,456 @@ export const GUIDES = [
       },
     ],
   },
+  {
+    slug: "how-much-does-a-limo-cost-from-bwi-to-annapolis",
+    title: "How Much Does a Limo Cost From BWI Airport to Annapolis?",
+    metaTitle: "BWI to Annapolis Limo Cost 2026 | 92 Limo Service",
+    metaDescription:
+      "What a BWI-to-Annapolis car service actually costs and what drives the price. Call (877) 609-1919 for a confirmed flat-rate quote, 24/7.",
+    category: "Pricing Guides",
+    date: "2026-10-16",
+    readTime: "7 min read",
+    excerpt:
+      "A plain-English breakdown of what determines the price of a chauffeured ride between BWI Marshall and Annapolis, and how it compares to rideshare and a rental car.",
+    image: "/images/blog/landmark-annapolis-1.webp",
+    intro: [
+      "\"How much does a limo cost from BWI to Annapolis?\" is one of the most common questions we get from travelers flying into Baltimore/Washington International Thurgood Marshall Airport with a trip to Maryland's capital ahead of them — a business meeting at the State House, a wedding at a waterfront venue, or simply a visit to the historic district and the Naval Academy.",
+      "The honest answer is that it depends on a handful of specific factors, not a single number that applies to everyone. This guide walks through exactly what goes into the price, so you know what to expect before you call or book online.",
+    ],
+    sections: [
+      {
+        heading: "The Route: BWI to Annapolis in Real Terms",
+        paragraphs: [
+          "BWI Marshall sits about 18 to 20 miles from downtown Annapolis, and the drive runs along MD-170 and MD-100 to I-97 South, typically taking 25 to 35 minutes depending on traffic. It is one of the more predictable legs in our service area — there is no tunnel, no major bridge, and relatively little rush-hour congestion compared with a Beltway route.",
+          "That predictability matters for pricing. Routes with heavy traffic variability or tolled crossings tend to carry a wider price range because the time commitment is less certain. BWI to Annapolis is a comparatively stable quote for that reason.",
+        ],
+      },
+      {
+        heading: "What Actually Determines the Price",
+        paragraphs: [
+          "A flat-rate quote for this route is built from a few concrete inputs:",
+        ],
+        list: [
+          "Vehicle class — a Business Sedan costs less than a Premium SUV or a Sprinter Executive van, simply because of what the vehicle itself costs to operate and insure",
+          "Passenger and luggage count — a party of two with carry-ons prices differently than a family of five with checked bags and golf clubs",
+          "Time of day and date — overnight pickups, holiday weekends, and Naval Academy commissioning week all affect vehicle availability",
+          "Meet & greet — curbside pickup is included in the base fare; a chauffeur meeting you inside baggage claim with a name sign is an additional charge",
+          "Wait time — airport pickups include 45 minutes of complimentary waiting on domestic arrivals and 60 minutes on international arrivals, built into the quote",
+        ],
+      },
+      {
+        heading: "What's Included — and What's Disclosed Separately",
+        paragraphs: [
+          "The quoted rate for a BWI-to-Annapolis transfer covers the base transportation charge. Driver gratuity, tolls, parking, additional waiting time, and any other applicable charges are clearly disclosed before you confirm the booking — never added as a surprise at drop-off. This route has no tolls, which keeps the final number close to the quoted rate in most cases.",
+          "92 Limo Service confirms the exact price before you ride, not after. You will know the total before your card is ever charged, and your card is only charged once the reservation is confirmed.",
+        ],
+      },
+      {
+        heading: "How It Compares to Rideshare and a Rental Car",
+        paragraphs: [
+          "A rideshare trip from BWI to Annapolis can be less expensive at an off-peak hour, but the price is dynamic — it moves with demand, time of day and weather, and you typically only see the real number when you are ready to leave the terminal. It also means a random driver and vehicle, and no guaranteed child car seat.",
+          "A rental car adds the cost of the rental itself, fuel, a parking fee in Annapolis (where downtown parking is limited and metered), and the hassle of navigating an unfamiliar historic street grid with one-way streets near the harbor. For a single round trip, a chauffeured transfer is often comparable in total cost once parking and fuel are factored in — without the parking search.",
+          "A chauffeured ride is the predictable middle option: one confirmed price, a professional chauffeur who knows Annapolis's circles and one-way streets, and a vehicle that is exactly the class you reserved.",
+        ],
+      },
+      {
+        heading: "Getting an Exact Quote",
+        paragraphs: [
+          "Because the final number depends on your specific trip, the fastest way to get an exact figure is to call (877) 609-1919 or request a quote online with your flight details, passenger count, and Annapolis destination — whether that is downtown, the Naval Academy, Eastport, or a waterfront venue further out. 92 Limo Service is a Maryland PSC-licensed carrier (#6325) based in nearby Laurel, and we run this route often enough to quote it quickly and accurately.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "BWI to Annapolis car service", to: "/bwi-to-annapolis" },
+      { label: "Annapolis limo service", to: "/annapolis-limo-service" },
+      { label: "BWI Airport car service", to: "/bwi-airport-car-service" },
+      { label: "Booking & cancellation policies", to: "/policies" },
+      { label: "Book your ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "How much does a limo cost from BWI to Annapolis?",
+        a: "It depends on vehicle class, passenger count, time of day and whether you add meet & greet, but the route is one of the more predictable ones we quote since it has no tolls and relatively light traffic variability. Call (877) 609-1919 for an exact flat-rate quote confirmed before you book.",
+      },
+      {
+        q: "Is the price different for an SUV versus a sedan?",
+        a: "Yes. A Premium SUV or Sprinter Executive van costs more than a Business Sedan, reflecting the vehicle class, capacity and operating cost. Tell us your party size and luggage and we will recommend the right class.",
+      },
+      {
+        q: "Does the quote include tolls and parking?",
+        a: "The BWI-to-Annapolis route has no tolls. Any parking, gratuity, additional waiting time, or other applicable charges are disclosed clearly before you confirm the booking, so the total is known in advance.",
+      },
+      {
+        q: "Is a limo more expensive than a rideshare for this route?",
+        a: "It depends on the time of day. Rideshare pricing is dynamic and can be cheaper off-peak, but it is unpredictable during busy periods and does not guarantee a specific vehicle class or a car seat. A chauffeured quote is confirmed and fixed before you ride.",
+      },
+      {
+        q: "How far in advance should I book to get the best rate?",
+        a: "The day before is usually sufficient for a sedan or SUV. Booking earlier matters most around Naval Academy events, graduation weekend, and summer boat show season, when vehicles book up rather than prices changing dramatically.",
+      },
+    ],
+  },
+  {
+    slug: "best-car-service-from-bwi-airport",
+    title: "Best Car Service From BWI Airport: How to Choose in 2026",
+    metaTitle: "Best Car Service From BWI Airport 2026 | 92 Limo",
+    metaDescription:
+      "What separates a reliable BWI Airport car service from the rest — licensing, flight tracking, fleet and pricing. Call (877) 609-1919, 24/7.",
+    category: "Airport Guides",
+    date: "2026-10-16",
+    readTime: "8 min read",
+    excerpt:
+      "A practical checklist for choosing a BWI Airport car service — what questions to ask, what to look for in the fine print, and the red flags worth avoiding.",
+    image: "/images/blog/airport-terminal-glass.webp",
+    intro: [
+      "Search \"best car service from BWI airport\" and you will find dozens of companies making similar promises: professional, reliable, affordable. The actual differences between them show up in the details most listings leave out — licensing, what happens when your flight is late, and what the quoted price actually includes.",
+      "We operate this airport every day, so this guide is written from the inside: the specific things worth checking before you book a car service for a BWI trip, regardless of which company you choose.",
+    ],
+    sections: [
+      {
+        heading: "Confirm the Company Is Actually Licensed",
+        paragraphs: [
+          "Maryland requires chauffeured transportation companies to be licensed by the Maryland Public Service Commission (PSC) as a for-hire carrier. A legitimate company will list its carrier number without hesitation — 92 Limo Service operates as 92 Transportation LLC, Maryland PSC Carrier #6325. If a company cannot or will not provide this, that is worth noticing.",
+          "Licensing matters because it ties to commercial insurance requirements, vehicle inspection standards, and driver background-check obligations. An unlicensed operator may be cheaper for a reason.",
+        ],
+      },
+      {
+        heading: "Ask Exactly How Flight Tracking Works",
+        paragraphs: [
+          "Every reputable BWI car service should track your actual flight, not your scheduled arrival time. Ask directly: does the chauffeur get an automatic alert if the flight is delayed, or does someone have to manually check and reschedule? The difference affects whether your pickup actually adjusts in real time.",
+          "Also ask how much complimentary waiting time is included once you land. 92 Limo Service includes 45 minutes on domestic arrivals and 60 minutes on international arrivals, timed from touchdown — enough to clear a slow baggage carousel or a customs line without a clock running against you.",
+        ],
+      },
+      {
+        heading: "Understand What the Quoted Price Includes",
+        paragraphs: [
+          "The best car services quote a flat rate and disclose everything else — gratuity, tolls, parking, additional waiting time — before you confirm. The worst practice in this industry is a low advertised base rate that balloons with mandatory add-ons revealed only at drop-off.",
+          "Ask directly: is this the total price, or are there charges that will be added later? A company confident in its pricing will answer plainly.",
+        ],
+      },
+      {
+        heading: "Look at the Actual Fleet, Not Just the Photos",
+        paragraphs: [
+          "Reservations should be made by vehicle class — Business Sedan, Premium SUV, Sprinter van, and so on — with a guarantee that the class you book is the class that arrives, or a comparable upgrade if something changes. Ask whether the company owns its vehicles or brokers to third-party drivers, since broker models make it harder to guarantee vehicle condition and chauffeur standards.",
+          "92 Limo Service owns and maintains its own fleet: Mercedes E-Class and BMW 7 Series sedans, Lincoln Nautilus, Chevrolet Suburban and Cadillac Escalade SUVs, and Mercedes Sprinter vans for groups up to 13.",
+        ],
+      },
+      {
+        heading: "Check Availability Around the Clock",
+        paragraphs: [
+          "BWI runs flights from early morning until late at night, and a service that only staffs dispatch during business hours is a poor match for a 5 a.m. departure or a midnight arrival. Confirm that dispatch — not just a booking website — is actually reachable 24/7.",
+        ],
+        list: [
+          "Is a live person reachable by phone at any hour, not just a chatbot or voicemail?",
+          "Can you request a car seat and have it confirmed, not just \"noted\"?",
+          "Does the company offer meet & greet inside baggage claim as an option?",
+          "Are cancellation terms stated clearly — ours are free up to 3 hours before pickup for sedans and SUVs, 12 hours for Sprinters and special events?",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "BWI Airport car service", to: "/bwi-airport-car-service" },
+      { label: "BWI Airport limo", to: "/bwi-airport-limo" },
+      { label: "BWI 24-hour airport car service", to: "/bwi-24-hour-airport-car-service" },
+      { label: "BWI airport meet & greet", to: "/bwi-airport-meet-and-greet" },
+      { label: "Book your ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "What makes one BWI car service better than another?",
+        a: "Licensing and insurance, real-time flight tracking with real wait-time allowances, transparent pricing with no hidden add-ons, a company-owned fleet with guaranteed vehicle classes, and 24/7 live dispatch — not just a booking app.",
+      },
+      {
+        q: "How do I verify a company is actually licensed in Maryland?",
+        a: "Ask for its Maryland PSC carrier number directly. 92 Limo Service operates as 92 Transportation LLC, Maryland PSC Carrier #6325, and provides certificates of insurance to corporate clients on request.",
+      },
+      {
+        q: "Should I worry about hidden fees with BWI car services?",
+        a: "Yes, it is worth asking directly whether the quoted price is the total or whether charges will be added later. A transparent company discloses gratuity, tolls, parking and wait time before you confirm — not after the ride.",
+      },
+      {
+        q: "Is a bigger company always more reliable than a smaller one?",
+        a: "Not necessarily. What matters is whether the company owns and maintains its own vehicles, background-checks its chauffeurs, and staffs dispatch 24/7 — qualities independent of size.",
+      },
+      {
+        q: "Can I request a specific vehicle class and be guaranteed it?",
+        a: "Yes, with a reputable service. Reservations are made by class, and if your exact vehicle becomes unavailable, you should receive a comparable or upgraded vehicle at no extra cost — never a smaller one without your agreement.",
+      },
+    ],
+  },
+  {
+    slug: "how-early-should-you-book-bwi-airport-transportation",
+    title: "How Early Should You Book BWI Airport Transportation?",
+    metaTitle: "How Early to Book BWI Airport Transportation | 92 Limo",
+    metaDescription:
+      "The right booking window for BWI car service — by season, flight time and vehicle type. Call (877) 609-1919 or book online, 24/7.",
+    category: "Airport Guides",
+    date: "2026-10-16",
+    readTime: "6 min read",
+    excerpt:
+      "When to actually book a car for a BWI trip — the honest answer varies by vehicle type, season and flight time, and this guide breaks down each case.",
+    image: "/images/site/airport-pickup.webp",
+    intro: [
+      "\"How early should I book BWI airport transportation?\" does not have one universal answer — it depends on the vehicle you need, the time of year, and whether your flight falls inside one of a handful of predictably busy windows. This guide gives the specific answer for each situation rather than a vague \"book early\" shrug.",
+      "We dispatch chauffeurs to BWI Marshall every day, so these are the actual patterns we see, not general advice copied from somewhere else.",
+    ],
+    sections: [
+      {
+        heading: "The Short Answer, by Vehicle Type",
+        paragraphs: [
+          "For a standard sedan or SUV on a normal weekday, booking the day before is usually enough. Our fleet runs sedans and SUVs in regular daily rotation, and same-day requests are frequently accommodated when availability allows.",
+          "Sprinter vans and limousines are a different story. They are a smaller slice of the fleet and the first vehicles to sell out for weddings, proms and large group trips, so booking several days to a couple of weeks ahead is the safer window whenever a larger vehicle is involved.",
+        ],
+      },
+      {
+        heading: "Pre-Dawn Departures Need Earlier Commitment",
+        paragraphs: [
+          "BWI has a heavy early departure bank, with many flights leaving between 6 and 8 a.m., which means pickups between 3:30 and 5:30 a.m. are common. This is the window with the thinnest on-demand driver supply across the region, particularly outside the Beltway.",
+          "Booking a reserved chauffeur the day before — ideally two to three days ahead during busy weeks — assigns a specific vehicle and chauffeur to your pickup rather than leaving it to chance. A dispatched reservation does not compete with other riders for the nearest available car at 4 a.m.",
+        ],
+      },
+      {
+        heading: "Seasonal Pressure Points",
+        paragraphs: [
+          "Certain stretches of the calendar compress the booking window significantly:",
+        ],
+        list: [
+          "Thanksgiving week and the Sunday after — one of the single busiest travel days of the year at BWI",
+          "The week before and after Christmas, and New Year's weekend",
+          "Memorial Day, July 4th and Labor Day weekends, when Maryland's beach traffic adds to airport demand",
+          "Preakness weekend and Naval Academy commissioning week, which pull Sprinter vans and limousines toward local events as well as airport runs",
+          "Spring prom season (April–May) and peak wedding season (May–October), which draw heavily on the same Sprinter and limousine fleet used for airport group transfers",
+        ],
+        subsections: [
+          {
+            heading: "During these windows",
+            paragraphs: [
+              "booking a week or more ahead is a reasonable target, and two weeks ahead is safer for a Sprinter van or limousine. Sedans and SUVs have more flexibility but still book up faster than usual.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "What Happens if You Book Late",
+        paragraphs: [
+          "Same-day and next-day requests for a standard sedan are often still accommodated — our dispatch works to fit them in whenever a vehicle is available. The risk with booking late is narrower, not nonexistent: during a peak week, or for anything larger than a sedan, late requests run into real availability limits rather than pricing penalties.",
+          "If your trip falls into a busy window and you are unsure whether you have waited too long, call (877) 609-1919 directly — a phone call gets a faster, more accurate availability answer than guessing from a form.",
+        ],
+      },
+      {
+        heading: "Why Booking Early Costs You Nothing",
+        paragraphs: [
+          "Because cancellation is free up to 3 hours before pickup for sedans and SUVs, and up to 12 hours for Sprinter vans, limousines and special events, there is very little downside to booking well ahead of your trip and adjusting later if plans change. Your card is not charged until the reservation is confirmed, and the quoted rate is locked in regardless of when the trip actually happens.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "BWI Airport transportation", to: "/bwi-airport-transportation" },
+      { label: "BWI Airport car service", to: "/bwi-airport-car-service" },
+      { label: "BWI 24-hour airport car service", to: "/bwi-24-hour-airport-car-service" },
+      { label: "Booking & cancellation policies", to: "/policies" },
+      { label: "Book your ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "How early should I book a sedan for a BWI airport trip?",
+        a: "The day before is usually sufficient for a normal weekday, and same-day requests are frequently accommodated when availability allows. Booking further ahead is safer during holiday weeks and peak travel weekends.",
+      },
+      {
+        q: "How far ahead should I book a Sprinter van or limousine for BWI?",
+        a: "Several days to two weeks ahead, since these are a smaller share of the fleet and the first vehicles to sell out for weddings, proms and group airport transfers.",
+      },
+      {
+        q: "Is it harder to book a car for an early-morning BWI departure?",
+        a: "Yes, in the sense that on-demand rideshare supply is thinnest between roughly 3:30 and 5:30 a.m. A pre-booked chauffeur assigns a specific vehicle and driver to your pickup ahead of time, which removes that uncertainty.",
+      },
+      {
+        q: "What are the busiest booking windows for BWI travel?",
+        a: "Thanksgiving week, the week around Christmas and New Year's, Memorial Day through Labor Day weekends, Preakness weekend, Naval Academy commissioning week, and prom and wedding season from spring through fall.",
+      },
+      {
+        q: "Is there a downside to booking too early?",
+        a: "No. Sedan and SUV reservations cancel free up to 3 hours before pickup, and Sprinter, limousine and special-event bookings up to 12 hours before, so booking ahead carries little risk if your plans change.",
+      },
+    ],
+  },
+  {
+    slug: "bwi-rental-car-vs-car-service",
+    title: "BWI Rental Car vs. Car Service: Which Costs Less for Your Trip?",
+    metaTitle: "BWI Rental Car vs Car Service: Real Cost Compared | 92 Limo",
+    metaDescription:
+      "Rental car or chauffeured car service from BWI Airport — the full cost comparison, including fees most travelers forget. Call (877) 609-1919.",
+    category: "Comparisons",
+    date: "2026-10-16",
+    readTime: "7 min read",
+    excerpt:
+      "The rental car counter quotes a low daily rate, but the full cost of renting at BWI includes several line items travelers often forget to add up. Here's the honest comparison against a chauffeured car service.",
+    image: "/images/site/sedan.webp",
+    intro: [
+      "A rental car at BWI Marshall often looks like the cheaper option at first glance — the daily rate advertised online can be lower than a single chauffeured transfer. The comparison changes once you add in everything that rate does not include, and once you factor in what a rental car is actually for versus what most airport trips actually need.",
+      "This guide walks through the real math for both options so you can compare apples to apples, not an advertised daily rate against a flat-rate quote.",
+    ],
+    sections: [
+      {
+        heading: "What a BWI Rental Actually Costs, Line by Line",
+        paragraphs: [
+          "The advertised daily rate is rarely the full story. Airport rentals typically add a concession recovery fee, vehicle licensing fee, and often a Maryland-specific surcharge, on top of the base rate. Add optional insurance if you do not have coverage through your own policy or credit card, a young-driver surcharge if applicable, and fuel — either prepaid at a markup or the hassle of finding a gas station before return.",
+          "Then there is parking. If your trip includes any time in downtown Baltimore, Annapolis, or Washington DC, metered and garage parking in those cities routinely runs $20 to $40 or more per day, often more than the rental itself for a multi-day stay.",
+        ],
+      },
+      {
+        heading: "What a Car Service Actually Costs",
+        paragraphs: [
+          "A chauffeured transfer is quoted as a single flat rate, confirmed before you ride. That rate covers the base transportation charge, and gratuity, tolls, parking and any other applicable charges are disclosed before you confirm — no separate line items to track down after the fact, and no surprise total at return.",
+          "For a single point-to-point trip — airport to hotel, airport to a meeting, airport to home — a car service often lands close to or below the all-in cost of a rental once parking and fees are included, without any of the logistics.",
+        ],
+      },
+      {
+        heading: "When a Rental Car Actually Makes Sense",
+        paragraphs: [
+          "To be fair to the rental option: if your trip genuinely requires a vehicle you control for multiple days across multiple stops — visiting several Maryland towns, a road trip up the coast, or extended business travel with unpredictable daily movement — a rental's per-day cost can be the more efficient choice despite the fees, simply because you are not paying for a chauffeured trip for every single stop.",
+          "The calculation flips when your actual need is a handful of point-to-point trips rather than ongoing, self-directed driving.",
+        ],
+      },
+      {
+        heading: "The Hidden Cost Rentals Don't Put on the Receipt",
+        paragraphs: [
+          "A few costs never show up on a rental invoice but are real nonetheless:",
+        ],
+        list: [
+          "Time spent at the rental counter and shuttle bus to the lot, often 20–40 minutes round trip at a busy airport",
+          "The stress of navigating an unfamiliar city — Baltimore's one-way streets, Annapolis's historic traffic circles, or DC's diagonal avenues — immediately after a flight",
+          "Liability for tickets, tolls (E-ZPass rental surcharges are common), and any damage, however minor",
+          "No flight-delay accommodation — a late flight does not extend a rental pickup window the way it extends a chauffeur's wait time",
+        ],
+      },
+      {
+        heading: "The Simple Test",
+        paragraphs: [
+          "Ask one question: will this vehicle actually be driven multiple times a day across multiple days, or is it really a series of individual trips? If it is the latter, a chauffeured car service from 92 Limo Service is usually the simpler and often less expensive choice once every fee is counted. Call (877) 609-1919 or book online for a flat-rate quote on your specific trip.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "BWI Airport car service", to: "/bwi-airport-car-service" },
+      { label: "BWI Airport transportation", to: "/bwi-airport-transportation" },
+      { label: "Corporate & executive car service", to: "/corporate-transportation" },
+      { label: "Long-distance private car service", to: "/long-distance-transportation" },
+      { label: "Book your ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "Is a rental car cheaper than a car service from BWI?",
+        a: "Often not once every fee is included — concession recovery fees, licensing fees, optional insurance, fuel and destination-city parking can push the real cost of a rental above a flat-rate chauffeured transfer for a single round trip.",
+      },
+      {
+        q: "When does a rental car actually make more sense?",
+        a: "When your trip genuinely requires a vehicle for multiple days across multiple self-directed stops, rather than a handful of point-to-point trips.",
+      },
+      {
+        q: "Does a car service charge extra for airport parking?",
+        a: "No. There is no parking cost for you with a chauffeured pickup — your driver handles the arrival and departure logistics, and the quoted rate is disclosed before you confirm, with no separate parking line item on your end.",
+      },
+      {
+        q: "What happens if my flight is delayed with each option?",
+        a: "A car service tracks your flight and adjusts the pickup automatically, with complimentary wait time built in. A rental car reservation does not extend itself for a delay — you simply pay for the rental time regardless of when you arrive.",
+      },
+      {
+        q: "Can a car service handle multiple stops like a rental would?",
+        a: "Yes, with hourly as-directed service, which keeps one chauffeur and vehicle with you for a block of time rather than a single point-to-point route. It is a reasonable alternative for a day with several planned stops.",
+      },
+    ],
+  },
+  {
+    slug: "bwi-airport-pickup-what-to-expect",
+    title: "What to Expect at BWI Airport Pickup: A First-Time Guide",
+    metaTitle: "BWI Airport Pickup: What to Expect | 92 Limo Service",
+    metaDescription:
+      "Curbside vs. meet & greet, where to wait, and what happens if you're delayed — a first-time guide to BWI car service pickup. Call (877) 609-1919.",
+    category: "Airport Guides",
+    date: "2026-10-16",
+    readTime: "6 min read",
+    excerpt:
+      "First time booking a chauffeured pickup at BWI? Here is exactly what happens from touchdown to the vehicle door, including what to do if anything changes.",
+    image: "/images/blog/airport-dropoff.webp",
+    intro: [
+      "If you have never booked a chauffeured car service before, the mechanics of an airport pickup can feel like a mystery — where do you actually go, how does the driver find you, and what if your flight is early or late? This guide walks through a BWI Marshall pickup from touchdown to departure, step by step.",
+      "The process is designed to remove guesswork, but it helps to know what to expect the first time.",
+    ],
+    sections: [
+      {
+        heading: "Before You Land: What's Already Happening",
+        paragraphs: [
+          "Once your reservation is confirmed, your flight number is attached to the booking, and 92 Limo Service tracks it in real time. If your flight is running early or late, your chauffeur's schedule adjusts automatically — you do not need to call and update anyone. The chauffeur is typically en route to the airport timed against your actual landing, not the printed schedule.",
+        ],
+      },
+      {
+        heading: "Curbside Pickup: The Default Option",
+        paragraphs: [
+          "Curbside pickup is included in every airport reservation. After you land and collect your luggage, you will receive a text or call with your chauffeur's name, vehicle description, and exact curbside location at BWI's arrivals level. BWI's terminal has clearly marked pickup zones for pre-arranged car services, separate from the general rideshare queue, which keeps the process quick.",
+          "You walk out, find the vehicle, and your chauffeur helps with luggage immediately. No app to refresh, no searching for a matching license plate among a crowd of similar cars.",
+        ],
+      },
+      {
+        heading: "Meet & Greet: The Inside-the-Terminal Option",
+        paragraphs: [
+          "If you would rather not navigate the curb yourself — common for first-time visitors, elderly travelers, business guests, or simply after a long flight — meet & greet is available for an additional charge. Your chauffeur waits inside near baggage claim holding a sign with your name, helps locate and carry your bags, and walks you directly to the vehicle.",
+          "This option is worth considering any time you are picking up someone unfamiliar with the airport or traveling with significant luggage.",
+        ],
+      },
+      {
+        heading: "If Your Flight Is Delayed",
+        paragraphs: [
+          "Nothing changes on your end. Flight tracking means your chauffeur already knows and has adjusted the pickup time. Airport pickups include 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals, timed from actual touchdown rather than the original scheduled time — so a slow customs line or a late gate assignment does not put you on a clock.",
+        ],
+      },
+      {
+        heading: "What to Have Ready",
+        paragraphs: [
+          "A smooth pickup is mostly about a few small things:",
+        ],
+        list: [
+          "Your phone on and reachable for a text or call with pickup details",
+          "Your flight number confirmed with the reservation, especially if it changed after booking",
+          "Any car seat request made in advance — seats are installed before the vehicle arrives, not assembled curbside",
+          "A heads-up if your party size or luggage count changed from the original booking",
+        ],
+      },
+      {
+        heading: "After Pickup",
+        paragraphs: [
+          "Once you're in the vehicle, the rest is straightforward: your chauffeur confirms the destination, water is available in the vehicle, and you are driven directly to your address, hotel, or next stop. The rate was confirmed before the ride, so there is nothing to settle at drop-off beyond anything disclosed in advance.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "BWI Airport meet & greet", to: "/bwi-airport-meet-and-greet" },
+      { label: "BWI Airport car service", to: "/bwi-airport-car-service" },
+      { label: "Car seat service", to: "/car-seat-service" },
+      { label: "Booking & cancellation policies", to: "/policies" },
+      { label: "Book your ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "Where exactly does my chauffeur pick me up at BWI?",
+        a: "At the designated curbside pickup zone on the arrivals level, in a spot separate from the general rideshare queue. You'll receive your chauffeur's name, vehicle description and exact location by text or call once you land.",
+      },
+      {
+        q: "What is meet & greet and is it worth it?",
+        a: "It means your chauffeur waits inside near baggage claim with a name sign and helps with luggage from there, available for an additional charge. It is worth considering for first-time visitors, elderly travelers, or anyone with significant luggage.",
+      },
+      {
+        q: "What happens if my flight lands early or late?",
+        a: "Your chauffeur's schedule adjusts automatically based on real-time flight tracking. You do not need to call anyone — airport pickups include 45 minutes of complimentary wait on domestic arrivals and 60 minutes on international, from actual touchdown.",
+      },
+      {
+        q: "Do I need to confirm my flight number before pickup day?",
+        a: "Yes, and update it immediately if it changes after booking, so flight tracking follows the correct flight.",
+      },
+      {
+        q: "Can I request a car seat for my BWI pickup?",
+        a: "Yes. Request it when booking and share your child's age and weight — the correct seat is inspected, sanitized and installed before the vehicle arrives, not assembled at the curb.",
+      },
+    ],
+  },
 ];

@@ -38,5 +38,25 @@ export const GUIDE_TITLES = [
   {
     "slug": "holiday-lights-limo-tours-maryland-dc-virginia",
     "title": "Holiday Lights Limo & Chauffeur Tours: The Complete Guide for Maryland, DC & Northern Virginia"
+  },
+  {
+    "slug": "how-much-does-a-limo-cost-from-bwi-to-annapolis",
+    "title": "How Much Does a Limo Cost From BWI Airport to Annapolis?"
+  },
+  {
+    "slug": "best-car-service-from-bwi-airport",
+    "title": "Best Car Service From BWI Airport: How to Choose in 2026"
+  },
+  {
+    "slug": "how-early-should-you-book-bwi-airport-transportation",
+    "title": "How Early Should You Book BWI Airport Transportation?"
+  },
+  {
+    "slug": "bwi-rental-car-vs-car-service",
+    "title": "BWI Rental Car vs. Car Service: Which Costs Less for Your Trip?"
+  },
+  {
+    "slug": "bwi-airport-pickup-what-to-expect",
+    "title": "What to Expect at BWI Airport Pickup: A First-Time Guide"
   }
 ];

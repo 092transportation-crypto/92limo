@@ -6,6 +6,12 @@ import { CTASection } from "@/components/site/CTASection";
 import { Reveal } from "@/components/site/Reveal";
 import { IMAGES } from "@/lib/data";
 import { ROUTE_SLUGS, BEACH_SLUGS, LANDING_PAGES } from "@/lib/landingPages";
+import { pageSchema } from "@/lib/pageSchema";
+
+const TITLE = "Coverage Area | MD, DC, VA, DE & PA | 92 Limo Service";
+const DESCRIPTION =
+  "92 Limo Service coverage: all 23 Maryland counties, Baltimore City, Washington DC, Northern Virginia, Delaware (incl. Bethany & Rehoboth), and York, PA.";
+const SCHEMA = pageSchema("WebPage", "/coverage", TITLE, DESCRIPTION);
 
 const REGIONS = [
   {
@@ -49,11 +55,7 @@ export default function CoveragePage() {
   const popular = [...ROUTE_SLUGS, ...BEACH_SLUGS];
   return (
     <>
-      <Seo
-        title="Coverage Area | MD, DC, VA, DE & PA | 92 Limo Service"
-        description="92 Limo Service coverage: all 23 Maryland counties, Baltimore City, Washington DC, Northern Virginia, Delaware (incl. Bethany & Rehoboth), and York, PA."
-        path="/coverage"
-      />
+      <Seo title={TITLE} description={DESCRIPTION} path="/coverage" schema={SCHEMA} />
       <PageHero
         eyebrow="COVERAGE"
         title="Where We Provide Service"

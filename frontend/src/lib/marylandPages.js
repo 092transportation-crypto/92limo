@@ -1783,7 +1783,8 @@ export const MARYLAND_LANDING_PAGES = {
             "label": "Highland"
           },
           {
-            "label": "Fulton"
+            "label": "Fulton",
+            "to": "/fulton-md-limo-service"
           },
           {
             "label": "Glenelg"

@@ -34,6 +34,7 @@ module.exports = function renderLegal(file, data) {
         LUL: ({ items }) => e("ul", null, items.map((it, i) => e("li", { key: i }, it))),
       },
       "@/lib/data": data,
+      "@/lib/pageSchema": { pageSchema: () => null },
     };
 
     const { code } = babel.transformSync(fs.readFileSync(path.join(ROOT, file), "utf8"), {

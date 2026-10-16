@@ -118,7 +118,7 @@ export const MARYLAND_BATCH3_PAGES = {
           { label: "Foundry Row" },
           { label: "New Town" },
           { label: "Garrison" },
-          { label: "Reisterstown" },
+          { label: "Reisterstown", to: "/reisterstown-limo-service" },
           { label: "Glyndon" },
           { label: "Pikesville", to: "/pikesville-limo-service" }
         ]
@@ -348,7 +348,7 @@ export const MARYLAND_BATCH3_PAGES = {
         places: [
           { label: "Downtown Westminster and Main Street" },
           { label: "Finksburg" },
-          { label: "Hampstead" },
+          { label: "Hampstead", to: "/hampstead-md-limo-service" },
           { label: "Manchester" },
           { label: "New Windsor" },
           { label: "Taneytown" },
@@ -964,7 +964,7 @@ export const MARYLAND_BATCH3_PAGES = {
           { label: "Central Avenue (MD-214)" },
           { label: "Landover Road (MD-202)" },
           { label: "Morgan Boulevard Metro station" },
-          { label: "Largo and Woodmore hotels and restaurants" }
+          { label: "Largo and Woodmore hotels and restaurants", to: "/largo-md-limo-service" }
         ]
       },
       {
