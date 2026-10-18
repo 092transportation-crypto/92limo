@@ -38,7 +38,7 @@ export const MARYLAND_BATCH5_PAGES = {
           { label: "Downtown Laurel and Main Street" },
           { label: "Konterra and Brock Bridge" },
           { label: "Russett and Maryland City" },
-          { label: "Fort Meade" },
+          { label: "Fort Meade", to: "/fort-meade-md-limo-service" },
         ],
       },
       {

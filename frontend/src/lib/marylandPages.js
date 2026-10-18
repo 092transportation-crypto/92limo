@@ -62,7 +62,8 @@ export const MARYLAND_LANDING_PAGES = {
             "label": "Fairwood"
           },
           {
-            "label": "Mitchellville"
+            "label": "Mitchellville",
+            "to": "/mitchellville-md-limo-service"
           },
           {
             "label": "South Bowie"
@@ -856,7 +857,8 @@ export const MARYLAND_LANDING_PAGES = {
             "label": "Gambrills"
           },
           {
-            "label": "the Fort Meade gate communities"
+            "label": "the Fort Meade gate communities",
+            "to": "/fort-meade-md-limo-service"
           }
         ]
       },

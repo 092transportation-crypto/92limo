@@ -551,6 +551,7 @@ export const GUIDES = [
       { label: "BWI airport car service", to: "/bwi-airport-car-service" },
       { label: "BWI airport transportation guide", to: "/bwi-airport-transportation-guide" },
       { label: "Columbia, MD transportation guide", to: "/columbia-md-transportation-guide" },
+      { label: "Savage, MD limo service", to: "/savage-md-limo-service" },
       { label: "Executive car service in Maryland", to: "/executive-car-service-maryland" },
       { label: "All service areas", to: "/service-areas" },
     ],
@@ -659,6 +660,7 @@ export const GUIDES = [
       { label: "Airport car service from Columbia", to: "/airport-car-service/columbia" },
       { label: "BWI to Columbia", to: "/bwi-to-columbia" },
       { label: "Merriweather Post Pavilion transportation", to: "/merriweather-post-pavilion-transportation" },
+      { label: "Savage, MD limo service", to: "/savage-md-limo-service" },
       { label: "Laurel, MD transportation guide", to: "/laurel-md-transportation-guide" },
       { label: "BWI airport transportation guide", to: "/bwi-airport-transportation-guide" },
       { label: "Corporate transportation", to: "/corporate-transportation" },
@@ -1638,6 +1640,445 @@ export const GUIDES = [
       {
         q: "Can I request a car seat for my BWI pickup?",
         a: "Yes. Request it when booking and share your child's age and weight — the correct seat is inspected, sanitized and installed before the vehicle arrives, not assembled at the curb.",
+      },
+    ],
+  },
+  {
+    slug: "dca-airport-transportation-guide",
+    title: "DCA Airport Transportation Guide: Every Way to Get There and Back",
+    metaTitle: "DCA Airport Transportation Guide | 92 Limo Service",
+    metaDescription:
+      "Rideshare, Metro, taxi or a reserved chauffeur — a complete guide to getting to and from Reagan National Airport. Call (877) 609-1919 to book.",
+    category: "Airport Guides",
+    date: "2026-10-17",
+    readTime: "8 min read",
+    excerpt:
+      "Reagan National sits closer to downtown than almost any major US airport, which opens up more transportation options than most travelers realize. Here is the complete picture.",
+    image: "/images/blog/landmark-capitol-1.webp",
+    intro: [
+      "Ronald Reagan Washington National Airport is unusual among major US airports in how close it sits to the city it serves — the terminal is a few miles from the Capitol, across the river from Old Town Alexandria, and a short hop from Crystal City and Arlington. That proximity means travelers genuinely have more workable options here than at a typical airport on the edge of town, but it also means the fastest option on paper is not always the fastest in practice once terminal traffic and curb congestion are factored in.",
+      "This guide walks through every realistic way to reach DCA and get home again, so you can pick based on your trip rather than habit.",
+    ],
+    sections: [
+      {
+        heading: "Metro: Often the Fastest Option, With Real Limits",
+        paragraphs: [
+          "DCA has its own Metro station on the Yellow and Blue Lines, connected to the terminals by a covered walkway, which makes it one of the only US airports with true rail access inside the building. For a solo traveler with light luggage heading downtown or to Arlington during normal operating hours, Metro is frequently the fastest and cheapest way to or from the airport.",
+          "The limits are real, though: Metro has reduced overnight and early-morning service, the walkway is a genuine hike with heavy bags, and a party of three or four with suitcases usually finds a car more practical than hauling luggage through fare gates and up escalators.",
+        ],
+      },
+      {
+        heading: "Rideshare and Taxi: Reliable Midday, Less Predictable at the Edges",
+        paragraphs: [
+          "Rideshare pickup at DCA is well organized, with a dedicated pickup area and clear signage, and during normal daytime hours it is usually a short wait. The variability shows up at the margins: very early departures, late-night arrivals, and peak congestion periods when the terminal curb backs up and the app's estimated wait time stretches past what it originally quoted.",
+          "Taxis queue at a dedicated stand and are a reasonable fallback if you would rather not deal with an app, though pricing is metered rather than quoted in advance.",
+        ],
+      },
+      {
+        heading: "Reserved Car Service: What You Trade for Certainty",
+        paragraphs: [
+          "A pre-booked chauffeur with 92 Limo Service works differently from all of the above: a specific vehicle and chauffeur are assigned to your flight in advance, the rate is confirmed before you ride, and the pickup is flight-tracked so a delay does not strand you or run up a bill. Airport pickups include 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals, timed from touchdown.",
+          "Curbside pickup is included on every reservation; meet & greet inside baggage claim is available for an additional charge for travelers who would rather not navigate the curb alone. The trade is straightforward — you pay for certainty rather than gambling on whichever option happens to be fastest that day.",
+        ],
+      },
+      {
+        heading: "Which Option Fits Which Trip",
+        paragraphs: [
+          "A rough rule of thumb that holds up across most DCA trips:",
+        ],
+        list: [
+          "Solo traveler, light bag, midday, flexible timing: Metro or rideshare",
+          "Group of three or more with luggage: a reserved vehicle sized for the party, or a larger rideshare tier if one is available",
+          "Early-morning departure before 6 a.m.: a reserved chauffeur, since both Metro and rideshare supply are thinnest at that hour",
+          "Business trip with a tight schedule or a client in the car: a reserved chauffeur, for the predictability",
+          "Visiting family or VIP guests unfamiliar with the airport: meet & greet, so someone experienced handles the walk from baggage claim",
+        ],
+      },
+      {
+        heading: "Getting to Popular DCA Destinations",
+        paragraphs: [
+          "Reagan National's location puts a wide range of destinations within a short, predictable drive: downtown Washington and Capitol Hill typically run 15 to 20 minutes, Georgetown about 20 minutes, Arlington and Crystal City closer to 10 minutes, and Old Town Alexandria roughly 15 minutes via the George Washington Parkway. Every one of these routes is one we drive daily, with flat-rate pricing confirmed before you book.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "DCA Airport car service", to: "/dca-airport-car-service" },
+      { label: "DCA Airport meet & greet", to: "/dca-airport-meet-and-greet" },
+      { label: "DCA to Georgetown", to: "/dca-to-georgetown" },
+      { label: "DCA to Arlington", to: "/dca-to-arlington" },
+      { label: "BWI Airport transportation guide", to: "/bwi-airport-transportation-guide" },
+      { label: "Book your ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "Is Metro or a car service faster to downtown DC from DCA?",
+        a: "During normal daytime hours with light luggage, Metro is often faster and cheaper for a solo traveler. With a group, heavy luggage, early-morning timing or a tight schedule, a reserved chauffeur is typically the more reliable choice.",
+      },
+      {
+        q: "Does Reagan National have a dedicated rideshare pickup area?",
+        a: "Yes, with clear signage and usually a short wait during normal hours, though waits can lengthen during very early mornings, late nights or peak congestion.",
+      },
+      {
+        q: "What is included with a reserved DCA car service pickup?",
+        a: "A specific chauffeur and vehicle assigned to your flight, real-time flight tracking, curbside pickup, and 45 minutes of complimentary wait time on domestic arrivals (60 on international), all at a rate confirmed before you ride.",
+      },
+      {
+        q: "How far is downtown DC from DCA?",
+        a: "Typically 15 to 20 minutes by car depending on traffic and your exact destination — one of the shortest downtown-to-airport drives of any major US city.",
+      },
+      {
+        q: "Can I get meet & greet service at DCA for visiting family?",
+        a: "Yes. Your chauffeur waits inside near baggage claim with a name sign and helps with luggage, available for an additional charge — a popular option for guests unfamiliar with the airport.",
+      },
+    ],
+  },
+  {
+    slug: "iad-dulles-airport-transportation-guide",
+    title: "IAD / Dulles Airport Transportation Guide: Every Way to Get There and Back",
+    metaTitle: "Dulles (IAD) Airport Transportation Guide | 92 Limo",
+    metaDescription:
+      "Silver Line Metro, rideshare, taxi or a reserved chauffeur — a complete guide to getting to and from Washington Dulles. Call (877) 609-1919.",
+    category: "Airport Guides",
+    date: "2026-10-17",
+    readTime: "8 min read",
+    excerpt:
+      "Dulles sits much farther from downtown than DCA, which changes the math on almost every transportation option. Here is what actually works.",
+    image: "/images/blog/airport-terminal-glass.webp",
+    intro: [
+      "Washington Dulles International Airport sits roughly 25 miles west of downtown DC, deep in Loudoun County's data-center and technology corridor, which makes it a fundamentally different transportation problem than Reagan National. The distance means small differences in traffic, timing and vehicle choice matter more here than at a closer-in airport, and a transportation decision that works fine for DCA can turn into a stressful hour on the Dulles Toll Road.",
+      "This guide covers every realistic option for getting to and from Dulles, with an honest look at where each one holds up and where it doesn't.",
+    ],
+    sections: [
+      {
+        heading: "Silver Line Metro: A Real Option Now, With Caveats",
+        paragraphs: [
+          "The Silver Line's extension to Dulles added rail service that did not exist for most of the airport's history, and for travelers heading to or from stops along the line in Tysons, Reston or downtown DC, it is a legitimate option. The airport station connects to the terminal via a moving walkway and shuttle, which adds time compared to a direct curb pickup.",
+          "The caveats: the ride from downtown DC to Dulles on the Silver Line takes close to an hour including the walk to the station and the transfer at the airport, it does not help at all if your origin or destination is not near a station, and heavy luggage makes the walkways and platform transfers considerably less pleasant.",
+        ],
+      },
+      {
+        heading: "Rideshare: Workable, But the Toll Road Is the Wildcard",
+        paragraphs: [
+          "Rideshare at Dulles has an organized pickup area, and pricing is reasonable for shorter trips from nearby Loudoun and FairCounty communities. The real variable is the Dulles Toll Road and the Greenway — both tolled, both prone to slowdowns at rush hour, and both a factor in how long your trip actually takes regardless of what the app initially estimated.",
+          "For a downtown DC trip specifically, rideshare pricing during peak demand periods at a 25-mile route can climb well past what a quoted flat rate would run, which is worth checking before assuming it is automatically the cheaper option.",
+        ],
+      },
+      {
+        heading: "Reserved Car Service: Built for the Longer Distance",
+        paragraphs: [
+          "A pre-booked chauffeur with 92 Limo Service is arguably a better fit for Dulles than for a closer-in airport, precisely because the distance raises the cost of getting it wrong. Your flight is tracked in real time, the rate is confirmed before you ride regardless of toll-road traffic that day, and the chauffeur plans the route — Dulles Toll Road, Dulles Greenway, Route 28 or the Beltway — based on current conditions rather than a fixed habit.",
+          "Airport pickups include 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals, which matters more at Dulles than almost anywhere else we serve: many Dulles arrivals are international flights with longer customs and immigration lines, and a car that is already paid for and not running a meter removes one source of stress from an already long travel day.",
+        ],
+      },
+      {
+        heading: "Corporate and Technology-Corridor Travel",
+        paragraphs: [
+          "Dulles sits inside Data Center Alley and a dense concentration of technology, government-contractor and consulting firms along Route 28 and the Dulles Toll Road corridor, and a large share of Dulles traffic is business travel rather than leisure. Standing corporate accounts with monthly consolidated invoicing are common for companies in Sterling, Herndon, Reston and Chantilly whose staff fly through Dulles regularly, often on short notice.",
+        ],
+      },
+      {
+        heading: "Which Option Fits Which Trip",
+        paragraphs: [
+          "A practical way to decide:",
+        ],
+        list: [
+          "Live or work directly on the Silver Line near Tysons or Reston: Metro is a legitimate, often cost-effective option",
+          "Short local trip from Sterling, Herndon or Chantilly: rideshare is usually fine outside peak hours",
+          "Downtown DC, Maryland or anywhere off the Silver Line: a reserved chauffeur avoids the Metro transfer and toll-road uncertainty",
+          "International arrival with customs and a long day already behind you: a reserved chauffeur with flight tracking and built-in wait time",
+          "Corporate travel with a schedule to protect: a standing account with priority dispatch",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "IAD Airport car service", to: "/iad-airport-car-service" },
+      { label: "Sterling, VA limo service", to: "/sterling-va-limo-service" },
+      { label: "Herndon, VA limo service", to: "/herndon-va-limo-service" },
+      { label: "Chantilly, VA limo service", to: "/chantilly-va-limo-service" },
+      { label: "Corporate transportation", to: "/corporate-transportation" },
+      { label: "Book your ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "Does the Silver Line Metro go all the way to Dulles Airport?",
+        a: "Yes, the Silver Line now serves a station at Dulles, connected to the terminal by a moving walkway and shuttle. It is a workable option if your origin or destination is near another Silver Line stop, but the full trip from downtown DC takes close to an hour including transfers.",
+      },
+      {
+        q: "Why does traffic matter so much more for Dulles than for DCA?",
+        a: "Dulles sits about 25 miles from downtown DC, mostly via the tolled Dulles Toll Road and Greenway, so rush-hour slowdowns add significantly more time than they would on a shorter DCA trip.",
+      },
+      {
+        q: "Is a reserved car service worth it for an international arrival at Dulles?",
+        a: "Many travelers find it is — international arrivals often mean longer customs lines, and a reserved pickup includes 60 minutes of complimentary waiting time with no meter running, plus a rate confirmed before you book regardless of toll-road traffic.",
+      },
+      {
+        q: "Do you offer corporate accounts for Dulles-area technology companies?",
+        a: "Yes. Standing accounts with monthly consolidated invoicing are common for firms in Sterling, Herndon, Reston and Chantilly whose staff travel through Dulles regularly.",
+      },
+      {
+        q: "What's the best way to get from Dulles to downtown Washington, DC?",
+        a: "For most travelers with luggage or a schedule to keep, a reserved chauffeur is the most predictable option given the toll-road distance. The Silver Line is a reasonable alternative if your final destination is near another station.",
+      },
+    ],
+  },
+  {
+    slug: "baltimore-md-transportation-guide",
+    title: "Baltimore, MD Transportation Guide: Roads, Rail, Game Days and Airports",
+    metaTitle: "Baltimore, MD Transportation Guide | 92 Limo Service",
+    metaDescription:
+      "Getting around Baltimore — I-95, the tunnels, light rail, MARC, stadium traffic and the fastest routes to BWI, DCA & IAD. Call (877) 609-1919.",
+    category: "Local Guides",
+    date: "2026-10-17",
+    readTime: "9 min read",
+    excerpt:
+      "Baltimore's harbor tunnels, stadium traffic and MARC lines each have their own logic. A practical guide to getting around the city and out to the region's airports.",
+    image: "/images/blog/landmark-baltimore-1.webp",
+    intro: [
+      "Baltimore's transportation picture is shaped by its harbor: two tunnels carry I-95 and I-895 traffic under the water, downtown sits wedged between the Inner Harbor and a dense street grid, and the city's two biggest traffic events — a Ravens game at M&T Bank Stadium and an Orioles game at Camden Yards — happen a block apart on the same evenings. This guide covers how the city actually moves, for residents and visitors alike.",
+      "92 Limo Service drives Baltimore daily, from the harbor tunnels to the stadium district to Washington Boulevard, and this guide reflects what we see on those roads rather than a generic traffic summary.",
+    ],
+    sections: [
+      {
+        heading: "The Harbor Tunnels: I-95 vs. I-895",
+        paragraphs: [
+          "Most through-traffic south of the city uses the Fort McHenry Tunnel on I-95, while the Harbor Tunnel Thruway on I-895 serves as the alternate, and both are tolled. The choice between them depends on where you are actually going and what is backed up that day — our chauffeurs choose in real time rather than defaulting to one route, since either tunnel can be the faster option depending on an accident, an event, or simple volume.",
+          "Local trips within the city avoid both and use surface streets or I-83, the Jones Falls Expressway, which runs north-south through downtown and connects toward Towson and the northern suburbs.",
+        ],
+      },
+      {
+        heading: "Light RailLink and the Metro Subway",
+        paragraphs: [
+          "Baltimore's Light RailLink runs a single north-south line from Hunt Valley through downtown to BWI Airport and Cromwell Station/Glen Burnie, making it one of the only US transit systems with a direct airport connection — useful context if you are weighing it against a car for an airport trip on a budget.",
+          "The Metro SubwayLink runs a separate east-west line from downtown to Owings Mills, serving a different corridor entirely. Neither system covers the whole city, and both run on a schedule that thins out significantly at night and on weekends.",
+        ],
+      },
+      {
+        heading: "MARC Trains: Commuting to Washington",
+        paragraphs: [
+          "The MARC Penn Line connects Baltimore's Penn Station to Washington Union Station, with weekday service that is dense during peak commuting hours and considerably thinner off-peak, and essentially nonexistent on weekends on most MARC lines. For a reliable trip at an odd hour, or door-to-door service rather than a station-to-station train ride, a car remains the more flexible option.",
+        ],
+      },
+      {
+        heading: "Stadium District Traffic: Ravens and Orioles Game Days",
+        paragraphs: [
+          "M&T Bank Stadium and Oriole Park at Camden Yards sit a short walk apart downtown, and on a game night the surrounding streets and parking garages fill fast, with the post-game exit onto I-395 and I-95 creating the single most predictable traffic jam in the city. A chauffeur drops you at the stadium entrance before the game, stages away from the garage queue, and returns to a pre-arranged pickup point afterward — removing both the parking search and the exit-time gridlock from your evening.",
+        ],
+      },
+      {
+        heading: "Getting to BWI, DCA and IAD from Baltimore",
+        paragraphs: [
+          "BWI Marshall is Baltimore's home airport, typically a 15 to 25 minute drive via I-395 and I-195 depending on which part of the city you start from, and it is also reachable by Light RailLink for budget travelers without luggage. Reagan National runs about 45 to 55 minutes via I-95 and the Beltway, and Dulles is the longest trip at roughly 60 to 75 minutes around the Beltway's western side. Every airport pickup is flight-tracked regardless of which of the three you fly.",
+        ],
+      },
+      {
+        heading: "Neighborhoods We Serve Most",
+        paragraphs: [
+          "Our Baltimore bookings cluster around the Inner Harbor and Harbor East hotels and offices, Fells Point and Canton's restaurant and nightlife district, the Johns Hopkins medical campus, and the stadium district on game nights — alongside residential pickups across the city's neighborhoods and a steady flow of corporate accounts downtown.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Baltimore limo service", to: "/baltimore-limo-service" },
+      { label: "BWI Airport car service", to: "/bwi-airport-car-service" },
+      { label: "Baltimore to Washington, DC", to: "/baltimore-to-washington-dc" },
+      { label: "Oriole Park at Camden Yards transportation", to: "/oriole-park-camden-yards-transportation" },
+      { label: "Rosedale, MD limo service", to: "/rosedale-md-limo-service" },
+      { label: "Book your ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "Should I take the Fort McHenry Tunnel or the Harbor Tunnel through Baltimore?",
+        a: "It depends on traffic that day — both are tolled and either can be faster depending on an accident, an event downtown, or simple volume. We choose in real time rather than defaulting to one route.",
+      },
+      {
+        q: "Can I take Light RailLink to BWI Airport from Baltimore?",
+        a: "Yes, Baltimore's Light RailLink runs a direct line to BWI, which can work for a budget traveler without much luggage. A reserved car remains more practical for groups, luggage or an odd-hour flight.",
+      },
+      {
+        q: "How do you handle Ravens or Orioles game-day pickups in Baltimore?",
+        a: "Your chauffeur drops you at the stadium entrance before the game, stages away from the garage queue, and returns to a pre-arranged pickup point afterward — removing the parking search and the post-game exit traffic from your evening.",
+      },
+      {
+        q: "How far is BWI Airport from downtown Baltimore?",
+        a: "Typically 15 to 25 minutes via I-395 and I-195 depending on your exact starting point and traffic.",
+      },
+      {
+        q: "Do you serve Baltimore neighborhoods like Fells Point and Canton?",
+        a: "Yes. We regularly serve the Inner Harbor, Harbor East, Fells Point and Canton, along with the Johns Hopkins medical campus and residential neighborhoods citywide.",
+      },
+    ],
+  },
+  {
+    slug: "senior-and-medical-appointment-transportation-maryland",
+    title: "Transportation for Seniors and Medical Appointments in Maryland: A Family's Guide",
+    metaTitle: "Senior & Medical Appointment Transportation MD | 92 Limo",
+    metaDescription:
+      "A private chauffeur for specialist visits, procedures and senior travel — door-to-door, no app required. Serving MD, DC & VA. Call (877) 609-1919.",
+    category: "Senior & Family Travel",
+    date: "2026-10-17",
+    readTime: "7 min read",
+    excerpt:
+      "Rideshare apps and public transit were not designed with an 85-year-old parent or a post-procedure patient in mind. Here is what a private chauffeur actually solves.",
+    image: "/images/blog/scenario-doorman.webp",
+    intro: [
+      "A lot of families end up solving the same problem: an aging parent or relative needs a reliable ride to a specialist appointment, a procedure, or a hospital discharge, and the options on hand — a rideshare app, a bus, or an adult child rearranging their own workday — all have gaps. This guide is written for families and caregivers weighing those options, from people who drive this exact kind of trip regularly.",
+      "92 Limo Service is not a medical transport or ambulance service, and we do not provide wheelchair-accessible vehicles or clinical assistance. What we do provide is a private, reliable, scheduled chauffeur for the large number of trips that do not require medical equipment but do require patience, punctuality and a driver who will wait.",
+    ],
+    sections: [
+      {
+        heading: "Where Rideshare Falls Short for Older or Post-Procedure Passengers",
+        paragraphs: [
+          "Rideshare works well for a lot of trips, but it assumes a passenger who can move quickly to a curb, identify the right car in traffic, and get in and out without assistance. That assumption does not hold after a procedure, with a walker or cane, or for a passenger managing memory issues who finds an unfamiliar car and driver stressful rather than routine.",
+          "A scheduled chauffeur removes several of those friction points at once: the same driver is expected, the vehicle is confirmed in advance rather than assigned at the last minute, and the pickup time is set with enough margin that a slow walk to the car is not a problem.",
+        ],
+      },
+      {
+        heading: "What a Reserved Chauffeur Actually Covers",
+        paragraphs: [
+          "A typical booking looks like this: a sedan or SUV arrives at the scheduled time, the chauffeur waits curbside or comes to the door if needed, assists with getting settled, and drives directly to the appointment. For a specialist visit or a procedure with an unpredictable duration, we can also hold the vehicle on an hourly, as-directed basis — the chauffeur waits during the appointment and drives the patient home afterward, rather than requiring a second ride to be arranged once the visit ends.",
+          "This is especially useful for sedation procedures, where patients are instructed not to drive themselves and often are not in a state to manage a rideshare app afterward.",
+        ],
+      },
+      {
+        heading: "Common Trips Families Book",
+        paragraphs: [
+          "The requests we see most often include:",
+        ],
+        list: [
+          "Specialist appointments at Johns Hopkins, the University of Maryland Medical Center, NIH or Walter Reed, with the chauffeur waiting through the visit",
+          "Discharge from a hospital stay, with time built in for paperwork and a slower pace getting to the vehicle",
+          "Sedation or post-procedure rides home, where the patient should not drive or navigate an app",
+          "Regular dialysis, infusion or physical-therapy appointments on a recurring schedule",
+          "A relative flying in to help care for a parent, picked up at the airport and driven directly to the house",
+        ],
+      },
+      {
+        heading: "What We Are Not — and Why That Matters",
+        paragraphs: [
+          "We are a private chauffeur service, not a medical transport company. We do not provide wheelchair-accessible vans, stretcher transport, oxygen equipment or clinical staff, and we are not a substitute for non-emergency medical transportation (NEMT) when a passenger needs that level of support. Families whose relative requires a wheelchair-accessible vehicle or hands-on medical assistance during transport should use a licensed NEMT provider instead.",
+          "What we are well suited for is the large number of trips where the passenger can walk to a car with a little help and sit comfortably for the ride, but where a dependable, familiar, waiting driver makes the day considerably easier than an app ever could.",
+        ],
+      },
+      {
+        heading: "Booking for a Family Member",
+        paragraphs: [
+          "You can book on behalf of a parent or relative and ride along, or arrange the pickup for them directly — just let us know the pickup address, the appointment time, whether the chauffeur should wait, and any mobility notes that would help, such as needing a few extra minutes or assistance with a cane or walker. The rate is confirmed before the trip, so there is nothing to negotiate on the day.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Hourly chauffeur service", to: "/hourly-chauffeur" },
+      { label: "Corporate car service vs. Uber in DC", to: "/corporate-car-service-vs-uber-dc" },
+      { label: "Car seat service", to: "/car-seat-service" },
+      { label: "Policies & waiting time", to: "/policies" },
+      { label: "Book a ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "Do you provide wheelchair-accessible vehicles?",
+        a: "No. We are a private chauffeur service, not a medical transport company, and we do not provide wheelchair-accessible vans, stretcher transport or clinical staff. Families who need that level of support should use a licensed NEMT provider.",
+      },
+      {
+        q: "Can the chauffeur wait during a doctor's appointment or procedure?",
+        a: "Yes. Hourly, as-directed booking lets the chauffeur wait through an appointment of unpredictable length and drive the patient home afterward, rather than arranging a separate return ride.",
+      },
+      {
+        q: "Can I book a ride for my parent even if I'm not riding with them?",
+        a: "Yes. You can book and pay on behalf of a family member, and provide pickup details, the appointment time, and any mobility notes that would help the chauffeur.",
+      },
+      {
+        q: "Is this a good option after a sedation procedure?",
+        a: "Many families use it exactly for this — a scheduled, familiar chauffeur who waits and drives the patient straight home, which suits passengers who are instructed not to drive or manage an app themselves.",
+      },
+      {
+        q: "Which hospitals and medical campuses do you serve most?",
+        a: "Johns Hopkins, the University of Maryland Medical Center, NIH and Walter Reed in Bethesda are among the most common destinations, along with local specialist offices and outpatient centers across Maryland, DC and Northern Virginia.",
+      },
+    ],
+  },
+  {
+    slug: "corporate-car-service-account-setup-guide",
+    title: "How to Set Up a Corporate Car Service Account in Maryland & DC",
+    metaTitle: "Corporate Car Service Account Setup Guide | 92 Limo",
+    metaDescription:
+      "What a travel manager needs to set up a company car service account — billing, dispatch, insurance paperwork and policy. Call (877) 609-1919.",
+    category: "Corporate Guides",
+    date: "2026-10-17",
+    readTime: "7 min read",
+    excerpt:
+      "Setting up a corporate transportation account is a one-time task that saves a travel manager hours every month after. Here is exactly what it involves.",
+    image: "/images/blog/scenario-corporate-1.webp",
+    intro: [
+      "If you manage travel or office operations for a company with staff who fly often — client visits, conference travel, visiting executives — booking each ride individually on a personal card and submitting an expense report afterward is a lot of repeated work for something that should be a one-time setup. This guide walks a travel manager or office administrator through what a corporate car service account actually involves, from the paperwork to the day-to-day booking process.",
+    ],
+    sections: [
+      {
+        heading: "What a Corporate Account Actually Changes",
+        paragraphs: [
+          "The core shift is billing: instead of each traveler paying individually and expensing it later, trips are billed to the company on a consolidated monthly invoice with itemized receipts for every ride. That alone removes a meaningful chunk of expense-report overhead, especially for companies with several employees traveling regularly.",
+          "Beyond billing, a corporate account typically comes with a dedicated account contact rather than calling a general line, priority dispatch during high-demand periods, and the ability to book on behalf of someone else — a assistant can reserve a ride for an executive without that executive ever touching a booking form.",
+        ],
+      },
+      {
+        heading: "What You'll Need to Set One Up",
+        paragraphs: [
+          "Setting up an account is a short process on our end, but it helps to have a few things ready:",
+        ],
+        list: [
+          "A billing contact and the company's preferred invoicing cadence (typically monthly)",
+          "A list of frequent travelers, or a process for adding travelers as needed",
+          "Any required vendor paperwork — W-9, certificate of insurance requests, or a company-specific vendor form",
+          "A sense of your typical trip profile: mostly airport transfers, hourly as-directed service, or a mix",
+          "A primary and backup contact for booking and billing questions",
+        ],
+      },
+      {
+        heading: "Insurance and Vendor Paperwork",
+        paragraphs: [
+          "92 Limo Service is the trade name of 92 Transportation LLC, licensed by the Maryland Public Service Commission as Carrier #6325, with commercially insured vehicles. Certificates of insurance and standard vendor onboarding paperwork — W-9s, credit applications, vendor compliance forms — are available on request and are typically the longest part of onboarding for companies with a formal procurement process. Getting this started early avoids a delay right before a trip that was supposed to be simple.",
+        ],
+      },
+      {
+        heading: "Booking Day-to-Day Once the Account Is Active",
+        paragraphs: [
+          "Once an account is set up, booking a ride works the same as any reservation — by phone, online, or through a designated booker — but the payment step disappears from the traveler's side entirely. A common pattern we see: an office manager or executive assistant books on behalf of several traveling staff, with each trip tagged to the traveler's name for the monthly invoice, so itemized reporting stays clean without anyone filing an expense report.",
+          "Priority dispatch matters most during high-demand periods — snowstorms, holiday travel weeks, major DC events — when accounts with an established relationship and a dedicated contact get handled first.",
+        ],
+      },
+      {
+        heading: "Setting Policy Expectations With Travelers",
+        paragraphs: [
+          "A short internal policy saves confusion later: who is authorized to book on the account, whether Sprinter or executive-class vehicles require manager approval, and what the cancellation window is for a scheduled airport pickup (3 hours for sedans and SUVs, 12 hours for Sprinter and special-event bookings). Most companies set this once and rarely revisit it.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Corporate & executive car service", to: "/corporate-transportation" },
+      { label: "Corporate car service vs. Uber in DC", to: "/corporate-car-service-vs-uber-dc" },
+      { label: "BWI corporate transportation", to: "/bwi-corporate-transportation" },
+      { label: "Booking & cancellation policies", to: "/policies" },
+      { label: "Book a ride", to: "/booking" },
+    ],
+    faqs: [
+      {
+        q: "How long does it take to set up a corporate account?",
+        a: "Often the same day for basic setup. The longest part is usually vendor paperwork — W-9s, certificates of insurance, or a company's own compliance forms — if your procurement process requires it.",
+      },
+      {
+        q: "Can one person book rides on behalf of other employees?",
+        a: "Yes. A designated booker such as an office manager or executive assistant can reserve rides for other travelers, with each trip tagged to the traveler's name on the monthly invoice.",
+      },
+      {
+        q: "Do you provide a certificate of insurance for vendor paperwork?",
+        a: "Yes, on request. 92 Limo Service is the trade name of 92 Transportation LLC, licensed as Maryland PSC Carrier #6325 with commercially insured vehicles.",
+      },
+      {
+        q: "What does priority dispatch mean in practice?",
+        a: "During high-demand periods like snowstorms, holiday weeks or major DC events, corporate accounts with an established relationship and dedicated contact are handled first.",
+      },
+      {
+        q: "What is the cancellation policy for corporate bookings?",
+        a: "Sedan and SUV reservations can be cancelled without charge up to 3 hours before pickup, and Sprinter or special-event bookings up to 12 hours before — the same policy that applies to all bookings.",
       },
     ],
   },

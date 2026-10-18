@@ -31,6 +31,7 @@ function loadLandingPageSlugs() {
     "src/lib/marylandPagesBatch4.js",
     "src/lib/marylandPagesBatch5.js",
     "src/lib/marylandPagesBatch6.js",
+    "src/lib/marylandPagesBatch7.js",
     "src/lib/landingPages.js",
   ]
     .map(plain)
@@ -62,6 +63,7 @@ function loadLandingPageTitles() {
     "src/lib/marylandPagesBatch4.js",
     "src/lib/marylandPagesBatch5.js",
     "src/lib/marylandPagesBatch6.js",
+    "src/lib/marylandPagesBatch7.js",
     "src/lib/landingPages.js",
   ]
     .map(plain)

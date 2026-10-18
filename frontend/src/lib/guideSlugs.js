@@ -16,5 +16,10 @@ export const GUIDE_SLUGS = [
   "best-car-service-from-bwi-airport",
   "how-early-should-you-book-bwi-airport-transportation",
   "bwi-rental-car-vs-car-service",
-  "bwi-airport-pickup-what-to-expect"
+  "bwi-airport-pickup-what-to-expect",
+  "dca-airport-transportation-guide",
+  "iad-dulles-airport-transportation-guide",
+  "baltimore-md-transportation-guide",
+  "senior-and-medical-appointment-transportation-maryland",
+  "corporate-car-service-account-setup-guide"
 ];

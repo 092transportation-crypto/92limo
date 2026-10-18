@@ -351,7 +351,7 @@ export const MARYLAND_BATCH3_PAGES = {
           { label: "Hampstead", to: "/hampstead-md-limo-service" },
           { label: "Manchester" },
           { label: "New Windsor" },
-          { label: "Taneytown" },
+          { label: "Taneytown", to: "/taneytown-md-limo-service" },
           { label: "Union Bridge" },
           { label: "Sykesville", to: "/sykesville-limo-service" }
         ]
@@ -739,9 +739,9 @@ export const MARYLAND_BATCH3_PAGES = {
           { label: "Perry Hall" },
           { label: "Nottingham" },
           { label: "Honeygo" },
-          { label: "Middle River" },
+          { label: "Middle River", to: "/middle-river-md-limo-service" },
           { label: "Kingsville" },
-          { label: "Rosedale" },
+          { label: "Rosedale", to: "/rosedale-md-limo-service" },
           { label: "Overlea and Fullerton" }
         ]
       },
@@ -826,7 +826,8 @@ export const MARYLAND_BATCH3_PAGES = {
           { label: "Upper Marlboro", to: "/upper-marlboro-limo-service" },
           { label: "Waldorf", to: "/waldorf-md-limo-service" },
           { label: "Bowie", to: "/bowie-md-limo-service" },
-          { label: "Fort Washington and Oxon Hill" },
+          { label: "Fort Washington", to: "/fort-washington-limo-service" },
+          { label: "Oxon Hill", to: "/oxon-hill-md-limo-service" },
           { label: "Arlington and Alexandria, VA" }
         ]
       },

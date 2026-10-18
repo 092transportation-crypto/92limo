@@ -536,7 +536,7 @@ export const MARYLAND_BATCH6_PAGES = {
           { label: "Harford Road corridor" },
           { label: "Putty Hill Avenue and Joppa Road" },
           { label: "Carney" },
-          { label: "Rosedale" },
+          { label: "Rosedale", to: "/rosedale-md-limo-service" },
         ],
       },
       {
