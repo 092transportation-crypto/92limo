@@ -49,6 +49,33 @@ async function osrmDistance(origin, destination) {
   return route.distance / METERS_PER_MILE;
 }
 
+/**
+ * Reusable core: driving distance in miles between two free-text locations.
+ * Pulled out of the HTTP handler so other server code (api/chat.js's
+ * get_instant_quote tool) can call it directly instead of round-tripping
+ * through this function's own HTTP endpoint. Throws on failure — callers
+ * decide how to present that.
+ */
+async function getDistanceMiles(origin, destination) {
+  const key = process.env.GOOGLE_MAPS_API_KEY || process.env.GOOGLE_API_KEY;
+  let miles;
+  let source;
+  if (key) {
+    try {
+      miles = await googleDistance(origin, destination, key);
+      source = 'google';
+    } catch (err) {
+      console.error('Google Distance Matrix failed, falling back:', err.message);
+      miles = await osrmDistance(origin, destination);
+      source = 'osrm';
+    }
+  } else {
+    miles = await osrmDistance(origin, destination);
+    source = 'osrm';
+  }
+  return { miles: Math.round(miles * 100) / 100, source };
+}
+
 module.exports = async (req, res) => {
   if (req.method !== 'POST') {
     res.setHeader('Allow', 'POST');
@@ -64,29 +91,9 @@ module.exports = async (req, res) => {
       .json({ success: false, message: 'Both addresses are required.' });
   }
 
-  const key = process.env.GOOGLE_MAPS_API_KEY || process.env.GOOGLE_API_KEY;
-
   try {
-    let miles;
-    let source;
-    if (key) {
-      try {
-        miles = await googleDistance(origin, destination, key);
-        source = 'google';
-      } catch (err) {
-        console.error('Google Distance Matrix failed, falling back:', err.message);
-        miles = await osrmDistance(origin, destination);
-        source = 'osrm';
-      }
-    } else {
-      miles = await osrmDistance(origin, destination);
-      source = 'osrm';
-    }
-    return res.status(200).json({
-      success: true,
-      miles: Math.round(miles * 100) / 100,
-      source,
-    });
+    const { miles, source } = await getDistanceMiles(origin, destination);
+    return res.status(200).json({ success: true, miles, source });
   } catch (err) {
     console.error('Distance lookup failed:', err.message);
     return res.status(422).json({
@@ -95,3 +102,8 @@ module.exports = async (req, res) => {
     });
   }
 };
+
+// Exposed for reuse by api/chat.js's get_instant_quote tool (see above).
+// Vercel still deploys this file as the /api/distance function — attaching a
+// property to the exported handler function doesn't change that.
+module.exports.getDistanceMiles = getDistanceMiles;

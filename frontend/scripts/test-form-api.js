@@ -36,6 +36,8 @@ async function run() {
 
   const quote = require("../api/quote-requests");
   const contact = require("../api/contact");
+  const chat = require("../api/chat");
+  const leadCapture = require("../api/lead-capture");
   let failures = 0;
 
   // Booking — valid
@@ -221,6 +223,167 @@ async function run() {
     await quote(mockReq("GET", {}), res);
     const ok = res.statusCode === 405;
     console.log(`[booking GET 405] -> ${res.statusCode} ${ok ? "PASS" : "FAIL"}`);
+    if (!ok) failures++;
+  }
+
+  // --- /api/chat -----------------------------------------------------------
+
+  // Chat — ANTHROPIC_API_KEY unset: must degrade gracefully (200, a reply
+  // with the phone number), never crash, never hang on a real network call.
+  {
+    delete process.env.ANTHROPIC_API_KEY;
+    const res = mockRes();
+    await chat(mockReq("POST", { messages: [{ role: "user", content: "What cars do you have?" }] }), res);
+    const ok = res.statusCode === 200 && res.body && /\(877\) 609-1919/.test(res.body.reply || "");
+    console.log(`[chat no-key fallback] -> ${res.statusCode} ${ok ? "PASS" : "FAIL"}`);
+    if (!ok) { failures++; console.log(JSON.stringify(res.body)); }
+  }
+
+  // Chat — method guard
+  {
+    const res = mockRes();
+    await chat(mockReq("GET", {}), res);
+    const ok = res.statusCode === 405;
+    console.log(`[chat GET 405] -> ${res.statusCode} ${ok ? "PASS" : "FAIL"}`);
+    if (!ok) failures++;
+  }
+
+  // Chat — missing messages array
+  {
+    delete process.env.ANTHROPIC_API_KEY;
+    const res = mockRes();
+    await chat(mockReq("POST", {}), res);
+    const ok = res.statusCode === 400;
+    console.log(`[chat missing messages] -> ${res.statusCode} ${ok ? "PASS" : "FAIL"}`);
+    if (!ok) failures++;
+  }
+
+  // get_instant_quote tool — math must match the same rate table
+  // api/_pricing.js uses (same 12.4mi / Business Sedan figures the booking
+  // tests above already verified: base fare $115, 10% discount, 3% card fee,
+  // total $106.61). The distance lookup is injected so this never hits the
+  // network — it's pure pricing-math verification.
+  {
+    const fakeDistance = async () => ({ miles: 12.4, source: "test" });
+    const result = await chat.buildInstantQuote("BWI Airport", "Annapolis, MD", "Business Sedan", fakeDistance);
+    const ok =
+      result.ok === true &&
+      result.vehicle === "Business Sedan" &&
+      result.miles === 12.4 &&
+      result.total === 106.61;
+    console.log(`[get_instant_quote math] -> ${ok ? "PASS" : "FAIL"} total=${result.total}`);
+    if (!ok) { failures++; console.log(JSON.stringify(result)); }
+  }
+
+  // get_instant_quote tool — vehicle alias normalization (visitor/Claude may
+  // say "Escalade" or "midsize suv" instead of the exact PRICING table key).
+  {
+    const ok =
+      chat.normalizeVehicle("Cadillac Escalade") === "Premium SUV" &&
+      chat.normalizeVehicle("midsize suv") === "Mid-Size SUV" &&
+      chat.normalizeVehicle("") === "Business Sedan" &&
+      chat.normalizeVehicle("not a real vehicle") === "Business Sedan";
+    console.log(`[get_instant_quote vehicle aliases] -> ${ok ? "PASS" : "FAIL"}`);
+    if (!ok) failures++;
+  }
+
+  // get_instant_quote tool — trip beyond the instant-quote range must say so,
+  // not fabricate a number.
+  {
+    const fakeDistance = async () => ({ miles: 200, source: "test" });
+    const result = await chat.buildInstantQuote("Baltimore, MD", "Boston, MA", "Business Sedan", fakeDistance);
+    const ok = result.ok === false && result.overLimit === true && /custom quote/i.test(result.reason);
+    console.log(`[get_instant_quote over-limit] -> ${ok ? "PASS" : "FAIL"}`);
+    if (!ok) { failures++; console.log(JSON.stringify(result)); }
+  }
+
+  // --- /api/lead-capture -----------------------------------------------------
+
+  // Lead capture — missing name/phone -> 400
+  {
+    const res = mockRes();
+    await leadCapture(mockReq("POST", { source: "lead_popup", email: "x@y.com" }), res);
+    const ok = res.statusCode === 400 && /name|phone/.test(res.body.detail);
+    console.log(`[lead-capture missing fields] -> ${res.statusCode} ${ok ? "PASS" : "FAIL"} (${res.body.detail})`);
+    if (!ok) failures++;
+  }
+
+  // Lead capture — invalid phone -> 400
+  {
+    const res = mockRes();
+    await leadCapture(mockReq("POST", { source: "exit_intent", name: "Jane", phone: "123" }), res);
+    const ok = res.statusCode === 400 && /phone/.test(res.body.detail);
+    console.log(`[lead-capture invalid phone] -> ${res.statusCode} ${ok ? "PASS" : "FAIL"} (${res.body.detail})`);
+    if (!ok) failures++;
+  }
+
+  // Lead capture — valid, no Twilio/webhook env vars set at all: must still
+  // 201 immediately (SMS + webhook both no-op without throwing or hanging).
+  {
+    delete process.env.TWILIO_ACCOUNT_SID;
+    delete process.env.TWILIO_AUTH_TOKEN;
+    delete process.env.TWILIO_FROM_NUMBER;
+    delete process.env.ALERT_PHONE_NUMBER;
+    delete process.env.LEAD_WEBHOOK_URL;
+    const start = Date.now();
+    const res = mockRes();
+    await leadCapture(mockReq("POST", { source: "lead_popup", name: "Jane Traveler", phone: "443-555-0199" }), res);
+    const elapsed = Date.now() - start;
+    const ok = res.statusCode === 201 && res.body && res.body.id && elapsed < 1000;
+    console.log(`[lead-capture no-env 201] -> ${res.statusCode} ${ok ? "PASS" : "FAIL"} (${elapsed}ms)`);
+    if (!ok) failures++;
+  }
+
+  // Lead capture — LEAD_WEBHOOK_URL points at an unreachable host (connection
+  // refused): must still 201, and the 6s webhook timeout must actually bound
+  // the request (well under, say, 6.5s) rather than hanging indefinitely.
+  {
+    process.env.LEAD_WEBHOOK_URL = "http://127.0.0.1:1/unreachable";
+    const start = Date.now();
+    const res = mockRes();
+    await leadCapture(mockReq("POST", { source: "exit_intent", name: "Unreachable Hook", phone: "443-555-0188" }), res);
+    const elapsed = Date.now() - start;
+    const ok = res.statusCode === 201 && elapsed < 6500;
+    console.log(`[lead-capture webhook unreachable] -> ${res.statusCode} ${ok ? "PASS" : "FAIL"} (${elapsed}ms)`);
+    if (!ok) failures++;
+    delete process.env.LEAD_WEBHOOK_URL;
+  }
+
+  // Lead capture — webhook actually fires with the right payload shape
+  {
+    let received = null;
+    const server = http.createServer((req, res2) => {
+      let body = "";
+      req.on("data", (c) => (body += c));
+      req.on("end", () => {
+        received = JSON.parse(body);
+        res2.writeHead(200, { "Content-Type": "application/json" });
+        res2.end("{}");
+      });
+    });
+    await new Promise((resolve) => server.listen(0, resolve));
+    const port = server.address().port;
+    process.env.LEAD_WEBHOOK_URL = `http://127.0.0.1:${port}/hook`;
+
+    const res = mockRes();
+    await leadCapture(mockReq("POST", { source: "chat_widget", name: "Webhook Rider", phone: "443-555-0188" }), res);
+    await new Promise((resolve) => setTimeout(resolve, 50));
+    const ok =
+      res.statusCode === 201 && received &&
+      received.name === "Webhook Rider" && received.source === "chat_widget" &&
+      typeof received.created_at === "string";
+    console.log(`[lead-capture webhook payload] -> ${res.statusCode} ${ok ? "PASS" : "FAIL"}`);
+    if (!ok) { failures++; console.log(JSON.stringify(received)); }
+    server.close();
+    delete process.env.LEAD_WEBHOOK_URL;
+  }
+
+  // Lead capture — method guard
+  {
+    const res = mockRes();
+    await leadCapture(mockReq("GET", {}), res);
+    const ok = res.statusCode === 405;
+    console.log(`[lead-capture GET 405] -> ${res.statusCode} ${ok ? "PASS" : "FAIL"}`);
     if (!ok) failures++;
   }
 

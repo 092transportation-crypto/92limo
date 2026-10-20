@@ -11,6 +11,8 @@ import Home from "@/pages/Home";
 import { LANDING_PAGE_SLUGS } from "@/lib/landingPageSlugs";
 import { GUIDE_SLUGS } from "@/lib/guideSlugs";
 import ChatWidget from "@/components/ChatWidget";
+import LeadPopup from "@/components/LeadPopup";
+import ExitIntentPopup from "@/components/ExitIntentPopup";
 
 // Route-level code splitting: every page below Home is fetched on demand
 // instead of being bundled into the single main.js every route used to ship
@@ -43,11 +45,18 @@ const PartnersPage = lazy(() => import("@/pages/PartnersPage"));
 const Admin = lazy(() => import("@/pages/Admin"));
 const CardPage = lazy(() => import("@/pages/CardPage"));
 
-// The digital business card at /card is a standalone page — no chat bubble.
+// The digital business card at /card is a standalone page — no chat bubble
+// or lead-gen popups.
 function RoutedChatWidget() {
   const location = useLocation();
   if (location.pathname === "/card") return null;
-  return <ChatWidget />;
+  return (
+    <>
+      <ChatWidget />
+      <LeadPopup />
+      <ExitIntentPopup />
+    </>
+  );
 }
 
 function App() {
