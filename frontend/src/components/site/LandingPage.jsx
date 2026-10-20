@@ -8,43 +8,9 @@ import { Reveal } from "@/components/site/Reveal";
 import { FLEET, vehicleLabel } from "@/lib/data";
 import { LANDING_PAGES } from "@/lib/landingPages";
 import { keywordSection, placeName } from "@/lib/keywordSection";
+import { relatedLandingPages } from "@/lib/pillarLinks";
 
 const SITE_URL = "https://www.92limo.com";
-
-// Maps a geo/service landing page back to its broader pillar service page
-// (data.js SERVICE_PAGES) so the two always link to each other instead of
-// competing for the same head keyword unlinked.
-const PILLAR_LINKS = {
-  "bwi-airport-car-service": { slug: "airport-transportation", title: "Airport Car Service — BWI, DCA, IAD, MTN & PHL" },
-  "bwi-airport-transportation": { slug: "airport-transportation", title: "Airport Car Service — BWI, DCA, IAD, MTN & PHL" },
-  "bwi-airport-shuttle": { slug: "airport-transportation", title: "Airport Car Service — BWI, DCA, IAD, MTN & PHL" },
-  "dca-airport-limo": { slug: "airport-transportation", title: "Airport Car Service — BWI, DCA, IAD, MTN & PHL" },
-  "dca-airport-car-service": { slug: "airport-transportation", title: "Airport Car Service — BWI, DCA, IAD, MTN & PHL" },
-  "iad-airport-limo": { slug: "airport-transportation", title: "Airport Car Service — BWI, DCA, IAD, MTN & PHL" },
-  "iad-airport-car-service": { slug: "airport-transportation", title: "Airport Car Service — BWI, DCA, IAD, MTN & PHL" },
-  "airport-limo-baltimore": { slug: "airport-transportation", title: "Airport Car Service — BWI, DCA, IAD, MTN & PHL" },
-  "airport-limo-washington-dc": { slug: "airport-transportation", title: "Airport Car Service — BWI, DCA, IAD, MTN & PHL" },
-  "wedding-limo-maryland": { slug: "wedding-transportation", title: "Wedding Limo & Chauffeur Service" },
-  "wedding-car-service-dc": { slug: "wedding-transportation", title: "Wedding Limo & Chauffeur Service" },
-  "corporate-limo-dc": { slug: "corporate-transportation", title: "Corporate & Executive Car Service" },
-  "executive-car-service-maryland": { slug: "corporate-transportation", title: "Corporate & Executive Car Service" },
-  "black-car-service-baltimore": { slug: "corporate-transportation", title: "Corporate & Executive Car Service" },
-  "black-car-service-dc": { slug: "corporate-transportation", title: "Corporate & Executive Car Service" },
-  "chauffeur-service-baltimore": { slug: "hourly-chauffeur", title: "Hourly Chauffeur Service" },
-  "chauffeur-service-washington-dc": { slug: "hourly-chauffeur", title: "Hourly Chauffeur Service" },
-  "wine-tour-limo-maryland": { slug: "wine-tours", title: "Wine Tour Chauffeur Service" },
-  "birthday-limo-maryland": { slug: "birthday-celebrations", title: "Birthday Limo & Party Transportation" },
-  "bachelorette-party-limo": { slug: "birthday-celebrations", title: "Birthday Limo & Party Transportation" },
-  "prom-limo-maryland": { slug: "prom-transportation", title: "Prom Limo Service" },
-  "prom-limo-baltimore": { slug: "prom-transportation", title: "Prom Limo Service" },
-  "graduation-limo-maryland": { slug: "prom-transportation", title: "Prom Limo Service" },
-  "luxury-car-service-maryland": { slug: "anniversary-limo-service", title: "Anniversary Limo & Chauffeur Service" },
-  "baltimore-to-philadelphia-limo": { slug: "long-distance-transportation", title: "Long-Distance Private Car Service" },
-  "baltimore-to-new-york-limo": { slug: "long-distance-transportation", title: "Long-Distance Private Car Service" },
-  "dc-to-new-york-car-service": { slug: "long-distance-transportation", title: "Long-Distance Private Car Service" },
-  "maryland-to-jfk-airport": { slug: "long-distance-transportation", title: "Long-Distance Private Car Service" },
-  "maryland-to-newark-airport": { slug: "long-distance-transportation", title: "Long-Distance Private Car Service" },
-};
 
 // LocalBusiness + Service JSON-LD for every landing page. FAQPage is injected
 // by <Faq> — emitting it here as well makes Google report a duplicate FAQPage.
@@ -77,21 +43,9 @@ export default function LandingPage({ slug }) {
   // "Also serving" internal links: rank sibling landing pages by slug-token
   // overlap (ignoring generic words), then backfill in key order so every
   // page — including the generated ones — always cross-links six others.
-  const relatedPages = (() => {
-    const STOP = new Set(["limo", "service", "car", "airport", "transportation", "to", "from", "the", "md", "pa", "de", "va", "dc"]);
-    const tokens = new Set(slug.split("-").filter((t) => !STOP.has(t)));
-    const ranked = Object.keys(LANDING_PAGES)
-      .filter((s) => s !== slug)
-      .map((s) => ({
-        slug: s,
-        title: LANDING_PAGES[s].h1 || s,
-        score: s.split("-").filter((t) => tokens.has(t)).length,
-      }))
-      .sort((a, b) => b.score - a.score);
-    const pillar = PILLAR_LINKS[slug];
-    if (!pillar) return ranked.slice(0, 6);
-    return [pillar, ...ranked.filter((r) => r.slug !== pillar.slug)].slice(0, 6);
-  })();
+  // Shared with scripts/prerender.js via src/lib/pillarLinks.js so crawlers
+  // see the same related-links block real visitors do.
+  const relatedPages = relatedLandingPages(slug, LANDING_PAGES);
 
   const kw = keywordSection(slug, placeName(d));
 
@@ -128,6 +82,32 @@ export default function LandingPage({ slug }) {
           </Reveal>
         </div>
       </section>
+
+      {/* Optional deep-dive subsections (H2 + H3-free prose/list blocks) — same
+          shape as SERVICE_PAGES' `details` and GUIDES' `sections`. Mirrored by
+          scripts/prerender.js's buildLanding() so crawled HTML and the live
+          page never drift. */}
+      {(d.sections || []).map((sec) => (
+        <section key={sec.heading} className="py-16 bg-white">
+          <div className="max-w-3xl mx-auto px-6 lg:px-8">
+            <Reveal>
+              <h2 className="text-2xl sm:text-3xl font-display font-bold text-[#0A0A0A]">{sec.heading}</h2>
+              <div className="mt-4 space-y-4 text-neutral-700 leading-relaxed">
+                {(sec.paragraphs || []).map((t) => (
+                  <p key={t.slice(0, 40)}>{t}</p>
+                ))}
+              </div>
+              {sec.list && (
+                <ul className="mt-4 space-y-2 list-disc list-inside text-neutral-700">
+                  {sec.list.map((li) => (
+                    <li key={li.slice(0, 40)}>{li}</li>
+                  ))}
+                </ul>
+              )}
+            </Reveal>
+          </div>
+        </section>
+      ))}
 
       {/* Highlights */}
       <section className="py-16 lg:py-20 bg-[#F6F5F2]">

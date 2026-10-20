@@ -81,6 +81,13 @@ export const BLOG_POSTS = [
         ],
       },
     ],
+    relatedLinks: [
+      { label: "BWI Airport car service", to: "/bwi-airport-car-service" },
+      { label: "BWI Airport meet & greet", to: "/bwi-airport-meet-and-greet" },
+      { label: "BWI to Washington DC", to: "/bwi-to-washington-dc" },
+      { label: "Car seat service", to: "/car-seat-service" },
+      { label: "Book your ride", to: "/booking" },
+    ],
     faqs: [
       {
         q: "Where does the chauffeur meet me at BWI?",
@@ -177,6 +184,13 @@ export const BLOG_POSTS = [
           "Uber is a convenience tool that is excellent at small jobs. A professional limo service is a reliability tool that is excellent at the trips you cannot afford to lose. Most of our long-term clients use both — the app for errands, 92 Limo Service for everything with stakes. For the trips that matter, get a flat transparent quote online or call (877) 609-1919, 24/7, and see what a committed car feels like.",
         ],
       },
+    ],
+    relatedLinks: [
+      { label: "Uber vs. limo service to BWI", to: "/uber-vs-limo-service-bwi" },
+      { label: "Black car service Maryland", to: "/black-car-service-maryland" },
+      { label: "Luxury car service Maryland", to: "/luxury-car-service-maryland" },
+      { label: "Booking & cancellation policies", to: "/policies" },
+      { label: "Book your ride", to: "/booking" },
     ],
     faqs: [
       {
@@ -278,6 +292,13 @@ export const BLOG_POSTS = [
           "The best corporate travel program is the one nobody notices: cars appear, meetings happen, one invoice arrives. 92 Limo Service runs exactly that for Maryland companies — flat rates, vetted chauffeurs, flight tracking, hourly service, and billing your finance team will actually like. Start a corporate account online or call (877) 609-1919, and your next trip can run on the system instead of on luck.",
         ],
       },
+    ],
+    relatedLinks: [
+      { label: "Corporate transportation", to: "/corporate-transportation" },
+      { label: "Corporate car service vs. Uber in DC", to: "/corporate-car-service-vs-uber-dc" },
+      { label: "Corporate account setup guide", to: "/corporate-car-service-account-setup-guide" },
+      { label: "Executive car service Maryland", to: "/executive-car-service-maryland" },
+      { label: "Book your ride", to: "/booking" },
     ],
     faqs: [
       {
@@ -486,6 +507,13 @@ export const BLOG_POSTS = [
           "That is the service 92 Limo Service runs across the DMV every day: flight-tracked, flat-rate, professionally chauffeured transfers at all three airports, 24/7. Get a transparent quote online or call (877) 609-1919, and make the ground legs the most boring part of your travel day.",
         ],
       },
+    ],
+    relatedLinks: [
+      { label: "BWI Airport transportation", to: "/bwi-airport-transportation" },
+      { label: "DCA Airport car service", to: "/dca-airport-car-service" },
+      { label: "IAD Airport car service", to: "/iad-airport-car-service" },
+      { label: "Car seat service", to: "/car-seat-service" },
+      { label: "Book your ride", to: "/booking" },
     ],
     faqs: [
       {
@@ -707,6 +735,13 @@ export const BLOG_POSTS = [
           "Use the app for the trips that don't matter; reserve the car for the ones that do. A missed flight costs hundreds and a morning of your life — the insurance against it costs the difference between a rideshare and a flat rate. 92 Limo Service runs flight-tracked, flat-rate transfers to BWI, DCA, and Dulles around the clock, with the price locked when you book. Get an instant quote online or call (877) 609-1919 any hour, and make the airport the easy part.",
         ],
       },
+    ],
+    relatedLinks: [
+      { label: "Why not take Uber to BWI", to: "/why-not-take-uber-to-bwi-airport" },
+      { label: "BWI rental car vs. car service", to: "/bwi-rental-car-vs-car-service" },
+      { label: "BWI Airport car service", to: "/bwi-airport-car-service" },
+      { label: "Best car service from BWI", to: "/best-car-service-from-bwi-airport" },
+      { label: "Book your ride", to: "/booking" },
     ],
     faqs: [
       {
@@ -1013,6 +1048,13 @@ export const BLOG_POSTS = [
           "We built 92 Limo Service around this checklist because Laurel and its neighbors are home territory — from Main Street to Russett to Maryland City, we run the Parkway and Route 198 daily and quote every trip flat before you book. Airport transfers to BWI, DCA, and Dulles, corporate travel across the Baltimore-Washington corridor, weddings, and nights out all get the same standard: a vetted chauffeur, an immaculate vehicle, and a price that doesn't move. Put us to the test on your next trip — book online or call (877) 609-1919, any hour, and ride with the company your neighbors already use.",
         ],
       },
+    ],
+    relatedLinks: [
+      { label: "Laurel, MD limo service", to: "/laurel-md-limo-service" },
+      { label: "Laurel, MD transportation guide", to: "/laurel-md-transportation-guide" },
+      { label: "BWI to Laurel, MD", to: "/bwi-to-laurel-md" },
+      { label: "BWI Airport car service", to: "/bwi-airport-car-service" },
+      { label: "Book your ride", to: "/booking" },
     ],
     faqs: [
       {

@@ -18,6 +18,22 @@ export const MARYLAND_BATCH4_PAGES = {
       "We recommend hourly chauffeur service for celebrations, because the vehicle and chauffeur stay with you between stops and you are never waiting for a return car. A point-to-point drop-off and pickup is available when the plan is fixed, such as a wedding shuttle or a single-venue event. Sprinter and special-event reservations may be cancelled without charge up to 12 hours before pickup.",
       "Every quote is confirmed before you ride. The rate covers the base transportation charge, and gratuity, tolls, parking and any other applicable charges are disclosed before you confirm. Tell us the date, the pickup point, the stops you have in mind and the size of the group, and we will match the right vehicle to the night."
     ],
+    sections: [
+      {
+        heading: "Sprinter Executive vs. a Traditional Party Bus",
+        paragraphs: [
+          "A full-size party bus is built around bench seating, a sound system, and standing room — great for a club-style crawl, but it rides higher, parks farther from the curb, and is a harder fit for a hotel porte-cochère or a narrow downtown drop-off lane. The Sprinter Executive trades a little bit of that nightclub feel for something most groups actually prefer: limousine-style forward-and-facing seating, a vehicle that pulls directly up to a Federal Hill rowhouse or a Harbor East valet stand, and a chauffeur who is part of the night rather than a separate bus driver up front.",
+          "Groups set on the classic party-bus look can still have one — we arrange it on request, confirmed before booking — but we tell every caller honestly which vehicle fits their specific stop list best before they decide.",
+        ],
+      },
+      {
+        heading: "Planning a Multi-Stop Night Out",
+        paragraphs: [
+          "The celebrations that go smoothest are the ones booked hourly with a loose stop order agreed in advance: pickup time, first stop, a buffer window for however long dinner actually runs, and a last-call pickup time at the final venue. We build in slack rather than a tight schedule, because the real variable on a group night is never the drive time between venues — it is how long twelve friends take to settle a bill.",
+          "For wine tour and day-drinking groups specifically, we coordinate directly with the Frederick and Carroll County vineyards on tasting-room arrival windows, so the chauffeur knows the itinerary before the group does.",
+        ],
+      },
+    ],
     highlights: [
       { title: "Sprinter Executive for 13", desc: "Our party-style vehicle: a chauffeured Mercedes Sprinter Executive with limousine seating for up to 13 guests, company-owned and commercially insured." },
       { title: "Party Bus on Request", desc: "A traditional party bus or stretch limousine can be arranged on request, subject to availability, with details confirmed before you book." },
@@ -1479,6 +1495,21 @@ export const MARYLAND_BATCH4_PAGES = {
       "St. Mary's County celebrates on the water. Weddings at Solomons across the Thomas Johnson Bridge, at Historic St. Mary's City and at waterfront venues along the Patuxent and the Potomac draw guests from across the region, and a Sprinter shuttle keeps them together on rural roads after dark. Proms at Great Mills and Leonardtown High Schools, St. Mary's College events, the Patuxent River Naval Air Museum and evenings in Solomons fill the rest of the calendar.",
       "Every quote is confirmed before you ride. The rate covers the base transportation charge, and gratuity, tolls, parking and any other applicable charges are disclosed before you confirm. Sedan and SUV reservations may be cancelled without charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before."
     ],
+    sections: [
+      {
+        heading: "Why a Confirmed Car Matters More in St. Mary's County",
+        paragraphs: [
+          "St. Mary's County is genuinely rural compared with the rest of our service area, and on-demand rideshare supply reflects that — thin even at reasonable hours, and close to nonexistent for a 3 or 4 a.m. pickup to catch an early Reagan National flight. A dispatched reservation is a specific chauffeur and vehicle assigned to your address the night before, not a request competing with everyone else's for whichever driver happens to be nearby.",
+          "That matters most for Pax River contractors on a tight TDY schedule and for Solomons wedding guests driving unlit rural roads after a reception — exactly the trips where a no-show has no backup plan.",
+        ],
+      },
+      {
+        heading: "Three Notch Road Corridor: California, Great Mills & Hollywood",
+        paragraphs: [
+          "The technology parks and contractor office buildings along Three Notch Road in California and Hollywood sit just outside the base gates, and we run this corridor daily for program teams shuttling between offices, hotels and the airports. Great Mills and Leonardtown round out the local prom and graduation calendar, both a short drive from the same Three Notch Road spine.",
+        ],
+      },
+    ],
     highlights: [
       { title: "Long-Distance Airport Runs", desc: "Reagan National, BWI and Dulles from Lexington Park with the pickup confirmed the day before and the route planned around MD-5 and Beltway traffic." },
       { title: "Flight Tracking Included", desc: "Real-time tracking with 45 minutes of complimentary waiting on domestic arrivals and 60 on international, plus optional meet and greet." },
@@ -1542,7 +1573,7 @@ export const MARYLAND_BATCH4_PAGES = {
   },
 
   "nationals-park-transportation": {
-    metaTitle: "Nationals Park Transportation | Game Day Car Service",
+    metaTitle: "Nationals Park Transportation | Washington DC Car Service",
     metaDescription: "Chauffeured car service to Nationals Park in DC for Nationals games and stadium concerts — sedans, SUVs and Sprinters from Maryland. Call (877) 609-1919.",
     eyebrow: "MLB BALLPARK · NAVY YARD, WASHINGTON, DC",
     h1: "Nationals Park Limo Service",
@@ -1556,6 +1587,21 @@ export const MARYLAND_BATCH4_PAGES = {
       "A chauffeured vehicle changes both ends of the night. On the way in, your group travels together and nobody watches the clock for the drive home. We use the drop-off areas designated by the ballpark for that event, and after the game you walk to the vehicle instead of standing on the Navy Yard Metro platform. For most games we recommend hourly chauffeur service, so the same vehicle and chauffeur stay close by and you leave the moment you reach the car.",
       "The Navy Yard is its own destination now, and many of our clients make an evening of it: dinner along the Anacostia Riverwalk before first pitch, a stop at the Yards Park, and a nightcap at the Wharf a short drive away. Audi Field, home of D.C. United, sits just across South Capitol Street, and The Anthem is close enough that the same chauffeur handles both. Corporate suites, birthday groups and bachelor parties use a Mercedes Sprinter for up to 13, while couples and small parties choose an Escalade or a sedan.",
       "Visiting fans flying in can pair the game with an airport transfer from Reagan National, which is minutes away, or from BWI and Dulles, all with flight tracking and complimentary waiting on arrival. Every quote is confirmed before you ride. The rate covers the base transportation charge, and gratuity, tolls, parking and any other applicable charges are disclosed before you confirm. Special-event reservations may be cancelled without charge up to 12 hours before pickup."
+    ],
+    sections: [
+      {
+        heading: "Navy Yard Traffic: What Actually Slows Down After the Game",
+        paragraphs: [
+          "The bottleneck after a Nationals game is rarely South Capitol Street itself — it is the few blocks immediately around the ballpark, where pedestrian-heavy streets close in stages as the crowd clears the gates. Vehicles staged a few blocks out on M Street SE or Potomac Avenue, outside the immediate closure zone, are often moving again before cars still inside the perimeter are released. Our chauffeurs pick the staging block based on which gate your group exits from, not a single default spot for every game.",
+          "Weeknight getaway games move differently than a weekend afternoon crowd combined with a Navy Yard brunch rush — we adjust the recommended pickup time for each, rather than quoting the same buffer for every game on the schedule.",
+        ],
+      },
+      {
+        heading: "Pairing a Game With Audi Field or a Wharf Dinner",
+        paragraphs: [
+          "Because Audi Field sits directly across South Capitol Street, a split doubleheader of D.C. United and the Nationals on the same weekend is a realistic single chauffeured booking rather than two separate reservations — the vehicle simply waits a few blocks from both. The Wharf, a short drive down M Street, is the most common add-on dinner stop before a night game, and we build that stop into the hourly itinerary rather than treating it as a separate trip.",
+        ],
+      },
     ],
     highlights: [
       { title: "Approaches Planned", desc: "South Capitol Street, the Douglass Bridge, I-295 and the 14th Street Bridge, with pickup times set around game-night street management." },

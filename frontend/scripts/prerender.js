@@ -62,11 +62,12 @@ function loadData() {
   const staticSrc = [
     "src/lib/staticPages.js", "src/lib/pageSchema.js", "src/lib/pageFaqs.js",
     "src/lib/breadcrumbs.js", "src/lib/guides.js", "src/lib/blogPosts.js", "src/lib/keywordSection.js",
+    "src/lib/pillarLinks.js",
   ].map(plain).join("\n");
-  const batch3Src = plain("src/lib/marylandPagesBatch3.js") + "\n" + plain("src/lib/marylandPagesBatch4.js") + "\n" + plain("src/lib/marylandPagesBatch5.js") + "\n" + plain("src/lib/marylandPagesBatch6.js") + "\n" + plain("src/lib/marylandPagesBatch7.js") + "\n" + plain("src/lib/blogPostsBatch2.js") + "\n" + plain("src/lib/blogPostsBatch3.js") + "\n" + plain("src/lib/blogPostsBatch4.js") + "\n" + plain("src/lib/blogPostsBatch5.js") + "\n" + plain("src/lib/blogPostsBatch6.js") + "\n" + plain("src/lib/blogPostsBatch7.js") + "\n" + plain("src/lib/blogPostsBatch8.js") + "\n" + plain("src/lib/blogPostsGenerated.js");
+  const batch3Src = plain("src/lib/marylandPagesBatch3.js") + "\n" + plain("src/lib/marylandPagesBatch4.js") + "\n" + plain("src/lib/marylandPagesBatch5.js") + "\n" + plain("src/lib/marylandPagesBatch6.js") + "\n" + plain("src/lib/marylandPagesBatch7.js") + "\n" + plain("src/lib/marylandPagesBatch8.js") + "\n" + plain("src/lib/blogPostsBatch2.js") + "\n" + plain("src/lib/blogPostsBatch3.js") + "\n" + plain("src/lib/blogPostsBatch4.js") + "\n" + plain("src/lib/blogPostsBatch5.js") + "\n" + plain("src/lib/blogPostsBatch6.js") + "\n" + plain("src/lib/blogPostsBatch7.js") + "\n" + plain("src/lib/blogPostsBatch8.js") + "\n" + plain("src/lib/blogPostsGenerated.js");
   const ctx = { console };
   vm.runInNewContext(
-    `${dataSrc}\n${generatedSrc}\n${marylandSrc}\n${batch3Src}\n${landingSrc}\n${staticSrc}\nthis.__data = { keywordSection, placeName, BRAND, TESTIMONIALS, NAV_SERVICES, PAGE_FAQS, cityFaqs, breadcrumbTrail, breadcrumbSchema, GUIDES, BLOG_POSTS, PRESS_CONTENT, PARTNERS_CONTENT, SERVICE_PAGES, LANDING_PAGES, CITIES, HOME_ABOUT, EXTERNAL_LINKS, FAQS, AREAS, WHY, SOCIAL, CHAMBER, AIRPORTS, FLEET, POLICY, BOOKING_CONTENT, CONTACT_CONTENT, ABOUT_CONTENT, pageSchema };`,
+    `${dataSrc}\n${generatedSrc}\n${marylandSrc}\n${batch3Src}\n${landingSrc}\n${staticSrc}\nthis.__data = { keywordSection, placeName, BRAND, TESTIMONIALS, NAV_SERVICES, PAGE_FAQS, cityFaqs, breadcrumbTrail, breadcrumbSchema, GUIDES, BLOG_POSTS, PRESS_CONTENT, PARTNERS_CONTENT, SERVICE_PAGES, LANDING_PAGES, CITIES, HOME_ABOUT, EXTERNAL_LINKS, FAQS, AREAS, WHY, SOCIAL, CHAMBER, AIRPORTS, FLEET, POLICY, BOOKING_CONTENT, CONTACT_CONTENT, ABOUT_CONTENT, pageSchema, relatedLandingPages };`,
     ctx
   );
   return ctx.__data;
@@ -543,6 +544,7 @@ function buildArticle(post, route, schemaType = "Article") {
 function buildLanding(slug, data) {
   const d = data.LANDING_PAGES[slug];
   const intro = Array.isArray(d.intro) ? d.intro.map(p).join("") : p(d.intro);
+  const sections = (d.sections || []).map((x) => h(2, x.heading) + (x.paragraphs || []).map(p).join("") + ul((x.list || []).map(esc))).join("");
   const highlights = (d.highlights || []).map((x) => `${esc(x.title)} — ${esc(x.desc)}`);
   const faqs = (d.faqs || []).map((f) => h(3, f.q) + p(f.a)).join("");
   const vehicles = (d.vehicles || []).map((v) => esc(v));
@@ -554,6 +556,13 @@ function buildLanding(slug, data) {
         ul(g.places.map((x) => (x.to ? a(x.to, x.label) : esc(x.label))))
     )
     .join("");
+  // "Also Serving" — same algorithmically-ranked related-landing-page links
+  // every visitor sees live (src/components/site/LandingPage.jsx); computed
+  // here from the shared src/lib/pillarLinks.js so crawled HTML never drifts
+  // from what real users get. Guarantees >=6 contextual internal links on
+  // every one of the ~300 landing pages, including the generated ones that
+  // have no hand-authored `areas` field at all.
+  const also = data.relatedLandingPages ? data.relatedLandingPages(slug, data.LANDING_PAGES) : [];
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -582,21 +591,55 @@ function buildLanding(slug, data) {
       h(1, d.h1) +
       p(d.subtitle) +
       intro +
+      sections +
       (highlights.length ? h(2, d.highlightsHeading || "Highlights") + ul(highlights) : "") +
       (areas ? h(2, "Areas We Serve") + areas : "") +
       (vehicles.length ? h(2, "Recommended vehicles") + ul(vehicles) : "") +
       (() => { const k = data.keywordSection(slug, data.placeName(d)); return h(2, k.h2) + k.text.map(p).join(""); })() +
       (faqs ? h(2, "Frequently asked questions") + faqs : "") +
+      (also.length ? h(2, "Also Serving") + ul(also.map((r) => a(`/${r.slug}`, r.title))) : "") +
       (d.ctaTitle ? h(2, d.ctaTitle) + p(d.ctaSubtitle) : ""),
   };
 }
 
+// Mirrors src/pages/CityPage.jsx, including its "Related Services" (SERVICES
+// grid) and "Nearby Communities We Serve" sections — added here so crawlers
+// see the same internal links real visitors do (previously the prerendered
+// HTML for these ~16 city pages carried neither section nor any structured
+// data beyond the FAQPage block, a real drift from the live React page).
 function buildCity(slug, data) {
   const c = data.CITIES.find((x) => x.slug === slug);
+  const faqs = data.cityFaqs(c);
+  const others = data.CITIES.filter((x) => x.slug !== c.slug).slice(0, 8);
+  const schema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LocalBusiness",
+        "@id": `${ORIGIN}/#business`,
+        name: "92 Limo Service",
+        telephone: "+1-877-609-1919",
+        url: `${ORIGIN}/airport-car-service/${c.slug}`,
+        priceRange: "$$$",
+        address: { "@type": "PostalAddress", streetAddress: "9836 Lyon Ave", addressLocality: "Laurel", addressRegion: "MD", postalCode: "20723", addressCountry: "US" },
+        areaServed: { "@type": "City", name: `${c.name}, ${c.region}` },
+        openingHours: "Mo-Su 00:00-23:59",
+      },
+      {
+        "@type": "Service",
+        name: `Airport Car & Limo Service in ${c.name}, MD`,
+        url: `${ORIGIN}/airport-car-service/${c.slug}`,
+        description: `Luxury airport car and limo service in ${c.name}, MD — on-time BWI, DCA and IAD transfers plus corporate, wedding and wine-tour rides.`,
+        provider: { "@id": `${ORIGIN}/#business` },
+      },
+      { "@type": "FAQPage", mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) },
+    ],
+  };
   return {
     title: `Airport Car Service in ${c.name}, MD | 92 Limo`,
     description: `Luxury airport car and limo service in ${c.name}, MD — on-time BWI, DCA and IAD transfers plus corporate, wedding and wine-tour rides.`,
     body:
+      ldJson(schema) +
       h(1, `Airport Car & Limo Service in ${c.name}, MD`) +
       p(
         `Premium, on-time chauffeur service in ${c.name}, ${c.region} — airport transfers to ${c.airport} and beyond, corporate travel, weddings, wine tours and more.`
@@ -612,8 +655,13 @@ function buildCity(slug, data) {
         "Hourly and as-directed chauffeur hire",
         "Maryland and Virginia wine tours",
       ]) +
+      h(2, "Related Services") +
+      ul((data.NAV_SERVICES || []).slice(0, 8).map((x) => a(x.to, `${x.label} in ${c.name}`))) +
+      h(2, `Nearby Communities We Serve`) +
+      ul(others.map((o) => a(`/airport-car-service/${o.slug}`, `${o.name}, MD Car Service`))) +
       (() => { const k = data.keywordSection(`city-${c.slug}`, `${c.name}, MD`, "place"); return h(2, k.h2) + k.text.map(p).join(""); })() +
-      faqBlock("Questions & Answers", data.cityFaqs(c)),
+      h(2, "Questions & Answers") +
+      faqs.map((f) => h(3, f.q) + p(f.a)).join(""),
   };
 }
 

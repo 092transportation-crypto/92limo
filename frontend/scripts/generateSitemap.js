@@ -45,6 +45,7 @@ function loadData() {
     "src/lib/marylandPagesBatch5.js",
     "src/lib/marylandPagesBatch6.js",
     "src/lib/marylandPagesBatch7.js",
+    "src/lib/marylandPagesBatch8.js",
     "src/lib/blogPostsBatch2.js",
     "src/lib/blogPostsBatch3.js",
     "src/lib/blogPostsBatch4.js",

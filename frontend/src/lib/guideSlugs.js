@@ -21,5 +21,10 @@ export const GUIDE_SLUGS = [
   "iad-dulles-airport-transportation-guide",
   "baltimore-md-transportation-guide",
   "senior-and-medical-appointment-transportation-maryland",
-  "corporate-car-service-account-setup-guide"
+  "corporate-car-service-account-setup-guide",
+  "how-much-does-a-limo-cost-from-bwi-to-baltimore",
+  "best-time-to-book-airport-transportation-bethesda-md",
+  "why-not-uber-for-international-arrivals-dulles",
+  "top-wedding-venues-near-baltimore-md",
+  "corporate-travel-guide-tysons-corner-va"
 ];

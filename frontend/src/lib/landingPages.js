@@ -6,6 +6,7 @@ import { MARYLAND_BATCH4_PAGES } from "@/lib/marylandPagesBatch4";
 import { MARYLAND_BATCH5_PAGES } from "@/lib/marylandPagesBatch5";
 import { MARYLAND_BATCH6_PAGES } from "@/lib/marylandPagesBatch6";
 import { MARYLAND_BATCH7_PAGES } from "@/lib/marylandPagesBatch7";
+import { MARYLAND_BATCH8_PAGES } from "@/lib/marylandPagesBatch8";
 
 // Vehicle label sets (must match `${category} — ${name}` from FLEET).
 const SEDAN_TRIO = [
@@ -32,6 +33,7 @@ export const LANDING_PAGES = {
   ...MARYLAND_BATCH5_PAGES,
   ...MARYLAND_BATCH6_PAGES,
   ...MARYLAND_BATCH7_PAGES,
+  ...MARYLAND_BATCH8_PAGES,
 
   // ------------------------------------------------------ FLAGSHIP: BWI LIMO
   "bwi-airport-limo": {
@@ -50,6 +52,22 @@ export const LANDING_PAGES = {
       "Every BWI booking includes real-time flight tracking, so early landings and long delays never cost you a ride — your pickup adjusts automatically at no charge. Prefer a personal welcome? Add meet-and-greet service and your chauffeur can meet you inside the terminal with a name sign (optional meet & greet — additional charge). Generous complimentary wait time is standard on all arrivals.",
       "Our coverage map is one of the largest of any BWI car service. We serve every Maryland county — from Baltimore, Annapolis, and Columbia to Frederick, Bethesda, and Ocean City — plus Washington DC, Northern Virginia, southern Pennsylvania towns like York, Gettysburg, Lancaster, and Hershey, and all of Delaware down to the beaches. If you can fly from BWI, we can get you there.",
       "Ride your way: executive Mercedes and BMW sedans for business travel, the Cadillac Escalade ESV for VIP arrivals and families, and Mercedes Sprinter vans that keep groups of up to 14 together with all their luggage. Corporate accounts enjoy priority scheduling and consolidated billing, and every trip — personal or business — is quoted as one fixed, transparent price. Call (877) 609-1919 or book online, any hour of the day.",
+    ],
+    sections: [
+      {
+        heading: "BWI Terminal Pickup, Step by Step",
+        paragraphs: [
+          "BWI Marshall has a single shared terminal with lettered piers, which makes pickup simpler than an airport with multiple separate terminal buildings — but the lower-level arrivals curb still gets dense during peak banks. On a standard booking, your chauffeur is staged curbside on the lower level nearest your baggage carousel before you clear the jet bridge, tracking your flight so a late gate or a slow bag belt never leaves the car waiting at the wrong door.",
+          "Meet-and-greet changes that sequence: your chauffeur waits just past security inside the terminal with a printed name sign, walks with you to baggage claim, and handles the bags from there — the option most families, first-time visitors and business travelers meeting a client at BWI for the first time choose.",
+        ],
+      },
+      {
+        heading: "Why the Long Coverage Map Actually Matters",
+        paragraphs: [
+          "Plenty of car services near BWI will not drive much past the Maryland line. We built our coverage map outward deliberately, because a sizable share of BWI's actual catchment is southern Pennsylvania and Delaware — flyers who choose BWI over a closer regional airport specifically because of its fares and nonstop options. A Hershey or Lancaster-based traveler gets the same flat-rate, flight-tracked service as a Baltimore City pickup, just with a longer, pre-quoted drive time instead of a surprise.",
+          "That same logic runs south and east: Northern Virginia commuters who work near Dulles or Reagan still sometimes fly BWI for the fare, and Eastern Shore and Delaware beach travelers do the same. One provider, one flat-rate model, regardless of which side of three states the trip starts on.",
+        ],
+      },
     ],
     highlights: [
       { title: "24/7 Airport Transportation", desc: "Around-the-clock BWI service, every day of the year — pre-dawn departures and red-eye arrivals included." },
@@ -141,7 +159,6 @@ export const LANDING_PAGES = {
       { q: "What if my flight into BWI is delayed?", a: "Nothing changes for you. We track every flight in real time and adjust your pickup automatically, at no extra charge, with generous complimentary wait time on arrival." },
       { q: "Do you really serve Pennsylvania and Delaware?", a: "Yes. We regularly run BWI transfers to and from York, Hanover, Gettysburg, Lancaster, Harrisburg, and Hershey in Pennsylvania, and Wilmington, Newark, Dover, and the beach towns in Delaware." },
       { q: "Can a group ride together?", a: "Absolutely. Our Mercedes Sprinter vans seat up to 14 passengers with dedicated luggage space, and our Escalade ESV and Suburban SUVs carry families and small groups in first-class comfort." },
-      { q: "Is the price really fixed?", a: "Yes. Every trip is quoted as one fixed, transparent rate before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. There is no meter and no surge pricing." },
     ],
     ctaTitle: "Book Your BWI Airport Transportation Today",
     ctaSubtitle:
@@ -1018,6 +1035,22 @@ export const LANDING_PAGES = {
       "Groups are where chauffeured service really beats the alternatives. A Mercedes Sprinter keeps up to 14 friends together with the pregame playlist going, and our Escalade and Suburban SUVs carry date nights, families, and client entertaining in first-class comfort. Because nobody in your party is driving, everyone gets to enjoy the tailgate, the toast, and the last song — with a professional, background-checked chauffeur handling the ride home.",
       "Every event trip is quoted as one flat, transparent rate covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — no meters and no surge pricing, even on the busiest show nights of the year. Book online in minutes or call (877) 609-1919 and tell us the venue, the date, and the size of your group; we will handle everything else.",
     ],
+    sections: [
+      {
+        heading: "Baltimore Event Nights: Stadiums, Arena & Inner Harbor",
+        paragraphs: [
+          "Baltimore's event calendar runs on three very different clocks. Ravens Sundays at M&T Bank Stadium and Orioles weeknights at Camden Yards both load Russell Street and the Howard Street corridor at the same time every attendee's rideshare app is trying to do the same thing, while CFG Bank Arena downtown lets out 14,000 people onto Baltimore Street inside a ten-minute window regardless of what time the encore actually ends. We plan around whichever clock applies — staging early for a stadium's pre-kickoff crush, or timing the pickup to the arena's own exit pattern rather than the printed set time.",
+          "A night that starts at the Inner Harbor and ends at a show is one of our most common Baltimore bookings: dinner in Harbor East or Fells Point, a staged drop at the venue door, and a coordinated pickup afterward so the designated-driver conversation never has to happen.",
+        ],
+      },
+      {
+        heading: "DC & Suburban Venues: Beating the Beltway Exit",
+        paragraphs: [
+          "Capital One Arena and Nationals Park both sit inside DC's own exit-traffic puzzle — Gallery Place rideshare queues and Half Street's post-game crowd move at a pace a staged, pre-arranged pickup simply skips. Northwest Stadium in Landover adds Beltway-ramp congestion on top of the stadium-lot crawl, which is exactly the kind of multi-layered exit our chauffeurs plan for before the first pitch or kickoff.",
+          "Out in the suburbs, Merriweather Post Pavilion's summer sellouts and Wolf Trap's lawn-seating crowds both move through a single access road at showtime — we build extra buffer into the pickup window on those nights specifically, since the parking lot itself, not the highway, is usually the bottleneck.",
+        ],
+      },
+    ],
     highlights: [
       { title: "Every Major DMV Venue", desc: "CFG Bank Arena, Capital One Arena, M&T Bank Stadium, Camden Yards, Nationals Park, Merriweather, Wolf Trap, Jiffy Lube Live, MGM National Harbor, and more." },
       { title: "Door-Side Drop-Offs", desc: "We drop you at the closest access point the venue allows — no parking garages or long walks in the dark." },
@@ -1030,21 +1063,21 @@ export const LANDING_PAGES = {
       { region: "Maryland", places: [
         { label: "CFG Bank Arena", to: "/cfg-bank-arena-transportation" },
         { label: "M&T Bank Stadium", to: "/mt-bank-stadium-transportation" },
-        { label: "Camden Yards" },
+        { label: "Camden Yards", to: "/oriole-park-camden-yards-transportation" },
         { label: "Merriweather Post Pavilion", to: "/merriweather-post-pavilion-transportation" },
-        { label: "MGM National Harbor" },
-        { label: "Northwest Stadium (FedEx Field)" },
+        { label: "MGM National Harbor", to: "/mgm-national-harbor-transportation" },
+        { label: "Northwest Stadium (FedEx Field)", to: "/northwest-stadium-transportation" },
       ] },
       { region: "Washington, DC", places: [
         { label: "Capital One Arena", to: "/capital-one-arena-transportation" },
-        { label: "Nationals Park" },
-        { label: "The Anthem" },
-        { label: "Kennedy Center" },
+        { label: "Nationals Park", to: "/nationals-park-transportation" },
+        { label: "The Anthem", to: "/the-anthem-dc-transportation" },
+        { label: "Kennedy Center", to: "/kennedy-center-transportation" },
       ] },
       { region: "Virginia", places: [
         { label: "Jiffy Lube Live" },
-        { label: "Wolf Trap" },
-        { label: "EagleBank Arena" },
+        { label: "Wolf Trap", to: "/wolf-trap-transportation" },
+        { label: "EagleBank Arena", to: "/eaglebank-arena-transportation" },
       ] },
     ],
     vehicles: GROUP_TRIO,
@@ -1052,8 +1085,7 @@ export const LANDING_PAGES = {
       { q: "Which venues do you provide concert and event transportation to?", a: "All of them. Our most-requested venues are CFG Bank Arena, M&T Bank Stadium, and Camden Yards in Baltimore; Capital One Arena, Nationals Park, and Northwest Stadium (formerly FedEx Field) in the DC area; and Merriweather Post Pavilion, Jiffy Lube Live, Wolf Trap, and MGM National Harbor in the suburbs — plus clubs, theaters, and festivals across Maryland, DC, and Virginia." },
       { q: "How does the pickup work after the show ends?", a: "Before the event we agree on a specific pickup point near the venue. Your chauffeur stages nearby as the show winds down and brings the vehicle to that spot, so you walk straight out of the gates to a waiting car instead of fighting the rideshare crowd." },
       { q: "Can you take a big group to a concert together?", a: "Yes — that is our specialty. A Mercedes Sprinter van keeps up to 14 people together with room for coolers and gear, and our Escalade and Suburban SUVs handle smaller groups in first-class comfort. One vehicle, one price, nobody splitting up." },
-      { q: "Do you charge surge pricing on sold-out event nights?", a: "Never. Every event trip is quoted in advance as one flat, transparent rate covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — the same transparent price whether it is a Tuesday club show or a stadium sellout." },
-      { q: "Can we make stops before the show — dinner, drinks, or picking up friends?", a: "Absolutely. We can build multi-stop pickups into your reservation, or book hourly as-directed service so the chauffeur stays with your group from dinner through the final encore and home again." },
+      { q: "Do you charge surge pricing on sold-out event nights?", a: "Never. Every event trip is quoted in advance as one flat, transparent rate covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation — the same transparent price whether it is a Tuesday club show or a stadium sellout. We can also build multi-stop pickups into the reservation for dinner or drinks beforehand." },
       { q: "How far in advance should I book event transportation?", a: "For big shows and Ravens or Commanders home games, book as soon as you have tickets — vehicles sell out on major event nights. For smaller shows, a few days ahead is usually fine. Call (877) 609-1919 anytime, 24/7." },
     ],
     ctaTitle: "Make Your Next Show Effortless",
@@ -1504,7 +1536,6 @@ const EXTRA_FAQS = {
   "maryland-prom-limo": { q: "How many students fit in one vehicle?", a: "Up to 5 in a Luxury or Premium SUV and up to 13 in a Mercedes Sprinter. Spring weekends sell out early, so book as soon as the group is set." },
   "maryland-concert-transportation": { q: "Where does the chauffeur wait during the show?", a: "Your chauffeur drops you at the entrance, stages nearby during the event, and returns to a pre-arranged pickup point when you call or text — so you skip the garage queue and the post-show rideshare scramble." },
   "maryland-wine-tour-transportation": { q: "How many wineries can we visit in a day?", a: "Most groups enjoy three with a relaxed lunch. Reserve the tastings with the wineries, send us the confirmed times, and we plan the route and drive times around them." },
-  "bwi-airport-limo": { q: "How much does BWI limo service cost?", a: "Every booking is one fixed, transparent price confirmed before you ride, covering the base transportation charge — gratuity, tolls, parking and any other applicable charges are disclosed before confirmation. Call (877) 609-1919 or book online for your exact rate." },
   "bwi-airport-car-service": { q: "How much does BWI airport car service cost?", a: "Every BWI trip is quoted as a flat, transparent rate confirmed before you book — call (877) 609-1919 or request a quote online. The quoted rate covers the base transportation charge, with gratuity, tolls, parking and any other applicable charges disclosed before confirmation, so there is never a meter or a surprise total." },
   "bwi-airport-transportation": { q: "What does BWI airport transportation typically cost?", a: "Pricing is a flat rate set before your trip is confirmed, based on vehicle class, pickup location and BWI destination. Call (877) 609-1919 or book online for an exact quote — gratuity, tolls and parking are disclosed upfront, with no surge pricing regardless of time or day." },
   "bwi-airport-shuttle": { q: "Is BWI airport shuttle service cheaper than a private car?", a: "92 Limo Service is a private, chauffeured vehicle, not a shared shuttle, so you are never split across multiple stops. The rate is quoted as a flat fee before you ride, confirmed by phone at (877) 609-1919 or when you book online." },

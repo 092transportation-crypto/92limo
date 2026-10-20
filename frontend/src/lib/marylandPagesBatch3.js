@@ -17,6 +17,21 @@ export const MARYLAND_BATCH3_PAGES = {
       "Much of our Potomac work is tied to the clubs and estates along River Road. We carry members and guests to Congressional Country Club, to TPC Potomac at Avenel Farm during tournament weeks, and to private events where parking on a residential lane is simply not available. Visitors heading to Glenstone, to Great Falls Tavern on the C&O Canal, or to a dinner in Georgetown or downtown Bethesda book an hourly chauffeur so the car stays with them.",
       "Families use us for the practical trips as well: a Suburban for college move-in with luggage, car seats on request for young travelers, a Sprinter for a bar or bat mitzvah party, or a sedan waiting outside a late arrival at Dulles. Every quote is confirmed before you ride. The quoted rate covers the base transportation charge, and gratuity, tolls, parking and any other applicable charges are disclosed before you confirm."
     ],
+    sections: [
+      {
+        heading: "Choosing Between DCA and Dulles From Potomac",
+        paragraphs: [
+          "Most Potomac households default to whichever airport is closer to that day's meeting or flight, and the honest answer is that DCA and Dulles run close enough in drive time that the flight schedule, not the airport, should usually decide. DCA tends to win for a midday departure via River Road and the GW Parkway; Dulles often wins for an early-morning trip when the American Legion Bridge has not yet loaded up with Beltway commuters.",
+          "International departures skew the decision toward Dulles regardless of drive time, since it is the region's primary gateway for long-haul flights — we plan those pickups with extra buffer for the Dulles Access Road's own rush-hour pattern.",
+        ],
+      },
+      {
+        heading: "Weddings and Events at Glenstone and the River Road Clubs",
+        paragraphs: [
+          "Glenstone's timed-entry museum grounds and the private clubs along River Road share the same practical problem: very little guest parking and a strong preference for a predictable arrival window rather than a stream of individually driven cars. For a wedding or gala at Avenel Farm or Congressional, we typically run a Sprinter shuttle from a Bethesda or Rockville hotel alongside a sedan for the host or VIP guests, timed to the venue's own entry schedule rather than a generic arrival time.",
+        ],
+      },
+    ],
     highlights: [
       { title: "Two Close Airports", desc: "DCA and Dulles are each roughly 30 to 50 minutes from Potomac Village depending on traffic, and we serve BWI just as readily when the fare or the schedule is better there." },
       { title: "River Road Know-How", desc: "Chauffeurs who understand the two-lane stretches of River and Falls Roads, the Beltway ramps and the American Legion Bridge, and who set pickup times accordingly." },
@@ -94,6 +109,20 @@ export const MARYLAND_BATCH3_PAGES = {
       "Corporate travel is a large share of what we do here. Offices line Red Run Boulevard and Painters Mill Road, T. Rowe Price has a campus in Owings Mills, and Metro Centre at Owings Mills has added offices and a hotel beside the Metro SubwayLink terminus. We move executives between those offices and BWI, carry visiting teams to meetings in downtown Baltimore or Hunt Valley, and run Sprinter shuttles for off-site meetings and client dinners.",
       "Owings Mills is also a family and campus community. Stevenson University brings parents and guests in for commencement and athletic weekends, the Baltimore Ravens train at their facility here, and schools such as McDonogh and Garrison Forest host events that fill their parking lots. A chauffeured car avoids the hunt for a space and gives grandparents a comfortable door-to-door ride.",
       "For evenings, the ride into the city is simple: I-795 to the Beltway and I-83, or Reisterstown Road the whole way when the highways are jammed. We take couples to dinner in Harbor East, groups to concerts at CFG Bank Arena and fans to Ravens and Orioles games, with the vehicle waiting for a prompt pickup afterward. All quotes are confirmed before you ride, and the items not included in the base rate — gratuity, tolls, parking and other applicable charges — are disclosed before you confirm."
+    ],
+    sections: [
+      {
+        heading: "T. Rowe Price, Metro Centre and the Red Run Corridor",
+        paragraphs: [
+          "The office cluster around Red Run Boulevard, Painters Mill Road and Metro Centre at Owings Mills sends us a steady run of standing corporate accounts — T. Rowe Price staff and visiting teams headed to BWI, candidates flying in for interviews, and executives commuting between Owings Mills and downtown Baltimore or Hunt Valley offices. Metro Centre's Metro SubwayLink terminus also makes it a practical staging point for a Sprinter shuttle when a larger group is moving between a downtown hotel and an Owings Mills office in the same day.",
+        ],
+      },
+      {
+        heading: "Stevenson University and School Event Weekends",
+        paragraphs: [
+          "Stevenson University's commencement and athletic weekends, along with events at McDonogh and Garrison Forest, reliably fill campus parking well before the actual event — we see the same pattern every graduation weekend. A chauffeured pickup at a family's door skips that search entirely, which matters most for grandparents and out-of-town relatives unfamiliar with campus layout.",
+        ],
+      },
     ],
     highlights: [
       { title: "Straight Shot to BWI", desc: "I-795 to the Beltway and on to the airport, generally 35 to 50 minutes depending on traffic, with pickup times set around the west-side Beltway rush." },
@@ -249,6 +278,20 @@ export const MARYLAND_BATCH3_PAGES = {
       "On weekends the work shifts to the countryside. Spring steeplechase season fills the narrow roads of the valleys with race-day traffic, and barn and estate weddings in Sparks, Butler, Glyndon and Monkton often sit at the end of a gravel lane with little guest parking. We shuttle guests from Hunt Valley and Cockeysville hotels to the ceremony and back, and we ask for the venue address early so the vehicle suits the access road.",
       "Cockeysville residents along York Road and in neighborhoods near Warren Road and Padonia Road use us for the same airport and evening trips as anyone else: a dawn sedan to BWI, a ride to Penn Station for the train, or a night at the symphony in Baltimore with no parking garage involved. For Reagan National or Dulles, plan on a considerably longer transfer, which we schedule with the Baltimore and Capital Beltways in mind.",
       "Every reservation is quoted and confirmed before you ride. The rate covers the base transportation charge, and we disclose gratuity, tolls, parking and any other applicable charges before you confirm. Sedans and SUVs may be cancelled without charge up to 3 hours before pickup; Sprinter vans, limousines and special events up to 12 hours before."
+    ],
+    sections: [
+      {
+        heading: "East of I-83: The Hunt Valley Business Park",
+        paragraphs: [
+          "McCormick Road and International Drive form the core of the Hunt Valley business park, and the companies there are some of our longest-standing corporate accounts in Baltimore County — consolidated monthly invoicing, priority dispatch for visiting auditors and new hires, and chauffeurs who know which office park entrance to use without being told twice. Hunt Valley Towne Centre, just across I-83, adds a steady stream of dinner-and-shopping bookings on top of the weekday office traffic.",
+        ],
+      },
+      {
+        heading: "West of I-83: Shawan Road and Horse Country",
+        paragraphs: [
+          "Cross I-83 onto Shawan Road and the business park gives way within a couple of miles to the Worthington Valley's horse farms, steeplechase courses and barn wedding venues around Sparks, Butler, Glyndon and Monkton. These venues share a common thread: little or no paved guest parking, roads with no streetlights after dark, and addresses that a rideshare driver unfamiliar with the valley will genuinely struggle to find at night. We treat every one of these bookings as a guest-shuttle job from a Hunt Valley or Cockeysville hotel rather than a simple point-to-point drop-off.",
+        ],
+      },
     ],
     highlights: [
       { title: "Business Park Transfers", desc: "Airport pickups and returns for visitors to Hunt Valley offices, with flight tracking so a delayed arrival never leaves a guest waiting at the curb." },
@@ -795,6 +838,20 @@ export const MARYLAND_BATCH3_PAGES = {
       "Groups do very well with a Sprinter. Birthday parties, bachelor and bachelorette outings and office celebrations can gather at one address, ride together, and begin the evening in the vehicle rather than in a parking garage. Couples celebrating an anniversary usually choose a first class sedan and add dinner at one of the resort restaurants ahead of a show.",
       "MGM is also the closest major resort to Reagan National, typically 15 to 25 minutes depending on traffic, and we bring hotel guests in from DCA, BWI and Dulles with real-time flight tracking. For the rest of the waterfront — the Gaylord National, the Capital Wheel and the outlets — see our National Harbor transportation page. Every quote is confirmed before you ride; the rate covers the base transportation charge, and gratuity, tolls, parking and other applicable charges are disclosed before confirmation."
     ],
+    sections: [
+      {
+        heading: "Show Nights at The Theater: Timing the Pickup",
+        paragraphs: [
+          "The Theater at MGM National Harbor runs on a tighter clock than the casino floor — doors, a fixed start time, and a hard finish that sends most of the room for the exits within the same ten minutes. We treat a Theater show differently from an open-ended casino night: the chauffeur stages at an agreed door specifically timed to the show's run length rather than waiting on standby, so you are not competing with the whole venue for the same exit ramp onto the Beltway at once.",
+        ],
+      },
+      {
+        heading: "Hourly Service vs. a Scheduled Round Trip",
+        paragraphs: [
+          "Casino nights are genuinely harder to predict than a show with a fixed curtain time, which is why we point most MGM bookings toward hourly as-directed service rather than a pre-scheduled return. The vehicle and chauffeur simply wait — in the resort's short-term area, not circling the Beltway — until your group is ready, with no guessing at an end time when you book. A scheduled two-way transfer still works well when you already know you want to leave by a specific hour.",
+        ],
+      },
+    ],
     highlights: [
       { title: "Entrance Drop-Off", desc: "Arrive at the resort entrance rather than circling the garage, which matters most in the last half hour before a show at The Theater." },
       { title: "Late-Night Returns", desc: "24/7 dispatch means a confirmed ride home after midnight, whether you book hourly or a scheduled return transfer." },
@@ -929,7 +986,7 @@ export const MARYLAND_BATCH3_PAGES = {
   },
 
   "northwest-stadium-transportation": {
-    metaTitle: "Northwest Stadium Transportation | Commanders Game Limo",
+    metaTitle: "Northwest Stadium Transportation Landover, MD | 92 Limo",
     metaDescription: "Chauffeured rides to Northwest Stadium in Landover for Commanders games and concerts. Sedans, SUVs, Sprinters. Book early — call (877) 609-1919.",
     eyebrow: "NFL STADIUM · LANDOVER",
     h1: "Northwest Stadium Transportation",
@@ -943,6 +1000,21 @@ export const MARYLAND_BATCH3_PAGES = {
       "A chauffeured vehicle changes both ends of the day. On the way in, your group travels together and nobody has to stay sober for the drive home. At the stadium, we use the drop-off and limousine areas designated for that event; their locations and rules vary, so the chauffeur confirms them on the day and tells you exactly where the vehicle will be. After the final whistle you walk to the vehicle and leave, rather than hunting for your car in a dark lot.",
       "Groups are the core of our stadium work. A Mercedes Sprinter suits a block of season-ticket holders, a company entertaining clients, or a family making a birthday of it. Couples and small parties usually choose an SUV. We generally recommend hourly service for games and concerts so the same vehicle and chauffeur remain with you, although a scheduled drop-off and return is also available. Special-event reservations may be cancelled without charge up to 12 hours before pickup.",
       "Visiting fans flying in for a game can book an airport transfer as well. Reagan National is the nearest airport and BWI is also convenient, and both are tracked in real time with complimentary waiting on arrival. All quotes are confirmed before you ride. The rate covers the base transportation charge, and gratuity, tolls, event parking and any other applicable charges are disclosed before you confirm."
+    ],
+    sections: [
+      {
+        heading: "Tailgate Lots vs. a Staged Pickup",
+        paragraphs: [
+          "Northwest Stadium's tailgate culture is a real part of the Commanders game-day experience, and a chauffeured arrival doesn't take that away — your group still gets the full pregame lot, just without anyone needing to track how much they've had or where the car keys ended up. The difference shows up at the final whistle: instead of walking back through a lot that took an hour to fill, you walk to a single staged pickup point your chauffeur confirmed with you before kickoff.",
+          "We adjust the exact staging spot by which gate your section empties toward, since Landover Road and Arena Drive exits clear at different rates depending on where the bulk of the crowd is headed.",
+        ],
+      },
+      {
+        heading: "Concerts and International Soccer: A Different Crowd Pattern",
+        paragraphs: [
+          "A stadium concert tour or an international soccer match draws a different mix than an NFL Sunday — more rideshare-dependent attendees, fewer tailgaters, and often a later, more compressed exit once a single headliner finishes rather than a game clock winding down. We plan the post-event pickup around that pattern specifically, since a concert crowd clearing the gates in one wave behaves differently from a football crowd that thins out over twenty minutes.",
+        ],
+      },
     ],
     highlights: [
       { title: "Planned Around Beltway Traffic", desc: "Pickup times set for the Central Avenue, Arena Drive and Landover Road approaches, based on when you want to be inside." },
@@ -1091,6 +1163,21 @@ export const MARYLAND_BATCH3_PAGES = {
       "Downtown has its own complications. Pratt Street is one-way, curb space near the entrances is limited, and an Orioles or Ravens home game next door can alter traffic patterns for the afternoon. Our chauffeurs know the Pratt, Charles and Sharp Street sides of the building and the hotel driveways nearby. For pickups we agree on a specific door with the passenger, rather than the convention center in general, which saves a good deal of wandering on the phone.",
       "For planners, we provide shuttle service using Sprinter vans: hotel loops for properties beyond walking distance, VIP and speaker transfers, board dinners in Harbor East, Fells Point or Little Italy, and off-site receptions at places such as the National Aquarium or the American Visionary Art Museum. Our dispatch desk is reachable 24/7 throughout the event. Exhibitors often book an SUV or Sprinter to move staff along with sample cases and display materials that will not fit in a sedan.",
       "Quotes for individual rides and for group programs are confirmed before service begins. The quoted rate covers the base transportation charge, and gratuity, tolls, parking and any other applicable charges are disclosed before confirmation. Sedan and SUV bookings may be cancelled free of charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before."
+    ],
+    sections: [
+      {
+        heading: "Coordinating a Multi-Day Event Program",
+        paragraphs: [
+          "A multi-day convention is a logistics problem before it is a transportation one: a wave of attendee arrivals on day one, a predictable daily hotel-to-convention-center loop for the middle days, and a compressed wave of departures at closing. We ask event planners for the arrival and departure manifest as early as possible so we can staff Sprinter shuttles against the actual wave pattern rather than guessing, and we keep a single point of contact with the planner throughout the event rather than routing every change through general dispatch.",
+          "VIP and speaker transfers are handled as individually confirmed reservations rather than folded into the general shuttle loop, since a keynote speaker's schedule rarely matches the hotel loop's fixed timing.",
+        ],
+      },
+      {
+        heading: "When a Ravens or Orioles Game Overlaps Your Event",
+        paragraphs: [
+          "Because Camden Yards and M&T Bank Stadium both sit within a few blocks of the convention center, a home game on the same day changes Pratt Street's traffic pattern for hours before kickoff or first pitch, not just during the event itself. If your convention dates overlap a published Orioles or Ravens home game, we flag it to the planner in advance and build extra time into attendee transfers that afternoon rather than discovering the conflict on site.",
+        ],
+      },
     ],
     highlights: [
       { title: "BWI Transfers", desc: "Typically 20 to 35 minutes between the airport and Pratt Street depending on traffic, with real-time flight tracking on every arrival." },
