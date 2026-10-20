@@ -808,7 +808,7 @@ export const GUIDES = [
     title: "The Complete Wedding Transportation Guide for Maryland, DC & Virginia Couples",
     metaTitle: "Wedding Transportation Guide | Maryland, DC & VA | 92 Limo",
     metaDescription:
-      "Flat-rate pricing, a real fleet comparison, timeline coordination and vendor questions to ask — the complete wedding transportation guide for Maryland, DC & Virginia couples.",
+      "Flat-rate pricing, a real fleet comparison and vendor questions to ask — the complete wedding transportation guide for Maryland, DC & Virginia.",
     category: "Weddings",
     date: "2026-09-30",
     readTime: "13 min read",
@@ -1021,7 +1021,7 @@ export const GUIDES = [
     title: "Holiday Lights Limo & Chauffeur Tours: The Complete Guide for Maryland, DC & Northern Virginia",
     metaTitle: "Holiday Lights Limo Tours | Maryland, DC & VA | 92 Limo",
     metaDescription:
-      "Chauffeured holiday lights tours across Maryland, DC & Northern Virginia — real displays, flat-rate hourly pricing, the right vehicle, timing tips and a 10-question FAQ.",
+      "Chauffeured holiday lights tours across Maryland, DC & Northern Virginia — real displays, flat-rate pricing, the right vehicle and timing tips.",
     category: "Holiday & Seasonal",
     date: "2026-09-30",
     readTime: "13 min read",

@@ -11,7 +11,7 @@ export const BLOG_POSTS_BATCH3 = [
     title: "When to Book an Actual Limousine for BWI Airport Travel",
     metaTitle: "BWI Airport Limousine Service | 92 Limo",
     metaDescription:
-      "When a formal limousine — not just a car service — is the right call for BWI airport travel, and which 92 Limo Service vehicles fit the occasion. (877) 609-1919.",
+      "When a formal limousine — not just a car service — is right for BWI airport travel, and which 92 Limo Service vehicle fits. (877) 609-1919.",
     category: "Airport Guides",
     date: "2026-09-28",
     readTime: "9 min read",
@@ -234,7 +234,7 @@ export const BLOG_POSTS_BATCH3 = [
     title: "Airport Limo vs. Uber: The Real Cost Breakdown for BWI, DCA & IAD Trips",
     metaTitle: "Airport Limo vs. Uber Cost Breakdown | 92 Limo",
     metaDescription:
-      "A real, line-by-line cost comparison of flat-rate airport limo service vs. Uber for BWI, DCA, and IAD trips — including the costs rideshare apps don't show upfront.",
+      "A line-by-line cost comparison of flat-rate airport limo service vs. Uber for BWI, DCA and IAD trips — including costs rideshare apps don't show upfront.",
     category: "Comparisons",
     date: "2026-09-28",
     readTime: "10 min read",

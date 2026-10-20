@@ -460,7 +460,7 @@ export const SERVICE_PAGES = {
   "anniversary-limo-service": {
     metaTitle: "Anniversary Limo Service | Maryland, DC & VA | 92 Limo",
     metaDescription:
-      "Chauffeured anniversary transportation in Maryland, DC & Virginia — dinner, a show and the ride home in a luxury sedan, SUV or Sprinter Executive van. (877) 609-1919.",
+      "Chauffeured anniversary transportation in Maryland, DC & Virginia — dinner, a show and the ride home in a sedan, SUV or Sprinter van. (877) 609-1919.",
     eyebrow: "ANNIVERSARIES",
     h1: "Anniversary Limo & Chauffeur Service",
     subtitle: "An evening where neither of you drives — a chauffeur, a beautiful car, and every stop taken care of.",
