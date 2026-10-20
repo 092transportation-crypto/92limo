@@ -239,8 +239,8 @@ function buildCustomerBookingEmail(b) {
         <div style="padding:30px;color:#fff;">
           <h2 style="color:${GOLD};margin:0 0 16px;font-size:20px;">Hi ${escapeHtml(name)},</h2>
           <p style="line-height:1.6;color:#ddd;font-size:15px;">
-            Thank you for choosing 92 Limo Service. We&rsquo;ve received your booking request and a
-            reservation specialist will reach out shortly to confirm your ride.
+            Thank you for choosing 92 Transportation. We received your booking request and will
+            confirm within 15 minutes. Questions? Call <a href="${PHONE_HREF}" style="color:${GOLD};">${PHONE}</a>
           </p>
           <div style="margin:18px 0;padding:14px 16px;background:#0a0a0a;border:1px solid #2a2a2a;border-radius:6px;">
             <p style="margin:0 0 8px;color:${GOLD};font-size:12px;text-transform:uppercase;letter-spacing:1px;">Good to know</p>
@@ -248,10 +248,6 @@ function buildCustomerBookingEmail(b) {
             <p style="margin:0 0 8px;line-height:1.55;color:#ccc;font-size:13px;">${WAITING_POLICY}</p>
             <p style="margin:0;line-height:1.55;color:#ccc;font-size:13px;">${MEET_GREET_POLICY} Full policies: <a href="${POLICIES_URL}" style="color:${GOLD};">${POLICIES_URL}</a></p>
           </div>
-          <p style="line-height:1.6;color:#ddd;font-size:15px;">
-            <strong style="color:${GOLD};">Need immediate assistance?</strong><br/>
-            Call us 24/7 at <a href="${PHONE_HREF}" style="color:${GOLD};">${PHONE}</a>
-          </p>
           <div style="margin:24px 0;padding:16px;background:#0a0a0a;border-left:3px solid ${GOLD};border-radius:4px;">
             <p style="margin:0;color:#999;font-size:13px;">Trip summary:</p>
             <p style="margin:6px 0 0;color:#fff;font-size:14px;">
@@ -267,10 +263,9 @@ function buildCustomerBookingEmail(b) {
         </div>`;
   const text =
     `Hi ${name},\n\n` +
-    "Thank you for choosing 92 Limo Service. We've received your booking request and a " +
-    "reservation specialist will reach out shortly to confirm your ride.\n\n" +
+    "Thank you for choosing 92 Transportation. We received your booking request and will " +
+    `confirm within 15 minutes. Questions? Call ${PHONE}\n\n` +
     `${PRICING_POLICY}\n\n${WAITING_POLICY}\n\n${MEET_GREET_POLICY}\nFull policies: ${POLICIES_URL}\n\n` +
-    `For immediate assistance, call us 24/7 at ${PHONE}.\n\n` +
     `Trip: ${b.pickup_location || ""} -> ${b.dropoff_location || "—"}\n` +
     `When: ${b.date || ""} ${b.time || ""}\n` +
     `Vehicle: ${b.vehicle_type || ""}\n` +

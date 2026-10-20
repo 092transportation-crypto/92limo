@@ -8,6 +8,7 @@
  *
  * Run: node scripts/test-form-api.js
  */
+const http = require("http");
 const nodemailer = require("nodemailer");
 
 function mockReq(method, body) {
@@ -44,7 +45,7 @@ async function run() {
       pickup_location: "BWI Airport", dropoff_location: "Inner Harbor, Baltimore",
       date: "2026-07-04", time: "14:30", passengers: 3, luggage: 2,
       service_type: "Airport Transfer", vehicle_type: "Premium SUV — Cadillac Escalade",
-      notes: "Flight UA123",
+      hear_about_us: "Google Search", notes: "Flight UA123",
     });
     const res = mockRes();
     await quote(req, res);
@@ -61,6 +62,7 @@ async function run() {
     pickup_location: "BWI Airport", dropoff_location: "Annapolis, MD",
     date: "2026-07-04", time: "14:30", passengers: 2, luggage: 1,
     service_type: "Airport Transfer", vehicle_type: "Business Sedan — Mercedes E-Class",
+    hear_about_us: "Google Search",
   };
   {
     const req = mockReq("POST", {
@@ -142,6 +144,49 @@ async function run() {
     console.log(`[booking no-pricing] -> ${res.statusCode} ${ok ? "PASS" : "FAIL"}`);
     if (!ok) { failures++; console.log(email.text); }
   }
+  // Booking — Make.com webhook dispatch (fires alongside the emails, never
+  // blocks/fails the booking response even when it 500s or is unreachable)
+  {
+    let received = null;
+    const server = http.createServer((req, res) => {
+      let body = "";
+      req.on("data", (c) => (body += c));
+      req.on("end", () => {
+        received = JSON.parse(body);
+        res.writeHead(200, { "Content-Type": "application/json" });
+        res.end("{}");
+      });
+    });
+    await new Promise((resolve) => server.listen(0, resolve));
+    const port = server.address().port;
+    process.env.MAKE_BOOKING_WEBHOOK_URL = `http://127.0.0.1:${port}/hook`;
+
+    const res = mockRes();
+    await quote(mockReq("POST", { ...baseBooking, name: "Webhook Rider", phone: "443-555-0188", email: "webhook@example.com" }), res);
+    await new Promise((resolve) => setTimeout(resolve, 50)); // let the request body event loop flush
+    const ok =
+      res.statusCode === 201 && received &&
+      received.name === "Webhook Rider" && received.phone === "443-555-0188" &&
+      received.pickup === baseBooking.pickup_location && received.destination === baseBooking.dropoff_location &&
+      received.date === baseBooking.date && received.time === baseBooking.time &&
+      typeof received.submitted_at === "string";
+    console.log(`[booking webhook] -> ${res.statusCode} ${ok ? "PASS" : "FAIL"}`);
+    if (!ok) { failures++; console.log(JSON.stringify(received)); }
+    server.close();
+    delete process.env.MAKE_BOOKING_WEBHOOK_URL;
+  }
+  // Booking — Make.com webhook URL unreachable (connection refused): booking
+  // must still succeed, nothing should throw past the handler.
+  {
+    process.env.MAKE_BOOKING_WEBHOOK_URL = "http://127.0.0.1:1/unreachable";
+    const res = mockRes();
+    await quote(mockReq("POST", { ...baseBooking, name: "Unreachable Hook", email: "unreachable@example.com" }), res);
+    const ok = res.statusCode === 201;
+    console.log(`[booking webhook unreachable] -> ${res.statusCode} ${ok ? "PASS" : "FAIL"}`);
+    if (!ok) failures++;
+    delete process.env.MAKE_BOOKING_WEBHOOK_URL;
+  }
+
   // Booking — missing fields
   {
     const res = mockRes();

@@ -12,6 +12,7 @@ const {
   buildCustomerBookingEmail,
 } = require("../lib/mailer");
 const { computeQuote } = require("./_pricing.js");
+const { notifyMakeWebhook } = require("../lib/webhooks");
 
 const clip = (v, max) => String(v == null ? "" : v).trim().slice(0, max);
 
@@ -105,9 +106,30 @@ module.exports = async (req, res) => {
   const admin = buildAdminBookingEmail(doc);
   const customer = buildCustomerBookingEmail(doc);
 
-  const [adminResult, customerResult] = await Promise.allSettled([
+  // Make.com webhook payload — drives the SMS alert + Google Sheet logging
+  // automation. Field names match what the automation was specced against;
+  // keep these stable if the Make.com scenario is already built against them.
+  const webhookPayload = {
+    id: doc.id,
+    name: doc.name,
+    phone: doc.phone,
+    email: doc.email,
+    pickup: doc.pickup_location,
+    destination: doc.dropoff_location,
+    date: doc.date,
+    time: doc.time,
+    submitted_at: doc.created_at,
+    service_type: doc.service_type,
+    vehicle_type: doc.vehicle_type,
+    passengers: doc.passengers,
+    flight_number: doc.flight_number,
+    notes: doc.notes,
+  };
+
+  const [adminResult, customerResult, webhookResult] = await Promise.allSettled([
     sendEmail(notifyTo, admin.subject, admin.text, admin.html),
     sendEmail(doc.email, customer.subject, customer.text, customer.html),
+    notifyMakeWebhook(webhookPayload),
   ]);
 
   if (adminResult.status === "rejected") {
@@ -115,6 +137,9 @@ module.exports = async (req, res) => {
   }
   if (customerResult.status === "rejected") {
     console.error("Customer booking email failed:", customerResult.reason && customerResult.reason.message);
+  }
+  if (webhookResult.status === "rejected") {
+    console.error("Make.com webhook dispatch failed:", webhookResult.reason && webhookResult.reason.message);
   }
 
   // The admin notification is the inquiry's system of record — fail if it didn't send.
