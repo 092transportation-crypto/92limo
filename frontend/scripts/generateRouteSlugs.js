@@ -33,6 +33,7 @@ function loadLandingPageSlugs() {
     "src/lib/marylandPagesBatch6.js",
     "src/lib/marylandPagesBatch7.js",
     "src/lib/marylandPagesBatch8.js",
+    "src/lib/marylandPagesBatch9.js",
     "src/lib/landingPages.js",
   ]
     .map(plain)
@@ -66,6 +67,7 @@ function loadLandingPageTitles() {
     "src/lib/marylandPagesBatch6.js",
     "src/lib/marylandPagesBatch7.js",
     "src/lib/marylandPagesBatch8.js",
+    "src/lib/marylandPagesBatch9.js",
     "src/lib/landingPages.js",
   ]
     .map(plain)
@@ -87,6 +89,7 @@ function loadBlogPostTitles() {
     "src/lib/blogPostsBatch6.js",
     "src/lib/blogPostsBatch7.js",
     "src/lib/blogPostsBatch8.js",
+    "src/lib/blogPostsBatch9.js",
     "src/lib/blogPostsGenerated.js",
     "src/lib/blogPosts.js",
   ]
