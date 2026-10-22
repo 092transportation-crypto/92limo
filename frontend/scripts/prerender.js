@@ -517,16 +517,33 @@ function buildArticle(post, route, schemaType = "Article") {
   const block = (x, n) =>
     h(n, x.heading) + (x.paragraphs || []).map(p).join("") + ul((x.list || []).map(esc)) +
     (x.subsections || []).map((sub) => block(sub, n + 1)).join("");
+  // publisher references the business node by @id, so (unlike a flat
+  // single-type schema) it must be wrapped in @graph with that node actually
+  // present — otherwise the reference is dangling within this script's own
+  // JSON-LD document and publisher resolves to a typeless object (GSC:
+  // "Invalid object type for field" on the referencing field).
   const schema = {
     "@context": "https://schema.org",
-    "@type": schemaType,
-    headline: post.title,
-    datePublished: post.date,
-    dateModified: post.date,
-    image: `${ORIGIN}${post.image}`,
-    author: { "@type": "Organization", name: "92 Limo Service" },
-    publisher: { "@id": `${ORIGIN}/#business` },
-    mainEntityOfPage: `${ORIGIN}${route}`,
+    "@graph": [
+      {
+        "@type": "LocalBusiness",
+        "@id": `${ORIGIN}/#business`,
+        name: "92 Limo Service",
+        telephone: "+1-877-609-1919",
+        url: ORIGIN,
+        priceRange: "$$$",
+      },
+      {
+        "@type": schemaType,
+        headline: post.title,
+        datePublished: post.date,
+        dateModified: post.date,
+        image: `${ORIGIN}${post.image}`,
+        author: { "@type": "Organization", name: "92 Limo Service" },
+        publisher: { "@id": `${ORIGIN}/#business` },
+        mainEntityOfPage: `${ORIGIN}${route}`,
+      },
+    ],
   };
   return {
     title: post.metaTitle,

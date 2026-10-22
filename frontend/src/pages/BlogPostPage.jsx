@@ -41,6 +41,18 @@ export default function BlogPostPage({ slug: guideSlug }) {
             acceptedAnswer: { "@type": "Answer", text: f.a },
           })),
         },
+        // publisher below references this node by @id — it must be present
+        // in this same @graph or the reference is dangling (no @type) within
+        // this script's own JSON-LD document (GSC: "Invalid object type for
+        // field" on the referencing field).
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://www.92limo.com/#business",
+          name: BRAND.name,
+          telephone: "+1-877-609-1919",
+          url: "https://www.92limo.com",
+          priceRange: "$$$",
+        },
         {
           // Guides (evergreen articles at /<slug>) use Article; blog posts
           // at /blog/<slug> use the more specific BlogPosting type.
