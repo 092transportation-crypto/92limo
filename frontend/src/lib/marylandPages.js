@@ -4848,7 +4848,28 @@ export const MARYLAND_LANDING_PAGES = {
       {
         "q": "Can we add stops on the day?",
         "a": "Hourly bookings include unlimited stops; flat-rate trips can usually add one through dispatch."
+      },
+      {
+        "q": "Do you work with specific industries differently — healthcare, law, government contractors?",
+        "a": "Yes. We have dedicated pages and experience for healthcare, law firms, technology companies, government and defense contractors, financial services, real estate, higher education, nonprofits and embassies — each with its own venue knowledge and discretion standard."
+      },
+      {
+        "q": "Can our company set up a standing corporate account?",
+        "a": "Yes — consolidated monthly invoicing, itemized receipts, a dedicated account contact and priority dispatch. Certificates of insurance are available on request. Email info@92limo.com to set one up."
+      },
+      {
+        "q": "Can you coordinate transportation for a visiting board or delegation arriving on different flights?",
+        "a": "Yes — staggered airport pickups for a group arriving across multiple flights are routinely coordinated as one reservation, with each pickup flight-tracked individually."
       }
+    ],
+    "sections": [
+      {
+        "heading": "Corporate Accounts by Industry",
+        "paragraphs": [
+          "Maryland's corporate travel needs vary meaningfully by sector — a law firm's discretion requirements differ from a biotech company's visitor-check-in process, which differs again from a government contractor's facility-access procedures. Rather than treating every corporate trip the same, we maintain specific familiarity with the venues, security procedures and etiquette each industry expects.",
+          "See our dedicated pages for healthcare and life sciences, law firms, technology companies, government and defense contractors, financial services, real estate and title companies, higher education, nonprofits and associations, and embassy and diplomatic travel — each built around that industry's actual travel pattern rather than a generic corporate template."
+        ],
+      },
     ],
     "ctaTitle": "Book Corporate Car Service",
     "ctaSubtitle": "Reserve chauffeured corporate transportation with flat, transparent pricing. Call (877) 609-1919."

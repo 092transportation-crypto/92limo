@@ -68,6 +68,23 @@ export const GENERATED_LANDING_PAGES = {
       {
         "q": "How far in advance should I book?",
         "a": "We recommend booking at least 24 hours ahead, and earlier for weekends and special events. Same-day requests are welcome when vehicles are available — call (877) 609-1919 anytime."
+      },
+      {
+        "q": "Do you serve Baltimore weddings and special events as well as airport transfers?",
+        "a": "Yes. Weddings, proms, corporate events and nights out in Canton, Fells Point and the Inner Harbor are regular bookings alongside our BWI transfers — see our dedicated Baltimore Wedding Limo Service page for wedding-day details."
+      },
+      {
+        "q": "Can you handle game-day transportation to Camden Yards or M&T Bank Stadium?",
+        "a": "Yes — stadium pickup and drop-off avoids the pre-game parking hunt and, especially, the slow post-game exit traffic around both venues."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Getting Around Baltimore's Nightlife and Event Districts",
+        "paragraphs": [
+          "The Inner Harbor, Fells Point and Canton are Baltimore's densest nightlife neighborhoods, and parking in any of them gets noticeably harder as a Friday or Saturday night goes on. A chauffeured night out means being dropped at the first stop and picked up at a pre-arranged spot at the end, rather than circling for a spot or standing in a crowd trying to flag a rideshare.",
+          "We also regularly plan evenings that combine dinner in one neighborhood with a show at the Hippodrome or a game at Camden Yards or M&T Bank Stadium — booked as one hourly reservation rather than several separate rides."
+        ]
       }
     ],
     "ctaTitle": "Book Your Baltimore Chauffeur",
@@ -141,6 +158,23 @@ export const GENERATED_LANDING_PAGES = {
       {
         "q": "How far in advance should I book?",
         "a": "We recommend booking at least 24 hours ahead, and earlier for weekends and special events. Same-day requests are welcome when vehicles are available — call (877) 609-1919 anytime."
+      },
+      {
+        "q": "Can you handle discreet travel for embassy staff, diplomats or executives?",
+        "a": "Yes — discretion is standard practice for every trip, and chauffeurs regularly serving the diplomatic and K Street corridor understand protocol expectations. See our Embassy & Diplomatic Car Service page for details."
+      },
+      {
+        "q": "Do you handle multi-stop corporate days or roadshows in DC?",
+        "a": "Yes. Hourly as-directed service keeps the same vehicle and chauffeur with you for the full day — Capitol Hill, K Street and federal agency stops are all familiar territory."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Navigating DC's Road Closures and Event Traffic",
+        "paragraphs": [
+          "Washington DC regularly closes streets for motorcades, protests, marathons and major events like the July 4th fireworks on the National Mall or the Cherry Blossom Festival — closures that can reshape downtown traffic for an entire day, not just an event's immediate footprint. Our chauffeurs track the day's published closures and plan routes and pickup points around them rather than discovering a blocked street mid-trip.",
+          "This matters most for evening events with a hard start time and for the exit afterward, when a large crowd leaving at once makes a pre-arranged pickup spot far more reliable than hailing a ride in the moment."
+        ]
       }
     ],
     "ctaTitle": "Book Your Washington DC Chauffeur",
@@ -4986,6 +5020,23 @@ export const GENERATED_LANDING_PAGES = {
       {
         "q": "Are your chauffeurs licensed and insured?",
         "a": "Yes. 92 Limo Service is fully licensed and commercially insured, and every chauffeur is background-checked and professionally trained."
+      },
+      {
+        "q": "Which BWI concourse will my chauffeur use for pickup or drop-off?",
+        "a": "BWI has five concourses (A through E), and the correct curbside door depends on your airline. We confirm the exact pickup point with your airline and gate information before the day of travel, so there's no guessing at the curb."
+      },
+      {
+        "q": "Can I book a round trip so my return ride is guaranteed?",
+        "a": "Yes. Booking both legs together confirms your return vehicle in advance and lets us track your actual return flight, so a delayed trip home doesn't mean scrambling for a ride."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Choosing the Right Vehicle for Your BWI Trip",
+        "paragraphs": [
+          "A solo business traveler or couple is usually best served by a Business Sedan (Mercedes E-Class) or First Class Sedan (BMW 7 Series) — easy curb access and quick luggage handling. Families or small groups with full-size bags typically prefer a Premium SUV (Cadillac Escalade) or Luxury SUV (Chevrolet Suburban), and groups of up to 13 or 14 traveling together book a Sprinter Executive or Sprinter Shuttle van, priced per vehicle rather than per seat.",
+          "Not sure which fits? Call (877) 609-1919 and a reservation specialist will recommend a vehicle based on your party size, luggage and the specific BWI terminal you're using."
+        ]
       }
     ],
     "ctaTitle": "Reserve Your BWI Ride",
@@ -5294,6 +5345,23 @@ export const GENERATED_LANDING_PAGES = {
       {
         "q": "Are your chauffeurs licensed and insured?",
         "a": "Yes. 92 Limo Service is fully licensed and commercially insured, and every chauffeur is background-checked and professionally trained."
+      },
+      {
+        "q": "Where exactly do you pick up at DCA — is it near the terminal?",
+        "a": "DCA's pickup areas sit close to baggage claim, which is convenient but gets congested fast during peak arrival banks. Your chauffeur knows the current pickup zone and tracks your flight so the vehicle is staged before you clear baggage claim."
+      },
+      {
+        "q": "Can you connect a DCA flight with a trip to Georgetown, Arlington or Alexandria?",
+        "a": "Yes — DCA to Georgetown, Arlington and Alexandria are among our most common routes, each quoted as a flat rate with flight tracking built in."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Why DCA's Lower-Level Pickup Areas Need a Chauffeur Who Knows Them",
+        "paragraphs": [
+          "DCA's compact size is an advantage for walking to your pickup point, but that same compactness means the lower-level pickup areas fill quickly when several flights land close together. A chauffeur who tracks your specific flight and stages early — rather than circling and hoping for a curb spot — is the difference between a quick pickup and a slow, crowded one.",
+          "This matters most during DCA's heaviest arrival banks on weekday evenings; booking ahead rather than hailing a ride curbside avoids the wait entirely."
+        ]
       }
     ],
     "ctaTitle": "Reserve Your DCA Ride",
@@ -5448,6 +5516,23 @@ export const GENERATED_LANDING_PAGES = {
       {
         "q": "Are your chauffeurs licensed and insured?",
         "a": "Yes. 92 Limo Service is fully licensed and commercially insured, and every chauffeur is background-checked and professionally trained."
+      },
+      {
+        "q": "International arrivals at IAD can take a while through customs — how is that handled?",
+        "a": "International arrivals include 60 minutes of complimentary wait time, timed from touchdown rather than an estimated customs-clearance time, since the line can run anywhere from a quick walk-through to well over an hour."
+      },
+      {
+        "q": "Do you serve the Dulles Toll Road corridor and Tysons Corner from IAD?",
+        "a": "Yes — IAD is the closest regional airport to Tysons Corner and the Dulles Toll Road corridor, and it's one of our most frequently run routes for corporate travelers in that area."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Why Wait Time Matters More for International Arrivals at IAD",
+        "paragraphs": [
+          "IAD handles a meaningful share of the region's international long-haul arrivals, and the walk from certain gates to the pickup curb, combined with an unpredictable customs and immigration line, makes this airport's timing genuinely different from a domestic-only trip. We plan every international pickup around that reality rather than a generic domestic assumption.",
+          "For a long-haul arrival after jet lag and a long flight, our meet-and-greet option — a chauffeur waiting inside baggage claim with a name sign — is worth considering instead of navigating to a curbside pickup point alone."
+        ]
       }
     ],
     "ctaTitle": "Reserve Your IAD Ride",

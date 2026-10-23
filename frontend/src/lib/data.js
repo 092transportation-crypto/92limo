@@ -284,6 +284,8 @@ export const FAQS = [
   { q: "What does my quoted rate include?", a: POLICY.pricing },
   { q: "What vehicles are in your fleet?", a: "Our fleet includes the Business Sedan (Mercedes-Benz E-Class), First Class Sedans (BMW 7 Series and Mercedes-Benz S-Class), Midsize SUV (Lincoln Nautilus), Luxury SUV (Chevrolet Suburban), Premium SUV (Cadillac Escalade), the Mercedes Sprinter Shuttle and Sprinter Executive vans." },
   { q: "Do you offer wine tours, weddings, proms, and birthdays?", a: "Absolutely. Beyond airport and corporate travel, we offer wine tours, wedding limo service, prom transportation, and birthday celebrations across Maryland, Virginia, and Washington DC." },
+  { q: "Do you serve every Maryland county, or just a few cities?", a: "Every major Maryland county — Montgomery, Prince George's, Anne Arundel, Howard and Baltimore County, plus Baltimore City and Washington DC and Northern Virginia. See our Service Areas page for the full list of cities we cover." },
+  { q: "Can businesses in specific industries — healthcare, law, government, finance — get specialized service?", a: "Yes. We maintain dedicated experience and pages for healthcare and life sciences, law firms, technology companies, government and defense contractors, financial services, real estate, higher education, nonprofits and embassies." },
 ];
 
 export const SERVICE_TYPES = [
@@ -353,6 +355,15 @@ export const SERVICE_PAGES = {
       { title: "Transparent Pricing", desc: POLICY.pricing },
     ],
     vehicles: AIRPORT_VEHICLES,
+    details: [
+      { heading: "Which Airport Vehicle Fits Your Trip", paragraphs: [
+        "A solo traveler or couple with standard luggage is usually best served by a Business Sedan (Mercedes E-Class) or First Class Sedan (BMW 7 Series) — quick curb access and easy luggage handling. Families or small groups with full-size bags do better in a Luxury SUV (Chevrolet Suburban) or Premium SUV (Cadillac Escalade), and groups traveling together of up to 13 or 14 book a Sprinter Executive or Sprinter Shuttle van, priced per vehicle rather than per seat.",
+        "Not sure which fits your trip? Call (877) 609-1919 and a reservation specialist will recommend a vehicle based on your party size, luggage, and the specific airport and terminal you're using.",
+      ] },
+      { heading: "International Arrivals and Customs Timing", paragraphs: [
+        "International arrivals at IAD and, less frequently, BWI and DCA clear customs and immigration before reaching the public arrivals area — a process that can run anywhere from a quick walk-through to well over an hour depending on how many wide-body flights land close together. That's why international pickups include 60 minutes of complimentary wait time, timed from touchdown rather than an estimated clearance time.",
+      ] },
+    ],
   },
   "corporate-transportation": {
     metaTitle: "Corporate Car Service | Executive Travel | 92 Limo",
@@ -374,6 +385,15 @@ export const SERVICE_PAGES = {
       { title: "Confidential & Secure", desc: "Privacy glass and a strict discretion policy for sensitive travel." },
     ],
     vehicles: LUXURY_VEHICLES,
+    details: [
+      { heading: "Corporate Accounts by Industry", paragraphs: [
+        "Corporate travel needs vary meaningfully by sector — a law firm's discretion requirements differ from a biotech company's visitor check-in process, which differs again from a government contractor's facility-access procedures. We maintain specific familiarity with the venues, security protocols and etiquette each industry expects, rather than treating every corporate trip the same.",
+        "See our dedicated pages for healthcare and life sciences, law firms, technology companies, government and defense contractors, financial services, real estate and title companies, higher education, nonprofits and associations, and embassy and diplomatic travel.",
+      ] },
+      { heading: "Setting Up a Standing Corporate Account", paragraphs: [
+        "A corporate account provides consolidated monthly invoicing with itemized receipts, a dedicated account contact who already knows your recurring patterns, and priority dispatch for last-minute schedule changes. Certificates of insurance and vendor-compliance paperwork are available on request for companies whose procurement teams require documentation. Email info@92limo.com to set one up.",
+      ] },
+    ],
   },
   "wedding-transportation": {
     metaTitle: "Wedding Limo Service DC, MD & VA | 92 Limo",
@@ -395,6 +415,15 @@ export const SERVICE_PAGES = {
       { title: "Photo-Ready Vehicles", desc: "Immaculately detailed cars that look stunning in every photograph." },
     ],
     vehicles: LUXURY_VEHICLES,
+    details: [
+      { heading: "Booking a Wedding: Step by Step", paragraphs: [
+        "Have the wedding date, ceremony and reception addresses, approximate wedding-party size, and a rough timeline ready before you call — a reservation specialist will help you work backward from the ceremony start time. Ask for a written quote specifying vehicle class, included hours and confirmation that gratuity, tolls, parking and any other charges are disclosed up front, not added afterward.",
+        "Most wedding bookings require a deposit to hold the date, since peak Saturdays from May through October book out weeks or months ahead. Special-event bookings, including weddings, cancel free of charge up to 12 hours before the scheduled pickup; inside that window, the deposit may be forfeited and up to 100% of the quoted fare may be charged.",
+      ] },
+      { heading: "City & County Wedding Pages", paragraphs: [
+        "For venue-specific guidance, see our wedding transportation pages for Howard County, Annapolis, historic Ellicott City, Towson and Baltimore City, each covering the local venues, staging logistics and photo stops our chauffeurs know well.",
+      ] },
+    ],
   },
   "wine-tours": {
     metaTitle: "Wine Tour Limo Service | MD & VA Wineries | 92 Limo",

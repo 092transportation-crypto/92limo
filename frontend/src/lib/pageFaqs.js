@@ -137,6 +137,8 @@ export const PAGE_FAQS = {
     { q: "Where will my chauffeur meet me?", a: "Curbside at the arrivals level is included. Meet & greet inside baggage claim with a name sign and luggage assistance is available for an additional charge." },
     { q: "How early should I be picked up for a departure?", a: "We back-calculate the pickup from your flight time with realistic traffic assumptions for the day and hour. Tell us the flight and we will recommend a pickup time when we confirm." },
     { q: "Can you provide car seats for an airport transfer?", a: "Yes. Infant, convertible and booster seats are available on request for an add-on fee included in your quote, installed before the vehicle arrives." },
+    { q: "Which vehicle should I choose for an airport transfer?", a: "A sedan for a solo traveler or couple, a Premium or Luxury SUV for a family with full-size luggage, and a Sprinter van for a group of up to 13 or 14 traveling together." },
+    { q: "Is airport car service more reliable than rideshare for an early-morning flight?", a: "Yes, generally — a reserved chauffeur is assigned to your flight the night before regardless of local on-demand driver supply, which thins out noticeably during early-morning departure banks." },
   ],
   "/corporate-transportation": [
     { q: "Do you offer corporate accounts?", a: "Yes — monthly consolidated invoicing, itemized receipts, a dedicated account contact and priority dispatch. Corporate accounts may be invoiced under separate written terms." },
@@ -144,6 +146,8 @@ export const PAGE_FAQS = {
     { q: "Can you provide a certificate of insurance and vendor paperwork?", a: "Yes. Certificates of insurance and vendor onboarding documents are available to corporate clients on request." },
     { q: "Do you handle roadshows and multi-stop days?", a: "Yes. Hourly as-directed service keeps one chauffeur and vehicle with the traveler for the full itinerary, with the schedule coordinated by dispatch." },
     { q: "How do you protect passenger confidentiality?", a: "Discretion is a working standard for our chauffeurs: conversations and destinations stay private, and trip details are shared only with the people who booked." },
+    { q: "Do you have experience with specific industries like healthcare, law or government contracting?", a: "Yes. We maintain dedicated pages and venue familiarity for healthcare, law firms, technology companies, government and defense contractors, financial services, real estate, higher education, nonprofits and embassies." },
+    { q: "Can you coordinate transportation for a visiting delegation arriving on multiple flights?", a: "Yes — staggered pickups for a group arriving across several flights are routinely coordinated as one reservation, each pickup tracked against its own flight." },
   ],
   "/wedding-transportation": [
     { q: "How far ahead should we book wedding transportation?", a: "As early as you can once the date and venue are set — Sprinter vans and limousines for peak-season Saturdays are the first vehicles to sell out." },
@@ -151,6 +155,8 @@ export const PAGE_FAQS = {
     { q: "Do you coordinate with our planner and venue?", a: "Yes. Share the timeline and contacts and dispatch will build the pickup schedule around it, including photo stops and the end-of-night return." },
     { q: "What is the cancellation policy for weddings?", a: "Special-event bookings, including weddings, cancel free of charge up to 12 hours before the scheduled pickup. Inside 12 hours the deposit may be forfeited and up to 100% of the quoted fare may be charged." },
     { q: "How is wedding transportation priced?", a: "Usually hourly for the vehicles that stay with you, and per transfer for simple guest moves. " + QUOTE_TXT },
+    { q: "What should we have ready before calling to book?", a: "The wedding date, ceremony and reception addresses, approximate wedding-party size, and a rough timeline — a reservation specialist will help you work backward from the ceremony start time." },
+    { q: "Do you serve specific venues or historic districts, like Ellicott City or Annapolis?", a: "Yes — we have venue-specific experience in Howard County, Annapolis, historic Ellicott City, Towson and Baltimore City, with chauffeurs who know each area's staging and photo-stop logistics." },
   ],
   "/wine-tours": [
     { q: "Which wine regions do you cover?", a: "Maryland wine country — including Frederick, Carroll and Montgomery County vineyards — and Northern Virginia's Loudoun County wineries. Tell us where you want to go, or ask for suggestions by region." },

@@ -57,7 +57,7 @@ export const Hero = () => {
           <motion.div variants={item} className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#D4AF37]/40 bg-[#D4AF37]/5 mb-6">
             <Star size={14} className="text-[#D4AF37] fill-[#D4AF37]" />
             <span className="text-xs font-semibold tracking-wide text-[#D4AF37]">
-              PREMIER CHAUFFEUR SERVICE · DC · MD · VA
+              PREMIER CHAUFFEUR SERVICE · BWI AIRPORT · DC · MD · VA
             </span>
           </motion.div>
 
@@ -67,9 +67,10 @@ export const Hero = () => {
           </motion.h1>
 
           <motion.p variants={item} className="mt-6 text-base sm:text-lg text-neutral-300 max-w-2xl leading-relaxed">
-            Professional airport transfers, corporate travel, hourly chauffeur
-            service, weddings, and long-distance transportation — delivered with
-            precision, discretion, and uncompromising comfort.
+            Flat-rate, flight-tracked BWI Airport limo and car service, plus
+            corporate travel, hourly chauffeur service, weddings, and
+            long-distance transportation — delivered with precision,
+            discretion, and uncompromising comfort.
           </motion.p>
 
           <motion.div variants={item} className="mt-9 flex flex-col sm:flex-row gap-4">

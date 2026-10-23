@@ -9,10 +9,12 @@ const BWI_LINKS = [
   { label: "BWI Corporate Transportation", to: "/bwi-corporate-transportation" },
   { label: "BWI Airport Meet & Greet", to: "/bwi-airport-meet-and-greet" },
   { label: "BWI 24 Hour Car Service", to: "/bwi-24-hour-airport-car-service" },
+  { label: "BWI Black Car Service", to: "/bwi-black-car-service" },
+  { label: "BWI Private Jet & FBO Terminal", to: "/bwi-private-jet-terminal" },
+  { label: "BWI Rail Station Car Service", to: "/bwi-rail-station-car-service" },
+  { label: "BWI Southwest Airlines Car Service", to: "/bwi-southwest-airlines-terminal" },
   { label: "BWI to Laurel, MD", to: "/bwi-to-laurel-md" },
-  { label: "BWI to Silver Spring", to: "/bwi-to-silver-spring" },
-  { label: "BWI to Tysons", to: "/bwi-to-tysons" },
-  { label: "BWI to McLean", to: "/bwi-to-mclean" },
+  { label: "BWI to Fort Meade", to: "/bwi-to-fort-meade" },
 ];
 
 const DCA_LINKS = [
@@ -68,8 +70,9 @@ export const BwiDcaHighlights = () => {
           </h2>
           <p className="mt-3 text-neutral-600">
             Flat-rate, flight-tracked chauffeur service to and from BWI Marshall
-            Airport and Reagan National Airport (DCA) — corporate transportation,
-            meet &amp; greet, and point-to-point routes across Maryland, DC and
+            Airport and Reagan National Airport (DCA) — black car and corporate
+            transportation, meet &amp; greet, private aviation and rail-station
+            transfers, and point-to-point routes across Maryland, DC and
             Northern Virginia.
           </p>
         </Reveal>

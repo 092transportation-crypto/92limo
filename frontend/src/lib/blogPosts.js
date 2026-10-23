@@ -12,6 +12,8 @@ import { BLOG_POSTS_BATCH6 } from "@/lib/blogPostsBatch6";
 import { BLOG_POSTS_BATCH7 } from "@/lib/blogPostsBatch7";
 import { BLOG_POSTS_BATCH8 } from "@/lib/blogPostsBatch8";
 import { BLOG_POSTS_BATCH9 } from "@/lib/blogPostsBatch9";
+import { BLOG_POSTS_BATCH10 } from "@/lib/blogPostsBatch10";
+import { BLOG_POSTS_BATCH11 } from "@/lib/blogPostsBatch11";
 import { GENERATED_BLOG_POSTS } from "@/lib/blogPostsGenerated";
 
 export const BLOG_POSTS = [
@@ -1103,6 +1105,12 @@ BLOG_POSTS.push(...BLOG_POSTS_BATCH8);
 // 2026-10-21 SEO round-5 push, batch 9 (10 long-form posts) — see
 // blogPostsBatch9.js header.
 BLOG_POSTS.push(...BLOG_POSTS_BATCH9);
+// 2026-10-23 BWI content expansion, batch 10 (10 long-form posts) — see
+// blogPostsBatch10.js header.
+BLOG_POSTS.push(...BLOG_POSTS_BATCH10);
+// 2026-10-23 SEO round-6 push, batch 11 (20 long-form posts) — see
+// blogPostsBatch11.js header.
+BLOG_POSTS.push(...BLOG_POSTS_BATCH11);
 // Daily-automation posts (scripts/generateBlogs.js) — newest last, so
 // GENERATED_BLOG_POSTS is pushed after the hand-written batches.
 BLOG_POSTS.push(...GENERATED_BLOG_POSTS);
