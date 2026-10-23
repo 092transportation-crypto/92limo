@@ -49,6 +49,7 @@ function loadData() {
     "src/lib/marylandPagesBatch9.js",
     "src/lib/semrushKeywordGapPages.js",
     "src/lib/bwiAirportPages.js",
+    "src/lib/marylandPagesBatch11.js",
     "src/lib/blogPostsBatch2.js",
     "src/lib/blogPostsBatch3.js",
     "src/lib/blogPostsBatch4.js",

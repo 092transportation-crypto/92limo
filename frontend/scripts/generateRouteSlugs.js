@@ -36,6 +36,7 @@ function loadLandingPageSlugs() {
     "src/lib/marylandPagesBatch9.js",
     "src/lib/semrushKeywordGapPages.js",
     "src/lib/bwiAirportPages.js",
+    "src/lib/marylandPagesBatch11.js",
     "src/lib/landingPages.js",
   ]
     .map(plain)
@@ -72,6 +73,7 @@ function loadLandingPageTitles() {
     "src/lib/marylandPagesBatch9.js",
     "src/lib/semrushKeywordGapPages.js",
     "src/lib/bwiAirportPages.js",
+    "src/lib/marylandPagesBatch11.js",
     "src/lib/landingPages.js",
   ]
     .map(plain)
