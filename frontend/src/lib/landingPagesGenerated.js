@@ -87,6 +87,25 @@ export const GENERATED_LANDING_PAGES = {
         ]
       }
     ],
+    "areas": [
+      {
+        "region": "Baltimore Area",
+        "places": [
+          { "label": "Towson", "to": "/towson-limo-service" },
+          { "label": "Catonsville", "to": "/catonsville-limo-service" },
+          { "label": "Baltimore County (Full County)", "to": "/baltimore-county-md-limo-service" }
+        ]
+      },
+      {
+        "region": "Related Pages",
+        "places": [
+          { "label": "Baltimore Cruise Port Transfers", "to": "/cruise-transfers" },
+          { "label": "Retirement Party Limo Service — Maryland", "to": "/retirement-party-limo-maryland" },
+          { "label": "Bar & Bat Mitzvah Limo Service — Maryland", "to": "/bar-bat-mitzvah-limo-service-maryland" },
+          { "label": "Baltimore Wedding Limo Service", "to": "/baltimore-wedding-limo-service" }
+        ]
+      }
+    ],
     "ctaTitle": "Book Your Baltimore Chauffeur",
     "ctaSubtitle": "Flat-rate luxury transportation anywhere in Baltimore, MD — reserve in minutes.",
     "category": "city"
@@ -177,14 +196,33 @@ export const GENERATED_LANDING_PAGES = {
         ]
       }
     ],
+    "areas": [
+      {
+        "region": "DC Metro",
+        "places": [
+          { "label": "Arlington, VA", "to": "/arlington-va-limo-service" },
+          { "label": "Alexandria, VA", "to": "/alexandria-va-limo-service" },
+          { "label": "Silver Spring, MD", "to": "/silver-spring-limo-service" }
+        ]
+      },
+      {
+        "region": "Related Pages",
+        "places": [
+          { "label": "College Tour Car Service — Maryland & DC", "to": "/college-tour-car-service-maryland-dc" },
+          { "label": "Wedding Guest Shuttle Service — Maryland", "to": "/wedding-guest-shuttle-service-maryland" },
+          { "label": "Embassy & Diplomatic Car Service — Washington DC", "to": "/embassy-diplomatic-car-service-washington-dc" },
+          { "label": "Senior Car Service — Maryland", "to": "/senior-car-service-maryland" }
+        ]
+      }
+    ],
     "ctaTitle": "Book Your Washington DC Chauffeur",
     "ctaSubtitle": "Flat-rate luxury transportation anywhere in Washington DC, DC — reserve in minutes.",
     "category": "city"
   },
 
   "annapolis-limo-service": {
-    "metaTitle": "Annapolis Limo Service — Flat Rates, 24/7 | 92 Limo",
-    "metaDescription": "Chauffeured limo & airport car service in Annapolis, MD — BWI transfers, weddings, Naval Academy events. Call (877) 609-1919.",
+    "metaTitle": "Annapolis, MD Limo Service | Naval Academy Pros",
+    "metaDescription": "Annapolis limo service trusted for Naval Academy events & waterfront weddings — flat rates, flight-tracked BWI transfers, 24/7. Call (877) 609-1919.",
     "eyebrow": "ANNAPOLIS, MD",
     "h1": "Limo Service in Annapolis, MD",
     "subtitle": "Chauffeured luxury transportation for Annapolis — airport transfers, corporate travel, and special events, quoted flat and driven right.",
@@ -248,6 +286,43 @@ export const GENERATED_LANDING_PAGES = {
       {
         "q": "How far in advance should I book?",
         "a": "We recommend booking at least 24 hours ahead, and earlier for weekends and special events. Same-day requests are welcome when vehicles are available — call (877) 609-1919 anytime."
+      },
+      {
+        "q": "Do you handle US Naval Academy commissioning week and parents' weekend?",
+        "a": "Yes — commissioning week, Induction Day, parents' weekend and home football games all bring predictable waves of BWI arrivals and Academy-area road closures that our chauffeurs plan around routinely rather than guess at."
+      },
+      {
+        "q": "Can you handle a waterfront wedding in Annapolis or Eastport?",
+        "a": "Yes — City Dock, Eastport and the area's waterfront venues are regular bookings. See our Annapolis Wedding Limo Service page for venue-specific details, or ask us to plan your full-day timeline."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Naval Academy Event Logistics",
+        "paragraphs": [
+          "The US Naval Academy's biggest event weekends — commissioning week in May, Induction Day each summer, parents' weekend, and home football Saturdays — reshape downtown Annapolis traffic and close streets around the Yard with little warning for anyone unfamiliar with the pattern. Our chauffeurs track the Academy's published schedule and plan pickup points and routes around it, rather than discovering a closure mid-trip.",
+          "Many of these weekends also bring a wave of family members flying into BWI specifically for the occasion, which is why Naval Academy families are some of our most frequent repeat clients for both the airport leg and the on-the-ground Annapolis logistics around it."
+        ]
+      }
+    ],
+    "areas": [
+      {
+        "region": "Anne Arundel County",
+        "places": [
+          { "label": "Arnold", "to": "/arnold-limo-service" },
+          { "label": "Severna Park", "to": "/severna-park-limo-service" },
+          { "label": "Crofton", "to": "/crofton-limo-service" },
+          { "label": "Riva", "to": "/riva-limo-service" }
+        ]
+      },
+      {
+        "region": "Related Pages",
+        "places": [
+          { "label": "Annapolis Wedding Limo Service", "to": "/annapolis-wedding-limo-service" },
+          { "label": "DCA to Annapolis Car Service", "to": "/dca-to-annapolis" },
+          { "label": "Retirement Party Limo Service — Maryland", "to": "/retirement-party-limo-maryland" },
+          { "label": "BWI to Annapolis", "to": "/bwi-to-annapolis" }
+        ]
       }
     ],
     "ctaTitle": "Book Your Annapolis Chauffeur",
@@ -256,8 +331,8 @@ export const GENERATED_LANDING_PAGES = {
   },
 
   "columbia-md-limo-service": {
-    "metaTitle": "Limo Service Columbia MD | 92 Limo Service",
-    "metaDescription": "Luxury limo & car service in Columbia, MD. Airport transfers to BWI, DCA & IAD, corporate travel, weddings & events. Flat rates, pro chauffeurs, 24/7.",
+    "metaTitle": "Columbia, MD Limo Service | Howard Co. Experts",
+    "metaDescription": "Columbia, MD limo service built for Howard County's biotech corridor & Merriweather concerts — flat rates, BWI transfers, 24/7. Call (877) 609-1919.",
     "eyebrow": "COLUMBIA, MD",
     "h1": "Limo Service in Columbia, MD",
     "subtitle": "Chauffeured luxury transportation for Columbia — airport transfers, corporate travel, and special events, quoted flat and driven right.",
@@ -321,6 +396,43 @@ export const GENERATED_LANDING_PAGES = {
       {
         "q": "How far in advance should I book?",
         "a": "We recommend booking at least 24 hours ahead, and earlier for weekends and special events. Same-day requests are welcome when vehicles are available — call (877) 609-1919 anytime."
+      },
+      {
+        "q": "Do you provide transportation to Merriweather Post Pavilion concerts?",
+        "a": "Yes — we handle drop-off at the entrance, staging nearby during the show, and a pre-arranged pickup afterward, which skips the pavilion's notoriously slow post-concert parking-lot exit entirely."
+      },
+      {
+        "q": "Do you serve Columbia's biotech and cybersecurity corporate corridor?",
+        "a": "Yes — Howard County's office parks along Route 175 and Snowden River Parkway, home to a mix of biotech, cyber and government-adjacent employers, are a regular part of our corporate business. See our Biotech & Pharma Car Service page for details."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Columbia's Corporate Corridor and Merriweather Post Pavilion",
+        "paragraphs": [
+          "Howard County's business base is more diverse than people expect — biotech and life-sciences firms, cybersecurity and defense-adjacent contractors, and a mix of corporate headquarters spread across Columbia's town center and the office parks along Route 175 and Snowden River Parkway. We run routine client-visit, candidate-interview and executive travel for this corridor, often connecting directly to BWI, roughly 20 minutes away.",
+          "On the entertainment side, Merriweather Post Pavilion draws a wave of concert traffic every summer that can tie up the surrounding roads for an hour or more after a show ends. Booking a pickup in advance, rather than hailing a ride from the lot afterward, is consistently the better plan for anything other than the smallest shows."
+        ]
+      }
+    ],
+    "areas": [
+      {
+        "region": "Howard County",
+        "places": [
+          { "label": "Ellicott City", "to": "/ellicott-city-limo-service" },
+          { "label": "Elkridge", "to": "/elkridge-limo-service" },
+          { "label": "Laurel", "to": "/laurel-md-limo-service" },
+          { "label": "Howard County (Full County)", "to": "/howard-county-md-limo-service" }
+        ]
+      },
+      {
+        "region": "Related Pages",
+        "places": [
+          { "label": "Biotech & Pharma Car Service — Maryland", "to": "/pharma-biotech-car-service-maryland" },
+          { "label": "Merriweather Post Pavilion Transportation", "to": "/merriweather-post-pavilion-transportation" },
+          { "label": "Columbia, MD Corporate Car Service", "to": "/columbia-md-corporate-car-service" },
+          { "label": "College Tour Car Service — Maryland & DC", "to": "/college-tour-car-service-maryland-dc" }
+        ]
       }
     ],
     "ctaTitle": "Book Your Columbia Chauffeur",
@@ -329,8 +441,8 @@ export const GENERATED_LANDING_PAGES = {
   },
 
   "bethesda-limo-service": {
-    "metaTitle": "Bethesda, MD Limo & Car Service 24/7 | 92 Limo",
-    "metaDescription": "Chauffeured limo & car service in Bethesda, MD — DCA/IAD transfers, corporate & medical-campus travel. Flat rates. Call (877) 609-1919.",
+    "metaTitle": "Bethesda, MD Limo Service | NIH & Biotech Pros",
+    "metaDescription": "Bethesda limo service trusted by NIH, Walter Reed & I-270 biotech travelers — discreet, flat-rate, flight-tracked, 24/7. Call (877) 609-1919.",
     "eyebrow": "BETHESDA, MD",
     "h1": "Limo Service in Bethesda, MD",
     "subtitle": "Chauffeured luxury transportation for Bethesda — airport transfers, corporate travel, and special events, quoted flat and driven right.",
@@ -394,6 +506,43 @@ export const GENERATED_LANDING_PAGES = {
       {
         "q": "How far in advance should I book?",
         "a": "We recommend booking at least 24 hours ahead, and earlier for weekends and special events. Same-day requests are welcome when vehicles are available — call (877) 609-1919 anytime."
+      },
+      {
+        "q": "Do you know the NIH and Walter Reed campus check-in process?",
+        "a": "Yes — visitor check-in and gate access at the Bethesda NIH and Walter Reed National Military Medical Center campuses are routine for our chauffeurs, who plan extra time for the process rather than treating it like a standard street address."
+      },
+      {
+        "q": "Do you serve Bethesda's biotech and pharma companies along I-270?",
+        "a": "Yes — Bethesda anchors the southern end of the I-270 biotech corridor, and visiting scientists, board members and executives moving between here and Rockville or Gaithersburg are a regular part of our corporate business. See our Biotech & Pharma Car Service page for details."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "NIH, Walter Reed and the I-270 Biotech Corridor",
+        "paragraphs": [
+          "Bethesda's identity is shaped by two things most neighborhoods don't have: a major federal medical research campus and the southern anchor of Maryland's I-270 biotech corridor. The NIH Bethesda campus and Walter Reed National Military Medical Center generate a steady, predictable flow of visiting researchers, physicians, military families and conference attendees, each with its own visitor check-in and gate-access procedure that our chauffeurs plan extra time around rather than treat as a standard pickup.",
+          "Just up the road, the I-270 corridor through Rockville and Gaithersburg is one of the country's densest biotech and pharmaceutical clusters, and Bethesda-based executives and scientists moving along it — for board meetings, site visits, or investor travel to BWI, DCA or IAD — make up a meaningful share of our daily corporate bookings."
+        ]
+      }
+    ],
+    "areas": [
+      {
+        "region": "Montgomery County",
+        "places": [
+          { "label": "Rockville", "to": "/rockville-limo-service" },
+          { "label": "Chevy Chase", "to": "/chevy-chase-limo-service" },
+          { "label": "North Bethesda", "to": "/north-bethesda-limo-service" },
+          { "label": "Potomac", "to": "/potomac-limo-service" }
+        ]
+      },
+      {
+        "region": "Related Pages",
+        "places": [
+          { "label": "Biotech & Pharma Car Service — Maryland", "to": "/pharma-biotech-car-service-maryland" },
+          { "label": "Senior Car Service — Maryland", "to": "/senior-car-service-maryland" },
+          { "label": "Bethesda Corporate Car Service", "to": "/bethesda-corporate-car-service" },
+          { "label": "DCA to Potomac Car Service", "to": "/dca-to-potomac" }
+        ]
       }
     ],
     "ctaTitle": "Book Your Bethesda Chauffeur",
@@ -402,8 +551,8 @@ export const GENERATED_LANDING_PAGES = {
   },
 
   "rockville-limo-service": {
-    "metaTitle": "Limo Service Rockville MD | 92 Limo Service",
-    "metaDescription": "Luxury limo & car service in Rockville, MD. Airport transfers to BWI, DCA & IAD, corporate travel, weddings & events. Flat rates, pro chauffeurs, 24/7.",
+    "metaTitle": "Rockville, MD Limo Service | I-270 Tech Experts",
+    "metaDescription": "Rockville, MD limo service for the I-270 tech & biotech corridor — flat-rate BWI, DCA & IAD transfers, 24/7 chauffeurs. Call (877) 609-1919.",
     "eyebrow": "ROCKVILLE, MD",
     "h1": "Limo Service in Rockville, MD",
     "subtitle": "Chauffeured luxury transportation for Rockville — airport transfers, corporate travel, and special events, quoted flat and driven right.",
@@ -467,6 +616,43 @@ export const GENERATED_LANDING_PAGES = {
       {
         "q": "How far in advance should I book?",
         "a": "We recommend booking at least 24 hours ahead, and earlier for weekends and special events. Same-day requests are welcome when vehicles are available — call (877) 609-1919 anytime."
+      },
+      {
+        "q": "Do you serve Rockville's tech and biotech employers along I-270?",
+        "a": "Yes — Rockville sits in the middle of the I-270 corridor, and visiting executives, scientists and consultants moving between here and Gaithersburg or Bethesda are a regular part of our corporate business. See our Biotech & Pharma Car Service and Tech Company Car Service pages for details."
+      },
+      {
+        "q": "Can you handle an event at Rockville Town Square?",
+        "a": "Yes — Town Square's restaurants, the theater and nearby hotels are a familiar drop-off and pickup area for us, including evening events where parking fills up early."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Rockville's I-270 Corporate Corridor",
+        "paragraphs": [
+          "Rockville sits in the heart of Maryland's I-270 technology and biotech corridor, between Bethesda to the south and Gaithersburg and Germantown to the north, and the city's own office parks add a steady stream of corporate travel to that mix — client visits, executive roadshows, and candidates flying in for interviews at the area's tech and life-sciences employers.",
+          "Rockville Town Square and King Farm add a second, more residential dimension to our bookings here — evening events, dinners and weekend celebrations where a chauffeured ride removes the hassle of the Town Square area's limited evening parking.",
+        ]
+      }
+    ],
+    "areas": [
+      {
+        "region": "Montgomery County",
+        "places": [
+          { "label": "Gaithersburg", "to": "/gaithersburg-limo-service" },
+          { "label": "North Bethesda", "to": "/north-bethesda-limo-service" },
+          { "label": "Potomac", "to": "/potomac-limo-service" },
+          { "label": "Bethesda", "to": "/bethesda-limo-service" }
+        ]
+      },
+      {
+        "region": "Related Pages",
+        "places": [
+          { "label": "Biotech & Pharma Car Service — Maryland", "to": "/pharma-biotech-car-service-maryland" },
+          { "label": "Tech Company Car Service — Maryland", "to": "/tech-company-car-service-maryland" },
+          { "label": "Rockville Corporate Car Service", "to": "/rockville-corporate-car-service" },
+          { "label": "Senior Car Service — Maryland", "to": "/senior-car-service-maryland" }
+        ]
       }
     ],
     "ctaTitle": "Book Your Rockville Chauffeur",
@@ -4951,8 +5137,8 @@ export const GENERATED_LANDING_PAGES = {
   },
 
   "bwi-airport-car-service": {
-    "metaTitle": "BWI Airport Car Service | Flat Rates 24/7 | 92 Limo",
-    "metaDescription": "Premium BWI Airport car service with flight tracking, meet & greet & flat transparent rates. Call (877) 609-1919 to book your chauffeur.",
+    "metaTitle": "BWI Airport Car Service | Never Wait for a Late Flight",
+    "metaDescription": "BWI car service that tracks your flight automatically — no surge, no surprise fees, flat rates confirmed before you ride. Call (877) 609-1919.",
     "eyebrow": "BWI MARSHALL",
     "h1": "BWI Airport Car Service",
     "subtitle": "Reliable, chauffeured airport car service at BWI Marshall Airport — flight-tracked pickups, flat rates, and luxury vehicles around the clock.",
@@ -5036,6 +5222,17 @@ export const GENERATED_LANDING_PAGES = {
         "paragraphs": [
           "A solo business traveler or couple is usually best served by a Business Sedan (Mercedes E-Class) or First Class Sedan (BMW 7 Series) — easy curb access and quick luggage handling. Families or small groups with full-size bags typically prefer a Premium SUV (Cadillac Escalade) or Luxury SUV (Chevrolet Suburban), and groups of up to 13 or 14 traveling together book a Sprinter Executive or Sprinter Shuttle van, priced per vehicle rather than per seat.",
           "Not sure which fits? Call (877) 609-1919 and a reservation specialist will recommend a vehicle based on your party size, luggage and the specific BWI terminal you're using."
+        ]
+      }
+    ],
+    "areas": [
+      {
+        "region": "Related Pages",
+        "places": [
+          { "label": "BWI Airport Limo (Flagship Guide)", "to": "/bwi-airport-limo" },
+          { "label": "Bar & Bat Mitzvah Limo Service — Maryland", "to": "/bar-bat-mitzvah-limo-service-maryland" },
+          { "label": "Retirement Party Limo Service — Maryland", "to": "/retirement-party-limo-maryland" },
+          { "label": "Maryland to Virginia Beach Car Service", "to": "/maryland-to-virginia-beach-car-service" }
         ]
       }
     ],

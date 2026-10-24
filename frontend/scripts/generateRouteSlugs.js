@@ -37,6 +37,7 @@ function loadLandingPageSlugs() {
     "src/lib/semrushKeywordGapPages.js",
     "src/lib/bwiAirportPages.js",
     "src/lib/marylandPagesBatch11.js",
+    "src/lib/nicheAndSuburbLandingPages.js",
     "src/lib/landingPages.js",
   ]
     .map(plain)
@@ -74,6 +75,7 @@ function loadLandingPageTitles() {
     "src/lib/semrushKeywordGapPages.js",
     "src/lib/bwiAirportPages.js",
     "src/lib/marylandPagesBatch11.js",
+    "src/lib/nicheAndSuburbLandingPages.js",
     "src/lib/landingPages.js",
   ]
     .map(plain)
@@ -98,6 +100,7 @@ function loadBlogPostTitles() {
     "src/lib/blogPostsBatch9.js",
     "src/lib/blogPostsBatch10.js",
     "src/lib/blogPostsBatch11.js",
+    "src/lib/costAndComparisonBlogPosts.js",
     "src/lib/blogPostsGenerated.js",
     "src/lib/blogPosts.js",
   ]

@@ -396,9 +396,9 @@ export const SERVICE_PAGES = {
     ],
   },
   "wedding-transportation": {
-    metaTitle: "Wedding Limo Service DC, MD & VA | 92 Limo",
+    metaTitle: "Wedding Limo Service DC, MD & VA | Book Early",
     metaDescription:
-      "Elegant wedding limo & chauffeur service in DC, Maryland & Virginia — sedans, SUVs & Sprinters. Call (877) 609-1919 to book your day.",
+      "Elegant wedding limo & guest-shuttle service in DC, Maryland & Virginia — sedans, SUVs & Sprinters, flat rates. Call (877) 609-1919 to secure your date.",
     eyebrow: "WEDDING LIMO",
     h1: "Wedding Limo & Chauffeur Service",
     subtitle: "Make every arrival unforgettable with pristine luxury vehicles, red-carpet service, and chauffeurs who treat your day like their own.",

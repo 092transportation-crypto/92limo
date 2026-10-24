@@ -17,7 +17,7 @@ import { pageSchema } from "@/lib/pageSchema";
 
 const TITLE = "BWI Airport Limo & Car Service | Maryland, DC & VA | 92 Limo";
 const DESCRIPTION =
-  "Chauffeured BWI airport limo & car service, plus luxury transportation across Maryland, DC & Virginia — flight tracking, flat rates, 24/7. (877) 609-1919.";
+  "Flight-tracked BWI airport limo & car service so a late flight never costs you a ride — flat rates across MD, DC & VA, 24/7. Call (877) 609-1919.";
 const SCHEMA = pageSchema("WebPage", "/", TITLE, DESCRIPTION);
 
 export default function Home() {

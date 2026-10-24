@@ -11,6 +11,7 @@ import { MARYLAND_BATCH9_PAGES } from "@/lib/marylandPagesBatch9";
 import { SEMRUSH_KEYWORD_GAP_PAGES } from "@/lib/semrushKeywordGapPages";
 import { BWI_AIRPORT_PAGES } from "@/lib/bwiAirportPages";
 import { MARYLAND_BATCH11_PAGES } from "@/lib/marylandPagesBatch11";
+import { NICHE_AND_SUBURB_LANDING_PAGES } from "@/lib/nicheAndSuburbLandingPages";
 
 // Vehicle label sets (must match `${category} — ${name}` from FLEET).
 const SEDAN_TRIO = [
@@ -42,12 +43,13 @@ export const LANDING_PAGES = {
   ...SEMRUSH_KEYWORD_GAP_PAGES,
   ...BWI_AIRPORT_PAGES,
   ...MARYLAND_BATCH11_PAGES,
+  ...NICHE_AND_SUBURB_LANDING_PAGES,
 
   // ------------------------------------------------------ FLAGSHIP: BWI LIMO
   "bwi-airport-limo": {
-    metaTitle: "Luxury BWI Airport Limo Service | 92 Limo Service",
+    metaTitle: "BWI Airport Limo Service | Flight-Tracked, Never Late",
     metaDescription:
-      "Luxury BWI airport limo service across MD, PA, DE, DC & Northern VA. Flight tracking, optional meet & greet, pro chauffeurs, fixed transparent pricing. 24/7.",
+      "BWI airport limo that tracks your flight so delays never cost you a ride — MD, PA, DE, DC & VA, flat rates, 24/7. Call (877) 609-1919.",
     eyebrow: "BWI MARSHALL AIRPORT",
     h1: "Luxury BWI Airport Limo Service",
     subtitle:
@@ -126,8 +128,8 @@ export const LANDING_PAGES = {
         { label: "Lancaster", to: "/lancaster-pa-limo-service" },
         { label: "Harrisburg", to: "/harrisburg-pa-limo-service" },
         { label: "Hershey", to: "/hershey-pa-limo-service" },
-        { label: "Carlisle" },
-        { label: "Mechanicsburg" },
+        { label: "Carlisle", to: "/carlisle-pa-limo-service" },
+        { label: "Mechanicsburg", to: "/mechanicsburg-pa-limo-service" },
         { label: "Camp Hill" },
         { label: "Reading" },
         { label: "West Chester" },
@@ -137,13 +139,12 @@ export const LANDING_PAGES = {
         { label: "Newark", to: "/newark-de-limo-service" },
         { label: "Dover", to: "/dover-de-limo-service" },
         { label: "Middletown", to: "/middletown-de-limo-service" },
-        { label: "Smyrna" },
+        { label: "Georgetown", to: "/georgetown-de-limo-service" },
         { label: "Rehoboth Beach", to: "/bwi-to-rehoboth-beach" },
-        { label: "Lewes" },
+        { label: "Lewes", to: "/lewes-de-limo-service" },
         { label: "Bethany Beach", to: "/bwi-to-bethany-beach" },
         { label: "Dewey Beach" },
         { label: "Fenwick Island" },
-        { label: "Milford" },
       ] },
       { region: "Washington, DC", note: "Premium airport transportation throughout Washington, DC.", places: [
         { label: "Washington DC", to: "/washington-dc-limo-service" },
@@ -167,6 +168,8 @@ export const LANDING_PAGES = {
       { q: "What if my flight into BWI is delayed?", a: "Nothing changes for you. We track every flight in real time and adjust your pickup automatically, at no extra charge, with generous complimentary wait time on arrival." },
       { q: "Do you really serve Pennsylvania and Delaware?", a: "Yes. We regularly run BWI transfers to and from York, Hanover, Gettysburg, Lancaster, Harrisburg, and Hershey in Pennsylvania, and Wilmington, Newark, Dover, and the beach towns in Delaware." },
       { q: "Can a group ride together?", a: "Absolutely. Our Mercedes Sprinter vans seat up to 14 passengers with dedicated luggage space, and our Escalade ESV and Suburban SUVs carry families and small groups in first-class comfort." },
+      { q: "Do you really drive as far as Carlisle, Mechanicsburg, Lewes or Georgetown, DE?", a: "Yes — these are genuine long-distance routes, quoted as one flat rate for the full trip rather than metered, the same way we handle Hershey, Lancaster and the rest of our Pennsylvania and Delaware coverage." },
+      { q: "Do you serve corporate travelers connecting through BWI for Maryland's biotech corridor?", a: "Yes — visiting executives and scientists flying into BWI for Montgomery County's biotech and pharma companies are a regular booking. See our Biotech & Pharma Car Service page for details." },
     ],
     ctaTitle: "Book Your BWI Airport Transportation Today",
     ctaSubtitle:
