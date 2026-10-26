@@ -241,7 +241,7 @@ export const LANDING_PAGE_TITLES = {
     "h1": "Prom Limo Service Maryland"
   },
   "prom-limo-baltimore": {
-    "h1": "Prom Limo Baltimore"
+    "h1": "Prom Limo Service in Baltimore, MD"
   },
   "corporate-limo-dc": {
     "h1": "Corporate Limo Service Washington DC"

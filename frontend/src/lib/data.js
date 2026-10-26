@@ -396,16 +396,16 @@ export const SERVICE_PAGES = {
     ],
   },
   "wedding-transportation": {
-    metaTitle: "Wedding Limo Service DC, MD & VA | Book Early",
+    metaTitle: "Wedding Limo Service in DC, MD & VA | Book Early",
     metaDescription:
-      "Elegant wedding limo & guest-shuttle service in DC, Maryland & Virginia — sedans, SUVs & Sprinters, flat rates. Call (877) 609-1919 to secure your date.",
+      "Elegant wedding limo & guest-shuttle service in DC, Maryland & Virginia — sedans, SUVs & Sprinters, coordinated to the minute. Call (877) 609-1919.",
     eyebrow: "WEDDING LIMO",
     h1: "Wedding Limo & Chauffeur Service",
     subtitle: "Make every arrival unforgettable with pristine luxury vehicles, red-carpet service, and chauffeurs who treat your day like their own.",
     image: IMAGES.wedding,
     alt: "Elegant black luxury sedan decorated with white ribbon and flowers for a wedding",
     intro:
-      "Your wedding day deserves transportation as flawless as the celebration. 92 Limo Service provides elegant, reliable rides for the couple, the bridal party, and your guests — coordinated to the minute so everyone arrives relaxed, on time, and in style.",
+      "Your wedding day deserves transportation as flawless as the celebration. 92 Limo Service provides elegant, reliable rides for the couple, the bridal party, and your guests across the Washington DC, Maryland, and Northern Virginia region — coordinated to the minute so everyone arrives relaxed, on time, and in style. From the getting-ready pickup through the ceremony, reception, and send-off, a single chauffeur or coordinated fleet carries your day's timeline from start to finish, with a dedicated point of contact handling any last-minute change in stride.",
     bullets: [
       { title: "Couple's Luxury Car", desc: "A spotless flagship sedan or SUV for your grand entrance and exit." },
       { title: "Bridal Party Transport", desc: "Spacious Sprinter vans keep the whole party together and on schedule." },
@@ -419,6 +419,14 @@ export const SERVICE_PAGES = {
       { heading: "Booking a Wedding: Step by Step", paragraphs: [
         "Have the wedding date, ceremony and reception addresses, approximate wedding-party size, and a rough timeline ready before you call — a reservation specialist will help you work backward from the ceremony start time. Ask for a written quote specifying vehicle class, included hours and confirmation that gratuity, tolls, parking and any other charges are disclosed up front, not added afterward.",
         "Most wedding bookings require a deposit to hold the date, since peak Saturdays from May through October book out weeks or months ahead. Special-event bookings, including weddings, cancel free of charge up to 12 hours before the scheduled pickup; inside that window, the deposit may be forfeited and up to 100% of the quoted fare may be charged.",
+      ] },
+      { heading: "Choosing the Right Wedding Vehicle", paragraphs: [
+        "The couple's car is usually the easiest decision — a flagship sedan like the Mercedes S-Class or a BMW 7 Series for an elegant arrival and exit, decorated on request. The harder question is the wedding party and guests: a Sprinter van keeps a party of up to 13 together for photos and the ride to the reception, while a second or third vehicle may make sense for larger parties split between different getting-ready locations.",
+        "Guest transportation is its own decision. A shuttle loop between a host hotel and the venue removes the parking problem entirely and keeps out-of-town guests from needing a car at all — we plan the loop frequency around your ceremony and reception start times so no one is left waiting.",
+      ] },
+      { heading: "A Typical Wedding-Day Timeline", paragraphs: [
+        "Most wedding-day transportation follows a similar shape: a getting-ready pickup for the couple or bridal party, a transfer to the ceremony site with buffer time built in for traffic and parking, a photo stop if the couple wants one between the ceremony and reception, the reception transfer itself, and a late-night send-off or return trip. We build this out as one itinerary during booking, so your chauffeur already knows the plan rather than working from a single pickup time.",
+        "Timelines change on the day more often than couples expect — a ceremony that runs long, a photographer who needs ten more minutes, a different exit than planned. Your chauffeur and our dispatch team stay in contact throughout, so a shifted schedule doesn't become a missed pickup.",
       ] },
       { heading: "City & County Wedding Pages", paragraphs: [
         "For venue-specific guidance, see our wedding transportation pages for Howard County, Annapolis, historic Ellicott City, Towson and Baltimore City, each covering the local venues, staging logistics and photo stops our chauffeurs know well.",

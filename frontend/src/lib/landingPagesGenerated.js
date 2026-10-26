@@ -3,8 +3,8 @@ import { IMAGES } from "@/lib/data";
 
 export const GENERATED_LANDING_PAGES = {
   "baltimore-limo-service": {
-    "metaTitle": "Baltimore Limo Service — Flat Rates, 24/7 | 92 Limo",
-    "metaDescription": "Chauffeured limo & black car service in Baltimore — BWI transfers, weddings, corporate travel. Flat rates, 24/7. Call (877) 609-1919.",
+    "metaTitle": "Baltimore Limo Service | Chauffeured Rides, 24/7",
+    "metaDescription": "Professional limo & black car service in Baltimore — BWI transfers, weddings, corporate travel, 24/7 availability. Call (877) 609-1919 to book.",
     "eyebrow": "BALTIMORE, MD",
     "h1": "Limo Service in Baltimore, MD",
     "subtitle": "Chauffeured luxury transportation for Baltimore — airport transfers, corporate travel, and special events, quoted flat and driven right.",
@@ -76,14 +76,42 @@ export const GENERATED_LANDING_PAGES = {
       {
         "q": "Can you handle game-day transportation to Camden Yards or M&T Bank Stadium?",
         "a": "Yes — stadium pickup and drop-off avoids the pre-game parking hunt and, especially, the slow post-game exit traffic around both venues."
+      },
+      {
+        "q": "Which Baltimore neighborhoods do you serve?",
+        "a": "All of them — Federal Hill, Mount Vernon, Harbor East, Locust Point, Hampden, Roland Park, Canton, Fells Point, the Inner Harbor, and Baltimore County communities like Towson and Catonsville are all regular pickups and drop-offs."
+      },
+      {
+        "q": "Do you provide corporate accounts for Baltimore businesses?",
+        "a": "Yes. Businesses with recurring airport runs, visiting clients, or multi-stop travel days can set up a corporate account with consolidated monthly invoicing and a dedicated point of contact — call (877) 609-1919 to set one up."
       }
     ],
     "sections": [
+      {
+        "heading": "Baltimore Neighborhoods We Serve",
+        "paragraphs": [
+          "Our chauffeurs cover Baltimore City door to door — Federal Hill, Mount Vernon, Harbor East, Locust Point, Hampden, Roland Park, Canton, and Fells Point are regular pickups and drop-offs, alongside the Inner Harbor hotels and Camden Yards. We also run routinely into Baltimore County — Towson, Catonsville, and the neighborhoods ringing the city — and connect those trips directly to BWI, downtown DC, or anywhere else on your itinerary.",
+          "Each neighborhood has its own quirks that a GPS alone doesn't catch: Fells Point's cobblestone streets and limited loading zones, Mount Vernon's one-way grid around the Washington Monument, and the game-day closures around Camden Yards and M&T Bank Stadium. Our chauffeurs plan around all of it, so a pickup time stays a pickup time."
+        ]
+      },
       {
         "heading": "Getting Around Baltimore's Nightlife and Event Districts",
         "paragraphs": [
           "The Inner Harbor, Fells Point and Canton are Baltimore's densest nightlife neighborhoods, and parking in any of them gets noticeably harder as a Friday or Saturday night goes on. A chauffeured night out means being dropped at the first stop and picked up at a pre-arranged spot at the end, rather than circling for a spot or standing in a crowd trying to flag a rideshare.",
           "We also regularly plan evenings that combine dinner in one neighborhood with a show at the Hippodrome or a game at Camden Yards or M&T Bank Stadium — booked as one hourly reservation rather than several separate rides."
+        ]
+      },
+      {
+        "heading": "Corporate Travel in Baltimore",
+        "paragraphs": [
+          "Baltimore's business base runs from the Inner Harbor's financial and legal firms to Johns Hopkins' medical and research campuses, the Port of Baltimore's logistics companies, and the biotech corridor stretching toward BWI. We handle routine airport transfers for visiting executives and clients, point-to-point rides between downtown meetings, and multi-stop days that would otherwise mean juggling several separate rideshare requests.",
+          "Corporate accounts get a consolidated monthly invoice and a dedicated point of contact, so a recurring weekly airport run or a one-off visiting-client pickup both book the same simple way — no repeated paperwork."
+        ]
+      },
+      {
+        "heading": "Weddings and Special Events in Baltimore",
+        "paragraphs": [
+          "Baltimore's wedding venues range from the historic Belvedere and the Center Club downtown to waterfront spaces around the Inner Harbor and Canton, and each one has its own load-in rules, parking restrictions, and timing quirks that a chauffeur who has worked the venue before already knows. We coordinate getting-ready pickups, ceremony and reception transfers, and guest shuttles as one planned itinerary rather than a series of separate bookings — see our dedicated Baltimore Wedding Limo Service page for the full rundown."
         ]
       }
     ],
@@ -331,8 +359,8 @@ export const GENERATED_LANDING_PAGES = {
   },
 
   "columbia-md-limo-service": {
-    "metaTitle": "Columbia, MD Limo Service | Howard Co. Experts",
-    "metaDescription": "Columbia, MD limo service built for Howard County's biotech corridor & Merriweather concerts — flat rates, BWI transfers, 24/7. Call (877) 609-1919.",
+    "metaTitle": "Columbia, MD Limo Service | Howard County Experts",
+    "metaDescription": "Columbia, MD limo service built for Howard County's biotech corridor & Merriweather concerts — BWI transfers, 24/7 availability. Call (877) 609-1919.",
     "eyebrow": "COLUMBIA, MD",
     "h1": "Limo Service in Columbia, MD",
     "subtitle": "Chauffeured luxury transportation for Columbia — airport transfers, corporate travel, and special events, quoted flat and driven right.",
@@ -404,6 +432,14 @@ export const GENERATED_LANDING_PAGES = {
       {
         "q": "Do you serve Columbia's biotech and cybersecurity corporate corridor?",
         "a": "Yes — Howard County's office parks along Route 175 and Snowden River Parkway, home to a mix of biotech, cyber and government-adjacent employers, are a regular part of our corporate business. See our Biotech & Pharma Car Service page for details."
+      },
+      {
+        "q": "Do you serve all of Columbia's village centers?",
+        "a": "Yes — Wilde Lake, Oakland Mills, Long Reach, Owen Brown, Hickory Ridge, and every other Columbia village is within our standard coverage, along with Downtown Columbia and the Columbia Gateway office corridor."
+      },
+      {
+        "q": "Can you handle wedding or corporate-event transportation in Columbia?",
+        "a": "Yes. We coordinate getting-ready pickups, ceremony and reception transfers, and guest shuttles for weddings, plus multi-stop corporate events — as one planned itinerary rather than separate bookings."
       }
     ],
     "sections": [
@@ -412,6 +448,19 @@ export const GENERATED_LANDING_PAGES = {
         "paragraphs": [
           "Howard County's business base is more diverse than people expect — biotech and life-sciences firms, cybersecurity and defense-adjacent contractors, and a mix of corporate headquarters spread across Columbia's town center and the office parks along Route 175 and Snowden River Parkway. We run routine client-visit, candidate-interview and executive travel for this corridor, often connecting directly to BWI, roughly 20 minutes away.",
           "On the entertainment side, Merriweather Post Pavilion draws a wave of concert traffic every summer that can tie up the surrounding roads for an hour or more after a show ends. Booking a pickup in advance, rather than hailing a ride from the lot afterward, is consistently the better plan for anything other than the smallest shows."
+        ]
+      },
+      {
+        "heading": "Columbia's Village Centers and Neighborhoods",
+        "paragraphs": [
+          "Columbia is built as ten planned villages, and each one has its own town-center layout and traffic pattern — Wilde Lake, Oakland Mills, Long Reach, Owen Brown, Hickory Ridge, and the others ring the Town Center and Lake Kittamaqundi. Our chauffeurs know the village-center access roads and the quickest ways between them, which matters on event nights when Route 175 backs up near the Mall in Columbia or Merriweather.",
+          "We also regularly serve the Columbia Gateway office corridor along Snowden River Parkway and the growing Downtown Columbia district around the lakefront — both an easy 15 to 20 minute run from BWI."
+        ]
+      },
+      {
+        "heading": "Weddings and Events in Columbia",
+        "paragraphs": [
+          "Howard County's event venues — from Turf Valley in nearby Ellicott City to hotel ballrooms around Town Center — are regular wedding and corporate-event bookings for us, with chauffeurs who plan getting-ready pickups, ceremony and reception transfers, and guest shuttles as one coordinated itinerary rather than separate rides."
         ]
       }
     ],
@@ -6111,14 +6160,14 @@ export const GENERATED_LANDING_PAGES = {
   },
 
   "prom-limo-baltimore": {
-    "metaTitle": "Prom Limo Baltimore | 92 Limo Service",
-    "metaDescription": "Prom Limo Baltimore with professional chauffeurs, luxury vehicles & flat transparent rates. Serving Baltimore 24/7. Book online or call (877) 609-1919.",
+    "metaTitle": "Prom Limo Service in Baltimore, MD | 92 Limo",
+    "metaDescription": "Prom limo service in Baltimore — professional chauffeurs, luxury vehicles, transparent pricing. Serving Baltimore 24/7. Book online or call (877) 609-1919.",
     "eyebrow": "PROM LIMO BALTIMORE",
-    "h1": "Prom Limo Baltimore",
-    "subtitle": "Chauffeured prom limo service for proms, homecomings, and graduations — flat rates, luxury vehicles, and flawless timing across Baltimore.",
+    "h1": "Prom Limo Service in Baltimore, MD",
+    "subtitle": "Chauffeured prom limo service for proms, homecomings, and graduations — luxury vehicles and flawless timing across Baltimore.",
     "image": IMAGES.sprinterPink,
     "alt": "Prom Limo Baltimore — 92 Limo Service luxury vehicle",
-    "highlightsHeading": "Why Book Your prom limo With Us",
+    "highlightsHeading": "Why Baltimore Families Book Their Prom Limo With Us",
     "intro": [
       "Some rides are just transportation. Prom Limo from 92 Limo Service is part of the event. We provide chauffeured luxury vehicles for proms, homecomings, and graduations throughout Baltimore — polished, punctual, and priced flat.",
       "Tell us the plan and we build the transportation around it: multiple pickups, photo stops, venue timing, late-night returns. Your chauffeur coordinates with you by text, stays reachable all night, and adapts when the schedule moves.",
@@ -6176,10 +6225,48 @@ export const GENERATED_LANDING_PAGES = {
       {
         "q": "How far in advance should I book?",
         "a": "We recommend booking at least 24 hours ahead, and earlier for weekends and special events. Same-day requests are welcome when vehicles are available — call (877) 609-1919 anytime."
+      },
+      {
+        "q": "Is prom limo service safe for a group of teenagers?",
+        "a": "That's the point of it. A background-checked, professional chauffeur stays with your group the entire night, drives sober, and keeps to the agreed schedule — a dependable alternative to teens driving themselves or relying on rideshare drivers nobody has vetted. Parents can text the chauffeur directly or call dispatch for a status update at any point in the evening."
+      },
+      {
+        "q": "Which Baltimore-area high schools and venues do you serve?",
+        "a": "We regularly serve Baltimore City and Baltimore County public and private schools, along with prom venues across the region — hotel ballrooms downtown, waterfront event spaces around the Inner Harbor and Canton, and banquet halls throughout the county. If your school or venue isn't listed here, call and we will confirm coverage."
+      },
+      {
+        "q": "Can parents coordinate pickup and drop-off directly with the chauffeur?",
+        "a": "Yes. Once the booking is confirmed, you receive your chauffeur's contact details and can coordinate pickup addresses, timing changes, and the end-of-night return directly, in addition to 24/7 dispatch support."
       }
     ],
-    "ctaTitle": "Book Your Prom Limo Baltimore",
-    "ctaSubtitle": "Flat-rate, chauffeured, and confirmed in minutes — reserve online or call (877) 609-1919.",
+    "sections": [
+      {
+        "heading": "Planning a Safe, On-Time Prom Night",
+        "paragraphs": [
+          "Prom night in Baltimore usually means several moving pieces: a getting-ready pickup, a stop for group photos, the dance itself, and often an after-party or late dinner before everyone heads home. We plan the whole sequence in advance rather than booking it as a single point-to-point ride, so the schedule holds even if a photo stop runs long or the group decides to add one more stop.",
+          "For parents, the appeal is straightforward — a licensed, insured, background-checked chauffeur replaces the alternative of teens driving themselves or splitting up across rideshare apps late at night. The vehicle and driver stay with the group for the whole booking, not just one leg of it."
+        ]
+      },
+      {
+        "heading": "Serving Baltimore's Schools and Venues",
+        "paragraphs": [
+          "From City and County public schools to the area's private and parochial schools, prom season keeps our Sprinter vans and SUVs busy across Baltimore every spring. We pick up from multiple addresses when a group is splitting the ride, time arrivals around photo sessions at the venue or a nearby park, and handle the return trip just as carefully as the pickup — including a later-than-planned end time, which happens more often than not."
+        ]
+      }
+    ],
+    "areas": [
+      {
+        "region": "Related Occasions",
+        "places": [
+          { "label": "Prom & Homecoming Transportation (DMV-Wide)", "to": "/prom-transportation" },
+          { "label": "Graduation Limo Service — Maryland", "to": "/graduation-limo-maryland" },
+          { "label": "Baltimore Limo Service", "to": "/baltimore-limo-service" },
+          { "label": "Baltimore Wedding Limo Service", "to": "/baltimore-wedding-limo-service" }
+        ]
+      }
+    ],
+    "ctaTitle": "Book Your Baltimore Prom Limo",
+    "ctaSubtitle": "Chauffeured, transparent, and confirmed in minutes — reserve online or call (877) 609-1919.",
     "category": "service"
   },
 
