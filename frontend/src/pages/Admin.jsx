@@ -69,7 +69,7 @@ export default function Admin() {
     e.preventDefault();
     setLoggingIn(true);
     try {
-      const res = await axios.post(`${API}/admin/login`, { password });
+      const res = await axios.post("/api/admin-login", { password });
       localStorage.setItem(TOKEN_KEY, res.data.token);
       setToken(res.data.token);
       setPassword("");
