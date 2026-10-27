@@ -52,6 +52,14 @@ export default function BlogPostPage({ slug: guideSlug }) {
           telephone: "+1-877-609-1919",
           url: "https://www.92limo.com",
           priceRange: "$$$",
+          address: {
+            "@type": "PostalAddress",
+            streetAddress: "9836 Lyon Ave",
+            addressLocality: "Laurel",
+            addressRegion: "MD",
+            postalCode: "20723",
+            addressCountry: "US",
+          },
         },
         {
           // Guides (evergreen articles at /<slug>) use Article; blog posts

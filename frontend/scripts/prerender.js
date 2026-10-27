@@ -532,6 +532,7 @@ function buildArticle(post, route, schemaType = "Article") {
         telephone: "+1-877-609-1919",
         url: ORIGIN,
         priceRange: "$$$",
+        address: { "@type": "PostalAddress", streetAddress: "9836 Lyon Ave", addressLocality: "Laurel", addressRegion: "MD", postalCode: "20723", addressCountry: "US" },
       },
       {
         "@type": schemaType,
