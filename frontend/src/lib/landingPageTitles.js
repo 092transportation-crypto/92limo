@@ -1188,6 +1188,54 @@ export const LANDING_PAGE_TITLES = {
   "bar-bat-mitzvah-limo-service-maryland": {
     "h1": "Bar & Bat Mitzvah Limo Service — Maryland"
   },
+  "georgetown-dc-limo-service": {
+    "h1": "Georgetown, DC Limo Service"
+  },
+  "capitol-hill-limo-service": {
+    "h1": "Capitol Hill, DC Limo Service"
+  },
+  "dupont-circle-limo-service": {
+    "h1": "Dupont Circle, DC Limo Service"
+  },
+  "navy-yard-dc-limo-service": {
+    "h1": "Navy Yard, DC Limo Service"
+  },
+  "adams-morgan-limo-service": {
+    "h1": "Adams Morgan, DC Limo Service"
+  },
+  "baltimore-corporate-car-service": {
+    "h1": "Baltimore Corporate Car Service"
+  },
+  "bethesda-wedding-limo-service": {
+    "h1": "Bethesda Wedding Limo Service"
+  },
+  "bethesda-prom-limo-service": {
+    "h1": "Bethesda Prom Limo Service"
+  },
+  "potomac-wedding-limo-service": {
+    "h1": "Potomac, MD Wedding Limo Service"
+  },
+  "annapolis-prom-limo-service": {
+    "h1": "Annapolis Prom Limo Service"
+  },
+  "hunt-valley-wedding-limo-service": {
+    "h1": "Hunt Valley Wedding Limo Service"
+  },
+  "purcellville-va-limo-service": {
+    "h1": "Purcellville, VA Limo Service"
+  },
+  "haymarket-va-limo-service": {
+    "h1": "Haymarket, VA Limo Service"
+  },
+  "pet-friendly-car-service-maryland": {
+    "h1": "Pet-Friendly Car Service in Maryland"
+  },
+  "foggy-bottom-limo-service": {
+    "h1": "Foggy Bottom, DC Limo Service"
+  },
+  "owings-mills-corporate-car-service": {
+    "h1": "Owings Mills Corporate Car Service"
+  },
   "bwi-airport-limo": {
     "h1": "Luxury BWI Airport Limo Service"
   },
