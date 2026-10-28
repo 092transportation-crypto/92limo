@@ -286,6 +286,8 @@ export const FAQS = [
   { q: "Do you offer wine tours, weddings, proms, and birthdays?", a: "Absolutely. Beyond airport and corporate travel, we offer wine tours, wedding limo service, prom transportation, and birthday celebrations across Maryland, Virginia, and Washington DC." },
   { q: "Do you serve every Maryland county, or just a few cities?", a: "Every major Maryland county — Montgomery, Prince George's, Anne Arundel, Howard and Baltimore County, plus Baltimore City and Washington DC and Northern Virginia. See our Service Areas page for the full list of cities we cover." },
   { q: "Can businesses in specific industries — healthcare, law, government, finance — get specialized service?", a: "Yes. We maintain dedicated experience and pages for healthcare and life sciences, law firms, technology companies, government and defense contractors, financial services, real estate, higher education, nonprofits and embassies." },
+  { q: "Do you provide transportation for university students and visiting families?", a: "Yes — airport transfers, move-in day, parents weekend and commencement travel for Georgetown University, Johns Hopkins University and the University of Maryland are all regular bookings." },
+  { q: "Is 92 Limo Service actually licensed and insured?", a: `Yes. We operate as ${BRAND.legal}, ${BRAND.psc}, with commercially insured vehicles and background-checked, professionally licensed chauffeurs.` },
 ];
 
 export const SERVICE_TYPES = [
@@ -363,6 +365,9 @@ export const SERVICE_PAGES = {
       { heading: "International Arrivals and Customs Timing", paragraphs: [
         "International arrivals at IAD and, less frequently, BWI and DCA clear customs and immigration before reaching the public arrivals area — a process that can run anywhere from a quick walk-through to well over an hour depending on how many wide-body flights land close together. That's why international pickups include 60 minutes of complimentary wait time, timed from touchdown rather than an estimated clearance time.",
       ] },
+      { heading: "University Students & Visiting Family", paragraphs: [
+        "A significant share of our airport bookings are students and visiting parents flying into BWI, DCA or IAD for move-in day, parents weekend, or commencement — see our Georgetown University and Johns Hopkins University car service pages for campus-specific pickup logistics, in addition to our existing University of Maryland coverage.",
+      ] },
     ],
   },
   "corporate-transportation": {
@@ -392,6 +397,9 @@ export const SERVICE_PAGES = {
       ] },
       { heading: "Setting Up a Standing Corporate Account", paragraphs: [
         "A corporate account provides consolidated monthly invoicing with itemized receipts, a dedicated account contact who already knows your recurring patterns, and priority dispatch for last-minute schedule changes. Certificates of insurance and vendor-compliance paperwork are available on request for companies whose procurement teams require documentation. Email info@92limo.com to set one up.",
+      ] },
+      { heading: "Corporate Car Service by City", paragraphs: [
+        "Northern Virginia's corporate corridor has its own pages, too — see our McLean, VA and Reston, VA corporate car service pages for government-contractor and tech-company travel near Tysons and Dulles, and our Potomac, MD corporate car service page for executives and family offices in Montgomery County. If your company needs a recurring, scheduled shuttle rather than one-off bookings, see our dedicated employee shuttle service page.",
       ] },
     ],
   },
@@ -429,7 +437,7 @@ export const SERVICE_PAGES = {
         "Timelines change on the day more often than couples expect — a ceremony that runs long, a photographer who needs ten more minutes, a different exit than planned. Your chauffeur and our dispatch team stay in contact throughout, so a shifted schedule doesn't become a missed pickup.",
       ] },
       { heading: "City & County Wedding Pages", paragraphs: [
-        "For venue-specific guidance, see our wedding transportation pages for Howard County, Annapolis, historic Ellicott City, Towson and Baltimore City, each covering the local venues, staging logistics and photo stops our chauffeurs know well.",
+        "For venue-specific guidance, see our wedding transportation pages for Howard County, Annapolis, historic Ellicott City, Towson and Baltimore City, each covering the local venues, staging logistics and photo stops our chauffeurs know well. We also cover Laurel, MD, Owings Mills, MD and the Northern Virginia wedding corridor — see our Arlington, VA, Alexandria, VA and Fairfax, VA wedding limo service pages for cross-river and Old Town logistics.",
       ] },
     ],
   },
@@ -462,6 +470,9 @@ export const SERVICE_PAGES = {
         "In Maryland, the vineyards of Frederick and Carroll counties, the Montgomery County countryside and the Patapsco Valley are all an easy day from Baltimore, Columbia, Annapolis and Washington. Across the river, Loudoun County in Northern Virginia has one of the densest clusters of wineries on the East Coast around Leesburg, Purcellville and Middleburg.",
         "Pickups can start anywhere in our service area — a home in Bethesda, a hotel in Baltimore, several addresses across Howard County — and the group rides together the whole way in an SUV for up to 5 or a Mercedes Sprinter for up to 13.",
       ] },
+      { heading: "Beyond Wine: Breweries, Distilleries & Fall Foliage", paragraphs: [
+        "The same chauffeured, as-directed touring model works just as well for Maryland's craft breweries and distilleries — see our brewery and distillery tour transportation page for details. In autumn, many groups book the same style of day for fall foliage touring through western Maryland and Loudoun County, combining scenic drives with a winery or brewery stop.",
+      ] },
     ],
   },
   "birthday-celebrations": {
@@ -492,6 +503,9 @@ export const SERVICE_PAGES = {
       { heading: "Milestones, Surprises & Family Celebrations", paragraphs: [
         "For a surprise, book under your own contact details and tell us in the notes — the chauffeur will play along. For milestone birthdays with several generations, an SUV or Sprinter van keeps the family together and spares older relatives the parking and the walk. Car seats are available on request for the youngest guests.",
       ] },
+      { heading: "Quinceañeras & Other Milestone Celebrations", paragraphs: [
+        "We also provide dedicated transportation for quinceañeras — see our quinceañera limo service page for details on coordinating the court of honor, the ceremony, and the reception entrance — alongside bar and bat mitzvahs, debutante balls, and other milestone family celebrations.",
+      ] },
     ],
   },
   "anniversary-limo-service": {
@@ -517,7 +531,7 @@ export const SERVICE_PAGES = {
     details: [
       { heading: "Ideas for an Anniversary Evening", paragraphs: [
         "Dinner on the Annapolis waterfront and a walk along Ego Alley. A tasting menu in Baltimore's Harbor East followed by the symphony at the Meyerhoff or a show at the Hippodrome. The Kennedy Center and a late supper in Georgetown. A sunset table at National Harbor. A return to the venue where you were married, with a stop for photographs. Because the booking is hourly, the evening can include as many stops as you like, and the car is waiting whenever you are ready to move on.",
-        "For a daytime celebration, couples often pair an anniversary with a chauffeured wine tour through Frederick County or Loudoun County — a relaxed afternoon where neither of you has to skip a tasting.",
+        "For a daytime celebration, couples often pair an anniversary with a chauffeured wine tour through Frederick County or Loudoun County — a relaxed afternoon where neither of you has to skip a tasting. A few other local favorites: a relaxed evening at Laurel Park Racetrack, or — during peak bloom in late March and early April — a chauffeured evening around the Tidal Basin for the National Cherry Blossom Festival.",
       ] },
       { heading: "Booking Details", paragraphs: [
         "Tell us the date, the pickup address, the places you plan to visit and roughly when you expect to head home. We confirm a quote before anything is charged, and sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup (12 hours for the Sprinter Executive). If you would like flowers or a card waiting on the seat, hand them to your chauffeur beforehand or mention it when you book.",
@@ -544,6 +558,15 @@ export const SERVICE_PAGES = {
       { title: "Transparent Pricing", desc: "Upfront prom packages with no hidden fees." },
     ],
     vehicles: ["Sprinter Executive — Mercedes Sprinter", "Sprinter Shuttle — Mercedes Sprinter", "Premium SUV — Cadillac Escalade"],
+    details: [
+      { heading: "How Prom Night Bookings Work", paragraphs: [
+        "Prom bookings are typically hourly and as-directed: one vehicle and chauffeur stay with the group from the first pickup through photos, dinner, the dance, and the ride home. A parent or guardian books with a valid credit or debit card, receives the confirmed itinerary in advance, and remains our point of contact for the night.",
+        "Spring prom weekends are the single tightest vehicle-availability window of the year across our service area, since the same Sprinter vans and SUVs are booked for weddings and graduations running through the same weeks. Reserve as early as your school announces the date.",
+      ] },
+      { heading: "Prom by City", paragraphs: [
+        "We provide dedicated prom transportation pages for several of our busiest school districts — see our Hunt Valley, Owings Mills, Laurel, Potomac, Annapolis, Bethesda, Rockville, Silver Spring, Towson, Bowie, Gaithersburg, Columbia, and Frederick prom limo pages for area-specific details, or call (877) 609-1919 and we'll confirm coverage for your school.",
+      ] },
+    ],
   },
   "hourly-chauffeur": {
     metaTitle: "Hourly Chauffeur Service DC, MD & VA | 92 Limo",
@@ -565,6 +588,14 @@ export const SERVICE_PAGES = {
       { title: "Professional Discretion", desc: "Courteous, polished chauffeurs who respect your time and privacy." },
     ],
     vehicles: LUXURY_VEHICLES,
+    details: [
+      { heading: "One-Off Bookings vs. Recurring Shuttle Programs", paragraphs: [
+        "A single hourly booking puts one vehicle and chauffeur at your disposal for a block of time — a multi-stop business day, a wine or brewery tour, a monuments-at-night visit to DC, or any itinerary with waiting and changing plans built in. For a recurring need — a scheduled office-to-office or campus shuttle running on the same days every week — see our dedicated employee shuttle service page, which is set up as its own standing program rather than booked hour by hour.",
+      ] },
+      { heading: "Popular Hourly Itineraries", paragraphs: [
+        "Common full-day or half-day hourly bookings include a chauffeured wine, brewery or distillery tour through Maryland or Loudoun County wine country, a Washington DC monuments-at-night tour, multi-stop corporate roadshows, and a flexible shopping, dining or nightlife circuit across the DMV. Tell us your rough plan when you book and we'll confirm the right vehicle and a realistic hourly estimate.",
+      ] },
+    ],
   },
   "long-distance-transportation": {
     metaTitle: "Long-Distance Car Service to NYC & Philly | 92 Limo",
@@ -586,5 +617,13 @@ export const SERVICE_PAGES = {
       { title: "Transparent Flat Rates", desc: "Long-distance base rates quoted up front — gratuity, tolls and parking disclosed before confirmation." },
     ],
     vehicles: LUXURY_VEHICLES,
+    details: [
+      { heading: "Our Most-Booked Long-Distance Routes", paragraphs: [
+        "Baltimore and Washington DC to Philadelphia and New York City are our highest-volume long-distance routes, followed by airport transfers to PHL, JFK and Newark for travelers avoiding a connecting flight, and seasonal trips to Ocean City and the Delaware beaches. Each route is quoted as a flat, one-way or round-trip rate agreed before you book — never metered by the mile.",
+      ] },
+      { heading: "One-Way vs. Round Trip", paragraphs: [
+        "A one-way long-distance transfer is the most economical option when you only need the vehicle to get you there. If you need the same vehicle and chauffeur to wait and bring you home the same day — a day trip to New York, a Philadelphia business meeting, or a beach weekend — we quote the full round trip as one reservation, with the chauffeur and vehicle staying with you rather than each leg booked separately.",
+      ] },
+    ],
   },
 };

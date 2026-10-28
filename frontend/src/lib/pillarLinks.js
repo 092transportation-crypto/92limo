@@ -41,6 +41,80 @@ export const PILLAR_LINKS = {
   "maryland-to-newark-airport": { slug: "long-distance-transportation", title: "Long-Distance Private Car Service" },
 };
 
+// Per-pillar-service-page related landing-page links, rendered in the
+// "Related Services & Popular Pages" section of each /SERVICE_PAGES/<slug>
+// page. Moved here (2026-10-28, round 8) from a local constant inside
+// src/components/site/ServiceDetail.jsx, which scripts/prerender.js's
+// buildService() never mirrored — a real drift bug where crawled HTML on
+// every /airport-transportation, /corporate-transportation, etc. page carried
+// fewer internal links than real visitors saw. Single source of truth now,
+// same pattern as PILLAR_LINKS/relatedLandingPages above.
+export const SERVICE_RELATED_LANDING_PAGES = {
+  "airport-transportation": [
+    { label: "BWI Airport Transportation", to: "/bwi-airport-transportation" },
+    { label: "DCA Reagan Airport Limo", to: "/dca-airport-limo" },
+    { label: "IAD Dulles Airport Limo", to: "/iad-airport-limo" },
+    { label: "Georgetown University Car Service", to: "/georgetown-university-car-service" },
+    { label: "Johns Hopkins University Car Service", to: "/johns-hopkins-university-car-service" },
+  ],
+  "corporate-transportation": [
+    { label: "Corporate Limo Service Washington DC", to: "/corporate-limo-dc" },
+    { label: "Executive Car Service Maryland", to: "/executive-car-service-maryland" },
+    { label: "Black Car Service Baltimore", to: "/black-car-service-baltimore" },
+    { label: "Black Car Service Washington DC", to: "/black-car-service-dc" },
+    { label: "Chauffeur Service Baltimore", to: "/chauffeur-service-baltimore" },
+    { label: "Chauffeur Service Washington DC", to: "/chauffeur-service-washington-dc" },
+    { label: "Potomac, MD Corporate Car Service", to: "/potomac-corporate-car-service" },
+    { label: "McLean, VA Corporate Car Service", to: "/mclean-va-corporate-car-service" },
+    { label: "Reston, VA Corporate Car Service", to: "/reston-va-corporate-car-service" },
+    { label: "Employee Shuttle Service — Maryland & DC", to: "/employee-shuttle-service-maryland" },
+  ],
+  "wedding-transportation": [
+    { label: "Wedding Limo Service Maryland", to: "/wedding-limo-maryland" },
+    { label: "Wedding Car Service Washington DC", to: "/wedding-car-service-dc" },
+    { label: "Laurel, MD Wedding Limo Service", to: "/laurel-md-wedding-limo-service" },
+    { label: "Owings Mills, MD Wedding Limo Service", to: "/owings-mills-wedding-limo-service" },
+    { label: "Arlington, VA Wedding Limo Service", to: "/arlington-va-wedding-limo-service" },
+    { label: "Alexandria, VA Wedding Limo Service", to: "/alexandria-va-wedding-limo-service" },
+    { label: "Fairfax, VA Wedding Limo Service", to: "/fairfax-va-wedding-limo-service" },
+  ],
+  "wine-tours": [
+    { label: "Wine Tour Limo Maryland", to: "/wine-tour-limo-maryland" },
+    { label: "Brewery & Distillery Tour Transportation — Maryland", to: "/brewery-distillery-tour-transportation-maryland" },
+  ],
+  "birthday-celebrations": [
+    { label: "Birthday Limo Service Maryland", to: "/birthday-limo-maryland" },
+    { label: "Bachelorette Party Limo", to: "/bachelorette-party-limo" },
+    { label: "Casino Trip Limo Service", to: "/casino-trip-limo" },
+    { label: "Quinceañera Limo Service — Maryland", to: "/quinceanera-limo-service-maryland" },
+  ],
+  "anniversary-limo-service": [
+    { label: "Luxury Car Service Maryland", to: "/luxury-car-service-maryland" },
+    { label: "Laurel Park Racetrack Transportation", to: "/laurel-park-racetrack-transportation" },
+    { label: "National Cherry Blossom Festival Transportation", to: "/national-cherry-blossom-festival-transportation-dc" },
+  ],
+  "prom-transportation": [
+    { label: "Prom Limo Service Maryland", to: "/prom-limo-maryland" },
+    { label: "Prom Limo Baltimore", to: "/prom-limo-baltimore" },
+    { label: "Graduation Limo Service Maryland", to: "/graduation-limo-maryland" },
+    { label: "Hunt Valley Prom Limo Service", to: "/hunt-valley-prom-limo-service" },
+    { label: "Owings Mills Prom Limo Service", to: "/owings-mills-prom-limo-service" },
+    { label: "Laurel, MD Prom Limo Service", to: "/laurel-md-prom-limo-service" },
+    { label: "Potomac Prom Limo Service", to: "/potomac-prom-limo-service" },
+  ],
+  "hourly-chauffeur": [
+    { label: "Chauffeur Service Baltimore", to: "/chauffeur-service-baltimore" },
+    { label: "Chauffeur Service Washington DC", to: "/chauffeur-service-washington-dc" },
+    { label: "Executive Car Service Maryland", to: "/executive-car-service-maryland" },
+    { label: "Brewery & Distillery Tour Transportation — Maryland", to: "/brewery-distillery-tour-transportation-maryland" },
+  ],
+  "long-distance-transportation": [
+    { label: "Baltimore to Philadelphia Limo", to: "/baltimore-to-philadelphia-limo" },
+    { label: "DC to New York Car Service", to: "/dc-to-new-york-car-service" },
+    { label: "Maryland to JFK Airport Car Service", to: "/maryland-to-jfk-airport" },
+  ],
+};
+
 // Ranks sibling landing pages by slug-token overlap (ignoring generic words),
 // then backfills in key order so every page — including the generated ones —
 // always cross-links six others. Shared by LandingPage.jsx (live) and

@@ -8,6 +8,7 @@ import { Faq } from "@/components/site/Faq";
 import { Testimonials } from "@/components/site/Testimonials";
 import { FLEET, SERVICE_PAGES, NAV_SERVICES, vehicleLabel } from "@/lib/data";
 import { PAGE_FAQS } from "@/lib/pageFaqs";
+import { SERVICE_RELATED_LANDING_PAGES } from "@/lib/pillarLinks";
 
 // Cross-links shown on every service page (besides the sibling services).
 const POPULAR_LINKS = [
@@ -24,52 +25,10 @@ const POPULAR_LINKS = [
 // City/region-specific landing pages that belong under each pillar service
 // page. Keeps the broad service page as the head term and funnels equity
 // down to the geo long-tail pages (and back up), rather than letting them
-// compete for the same query unlinked.
-const RELATED_LANDING_PAGES = {
-  "airport-transportation": [
-    { label: "BWI Airport Transportation", to: "/bwi-airport-transportation" },
-    { label: "DCA Reagan Airport Limo", to: "/dca-airport-limo" },
-    { label: "IAD Dulles Airport Limo", to: "/iad-airport-limo" },
-  ],
-  "corporate-transportation": [
-    { label: "Corporate Limo Service Washington DC", to: "/corporate-limo-dc" },
-    { label: "Executive Car Service Maryland", to: "/executive-car-service-maryland" },
-    { label: "Black Car Service Baltimore", to: "/black-car-service-baltimore" },
-    { label: "Black Car Service Washington DC", to: "/black-car-service-dc" },
-    { label: "Chauffeur Service Baltimore", to: "/chauffeur-service-baltimore" },
-    { label: "Chauffeur Service Washington DC", to: "/chauffeur-service-washington-dc" },
-  ],
-  "wedding-transportation": [
-    { label: "Wedding Limo Service Maryland", to: "/wedding-limo-maryland" },
-    { label: "Wedding Car Service Washington DC", to: "/wedding-car-service-dc" },
-  ],
-  "wine-tours": [
-    { label: "Wine Tour Limo Maryland", to: "/wine-tour-limo-maryland" },
-  ],
-  "birthday-celebrations": [
-    { label: "Birthday Limo Service Maryland", to: "/birthday-limo-maryland" },
-    { label: "Bachelorette Party Limo", to: "/bachelorette-party-limo" },
-    { label: "Casino Trip Limo Service", to: "/casino-trip-limo" },
-  ],
-  "anniversary-limo-service": [
-    { label: "Luxury Car Service Maryland", to: "/luxury-car-service-maryland" },
-  ],
-  "prom-transportation": [
-    { label: "Prom Limo Service Maryland", to: "/prom-limo-maryland" },
-    { label: "Prom Limo Baltimore", to: "/prom-limo-baltimore" },
-    { label: "Graduation Limo Service Maryland", to: "/graduation-limo-maryland" },
-  ],
-  "hourly-chauffeur": [
-    { label: "Chauffeur Service Baltimore", to: "/chauffeur-service-baltimore" },
-    { label: "Chauffeur Service Washington DC", to: "/chauffeur-service-washington-dc" },
-    { label: "Executive Car Service Maryland", to: "/executive-car-service-maryland" },
-  ],
-  "long-distance-transportation": [
-    { label: "Baltimore to Philadelphia Limo", to: "/baltimore-to-philadelphia-limo" },
-    { label: "DC to New York Car Service", to: "/dc-to-new-york-car-service" },
-    { label: "Maryland to JFK Airport Car Service", to: "/maryland-to-jfk-airport" },
-  ],
-};
+// compete for the same query unlinked. Shared with scripts/prerender.js via
+// src/lib/pillarLinks.js (SERVICE_RELATED_LANDING_PAGES) so crawled HTML and
+// the live page never drift apart — see that file's header comment.
+const RELATED_LANDING_PAGES = SERVICE_RELATED_LANDING_PAGES;
 
 export default function ServiceDetail({ slug }) {
   const d = SERVICE_PAGES[slug];

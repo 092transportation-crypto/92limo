@@ -139,6 +139,8 @@ export const PAGE_FAQS = {
     { q: "Can you provide car seats for an airport transfer?", a: "Yes. Infant, convertible and booster seats are available on request for an add-on fee included in your quote, installed before the vehicle arrives." },
     { q: "Which vehicle should I choose for an airport transfer?", a: "A sedan for a solo traveler or couple, a Premium or Luxury SUV for a family with full-size luggage, and a Sprinter van for a group of up to 13 or 14 traveling together." },
     { q: "Is airport car service more reliable than rideshare for an early-morning flight?", a: "Yes, generally — a reserved chauffeur is assigned to your flight the night before regardless of local on-demand driver supply, which thins out noticeably during early-morning departure banks." },
+    { q: "Do you handle airport pickups for university students and visiting parents?", a: "Yes — move-in day, parents weekend and commencement travel to Georgetown, Johns Hopkins and the University of Maryland are regular bookings. See our Georgetown University and Johns Hopkins University car service pages." },
+    { q: "Is Metro ever a better choice than a car service for an airport trip?", a: "For a solo traveler with light luggage on a flexible schedule, Metro can be cheaper. For groups, heavy luggage, or a time-sensitive flight, a flight-tracked car service is generally the more reliable option — see our DC Metro vs. private car service guide for a full comparison." },
   ],
   "/corporate-transportation": [
     { q: "Do you offer corporate accounts?", a: "Yes — monthly consolidated invoicing, itemized receipts, a dedicated account contact and priority dispatch. Corporate accounts may be invoiced under separate written terms." },
@@ -148,6 +150,8 @@ export const PAGE_FAQS = {
     { q: "How do you protect passenger confidentiality?", a: "Discretion is a working standard for our chauffeurs: conversations and destinations stay private, and trip details are shared only with the people who booked." },
     { q: "Do you have experience with specific industries like healthcare, law or government contracting?", a: "Yes. We maintain dedicated pages and venue familiarity for healthcare, law firms, technology companies, government and defense contractors, financial services, real estate, higher education, nonprofits and embassies." },
     { q: "Can you coordinate transportation for a visiting delegation arriving on multiple flights?", a: "Yes — staggered pickups for a group arriving across several flights are routinely coordinated as one reservation, each pickup tracked against its own flight." },
+    { q: "Do you serve Northern Virginia's corporate corridor near Tysons and Dulles?", a: "Yes — see our McLean, VA and Reston, VA corporate car service pages for government-contractor and technology-company travel near Tysons Corner and Dulles." },
+    { q: "Can you set up a recurring employee shuttle instead of one-off bookings?", a: "Yes — for a scheduled, recurring route (office-to-office, parking lot to campus, etc.) see our dedicated employee shuttle service page. It's a different program shape than standard corporate car service, set up as its own standing arrangement." },
   ],
   "/wedding-transportation": [
     { q: "How far ahead should we book wedding transportation?", a: "As early as you can once the date and venue are set — Sprinter vans and limousines for peak-season Saturdays are the first vehicles to sell out." },
@@ -160,6 +164,7 @@ export const PAGE_FAQS = {
     { q: "Can we book a guest shuttle between the hotel block and the venue?", a: "Yes. A shuttle loop between a host hotel and the ceremony or reception venue is a common request — we plan the loop frequency around your start times so out-of-town guests never need their own car." },
     { q: "What happens if the ceremony runs long or the schedule shifts on the day?", a: "Your chauffeur and our dispatch team stay in contact throughout the day, so a ceremony that runs over or a photo stop that takes longer than planned doesn't turn into a missed pickup — the itinerary flexes with you." },
     { q: "Can one vehicle cover the whole day, or do we need multiple cars?", a: "It depends on your wedding party size and how many locations are involved. A single Sprinter van can often cover the couple and bridal party together; larger parties split between getting-ready locations, or weddings with a separate guest shuttle, typically use two or more vehicles booked as one coordinated plan." },
+    { q: "Do you provide wedding transportation in Northern Virginia?", a: "Yes — see our Arlington, VA, Alexandria, VA and Fairfax, VA wedding limo service pages for cross-river routing and Old Town/historic-district logistics." },
   ],
   "/wine-tours": [
     { q: "Which wine regions do you cover?", a: "Maryland wine country — including Frederick, Carroll and Montgomery County vineyards — and Northern Virginia's Loudoun County wineries. Tell us where you want to go, or ask for suggestions by region." },
@@ -167,6 +172,8 @@ export const PAGE_FAQS = {
     { q: "Do we need to book the tastings ourselves?", a: "Yes — wineries take tasting reservations directly, and many require them for groups. Send us the confirmed times and we build the route and timing around them." },
     { q: "What vehicle works best for a wine tour?", a: "An SUV for up to 5 guests, or a Mercedes Sprinter for groups up to 13 so everyone rides together." },
     { q: "How is a wine tour priced?", a: "Hourly, as-directed — the vehicle and chauffeur stay with your group all day. " + QUOTE_TXT },
+    { q: "Do you offer brewery or distillery tours too?", a: "Yes — the same chauffeured, as-directed touring model works for Maryland's craft breweries and distilleries. See our brewery and distillery tour transportation page." },
+    { q: "Do you run fall foliage tours?", a: "Yes, seasonally — many groups book the same style of day for fall foliage touring through western Maryland and Loudoun County, often combined with a winery or brewery stop." },
   ],
   "/birthday-celebrations": [
     { q: "What vehicles do you offer for birthdays?", a: "Sedans and SUVs for dinners and small groups, and the Mercedes Sprinter van for parties of up to 13 who want to ride together." },
@@ -174,6 +181,8 @@ export const PAGE_FAQS = {
     { q: "Can you pick up guests from different addresses?", a: "Yes. List the pickup addresses when you book and we will sequence them so the group arrives together." },
     { q: "Is there a cancellation window for party bookings?", a: CANCEL_TXT },
     { q: "Can I book a surprise for someone else?", a: "Yes. Book under your own contact details, add the guest of honor's name in the notes, and tell us it is a surprise so the chauffeur plays along." },
+    { q: "Do you provide transportation for quinceañeras?", a: "Yes — see our quinceañera limo service page for details on the court of honor, ceremony and reception entrance." },
+    { q: "What about bar and bat mitzvahs?", a: "Yes, we regularly provide transportation for bar and bat mitzvahs — see our bar/bat mitzvah limo service page for Maryland." },
   ],
   "/prom-transportation": [
     { q: "Is prom transportation safe for students?", a: "Chauffeurs are licensed, background-checked and drug-tested, vehicles are commercially insured, and the parent or guardian who books receives the confirmed itinerary." },
@@ -181,6 +190,7 @@ export const PAGE_FAQS = {
     { q: "How many students fit in one vehicle?", a: "Up to 5 in a Luxury or Premium SUV and up to 13 in a Mercedes Sprinter." },
     { q: "How early should we book for prom season?", a: "Early. Spring Fridays and Saturdays are the busiest nights of the year for Sprinters and limousines, and they sell out first." },
     { q: "Can the group stop for photos and dinner?", a: "Yes. Prom bookings are typically hourly, so photo locations, dinner and the return home are all covered by the same vehicle and chauffeur." },
+    { q: "Do you have a dedicated prom page for my specific town?", a: "Likely — see our Hunt Valley, Owings Mills, Laurel, Potomac, Annapolis, Bethesda, Rockville, Silver Spring, Towson, Bowie, Gaithersburg, Columbia and Frederick prom limo pages, or call (877) 609-1919 to confirm coverage." },
   ],
   "/hourly-chauffeur": [
     { q: "What is as-directed hourly service?", a: "You reserve a vehicle and chauffeur for a block of time rather than a single route. Stops, waiting and changes of plan are all included in the time you book." },
@@ -188,6 +198,8 @@ export const PAGE_FAQS = {
     { q: "Can I extend the booking on the day?", a: "Yes, subject to the vehicle's next commitment. Tell your chauffeur or call dispatch, and additional time is billed at the confirmed hourly rate." },
     { q: "Does the same chauffeur stay with me?", a: "Yes. One chauffeur and one vehicle stay with you for the whole booking." },
     { q: "How is hourly service priced?", a: "By vehicle class and duration, confirmed before you ride. " + QUOTE_TXT },
+    { q: "Do you offer a recurring shuttle instead of hourly bookings?", a: "Yes — for a scheduled, recurring route, see our employee shuttle service page, which is set up as its own standing program." },
+    { q: "Can hourly service cover a DC monuments tour?", a: "Yes — a monuments-at-night tour is one of our most popular hourly bookings. See our DC monuments at night chauffeur tour guide for a sample route." },
   ],
   "/long-distance-transportation": [
     { q: "What long-distance routes do you run most?", a: "Baltimore and Washington to Philadelphia and New York City, airport transfers to PHL, JFK and Newark, and summer trips to Ocean City and the Delaware beaches." },
@@ -195,6 +207,7 @@ export const PAGE_FAQS = {
     { q: "Can we stop along the way?", a: "Yes. Rest stops are part of any long trip, and planned stops for meals or additional pickups can be built into the quote." },
     { q: "Which vehicle is most comfortable for a multi-hour trip?", a: "A First Class Sedan for one to three travelers, a Premium SUV for up to 5 with luggage, or a Sprinter Executive van for a group that wants to work or rest on the way." },
     { q: "How far in advance should I book?", a: "A few days ahead is ideal for long-distance trips so a chauffeur can be scheduled for the full day. Same-day requests are accommodated when availability allows." },
+    { q: "Is a one-way transfer or a round trip cheaper?", a: "A one-way transfer is the more economical option when you only need the vehicle to get you there. A round trip, where the vehicle waits and brings you home the same day, is quoted as one reservation rather than two separate one-way trips." },
   ],
   "/anniversary-limo-service": [
     { q: "What does an anniversary limo booking usually include?", a: "A chauffeur and vehicle for the evening — pickup at home or your hotel, the drive to dinner or a show, waiting while you celebrate, and the ride home. Bookings are typically hourly and as-directed." },
@@ -202,6 +215,8 @@ export const PAGE_FAQS = {
     { q: "Can I arrange a surprise?", a: "Yes. Book under your own details, tell us it is a surprise in the notes, and share any timing your chauffeur should know. If you would like flowers or a note waiting in the car, bring them to the chauffeur or ask us when you book." },
     { q: "Can we combine dinner with another stop?", a: "Yes. A waterfront stop in Annapolis, a show in Baltimore or DC, or a return to the place you were married — hourly service covers as many stops as the evening needs." },
     { q: "How is it priced and what if plans change?", a: QUOTE_TXT + " " + CANCEL_TXT },
+    { q: "Do you provide transportation to Laurel Park Racetrack?", a: "Yes — a relaxed evening at Laurel Park is a popular local anniversary idea. See our Laurel Park Racetrack transportation page." },
+    { q: "Do you run anniversary evenings around the Cherry Blossom Festival?", a: "Yes, seasonally — during peak bloom in late March and early April, a chauffeured evening around the Tidal Basin is a popular anniversary outing. See our National Cherry Blossom Festival transportation page." },
   ],
 };
 

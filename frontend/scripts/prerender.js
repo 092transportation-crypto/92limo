@@ -64,10 +64,10 @@ function loadData() {
     "src/lib/breadcrumbs.js", "src/lib/guides.js", "src/lib/blogPosts.js", "src/lib/keywordSection.js",
     "src/lib/pillarLinks.js",
   ].map(plain).join("\n");
-  const batch3Src = plain("src/lib/marylandPagesBatch3.js") + "\n" + plain("src/lib/marylandPagesBatch4.js") + "\n" + plain("src/lib/marylandPagesBatch5.js") + "\n" + plain("src/lib/marylandPagesBatch6.js") + "\n" + plain("src/lib/marylandPagesBatch7.js") + "\n" + plain("src/lib/marylandPagesBatch8.js") + "\n" + plain("src/lib/marylandPagesBatch9.js") + "\n" + plain("src/lib/semrushKeywordGapPages.js") + "\n" + plain("src/lib/bwiAirportPages.js") + "\n" + plain("src/lib/marylandPagesBatch11.js") + "\n" + plain("src/lib/nicheAndSuburbLandingPages.js") + "\n" + plain("src/lib/marylandPagesBatch12.js") + "\n" + plain("src/lib/blogPostsBatch2.js") + "\n" + plain("src/lib/blogPostsBatch3.js") + "\n" + plain("src/lib/blogPostsBatch4.js") + "\n" + plain("src/lib/blogPostsBatch5.js") + "\n" + plain("src/lib/blogPostsBatch6.js") + "\n" + plain("src/lib/blogPostsBatch7.js") + "\n" + plain("src/lib/blogPostsBatch8.js") + "\n" + plain("src/lib/blogPostsBatch9.js") + "\n" + plain("src/lib/blogPostsBatch10.js") + "\n" + plain("src/lib/blogPostsBatch11.js") + "\n" + plain("src/lib/blogPostsBatch12.js") + "\n" + plain("src/lib/costAndComparisonBlogPosts.js") + "\n" + plain("src/lib/blogPostsGenerated.js");
+  const batch3Src = plain("src/lib/marylandPagesBatch3.js") + "\n" + plain("src/lib/marylandPagesBatch4.js") + "\n" + plain("src/lib/marylandPagesBatch5.js") + "\n" + plain("src/lib/marylandPagesBatch6.js") + "\n" + plain("src/lib/marylandPagesBatch7.js") + "\n" + plain("src/lib/marylandPagesBatch8.js") + "\n" + plain("src/lib/marylandPagesBatch9.js") + "\n" + plain("src/lib/semrushKeywordGapPages.js") + "\n" + plain("src/lib/bwiAirportPages.js") + "\n" + plain("src/lib/marylandPagesBatch11.js") + "\n" + plain("src/lib/nicheAndSuburbLandingPages.js") + "\n" + plain("src/lib/marylandPagesBatch12.js") + "\n" + plain("src/lib/marylandPagesBatch13.js") + "\n" + plain("src/lib/blogPostsBatch2.js") + "\n" + plain("src/lib/blogPostsBatch3.js") + "\n" + plain("src/lib/blogPostsBatch4.js") + "\n" + plain("src/lib/blogPostsBatch5.js") + "\n" + plain("src/lib/blogPostsBatch6.js") + "\n" + plain("src/lib/blogPostsBatch7.js") + "\n" + plain("src/lib/blogPostsBatch8.js") + "\n" + plain("src/lib/blogPostsBatch9.js") + "\n" + plain("src/lib/blogPostsBatch10.js") + "\n" + plain("src/lib/blogPostsBatch11.js") + "\n" + plain("src/lib/blogPostsBatch12.js") + "\n" + plain("src/lib/blogPostsBatch13.js") + "\n" + plain("src/lib/costAndComparisonBlogPosts.js") + "\n" + plain("src/lib/blogPostsGenerated.js");
   const ctx = { console };
   vm.runInNewContext(
-    `${dataSrc}\n${generatedSrc}\n${marylandSrc}\n${batch3Src}\n${landingSrc}\n${staticSrc}\nthis.__data = { keywordSection, placeName, BRAND, TESTIMONIALS, NAV_SERVICES, PAGE_FAQS, cityFaqs, breadcrumbTrail, breadcrumbSchema, GUIDES, BLOG_POSTS, PRESS_CONTENT, PARTNERS_CONTENT, SERVICE_PAGES, LANDING_PAGES, CITIES, HOME_ABOUT, EXTERNAL_LINKS, FAQS, AREAS, WHY, SOCIAL, CHAMBER, AIRPORTS, FLEET, POLICY, BOOKING_CONTENT, CONTACT_CONTENT, ABOUT_CONTENT, pageSchema, relatedLandingPages };`,
+    `${dataSrc}\n${generatedSrc}\n${marylandSrc}\n${batch3Src}\n${landingSrc}\n${staticSrc}\nthis.__data = { keywordSection, placeName, BRAND, TESTIMONIALS, NAV_SERVICES, PAGE_FAQS, cityFaqs, breadcrumbTrail, breadcrumbSchema, GUIDES, BLOG_POSTS, PRESS_CONTENT, PARTNERS_CONTENT, SERVICE_PAGES, LANDING_PAGES, CITIES, HOME_ABOUT, EXTERNAL_LINKS, FAQS, AREAS, WHY, SOCIAL, CHAMBER, AIRPORTS, FLEET, POLICY, BOOKING_CONTENT, CONTACT_CONTENT, ABOUT_CONTENT, pageSchema, relatedLandingPages, SERVICE_RELATED_LANDING_PAGES };`,
     ctx
   );
   return ctx.__data;
@@ -92,9 +92,13 @@ const ul = (items) => (items && items.length ? `<ul>${items.map((i) => `<li>${i}
 // ---------------------------------------------------------------------------
 const STATIC_PAGES = {
   "/": {
-    title: "Limo & Car Service in Maryland, DC & Virginia | 92 Limo",
+    // Kept in sync with src/pages/Home.jsx's TITLE/DESCRIPTION constants —
+    // see that file's comment for why (round-8 fix of a real title/
+    // description drift between the live Seo component and this crawled
+    // version).
+    title: "Luxury Car & Limo Service | DC, MD & VA | 92 Limo",
     description:
-      "Chauffeured luxury limo & black car service across Maryland, DC & Virginia — airport transfers, weddings, corporate travel. Flat rates, 24/7. (877) 609-1919.",
+      "24/7 flat-rate chauffeured car & limo service across DC, Maryland & Virginia — airport transfers, weddings, corporate travel. (877) 609-1919.",
     h1: "Luxury Black Car Service in Washington DC, Maryland & Virginia",
     paras: [
       "Professional airport transfers, corporate travel, hourly chauffeur service, weddings, and long-distance transportation — delivered with precision, discretion, and uncompromising comfort.",
@@ -506,6 +510,10 @@ function buildService(slug, data) {
       h(2, "Related Services & Popular Pages") +
       ul([
         ...data.NAV_SERVICES.filter((x) => x.to !== `/${slug}`).map((x) => a(x.to, x.label)),
+        // Mirrors ServiceDetail.jsx's `related` array order exactly: nav
+        // services, then this page's SERVICE_RELATED_LANDING_PAGES entries
+        // (shared via src/lib/pillarLinks.js), then the fixed POPULAR_LINKS.
+        ...((data.SERVICE_RELATED_LANDING_PAGES || {})[slug] || []).map((x) => a(x.to, x.label)),
         ...SERVICE_POPULAR_LINKS.filter(([to]) => to !== `/${slug}`).map(([to, label]) => a(to, label)),
       ]),
   };
