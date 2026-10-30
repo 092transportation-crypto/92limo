@@ -34,7 +34,7 @@ There's a subtler version of this category too: business travel where the client
 
 For most special-occasion BWI pickups, a Mercedes-Benz S-Class or BMW 7 Series first-class sedan strikes the right balance — genuinely upscale, still practical for airport curb logistics and a reasonable amount of luggage. These are the vehicles that read as "this is a nice car service" the moment they pull up, without requiring the extra planning a larger vehicle needs.
 
-For a couple or small wedding party, a Cadillac Escalade or Chevrolet Suburban premium SUV adds presence and a taller, more commanding profile without sacrificing the practicality of getting through arrivals traffic and a curb pickup smoothly. These also solve the luggage problem more comfortably than a sedan when a wedding weekend means more bags than usual.
+For a couple or small wedding party, a Lincoln Navigator or Chevrolet Suburban premium SUV adds presence and a taller, more commanding profile without sacrificing the practicality of getting through arrivals traffic and a curb pickup smoothly. These also solve the luggage problem more comfortably than a sedan when a wedding weekend means more bags than usual.
 
 For a larger group — a full wedding party, a family reunion arrival, or a group of groomsmen or bridesmaids flying in together — the Mercedes Sprinter Executive is the closer match to what people actually picture when they say "limo": more seating, more interior presence, and everyone arriving together instead of splitting into two or three separate sedans that show up at different times.
 

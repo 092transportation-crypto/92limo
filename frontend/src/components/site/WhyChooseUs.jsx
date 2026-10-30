@@ -27,7 +27,7 @@ export const WhyChooseUs = () => {
               <div className="mt-8 rounded-2xl overflow-hidden border border-black/10 shadow-sm">
                 <img
                   src={IMAGES.escaladeAngle}
-                  alt="92 Limo Service black Cadillac Escalade luxury SUV"
+                  alt="92 Limo Service black Lincoln Navigator luxury SUV"
                   loading="lazy"
                   className="w-full h-64 object-cover"
                 />

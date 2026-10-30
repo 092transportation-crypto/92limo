@@ -28,7 +28,7 @@ export const MARYLAND_BATCH5_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Shuttle — Mercedes Sprinter",
     ],
     areas: [
@@ -152,7 +152,7 @@ export const MARYLAND_BATCH5_PAGES = {
     ],
     vehicles: [
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -213,7 +213,7 @@ export const MARYLAND_BATCH5_PAGES = {
     ],
     vehicles: [
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Luxury SUV — Chevrolet Suburban",
     ],
     areas: [
@@ -274,7 +274,7 @@ export const MARYLAND_BATCH5_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Shuttle — Mercedes Sprinter",
     ],
     areas: [
@@ -380,7 +380,7 @@ export const MARYLAND_BATCH5_PAGES = {
     ],
     vehicles: [
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -434,7 +434,7 @@ export const MARYLAND_BATCH5_PAGES = {
     vehicles: [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
     ],
     areas: [
       {
@@ -487,7 +487,7 @@ export const MARYLAND_BATCH5_PAGES = {
     vehicles: [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
     ],
     areas: [
       {
@@ -593,7 +593,7 @@ export const MARYLAND_BATCH5_PAGES = {
     ],
     vehicles: [
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -647,7 +647,7 @@ export const MARYLAND_BATCH5_PAGES = {
     ],
     vehicles: [
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Luxury SUV — Chevrolet Suburban",
     ],
     areas: [
@@ -755,7 +755,7 @@ export const MARYLAND_BATCH5_PAGES = {
     vehicles: [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
     ],
     areas: [
       {
@@ -875,7 +875,7 @@ export const MARYLAND_BATCH5_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -936,7 +936,7 @@ export const MARYLAND_BATCH5_PAGES = {
     ],
     vehicles: [
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -997,7 +997,7 @@ export const MARYLAND_BATCH5_PAGES = {
     ],
     vehicles: [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -1058,7 +1058,7 @@ export const MARYLAND_BATCH5_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -1168,7 +1168,7 @@ export const MARYLAND_BATCH5_PAGES = {
       "92 Limo Service provides private, chauffeured car service from Dulles International Airport to Tysons Corner — about 12 miles of door-to-door comfort, typically 20 to 25 minutes via the Dulles Toll Road and Route 123. One flat rate, quoted before you book, covers the base transportation charge for the entire trip, with gratuity, tolls, and parking disclosed before confirmation.",
       "Your chauffeur tracks your flight in real time, meets you curbside or inside at baggage claim, loads every bag, and drives straight to Tysons' corporate towers, the Tysons Galleria and Tysons Corner Center malls, or the Capital One Center without a single unnecessary stop. Reverse trips to the airport, round trips, and late-night departures are all available 24/7.",
       "This is one of our most frequently booked airport routes, since Tysons is home to some of the region's largest employers and most of our corporate accounts route executives and visiting staff through Dulles. Standing accounts get priority scheduling and consolidated monthly invoicing, and we stage vehicles specifically for this short, high-frequency run.",
-      "Choose a Mercedes E-Class or BMW 7 Series sedan for business travel, or a Cadillac Escalade or Sprinter van if you are arriving with a group or heavy luggage. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote.",
+      "Choose a Mercedes E-Class or BMW 7 Series sedan for business travel, or a Lincoln Navigator or Sprinter van if you are arriving with a group or heavy luggage. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote.",
     ],
     highlights: [
       { title: "20–25 Minute Transfer", desc: "A short, direct run via the Dulles Toll Road and Route 123 — one of our most frequently booked routes." },
@@ -1181,7 +1181,7 @@ export const MARYLAND_BATCH5_PAGES = {
     vehicles: [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
     ],
     areas: [
       {
@@ -1220,7 +1220,7 @@ export const MARYLAND_BATCH5_PAGES = {
       "92 Limo Service provides private, chauffeured car service from Dulles International Airport to Reston — about 8 miles of door-to-door comfort, typically 15 to 20 minutes via the Dulles Toll Road. One flat rate, quoted before you book, covers the base transportation charge for the entire trip, with gratuity, tolls, and parking disclosed before confirmation.",
       "Your chauffeur tracks your flight in real time and drives straight to Reston Town Center, the Sunset Hills Road office corridor, or any residential address around Lake Anne and South Lakes without a single unnecessary stop. Reverse trips, round trips, and late-night departures are all available 24/7.",
       "Reston's tech and professional-services companies along the Dulles Toll Road corridor make this one of our steadiest corporate routes, and we run standing accounts with consolidated monthly invoicing for firms that fly visiting staff and executives through Dulles on a regular basis.",
-      "Choose a Mercedes E-Class or BMW 7 Series sedan for business travel, or a Cadillac Escalade or Sprinter van if you are arriving with a group or heavy luggage. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote.",
+      "Choose a Mercedes E-Class or BMW 7 Series sedan for business travel, or a Lincoln Navigator or Sprinter van if you are arriving with a group or heavy luggage. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote.",
       "Because the run is so short, Reston travelers often add it to a same-day round trip without a second thought — land, meet downtown, and be back at the terminal within a few hours. We recommend booking the return leg at the same time so a vehicle is already held against your departure flight.",
     ],
     highlights: [
@@ -1233,7 +1233,7 @@ export const MARYLAND_BATCH5_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -1325,7 +1325,7 @@ export const MARYLAND_BATCH5_PAGES = {
       "92 Limo Service provides private, chauffeured car service from Dulles International Airport to Leesburg — about 15 miles of door-to-door comfort, typically 20 to 25 minutes via the Dulles Greenway. One flat rate, quoted before you book, covers the base transportation charge for the entire trip, with gratuity, tolls, and parking disclosed before confirmation.",
       "Your chauffeur tracks your flight in real time and drives straight to Leesburg's historic downtown, the Lansdowne resort corridor, or Loudoun's wine country just beyond town, handling every bag along the way. Reverse trips, round trips, and late-night departures are all available 24/7.",
       "Leesburg's wedding venues and wineries make this one of our more event-heavy routes: wedding parties flying in for a Loudoun County celebration, guests connecting through Dulles for a winery weekend, and Lansdowne Resort visitors all use this transfer regularly. We also cover the Dulles Greenway toll in the flat quoted rate.",
-      "Choose a Mercedes E-Class sedan for a quick solo transfer, or a Cadillac Escalade or Sprinter van for a wedding party or wine-tour group. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote.",
+      "Choose a Mercedes E-Class sedan for a quick solo transfer, or a Lincoln Navigator or Sprinter van for a wedding party or wine-tour group. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote.",
       "Weekend wedding traffic into Loudoun County tends to cluster around Friday afternoons and Sunday mornings, so we stage extra vehicles on the Greenway during peak season rather than scrambling to find one. If your itinerary includes a stop at a specific winery before checking into a hotel, tell us when you book and we will build it into the route.",
     ],
     highlights: [
@@ -1338,7 +1338,7 @@ export const MARYLAND_BATCH5_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -1378,7 +1378,7 @@ export const MARYLAND_BATCH5_PAGES = {
       "92 Limo Service provides private, chauffeured car service from Dulles International Airport to Herndon — one of the shortest transfers on our schedule, typically 10 to 15 minutes via Centreville Road or the Dulles Toll Road. One flat rate, quoted before you book, covers the base transportation charge for the entire trip, with gratuity, tolls, and parking disclosed before confirmation.",
       "Your chauffeur tracks your flight in real time and drives straight to historic downtown Herndon, the Herndon Parkway office corridor, or any residential address near the W&OD Trail, handling every bag along the way. Reverse trips, round trips, and late-night departures are all available 24/7.",
       "Because this route is so short, it is one of the easiest same-day requests on our schedule — a last-minute business trip, an unplanned connection, or a family member landing a few hours earlier than expected are all easy to accommodate when vehicles are available.",
-      "Choose a Mercedes E-Class sedan for a quick business transfer, or a Cadillac Escalade or Sprinter van for a family or group with luggage. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote.",
+      "Choose a Mercedes E-Class sedan for a quick business transfer, or a Lincoln Navigator or Sprinter van for a family or group with luggage. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote.",
       "Herndon's tech corridor along the Toll Road and the W&OD Trail's residential streets both fall within this short run, so whether you are headed to an office park or a front door near the trail, the trip and the flat rate stay about the same. Repeat business travelers often keep our number saved for exactly this reason.",
     ],
     highlights: [
@@ -1391,7 +1391,7 @@ export const MARYLAND_BATCH5_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -1431,7 +1431,7 @@ export const MARYLAND_BATCH5_PAGES = {
       "92 Limo Service provides private, chauffeured car service from BWI Marshall Airport to Leesburg, Virginia — about 65 miles of door-to-door comfort, typically 75 to 90 minutes via I-495 and the Dulles Greenway or Route 7. One flat rate, quoted before you book, covers the base transportation charge for the entire trip, with gratuity, tolls, and parking disclosed before confirmation.",
       "Your chauffeur tracks your flight in real time, loads every bag, and plans the route around Beltway traffic before you ever feel it. Drop-off works at any address in Leesburg's historic downtown, the Lansdowne resort corridor, or Loudoun wine country just beyond town. Reverse trips, round trips, and late-night departures are all available 24/7.",
       "This route is popular with Loudoun County wedding parties and winery groups who book flights through BWI when Dulles fares run higher, and with travelers who prefer BWI's domestic route network for a Leesburg visit or event.",
-      "Choose a Mercedes E-Class or BMW 7 Series sedan for a comfortable long ride, or a Cadillac Escalade or Sprinter van for a group or wedding party. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote.",
+      "Choose a Mercedes E-Class or BMW 7 Series sedan for a comfortable long ride, or a Lincoln Navigator or Sprinter van for a group or wedding party. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote.",
       "At roughly 65 miles and well over an hour, this is one of the longer transfers we run regularly, so your chauffeur builds in a buffer for Beltway slowdowns rather than quoting the best-case time. Water and chargers are on board for the ride, and the cabin stays quiet enough to catch up on sleep or work before you arrive.",
     ],
     highlights: [
@@ -1444,7 +1444,7 @@ export const MARYLAND_BATCH5_PAGES = {
     ],
     vehicles: [
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -1484,7 +1484,7 @@ export const MARYLAND_BATCH5_PAGES = {
       "92 Limo Service provides private, chauffeured car service from BWI Marshall Airport to Sterling, Virginia — about 70 miles of door-to-door comfort, typically 75 to 85 minutes via I-495 and the Dulles Access Road or Greenway. One flat rate, quoted before you book, covers the base transportation charge for the entire trip, with gratuity, tolls, and parking disclosed before confirmation.",
       "Your chauffeur tracks your flight in real time, loads every bag, and plans the route around Beltway traffic before you ever feel it. This run is especially popular with technology and data-center professionals who fly into BWI on routes that aren't served from Dulles directly, then need a reliable transfer straight to Sterling's Data Center Alley or Dulles Town Center.",
       "Corporate accounts with monthly invoicing are common for firms that regularly fly visiting staff into BWI for Sterling-area site visits, and we coordinate pickup timing closely with flight schedules to minimize downtime between landing and the next meeting.",
-      "Choose a Mercedes E-Class or BMW 7 Series sedan for a comfortable long ride, or a Cadillac Escalade or Sprinter van for a group. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote.",
+      "Choose a Mercedes E-Class or BMW 7 Series sedan for a comfortable long ride, or a Lincoln Navigator or Sprinter van for a group. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote.",
       "Many of our Sterling bookings are one leg of a multi-stop business trip — a BWI arrival, a data-center visit, and a same-day return — so we are glad to hold a vehicle on standby for a return pickup later that evening without a separate reservation call. Just let dispatch know your rough timeline when you book the first leg.",
     ],
     highlights: [
@@ -1537,7 +1537,7 @@ export const MARYLAND_BATCH5_PAGES = {
       "92 Limo Service provides private, chauffeured car service from Reagan National Airport to Fairfax, Virginia — about 20 miles of door-to-door comfort, typically 30 to 40 minutes via I-395 and I-66 West. One flat rate, quoted before you book, covers the base transportation charge for the entire trip, with gratuity, tolls, and parking disclosed before confirmation.",
       "Your chauffeur tracks your flight in real time and drives straight to George Mason University, historic Fairfax City, or the Fair Oaks and Fairfax Corner shopping corridors, handling every bag along the way. Reverse trips, round trips, and late-night departures are all available 24/7.",
       "George Mason University events at EagleBank Arena, family weekends, commencements, and visiting faculty travel all generate steady demand on this route, and we plan event-night pickups in advance around campus traffic. Fairfax's county government offices and courthouse also send a regular flow of business travelers our way.",
-      "Choose a Mercedes E-Class or BMW 7 Series sedan for business travel, or a Cadillac Escalade or Sprinter van for a family or group. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote.",
+      "Choose a Mercedes E-Class or BMW 7 Series sedan for business travel, or a Lincoln Navigator or Sprinter van for a family or group. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote.",
       "Move-in weekends and commencement at George Mason can tie up Fairfax's streets for hours, and we plan pickup timing around the campus calendar rather than guessing. Families coordinating several pickups for the same weekend — one from DCA, one by car — can have both handled under a single point of contact.",
     ],
     highlights: [
@@ -1550,7 +1550,7 @@ export const MARYLAND_BATCH5_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -1603,7 +1603,7 @@ export const MARYLAND_BATCH5_PAGES = {
     vehicles: [
       "Sprinter Executive — Mercedes Sprinter",
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
     ],
     areas: [
       {
@@ -1619,7 +1619,7 @@ export const MARYLAND_BATCH5_PAGES = {
       },
     ],
     faqs: [
-      { q: "How many people fit in a group booking for Six Flags America?", a: "Our Mercedes Sprinter vans seat up to 14, with Suburbans and Escalades available for smaller groups of up to 6." },
+      { q: "How many people fit in a group booking for Six Flags America?", a: "Our Mercedes Sprinter vans seat up to 14, with Suburbans and Navigators available for smaller groups of up to 6." },
       { q: "Can you drop off near the park entrance?", a: "Yes — your chauffeur drops the group directly near the entrance and picks up from the same area, avoiding the long walk from Six Flags America's main lot." },
       { q: "How far in advance should we book a group trip?", a: "Reserve a few days ahead when possible, especially for a Saturday visit or a larger group needing a bigger Sprinter — weekends and summer break are the park's busiest stretches." },
       { q: "Do you pick up from Bowie, Laurel, or Columbia for Six Flags trips?", a: "Yes — we regularly pick up groups from Bowie, Laurel, Columbia, and the broader Prince George's County area. Call (877) 609-1919 for a group quote." },
@@ -1655,7 +1655,7 @@ export const MARYLAND_BATCH5_PAGES = {
     vehicles: [
       "First Class Sedan — BMW 7 Series",
       "Sprinter Executive — Mercedes Sprinter",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
     ],
     areas: [
       {
@@ -1694,7 +1694,7 @@ export const MARYLAND_BATCH5_PAGES = {
       "Audi Field, home of D.C. United, sits in the Buzzard Point district of Southwest Washington, just across South Capitol Street from Nationals Park — a corridor that gets genuinely difficult to drive or park in once 20,000 fans try to leave at the same time. 92 Limo Service provides chauffeured sedans, SUVs, and Sprinter vans for match-day transportation, with parking and traffic as someone else's problem.",
       "We route around Southwest DC's match-day closures using the latest traffic information, drop off as close to the gates as conditions allow, and stage the pickup afterward at a point your chauffeur confirms with you in advance — no circling the block while a surge-priced app searches for a driver.",
       "Many of our Audi Field bookings make an evening of it: a pre-match dinner stop along the Anacostia Riverwalk or at the Wharf, the match itself, and a ride home or to a hotel afterward, all with the same chauffeur. Because The Anthem and Nationals Park are close enough that the same vehicle can handle either, overlap nights with multiple events nearby are planned for in advance.",
-      "Groups, corporate suites, and bachelor or bachelorette parties fill our Sprinter vans for match day, while couples and smaller parties ride in an Escalade or sedan. Visiting fans flying in for a match can pair the trip with an airport transfer from Reagan National, BWI, or Dulles — every airport pickup includes flight tracking. Call (877) 609-1919 or book online.",
+      "Groups, corporate suites, and bachelor or bachelorette parties fill our Sprinter vans for match day, while couples and smaller parties ride in an Navigator or sedan. Visiting fans flying in for a match can pair the trip with an airport transfer from Reagan National, BWI, or Dulles — every airport pickup includes flight tracking. Call (877) 609-1919 or book online.",
     ],
     highlights: [
       { title: "Match-Day Routing Planned", desc: "Chauffeurs who route around South Capitol Street closures and crowd patterns in real time." },
@@ -1706,7 +1706,7 @@ export const MARYLAND_BATCH5_PAGES = {
     ],
     vehicles: [
       "Sprinter Executive — Mercedes Sprinter",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Business Sedan — Mercedes E-Class",
     ],
     areas: [
@@ -1759,7 +1759,7 @@ export const MARYLAND_BATCH5_PAGES = {
     ],
     vehicles: [
       "Sprinter Executive — Mercedes Sprinter",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Business Sedan — Mercedes E-Class",
     ],
     areas: [
@@ -1864,7 +1864,7 @@ export const MARYLAND_BATCH5_PAGES = {
     vehicles: [
       "Business Sedan — Mercedes E-Class",
       "Sprinter Executive — Mercedes Sprinter",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
     ],
     areas: [
       {

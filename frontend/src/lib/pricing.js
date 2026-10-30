@@ -50,7 +50,7 @@ export const PRICING = {
     ],
   },
   'Premium SUV': {
-    model: 'Cadillac Escalade',
+    model: 'Lincoln Navigator',
     brackets: [
       140, 150, 160, 170, 190, 220, 240, 260, 275, 285,
       305, 315, 330, 350, 370, 395, 425, 430, 450, 470,

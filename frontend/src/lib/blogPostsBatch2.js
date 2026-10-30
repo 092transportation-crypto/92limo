@@ -21,7 +21,7 @@ export const BLOG_POSTS_BATCH2 = [
       {
         heading: "Vehicle Class Is the Biggest Lever",
         paragraphs: [
-          "92 Limo Service prices by vehicle class, and the classes exist because they solve different problems. A Business Sedan (Mercedes E-Class) or First Class Sedan (BMW 7 Series / Mercedes S-Class) suits one to three travelers with standard luggage. A Midsize or Luxury SUV adds passengers and cargo room. A Premium SUV (Cadillac Escalade) is the top of the sedan-and-SUV tier. Above that, the Mercedes Sprinter Shuttle and Sprinter Executive both seat up to 13 — the Shuttle for straightforward group transport, and the Executive with a premium interior for corporate groups and celebrations alike.",
+          "92 Limo Service prices by vehicle class, and the classes exist because they solve different problems. A Business Sedan (Mercedes E-Class) or First Class Sedan (BMW 7 Series / Mercedes S-Class) suits one to three travelers with standard luggage. A Midsize or Luxury SUV adds passengers and cargo room. A Premium SUV (Lincoln Navigator) is the top of the sedan-and-SUV tier. Above that, the Mercedes Sprinter Shuttle and Sprinter Executive both seat up to 13 — the Shuttle for straightforward group transport, and the Executive with a premium interior for corporate groups and celebrations alike.",
           "The company does not operate a separate stretch limousine or party bus in its owned fleet — the Sprinter Executive fills that role for group celebrations, and a traditional stretch limousine or party bus can be arranged on request, subject to availability, if your event specifically calls for one.",
         ],
       },

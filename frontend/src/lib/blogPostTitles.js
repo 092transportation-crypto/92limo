@@ -512,8 +512,8 @@ export const BLOG_POST_TITLES = [
     "title": "Sprinter Van Economics: What a Group Airport Ride Actually Costs Per Person"
   },
   {
-    "slug": "cadillac-escalade-vs-chevrolet-suburban-which-premium-suv",
-    "title": "Cadillac Escalade vs. Chevrolet Suburban: Which Premium SUV Fits Your Trip?"
+    "slug": "lincoln-navigator-vs-chevrolet-suburban-which-premium-suv",
+    "title": "Lincoln Navigator vs. Chevrolet Suburban: Which Premium SUV Fits Your Trip?"
   },
   {
     "slug": "bmw-7-series-vs-mercedes-e-class-choosing-your-sedan",
@@ -698,6 +698,14 @@ export const BLOG_POST_TITLES = [
   {
     "slug": "annapolis-boat-show-weekend-chauffeur-guide",
     "title": "Annapolis Boat Show Weekend: A Chauffeur's Guide"
+  },
+  {
+    "slug": "veterans-day-arlington-national-cemetery-car-service-guide",
+    "title": "Veterans Day at Arlington National Cemetery: A Car Service Guide"
+  },
+  {
+    "slug": "wolf-trap-concert-season-chauffeur-guide",
+    "title": "Wolf Trap Concert Season: A Chauffeur's Guide"
   },
   {
     "slug": "how-much-does-a-limo-cost-from-bwi-to-dc",

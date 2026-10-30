@@ -16,6 +16,7 @@ import { BLOG_POSTS_BATCH10 } from "@/lib/blogPostsBatch10";
 import { BLOG_POSTS_BATCH11 } from "@/lib/blogPostsBatch11";
 import { BLOG_POSTS_BATCH12 } from "@/lib/blogPostsBatch12";
 import { BLOG_POSTS_BATCH13 } from "@/lib/blogPostsBatch13";
+import { BLOG_POSTS_BATCH14 } from "@/lib/blogPostsBatch14";
 import { COST_AND_COMPARISON_BLOG_POSTS } from "@/lib/costAndComparisonBlogPosts";
 import { GENERATED_BLOG_POSTS } from "@/lib/blogPostsGenerated";
 
@@ -64,7 +65,7 @@ export const BLOG_POSTS = [
       {
         heading: "Choosing the Right Vehicle",
         paragraphs: [
-          "Match the vehicle to the party and the luggage, not the occasion. A luxury sedan handles one or two travelers with standard bags; a full-size SUV such as an Escalade swallows a family of four with vacation luggage; and a Mercedes Sprinter van moves groups of up to a dozen-plus with everyone — and every suitcase — in one vehicle on one flat rate. Car seats are available when arranged at booking, installed before the vehicle arrives.",
+          "Match the vehicle to the party and the luggage, not the occasion. A luxury sedan handles one or two travelers with standard bags; a full-size SUV such as an Navigator swallows a family of four with vacation luggage; and a Mercedes Sprinter van moves groups of up to a dozen-plus with everyone — and every suitcase — in one vehicle on one flat rate. Car seats are available when arranged at booking, installed before the vehicle arrives.",
         ],
       },
       {
@@ -354,7 +355,7 @@ export const BLOG_POSTS = [
       {
         heading: "The Standard Vehicle Mix",
         paragraphs: [
-          "Most full weddings combine three layers: an elegant chauffeured sedan or SUV for the couple — an S-Class or Escalade photographs beautifully and treats a gown kindly; a Mercedes Sprinter that keeps the wedding party together between prep, photos, and ceremony; and looped guest shuttles between host hotels and the venue, staggered at night's end so early leavers and last dancers both get home gracefully. Not every wedding needs all three — but pricing them separately prevents the classic mistake of a beautiful getaway car and eighty stranded guests.",
+          "Most full weddings combine three layers: an elegant chauffeured sedan or SUV for the couple — an S-Class or Navigator photographs beautifully and treats a gown kindly; a Mercedes Sprinter that keeps the wedding party together between prep, photos, and ceremony; and looped guest shuttles between host hotels and the venue, staggered at night's end so early leavers and last dancers both get home gracefully. Not every wedding needs all three — but pricing them separately prevents the classic mistake of a beautiful getaway car and eighty stranded guests.",
         ],
       },
       {
@@ -414,7 +415,7 @@ export const BLOG_POSTS = [
       },
       {
         q: "What vehicles do most Maryland weddings use?",
-        a: "A chauffeured S-Class or Escalade for the couple, a 14-passenger Mercedes Sprinter for the wedding party, and looped guest shuttles when hotels or parking sit away from the venue. The right mix follows from mapping the day first.",
+        a: "A chauffeured S-Class or Navigator for the couple, a 14-passenger Mercedes Sprinter for the wedding party, and looped guest shuttles when hotels or parking sit away from the venue. The right mix follows from mapping the day first.",
       },
       {
         q: "What should a wedding transportation quote include?",
@@ -577,7 +578,7 @@ export const BLOG_POSTS = [
           "To or from BWI Marshall: about $85–$130 depending on distance from the airport.",
           "To or from Reagan National (DCA): roughly $120–$170 from most central Maryland addresses.",
           "To or from Dulles (IAD): roughly $150–$210, reflecting the longer haul across the region.",
-          "Full-size SUV (Escalade, Suburban): add roughly $30–$60 to any route above.",
+          "Full-size SUV (Navigator, Suburban): add roughly $30–$60 to any route above.",
           "Mercedes Sprinter van for groups: typically $250–$375 for regional airport transfers.",
         ],
       },
@@ -1016,7 +1017,7 @@ export const BLOG_POSTS = [
       {
         heading: "A Real Fleet You Can Verify",
         paragraphs: [
-          "Brokers advertise every vehicle ever photographed; operators can tell you exactly what they run. Look for a concrete lineup — late-model luxury sedans, full-size SUVs like the Escalade, Mercedes Sprinters for groups — and ask the model years. The best Laurel services detail vehicles between trips, inspect them daily, and can match the vehicle to the job: sedan for the solo BWI run, SUV for the family departure, Sprinter for the wedding party or the Fort Meade group movement.",
+          "Brokers advertise every vehicle ever photographed; operators can tell you exactly what they run. Look for a concrete lineup — late-model luxury sedans, full-size SUVs like the Navigator, Mercedes Sprinters for groups — and ask the model years. The best Laurel services detail vehicles between trips, inspect them daily, and can match the vehicle to the job: sedan for the solo BWI run, SUV for the family departure, Sprinter for the wedding party or the Fort Meade group movement.",
         ],
       },
       {
@@ -1123,6 +1124,9 @@ BLOG_POSTS.push(...BLOG_POSTS_BATCH12);
 // 2026-10-28 SEO round-8 push, batch 13 (10 long-form posts) — see
 // blogPostsBatch13.js header.
 BLOG_POSTS.push(...BLOG_POSTS_BATCH13);
+// 2026-10-28 follow-up content push, batch 14 (2 long-form posts) — see
+// blogPostsBatch14.js header.
+BLOG_POSTS.push(...BLOG_POSTS_BATCH14);
 // Daily-automation posts (scripts/generateBlogs.js) — newest last, so
 // GENERATED_BLOG_POSTS is pushed after the hand-written batches.
 BLOG_POSTS.push(...GENERATED_BLOG_POSTS);

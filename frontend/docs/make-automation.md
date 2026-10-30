@@ -32,7 +32,7 @@ The webhook payload shape (these are the exact field names to map in Make.com):
   "time": "14:30",
   "submitted_at": "2026-07-04T18:02:11.000Z",
   "service_type": "Airport Transfer",
-  "vehicle_type": "Premium SUV — Cadillac Escalade",
+  "vehicle_type": "Premium SUV — Lincoln Navigator",
   "passengers": 3,
   "flight_number": "",
   "notes": "Flight UA123"

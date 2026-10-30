@@ -30,7 +30,7 @@ export const MARYLAND_BATCH8_PAGES = {
     ],
     vehicles: [
       "Sprinter Executive — Mercedes Sprinter",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "First Class Sedan — BMW 7 Series",
     ],
     areas: [
@@ -92,7 +92,7 @@ export const MARYLAND_BATCH8_PAGES = {
     ],
     vehicles: [
       "Sprinter Executive — Mercedes Sprinter",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "First Class Sedan — BMW 7 Series",
     ],
     areas: [
@@ -154,7 +154,7 @@ export const MARYLAND_BATCH8_PAGES = {
     ],
     vehicles: [
       "Sprinter Executive — Mercedes Sprinter",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "First Class Sedan — BMW 7 Series",
     ],
     areas: [
@@ -216,7 +216,7 @@ export const MARYLAND_BATCH8_PAGES = {
     ],
     vehicles: [
       "Sprinter Executive — Mercedes Sprinter",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "First Class Sedan — BMW 7 Series",
     ],
     areas: [
@@ -278,7 +278,7 @@ export const MARYLAND_BATCH8_PAGES = {
     ],
     vehicles: [
       "Sprinter Executive — Mercedes Sprinter",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "First Class Sedan — BMW 7 Series",
     ],
     areas: [
@@ -340,7 +340,7 @@ export const MARYLAND_BATCH8_PAGES = {
     ],
     vehicles: [
       "Sprinter Executive — Mercedes Sprinter",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "First Class Sedan — BMW 7 Series",
     ],
     areas: [
@@ -402,7 +402,7 @@ export const MARYLAND_BATCH8_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Shuttle — Mercedes Sprinter",
     ],
     areas: [
@@ -464,7 +464,7 @@ export const MARYLAND_BATCH8_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Shuttle — Mercedes Sprinter",
     ],
     areas: [
@@ -526,7 +526,7 @@ export const MARYLAND_BATCH8_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Shuttle — Mercedes Sprinter",
     ],
     areas: [
@@ -588,7 +588,7 @@ export const MARYLAND_BATCH8_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Shuttle — Mercedes Sprinter",
     ],
     areas: [
@@ -779,7 +779,7 @@ export const MARYLAND_BATCH8_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -843,7 +843,7 @@ export const MARYLAND_BATCH8_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -907,7 +907,7 @@ export const MARYLAND_BATCH8_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -971,7 +971,7 @@ export const MARYLAND_BATCH8_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -1034,7 +1034,7 @@ export const MARYLAND_BATCH8_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -1098,7 +1098,7 @@ export const MARYLAND_BATCH8_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -1161,7 +1161,7 @@ export const MARYLAND_BATCH8_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -1224,7 +1224,7 @@ export const MARYLAND_BATCH8_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -1286,7 +1286,7 @@ export const MARYLAND_BATCH8_PAGES = {
     ],
     vehicles: [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -1348,7 +1348,7 @@ export const MARYLAND_BATCH8_PAGES = {
     ],
     vehicles: [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -1410,7 +1410,7 @@ export const MARYLAND_BATCH8_PAGES = {
     ],
     vehicles: [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -1453,7 +1453,7 @@ export const MARYLAND_BATCH8_PAGES = {
     h1: "Prom Limo Service in Rockville, MD",
     subtitle: "A safe, supervised ride for Rockville prom groups — licensed, background-checked chauffeurs, tracked pickup and return times, and group-friendly Sprinter and SUV pricing.",
     image: "/images/site/celebration.webp",
-    alt: "Chauffeured Cadillac Escalade for a Rockville, MD prom group — 92 Limo Service",
+    alt: "Chauffeured Lincoln Navigator for a Rockville, MD prom group — 92 Limo Service",
     highlightsHeading: "Why Rockville Parents Choose 92 Limo Service for Prom",
     intro: [
       "Rockville Town Square is the default gathering point for most prom groups in the area — a central, walkable plaza with restaurants clustered close together, which makes it an easy place for several carloads of friends to meet up for photos before splitting into one vehicle for the rest of the night. 92 Limo Service picks up there constantly every spring, and our job on prom night is simple: put one sober, professional chauffeur in charge of the group's schedule so parents are not relying on a seventeen-year-old's judgment to get everyone home safely.",
@@ -1472,7 +1472,7 @@ export const MARYLAND_BATCH8_PAGES = {
     ],
     vehicles: [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -1534,7 +1534,7 @@ export const MARYLAND_BATCH8_PAGES = {
     ],
     vehicles: [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -1596,7 +1596,7 @@ export const MARYLAND_BATCH8_PAGES = {
     ],
     vehicles: [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -1658,7 +1658,7 @@ export const MARYLAND_BATCH8_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -1721,7 +1721,7 @@ export const MARYLAND_BATCH8_PAGES = {
     vehicles: [
       "Business Sedan — Mercedes E-Class",
       "Midsize SUV — Lincoln Nautilus",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
     ],
     areas: [
       {
@@ -1763,7 +1763,7 @@ export const MARYLAND_BATCH8_PAGES = {
     h1: "Limo Service Near Arundel Mills Mall",
     subtitle: "Chauffeured sedans, SUVs and Sprinter vans for Arundel Mills shopping trips and group outings in Hanover, MD — combine a mall visit with a fast BWI transfer, flat-rate and 24/7.",
     image: "/images/site/suv.webp",
-    alt: "Chauffeured Cadillac Escalade serving Arundel Mills Mall in Hanover, MD — 92 Limo Service",
+    alt: "Chauffeured Lincoln Navigator serving Arundel Mills Mall in Hanover, MD — 92 Limo Service",
     highlightsHeading: "Why Shoppers and Groups Choose 92 Limo Service Near Arundel Mills",
     intro: [
       "Arundel Mills is one of the largest retail and entertainment complexes in Maryland, anchored by a huge outlet and retail mix in Hanover and sitting only about 10 minutes from BWI Marshall Airport. 92 Limo Service, based nearby in Laurel, provides chauffeured sedans, SUVs and Sprinter vans for shoppers, group outings and travelers who want to fit a stop at Arundel Mills around a flight rather than treat them as two separate trips requiring two separate rides.",
@@ -1782,7 +1782,7 @@ export const MARYLAND_BATCH8_PAGES = {
     ],
     vehicles: [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -1845,7 +1845,7 @@ export const MARYLAND_BATCH8_PAGES = {
     vehicles: [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
     ],
     areas: [
       {

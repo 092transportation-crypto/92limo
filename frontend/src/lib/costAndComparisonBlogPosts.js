@@ -11,7 +11,7 @@
 // concurrent session earlier today) was reviewed to avoid duplicating
 // existing coverage. Topics picked specifically because no existing post
 // covers them: a Lincoln Nautilus vs. Chevrolet Suburban vehicle comparison
-// (existing comparisons only cover Escalade vs. Suburban and 7 Series vs.
+// (existing comparisons only cover Navigator vs. Suburban and 7 Series vs.
 // E-Class), a first-ride "what to expect" walkthrough (distinct from the
 // existing booking how-to and airport-specific first-time-traveler posts),
 // chauffeur tipping etiquette (not covered anywhere on the site), whether
@@ -47,19 +47,19 @@ export const COST_AND_COMPARISON_BLOG_POSTS = [
       "Two SUVs, two different jobs. Here's how to tell whether the Midsize SUV or the full-size Suburban is the right call for your specific trip.",
     image: "/images/blog/fleet-escalade-1.webp",
     intro: [
-      "Most SUV comparisons on this site look at the top of the fleet — the Cadillac Escalade against the Chevrolet Suburban. Fewer people ask the more common question: when does the smaller, more efficient Lincoln Nautilus actually make more sense than stepping up to the full-size Suburban? The answer comes down to exactly two things — how many people are in your party, and how much luggage is coming with them.",
+      "Most SUV comparisons on this site look at the top of the fleet — the Lincoln Navigator against the Chevrolet Suburban. Fewer people ask the more common question: when does the smaller, more efficient Lincoln Nautilus actually make more sense than stepping up to the full-size Suburban? The answer comes down to exactly two things — how many people are in your party, and how much luggage is coming with them.",
     ],
     sections: [
       {
         heading: "Lincoln Nautilus: The Midsize SUV",
         paragraphs: [
-          "The Lincoln Nautilus seats 3 with full luggage, or up to 4 without bags, and carries 4 checked bags and 3 carry-ons. It's the right call for a small family or a pair of business travelers who want more room and a higher ride than a sedan without the size of a full-size SUV. It's also typically the more efficient choice when a Business or First Class Sedan is too tight on cargo space but a Suburban or Escalade would be more vehicle than the trip actually needs.",
+          "The Lincoln Nautilus seats 3 with full luggage, or up to 4 without bags, and carries 4 checked bags and 3 carry-ons. It's the right call for a small family or a pair of business travelers who want more room and a higher ride than a sedan without the size of a full-size SUV. It's also typically the more efficient choice when a Business or First Class Sedan is too tight on cargo space but a Suburban or Navigator would be more vehicle than the trip actually needs.",
         ],
       },
       {
         heading: "Chevrolet Suburban: The Luxury SUV",
         paragraphs: [
-          "The Suburban steps up meaningfully in every dimension — 5 passengers with full luggage, or up to 6 without bags, and 5 checked bags plus 5 carry-ons. It's the better choice for a family of five or six, a small group traveling together with a full set of luggage, or an extended business trip where everyone is checking a bag. The Suburban is also the vehicle of choice when a group specifically wants more interior space and a commanding presence without moving all the way up to the Cadillac Escalade.",
+          "The Suburban steps up meaningfully in every dimension — 5 passengers with full luggage, or up to 6 without bags, and 5 checked bags plus 5 carry-ons. It's the better choice for a family of five or six, a small group traveling together with a full set of luggage, or an extended business trip where everyone is checking a bag. The Suburban is also the vehicle of choice when a group specifically wants more interior space and a commanding presence without moving all the way up to the Lincoln Navigator.",
         ],
       },
       {
@@ -70,12 +70,12 @@ export const COST_AND_COMPARISON_BLOG_POSTS = [
         list: [
           "Lincoln Nautilus (Midsize SUV): 3 pax with luggage, 4 bags, 3 carry-ons — best for a couple or small family with moderate luggage",
           "Chevrolet Suburban (Luxury SUV): 5 pax with luggage, 5 bags, 5 carry-ons — best for a larger family or small group checking bags",
-          "Cadillac Escalade (Premium SUV) sits above both for parties wanting maximum space and a flagship presence",
+          "Lincoln Navigator (Premium SUV) sits above both for parties wanting maximum space and a flagship presence",
         ],
       },
     ],
     relatedLinks: [
-      { label: "Cadillac Escalade vs. Chevrolet Suburban: Which Premium SUV?", to: "/blog/cadillac-escalade-vs-chevrolet-suburban-which-premium-suv" },
+      { label: "Lincoln Navigator vs. Chevrolet Suburban: Which Premium SUV?", to: "/blog/lincoln-navigator-vs-chevrolet-suburban-which-premium-suv" },
       { label: "Sedan vs. SUV vs. Sprinter: Which Vehicle?", to: "/blog/sedan-vs-suv-vs-sprinter-which-vehicle" },
       { label: "Fleet Page", to: "/fleet" },
       { label: "Airport Car Service — BWI, DCA, IAD", to: "/airport-transportation" },
@@ -348,7 +348,7 @@ export const COST_AND_COMPARISON_BLOG_POSTS = [
       {
         heading: "SUVs: 3 to 6 Passengers",
         paragraphs: [
-          "The Midsize SUV (Lincoln Nautilus) carries 3 with luggage or 4 without, with 4 bags and 3 carry-ons. The Luxury SUV (Chevrolet Suburban) and Premium SUV (Cadillac Escalade) both step up to 5 passengers with luggage or 6 without, with 5 bags and 5 carry-ons each — the difference between the Suburban and Escalade is interior finish and presence rather than raw capacity.",
+          "The Midsize SUV (Lincoln Nautilus) carries 3 with luggage or 4 without, with 4 bags and 3 carry-ons. The Luxury SUV (Chevrolet Suburban) and Premium SUV (Lincoln Navigator) both step up to 5 passengers with luggage or 6 without, with 5 bags and 5 carry-ons each — the difference between the Suburban and Navigator is interior finish and presence rather than raw capacity.",
         ],
       },
       {
@@ -365,7 +365,7 @@ export const COST_AND_COMPARISON_BLOG_POSTS = [
         list: [
           "1-3 passengers, light luggage: Business Sedan or First Class Sedan",
           "3-4 passengers, moderate luggage: Midsize SUV (Lincoln Nautilus)",
-          "5-6 passengers, full luggage: Luxury SUV (Chevrolet Suburban) or Premium SUV (Cadillac Escalade)",
+          "5-6 passengers, full luggage: Luxury SUV (Chevrolet Suburban) or Premium SUV (Lincoln Navigator)",
           "Up to 13 passengers: Sprinter Shuttle or Sprinter Executive",
         ],
       },

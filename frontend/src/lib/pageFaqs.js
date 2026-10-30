@@ -22,7 +22,7 @@ export const PAGE_FAQS = {
   ],
   "/fleet": [
     { q: "How many passengers does each vehicle hold?", a: "Business and First Class Sedans seat up to 3 passengers, the Midsize SUV seats 3 with extra luggage room, Luxury and Premium SUVs seat up to 5, and Mercedes Sprinter vans seat up to 13." },
-    { q: "Which vehicle is best for airport trips with a lot of luggage?", a: "A Luxury or Premium SUV (Chevrolet Suburban or Cadillac Escalade) carries up to 5 passengers and about 5 bags. For larger parties, a Sprinter Shuttle or Sprinter Executive van carries up to 13 passengers with their luggage in one vehicle." },
+    { q: "Which vehicle is best for airport trips with a lot of luggage?", a: "A Luxury or Premium SUV (Chevrolet Suburban or Lincoln Navigator) carries up to 5 passengers and about 5 bags. For larger parties, a Sprinter Shuttle or Sprinter Executive van carries up to 13 passengers with their luggage in one vehicle." },
     { q: "Am I guaranteed the exact make and model shown?", a: "Reservations are made by vehicle class. The exact make and model may vary within that class, and if a vehicle becomes unavailable we provide a comparable or upgraded vehicle at no additional cost — never a smaller one without your agreement." },
     { q: "Are the vehicles owned by 92 Limo Service?", a: "Yes. The fleet is owned and maintained by 92 Transportation LLC, commercially insured, inspected daily and detailed before each ride." },
     { q: "Can I request a child car seat?", a: "Yes. Infant, convertible and booster seats are available on request for an add-on fee that is included in your quote. Tell us the child's age when you book." },

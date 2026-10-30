@@ -63,11 +63,11 @@ import { IMAGES } from "@/lib/data";
 const BATCH10_SEDAN_TRIO = [
   "Business Sedan — Mercedes E-Class",
   "First Class Sedan — BMW 7 Series",
-  "Premium SUV — Cadillac Escalade",
+  "Premium SUV — Lincoln Navigator",
 ];
 const BATCH10_GROUP_TRIO = [
   "Luxury SUV — Chevrolet Suburban",
-  "Premium SUV — Cadillac Escalade",
+  "Premium SUV — Lincoln Navigator",
   "Sprinter Executive — Mercedes Sprinter",
 ];
 const LOCAL_TRIO = [
@@ -76,7 +76,7 @@ const LOCAL_TRIO = [
   "Luxury SUV — Chevrolet Suburban",
 ];
 const CELEBRATION_TRIO = [
-  "Premium SUV — Cadillac Escalade",
+  "Premium SUV — Lincoln Navigator",
   "Sprinter Executive — Mercedes Sprinter",
   "First Class Sedan — BMW 7 Series",
 ];
@@ -117,7 +117,7 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
       {
         heading: "What's Included",
         paragraphs: [
-          "Every BWI–Dulles transfer includes real-time flight tracking on the BWI side, so an early or delayed inbound flight adjusts your pickup automatically at no charge, plus the standard complimentary wait time built into every arrival. Choose the Mercedes-Benz E-Class or BMW 7 Series for a solo business trip, or step up to a Cadillac Escalade or Sprinter van if you're traveling with a colleague, extra luggage, or equipment cases.",
+          "Every BWI–Dulles transfer includes real-time flight tracking on the BWI side, so an early or delayed inbound flight adjusts your pickup automatically at no charge, plus the standard complimentary wait time built into every arrival. Choose the Mercedes-Benz E-Class or BMW 7 Series for a solo business trip, or step up to a Lincoln Navigator or Sprinter van if you're traveling with a colleague, extra luggage, or equipment cases.",
         ],
       },
     ],
@@ -145,7 +145,7 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
   // Angle: Washington Dulles as the international-gateway / connecting-flight
   // airport — distinct from the business-commuter framing above.
   "bwi-to-washington-dulles": {
-    metaTitle: "BWI to Washington Dulles Airport Car Service | 92 Limo Service",
+    metaTitle: "BWI to Washington Dulles Airport Car Service | 92 Limo",
     metaDescription:
       "Chauffeured transfers from BWI to Washington Dulles (IAD) for international connections and long-haul departures. Flat rates, flight tracking, 24/7.",
     eyebrow: "BWI → WASHINGTON DULLES — INTERNATIONAL GATEWAY",
@@ -228,7 +228,7 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
       {
         heading: "Vehicles for Every Trip",
         paragraphs: [
-          "Choose the Mercedes-Benz E-Class or BMW 7 Series for solo and executive travel, the Cadillac Escalade or Chevrolet Suburban for families and VIP arrivals, or a Mercedes Sprinter van when a group needs to stay together along with checked luggage from a long-haul flight.",
+          "Choose the Mercedes-Benz E-Class or BMW 7 Series for solo and executive travel, the Lincoln Navigator or Chevrolet Suburban for families and VIP arrivals, or a Mercedes Sprinter van when a group needs to stay together along with checked luggage from a long-haul flight.",
         ],
       },
     ],
@@ -287,7 +287,7 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
       {
         heading: "One Vehicle for the Whole Family or Team",
         paragraphs: [
-          "A single Mercedes-Benz E-Class comfortably handles a solo traveler with carry-on luggage; a Cadillac Escalade or Chevrolet Suburban keeps a family and their checked bags together in one trip instead of two cars; and a Mercedes Sprinter van moves an entire team or wedding party to the airport with room to spare.",
+          "A single Mercedes-Benz E-Class comfortably handles a solo traveler with carry-on luggage; a Lincoln Navigator or Chevrolet Suburban keeps a family and their checked bags together in one trip instead of two cars; and a Mercedes Sprinter van moves an entire team or wedding party to the airport with room to spare.",
         ],
       },
     ],
@@ -317,16 +317,16 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
   "bwi-limo-service": {
     metaTitle: "BWI Limo Service | 92 Limo Service",
     metaDescription:
-      "BWI limo service with a luxury fleet of Escalades, BMWs and Sprinter vans. Flat rates, flight tracking, 24/7 chauffeurs for every BWI arrival & departure.",
+      "BWI limo service with a luxury fleet of Navigators, BMWs and Sprinter vans. Flat rates, flight tracking, 24/7 chauffeurs for every BWI arrival & departure.",
     eyebrow: "BWI MARSHALL AIRPORT — LUXURY FLEET",
     h1: "BWI Limo Service",
     subtitle:
-      "A genuine luxury fleet at BWI Marshall — Escalades, BMW 7 Series sedans, and Sprinter vans — chauffeured for arrivals, departures, and everything in between.",
+      "A genuine luxury fleet at BWI Marshall — Navigators, BMW 7 Series sedans, and Sprinter vans — chauffeured for arrivals, departures, and everything in between.",
     image: IMAGES.escaladeFront,
-    alt: "Cadillac Escalade limo-class SUV for BWI limo service",
+    alt: "Lincoln Navigator limo-class SUV for BWI limo service",
     highlightsHeading: "Why 'Limo Service' Still Means Something Here",
     intro: [
-      "The word 'limo' gets used loosely these days, but at 92 Limo Service it still describes the thing itself: a genuine luxury fleet — the Cadillac Escalade, the BMW 7 Series, the Mercedes Sprinter Executive with its upgraded interior and mood lighting — driven by a professional chauffeur, not whoever happened to accept the nearest ride request. BWI limo service with us means you're actually riding in a limo-class vehicle, not a generic sedan with a fancier name.",
+      "The word 'limo' gets used loosely these days, but at 92 Limo Service it still describes the thing itself: a genuine luxury fleet — the Lincoln Navigator, the BMW 7 Series, the Mercedes Sprinter Executive with its upgraded interior and mood lighting — driven by a professional chauffeur, not whoever happened to accept the nearest ride request. BWI limo service with us means you're actually riding in a limo-class vehicle, not a generic sedan with a fancier name.",
       "That distinction matters most for the trips where arrival matters as much as the destination: a milestone anniversary flight home, a quinceañera or sweet sixteen family arrival, a surprise homecoming, or simply a traveler who wants the airport leg of the trip to feel like the rest of it. Our chauffeurs handle luggage, open doors, and treat the ride itself as part of the occasion rather than a logistics problem to solve.",
       "Practically, it works exactly like our standard airport service: real-time flight tracking so an early or delayed arrival never costs you a ride, generous complimentary wait time, and optional meet-and-greet service (additional charge) if you want your chauffeur waiting inside with a name sign rather than at the curb. The difference is the vehicle and the standard it's held to — detailed before every trip, with water and chargers on board, and a chauffeur dressed and trained for the role.",
       "Every BWI limo trip is quoted as one flat, transparent rate confirmed before you book, covering the base transportation charge, with gratuity, tolls, parking and any other applicable charges disclosed up front. We run 24/7, so a red-eye arrival gets the same limo-class treatment as a midday pickup.",
@@ -335,7 +335,7 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
       {
         heading: "The Fleet, Specifically",
         paragraphs: [
-          "The Cadillac Escalade is our most-requested limo-class vehicle for airport arrivals — commanding presence, generous luggage room, and seating for up to five without crowding. The BMW 7 Series and Mercedes S-Class deliver the same standard for solo and couple travel. For larger groups, the Sprinter Executive brings true limo-bus energy — upgraded seating and lighting built for celebrations, not just transportation — while still handling an airport luggage load with ease.",
+          "The Lincoln Navigator is our most-requested limo-class vehicle for airport arrivals — commanding presence, generous luggage room, and seating for up to five without crowding. The BMW 7 Series and Mercedes S-Class deliver the same standard for solo and couple travel. For larger groups, the Sprinter Executive brings true limo-bus energy — upgraded seating and lighting built for celebrations, not just transportation — while still handling an airport luggage load with ease.",
         ],
       },
       {
@@ -346,7 +346,7 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
       },
     ],
     highlights: [
-      { title: "A Genuine Luxury Fleet", desc: "Cadillac Escalade, BMW 7 Series, Mercedes S-Class and Sprinter Executive — real limo-class vehicles, not a relabeled sedan." },
+      { title: "A Genuine Luxury Fleet", desc: "Lincoln Navigator, BMW 7 Series, Mercedes S-Class and Sprinter Executive — real limo-class vehicles, not a relabeled sedan." },
       { title: "Flight Tracking", desc: "We monitor your flight and adjust pickup automatically for early arrivals or delays." },
       { title: "Optional Meet & Greet", desc: "Your chauffeur can meet you inside with a name sign. Additional charge applies." },
       { title: "Detailed Before Every Ride", desc: "Every vehicle is cleaned and stocked with water ahead of your trip." },
@@ -355,7 +355,7 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
     ],
     vehicles: CELEBRATION_TRIO,
     faqs: [
-      { q: "Is this an actual limousine, not just a black sedan?", a: "Our fleet includes genuine limo-class vehicles — the Cadillac Escalade, BMW 7 Series, Mercedes S-Class, and Sprinter Executive with upgraded interior and lighting — matched to the trip and group size you need." },
+      { q: "Is this an actual limousine, not just a black sedan?", a: "Our fleet includes genuine limo-class vehicles — the Lincoln Navigator, BMW 7 Series, Mercedes S-Class, and Sprinter Executive with upgraded interior and lighting — matched to the trip and group size you need." },
       { q: "Can I request a specific vehicle for a special occasion?", a: "Yes — tell us the occasion when you book and we'll recommend and reserve the vehicle that fits, subject to availability." },
       { q: "Do you track flights for limo bookings the same as standard trips?", a: "Yes, every BWI limo booking includes real-time flight tracking and automatic pickup adjustment for delays." },
       { q: "How many passengers can the Sprinter Executive hold?", a: "Up to 14, with full luggage capacity, making it a popular choice for family groups and wedding parties arriving together." },
@@ -437,7 +437,7 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
     intro: [
       "The first few minutes after landing set the tone for everything that follows — and BWI airport limo service exists specifically to make those minutes effortless. Instead of scanning the arrivals curb for a stranger's car or hunting for a rideshare pin that keeps moving, you step off the plane knowing exactly how you'll be met and where you're headed next.",
       "92 Limo Service tracks your flight from takeoff, so landing early or late changes nothing about your pickup — it simply adjusts. Standard service meets you curbside with a clean, limo-class vehicle ready the moment you're outside. Optional meet-and-greet service (additional charge) puts your chauffeur inside the terminal at baggage claim with a personalized name sign, which matters most for first-time visitors, VIP arrivals, elderly travelers, or anyone who'd rather not navigate an unfamiliar airport alone after a long flight.",
-      "This isn't a generic sedan service relabeled for the occasion. Our BWI airport limo fleet includes the Cadillac Escalade, BMW 7 Series, and Mercedes S-Class — vehicles that photograph and feel the part for a homecoming, a VIP visit, or simply a traveler who wants the arrival to match the rest of the trip. Luggage is handled for you, the cabin is quiet and climate-controlled, and the drive to anywhere in Maryland, DC, or Northern Virginia is one continuous, unhurried ride.",
+      "This isn't a generic sedan service relabeled for the occasion. Our BWI airport limo fleet includes the Lincoln Navigator, BMW 7 Series, and Mercedes S-Class — vehicles that photograph and feel the part for a homecoming, a VIP visit, or simply a traveler who wants the arrival to match the rest of the trip. Luggage is handled for you, the cabin is quiet and climate-controlled, and the drive to anywhere in Maryland, DC, or Northern Virginia is one continuous, unhurried ride.",
       "Every arrival is quoted as a flat, transparent rate confirmed before you book — covering the base transportation charge, with gratuity, tolls, parking and any other applicable charges disclosed up front — and we run this service 24/7, because flights land at every hour of the day and night.",
     ],
     sections: [
@@ -457,7 +457,7 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
     highlights: [
       { title: "In-Terminal Meet & Greet", desc: "Your chauffeur waits at baggage claim with a name sign. Additional charge applies." },
       { title: "Real-Time Flight Tracking", desc: "Early or delayed landings adjust your pickup automatically, at no charge." },
-      { title: "Genuine Limo-Class Fleet", desc: "Cadillac Escalade, BMW 7 Series, and Mercedes S-Class for arrivals that match the occasion." },
+      { title: "Genuine Limo-Class Fleet", desc: "Lincoln Navigator, BMW 7 Series, and Mercedes S-Class for arrivals that match the occasion." },
       { title: "International-Arrival Aware", desc: "We account for customs and immigration time before staging your pickup." },
       { title: "Flat, Transparent Pricing", desc: "One price covering the base transportation charge, with gratuity, tolls, parking and any other applicable charges disclosed before confirmation." },
       { title: "24/7 Availability", desc: "Red-eye and early-morning arrivals get the same standard of service." },
@@ -466,7 +466,7 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
     faqs: [
       { q: "What's included in meet & greet service?", a: "Your chauffeur waits inside the terminal at baggage claim with a personalized name sign and assists with luggage. It's available for an additional charge; standard curbside pickup is included at no extra cost." },
       { q: "Do you adjust for early or delayed landings?", a: "Yes — we track your flight from takeoff and adjust the pickup automatically, at no extra charge for reasonable changes." },
-      { q: "Is this different from a standard sedan pickup?", a: "Our limo service fleet includes true limo-class vehicles — the Escalade, BMW 7 Series, and Mercedes S-Class — rather than a general-purpose sedan." },
+      { q: "Is this different from a standard sedan pickup?", a: "Our limo service fleet includes true limo-class vehicles — the Navigator, BMW 7 Series, and Mercedes S-Class — rather than a general-purpose sedan." },
       { q: "Can you handle an elderly relative traveling alone?", a: "Yes. Meet & greet is especially popular for elderly travelers and first-time visitors who'd rather not navigate the terminal unassisted." },
       { q: "How do you handle international arrivals?", a: "We account for the extra time customs and immigration clearance can add, and stage your vehicle for when you actually reach the curb, not the scheduled landing time." },
       { q: "Is the rate flat regardless of flight delays?", a: "Yes — one flat, transparent rate confirmed before you book, with no extra charge for reasonable delays." },
@@ -539,7 +539,7 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
   "columbia-limousine-service": {
     metaTitle: "Columbia Limousine Service | 92 Limo Service",
     metaDescription:
-      "Columbia, MD limousine service for weddings, proms, anniversaries & nights out. Escalades, Sprinter Executive vans & BMWs, flat rates, 24/7.",
+      "Columbia, MD limousine service for weddings, proms, anniversaries & nights out. Navigators, Sprinter Executive vans & BMWs, flat rates, 24/7.",
     eyebrow: "COLUMBIA, MD — SPECIAL OCCASIONS",
     h1: "Columbia Limousine Service",
     subtitle:
@@ -549,7 +549,7 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
     highlightsHeading: "When Columbia Celebrates, We're the Ride",
     intro: [
       "Some trips are about getting somewhere; others are part of the event itself. Columbia limousine service with 92 Limo Service covers the second kind — weddings at Belmont Manor or a Columbia-area venue, proms for Howard County high schools, milestone anniversaries, bachelorette and bachelor send-offs, and nights out around the Merriweather District that deserve a vehicle to match the occasion.",
-      "Our limousine-class fleet is built for exactly this: the Cadillac Escalade for a commanding, photo-ready arrival; the BMW 7 Series for an elegant couple's car; and the Mercedes Sprinter Executive, finished with upgraded seating and mood lighting, for a wedding party or prom group that wants limo-bus energy without sacrificing comfort or luggage room. Every vehicle arrives detailed, every chauffeur is professionally dressed, and every trip is treated as part of the event, not a logistics afterthought.",
+      "Our limousine-class fleet is built for exactly this: the Lincoln Navigator for a commanding, photo-ready arrival; the BMW 7 Series for an elegant couple's car; and the Mercedes Sprinter Executive, finished with upgraded seating and mood lighting, for a wedding party or prom group that wants limo-bus energy without sacrificing comfort or luggage room. Every vehicle arrives detailed, every chauffeur is professionally dressed, and every trip is treated as part of the event, not a logistics afterthought.",
       "Columbia's venues each have their own quirks worth knowing in advance — gravel or narrow lanes at some outdoor wedding sites, limited curb space near the Mall in Columbia and Lake Kittamaqundi during peak event season, and Merriweather Post Pavilion concert nights that can tie up Broken Land Parkway and Little Patuxent Parkway for an hour or more. Our chauffeurs plan around these specifics rather than treating Columbia like a generic suburb.",
       "Every limousine booking is quoted as a flat, transparent rate confirmed before you book — covering the base transportation charge, with gratuity, tolls, parking and any other applicable charges disclosed up front — so there's no surprise bill the week after a wedding or prom night.",
     ],
@@ -557,7 +557,7 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
       {
         heading: "Weddings, Specifically",
         paragraphs: [
-          "A typical Columbia wedding pairs an Escalade or S-Class for the couple with a Sprinter Executive for the wedding party, timed from getting-ready locations through photos and the ceremony. Book six to nine months ahead for peak season (May, June, September, October), since Sprinter availability competes with spring prom season for the same vehicles.",
+          "A typical Columbia wedding pairs an Navigator or S-Class for the couple with a Sprinter Executive for the wedding party, timed from getting-ready locations through photos and the ceremony. Book six to nine months ahead for peak season (May, June, September, October), since Sprinter availability competes with spring prom season for the same vehicles.",
         ],
       },
       {
@@ -568,7 +568,7 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
       },
     ],
     highlights: [
-      { title: "Limousine-Class Fleet", desc: "Cadillac Escalade, BMW 7 Series, and Mercedes Sprinter Executive with upgraded interior and lighting." },
+      { title: "Limousine-Class Fleet", desc: "Lincoln Navigator, BMW 7 Series, and Mercedes Sprinter Executive with upgraded interior and lighting." },
       { title: "Venue-Aware Chauffeurs", desc: "Local knowledge of Columbia's event venues, gravel lanes, and concert-night traffic." },
       { title: "Weddings & Proms", desc: "Coordinated timelines for wedding parties and supervised group transportation for prom night." },
       { title: "Flat, Transparent Pricing", desc: "One price covering the base transportation charge, with gratuity, tolls, parking and any other applicable charges disclosed before confirmation." },
@@ -592,7 +592,7 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
   // District corridor — kept distinct from the EXISTING general city page
   // "columbia-md-limo-service" (see header note).
   "limo-service-columbia-md": {
-    metaTitle: "Limo Service Columbia MD for Business Travel | 92 Limo Service",
+    metaTitle: "Limo Service Columbia MD for Business Travel | 92 Limo",
     metaDescription:
       "Corporate limo service for Columbia, MD's office parks and Merriweather District — flat rates, BWI transfers, consolidated billing. 24/7 chauffeurs.",
     eyebrow: "COLUMBIA, MD — CORPORATE TRAVEL",
@@ -834,7 +834,7 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
       {
         heading: "What 'Discreet' Actually Means Here",
         paragraphs: [
-          "No discussion of a passenger's identity, itinerary, or destinations with anyone outside the booking, a chauffeur who reads the room and drives in silence when that's what's wanted, and vehicle choices — tinted glass where appropriate, a Mercedes-Benz S-Class or Cadillac Escalade — that don't draw unnecessary attention.",
+          "No discussion of a passenger's identity, itinerary, or destinations with anyone outside the booking, a chauffeur who reads the room and drives in silence when that's what's wanted, and vehicle choices — tinted glass where appropriate, a Mercedes-Benz S-Class or Lincoln Navigator — that don't draw unnecessary attention.",
         ],
       },
       {
@@ -848,7 +848,7 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
       { title: "Confidentiality as Standard", desc: "Every rider's itinerary and conversations stay private — not a premium add-on." },
       { title: "As-Directed Hourly Service", desc: "A dedicated vehicle and chauffeur for the full block of time, moving on your schedule." },
       { title: "Executive & Delegation Experience", desc: "Chauffeurs accustomed to sensitive business and private itineraries." },
-      { title: "Discreet Vehicle Choices", desc: "The Mercedes-Benz S-Class and Cadillac Escalade, chosen without drawing attention." },
+      { title: "Discreet Vehicle Choices", desc: "The Mercedes-Benz S-Class and Lincoln Navigator, chosen without drawing attention." },
       { title: "Flat, Transparent Pricing", desc: "One price covering the base transportation charge, with gratuity, tolls, parking and any other applicable charges disclosed before confirmation." },
       { title: "24/7 Availability", desc: "Discreet travel at any hour, not just business hours." },
     ],
@@ -983,7 +983,7 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
   "limo-service-baltimore-to-dc": {
     metaTitle: "Limo Service Baltimore to DC | 92 Limo Service",
     metaDescription:
-      "Group limo service from Baltimore to Washington, DC for game days, nights out & events. Sprinter vans & Escalades, flat rates, 24/7 chauffeurs.",
+      "Group limo service from Baltimore to Washington, DC for game days, nights out & events. Sprinter vans & Navigators, flat rates, 24/7 chauffeurs.",
     eyebrow: "BALTIMORE → WASHINGTON DC — GROUPS & EVENTS",
     h1: "Limo Service Baltimore to DC",
     subtitle:
@@ -993,7 +993,7 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
     highlightsHeading: "Keep the Group Together, Both Ways",
     intro: [
       "Baltimore and DC share more than a highway — the two cities trade sports fans, concertgoers, wedding guests, and groups out for a night that starts in one city and ends in the other. Limo service between Baltimore and DC exists for exactly that: a single vehicle that keeps a group together for the whole round trip, instead of splitting into multiple cars, rideshares, or a designated driver stuck sober all night.",
-      "A Mercedes Sprinter Executive — with its upgraded seating and mood lighting — comfortably moves a group of up to 14 for a Ravens or Orioles fan trip into DC for a Commanders or Nationals game, a bachelorette or bachelor night bouncing between the two cities, or a wedding guest group making the trip between a Baltimore hotel block and a DC-area venue. A Cadillac Escalade handles a smaller party with the same limo-class comfort.",
+      "A Mercedes Sprinter Executive — with its upgraded seating and mood lighting — comfortably moves a group of up to 14 for a Ravens or Orioles fan trip into DC for a Commanders or Nationals game, a bachelorette or bachelor night bouncing between the two cities, or a wedding guest group making the trip between a Baltimore hotel block and a DC-area venue. A Lincoln Navigator handles a smaller party with the same limo-class comfort.",
       "This is a different trip than a solo business commute: the pickup and return times are built around an event schedule, not a meeting, and the vehicle itself is part of making the night feel like an occasion rather than a logistics problem. Your chauffeur handles the driving and the parking entirely, so the whole group can actually enjoy the game, the show, or the reception without anyone worrying about the drive home.",
       "Every group trip is quoted as a flat, transparent rate confirmed before you book — covering the base transportation charge, with gratuity, tolls, parking and any other applicable charges disclosed up front — so splitting the cost among a group is simple and the total is known well before the night starts.",
     ],
@@ -1012,7 +1012,7 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
       },
     ],
     highlights: [
-      { title: "Keeps the Whole Group Together", desc: "One Sprinter Executive or Escalade instead of multiple cars or rideshares." },
+      { title: "Keeps the Whole Group Together", desc: "One Sprinter Executive or Navigator instead of multiple cars or rideshares." },
       { title: "Built Around the Event Schedule", desc: "Pickup and return timed to a game, show, or reception, not a meeting." },
       { title: "No Designated Driver Needed", desc: "Your chauffeur handles the driving and parking for the whole trip." },
       { title: "Game-Day & Event Aware", desc: "Routes planned around stadium traffic in both cities." },
@@ -1023,13 +1023,13 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
     faqs: [
       { q: "How many people can the Sprinter hold for a group trip?", a: "Up to 14 passengers with full luggage or gear capacity, making it a popular choice for game-day groups and wedding parties." },
       { q: "Can you time pickup and return around a game or event?", a: "Yes — tell us the start time and we'll back-plan the pickup, and we can leave the return time open if the event might run late." },
-      { q: "Is this different from your standard Baltimore–DC car service?", a: "Yes — this route is built for groups and events, with limo-class vehicles like the Sprinter Executive and Escalade, rather than a single business traveler's sedan trip." },
+      { q: "Is this different from your standard Baltimore–DC car service?", a: "Yes — this route is built for groups and events, with limo-class vehicles like the Sprinter Executive and Navigator, rather than a single business traveler's sedan trip." },
       { q: "How does payment work for a group booking?", a: "The total fare is confirmed up front as one flat, transparent rate, making it simple for a group to split the cost in advance." },
       { q: "What's the cancellation policy for a Sprinter booking?", a: "Sprinter van and special-event bookings require 12 hours' notice for a free cancellation." },
       { q: "Do you serve both directions — Baltimore to DC and back?", a: "Yes, round-trip bookings with a single vehicle for the whole group are the most common way this route is booked." },
     ],
     ctaTitle: "Book Your Group Trip to DC",
-    ctaSubtitle: "Reserve a Sprinter or Escalade to keep your whole group together between Baltimore and DC.",
+    ctaSubtitle: "Reserve a Sprinter or Navigator to keep your whole group together between Baltimore and DC.",
   },
 
   // Angle: Bethesda, general/everyday local service, distinct from the
@@ -1156,7 +1156,7 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
     highlightsHeading: "Whatever the Occasion, the Same Standard",
     intro: [
       "'Car service' means a different thing depending on why you're booking it, and most companies only do one of those things well. 92 Limo Service runs Maryland car service across every occasion that actually comes up — airport transfers to BWI, DCA, and Dulles; corporate travel for executives and visiting teams; wedding and event transportation; and simple point-to-point rides for anyone who'd rather not drive and park themselves.",
-      "For airport travel, that means real-time flight tracking, generous complimentary wait time, and optional meet-and-greet service (additional charge) — the same standard whether you're flying out of BWI for a quick domestic hop or connecting internationally through Dulles. For corporate clients, it means consolidated monthly billing, priority dispatch, and chauffeurs who treat a meeting schedule as seriously as you do. For weddings and events, it means a limousine-class fleet — Cadillac Escalades, Mercedes Sprinter Executive vans — reserved well in advance and detailed before the big day.",
+      "For airport travel, that means real-time flight tracking, generous complimentary wait time, and optional meet-and-greet service (additional charge) — the same standard whether you're flying out of BWI for a quick domestic hop or connecting internationally through Dulles. For corporate clients, it means consolidated monthly billing, priority dispatch, and chauffeurs who treat a meeting schedule as seriously as you do. For weddings and events, it means a limousine-class fleet — Lincoln Navigators, Mercedes Sprinter Executive vans — reserved well in advance and detailed before the big day.",
       "What stays constant across every occasion is the pricing model: one flat, transparent rate confirmed before you book, covering the base transportation charge, with gratuity, tolls, parking and any other applicable charges disclosed up front. There's no separate 'wedding rate' that's harder to pin down than an airport rate, and no surge pricing that spikes because it happens to be a Saturday night.",
       "We operate 24/7 across the state, so whatever the occasion — a 4 a.m. flight, a 4 p.m. client pickup, or a wedding that runs past midnight — the same professional chauffeurs and late-model fleet are available.",
     ],
@@ -1164,7 +1164,7 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
       {
         heading: "Matching the Occasion to the Vehicle",
         paragraphs: [
-          "A Mercedes-Benz E-Class or BMW 7 Series handles solo business and airport travel. A Cadillac Escalade or Chevrolet Suburban fits families, VIP arrivals, and corporate groups. A Mercedes Sprinter Executive, with its upgraded interior and lighting, is built for weddings, proms, and group celebrations. We help you choose the right vehicle for the occasion rather than defaulting to one option for every trip.",
+          "A Mercedes-Benz E-Class or BMW 7 Series handles solo business and airport travel. A Lincoln Navigator or Chevrolet Suburban fits families, VIP arrivals, and corporate groups. A Mercedes Sprinter Executive, with its upgraded interior and lighting, is built for weddings, proms, and group celebrations. We help you choose the right vehicle for the occasion rather than defaulting to one option for every trip.",
         ],
       },
       {
@@ -1187,7 +1187,7 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
       { q: "Do you handle both airport transfers and special events?", a: "Yes — the same company, fleet, and flat-rate pricing standard covers airport transfers, corporate travel, weddings, and events across Maryland." },
       { q: "Is pricing different for weddings versus airport trips?", a: "No — every occasion is quoted as a flat, transparent rate confirmed before you book, covering the base transportation charge, with gratuity, tolls, parking and any other applicable charges disclosed up front." },
       { q: "Can my company set up an account for recurring travel?", a: "Yes, with consolidated monthly invoicing, a dedicated contact, and priority dispatch. Email info@92limo.com to start." },
-      { q: "What vehicle is best for a family versus a wedding party?", a: "A Cadillac Escalade or Chevrolet Suburban fits a family with luggage well; a Mercedes Sprinter Executive is built for wedding parties and larger celebrations." },
+      { q: "What vehicle is best for a family versus a wedding party?", a: "A Lincoln Navigator or Chevrolet Suburban fits a family with luggage well; a Mercedes Sprinter Executive is built for wedding parties and larger celebrations." },
       { q: "Do you serve all of Maryland, or just a few cities?", a: "All of Maryland — Baltimore, Columbia, Annapolis, Bethesda, Frederick, and the rest of the state." },
       { q: "Is this service available around the clock?", a: "Yes, 24/7, for any occasion at any hour." },
     ],
@@ -1254,16 +1254,16 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
   "baltimore-prom-limousine": {
     metaTitle: "Baltimore Prom Limousine | 92 Limo Service",
     metaDescription:
-      "Baltimore prom limousine service — Escalades & Sprinter Executive vans with mood lighting, flat rates, and parent-trusted supervised scheduling.",
+      "Baltimore prom limousine service — Navigators & Sprinter Executive vans with mood lighting, flat rates, and parent-trusted supervised scheduling.",
     eyebrow: "BALTIMORE, MD — PROM NIGHT",
     h1: "Baltimore Prom Limousine",
     subtitle:
-      "A genuine limousine experience for Baltimore prom night — Escalades and Sprinter Executive vans, flat rates, and a schedule parents can trust.",
+      "A genuine limousine experience for Baltimore prom night — Navigators and Sprinter Executive vans, flat rates, and a schedule parents can trust.",
     image: IMAGES.sprinterPink,
     alt: "Mercedes Sprinter Executive limousine interior for Baltimore prom night",
     highlightsHeading: "The Limousine Part of Prom Night",
     intro: [
-      "Prom night in Baltimore has a lot of moving pieces — photos at a group's chosen location, dinner reservations, the dance itself, and sometimes an after-party — but the limousine is the part that makes it feel like an occasion rather than a series of car rides. 92 Limo Service brings a genuine limousine-class fleet to Baltimore prom groups: the Cadillac Escalade for smaller groups, and the Mercedes Sprinter Executive, with its upgraded seating and mood lighting, for a full group that wants real limo-bus energy.",
+      "Prom night in Baltimore has a lot of moving pieces — photos at a group's chosen location, dinner reservations, the dance itself, and sometimes an after-party — but the limousine is the part that makes it feel like an occasion rather than a series of car rides. 92 Limo Service brings a genuine limousine-class fleet to Baltimore prom groups: the Lincoln Navigator for smaller groups, and the Mercedes Sprinter Executive, with its upgraded seating and mood lighting, for a full group that wants real limo-bus energy.",
       "This is the vehicle experience itself as part of the celebration — not just a ride between stops, but a space built for the group to take photos in, play music, and feel like the night has already started the moment the door opens. Our chauffeurs are trained to treat prom groups with the same professionalism as any other booking: on time, well-presented, and focused on getting the group where they need to be, safely and on schedule.",
       "Parents book Baltimore prom limousines specifically because of the supervision and reliability that comes with a professional chauffeur — no risk of an inexperienced teen driver managing a group on a night with a packed schedule, and a confirmed timeline that parents can actually track, from the photo location to dinner to the dance and back home.",
       "Every prom booking is quoted as a flat, transparent rate confirmed before you book — covering the base transportation charge, with gratuity, tolls, parking and any other applicable charges disclosed up front — so splitting the cost among a group of friends is simple, with no surprise add-ons after the fact.",
@@ -1283,7 +1283,7 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
       },
     ],
     highlights: [
-      { title: "Genuine Limousine Experience", desc: "Cadillac Escalade and Mercedes Sprinter Executive with upgraded seating and mood lighting." },
+      { title: "Genuine Limousine Experience", desc: "Lincoln Navigator and Mercedes Sprinter Executive with upgraded seating and mood lighting." },
       { title: "Parent-Trusted Supervision", desc: "A professional chauffeur manages the schedule and the driving — no inexperienced teen behind the wheel." },
       { title: "Full-Night Scheduling", desc: "Photos, dinner, the dance, and the ride home, all on one confirmed timeline." },
       { title: "Flat, Transparent Pricing", desc: "One price covering the base transportation charge, with gratuity, tolls, parking and any other applicable charges disclosed before confirmation — easy to split among the group." },
@@ -1311,7 +1311,7 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
   "maryland-wedding-limo-service": {
     metaTitle: "Maryland Wedding Limo Service | 92 Limo Service",
     metaDescription:
-      "Book wedding limo service in Maryland — Escalades, S-Class sedans & Sprinter Executive vans for the couple, wedding party & guest shuttles. 24/7.",
+      "Book wedding limo service in Maryland — Navigators, S-Class sedans & Sprinter Executive vans for the couple, wedding party & guest shuttles. 24/7.",
     eyebrow: "MARYLAND — WEDDING TRANSPORTATION",
     h1: "Wedding Limo Service in Maryland",
     subtitle:
@@ -1321,7 +1321,7 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
     highlightsHeading: "Book the Transportation, Not Just a Quote",
     intro: [
       "If you've already read up on how to choose a Maryland wedding transportation company, this is the page for actually booking it. 92 Limo Service provides wedding limo service across Maryland — from Eastern Shore estates and Baltimore ballrooms to Annapolis waterfront venues and Western Maryland vineyards — with a limousine-class fleet, vetted professional chauffeurs, and a flat, written quote before you commit.",
-      "Most Maryland weddings combine three layers of transportation, and we book each one with the same care: an elegant chauffeured car for the couple — a Mercedes-Benz S-Class or Cadillac Escalade photographs beautifully and handles a gown with the right amount of care; a Mercedes Sprinter Executive, finished with upgraded seating and mood lighting, to keep the wedding party together between getting-ready locations, photos, and the ceremony; and looped guest shuttles between host hotels and the venue when parking is limited or the property sits away from where guests are staying.",
+      "Most Maryland weddings combine three layers of transportation, and we book each one with the same care: an elegant chauffeured car for the couple — a Mercedes-Benz S-Class or Lincoln Navigator photographs beautifully and handles a gown with the right amount of care; a Mercedes Sprinter Executive, finished with upgraded seating and mood lighting, to keep the wedding party together between getting-ready locations, photos, and the ceremony; and looped guest shuttles between host hotels and the venue when parking is limited or the property sits away from where guests are staying.",
       "Maryland's venues each have quirks worth planning around in advance — gravel or narrow lanes at Eastern Shore estates that stretch limousines handle poorly, tight and permit-sensitive curbs at Baltimore's historic venues, waterfront properties in Annapolis that sometimes require shuttle-only guest arrival, and the general reality that peak Maryland wedding Saturdays (May, June, September, October) sell out the same Sprinter vans that spring prom season is also competing for. Our chauffeurs have driven these venues before and plan the day accordingly.",
       "Every wedding booking is quoted as a flat, written rate — vehicles, hours, fuel, tolls, gratuity policy, and overtime terms, all disclosed before you confirm — so there's nothing left to negotiate on the day itself. We recommend booking six to nine months ahead for peak-season Saturdays, and up to a year ahead for holiday weekends.",
     ],
@@ -1340,7 +1340,7 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
       },
     ],
     highlights: [
-      { title: "A Limousine-Class Fleet", desc: "Mercedes-Benz S-Class, Cadillac Escalade, and Sprinter Executive with upgraded seating and lighting." },
+      { title: "A Limousine-Class Fleet", desc: "Mercedes-Benz S-Class, Lincoln Navigator, and Sprinter Executive with upgraded seating and lighting." },
       { title: "Maryland Venue Experience", desc: "Chauffeurs who already know Eastern Shore gravel lanes, Baltimore's tight curbs, and Annapolis waterfront access." },
       { title: "Guest Shuttle Planning", desc: "Timed hotel-to-venue loops with staggered returns for larger guest lists." },
       { title: "Flat, Written Quotes", desc: "Vehicles, hours, fuel, tolls, gratuity, and overtime terms disclosed before you confirm — nothing negotiated on the day." },
@@ -1360,7 +1360,7 @@ export const SEMRUSH_KEYWORD_GAP_PAGES = {
     ],
     faqs: [
       { q: "How far in advance should we book Maryland wedding limo service?", a: "Six to nine months for peak-season Saturdays in May, June, September, and October — up to twelve months for holiday weekends, since Sprinter vans also compete with spring prom demand." },
-      { q: "What vehicles do most Maryland weddings book?", a: "A chauffeured Mercedes-Benz S-Class or Cadillac Escalade for the couple, a Sprinter Executive for the wedding party, and guest shuttles when hotels or parking sit away from the venue." },
+      { q: "What vehicles do most Maryland weddings book?", a: "A chauffeured Mercedes-Benz S-Class or Lincoln Navigator for the couple, a Sprinter Executive for the wedding party, and guest shuttles when hotels or parking sit away from the venue." },
       { q: "Do you know how to handle Eastern Shore or waterfront venues?", a: "Yes — our chauffeurs have experience with gravel-lane estates, Baltimore's permit-sensitive historic curbs, and Annapolis waterfront access restrictions, and plan the vehicle mix accordingly." },
       { q: "What does the quote actually include?", a: "A flat, written quote covering vehicles, hours, fuel, tolls, gratuity policy, and overtime terms — everything disclosed before you confirm, with nothing added on the day." },
       { q: "Can you provide guest shuttles for a large wedding?", a: "Yes — timed loops between host hotels and the venue, staggered at the end of the night so both early leavers and last dancers get home comfortably." },

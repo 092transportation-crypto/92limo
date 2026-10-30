@@ -38,7 +38,7 @@
 //   not pricing or the route pages, which already own cost and booking.
 // The other 15 posts cover genuinely new angles by neighborhood (Glen
 // Burnie/Linthicum, Canton/Fells Point, Chevy Chase/Bethesda, National
-// Harbor), vehicle type (Escalade vs. Suburban, 7 Series vs. E-Class,
+// Harbor), vehicle type (Navigator vs. Suburban, 7 Series vs. E-Class,
 // Sprinter group economics), trip purpose (data centers, faith-based
 // groups, international students, film/TV production), comparison (BWI
 // parking vs. car service, charter bus vs. Sprinter) and season (Memorial
@@ -663,41 +663,41 @@ export const BLOG_POSTS_BATCH11 = [
 
   // ---------------------------------------------------------- POST 11
   {
-    slug: "cadillac-escalade-vs-chevrolet-suburban-which-premium-suv",
-    title: "Cadillac Escalade vs. Chevrolet Suburban: Which Premium SUV Fits Your Trip?",
-    metaTitle: "Cadillac Escalade vs. Chevrolet Suburban for Car Service",
+    slug: "lincoln-navigator-vs-chevrolet-suburban-which-premium-suv",
+    title: "Lincoln Navigator vs. Chevrolet Suburban: Which Premium SUV Fits Your Trip?",
+    metaTitle: "Lincoln Navigator vs. Chevrolet Suburban for Car Service",
     metaDescription:
-      "Both are premium SUVs in a chauffeured fleet, but they fit different trips — here's the real difference between an Escalade and a Suburban booking.",
+      "Both are premium SUVs in a chauffeured fleet, but they fit different trips — here's the real difference between an Navigator and a Suburban booking.",
     category: "Vehicles",
     date: "2026-10-23",
     readTime: "5 min read",
     excerpt:
-      "Both the Escalade and the Suburban show up as \"premium SUV\" or \"luxury SUV\" options, but they're not interchangeable choices — here's what actually separates them.",
+      "Both the Navigator and the Suburban show up as \"premium SUV\" or \"luxury SUV\" options, but they're not interchangeable choices — here's what actually separates them.",
     image: "/images/blog/fleet-escalade-1.webp",
     intro: [
-      "When a fleet lists both a Cadillac Escalade and a Chevrolet Suburban as SUV options, it's natural to wonder what actually separates them beyond the badge. Both seat a similar number of passengers and both ride on a full-size SUV platform, but they're positioned for slightly different trips — one leans toward polish and presentation, the other toward space and practicality.",
+      "When a fleet lists both a Lincoln Navigator and a Chevrolet Suburban as SUV options, it's natural to wonder what actually separates them beyond the badge. Both seat a similar number of passengers and both ride on a full-size SUV platform, but they're positioned for slightly different trips — one leans toward polish and presentation, the other toward space and practicality.",
     ],
     sections: [
       {
-        heading: "Cadillac Escalade: The Premium Pick",
+        heading: "Lincoln Navigator: The Premium Pick",
         paragraphs: [
-          "The Escalade is typically positioned as the Premium SUV tier — a more upscale interior finish, a more recognizable luxury badge, and the choice most often requested for client pickups, weddings, and any trip where presentation matters as much as space. For an executive arrival, a wedding couple's vehicle, or a VIP airport pickup, the Escalade's polish is usually worth the modest premium over the Suburban.",
+          "The Navigator is typically positioned as the Premium SUV tier — a more upscale interior finish, a more recognizable luxury badge, and the choice most often requested for client pickups, weddings, and any trip where presentation matters as much as space. For an executive arrival, a wedding couple's vehicle, or a VIP airport pickup, the Navigator's polish is usually worth the modest premium over the Suburban.",
         ],
       },
       {
         heading: "Chevrolet Suburban: The Luxury SUV for Space and Practicality",
         paragraphs: [
-          "The Suburban is typically the Luxury SUV tier — slightly more cargo and passenger space in practical terms, and the better choice when the trip is about moving a family with significant luggage, a group with gear, or any booking where interior volume matters more than badge prestige. It's a genuinely comfortable, well-appointed vehicle; the difference from the Escalade is about positioning and finish level, not a meaningful gap in reliability or comfort.",
+          "The Suburban is typically the Luxury SUV tier — slightly more cargo and passenger space in practical terms, and the better choice when the trip is about moving a family with significant luggage, a group with gear, or any booking where interior volume matters more than badge prestige. It's a genuinely comfortable, well-appointed vehicle; the difference from the Navigator is about positioning and finish level, not a meaningful gap in reliability or comfort.",
         ],
       },
       {
         heading: "How to Actually Decide Between Them",
         paragraphs: [
-          "For an airport transfer with a family and several large bags, the Suburban's practical space advantage usually wins. For a client pickup, a wedding, or any trip where the vehicle itself is part of the impression you're making, the Escalade's presentation edge usually wins. For a straightforward business trip without an image consideration either way, either vehicle serves the trip well, and the choice comes down to availability and personal preference.",
+          "For an airport transfer with a family and several large bags, the Suburban's practical space advantage usually wins. For a client pickup, a wedding, or any trip where the vehicle itself is part of the impression you're making, the Navigator's presentation edge usually wins. For a straightforward business trip without an image consideration either way, either vehicle serves the trip well, and the choice comes down to availability and personal preference.",
           "Both vehicles typically seat up to 5 passengers comfortably with luggage, so the decision is rarely about raw capacity — it's about which of the two better fits the specific occasion.",
         ],
         list: [
-          "Escalade (Premium SUV): best for client pickups, weddings, VIP arrivals — presentation matters",
+          "Navigator (Premium SUV): best for client pickups, weddings, VIP arrivals — presentation matters",
           "Suburban (Luxury SUV): best for families, groups with gear, trips where cargo space matters most",
           "Both seat up to 5 passengers comfortably with luggage",
           "When in doubt, ask your reservation specialist which is available for your date and let the occasion guide the choice",
@@ -712,9 +712,9 @@ export const BLOG_POSTS_BATCH11 = [
       { label: "BMW 7 Series vs. Mercedes E-Class: Choosing Your Sedan", to: "/blog/bmw-7-series-vs-mercedes-e-class-choosing-your-sedan" },
     ],
     faqs: [
-      { q: "Is the Escalade better than the Suburban, or just different?", a: "Different, not strictly better — the Escalade leans toward presentation and polish, the Suburban toward practical cargo and passenger space. Both are well-appointed, comfortable SUVs." },
+      { q: "Is the Navigator better than the Suburban, or just different?", a: "Different, not strictly better — the Navigator leans toward presentation and polish, the Suburban toward practical cargo and passenger space. Both are well-appointed, comfortable SUVs." },
       { q: "Which one should I pick for an airport pickup with lots of luggage?", a: "The Suburban's practical space advantage usually makes it the better fit for a family or group with substantial luggage." },
-      { q: "Which one should I pick for a client pickup or wedding?", a: "The Escalade's more upscale finish and recognizable badge usually make it the preferred choice when presentation is part of the trip." },
+      { q: "Which one should I pick for a client pickup or wedding?", a: "The Navigator's more upscale finish and recognizable badge usually make it the preferred choice when presentation is part of the trip." },
       { q: "Do both vehicles seat the same number of passengers?", a: "Yes, typically up to 5 passengers comfortably with luggage — the difference between them is about finish and space allocation, not seating capacity." },
       { q: "Is one more expensive to book than the other?", a: "Pricing can vary slightly by vehicle and availability — call (877) 609-1919 or request a quote online to compare both for your specific trip." },
     ],
@@ -776,7 +776,7 @@ export const BLOG_POSTS_BATCH11 = [
       },
     ],
     relatedLinks: [
-      { label: "Cadillac Escalade vs. Chevrolet Suburban: Which Premium SUV?", to: "/blog/cadillac-escalade-vs-chevrolet-suburban-which-premium-suv" },
+      { label: "Lincoln Navigator vs. Chevrolet Suburban: Which Premium SUV?", to: "/blog/lincoln-navigator-vs-chevrolet-suburban-which-premium-suv" },
       { label: "Sedan vs. SUV vs. Sprinter: Which Vehicle?", to: "/blog/sedan-vs-suv-vs-sprinter-which-vehicle" },
       { label: "Corporate & Executive Car Service", to: "/corporate-transportation" },
       { label: "BMW 7 Series Chauffeur Service", to: "/bmw-7-series-chauffeur" },

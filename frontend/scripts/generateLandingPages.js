@@ -25,15 +25,15 @@ const metaDesc = (base) => {
 const SEDAN_TRIO = [
   "Business Sedan — Mercedes E-Class",
   "First Class Sedan — BMW 7 Series",
-  "Premium SUV — Cadillac Escalade",
+  "Premium SUV — Lincoln Navigator",
 ];
 const GROUP_TRIO = [
   "Luxury SUV — Chevrolet Suburban",
-  "Premium SUV — Cadillac Escalade",
+  "Premium SUV — Lincoln Navigator",
   "Sprinter Executive — Mercedes Sprinter",
 ];
 const CELEBRATION_TRIO = [
-  "Premium SUV — Cadillac Escalade",
+  "Premium SUV — Lincoln Navigator",
   "Sprinter Executive — Mercedes Sprinter",
   "First Class Sedan — BMW 7 Series",
 ];
@@ -225,7 +225,6 @@ const SERVICE_PAGES = [
 
 const VEHICLE_PAGES = [
   { slug: "mercedes-s-class-rental-maryland", kw: "Mercedes S-Class Rental Maryland", vehicle: "Mercedes-Benz S-Class", cls: "flagship luxury sedan", pax: "up to 3 passengers", best: "executive travel, weddings, and VIP airport transfers", img: "sClassNav", trio: SEDAN_TRIO },
-  { slug: "cadillac-escalade-limo", kw: "Cadillac Escalade Limo Service", vehicle: "Cadillac Escalade", cls: "premium full-size SUV", pax: "up to 6 passengers", best: "families, executives, and red-carpet arrivals", img: "escaladeFront", trio: GROUP_TRIO },
   { slug: "lincoln-navigator-limo", kw: "Lincoln Navigator Limo Service", vehicle: "Lincoln Navigator", cls: "American luxury SUV", pax: "up to 6 passengers", best: "airport transfers, proms, and group nights out", img: "suv", trio: GROUP_TRIO },
   { slug: "sprinter-van-rental-maryland", kw: "Sprinter Van Rental Maryland", vehicle: "Mercedes Sprinter", cls: "executive van", pax: "up to 14 passengers", best: "group airport runs, wine tours, and corporate shuttles", img: "sprinterGreen", trio: GROUP_TRIO },
   { slug: "party-bus-baltimore", kw: "Party Bus Baltimore", vehicle: "Sprinter Executive", cls: "limo-style party van", pax: "up to 12 passengers", best: "birthdays, bachelorette parties, and nights on the town", img: "sprinterPink", trio: CELEBRATION_TRIO },
@@ -285,7 +284,7 @@ function cityPage(c, i) {
       `Looking for a limo service in ${c.name}, ${c.st} you can set your watch by? 92 Limo Service provides chauffeured luxury transportation across ${c.vibe} — airport transfers, corporate travel, weddings, and nights out. Every ride comes with a professional chauffeur, a late-model luxury vehicle, and a flat rate quoted before you book.`,
       `Airport travel is our specialty. From ${c.name}, ${c.air === "BWI" ? `BWI Marshall is about ${c.mins} minutes away` : `we serve BWI, DCA, and Dulles — with ${c.air} often the most convenient`}, and our chauffeurs use ${c.roads} to keep your transfer smooth and predictable. We track your flight in real time, adjust for delays automatically, and include generous wait time on arrivals.`,
       `We know ${c.name} — from ${c.spots}. That local knowledge matters when a highway backs up or an event closes streets. Your chauffeur plans around it, so you arrive relaxed and on time.`,
-      `Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Cadillac Escalade or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority.`,
+      `Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Lincoln Navigator or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority.`,
     ],
     [
       `92 Limo Service is the chauffeured car and limo service ${c.name}, ${c.st} residents call when the trip has to go right. We serve ${c.vibe} with luxury sedans, SUVs, and Sprinter vans — available 24 hours a day, 365 days a year.`,
@@ -296,7 +295,7 @@ function cityPage(c, i) {
     [
       `From ${c.spots}, 92 Limo Service covers every corner of ${c.name}, ${c.st} with professional chauffeured transportation. Whether it is a ${c.mins <= 30 ? "quick" : "comfortable"} airport run, a business meeting, or a special evening, you get the same standard: on time, immaculate, and flat-rated.`,
       `Airport transfers from ${c.name} are door-to-door. ${c.air === "BWI" ? `BWI Marshall sits roughly ${c.miles} miles away — about ${c.mins} minutes via ${c.roads}` : `Depending on your terminal, we route via ${c.roads} to BWI, DCA, or Dulles`}. Your chauffeur tracks the flight, loads the luggage, and delivers you curbside with time to spare. Returns work the same way, with wait time built in for delays.`,
-      `Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Escalade or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.`,
+      `Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Navigator or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.`,
       `Booking takes minutes and every reservation is confirmed with a transparent quote. That is why ${c.name} clients keep our number saved: ${PHONE}, answered 24/7.`,
     ],
   ];
@@ -349,7 +348,7 @@ function areaPage(c, i) {
       `Searching for a dependable limo service in ${c.name}, ${c.st}? 92 Limo Service brings chauffeured luxury transportation to ${c.county} — covering ${c.hoods} — with airport transfers, corporate travel, weddings, and nights out all handled by the same professional team. Every trip is confirmed in advance with a flat, transparent quote and driven by a background-checked chauffeur in a late-model luxury vehicle.`,
       `Airport runs are where most ${c.name} clients meet us. ${airA}. Your chauffeur tracks the flight in real time, adjusts automatically for delays, loads every bag, and includes generous wait time on arrivals — so an early landing or a slow baggage carousel never becomes your problem.`,
       `Local knowledge is the difference between on time and almost on time. Our chauffeurs know ${c.spots}, and they plan around school traffic, event closures, and rush hour on ${c.roads} before you ever feel it. You get one number to call, one trusted team, and the same polished standard on every ride.`,
-      `Pick the vehicle that fits: a Mercedes E-Class or BMW 7 Series for executive travel, a Cadillac Escalade or Chevrolet Suburban for families and luggage, or a Mercedes Sprinter van that keeps up to 14 people together. Every vehicle arrives detailed and stocked with water — call ${PHONE} any hour to reserve.`,
+      `Pick the vehicle that fits: a Mercedes E-Class or BMW 7 Series for executive travel, a Lincoln Navigator or Chevrolet Suburban for families and luggage, or a Mercedes Sprinter van that keeps up to 14 people together. Every vehicle arrives detailed and stocked with water — call ${PHONE} any hour to reserve.`,
     ],
     [
       `92 Limo Service is the chauffeured car service ${c.name}, ${c.st} calls when showing up late is not an option. From ${c.hoods}, we cover all of ${c.county} with luxury sedans, SUVs, and Sprinter vans — 24 hours a day, every day of the year.`,
@@ -361,7 +360,7 @@ function areaPage(c, i) {
       `From ${c.spots}, 92 Limo Service covers ${c.name}, ${c.st} and the rest of ${c.county} with chauffeured transportation that treats your schedule as the contract. On time, immaculate, flat-rated — that is the standard on every trip, whether it is an airport run or a milestone celebration.`,
       `${airC} Your chauffeur plans the pickup around traffic and check-in windows, tracks return flights in real time, and builds in buffer so you are never cutting it close. Round-trip bookings lock in your ride home before you even take off.`,
       `Residents of ${c.hoods} use us for more than flights: corporate travel, weddings, prom nights, anniversaries, concerts, and safe rides home. One trusted chauffeur partner replaces the rideshare lottery — no cancellations, no surge pricing, no strangers behind the wheel.`,
-      `The fleet matches the occasion. Executives ride in the Mercedes E-Class and BMW 7 Series. Families and groups take the Escalade or Suburban. Wedding parties and group outings fill the Mercedes Sprinter — up to 14 seats, luggage and all. Reserve online or call ${PHONE}, answered 24/7.`,
+      `The fleet matches the occasion. Executives ride in the Mercedes E-Class and BMW 7 Series. Families and groups take the Navigator or Suburban. Wedding parties and group outings fill the Mercedes Sprinter — up to 14 seats, luggage and all. Reserve online or call ${PHONE}, answered 24/7.`,
     ],
     [
       `When ${c.name}, ${c.st} needs a car service that actually shows up early, it calls 92 Limo Service. We provide chauffeured luxury transportation across ${c.county} — ${c.hoods} included — with flat transparent pricing and a fleet of late-model Mercedes, BMW, Cadillac, and Sprinter vehicles.`,
@@ -402,7 +401,7 @@ function areaPage(c, i) {
           ? { q: `How long does it take to get from ${c.name} to BWI?`, a: `About ${c.mins} minutes for the ${c.miles}-mile run via ${c.roads}, depending on traffic. We build buffer time into every pickup and track your flight so departures and arrivals stay stress-free.` }
           : { q: `Which airports do you serve from ${c.name}?`, a: `All of them. Reagan National is about ${c.mins} minutes via ${c.roads}, and we run daily transfers to BWI Marshall and Dulles as well — every one flight-tracked with luggage help included.` },
         { q: `How much does limo service in ${c.name} cost?`, a: `Every trip is quoted as one flat, transparent rate before you book — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation, with no meters and no surge pricing. Call ${PHONE} for an exact quote for your date and vehicle.` },
-        { q: `What vehicles can I book in ${c.name}?`, a: `Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours.` },
+        { q: `What vehicles can I book in ${c.name}?`, a: `Mercedes E-Class and BMW 7 Series sedans for business travel, Lincoln Navigator and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours.` },
         { q: `Can I book a late-night or early-morning ride in ${c.name}?`, a: `Yes — we operate 24/7, every day of the year. Pre-dawn airport departures, red-eye arrivals, and late nights out all get the same on-time, chauffeured service. We recommend booking at least 24 hours ahead when you can.` },
       ],
       ctaTitle: `Book Your ${c.name} Limo Today`,
@@ -420,7 +419,7 @@ function airportPage(a, i) {
       `92 Limo Service provides premium ${noun} to and from ${a.airport}${cityLine} — 24 hours a day, 365 days a year. Your chauffeur tracks the flight, meets you at baggage claim or curbside, handles every bag, and drives a spotless luxury vehicle to your door. No shuttles, no shared vans, no surge pricing.`,
       `Arrivals are effortless. We monitor your inbound flight in real time, so an early landing or a two-hour delay changes nothing — your vehicle is staged when you walk out. Choose curbside pickup or an optional inside meet-and-greet with a name sign (additional charge), and enjoy generous complimentary wait time while you clear baggage claim.`,
       `Departures run just as smoothly. We calculate your pickup around traffic and check-in windows, build in buffer time, and get you to ${a.airport} relaxed rather than rushed. ${a.code === "BWI" ? "We serve every BWI terminal and the nearby hotels, park-and-rides, and Amtrak station." : a.code === "DCA" ? "We serve every DCA terminal, plus Crystal City and Pentagon City hotels." : "We serve every IAD terminal and the Dulles-corridor hotels and offices."}`,
-      `Ride your way: Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalades and Suburbans for families with luggage, and Mercedes Sprinter vans that keep groups of up to 14 together. Every trip is quoted as a flat, transparent rate before you book.`,
+      `Ride your way: Mercedes E-Class and BMW 7 Series sedans for business travel, Lincoln Navigators and Suburbans for families with luggage, and Mercedes Sprinter vans that keep groups of up to 14 together. Every trip is quoted as a flat, transparent rate before you book.`,
     ],
     [
       `When the flight matters, the ride to the airport should never be the weak link. 92 Limo Service delivers ${noun} at ${a.airport}${cityLine} with professional chauffeurs, late-model luxury vehicles, and flat transparent rates — trusted by business travelers, families, and frequent flyers across the DMV.`,
@@ -480,13 +479,13 @@ function servicePage(s, i) {
       [
         `92 Limo Service delivers ${s.noun} across ${s.region} that actually lives up to the occasion. From ${s.venues}, we cover ${s.occasions} with immaculate luxury vehicles, professional chauffeurs, and flat transparent pricing.`,
         `Every detail is planned in advance: pickup times that fit your schedule, routes that dodge traffic, and a chauffeur who arrives early and stays flexible. You will never watch a surge-price countdown or wonder if the driver will show.`,
-        `Groups are our strength. Our Cadillac Escalades and Suburbans carry up to six in comfort, and our Mercedes Sprinter vans keep parties of up to 14 together — no splitting the group across rideshares, no one left waiting.`,
+        `Groups are our strength. Our Lincoln Navigators and Suburbans carry up to six in comfort, and our Mercedes Sprinter vans keep parties of up to 14 together — no splitting the group across rideshares, no one left waiting.`,
         `Booking takes minutes: request a quote online or call ${PHONE}, approve a flat rate, and consider it handled. That is why ${s.region} clients use us again and again.`,
       ],
       [
         `Some rides are just transportation. ${s.kw.replace(/ (Maryland|Washington DC|Baltimore|MD|DC)$/,"")} from 92 Limo Service is part of the event. We provide chauffeured luxury vehicles for ${s.occasions} throughout ${s.region} — polished, punctual, and priced flat.`,
         `Tell us the plan and we build the transportation around it: multiple pickups, photo stops, venue timing, late-night returns. Your chauffeur coordinates with you by text, stays reachable all night, and adapts when the schedule moves.`,
-        `The fleet fits every version of the night. A BMW 7 Series or S-Class for an elegant arrival. An Escalade for the crew. A Sprinter for the whole party, with room to celebrate on the way. Every vehicle is detailed before pickup and stocked with water.`,
+        `The fleet fits every version of the night. A BMW 7 Series or S-Class for an elegant arrival. An Navigator for the crew. A Sprinter for the whole party, with room to celebrate on the way. Every vehicle is detailed before pickup and stocked with water.`,
         `We serve ${s.venues} and everywhere between. One flat quote covers the night — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call ${PHONE} or book online.`,
       ],
     ];
@@ -520,7 +519,7 @@ function servicePage(s, i) {
             ]
           : [
               { title: "Event Timing, Handled", desc: "Multiple pickups, photo stops, and venue schedules are planned in advance and adjusted on the fly." },
-              { title: "Group-Sized Vehicles", desc: "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers." },
+              { title: "Group-Sized Vehicles", desc: "Navigators, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers." },
             ]
       ),
       vehicles: s.trio,
@@ -595,7 +594,7 @@ function routePage(r, i) {
       `92 Limo Service provides private, chauffeured car service from ${r.from} to ${r.to} — ${r.miles} miles of door-to-door comfort, typically ${r.time} via ${r.roads}. One flat rate, quoted before you book, covers the base transportation charge for the entire trip — gratuity, tolls, parking, and any other applicable charges are disclosed before confirmation.`,
       `Your chauffeur arrives early, loads every bag, and plans the route in real time around traffic. Drop-off works at any address: ${r.dropoffs}. Reverse trips, round trips, and late-night departures are all available 24/7.`,
       `Compare the alternatives: rideshares surge and cancel on long runs, trains lock you to a schedule and a station, and driving yourself means traffic, tolls, and parking. A private chauffeured transfer costs a known flat amount and turns the drive into productive or restful time.`,
-      `Choose a Mercedes E-Class or BMW 7 Series for solo and business travel, an Escalade or Suburban for families and luggage, or a Sprinter van that keeps groups of up to 14 together. Call ${PHONE} or book online — every reservation is confirmed with a transparent quote.`,
+      `Choose a Mercedes E-Class or BMW 7 Series for solo and business travel, an Navigator or Suburban for families and luggage, or a Sprinter van that keeps groups of up to 14 together. Call ${PHONE} or book online — every reservation is confirmed with a transparent quote.`,
     ],
     [
       `Need a reliable ride from ${r.from} to ${r.to}? 92 Limo Service runs this route every week — about ${r.miles} miles in ${r.time} via ${r.roads} — with professional chauffeurs, luxury vehicles, and flat transparent pricing.`,

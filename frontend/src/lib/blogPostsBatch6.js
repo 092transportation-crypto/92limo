@@ -55,7 +55,7 @@ export const BLOG_POSTS_BATCH6 = [
       {
         heading: "The Vehicle Classes You'll Actually Choose Between",
         paragraphs: [
-          "A Maryland limo service fleet is typically organized by passenger count and presentation rather than by a single \"limo\" category. A Business Sedan (Mercedes E-Class or similar) suits one or two travelers with standard luggage. First Class Sedans and Premium SUVs — a BMW 7 Series, Mercedes S-Class, or Cadillac Escalade — step up the presentation for executive travel, dates, and small-group occasions. Larger SUVs like the Chevrolet Suburban handle families with more luggage. For groups, the Mercedes Sprinter comes in a shuttle configuration for straightforward group transport and an executive configuration for corporate days, with the Sprinter Executive adding a premium interior for prom and party occasions that call for stretch-limo presentation with modern van capacity.",
+          "A Maryland limo service fleet is typically organized by passenger count and presentation rather than by a single \"limo\" category. A Business Sedan (Mercedes E-Class or similar) suits one or two travelers with standard luggage. First Class Sedans and Premium SUVs — a BMW 7 Series, Mercedes S-Class, or Lincoln Navigator — step up the presentation for executive travel, dates, and small-group occasions. Larger SUVs like the Chevrolet Suburban handle families with more luggage. For groups, the Mercedes Sprinter comes in a shuttle configuration for straightforward group transport and an executive configuration for corporate days, with the Sprinter Executive adding a premium interior for prom and party occasions that call for stretch-limo presentation with modern van capacity.",
           "The right choice follows from your actual headcount and luggage, not from what looks most impressive in a photo. A company that asks about both before recommending a vehicle is doing it correctly.",
         ],
       },
@@ -197,7 +197,7 @@ export const BLOG_POSTS_BATCH6 = [
         heading: "5. Nights Out — Bachelor Parties, Birthdays, and Casino Trips",
         paragraphs: [
           "Nights out form their own distinct category: bachelor and bachelorette parties, milestone birthday celebrations, and casino trips to venues like Maryland Live!, almost all booked as multi-stop hourly service. The shared logic across all of them is the same — a group that's dressed up and likely drinking shouldn't have a driving decision to make, and splitting into several rideshares means someone inevitably gets left behind at a venue or arrives staggered from the rest of the group.",
-          "A Mercedes Sprinter keeps a group of eight or more together for the whole night; smaller groups often prefer the presentation of a Cadillac Escalade for arrival and photos. Either way, the vehicle stays with the group across dinner, a bar or two, and the ride home on one confirmed hourly rate.",
+          "A Mercedes Sprinter keeps a group of eight or more together for the whole night; smaller groups often prefer the presentation of a Lincoln Navigator for arrival and photos. Either way, the vehicle stays with the group across dinner, a bar or two, and the ride home on one confirmed hourly rate.",
         ],
       },
       {

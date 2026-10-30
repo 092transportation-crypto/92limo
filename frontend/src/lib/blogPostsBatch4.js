@@ -48,7 +48,7 @@ export const BLOG_POSTS_BATCH4 = [
         paragraphs: [
           "Business and First Class Sedans (Mercedes E-Class, BMW 7 Series, Mercedes S-Class) cover one or two passengers with a polished, professional presentation — the default for airport transfers and business trips.",
           "Midsize and Luxury SUVs (Lincoln Nautilus, Chevrolet Suburban) add capacity for a small group or extra luggage without losing the professional feel — a common choice for families and small wedding parties.",
-          "The Premium SUV tier (Cadillac Escalade) adds presence for occasions where the vehicle itself is part of the impression — VIP arrivals, milestone celebrations, executive client pickups.",
+          "The Premium SUV tier (Lincoln Navigator) adds presence for occasions where the vehicle itself is part of the impression — VIP arrivals, milestone celebrations, executive client pickups.",
           "Sprinter Vans cover larger groups — 8 to 14+ passengers — in one vehicle, which matters for weddings, corporate outings, and any trip where splitting the group across multiple cars would complicate logistics.",
         ],
       },

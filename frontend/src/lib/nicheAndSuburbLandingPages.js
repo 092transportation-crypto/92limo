@@ -67,7 +67,7 @@ export const NICHE_AND_SUBURB_LANDING_PAGES = {
       "Washington College families are among our most frequent Chestertown clients — move-in weekends, parents' weekend, commencement, and the steady flow of flights in and out of BWI for students and visiting faculty. We track every flight in real time, so a delayed connection never turns into a missed pickup on either end of the drive.",
       "Eastern Shore weddings are the other steady draw. Chestertown's waterfront venues, historic inns, and riverfront estates book chauffeured transportation for the couple and bridal party well in advance of peak spring and fall weekends, and we plan the drive time across the bridge into the quoted schedule rather than leaving it as a surprise.",
       "Every booking is planned around your exact pickup address, whether that's a Chestertown home, a Washington College dormitory, or a riverfront venue, with the itinerary confirmed the day before and dispatch reachable around the clock.",
-      "Choose a Business Sedan (Mercedes E-Class) for a standard airport run, a Premium SUV (Cadillac Escalade) for a family with luggage, or a Sprinter Executive van for a wedding party or group of college families traveling together.",
+      "Choose a Business Sedan (Mercedes E-Class) for a standard airport run, a Premium SUV (Lincoln Navigator) for a family with luggage, or a Sprinter Executive van for a wedding party or group of college families traveling together.",
     ],
     highlights: [
       { title: "Bay Bridge Route Experts", desc: "We plan the US-301/US-50 crossing into every quoted time, so Chestertown trips never run on guesswork." },
@@ -79,7 +79,7 @@ export const NICHE_AND_SUBURB_LANDING_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -128,7 +128,7 @@ export const NICHE_AND_SUBURB_LANDING_PAGES = {
       "Airport transfers are the most common booking out of Solomons and the rest of Calvert County — BWI and DCA are both realistic options depending on your flight, and we track every arrival in real time so a delay never costs you a ride on either end of the drive.",
       "Waterfront weddings and rehearsal dinners along the Solomons harbor and the Patuxent River are a steady seasonal draw, and we plan the full day around your ceremony and reception addresses, including the drive time from Prince Frederick, Dunkirk, and the rest of Calvert County.",
       "Each booking is planned around your exact pickup address, confirmed the day before, with dispatch reachable around the clock for a schedule change or early flight.",
-      "Choose a Business Sedan (Mercedes E-Class) for a standard airport run, a Premium SUV (Cadillac Escalade) for a family with luggage, or a Sprinter Executive van for a wedding party or group outing on the water.",
+      "Choose a Business Sedan (Mercedes E-Class) for a standard airport run, a Premium SUV (Lincoln Navigator) for a family with luggage, or a Sprinter Executive van for a wedding party or group outing on the water.",
     ],
     highlights: [
       { title: "Southern Maryland Coverage", desc: "Solomons, Prince Frederick, Dunkirk and the rest of Calvert County, covered regularly." },
@@ -140,7 +140,7 @@ export const NICHE_AND_SUBURB_LANDING_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -189,7 +189,7 @@ export const NICHE_AND_SUBURB_LANDING_PAGES = {
       "Accokeek's location makes it genuinely convenient for all three major airports — DCA is the closest, with BWI and IAD both realistic alternatives depending on your flight — and we track every arrival in real time so a delay never costs you a ride.",
       "National Harbor's hotels, restaurants and the MGM casino are a short, direct drive from Accokeek, making it a popular pickup point for evenings out, conventions, and waterfront events without the Beltway traffic a downtown DC starting point adds.",
       "Each booking is planned around your exact pickup address, confirmed the day before, with dispatch reachable around the clock for an early flight or a last-minute schedule change.",
-      "Choose a Business Sedan (Mercedes E-Class) for a standard airport run, a Premium SUV (Cadillac Escalade) for a family with luggage, or a Sprinter Executive van for a group heading to National Harbor or a family event.",
+      "Choose a Business Sedan (Mercedes E-Class) for a standard airport run, a Premium SUV (Lincoln Navigator) for a family with luggage, or a Sprinter Executive van for a group heading to National Harbor or a family event.",
     ],
     highlights: [
       { title: "Close to DCA", desc: "One of the shorter DCA drives in southern Prince George's County, with BWI and IAD also realistic options." },
@@ -201,7 +201,7 @@ export const NICHE_AND_SUBURB_LANDING_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -250,7 +250,7 @@ export const NICHE_AND_SUBURB_LANDING_PAGES = {
       "The close-in location makes District Heights one of the quicker DC drives in the county, and a convenient staging point for downtown meetings, Capitol Hill visits, and nights out without the longer drive times suburban Maryland pickups carry.",
       "Airport transfers run to all three regional airports — DCA is the closest, with BWI and IAD both realistic depending on your flight — and we track every arrival in real time so a delay on either end never leaves you stranded.",
       "Each booking is planned around your exact pickup address, confirmed the day before, with dispatch reachable around the clock for an early flight or a change of plans.",
-      "Choose a Business Sedan (Mercedes E-Class) for a standard trip into DC, a Premium SUV (Cadillac Escalade) for a family with luggage, or a Sprinter Executive van for a group event or corporate outing.",
+      "Choose a Business Sedan (Mercedes E-Class) for a standard trip into DC, a Premium SUV (Lincoln Navigator) for a family with luggage, or a Sprinter Executive van for a group event or corporate outing.",
     ],
     highlights: [
       { title: "Minutes From the DC Line", desc: "One of the shorter downtown DC drives in Prince George's County." },
@@ -262,7 +262,7 @@ export const NICHE_AND_SUBURB_LANDING_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -385,7 +385,7 @@ export const NICHE_AND_SUBURB_LANDING_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -446,7 +446,7 @@ export const NICHE_AND_SUBURB_LANDING_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -506,7 +506,7 @@ export const NICHE_AND_SUBURB_LANDING_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -566,7 +566,7 @@ export const NICHE_AND_SUBURB_LANDING_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -922,7 +922,7 @@ export const NICHE_AND_SUBURB_LANDING_PAGES = {
       "McLean is one of the shorter, more direct drives from Washington Dulles International Airport, typically 20 to 25 minutes via the Dulles Access Road and Route 123 outside of peak traffic, which makes it a route we run constantly for McLean's business executives, diplomatic community, and families with international arrivals.",
       "Every IAD to McLean transfer includes real-time flight tracking, so an early landing or a long delay never costs you a ride — your pickup adjusts automatically at no charge, with 60 minutes of complimentary wait time on international arrivals and 45 on domestic.",
       "McLean's concentration of corporate headquarters, embassies, and diplomatic residences means discretion and punctuality matter as much as the drive itself, and our chauffeurs are trained to handle both routine airport runs and more sensitive executive and diplomatic travel with the same professionalism.",
-      "Choose a First Class Sedan (BMW 7 Series) for an executive arrival, a Premium SUV (Cadillac Escalade) for a family with luggage, or a Sprinter Executive van if your group is traveling together.",
+      "Choose a First Class Sedan (BMW 7 Series) for an executive arrival, a Premium SUV (Lincoln Navigator) for a family with luggage, or a Sprinter Executive van if your group is traveling together.",
       "Every trip is quoted as one flat, transparent price before you book — call (877) 609-1919 or reserve online, any hour of the day.",
     ],
     highlights: [
@@ -935,7 +935,7 @@ export const NICHE_AND_SUBURB_LANDING_PAGES = {
     ],
     vehicles: [
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -982,7 +982,7 @@ export const NICHE_AND_SUBURB_LANDING_PAGES = {
       "Vienna sits a short, direct drive from Washington Dulles International Airport via the Dulles Access Road and Route 123, typically 20 to 30 minutes outside of peak traffic, making it one of the more convenient Fairfax County communities to reach straight from the terminal.",
       "Every IAD to Vienna transfer includes real-time flight tracking, so an early landing or a long delay never costs you a ride — your pickup adjusts automatically at no charge, with generous complimentary wait time built into every arrival.",
       "Vienna's mix of corporate headquarters, Metro-connected commuters, and family neighborhoods near the W&OD Trail means our bookings here range from executive airport runs to family arrivals with a full set of luggage.",
-      "Choose a Business Sedan (Mercedes E-Class) for a standard airport run, a Premium SUV (Cadillac Escalade) for a family with luggage, or a Sprinter Executive van if your group is traveling together.",
+      "Choose a Business Sedan (Mercedes E-Class) for a standard airport run, a Premium SUV (Lincoln Navigator) for a family with luggage, or a Sprinter Executive van if your group is traveling together.",
       "Every trip is quoted as one flat, transparent price before you book — call (877) 609-1919 or reserve online, any hour of the day.",
     ],
     highlights: [
@@ -995,7 +995,7 @@ export const NICHE_AND_SUBURB_LANDING_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -1102,7 +1102,7 @@ export const NICHE_AND_SUBURB_LANDING_PAGES = {
       "Alexandria sits roughly 35 to 45 minutes from Washington Dulles International Airport depending on traffic through the Beltway, a longer drive than some of our other IAD routes but one we run constantly for travelers headed to Old Town's hotels, restaurants, and historic waterfront.",
       "Every IAD to Alexandria transfer includes real-time flight tracking, so an early landing or a long delay never costs you a ride — your pickup adjusts automatically at no charge, with generous complimentary wait time built into every arrival.",
       "Old Town Alexandria's narrow, cobblestone side streets and limited parking make a professional chauffeur who already knows the drop-off logistics genuinely useful, particularly for hotel arrivals near King Street and the waterfront.",
-      "Choose a Business Sedan (Mercedes E-Class) for a standard airport run, a Premium SUV (Cadillac Escalade) for a family with luggage, or a Sprinter Executive van if your group is traveling together.",
+      "Choose a Business Sedan (Mercedes E-Class) for a standard airport run, a Premium SUV (Lincoln Navigator) for a family with luggage, or a Sprinter Executive van if your group is traveling together.",
       "Every trip is quoted as one flat, transparent price before you book — call (877) 609-1919 or reserve online, any hour of the day.",
     ],
     highlights: [
@@ -1115,7 +1115,7 @@ export const NICHE_AND_SUBURB_LANDING_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -1162,7 +1162,7 @@ export const NICHE_AND_SUBURB_LANDING_PAGES = {
       "Annapolis sits roughly 35 to 45 minutes from Reagan National Airport via Route 50, a drive we run constantly for Naval Academy families, state government visitors, and travelers heading to Annapolis's downtown waterfront hotels and marinas.",
       "Every DCA to Annapolis transfer includes real-time flight tracking, so an early landing or a long delay never costs you a ride — your pickup adjusts automatically at no charge, with generous complimentary wait time built into every arrival.",
       "US Naval Academy events — commissioning week, parents' weekend, and home football games — bring a predictable wave of DCA arrivals, and our chauffeurs plan around the Academy's road closures and gate logistics rather than guessing at drop-off.",
-      "Choose a Business Sedan (Mercedes E-Class) for a standard airport run, a Premium SUV (Cadillac Escalade) for a family with luggage, or a Sprinter Executive van for a group traveling together to a wedding or event.",
+      "Choose a Business Sedan (Mercedes E-Class) for a standard airport run, a Premium SUV (Lincoln Navigator) for a family with luggage, or a Sprinter Executive van for a group traveling together to a wedding or event.",
       "Every trip is quoted as one flat, transparent price before you book — call (877) 609-1919 or reserve online, any hour of the day.",
     ],
     highlights: [
@@ -1175,7 +1175,7 @@ export const NICHE_AND_SUBURB_LANDING_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -1222,7 +1222,7 @@ export const NICHE_AND_SUBURB_LANDING_PAGES = {
       "Potomac sits roughly 30 to 40 minutes from Reagan National Airport, typically via the Clara Barton Parkway or the Beltway depending on traffic, a route we run regularly for one of Montgomery County's larger-lot, higher-end residential communities.",
       "Every DCA to Potomac transfer includes real-time flight tracking, so an early landing or a long delay never costs you a ride — your pickup adjusts automatically at no charge, with generous complimentary wait time built into every arrival.",
       "Potomac's mix of corporate executives, embassy-adjacent households, and families hosting weddings or large events at home means our bookings here range from a single discreet sedan pickup to a Sprinter van bringing in guests for a private event.",
-      "Choose a First Class Sedan (BMW 7 Series) for an executive arrival, a Premium SUV (Cadillac Escalade) for a family with luggage, or a Sprinter Executive van for a group traveling together.",
+      "Choose a First Class Sedan (BMW 7 Series) for an executive arrival, a Premium SUV (Lincoln Navigator) for a family with luggage, or a Sprinter Executive van for a group traveling together.",
       "Every trip is quoted as one flat, transparent price before you book — call (877) 609-1919 or reserve online, any hour of the day.",
     ],
     highlights: [
@@ -1235,7 +1235,7 @@ export const NICHE_AND_SUBURB_LANDING_PAGES = {
     ],
     vehicles: [
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -1360,7 +1360,7 @@ export const NICHE_AND_SUBURB_LANDING_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -1466,7 +1466,7 @@ export const NICHE_AND_SUBURB_LANDING_PAGES = {
     ],
     vehicles: [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -1519,7 +1519,7 @@ export const NICHE_AND_SUBURB_LANDING_PAGES = {
     ],
     vehicles: [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -1572,7 +1572,7 @@ export const NICHE_AND_SUBURB_LANDING_PAGES = {
     ],
     vehicles: [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -1790,7 +1790,7 @@ export const NICHE_AND_SUBURB_LANDING_PAGES = {
       { title: "Flat, Transparent Pricing", desc: "Quoted before you book, with every charge disclosed before confirmation." },
     ],
     vehicles: [
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Business Sedan — Mercedes E-Class",
       "Sprinter Executive — Mercedes Sprinter",
     ],

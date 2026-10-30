@@ -31,7 +31,7 @@ export const MARYLAND_BATCH7_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -74,7 +74,7 @@ export const MARYLAND_BATCH7_PAGES = {
     h1: "Limo & Car Service in Mitchellville, MD",
     subtitle: "Chauffeured transportation for Mitchellville's Woodmore and Lake Arbor communities — airport transfers, weddings, corporate travel and nights out, flat-rate and flight-tracked.",
     image: "/images/site/wedding.webp",
-    alt: "Chauffeured Cadillac Escalade serving Mitchellville, MD — 92 Limo Service",
+    alt: "Chauffeured Lincoln Navigator serving Mitchellville, MD — 92 Limo Service",
     highlightsHeading: "Why Mitchellville Books 92 Limo Service",
     intro: [
       "Mitchellville is one of Prince George's County's more affluent, golf-course communities, built around Woodmore, Lake Arbor and the US-50/MD-197 corridor just east of Bowie. 92 Limo Service, based nearby in Laurel, runs chauffeured sedans, SUVs and Sprinter vans through Mitchellville regularly for airport transfers, corporate travel, weddings and evenings out, with every trip quoted as a flat rate before you ride.",
@@ -93,7 +93,7 @@ export const MARYLAND_BATCH7_PAGES = {
     ],
     vehicles: [
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -142,7 +142,7 @@ export const MARYLAND_BATCH7_PAGES = {
       "Oxon Hill overlooks the Potomac from the Maryland side of the Woodrow Wilson Bridge, and it is the town that hosts National Harbor, MGM National Harbor, the Gaylord National Resort and Tanger Outlets — a mix of conventions, casino nights, concerts and waterfront tourism that runs seven days a week. 92 Limo Service is based in Laurel and licensed as Maryland PSC Carrier #6325, and we drive the Oxon Hill and National Harbor corridor constantly, for both residents and visitors.",
       "Reagan National is the closest airport by far, typically 15 to 20 minutes via I-295 and the Beltway across the Wilson Bridge or through the District, which makes Oxon Hill one of the fastest DCA transfers we offer anywhere in Prince George's County. BWI runs a longer 40 to 45 minutes via the Beltway and the BW Parkway, and Dulles is reached in roughly 45 to 55 minutes around the Virginia side of the Beltway. Every airport pickup is flight-tracked, with waiting time built into the fare.",
       "Gaylord National's convention calendar and MGM National Harbor's concerts, boxing cards and casino floor generate a steady run of staged pickups — we drop guests at the entrance before an event and stage the vehicle away from the garage queue so you are not fighting the same exit everyone else takes when the show lets out. Groups heading to ICE! during the holidays or to the Capital Wheel and Tanger Outlets on a weekend get the same treatment in a Sprinter or Suburban.",
-      "Oxon Hill's residential side, including Fort Foote and the neighborhoods along Livingston Road, sends us a regular mix of corporate commuters heading into the District and families celebrating weddings, proms and milestone birthdays at waterfront venues. A Sprinter Executive keeps a wedding party or a family reunion together for the whole evening, while a sedan or Escalade handles a smaller group in comfort.",
+      "Oxon Hill's residential side, including Fort Foote and the neighborhoods along Livingston Road, sends us a regular mix of corporate commuters heading into the District and families celebrating weddings, proms and milestone birthdays at waterfront venues. A Sprinter Executive keeps a wedding party or a family reunion together for the whole evening, while a sedan or Navigator handles a smaller group in comfort.",
       "Every fare is confirmed before you ride and covers the base transportation charge, with gratuity, tolls, parking and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or book online for pickup anywhere in Oxon Hill or at National Harbor.",
     ],
     highlights: [
@@ -217,7 +217,7 @@ export const MARYLAND_BATCH7_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -465,7 +465,7 @@ export const MARYLAND_BATCH7_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -713,7 +713,7 @@ export const MARYLAND_BATCH7_PAGES = {
     ],
     vehicles: [
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -899,7 +899,7 @@ export const MARYLAND_BATCH7_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [

@@ -6,7 +6,7 @@ import { pageSchema } from "@/lib/pageSchema";
 
 const TITLE = "Luxury Fleet | Sedans, SUVs & Sprinter Vans | 92 Limo";
 const DESCRIPTION =
-  "Explore the 92 Limo Service fleet: Mercedes E-Class, BMW 7 Series, Lincoln Nautilus, Chevrolet Suburban, Cadillac Escalade, Sprinter vans & limousines.";
+  "Explore the 92 Limo Service fleet: Mercedes E-Class, BMW 7 Series, Lincoln Nautilus, Chevrolet Suburban, Lincoln Navigator, Sprinter vans & limousines.";
 const SCHEMA = pageSchema("WebPage", "/fleet", TITLE, DESCRIPTION);
 
 export default function FleetPage() {
@@ -18,7 +18,7 @@ export default function FleetPage() {
         title="A Luxury Vehicle for Every Journey"
         subtitle="From discreet executive sedans to spacious Sprinter vans and limousines — every vehicle is late-model, immaculately detailed, and chauffeur-driven."
         image="/fleet/cadillac-escalade.webp"
-        alt="Black Cadillac Escalade premium SUV in the 92 Limo Service fleet"
+        alt="Black Lincoln Navigator premium SUV in the 92 Limo Service fleet"
       />
       <Fleet
         eyebrow="THE FLEET"

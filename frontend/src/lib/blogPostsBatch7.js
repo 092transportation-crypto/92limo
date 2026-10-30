@@ -169,8 +169,8 @@ export const BLOG_POSTS_BATCH7 = [
       {
         heading: "Booking a Rockville or North Bethesda Evening Out",
         paragraphs: [
-          "Booking is straightforward: confirm your pickup address, destination, group size, and whether you want a fixed return time or open-ended hourly coverage, and a dispatcher quotes a flat rate before you confirm. A sedan or Premium SUV comfortably covers a couple or small group; a Cadillac Escalade or Mercedes Sprinter suits a larger party headed to Pike & Rose for a birthday or celebration. Weekend evenings in this corridor book up, particularly around Pike & Rose's seasonal events, so a booking made a few days ahead — rather than the afternoon of — gives you the better chance of getting exactly the vehicle you want.",
-          "For a small group booking a sedan or Premium SUV, same-week booking is usually still workable outside of a major Pike & Rose event; for a larger group wanting a Sprinter or Escalade on a Friday or Saturday specifically, booking by the Tuesday or Wednesday before gives a dispatcher enough room to confirm the exact vehicle rather than whatever happens to be left. Groups celebrating something specific — a birthday, an engagement — should mention the occasion when booking, since it sometimes affects which vehicle a dispatcher recommends for photos and arrival.",
+          "Booking is straightforward: confirm your pickup address, destination, group size, and whether you want a fixed return time or open-ended hourly coverage, and a dispatcher quotes a flat rate before you confirm. A sedan or Premium SUV comfortably covers a couple or small group; a Lincoln Navigator or Mercedes Sprinter suits a larger party headed to Pike & Rose for a birthday or celebration. Weekend evenings in this corridor book up, particularly around Pike & Rose's seasonal events, so a booking made a few days ahead — rather than the afternoon of — gives you the better chance of getting exactly the vehicle you want.",
+          "For a small group booking a sedan or Premium SUV, same-week booking is usually still workable outside of a major Pike & Rose event; for a larger group wanting a Sprinter or Navigator on a Friday or Saturday specifically, booking by the Tuesday or Wednesday before gives a dispatcher enough room to confirm the exact vehicle rather than whatever happens to be left. Groups celebrating something specific — a birthday, an engagement — should mention the occasion when booking, since it sometimes affects which vehicle a dispatcher recommends for photos and arrival.",
           "Repeat customers who book this corridor regularly — for a standing monthly dinner group, for instance — often find it worthwhile to establish a preferred pickup time and vehicle with a dispatcher once, rather than re-explaining the same details for every booking. Many Maryland car services are glad to note these standing preferences on a customer's account specifically for this kind of recurring, predictable use.",
         ],
       },
@@ -190,7 +190,7 @@ export const BLOG_POSTS_BATCH7 = [
       },
       {
         q: "What vehicle fits a group of eight headed to Pike & Rose?",
-        a: "A Mercedes Sprinter or Cadillac Escalade comfortably handles a larger group and keeps everyone together for arrival and departure, rather than splitting into multiple cars.",
+        a: "A Mercedes Sprinter or Lincoln Navigator comfortably handles a larger group and keeps everyone together for arrival and departure, rather than splitting into multiple cars.",
       },
       {
         q: "How far ahead should I book for a weekend night out in Rockville?",
@@ -285,7 +285,7 @@ export const BLOG_POSTS_BATCH7 = [
       },
       {
         q: "What vehicle is best for a visiting client team of four?",
-        a: "A Premium SUV like a Cadillac Escalade comfortably fits a team of four with luggage; for a larger group, a Mercedes Sprinter in its executive configuration keeps everyone together for the day.",
+        a: "A Premium SUV like a Lincoln Navigator comfortably fits a team of four with luggage; for a larger group, a Mercedes Sprinter in its executive configuration keeps everyone together for the day.",
       },
     ],
     relatedLinks: [
@@ -945,7 +945,7 @@ export const BLOG_POSTS_BATCH7 = [
       },
       {
         q: "What vehicle works best for a group New Year's Eve celebration?",
-        a: "A Cadillac Escalade or Mercedes Sprinter suits a larger group heading to one party or moving between locations, while a sedan or smaller SUV covers a couple or small group comfortably.",
+        a: "A Lincoln Navigator or Mercedes Sprinter suits a larger group heading to one party or moving between locations, while a sedan or smaller SUV covers a couple or small group comfortably.",
       },
     ],
     relatedLinks: [
@@ -1672,7 +1672,7 @@ export const BLOG_POSTS_BATCH7 = [
       {
         heading: "Choosing the Right Vehicle for a Rural Venue",
         paragraphs: [
-          "For the couple's own transportation, a Premium SUV like a Cadillac Escalade or Chevrolet Suburban comfortably handles most rural driveways while still offering the polished presentation couples want for wedding photos. For the wedding party or a guest shuttle, a Mercedes Sprinter is the typical choice — its higher ground clearance and shorter turning requirements handle farm terrain far better than a stretch limousine, while still comfortably moving a full wedding party or a shuttle load of guests in one trip. Couples who specifically want the look of a stretch limousine for photos can sometimes arrange it for a paved portion of the venue or a nearby location, with a more terrain-appropriate vehicle handling the actual driveway.",
+          "For the couple's own transportation, a Premium SUV like a Lincoln Navigator or Chevrolet Suburban comfortably handles most rural driveways while still offering the polished presentation couples want for wedding photos. For the wedding party or a guest shuttle, a Mercedes Sprinter is the typical choice — its higher ground clearance and shorter turning requirements handle farm terrain far better than a stretch limousine, while still comfortably moving a full wedding party or a shuttle load of guests in one trip. Couples who specifically want the look of a stretch limousine for photos can sometimes arrange it for a paved portion of the venue or a nearby location, with a more terrain-appropriate vehicle handling the actual driveway.",
           "Some couples specifically want a classic car or stretch limousine moment for photos regardless of venue terrain, and a common solution is arranging that vehicle for a scenic, paved stretch of road nearby, or at a second location entirely, then transitioning to the venue-appropriate SUV or Sprinter for the actual driveway and ceremony arrival — getting the photo the couple wants without risking the vehicle getting stuck at the venue itself.",
           "Couples should also confirm directly with their transportation company how many total trips a single vehicle can realistically make between a getting-ready location and the venue if those are in different places, since a rural venue's own driveway conditions can make repeat trips slower than they'd be on paved roads, occasionally affecting how a wedding-day schedule should be paced overall.",
           "Some rural venues share a single access road with a working farm operation still in use, meaning tractors or livestock crossings are a real possibility — a detail worth flagging to any transportation company unfamiliar with an active agricultural property.",

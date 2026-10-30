@@ -64,7 +64,7 @@ function loadData() {
     "src/lib/breadcrumbs.js", "src/lib/guides.js", "src/lib/blogPosts.js", "src/lib/keywordSection.js",
     "src/lib/pillarLinks.js",
   ].map(plain).join("\n");
-  const batch3Src = plain("src/lib/marylandPagesBatch3.js") + "\n" + plain("src/lib/marylandPagesBatch4.js") + "\n" + plain("src/lib/marylandPagesBatch5.js") + "\n" + plain("src/lib/marylandPagesBatch6.js") + "\n" + plain("src/lib/marylandPagesBatch7.js") + "\n" + plain("src/lib/marylandPagesBatch8.js") + "\n" + plain("src/lib/marylandPagesBatch9.js") + "\n" + plain("src/lib/semrushKeywordGapPages.js") + "\n" + plain("src/lib/bwiAirportPages.js") + "\n" + plain("src/lib/marylandPagesBatch11.js") + "\n" + plain("src/lib/nicheAndSuburbLandingPages.js") + "\n" + plain("src/lib/marylandPagesBatch12.js") + "\n" + plain("src/lib/marylandPagesBatch13.js") + "\n" + plain("src/lib/blogPostsBatch2.js") + "\n" + plain("src/lib/blogPostsBatch3.js") + "\n" + plain("src/lib/blogPostsBatch4.js") + "\n" + plain("src/lib/blogPostsBatch5.js") + "\n" + plain("src/lib/blogPostsBatch6.js") + "\n" + plain("src/lib/blogPostsBatch7.js") + "\n" + plain("src/lib/blogPostsBatch8.js") + "\n" + plain("src/lib/blogPostsBatch9.js") + "\n" + plain("src/lib/blogPostsBatch10.js") + "\n" + plain("src/lib/blogPostsBatch11.js") + "\n" + plain("src/lib/blogPostsBatch12.js") + "\n" + plain("src/lib/blogPostsBatch13.js") + "\n" + plain("src/lib/costAndComparisonBlogPosts.js") + "\n" + plain("src/lib/blogPostsGenerated.js");
+  const batch3Src = plain("src/lib/marylandPagesBatch3.js") + "\n" + plain("src/lib/marylandPagesBatch4.js") + "\n" + plain("src/lib/marylandPagesBatch5.js") + "\n" + plain("src/lib/marylandPagesBatch6.js") + "\n" + plain("src/lib/marylandPagesBatch7.js") + "\n" + plain("src/lib/marylandPagesBatch8.js") + "\n" + plain("src/lib/marylandPagesBatch9.js") + "\n" + plain("src/lib/semrushKeywordGapPages.js") + "\n" + plain("src/lib/bwiAirportPages.js") + "\n" + plain("src/lib/marylandPagesBatch11.js") + "\n" + plain("src/lib/nicheAndSuburbLandingPages.js") + "\n" + plain("src/lib/marylandPagesBatch12.js") + "\n" + plain("src/lib/marylandPagesBatch13.js") + "\n" + plain("src/lib/blogPostsBatch2.js") + "\n" + plain("src/lib/blogPostsBatch3.js") + "\n" + plain("src/lib/blogPostsBatch4.js") + "\n" + plain("src/lib/blogPostsBatch5.js") + "\n" + plain("src/lib/blogPostsBatch6.js") + "\n" + plain("src/lib/blogPostsBatch7.js") + "\n" + plain("src/lib/blogPostsBatch8.js") + "\n" + plain("src/lib/blogPostsBatch9.js") + "\n" + plain("src/lib/blogPostsBatch10.js") + "\n" + plain("src/lib/blogPostsBatch11.js") + "\n" + plain("src/lib/blogPostsBatch12.js") + "\n" + plain("src/lib/blogPostsBatch13.js") + "\n" + plain("src/lib/blogPostsBatch14.js") + "\n" + plain("src/lib/costAndComparisonBlogPosts.js") + "\n" + plain("src/lib/blogPostsGenerated.js");
   const ctx = { console };
   vm.runInNewContext(
     `${dataSrc}\n${generatedSrc}\n${marylandSrc}\n${batch3Src}\n${landingSrc}\n${staticSrc}\nthis.__data = { keywordSection, placeName, BRAND, TESTIMONIALS, NAV_SERVICES, PAGE_FAQS, cityFaqs, breadcrumbTrail, breadcrumbSchema, GUIDES, BLOG_POSTS, PRESS_CONTENT, PARTNERS_CONTENT, SERVICE_PAGES, LANDING_PAGES, CITIES, HOME_ABOUT, EXTERNAL_LINKS, FAQS, AREAS, WHY, SOCIAL, CHAMBER, AIRPORTS, FLEET, POLICY, BOOKING_CONTENT, CONTACT_CONTENT, ABOUT_CONTENT, pageSchema, relatedLandingPages, SERVICE_RELATED_LANDING_PAGES };`,
@@ -108,11 +108,11 @@ const STATIC_PAGES = {
   "/fleet": {
     title: "Luxury Fleet | Sedans, SUVs & Sprinter Vans | 92 Limo",
     description:
-      "Explore the 92 Limo Service fleet: Mercedes E-Class, BMW 7 Series, Lincoln Nautilus, Chevrolet Suburban, Cadillac Escalade, Sprinter vans & limousines.",
+      "Explore the 92 Limo Service fleet: Mercedes E-Class, BMW 7 Series, Lincoln Nautilus, Chevrolet Suburban, Lincoln Navigator, Sprinter vans & limousines.",
     h1: "A Luxury Vehicle for Every Journey",
     paras: [
       "From discreet executive sedans to spacious Sprinter vans and limousines — every vehicle is late-model, immaculately detailed, and chauffeur-driven.",
-      "Our fleet includes the Mercedes E-Class, BMW 7 Series, Lincoln Nautilus, Chevrolet Suburban, Cadillac Escalade, and Mercedes Sprinter vans and limos for groups.",
+      "Our fleet includes the Mercedes E-Class, BMW 7 Series, Lincoln Nautilus, Chevrolet Suburban, Lincoln Navigator, and Mercedes Sprinter vans and limos for groups.",
     ],
   },
   "/services": {
@@ -155,7 +155,7 @@ const STATIC_PAGES = {
   "/gallery": {
     title: "Gallery | Luxury Fleet & Chauffeur Service | 92 Limo",
     description:
-      "Browse the 92 Limo Service gallery — luxury sedans, Cadillac Escalade, Sprinter vans, chauffeurs, and airport pickups across DC, Maryland & Virginia.",
+      "Browse the 92 Limo Service gallery — luxury sedans, Lincoln Navigator, Sprinter vans, chauffeurs, and airport pickups across DC, Maryland & Virginia.",
     h1: "Our Fleet & Service in Pictures",
     paras: [
       "A closer look at the vehicles, interiors, and white-glove chauffeur experience that define 92 Limo Service.",
@@ -557,6 +557,7 @@ function buildArticle(post, route, schemaType = "Article") {
   return {
     title: post.metaTitle,
     description: post.metaDescription,
+    image: post.image,
     body:
       ldJson(schema) +
       h(1, post.title) +
@@ -735,6 +736,7 @@ function buildLinksFooter(data) {
     ["Company", [
       ["/about", "About"],
       ["/fleet", "Fleet"],
+      ["/gallery", "Gallery"],
       ["/reviews", "Reviews"],
       ["/contact", "Contact"],
       ["/blog", "Blog"],
@@ -787,9 +789,10 @@ function buildServiceAreas(data) {
 // ---------------------------------------------------------------------------
 // Head rewriting + injection
 // ---------------------------------------------------------------------------
-function rewriteHead(html, { title, description, url }) {
+function rewriteHead(html, { title, description, url, image }) {
   const t = esc(title);
   const d = esc(description);
+  const img = esc(image ? (image.startsWith("http") ? image : `${ORIGIN}${image}`) : `${ORIGIN}/images/site/hero-escalade.jpg`);
   const set = (re, replacement) => {
     html = re.test(html) ? html.replace(re, replacement) : html;
   };
@@ -798,13 +801,18 @@ function rewriteHead(html, { title, description, url }) {
   set(/<meta property="og:title" content="[^"]*"\s*\/?>/, `<meta property="og:title" content="${t}">`);
   set(/<meta property="og:description" content="[^"]*"\s*\/?>/, `<meta property="og:description" content="${d}">`);
   set(/<meta property="og:url" content="[^"]*"\s*\/?>/, `<meta property="og:url" content="${esc(url)}">`);
+  set(/<meta property="og:image" content="[^"]*"\s*\/?>/, `<meta property="og:image" content="${img}">`);
   set(/<link rel="canonical" href="[^"]*"\s*\/?>/, `<link rel="canonical" href="${esc(url)}">`);
+  set(
+    /<meta name="twitter:card" content="[^"]*"\s*\/?>/,
+    `<meta name="twitter:card" content="summary_large_image">\n        <meta name="twitter:title" content="${t}">\n        <meta name="twitter:description" content="${d}">\n        <meta name="twitter:image" content="${img}">`
+  );
   return html;
 }
 
 function render(shell, route, content, footer, data) {
   const url = ORIGIN + (route === "/" ? "/" : route);
-  let html = rewriteHead(shell, { title: content.title, description: content.description, url });
+  let html = rewriteHead(shell, { title: content.title, description: content.description, url, image: content.image });
   const trail = data.breadcrumbTrail(route, {
     services: data.SERVICE_PAGES, landing: data.LANDING_PAGES, cities: data.CITIES, posts: data.BLOG_POSTS, guides: data.GUIDES,
   });

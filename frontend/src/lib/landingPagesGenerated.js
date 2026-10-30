@@ -15,7 +15,7 @@ export const GENERATED_LANDING_PAGES = {
       "Looking for a limo service in Baltimore, MD you can set your watch by? 92 Limo Service provides chauffeured luxury transportation across Charm City's hotels, offices, and event venues — airport transfers, corporate travel, weddings, and nights out. Every ride comes with a professional chauffeur, a late-model luxury vehicle, and a flat rate quoted before you book.",
       "Airport travel is our specialty. From Baltimore, BWI Marshall is about 15 minutes away, and our chauffeurs use I-95 and MD-295 to keep your transfer smooth and predictable. We track your flight in real time, adjust for delays automatically, and include generous wait time on arrivals.",
       "We know Baltimore — from the Inner Harbor, Fells Point, and Camden Yards. That local knowledge matters when a highway backs up or an event closes streets. Your chauffeur plans around it, so you arrive relaxed and on time.",
-      "Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Cadillac Escalade or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority."
+      "Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Lincoln Navigator or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority."
     ],
     "highlights": [
       {
@@ -46,7 +46,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -182,7 +182,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -260,7 +260,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "From the Naval Academy, City Dock, and Eastport, 92 Limo Service covers every corner of Annapolis, MD with professional chauffeured transportation. Whether it is a quick airport run, a business meeting, or a special evening, you get the same standard: on time, immaculate, and flat-rated.",
       "Airport transfers from Annapolis are door-to-door. BWI Marshall sits roughly 22 miles away — about 30 minutes via I-97 and US-50. Your chauffeur tracks the flight, loads the luggage, and delivers you curbside with time to spare. Returns work the same way, with wait time built in for delays.",
-      "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Escalade or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
+      "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Navigator or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
       "Booking takes minutes and every reservation is confirmed with a transparent quote. That is why Annapolis clients keep our number saved: (877) 609-1919, answered 24/7."
     ],
     "highlights": [
@@ -291,7 +291,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -371,7 +371,7 @@ export const GENERATED_LANDING_PAGES = {
       "Looking for a limo service in Columbia, MD you can set your watch by? 92 Limo Service provides chauffeured luxury transportation across Howard County's planned-community neighborhoods and office parks — airport transfers, corporate travel, weddings, and nights out. Every ride comes with a professional chauffeur, a late-model luxury vehicle, and a flat rate quoted before you book.",
       "Airport travel is our specialty. From Columbia, BWI Marshall is about 20 minutes away, and our chauffeurs use MD-100 and US-29 to keep your transfer smooth and predictable. We track your flight in real time, adjust for delays automatically, and include generous wait time on arrivals.",
       "We know Columbia — from Merriweather Post Pavilion, the Mall in Columbia, and the Gateway corridor. That local knowledge matters when a highway backs up or an event closes streets. Your chauffeur plans around it, so you arrive relaxed and on time.",
-      "Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Cadillac Escalade or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority."
+      "Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Lincoln Navigator or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority."
     ],
     "highlights": [
       {
@@ -402,7 +402,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -532,7 +532,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -611,7 +611,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "From Rockville Town Square, King Farm, and the I-270 tech corridor, 92 Limo Service covers every corner of Rockville, MD with professional chauffeured transportation. Whether it is a comfortable airport run, a business meeting, or a special evening, you get the same standard: on time, immaculate, and flat-rated.",
       "Airport transfers from Rockville are door-to-door. Depending on your terminal, we route via the Beltway and I-270 to BWI, DCA, or Dulles. Your chauffeur tracks the flight, loads the luggage, and delivers you curbside with time to spare. Returns work the same way, with wait time built in for delays.",
-      "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Escalade or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
+      "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Navigator or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
       "Booking takes minutes and every reservation is confirmed with a transparent quote. That is why Rockville clients keep our number saved: (877) 609-1919, answered 24/7."
     ],
     "highlights": [
@@ -642,7 +642,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -722,7 +722,7 @@ export const GENERATED_LANDING_PAGES = {
       "Looking for a limo service in Silver Spring, MD you can set your watch by? 92 Limo Service provides chauffeured luxury transportation across the thriving downtown just north of DC — airport transfers, corporate travel, weddings, and nights out. Every ride comes with a professional chauffeur, a late-model luxury vehicle, and a flat rate quoted before you book.",
       "Airport travel is our specialty. From Silver Spring, we serve BWI, DCA, and Dulles — with DCA often the most convenient, and our chauffeurs use I-95 and the Beltway to keep your transfer smooth and predictable. We track your flight in real time, adjust for delays automatically, and include generous wait time on arrivals.",
       "We know Silver Spring — from downtown Silver Spring, NOAA, and the FDA campus. That local knowledge matters when a highway backs up or an event closes streets. Your chauffeur plans around it, so you arrive relaxed and on time.",
-      "Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Cadillac Escalade or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority."
+      "Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Lincoln Navigator or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority."
     ],
     "highlights": [
       {
@@ -753,7 +753,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -825,7 +825,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -867,7 +867,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "From Main Street, Russett, and Maryland City, 92 Limo Service covers every corner of Laurel, MD with professional chauffeured transportation. Whether it is a quick airport run, a business meeting, or a special evening, you get the same standard: on time, immaculate, and flat-rated.",
       "Airport transfers from Laurel are door-to-door. BWI Marshall sits roughly 14 miles away — about 20 minutes via MD-295 and Route 198. Your chauffeur tracks the flight, loads the luggage, and delivers you curbside with time to spare. Returns work the same way, with wait time built in for delays.",
-      "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Escalade or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
+      "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Navigator or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
       "Booking takes minutes and every reservation is confirmed with a transparent quote. That is why Laurel clients keep our number saved: (877) 609-1919, answered 24/7."
     ],
     "highlights": [
@@ -898,7 +898,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -941,7 +941,7 @@ export const GENERATED_LANDING_PAGES = {
       "Looking for a limo service in Greenbelt, MD you can set your watch by? 92 Limo Service provides chauffeured luxury transportation across the historic planned community off the Parkway — airport transfers, corporate travel, weddings, and nights out. Every ride comes with a professional chauffeur, a late-model luxury vehicle, and a flat rate quoted before you book.",
       "Airport travel is our specialty. From Greenbelt, BWI Marshall is about 30 minutes away, and our chauffeurs use the BW Parkway and I-495 to keep your transfer smooth and predictable. We track your flight in real time, adjust for delays automatically, and include generous wait time on arrivals.",
       "We know Greenbelt — from NASA Goddard, Roosevelt Center, and Greenbelt Park. That local knowledge matters when a highway backs up or an event closes streets. Your chauffeur plans around it, so you arrive relaxed and on time.",
-      "Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Cadillac Escalade or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority."
+      "Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Lincoln Navigator or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority."
     ],
     "highlights": [
       {
@@ -972,7 +972,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -1044,7 +1044,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -1086,7 +1086,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "From historic downtown Frederick, Fort Detrick, and Carroll Creek, 92 Limo Service covers every corner of Frederick, MD with professional chauffeured transportation. Whether it is a comfortable airport run, a business meeting, or a special evening, you get the same standard: on time, immaculate, and flat-rated.",
       "Airport transfers from Frederick are door-to-door. BWI Marshall sits roughly 55 miles away — about 60 minutes via I-70 and US-15. Your chauffeur tracks the flight, loads the luggage, and delivers you curbside with time to spare. Returns work the same way, with wait time built in for delays.",
-      "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Escalade or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
+      "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Navigator or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
       "Booking takes minutes and every reservation is confirmed with a transparent quote. That is why Frederick clients keep our number saved: (877) 609-1919, answered 24/7."
     ],
     "highlights": [
@@ -1117,7 +1117,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -1160,7 +1160,7 @@ export const GENERATED_LANDING_PAGES = {
       "Looking for a limo service in Waldorf, MD you can set your watch by? 92 Limo Service provides chauffeured luxury transportation across Southern Maryland's commercial center — airport transfers, corporate travel, weddings, and nights out. Every ride comes with a professional chauffeur, a late-model luxury vehicle, and a flat rate quoted before you book.",
       "Airport travel is our specialty. From Waldorf, we serve BWI, DCA, and Dulles — with DCA often the most convenient, and our chauffeurs use US-301 and MD-5 to keep your transfer smooth and predictable. We track your flight in real time, adjust for delays automatically, and include generous wait time on arrivals.",
       "We know Waldorf — from the Waldorf Marketplace corridor, St. Charles, and Charles County government offices. That local knowledge matters when a highway backs up or an event closes streets. Your chauffeur plans around it, so you arrive relaxed and on time.",
-      "Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Cadillac Escalade or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority."
+      "Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Lincoln Navigator or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority."
     ],
     "highlights": [
       {
@@ -1191,7 +1191,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -1263,7 +1263,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -1305,7 +1305,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "From the boardwalk, the Route 1 corridor, and West Ocean City, 92 Limo Service covers every corner of Ocean City, MD with professional chauffeured transportation. Whether it is a comfortable airport run, a business meeting, or a special evening, you get the same standard: on time, immaculate, and flat-rated.",
       "Airport transfers from Ocean City are door-to-door. BWI Marshall sits roughly 130 miles away — about 135 minutes via US-50 and the Bay Bridge. Your chauffeur tracks the flight, loads the luggage, and delivers you curbside with time to spare. Returns work the same way, with wait time built in for delays.",
-      "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Escalade or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
+      "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Navigator or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
       "Booking takes minutes and every reservation is confirmed with a transparent quote. That is why Ocean City clients keep our number saved: (877) 609-1919, answered 24/7."
     ],
     "highlights": [
@@ -1336,7 +1336,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -1379,7 +1379,7 @@ export const GENERATED_LANDING_PAGES = {
       "Looking for a limo service in Towson, MD you can set your watch by? 92 Limo Service provides chauffeured luxury transportation across Baltimore County's business seat — airport transfers, corporate travel, weddings, and nights out. Every ride comes with a professional chauffeur, a late-model luxury vehicle, and a flat rate quoted before you book.",
       "Airport travel is our specialty. From Towson, BWI Marshall is about 25 minutes away, and our chauffeurs use I-695 and I-83 to keep your transfer smooth and predictable. We track your flight in real time, adjust for delays automatically, and include generous wait time on arrivals.",
       "We know Towson — from Towson University, GBMC, and Towson Town Center. That local knowledge matters when a highway backs up or an event closes streets. Your chauffeur plans around it, so you arrive relaxed and on time.",
-      "Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Cadillac Escalade or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority."
+      "Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Lincoln Navigator or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority."
     ],
     "highlights": [
       {
@@ -1410,7 +1410,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -1482,7 +1482,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -1524,7 +1524,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "From historic Main Street, Turf Valley, and Centennial Park, 92 Limo Service covers every corner of Ellicott City, MD with professional chauffeured transportation. Whether it is a quick airport run, a business meeting, or a special evening, you get the same standard: on time, immaculate, and flat-rated.",
       "Airport transfers from Ellicott City are door-to-door. BWI Marshall sits roughly 18 miles away — about 25 minutes via US-29 and US-40. Your chauffeur tracks the flight, loads the luggage, and delivers you curbside with time to spare. Returns work the same way, with wait time built in for delays.",
-      "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Escalade or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
+      "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Navigator or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
       "Booking takes minutes and every reservation is confirmed with a transparent quote. That is why Ellicott City clients keep our number saved: (877) 609-1919, answered 24/7."
     ],
     "highlights": [
@@ -1555,7 +1555,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -1598,7 +1598,7 @@ export const GENERATED_LANDING_PAGES = {
       "Looking for a limo service in Elkridge, MD you can set your watch by? 92 Limo Service provides chauffeured luxury transportation across one of Maryland's oldest settlements — airport transfers, corporate travel, weddings, and nights out. Every ride comes with a professional chauffeur, a late-model luxury vehicle, and a flat rate quoted before you book.",
       "Airport travel is our specialty. From Elkridge, BWI Marshall is about 12 minutes away, and our chauffeurs use I-95, Route 1, and Route 100 to keep your transfer smooth and predictable. We track your flight in real time, adjust for delays automatically, and include generous wait time on arrivals.",
       "We know Elkridge — from the Route 1 corridor and Patapsco Valley State Park. That local knowledge matters when a highway backs up or an event closes streets. Your chauffeur plans around it, so you arrive relaxed and on time.",
-      "Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Cadillac Escalade or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority."
+      "Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Lincoln Navigator or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority."
     ],
     "highlights": [
       {
@@ -1629,7 +1629,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -1701,7 +1701,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -1743,7 +1743,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "From Main Street, Harford Mall, and the Ma & Pa Trail, 92 Limo Service covers every corner of Bel Air, MD with professional chauffeured transportation. Whether it is a comfortable airport run, a business meeting, or a special evening, you get the same standard: on time, immaculate, and flat-rated.",
       "Airport transfers from Bel Air are door-to-door. BWI Marshall sits roughly 35 miles away — about 45 minutes via I-95 and US-1. Your chauffeur tracks the flight, loads the luggage, and delivers you curbside with time to spare. Returns work the same way, with wait time built in for delays.",
-      "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Escalade or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
+      "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Navigator or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
       "Booking takes minutes and every reservation is confirmed with a transparent quote. That is why Bel Air clients keep our number saved: (877) 609-1919, answered 24/7."
     ],
     "highlights": [
@@ -1774,7 +1774,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -1817,7 +1817,7 @@ export const GENERATED_LANDING_PAGES = {
       "Looking for a limo service in Aberdeen, MD you can set your watch by? 92 Limo Service provides chauffeured luxury transportation across Harford County's defense hub — airport transfers, corporate travel, weddings, and nights out. Every ride comes with a professional chauffeur, a late-model luxury vehicle, and a flat rate quoted before you book.",
       "Airport travel is our specialty. From Aberdeen, BWI Marshall is about 50 minutes away, and our chauffeurs use I-95 and US-40 to keep your transfer smooth and predictable. We track your flight in real time, adjust for delays automatically, and include generous wait time on arrivals.",
       "We know Aberdeen — from Aberdeen Proving Ground, Ripken Stadium, and the MARC station. That local knowledge matters when a highway backs up or an event closes streets. Your chauffeur plans around it, so you arrive relaxed and on time.",
-      "Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Cadillac Escalade or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority."
+      "Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Lincoln Navigator or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority."
     ],
     "highlights": [
       {
@@ -1848,7 +1848,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -1920,7 +1920,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -1962,7 +1962,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "From the University of Maryland, Discovery District, and Route 1 corridor, 92 Limo Service covers every corner of College Park, MD with professional chauffeured transportation. Whether it is a quick airport run, a business meeting, or a special evening, you get the same standard: on time, immaculate, and flat-rated.",
       "Airport transfers from College Park are door-to-door. BWI Marshall sits roughly 20 miles away — about 25 minutes via the BW Parkway and US-1. Your chauffeur tracks the flight, loads the luggage, and delivers you curbside with time to spare. Returns work the same way, with wait time built in for delays.",
-      "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Escalade or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
+      "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Navigator or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
       "Booking takes minutes and every reservation is confirmed with a transparent quote. That is why College Park clients keep our number saved: (877) 609-1919, answered 24/7."
     ],
     "highlights": [
@@ -1993,7 +1993,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -2036,7 +2036,7 @@ export const GENERATED_LANDING_PAGES = {
       "Looking for a limo service in Severna Park, MD you can set your watch by? 92 Limo Service provides chauffeured luxury transportation across the Severn-to-Magothy peninsula — airport transfers, corporate travel, weddings, and nights out. Every ride comes with a professional chauffeur, a late-model luxury vehicle, and a flat rate quoted before you book.",
       "Airport travel is our specialty. From Severna Park, BWI Marshall is about 15 minutes away, and our chauffeurs use I-97 and MD-2 to keep your transfer smooth and predictable. We track your flight in real time, adjust for delays automatically, and include generous wait time on arrivals.",
       "We know Severna Park — from Round Bay, Chartwell, and Olde Severna Park. That local knowledge matters when a highway backs up or an event closes streets. Your chauffeur plans around it, so you arrive relaxed and on time.",
-      "Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Cadillac Escalade or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority."
+      "Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Lincoln Navigator or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority."
     ],
     "highlights": [
       {
@@ -2067,7 +2067,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -2139,7 +2139,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -2181,7 +2181,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "From Old Town, Del Ray, and the Carlyle district, 92 Limo Service covers every corner of Alexandria, VA with professional chauffeured transportation. Whether it is a comfortable airport run, a business meeting, or a special evening, you get the same standard: on time, immaculate, and flat-rated.",
       "Airport transfers from Alexandria are door-to-door. Depending on your terminal, we route via I-95 and the Wilson Bridge to BWI, DCA, or Dulles. Your chauffeur tracks the flight, loads the luggage, and delivers you curbside with time to spare. Returns work the same way, with wait time built in for delays.",
-      "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Escalade or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
+      "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Navigator or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
       "Booking takes minutes and every reservation is confirmed with a transparent quote. That is why Alexandria clients keep our number saved: (877) 609-1919, answered 24/7."
     ],
     "highlights": [
@@ -2212,7 +2212,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -2255,7 +2255,7 @@ export const GENERATED_LANDING_PAGES = {
       "Looking for a limo service in Fairfax, VA you can set your watch by? 92 Limo Service provides chauffeured luxury transportation across Northern Virginia's county hub — airport transfers, corporate travel, weddings, and nights out. Every ride comes with a professional chauffeur, a late-model luxury vehicle, and a flat rate quoted before you book.",
       "Airport travel is our specialty. From Fairfax, we serve BWI, DCA, and Dulles — with IAD often the most convenient, and our chauffeurs use I-95 and I-66 to keep your transfer smooth and predictable. We track your flight in real time, adjust for delays automatically, and include generous wait time on arrivals.",
       "We know Fairfax — from George Mason University, Fairfax City, and Fair Oaks. That local knowledge matters when a highway backs up or an event closes streets. Your chauffeur plans around it, so you arrive relaxed and on time.",
-      "Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Cadillac Escalade or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority."
+      "Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Lincoln Navigator or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority."
     ],
     "highlights": [
       {
@@ -2286,7 +2286,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -2358,7 +2358,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -2400,7 +2400,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "From the historic downtown, Mary Washington, and Central Park, 92 Limo Service covers every corner of Fredericksburg, VA with professional chauffeured transportation. Whether it is a comfortable airport run, a business meeting, or a special evening, you get the same standard: on time, immaculate, and flat-rated.",
       "Airport transfers from Fredericksburg are door-to-door. Depending on your terminal, we route via I-95 South to BWI, DCA, or Dulles. Your chauffeur tracks the flight, loads the luggage, and delivers you curbside with time to spare. Returns work the same way, with wait time built in for delays.",
-      "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Escalade or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
+      "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Navigator or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
       "Booking takes minutes and every reservation is confirmed with a transparent quote. That is why Fredericksburg clients keep our number saved: (877) 609-1919, answered 24/7."
     ],
     "highlights": [
@@ -2431,7 +2431,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -2474,7 +2474,7 @@ export const GENERATED_LANDING_PAGES = {
       "Looking for a limo service in McLean, VA you can set your watch by? 92 Limo Service provides chauffeured luxury transportation across one of NoVA's most exclusive communities — airport transfers, corporate travel, weddings, and nights out. Every ride comes with a professional chauffeur, a late-model luxury vehicle, and a flat rate quoted before you book.",
       "Airport travel is our specialty. From McLean, we serve BWI, DCA, and Dulles — with IAD often the most convenient, and our chauffeurs use the Beltway and the GW Parkway to keep your transfer smooth and predictable. We track your flight in real time, adjust for delays automatically, and include generous wait time on arrivals.",
       "We know McLean — from Tysons, the CIA campus corridor, and Langley. That local knowledge matters when a highway backs up or an event closes streets. Your chauffeur plans around it, so you arrive relaxed and on time.",
-      "Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Cadillac Escalade or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority."
+      "Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Lincoln Navigator or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority."
     ],
     "highlights": [
       {
@@ -2505,7 +2505,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -2577,7 +2577,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -2619,7 +2619,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "From One Loudoun, data-center alley, and Brambleton, 92 Limo Service covers every corner of Ashburn, VA with professional chauffeured transportation. Whether it is a comfortable airport run, a business meeting, or a special evening, you get the same standard: on time, immaculate, and flat-rated.",
       "Airport transfers from Ashburn are door-to-door. Depending on your terminal, we route via the Dulles Greenway to BWI, DCA, or Dulles. Your chauffeur tracks the flight, loads the luggage, and delivers you curbside with time to spare. Returns work the same way, with wait time built in for delays.",
-      "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Escalade or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
+      "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Navigator or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
       "Booking takes minutes and every reservation is confirmed with a transparent quote. That is why Ashburn clients keep our number saved: (877) 609-1919, answered 24/7."
     ],
     "highlights": [
@@ -2650,7 +2650,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -2693,7 +2693,7 @@ export const GENERATED_LANDING_PAGES = {
       "Looking for a limo service in Leesburg, VA you can set your watch by? 92 Limo Service provides chauffeured luxury transportation across Loudoun's historic county seat — airport transfers, corporate travel, weddings, and nights out. Every ride comes with a professional chauffeur, a late-model luxury vehicle, and a flat rate quoted before you book.",
       "Airport travel is our specialty. From Leesburg, we serve BWI, DCA, and Dulles — with IAD often the most convenient, and our chauffeurs use the Dulles Greenway and Route 7 to keep your transfer smooth and predictable. We track your flight in real time, adjust for delays automatically, and include generous wait time on arrivals.",
       "We know Leesburg — from the historic downtown, Lansdowne, and Loudoun wine country. That local knowledge matters when a highway backs up or an event closes streets. Your chauffeur plans around it, so you arrive relaxed and on time.",
-      "Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Cadillac Escalade or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority."
+      "Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Lincoln Navigator or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority."
     ],
     "highlights": [
       {
@@ -2724,7 +2724,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -2796,7 +2796,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -2838,7 +2838,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "From the square, Utz country, and South Hanover, 92 Limo Service covers every corner of Hanover, PA with professional chauffeured transportation. Whether it is a comfortable airport run, a business meeting, or a special evening, you get the same standard: on time, immaculate, and flat-rated.",
       "Airport transfers from Hanover are door-to-door. BWI Marshall sits roughly 60 miles away — about 70 minutes via MD-30 and PA-94. Your chauffeur tracks the flight, loads the luggage, and delivers you curbside with time to spare. Returns work the same way, with wait time built in for delays.",
-      "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Escalade or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
+      "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Navigator or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
       "Booking takes minutes and every reservation is confirmed with a transparent quote. That is why Hanover clients keep our number saved: (877) 609-1919, answered 24/7."
     ],
     "highlights": [
@@ -2869,7 +2869,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -2912,7 +2912,7 @@ export const GENERATED_LANDING_PAGES = {
       "Looking for a limo service in Gettysburg, PA you can set your watch by? 92 Limo Service provides chauffeured luxury transportation across America's most visited battlefield town — airport transfers, corporate travel, weddings, and nights out. Every ride comes with a professional chauffeur, a late-model luxury vehicle, and a flat rate quoted before you book.",
       "Airport travel is our specialty. From Gettysburg, BWI Marshall is about 85 minutes away, and our chauffeurs use US-15 North to keep your transfer smooth and predictable. We track your flight in real time, adjust for delays automatically, and include generous wait time on arrivals.",
       "We know Gettysburg — from the battlefield, Gettysburg College, and the historic square. That local knowledge matters when a highway backs up or an event closes streets. Your chauffeur plans around it, so you arrive relaxed and on time.",
-      "Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Cadillac Escalade or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority."
+      "Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Lincoln Navigator or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority."
     ],
     "highlights": [
       {
@@ -2943,7 +2943,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -3015,7 +3015,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -3057,7 +3057,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "From the Capitol complex, City Island, and the West Shore, 92 Limo Service covers every corner of Harrisburg, PA with professional chauffeured transportation. Whether it is a comfortable airport run, a business meeting, or a special evening, you get the same standard: on time, immaculate, and flat-rated.",
       "Airport transfers from Harrisburg are door-to-door. BWI Marshall sits roughly 85 miles away — about 90 minutes via I-83 North. Your chauffeur tracks the flight, loads the luggage, and delivers you curbside with time to spare. Returns work the same way, with wait time built in for delays.",
-      "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Escalade or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
+      "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Navigator or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
       "Booking takes minutes and every reservation is confirmed with a transparent quote. That is why Harrisburg clients keep our number saved: (877) 609-1919, answered 24/7."
     ],
     "highlights": [
@@ -3088,7 +3088,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -3131,7 +3131,7 @@ export const GENERATED_LANDING_PAGES = {
       "Looking for a limo service in Hershey, PA you can set your watch by? 92 Limo Service provides chauffeured luxury transportation across the sweetest place on earth — airport transfers, corporate travel, weddings, and nights out. Every ride comes with a professional chauffeur, a late-model luxury vehicle, and a flat rate quoted before you book.",
       "Airport travel is our specialty. From Hershey, BWI Marshall is about 100 minutes away, and our chauffeurs use I-83 and US-322 to keep your transfer smooth and predictable. We track your flight in real time, adjust for delays automatically, and include generous wait time on arrivals.",
       "We know Hershey — from Hersheypark, the Hotel Hershey, and the Giant Center. That local knowledge matters when a highway backs up or an event closes streets. Your chauffeur plans around it, so you arrive relaxed and on time.",
-      "Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Cadillac Escalade or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority."
+      "Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Lincoln Navigator or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority."
     ],
     "highlights": [
       {
@@ -3162,7 +3162,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -3234,7 +3234,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -3276,7 +3276,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "From the University of Delaware, Main Street, and Christiana, 92 Limo Service covers every corner of Newark, DE with professional chauffeured transportation. Whether it is a comfortable airport run, a business meeting, or a special evening, you get the same standard: on time, immaculate, and flat-rated.",
       "Airport transfers from Newark are door-to-door. BWI Marshall sits roughly 58 miles away — about 60 minutes via I-95 North. Your chauffeur tracks the flight, loads the luggage, and delivers you curbside with time to spare. Returns work the same way, with wait time built in for delays.",
-      "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Escalade or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
+      "Our fleet matches the occasion. Executives choose the Mercedes E-Class and BMW 7 Series. Families and beach-bound groups take the Navigator or Suburban. Wedding parties, wine tours, and corporate shuttles fill our Mercedes Sprinter vans — everyone together, luggage and all.",
       "Booking takes minutes and every reservation is confirmed with a transparent quote. That is why Newark clients keep our number saved: (877) 609-1919, answered 24/7."
     ],
     "highlights": [
@@ -3307,7 +3307,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -3350,7 +3350,7 @@ export const GENERATED_LANDING_PAGES = {
       "Looking for a limo service in Dover, DE you can set your watch by? 92 Limo Service provides chauffeured luxury transportation across Delaware's capital — airport transfers, corporate travel, weddings, and nights out. Every ride comes with a professional chauffeur, a late-model luxury vehicle, and a flat rate quoted before you book.",
       "Airport travel is our specialty. From Dover, BWI Marshall is about 85 minutes away, and our chauffeurs use US-301 and DE-1 to keep your transfer smooth and predictable. We track your flight in real time, adjust for delays automatically, and include generous wait time on arrivals.",
       "We know Dover — from Dover Air Force Base, the Capitol complex, and Dover Motor Speedway. That local knowledge matters when a highway backs up or an event closes streets. Your chauffeur plans around it, so you arrive relaxed and on time.",
-      "Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Cadillac Escalade or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority."
+      "Choose the vehicle that fits the trip: a Mercedes E-Class or BMW 7 Series for business, a Lincoln Navigator or Suburban for families and luggage, or a Mercedes Sprinter van for groups of up to 14. Whatever you ride in, it arrives detailed, stocked with water, and driven by a chauffeur who treats your time as the priority."
     ],
     "highlights": [
       {
@@ -3381,7 +3381,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -3453,7 +3453,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -3496,7 +3496,7 @@ export const GENERATED_LANDING_PAGES = {
       "Searching for a dependable limo service in Glen Burnie, MD? 92 Limo Service brings chauffeured luxury transportation to Anne Arundel County — covering Ferndale, Marley, Point Pleasant, and Cromwell — with airport transfers, corporate travel, weddings, and nights out all handled by the same professional team. Every trip is confirmed in advance with a flat, transparent quote and driven by a background-checked chauffeur in a late-model luxury vehicle.",
       "Airport runs are where most Glen Burnie clients meet us. From Glen Burnie, BWI Marshall Airport is roughly 6 miles away — about 10 minutes via I-97 and MD-2. Your chauffeur tracks the flight in real time, adjusts automatically for delays, loads every bag, and includes generous wait time on arrivals — so an early landing or a slow baggage carousel never becomes your problem.",
       "Local knowledge is the difference between on time and almost on time. Our chauffeurs know Marley Station, the B&A Trail, and Sawmill Creek, and they plan around school traffic, event closures, and rush hour on I-97 and MD-2 before you ever feel it. You get one number to call, one trusted team, and the same polished standard on every ride.",
-      "Pick the vehicle that fits: a Mercedes E-Class or BMW 7 Series for executive travel, a Cadillac Escalade or Chevrolet Suburban for families and luggage, or a Mercedes Sprinter van that keeps up to 14 people together. Every vehicle arrives detailed and stocked with water — call (877) 609-1919 any hour to reserve.",
+      "Pick the vehicle that fits: a Mercedes E-Class or BMW 7 Series for executive travel, a Lincoln Navigator or Chevrolet Suburban for families and luggage, or a Mercedes Sprinter van that keeps up to 14 people together. Every vehicle arrives detailed and stocked with water — call (877) 609-1919 any hour to reserve.",
       "Sitting just south of the airport, Glen Burnie is one of our busiest pickup zones — which means short lead times and reliable availability even on same-day requests. We run everything from quick BWI drops for Cromwell-area commuters to Sprinter vans for family celebrations at the county's waterfront venues."
     ],
     "highlights": [
@@ -3528,7 +3528,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -3545,7 +3545,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "What vehicles can I book in Glen Burnie?",
-        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Lincoln Navigator and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
       },
       {
         "q": "Can I book a late-night or early-morning ride in Glen Burnie?",
@@ -3601,7 +3601,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -3619,7 +3619,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "What vehicles can I book in Pasadena?",
-        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Lincoln Navigator and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
       },
       {
         "q": "Can I book a late-night or early-morning ride in Pasadena?",
@@ -3644,7 +3644,7 @@ export const GENERATED_LANDING_PAGES = {
       "From Fort Meade, Arundel Mills, and the Telegraph Road corridor, 92 Limo Service covers Severn, MD and the rest of Anne Arundel County with chauffeured transportation that treats your schedule as the contract. On time, immaculate, flat-rated — that is the standard on every trip, whether it is an airport run or a milestone celebration.",
       "Airport transfers are door-to-door: about 12 minutes to BWI Marshall via I-97 and MD-32, with Reagan National, Dulles, and Philadelphia also served daily. Your chauffeur plans the pickup around traffic and check-in windows, tracks return flights in real time, and builds in buffer so you are never cutting it close. Round-trip bookings lock in your ride home before you even take off.",
       "Residents of Telegraph Road, Severn Crossroads, Provinces, and the Fort Meade corridor use us for more than flights: corporate travel, weddings, prom nights, anniversaries, concerts, and safe rides home. One trusted chauffeur partner replaces the rideshare lottery — no cancellations, no surge pricing, no strangers behind the wheel.",
-      "The fleet matches the occasion. Executives ride in the Mercedes E-Class and BMW 7 Series. Families and groups take the Escalade or Suburban. Wedding parties and group outings fill the Mercedes Sprinter — up to 14 seats, luggage and all. Reserve online or call (877) 609-1919, answered 24/7.",
+      "The fleet matches the occasion. Executives ride in the Mercedes E-Class and BMW 7 Series. Families and groups take the Navigator or Suburban. Wedding parties and group outings fill the Mercedes Sprinter — up to 14 seats, luggage and all. Reserve online or call (877) 609-1919, answered 24/7.",
       "With Fort Meade and NSA a few minutes away, Severn riders are often traveling on precise schedules — early report times, visiting delegations, and PCS moves with a house worth of luggage. We stage vehicles accordingly and treat a 4:30 AM pickup with the same polish as a Saturday wedding."
     ],
     "highlights": [
@@ -3675,7 +3675,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -3693,7 +3693,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "What vehicles can I book in Severn?",
-        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Lincoln Navigator and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
       },
       {
         "q": "Can I book a late-night or early-morning ride in Severn?",
@@ -3750,7 +3750,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -3767,7 +3767,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "What vehicles can I book in Odenton?",
-        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Lincoln Navigator and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
       },
       {
         "q": "Can I book a late-night or early-morning ride in Odenton?",
@@ -3792,7 +3792,7 @@ export const GENERATED_LANDING_PAGES = {
       "Searching for a dependable limo service in Crofton, MD? 92 Limo Service brings chauffeured luxury transportation to Anne Arundel County — covering the Crofton Parkway loop, Crofton Meadows, and Walden — with airport transfers, corporate travel, weddings, and nights out all handled by the same professional team. Every trip is confirmed in advance with a flat, transparent quote and driven by a background-checked chauffeur in a late-model luxury vehicle.",
       "Airport runs are where most Crofton clients meet us. From Crofton, BWI Marshall Airport is roughly 15 miles away — about 22 minutes via MD-3 and I-97. Your chauffeur tracks the flight in real time, adjusts automatically for delays, loads every bag, and includes generous wait time on arrivals — so an early landing or a slow baggage carousel never becomes your problem.",
       "Local knowledge is the difference between on time and almost on time. Our chauffeurs know Crofton Country Club, Waugh Chapel Towne Centre, and the Route 3 corridor, and they plan around school traffic, event closures, and rush hour on MD-3 and I-97 before you ever feel it. You get one number to call, one trusted team, and the same polished standard on every ride.",
-      "Pick the vehicle that fits: a Mercedes E-Class or BMW 7 Series for executive travel, a Cadillac Escalade or Chevrolet Suburban for families and luggage, or a Mercedes Sprinter van that keeps up to 14 people together. Every vehicle arrives detailed and stocked with water — call (877) 609-1919 any hour to reserve.",
+      "Pick the vehicle that fits: a Mercedes E-Class or BMW 7 Series for executive travel, a Lincoln Navigator or Chevrolet Suburban for families and luggage, or a Mercedes Sprinter van that keeps up to 14 people together. Every vehicle arrives detailed and stocked with water — call (877) 609-1919 any hour to reserve.",
       "Crofton's tree-lined parkway loop and country-club calendar keep us busy year-round — galas, golf outings, proms at the area high schools, and anniversary dinners in Annapolis. Waugh Chapel pickups and BWI transfers round out the week."
     ],
     "highlights": [
@@ -3823,7 +3823,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -3841,7 +3841,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "What vehicles can I book in Crofton?",
-        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Lincoln Navigator and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
       },
       {
         "q": "Can I book a late-night or early-morning ride in Crofton?",
@@ -3897,7 +3897,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -3915,7 +3915,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "What vehicles can I book in Millersville?",
-        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Lincoln Navigator and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
       },
       {
         "q": "Can I book a late-night or early-morning ride in Millersville?",
@@ -3940,7 +3940,7 @@ export const GENERATED_LANDING_PAGES = {
       "From the BWI-area hotels, the Light Rail line, and historic Linthicum Heights, 92 Limo Service covers Linthicum, MD and the rest of Anne Arundel County with chauffeured transportation that treats your schedule as the contract. On time, immaculate, flat-rated — that is the standard on every trip, whether it is an airport run or a milestone celebration.",
       "Airport transfers are door-to-door: about 8 minutes to BWI Marshall via I-695 and MD-170, with Reagan National, Dulles, and Philadelphia also served daily. Your chauffeur plans the pickup around traffic and check-in windows, tracks return flights in real time, and builds in buffer so you are never cutting it close. Round-trip bookings lock in your ride home before you even take off.",
       "Residents of Linthicum Heights, the BWI business district, and Andover use us for more than flights: corporate travel, weddings, prom nights, anniversaries, concerts, and safe rides home. One trusted chauffeur partner replaces the rideshare lottery — no cancellations, no surge pricing, no strangers behind the wheel.",
-      "The fleet matches the occasion. Executives ride in the Mercedes E-Class and BMW 7 Series. Families and groups take the Escalade or Suburban. Wedding parties and group outings fill the Mercedes Sprinter — up to 14 seats, luggage and all. Reserve online or call (877) 609-1919, answered 24/7.",
+      "The fleet matches the occasion. Executives ride in the Mercedes E-Class and BMW 7 Series. Families and groups take the Navigator or Suburban. Wedding parties and group outings fill the Mercedes Sprinter — up to 14 seats, luggage and all. Reserve online or call (877) 609-1919, answered 24/7.",
       "Practically next door to the terminal, Linthicum is home to the BWI hotel district and a growing cyber corridor — and we are the car service both rely on. Crew pickups, hotel-to-terminal transfers, and executive rides into Baltimore and Washington run all day, every day."
     ],
     "highlights": [
@@ -3972,7 +3972,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -3989,7 +3989,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "What vehicles can I book in Linthicum?",
-        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Lincoln Navigator and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
       },
       {
         "q": "Can I book a late-night or early-morning ride in Linthicum?",
@@ -4045,7 +4045,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -4063,7 +4063,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "What vehicles can I book in Hanover?",
-        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Lincoln Navigator and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
       },
       {
         "q": "Can I book a late-night or early-morning ride in Hanover?",
@@ -4088,7 +4088,7 @@ export const GENERATED_LANDING_PAGES = {
       "Searching for a dependable limo service in Gambrills, MD? 92 Limo Service brings chauffeured luxury transportation to Anne Arundel County — covering Waugh Chapel, Maple Ridge, and the Route 3 corridor — with airport transfers, corporate travel, weddings, and nights out all handled by the same professional team. Every trip is confirmed in advance with a flat, transparent quote and driven by a background-checked chauffeur in a late-model luxury vehicle.",
       "Airport runs are where most Gambrills clients meet us. From Gambrills, BWI Marshall Airport is roughly 13 miles away — about 20 minutes via MD-3 and MD-424. Your chauffeur tracks the flight in real time, adjusts automatically for delays, loads every bag, and includes generous wait time on arrivals — so an early landing or a slow baggage carousel never becomes your problem.",
       "Local knowledge is the difference between on time and almost on time. Our chauffeurs know Waugh Chapel Towne Centre, Bacon Ridge, and the Crofton line, and they plan around school traffic, event closures, and rush hour on MD-3 and MD-424 before you ever feel it. You get one number to call, one trusted team, and the same polished standard on every ride.",
-      "Pick the vehicle that fits: a Mercedes E-Class or BMW 7 Series for executive travel, a Cadillac Escalade or Chevrolet Suburban for families and luggage, or a Mercedes Sprinter van that keeps up to 14 people together. Every vehicle arrives detailed and stocked with water — call (877) 609-1919 any hour to reserve.",
+      "Pick the vehicle that fits: a Mercedes E-Class or BMW 7 Series for executive travel, a Lincoln Navigator or Chevrolet Suburban for families and luggage, or a Mercedes Sprinter van that keeps up to 14 people together. Every vehicle arrives detailed and stocked with water — call (877) 609-1919 any hour to reserve.",
       "Gambrills blends Waugh Chapel's shopping and restaurants with quiet horse-country roads, and our chauffeurs know both sides of it. We cover date nights, winery outings, BWI departures, and group runs into Annapolis and Washington."
     ],
     "highlights": [
@@ -4119,7 +4119,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -4137,7 +4137,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "What vehicles can I book in Gambrills?",
-        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Lincoln Navigator and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
       },
       {
         "q": "Can I book a late-night or early-morning ride in Gambrills?",
@@ -4194,7 +4194,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -4211,7 +4211,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "What vehicles can I book in Gibson Island?",
-        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Lincoln Navigator and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
       },
       {
         "q": "Can I book a late-night or early-morning ride in Gibson Island?",
@@ -4236,7 +4236,7 @@ export const GENERATED_LANDING_PAGES = {
       "From Regency Furniture Stadium, the Waldorf Marketplace corridor, and St. Charles Towne Center, 92 Limo Service covers Waldorf, MD and the rest of Charles County with chauffeured transportation that treats your schedule as the contract. On time, immaculate, flat-rated — that is the standard on every trip, whether it is an airport run or a milestone celebration.",
       "Airport transfers are door-to-door: about 45 minutes to Reagan National via US-301 and MD-5, with BWI Marshall and Dulles served daily as well. Your chauffeur plans the pickup around traffic and check-in windows, tracks return flights in real time, and builds in buffer so you are never cutting it close. Round-trip bookings lock in your ride home before you even take off.",
       "Residents of St. Charles, Westlake, and the Route 301 corridor use us for more than flights: corporate travel, weddings, prom nights, anniversaries, concerts, and safe rides home. One trusted chauffeur partner replaces the rideshare lottery — no cancellations, no surge pricing, no strangers behind the wheel.",
-      "The fleet matches the occasion. Executives ride in the Mercedes E-Class and BMW 7 Series. Families and groups take the Escalade or Suburban. Wedding parties and group outings fill the Mercedes Sprinter — up to 14 seats, luggage and all. Reserve online or call (877) 609-1919, answered 24/7.",
+      "The fleet matches the occasion. Executives ride in the Mercedes E-Class and BMW 7 Series. Families and groups take the Navigator or Suburban. Wedding parties and group outings fill the Mercedes Sprinter — up to 14 seats, luggage and all. Reserve online or call (877) 609-1919, answered 24/7.",
       "Waldorf commuters know the Route 301 corridor can stall without warning — our chauffeurs plan around it before it happens. From Blue Crabs game nights at Regency Furniture Stadium to National Harbor evenings and dawn departures from DCA, we keep Charles County's largest community moving."
     ],
     "highlights": [
@@ -4267,7 +4267,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -4285,7 +4285,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "What vehicles can I book in Waldorf?",
-        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Lincoln Navigator and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
       },
       {
         "q": "Can I book a late-night or early-morning ride in Waldorf?",
@@ -4341,7 +4341,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -4359,7 +4359,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "What vehicles can I book in La Plata?",
-        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Lincoln Navigator and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
       },
       {
         "q": "Can I book a late-night or early-morning ride in La Plata?",
@@ -4384,7 +4384,7 @@ export const GENERATED_LANDING_PAGES = {
       "Searching for a dependable limo service in White Plains, MD? 92 Limo Service brings chauffeured luxury transportation to Charles County — covering the St. Charles southern edge, Billingsley, and the US-301 corridor — with airport transfers, corporate travel, weddings, and nights out all handled by the same professional team. Every trip is confirmed in advance with a flat, transparent quote and driven by a background-checked chauffeur in a late-model luxury vehicle.",
       "Airport runs are where most White Plains clients meet us. From White Plains, Reagan National (DCA) is the closest major airport — about 50 minutes via US-301 and MD-227 — and we serve BWI Marshall and Dulles just as often. Your chauffeur tracks the flight in real time, adjusts automatically for delays, loads every bag, and includes generous wait time on arrivals — so an early landing or a slow baggage carousel never becomes your problem.",
       "Local knowledge is the difference between on time and almost on time. Our chauffeurs know White Plains Regional Park, the golf course, and the Waldorf line, and they plan around school traffic, event closures, and rush hour on US-301 and MD-227 before you ever feel it. You get one number to call, one trusted team, and the same polished standard on every ride.",
-      "Pick the vehicle that fits: a Mercedes E-Class or BMW 7 Series for executive travel, a Cadillac Escalade or Chevrolet Suburban for families and luggage, or a Mercedes Sprinter van that keeps up to 14 people together. Every vehicle arrives detailed and stocked with water — call (877) 609-1919 any hour to reserve.",
+      "Pick the vehicle that fits: a Mercedes E-Class or BMW 7 Series for executive travel, a Lincoln Navigator or Chevrolet Suburban for families and luggage, or a Mercedes Sprinter van that keeps up to 14 people together. Every vehicle arrives detailed and stocked with water — call (877) 609-1919 any hour to reserve.",
       "White Plains sits neatly between Waldorf and La Plata on US-301, and residents here use us as their bridge to everything — airport terminals, National Harbor, downtown Washington dinners, and golf outings at the regional park. Flat quotes mean the Route 301 traffic is our problem, not yours."
     ],
     "highlights": [
@@ -4416,7 +4416,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -4433,7 +4433,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "What vehicles can I book in White Plains?",
-        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Lincoln Navigator and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
       },
       {
         "q": "Can I book a late-night or early-morning ride in White Plains?",
@@ -4489,7 +4489,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -4507,7 +4507,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "What vehicles can I book in Hagerstown?",
-        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Lincoln Navigator and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
       },
       {
         "q": "Can I book a late-night or early-morning ride in Hagerstown?",
@@ -4532,7 +4532,7 @@ export const GENERATED_LANDING_PAGES = {
       "From Baker Park, Nymeo Field, and the Golden Mile, 92 Limo Service covers Frederick, MD and the rest of Frederick County with chauffeured transportation that treats your schedule as the contract. On time, immaculate, flat-rated — that is the standard on every trip, whether it is an airport run or a milestone celebration.",
       "Airport transfers are door-to-door: about 60 minutes to BWI Marshall via I-70 and US-15, with Reagan National, Dulles, and Philadelphia also served daily. Your chauffeur plans the pickup around traffic and check-in windows, tracks return flights in real time, and builds in buffer so you are never cutting it close. Round-trip bookings lock in your ride home before you even take off.",
       "Residents of downtown Frederick, Urbana, Ballenger Creek, and Spring Ridge use us for more than flights: corporate travel, weddings, prom nights, anniversaries, concerts, and safe rides home. One trusted chauffeur partner replaces the rideshare lottery — no cancellations, no surge pricing, no strangers behind the wheel.",
-      "The fleet matches the occasion. Executives ride in the Mercedes E-Class and BMW 7 Series. Families and groups take the Escalade or Suburban. Wedding parties and group outings fill the Mercedes Sprinter — up to 14 seats, luggage and all. Reserve online or call (877) 609-1919, answered 24/7.",
+      "The fleet matches the occasion. Executives ride in the Mercedes E-Class and BMW 7 Series. Families and groups take the Navigator or Suburban. Wedding parties and group outings fill the Mercedes Sprinter — up to 14 seats, luggage and all. Reserve online or call (877) 609-1919, answered 24/7.",
       "Frederick's growth from Ballenger Creek to Urbana has outpaced its transportation options, and we fill that gap with flat-rate airport runs and polished evening service downtown. Wedding parties book our Sprinters for the county's barn and vineyard venues months in advance."
     ],
     "highlights": [
@@ -4563,7 +4563,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -4581,7 +4581,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "What vehicles can I book in Frederick?",
-        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Lincoln Navigator and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
       },
       {
         "q": "Can I book a late-night or early-morning ride in Frederick?",
@@ -4638,7 +4638,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -4655,7 +4655,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "What vehicles can I book in Salisbury?",
-        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Lincoln Navigator and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
       },
       {
         "q": "Can I book a late-night or early-morning ride in Salisbury?",
@@ -4680,7 +4680,7 @@ export const GENERATED_LANDING_PAGES = {
       "Searching for a dependable limo service in Easton, MD? 92 Limo Service brings chauffeured luxury transportation to Talbot County — covering downtown Easton, Easton Club, and the Oxford Road corridor — with airport transfers, corporate travel, weddings, and nights out all handled by the same professional team. Every trip is confirmed in advance with a flat, transparent quote and driven by a background-checked chauffeur in a late-model luxury vehicle.",
       "Airport runs are where most Easton clients meet us. From Easton, BWI Marshall Airport is roughly 60 miles away — about 70 minutes via US-50 and the Bay Bridge. Your chauffeur tracks the flight in real time, adjusts automatically for delays, loads every bag, and includes generous wait time on arrivals — so an early landing or a slow baggage carousel never becomes your problem.",
       "Local knowledge is the difference between on time and almost on time. Our chauffeurs know the Avalon Theatre, Easton Airport, and the Talbot County courthouse, and they plan around school traffic, event closures, and rush hour on US-50 and the Bay Bridge before you ever feel it. You get one number to call, one trusted team, and the same polished standard on every ride.",
-      "Pick the vehicle that fits: a Mercedes E-Class or BMW 7 Series for executive travel, a Cadillac Escalade or Chevrolet Suburban for families and luggage, or a Mercedes Sprinter van that keeps up to 14 people together. Every vehicle arrives detailed and stocked with water — call (877) 609-1919 any hour to reserve.",
+      "Pick the vehicle that fits: a Mercedes E-Class or BMW 7 Series for executive travel, a Lincoln Navigator or Chevrolet Suburban for families and luggage, or a Mercedes Sprinter van that keeps up to 14 people together. Every vehicle arrives detailed and stocked with water — call (877) 609-1919 any hour to reserve.",
       "Easton anchors the Mid-Shore's wedding and getaway country — St. Michaels, Oxford, and the Tred Avon are minutes away — and our Sprinters and SUVs are fixtures at its venues. Private-aviation clients at Easton Airport and BWI transfers over the Bay Bridge fill the calendar between celebrations."
     ],
     "highlights": [
@@ -4711,7 +4711,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -4729,7 +4729,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "What vehicles can I book in Easton?",
-        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Lincoln Navigator and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
       },
       {
         "q": "Can I book a late-night or early-morning ride in Easton?",
@@ -4785,7 +4785,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -4803,7 +4803,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "What vehicles can I book in Cambridge?",
-        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Lincoln Navigator and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
       },
       {
         "q": "Can I book a late-night or early-morning ride in Cambridge?",
@@ -4828,7 +4828,7 @@ export const GENERATED_LANDING_PAGES = {
       "From Delaware State University, Bally's Dover, and the Dover Motor Speedway, 92 Limo Service covers Dover, DE and the rest of Kent County with chauffeured transportation that treats your schedule as the contract. On time, immaculate, flat-rated — that is the standard on every trip, whether it is an airport run or a milestone celebration.",
       "Airport transfers are door-to-door: about 85 minutes to BWI Marshall via DE-1 and US-13, with Reagan National, Dulles, and Philadelphia also served daily. Your chauffeur plans the pickup around traffic and check-in windows, tracks return flights in real time, and builds in buffer so you are never cutting it close. Round-trip bookings lock in your ride home before you even take off.",
       "Residents of downtown Dover, the Capitol district, and the Route 13 corridor use us for more than flights: corporate travel, weddings, prom nights, anniversaries, concerts, and safe rides home. One trusted chauffeur partner replaces the rideshare lottery — no cancellations, no surge pricing, no strangers behind the wheel.",
-      "The fleet matches the occasion. Executives ride in the Mercedes E-Class and BMW 7 Series. Families and groups take the Escalade or Suburban. Wedding parties and group outings fill the Mercedes Sprinter — up to 14 seats, luggage and all. Reserve online or call (877) 609-1919, answered 24/7.",
+      "The fleet matches the occasion. Executives ride in the Mercedes E-Class and BMW 7 Series. Families and groups take the Navigator or Suburban. Wedding parties and group outings fill the Mercedes Sprinter — up to 14 seats, luggage and all. Reserve online or call (877) 609-1919, answered 24/7.",
       "Dover's rhythm runs from Delaware State University weekends to race weeks at the Motor Speedway, and we scale with it — sedans for Capitol-district professionals, Sprinters for NASCAR groups and casino evenings at Bally's. BWI and Philadelphia transfers are both daily runs."
     ],
     "highlights": [
@@ -4860,7 +4860,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -4877,7 +4877,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "What vehicles can I book in Dover?",
-        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Lincoln Navigator and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
       },
       {
         "q": "Can I book a late-night or early-morning ride in Dover?",
@@ -4933,7 +4933,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -4951,7 +4951,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "What vehicles can I book in Rehoboth Beach?",
-        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Lincoln Navigator and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
       },
       {
         "q": "Can I book a late-night or early-morning ride in Rehoboth Beach?",
@@ -4976,7 +4976,7 @@ export const GENERATED_LANDING_PAGES = {
       "Searching for a dependable limo service in York, PA? 92 Limo Service brings chauffeured luxury transportation to York County — covering downtown York, Springettsbury, and East York — with airport transfers, corporate travel, weddings, and nights out all handled by the same professional team. Every trip is confirmed in advance with a flat, transparent quote and driven by a background-checked chauffeur in a late-model luxury vehicle.",
       "Airport runs are where most York clients meet us. From York, BWI Marshall Airport is roughly 55 miles away — about 60 minutes via I-83. Your chauffeur tracks the flight in real time, adjusts automatically for delays, loads every bag, and includes generous wait time on arrivals — so an early landing or a slow baggage carousel never becomes your problem.",
       "Local knowledge is the difference between on time and almost on time. Our chauffeurs know PeoplesBank Park, Central Market, and the York Fairgrounds, and they plan around school traffic, event closures, and rush hour on I-83 before you ever feel it. You get one number to call, one trusted team, and the same polished standard on every ride.",
-      "Pick the vehicle that fits: a Mercedes E-Class or BMW 7 Series for executive travel, a Cadillac Escalade or Chevrolet Suburban for families and luggage, or a Mercedes Sprinter van that keeps up to 14 people together. Every vehicle arrives detailed and stocked with water — call (877) 609-1919 any hour to reserve.",
+      "Pick the vehicle that fits: a Mercedes E-Class or BMW 7 Series for executive travel, a Lincoln Navigator or Chevrolet Suburban for families and luggage, or a Mercedes Sprinter van that keeps up to 14 people together. Every vehicle arrives detailed and stocked with water — call (877) 609-1919 any hour to reserve.",
       "York riders split between business travel — the I-83 corridor to BWI is our most common run — and celebrations at the fairgrounds, PeoplesBank Park, and downtown's Central Market district. Wedding season fills our Sprinters for venues across the county."
     ],
     "highlights": [
@@ -5007,7 +5007,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -5025,7 +5025,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "What vehicles can I book in York?",
-        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Lincoln Navigator and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
       },
       {
         "q": "Can I book a late-night or early-morning ride in York?",
@@ -5082,7 +5082,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -5099,7 +5099,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "What vehicles can I book in Lancaster?",
-        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Lincoln Navigator and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
       },
       {
         "q": "Can I book a late-night or early-morning ride in Lancaster?",
@@ -5124,7 +5124,7 @@ export const GENERATED_LANDING_PAGES = {
       "From the PA Farm Show Complex, Riverfront Park, and the Capitol complex, 92 Limo Service covers Harrisburg, PA and the rest of Dauphin County with chauffeured transportation that treats your schedule as the contract. On time, immaculate, flat-rated — that is the standard on every trip, whether it is an airport run or a milestone celebration.",
       "Airport transfers are door-to-door: about 90 minutes to BWI Marshall via I-83, with Reagan National, Dulles, and Philadelphia also served daily. Your chauffeur plans the pickup around traffic and check-in windows, tracks return flights in real time, and builds in buffer so you are never cutting it close. Round-trip bookings lock in your ride home before you even take off.",
       "Residents of downtown Harrisburg, Uptown, and the West Shore use us for more than flights: corporate travel, weddings, prom nights, anniversaries, concerts, and safe rides home. One trusted chauffeur partner replaces the rideshare lottery — no cancellations, no surge pricing, no strangers behind the wheel.",
-      "The fleet matches the occasion. Executives ride in the Mercedes E-Class and BMW 7 Series. Families and groups take the Escalade or Suburban. Wedding parties and group outings fill the Mercedes Sprinter — up to 14 seats, luggage and all. Reserve online or call (877) 609-1919, answered 24/7.",
+      "The fleet matches the occasion. Executives ride in the Mercedes E-Class and BMW 7 Series. Families and groups take the Navigator or Suburban. Wedding parties and group outings fill the Mercedes Sprinter — up to 14 seats, luggage and all. Reserve online or call (877) 609-1919, answered 24/7.",
       "From the Capitol complex to the Farm Show's biggest weeks, Harrisburg keeps a chauffeur service busy — and ours shows up early every time. We bridge the gap to BWI's nonstop routes with flat-rate I-83 transfers and cover Hershey's venues just up the road."
     ],
     "highlights": [
@@ -5155,7 +5155,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -5173,7 +5173,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "What vehicles can I book in Harrisburg?",
-        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalade and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
+        "a": "Mercedes E-Class and BMW 7 Series sedans for business travel, Lincoln Navigator and Chevrolet Suburban SUVs for families and luggage, and Mercedes Sprinter vans seating up to 14 for group trips, weddings, and tours."
       },
       {
         "q": "Can I book a late-night or early-morning ride in Harrisburg?",
@@ -5198,7 +5198,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service provides premium airport car service to and from BWI Marshall Airport — 24 hours a day, 365 days a year. Your chauffeur tracks the flight, meets you at baggage claim or curbside, handles every bag, and drives a spotless luxury vehicle to your door. No shuttles, no shared vans, no surge pricing.",
       "Arrivals are effortless. We monitor your inbound flight in real time, so an early landing or a two-hour delay changes nothing — your vehicle is staged when you walk out. Choose curbside pickup or an optional inside meet-and-greet with a name sign (additional charge), and enjoy generous complimentary wait time while you clear baggage claim.",
       "Departures run just as smoothly. We calculate your pickup around traffic and check-in windows, build in buffer time, and get you to BWI Marshall Airport relaxed rather than rushed. We serve every BWI terminal and the nearby hotels, park-and-rides, and Amtrak station.",
-      "Ride your way: Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalades and Suburbans for families with luggage, and Mercedes Sprinter vans that keep groups of up to 14 together. Every trip is quoted as a flat, transparent rate before you book."
+      "Ride your way: Mercedes E-Class and BMW 7 Series sedans for business travel, Lincoln Navigators and Suburbans for families with luggage, and Mercedes Sprinter vans that keep groups of up to 14 together. Every trip is quoted as a flat, transparent rate before you book."
     ],
     "highlights": [
       {
@@ -5229,7 +5229,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -5269,7 +5269,7 @@ export const GENERATED_LANDING_PAGES = {
       {
         "heading": "Choosing the Right Vehicle for Your BWI Trip",
         "paragraphs": [
-          "A solo business traveler or couple is usually best served by a Business Sedan (Mercedes E-Class) or First Class Sedan (BMW 7 Series) — easy curb access and quick luggage handling. Families or small groups with full-size bags typically prefer a Premium SUV (Cadillac Escalade) or Luxury SUV (Chevrolet Suburban), and groups of up to 13 or 14 traveling together book a Sprinter Executive or Sprinter Shuttle van, priced per vehicle rather than per seat.",
+          "A solo business traveler or couple is usually best served by a Business Sedan (Mercedes E-Class) or First Class Sedan (BMW 7 Series) — easy curb access and quick luggage handling. Families or small groups with full-size bags typically prefer a Premium SUV (Lincoln Navigator) or Luxury SUV (Chevrolet Suburban), and groups of up to 13 or 14 traveling together book a Sprinter Executive or Sprinter Shuttle van, priced per vehicle rather than per seat.",
           "Not sure which fits? Call (877) 609-1919 and a reservation specialist will recommend a vehicle based on your party size, luggage and the specific BWI terminal you're using."
         ]
       }
@@ -5334,7 +5334,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -5380,7 +5380,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service provides premium private shuttle service to and from BWI Marshall Airport — 24 hours a day, 365 days a year. Your chauffeur tracks the flight, meets you at baggage claim or curbside, handles every bag, and drives a spotless luxury vehicle to your door. No shuttles, no shared vans, no surge pricing.",
       "Arrivals are effortless. We monitor your inbound flight in real time, so an early landing or a two-hour delay changes nothing — your vehicle is staged when you walk out. Choose curbside pickup or an optional inside meet-and-greet with a name sign (additional charge), and enjoy generous complimentary wait time while you clear baggage claim.",
       "Departures run just as smoothly. We calculate your pickup around traffic and check-in windows, build in buffer time, and get you to BWI Marshall Airport relaxed rather than rushed. We serve every BWI terminal and the nearby hotels, park-and-rides, and Amtrak station.",
-      "Ride your way: Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalades and Suburbans for families with luggage, and Mercedes Sprinter vans that keep groups of up to 14 together. Every trip is quoted as a flat, transparent rate before you book."
+      "Ride your way: Mercedes E-Class and BMW 7 Series sedans for business travel, Lincoln Navigators and Suburbans for families with luggage, and Mercedes Sprinter vans that keep groups of up to 14 together. Every trip is quoted as a flat, transparent rate before you book."
     ],
     "highlights": [
       {
@@ -5411,7 +5411,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -5488,7 +5488,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -5534,7 +5534,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service provides premium airport car service to and from Reagan National Airport (DCA) — 24 hours a day, 365 days a year. Your chauffeur tracks the flight, meets you at baggage claim or curbside, handles every bag, and drives a spotless luxury vehicle to your door. No shuttles, no shared vans, no surge pricing.",
       "Arrivals are effortless. We monitor your inbound flight in real time, so an early landing or a two-hour delay changes nothing — your vehicle is staged when you walk out. Choose curbside pickup or an optional inside meet-and-greet with a name sign (additional charge), and enjoy generous complimentary wait time while you clear baggage claim.",
       "Departures run just as smoothly. We calculate your pickup around traffic and check-in windows, build in buffer time, and get you to Reagan National Airport (DCA) relaxed rather than rushed. We serve every DCA terminal, plus Crystal City and Pentagon City hotels.",
-      "Ride your way: Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalades and Suburbans for families with luggage, and Mercedes Sprinter vans that keep groups of up to 14 together. Every trip is quoted as a flat, transparent rate before you book."
+      "Ride your way: Mercedes E-Class and BMW 7 Series sedans for business travel, Lincoln Navigators and Suburbans for families with luggage, and Mercedes Sprinter vans that keep groups of up to 14 together. Every trip is quoted as a flat, transparent rate before you book."
     ],
     "highlights": [
       {
@@ -5565,7 +5565,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -5659,7 +5659,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -5705,7 +5705,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service provides premium airport car service to and from Dulles International Airport (IAD) — 24 hours a day, 365 days a year. Your chauffeur tracks the flight, meets you at baggage claim or curbside, handles every bag, and drives a spotless luxury vehicle to your door. No shuttles, no shared vans, no surge pricing.",
       "Arrivals are effortless. We monitor your inbound flight in real time, so an early landing or a two-hour delay changes nothing — your vehicle is staged when you walk out. Choose curbside pickup or an optional inside meet-and-greet with a name sign (additional charge), and enjoy generous complimentary wait time while you clear baggage claim.",
       "Departures run just as smoothly. We calculate your pickup around traffic and check-in windows, build in buffer time, and get you to Dulles International Airport (IAD) relaxed rather than rushed. We serve every IAD terminal and the Dulles-corridor hotels and offices.",
-      "Ride your way: Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalades and Suburbans for families with luggage, and Mercedes Sprinter vans that keep groups of up to 14 together. Every trip is quoted as a flat, transparent rate before you book."
+      "Ride your way: Mercedes E-Class and BMW 7 Series sedans for business travel, Lincoln Navigators and Suburbans for families with luggage, and Mercedes Sprinter vans that keep groups of up to 14 together. Every trip is quoted as a flat, transparent rate before you book."
     ],
     "highlights": [
       {
@@ -5736,7 +5736,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -5830,7 +5830,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -5876,7 +5876,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service provides premium limo service to and from all three DC-area airports for Washington DC travelers — 24 hours a day, 365 days a year. Your chauffeur tracks the flight, meets you at baggage claim or curbside, handles every bag, and drives a spotless luxury vehicle to your door. No shuttles, no shared vans, no surge pricing.",
       "Arrivals are effortless. We monitor your inbound flight in real time, so an early landing or a two-hour delay changes nothing — your vehicle is staged when you walk out. Choose curbside pickup or an optional inside meet-and-greet with a name sign (additional charge), and enjoy generous complimentary wait time while you clear baggage claim.",
       "Departures run just as smoothly. We calculate your pickup around traffic and check-in windows, build in buffer time, and get you to all three DC-area airports relaxed rather than rushed. We serve every DCA terminal, plus Crystal City and Pentagon City hotels.",
-      "Ride your way: Mercedes E-Class and BMW 7 Series sedans for business travel, Cadillac Escalades and Suburbans for families with luggage, and Mercedes Sprinter vans that keep groups of up to 14 together. Every trip is quoted as a flat, transparent rate before you book."
+      "Ride your way: Mercedes E-Class and BMW 7 Series sedans for business travel, Lincoln Navigators and Suburbans for families with luggage, and Mercedes Sprinter vans that keep groups of up to 14 together. Every trip is quoted as a flat, transparent rate before you book."
     ],
     "highlights": [
       {
@@ -5907,7 +5907,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -5952,7 +5952,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "92 Limo Service delivers wedding limo service across Maryland that actually lives up to the occasion. From waterfront venues in Annapolis, barns in Frederick County, and downtown Baltimore hotels, we cover ceremonies, receptions, and send-offs with immaculate luxury vehicles, professional chauffeurs, and flat transparent pricing.",
       "Every detail is planned in advance: pickup times that fit your schedule, routes that dodge traffic, and a chauffeur who arrives early and stays flexible. You will never watch a surge-price countdown or wonder if the driver will show.",
-      "Groups are our strength. Our Cadillac Escalades and Suburbans carry up to six in comfort, and our Mercedes Sprinter vans keep parties of up to 14 together — no splitting the group across rideshares, no one left waiting.",
+      "Groups are our strength. Our Lincoln Navigators and Suburbans carry up to six in comfort, and our Mercedes Sprinter vans keep parties of up to 14 together — no splitting the group across rideshares, no one left waiting.",
       "Booking takes minutes: request a quote online or call (877) 609-1919, approve a flat rate, and consider it handled. That is why Maryland clients use us again and again."
     ],
     "highlights": [
@@ -5962,7 +5962,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "title": "Group-Sized Vehicles",
-        "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
+        "desc": "Navigators, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
         "title": "Flat, Transparent Pricing",
@@ -5982,7 +5982,7 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "vehicles": [
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
       "First Class Sedan — BMW 7 Series"
     ],
@@ -6025,7 +6025,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "Some rides are just transportation. Wedding Car Service from 92 Limo Service is part of the event. We provide chauffeured luxury vehicles for ceremonies, receptions, and guest shuttles throughout Washington DC — polished, punctual, and priced flat.",
       "Tell us the plan and we build the transportation around it: multiple pickups, photo stops, venue timing, late-night returns. Your chauffeur coordinates with you by text, stays reachable all night, and adapts when the schedule moves.",
-      "The fleet fits every version of the night. A BMW 7 Series or S-Class for an elegant arrival. An Escalade for the crew. A Sprinter for the whole party, with room to celebrate on the way. Every vehicle is detailed before pickup and stocked with water.",
+      "The fleet fits every version of the night. A BMW 7 Series or S-Class for an elegant arrival. An Navigator for the crew. A Sprinter for the whole party, with room to celebrate on the way. Every vehicle is detailed before pickup and stocked with water.",
       "We serve DC hotels, historic mansions, and Georgetown venues and everywhere between. One flat quote covers the night — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or book online."
     ],
     "highlights": [
@@ -6035,7 +6035,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "title": "Group-Sized Vehicles",
-        "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
+        "desc": "Navigators, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
         "title": "Flat, Transparent Pricing",
@@ -6055,7 +6055,7 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "vehicles": [
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
       "First Class Sedan — BMW 7 Series"
     ],
@@ -6098,7 +6098,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "92 Limo Service delivers prom limo service across Maryland that actually lives up to the occasion. From high schools across Anne Arundel, Howard, and Montgomery counties, we cover proms, homecomings, and formals with immaculate luxury vehicles, professional chauffeurs, and flat transparent pricing.",
       "Every detail is planned in advance: pickup times that fit your schedule, routes that dodge traffic, and a chauffeur who arrives early and stays flexible. You will never watch a surge-price countdown or wonder if the driver will show.",
-      "Groups are our strength. Our Cadillac Escalades and Suburbans carry up to six in comfort, and our Mercedes Sprinter vans keep parties of up to 14 together — no splitting the group across rideshares, no one left waiting.",
+      "Groups are our strength. Our Lincoln Navigators and Suburbans carry up to six in comfort, and our Mercedes Sprinter vans keep parties of up to 14 together — no splitting the group across rideshares, no one left waiting.",
       "Booking takes minutes: request a quote online or call (877) 609-1919, approve a flat rate, and consider it handled. That is why Maryland clients use us again and again."
     ],
     "highlights": [
@@ -6108,7 +6108,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "title": "Group-Sized Vehicles",
-        "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
+        "desc": "Navigators, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
         "title": "Flat, Transparent Pricing",
@@ -6128,7 +6128,7 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "vehicles": [
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
       "First Class Sedan — BMW 7 Series"
     ],
@@ -6171,7 +6171,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "Some rides are just transportation. Prom Limo from 92 Limo Service is part of the event. We provide chauffeured luxury vehicles for proms, homecomings, and graduations throughout Baltimore — polished, punctual, and priced flat.",
       "Tell us the plan and we build the transportation around it: multiple pickups, photo stops, venue timing, late-night returns. Your chauffeur coordinates with you by text, stays reachable all night, and adapts when the schedule moves.",
-      "The fleet fits every version of the night. A BMW 7 Series or S-Class for an elegant arrival. An Escalade for the crew. A Sprinter for the whole party, with room to celebrate on the way. Every vehicle is detailed before pickup and stocked with water.",
+      "The fleet fits every version of the night. A BMW 7 Series or S-Class for an elegant arrival. An Navigator for the crew. A Sprinter for the whole party, with room to celebrate on the way. Every vehicle is detailed before pickup and stocked with water.",
       "We serve Baltimore City and Baltimore County schools and venues and everywhere between. One flat quote covers the night — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or book online."
     ],
     "highlights": [
@@ -6181,7 +6181,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "title": "Group-Sized Vehicles",
-        "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
+        "desc": "Navigators, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
         "title": "Flat, Transparent Pricing",
@@ -6201,7 +6201,7 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "vehicles": [
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
       "First Class Sedan — BMW 7 Series"
     ],
@@ -6282,7 +6282,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "92 Limo Service delivers corporate limo service across Washington DC that actually lives up to the occasion. From K Street, Capitol Hill, and the convention center, we cover roadshows, board meetings, and client visits with immaculate luxury vehicles, professional chauffeurs, and flat transparent pricing.",
       "Every detail is planned in advance: pickup times that fit your schedule, routes that dodge traffic, and a chauffeur who arrives early and stays flexible. You will never watch a surge-price countdown or wonder if the driver will show.",
-      "Groups are our strength. Our Cadillac Escalades and Suburbans carry up to six in comfort, and our Mercedes Sprinter vans keep parties of up to 14 together — no splitting the group across rideshares, no one left waiting.",
+      "Groups are our strength. Our Lincoln Navigators and Suburbans carry up to six in comfort, and our Mercedes Sprinter vans keep parties of up to 14 together — no splitting the group across rideshares, no one left waiting.",
       "Booking takes minutes: request a quote online or call (877) 609-1919, approve a flat rate, and consider it handled. That is why Washington DC clients use us again and again."
     ],
     "highlights": [
@@ -6292,7 +6292,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "title": "Group-Sized Vehicles",
-        "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
+        "desc": "Navigators, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
         "title": "Flat, Transparent Pricing",
@@ -6314,7 +6314,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -6355,7 +6355,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "Some rides are just transportation. Executive Car Service from 92 Limo Service is part of the event. We provide chauffeured luxury vehicles for executive travel, investor meetings, and airport runs throughout Maryland — polished, punctual, and priced flat.",
       "Tell us the plan and we build the transportation around it: multiple pickups, photo stops, venue timing, late-night returns. Your chauffeur coordinates with you by text, stays reachable all night, and adapts when the schedule moves.",
-      "The fleet fits every version of the night. A BMW 7 Series or S-Class for an elegant arrival. An Escalade for the crew. A Sprinter for the whole party, with room to celebrate on the way. Every vehicle is detailed before pickup and stocked with water.",
+      "The fleet fits every version of the night. A BMW 7 Series or S-Class for an elegant arrival. An Navigator for the crew. A Sprinter for the whole party, with room to celebrate on the way. Every vehicle is detailed before pickup and stocked with water.",
       "We serve Baltimore's business district, Columbia Gateway, and the I-270 corridor and everywhere between. One flat quote covers the night — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or book online."
     ],
     "highlights": [
@@ -6365,7 +6365,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "title": "Group-Sized Vehicles",
-        "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
+        "desc": "Navigators, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
         "title": "Flat, Transparent Pricing",
@@ -6387,7 +6387,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -6428,7 +6428,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "92 Limo Service delivers black car service across Baltimore that actually lives up to the occasion. From Harbor East, the Inner Harbor, and Mount Vernon, we cover business travel, dinners, and airport transfers with immaculate luxury vehicles, professional chauffeurs, and flat transparent pricing.",
       "Every detail is planned in advance: pickup times that fit your schedule, routes that dodge traffic, and a chauffeur who arrives early and stays flexible. You will never watch a surge-price countdown or wonder if the driver will show.",
-      "Groups are our strength. Our Cadillac Escalades and Suburbans carry up to six in comfort, and our Mercedes Sprinter vans keep parties of up to 14 together — no splitting the group across rideshares, no one left waiting.",
+      "Groups are our strength. Our Lincoln Navigators and Suburbans carry up to six in comfort, and our Mercedes Sprinter vans keep parties of up to 14 together — no splitting the group across rideshares, no one left waiting.",
       "Booking takes minutes: request a quote online or call (877) 609-1919, approve a flat rate, and consider it handled. That is why Baltimore clients use us again and again."
     ],
     "highlights": [
@@ -6438,7 +6438,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "title": "Group-Sized Vehicles",
-        "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
+        "desc": "Navigators, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
         "title": "Flat, Transparent Pricing",
@@ -6460,7 +6460,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -6501,7 +6501,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "Some rides are just transportation. Black Car Service from 92 Limo Service is part of the event. We provide chauffeured luxury vehicles for government, legal, and business travel throughout Washington DC — polished, punctual, and priced flat.",
       "Tell us the plan and we build the transportation around it: multiple pickups, photo stops, venue timing, late-night returns. Your chauffeur coordinates with you by text, stays reachable all night, and adapts when the schedule moves.",
-      "The fleet fits every version of the night. A BMW 7 Series or S-Class for an elegant arrival. An Escalade for the crew. A Sprinter for the whole party, with room to celebrate on the way. Every vehicle is detailed before pickup and stocked with water.",
+      "The fleet fits every version of the night. A BMW 7 Series or S-Class for an elegant arrival. An Navigator for the crew. A Sprinter for the whole party, with room to celebrate on the way. Every vehicle is detailed before pickup and stocked with water.",
       "We serve downtown DC, the Wharf, and Navy Yard and everywhere between. One flat quote covers the night — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or book online."
     ],
     "highlights": [
@@ -6511,7 +6511,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "title": "Group-Sized Vehicles",
-        "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
+        "desc": "Navigators, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
         "title": "Flat, Transparent Pricing",
@@ -6533,7 +6533,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -6574,7 +6574,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "92 Limo Service delivers luxury car service across Maryland that actually lives up to the occasion. From fine dining, theaters, and waterfront venues statewide, we cover special occasions, date nights, and VIP travel with immaculate luxury vehicles, professional chauffeurs, and flat transparent pricing.",
       "Every detail is planned in advance: pickup times that fit your schedule, routes that dodge traffic, and a chauffeur who arrives early and stays flexible. You will never watch a surge-price countdown or wonder if the driver will show.",
-      "Groups are our strength. Our Cadillac Escalades and Suburbans carry up to six in comfort, and our Mercedes Sprinter vans keep parties of up to 14 together — no splitting the group across rideshares, no one left waiting.",
+      "Groups are our strength. Our Lincoln Navigators and Suburbans carry up to six in comfort, and our Mercedes Sprinter vans keep parties of up to 14 together — no splitting the group across rideshares, no one left waiting.",
       "Booking takes minutes: request a quote online or call (877) 609-1919, approve a flat rate, and consider it handled. That is why Maryland clients use us again and again."
     ],
     "highlights": [
@@ -6584,7 +6584,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "title": "Group-Sized Vehicles",
-        "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
+        "desc": "Navigators, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
         "title": "Flat, Transparent Pricing",
@@ -6606,7 +6606,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -6647,7 +6647,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "Some rides are just transportation. Chauffeur Service from 92 Limo Service is part of the event. We provide chauffeured luxury vehicles for hourly hires, events, and airport travel throughout Baltimore — polished, punctual, and priced flat.",
       "Tell us the plan and we build the transportation around it: multiple pickups, photo stops, venue timing, late-night returns. Your chauffeur coordinates with you by text, stays reachable all night, and adapts when the schedule moves.",
-      "The fleet fits every version of the night. A BMW 7 Series or S-Class for an elegant arrival. An Escalade for the crew. A Sprinter for the whole party, with room to celebrate on the way. Every vehicle is detailed before pickup and stocked with water.",
+      "The fleet fits every version of the night. A BMW 7 Series or S-Class for an elegant arrival. An Navigator for the crew. A Sprinter for the whole party, with room to celebrate on the way. Every vehicle is detailed before pickup and stocked with water.",
       "We serve the Inner Harbor, Fells Point, and Baltimore County and everywhere between. One flat quote covers the night — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or book online."
     ],
     "highlights": [
@@ -6657,7 +6657,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "title": "Group-Sized Vehicles",
-        "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
+        "desc": "Navigators, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
         "title": "Flat, Transparent Pricing",
@@ -6679,7 +6679,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -6720,7 +6720,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "92 Limo Service delivers chauffeur service across Washington DC that actually lives up to the occasion. From Georgetown, Capitol Hill, and Dupont Circle, we cover hourly hires, embassy visits, and evening events with immaculate luxury vehicles, professional chauffeurs, and flat transparent pricing.",
       "Every detail is planned in advance: pickup times that fit your schedule, routes that dodge traffic, and a chauffeur who arrives early and stays flexible. You will never watch a surge-price countdown or wonder if the driver will show.",
-      "Groups are our strength. Our Cadillac Escalades and Suburbans carry up to six in comfort, and our Mercedes Sprinter vans keep parties of up to 14 together — no splitting the group across rideshares, no one left waiting.",
+      "Groups are our strength. Our Lincoln Navigators and Suburbans carry up to six in comfort, and our Mercedes Sprinter vans keep parties of up to 14 together — no splitting the group across rideshares, no one left waiting.",
       "Booking takes minutes: request a quote online or call (877) 609-1919, approve a flat rate, and consider it handled. That is why Washington DC clients use us again and again."
     ],
     "highlights": [
@@ -6730,7 +6730,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "title": "Group-Sized Vehicles",
-        "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
+        "desc": "Navigators, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
         "title": "Flat, Transparent Pricing",
@@ -6752,7 +6752,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -6793,7 +6793,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "Some rides are just transportation. Birthday Limo Service from 92 Limo Service is part of the event. We provide chauffeured luxury vehicles for milestone birthdays, surprise pickups, and nights out throughout Maryland — polished, punctual, and priced flat.",
       "Tell us the plan and we build the transportation around it: multiple pickups, photo stops, venue timing, late-night returns. Your chauffeur coordinates with you by text, stays reachable all night, and adapts when the schedule moves.",
-      "The fleet fits every version of the night. A BMW 7 Series or S-Class for an elegant arrival. An Escalade for the crew. A Sprinter for the whole party, with room to celebrate on the way. Every vehicle is detailed before pickup and stocked with water.",
+      "The fleet fits every version of the night. A BMW 7 Series or S-Class for an elegant arrival. An Navigator for the crew. A Sprinter for the whole party, with room to celebrate on the way. Every vehicle is detailed before pickup and stocked with water.",
       "We serve restaurants, rooftop bars, and casinos across the state and everywhere between. One flat quote covers the night — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or book online."
     ],
     "highlights": [
@@ -6803,7 +6803,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "title": "Group-Sized Vehicles",
-        "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
+        "desc": "Navigators, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
         "title": "Flat, Transparent Pricing",
@@ -6823,7 +6823,7 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "vehicles": [
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
       "First Class Sedan — BMW 7 Series"
     ],
@@ -6866,7 +6866,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "92 Limo Service delivers bachelorette party limo service across Maryland and DC that actually lives up to the occasion. From Fells Point, the Wharf, and Maryland wine country, we cover bachelorette and bachelor parties, winery crawls, and club nights with immaculate luxury vehicles, professional chauffeurs, and flat transparent pricing.",
       "Every detail is planned in advance: pickup times that fit your schedule, routes that dodge traffic, and a chauffeur who arrives early and stays flexible. You will never watch a surge-price countdown or wonder if the driver will show.",
-      "Groups are our strength. Our Cadillac Escalades and Suburbans carry up to six in comfort, and our Mercedes Sprinter vans keep parties of up to 14 together — no splitting the group across rideshares, no one left waiting.",
+      "Groups are our strength. Our Lincoln Navigators and Suburbans carry up to six in comfort, and our Mercedes Sprinter vans keep parties of up to 14 together — no splitting the group across rideshares, no one left waiting.",
       "Booking takes minutes: request a quote online or call (877) 609-1919, approve a flat rate, and consider it handled. That is why Maryland and DC clients use us again and again."
     ],
     "highlights": [
@@ -6876,7 +6876,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "title": "Group-Sized Vehicles",
-        "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
+        "desc": "Navigators, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
         "title": "Flat, Transparent Pricing",
@@ -6896,7 +6896,7 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "vehicles": [
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
       "First Class Sedan — BMW 7 Series"
     ],
@@ -6939,7 +6939,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "Some rides are just transportation. Wine Tour Limo from 92 Limo Service is part of the event. We provide chauffeured luxury vehicles for winery tours, brewery crawls, and vineyard weddings throughout Maryland — polished, punctual, and priced flat.",
       "Tell us the plan and we build the transportation around it: multiple pickups, photo stops, venue timing, late-night returns. Your chauffeur coordinates with you by text, stays reachable all night, and adapts when the schedule moves.",
-      "The fleet fits every version of the night. A BMW 7 Series or S-Class for an elegant arrival. An Escalade for the crew. A Sprinter for the whole party, with room to celebrate on the way. Every vehicle is detailed before pickup and stocked with water.",
+      "The fleet fits every version of the night. A BMW 7 Series or S-Class for an elegant arrival. An Navigator for the crew. A Sprinter for the whole party, with room to celebrate on the way. Every vehicle is detailed before pickup and stocked with water.",
       "We serve Boordy Vineyards, Black Ankle, and Linganore wine country and everywhere between. One flat quote covers the night — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or book online."
     ],
     "highlights": [
@@ -6949,7 +6949,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "title": "Group-Sized Vehicles",
-        "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
+        "desc": "Navigators, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
         "title": "Flat, Transparent Pricing",
@@ -6970,7 +6970,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -7012,7 +7012,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "92 Limo Service delivers casino limo service across Maryland and DC that actually lives up to the occasion. From Live! Casino, MGM National Harbor, and Horseshoe Baltimore, we cover casino nights, poker runs, and group outings with immaculate luxury vehicles, professional chauffeurs, and flat transparent pricing.",
       "Every detail is planned in advance: pickup times that fit your schedule, routes that dodge traffic, and a chauffeur who arrives early and stays flexible. You will never watch a surge-price countdown or wonder if the driver will show.",
-      "Groups are our strength. Our Cadillac Escalades and Suburbans carry up to six in comfort, and our Mercedes Sprinter vans keep parties of up to 14 together — no splitting the group across rideshares, no one left waiting.",
+      "Groups are our strength. Our Lincoln Navigators and Suburbans carry up to six in comfort, and our Mercedes Sprinter vans keep parties of up to 14 together — no splitting the group across rideshares, no one left waiting.",
       "Booking takes minutes: request a quote online or call (877) 609-1919, approve a flat rate, and consider it handled. That is why Maryland and DC clients use us again and again."
     ],
     "highlights": [
@@ -7022,7 +7022,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "title": "Group-Sized Vehicles",
-        "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
+        "desc": "Navigators, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
         "title": "Flat, Transparent Pricing",
@@ -7043,7 +7043,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -7085,7 +7085,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "Some rides are just transportation. Concert Limo Service from 92 Limo Service is part of the event. We provide chauffeured luxury vehicles for concerts, shows, and festival nights throughout Washington DC — polished, punctual, and priced flat.",
       "Tell us the plan and we build the transportation around it: multiple pickups, photo stops, venue timing, late-night returns. Your chauffeur coordinates with you by text, stays reachable all night, and adapts when the schedule moves.",
-      "The fleet fits every version of the night. A BMW 7 Series or S-Class for an elegant arrival. An Escalade for the crew. A Sprinter for the whole party, with room to celebrate on the way. Every vehicle is detailed before pickup and stocked with water.",
+      "The fleet fits every version of the night. A BMW 7 Series or S-Class for an elegant arrival. An Navigator for the crew. A Sprinter for the whole party, with room to celebrate on the way. Every vehicle is detailed before pickup and stocked with water.",
       "We serve Capital One Arena, the Anthem, and Merriweather Post Pavilion and everywhere between. One flat quote covers the night — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or book online."
     ],
     "highlights": [
@@ -7095,7 +7095,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "title": "Group-Sized Vehicles",
-        "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
+        "desc": "Navigators, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
         "title": "Flat, Transparent Pricing",
@@ -7116,7 +7116,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -7158,7 +7158,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "92 Limo Service delivers sports event transportation across Washington DC that actually lives up to the occasion. From Capital One Arena, Nationals Park, Audi Field, and FedEx Field, we cover game days, tailgates, and championship nights with immaculate luxury vehicles, professional chauffeurs, and flat transparent pricing.",
       "Every detail is planned in advance: pickup times that fit your schedule, routes that dodge traffic, and a chauffeur who arrives early and stays flexible. You will never watch a surge-price countdown or wonder if the driver will show.",
-      "Groups are our strength. Our Cadillac Escalades and Suburbans carry up to six in comfort, and our Mercedes Sprinter vans keep parties of up to 14 together — no splitting the group across rideshares, no one left waiting.",
+      "Groups are our strength. Our Lincoln Navigators and Suburbans carry up to six in comfort, and our Mercedes Sprinter vans keep parties of up to 14 together — no splitting the group across rideshares, no one left waiting.",
       "Booking takes minutes: request a quote online or call (877) 609-1919, approve a flat rate, and consider it handled. That is why Washington DC clients use us again and again."
     ],
     "highlights": [
@@ -7168,7 +7168,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "title": "Group-Sized Vehicles",
-        "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
+        "desc": "Navigators, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
         "title": "Flat, Transparent Pricing",
@@ -7189,7 +7189,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -7231,7 +7231,7 @@ export const GENERATED_LANDING_PAGES = {
     "intro": [
       "Some rides are just transportation. Graduation Limo Service from 92 Limo Service is part of the event. We provide chauffeured luxury vehicles for commencements, family celebrations, and campus pickups throughout Maryland — polished, punctual, and priced flat.",
       "Tell us the plan and we build the transportation around it: multiple pickups, photo stops, venue timing, late-night returns. Your chauffeur coordinates with you by text, stays reachable all night, and adapts when the schedule moves.",
-      "The fleet fits every version of the night. A BMW 7 Series or S-Class for an elegant arrival. An Escalade for the crew. A Sprinter for the whole party, with room to celebrate on the way. Every vehicle is detailed before pickup and stocked with water.",
+      "The fleet fits every version of the night. A BMW 7 Series or S-Class for an elegant arrival. An Navigator for the crew. A Sprinter for the whole party, with room to celebrate on the way. Every vehicle is detailed before pickup and stocked with water.",
       "We serve UMD College Park, Johns Hopkins, Towson, UMBC, and the Naval Academy and everywhere between. One flat quote covers the night — gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. Call (877) 609-1919 or book online."
     ],
     "highlights": [
@@ -7241,7 +7241,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "title": "Group-Sized Vehicles",
-        "desc": "Escalades, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
+        "desc": "Navigators, Suburbans, and Sprinter vans keep your whole party together — up to 14 passengers."
       },
       {
         "title": "Flat, Transparent Pricing",
@@ -7262,7 +7262,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -7336,7 +7336,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -7410,7 +7410,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -7484,7 +7484,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -7509,80 +7509,6 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "ctaTitle": "Reserve the Mercedes-Benz S-Class",
-    "ctaSubtitle": "Chauffeur-driven, flat-rated, and detailed before every trip — book online or call (877) 609-1919.",
-    "category": "vehicle"
-  },
-
-  "cadillac-escalade-limo": {
-    "metaTitle": "Cadillac Escalade Limo Service | 92 Limo Service",
-    "metaDescription": "Cadillac Escalade Limo Service: chauffeur-driven premium full-size SUV (up to 6 passengers). Flat rates, 24/7 availability across MD, DC & VA.",
-    "eyebrow": "OUR FLEET",
-    "h1": "Cadillac Escalade Limo Service",
-    "subtitle": "A chauffeur-driven premium full-size SUV for families, executives, and red-carpet arrivals — flat-rated and available 24/7.",
-    "image": IMAGES.escaladeFront,
-    "alt": "Cadillac Escalade — chauffeured premium full-size SUV from 92 Limo Service",
-    "highlightsHeading": "Why Clients Choose the Cadillac Escalade",
-    "intro": [
-      "Some occasions deserve a specific vehicle. The Cadillac Escalade is our premium full-size SUV — up to 6 passengers, chauffeur-driven, and ideal for families, executives, and red-carpet arrivals. 92 Limo Service keeps it showroom-clean and books it around the clock across the DMV.",
-      "Every reservation includes a professional chauffeur who arrives early, loads luggage, and drives the route he has already planned around traffic. Airport pickups add real-time flight tracking and meet-and-greet service at BWI, DCA, and Dulles.",
-      "Book it by the trip or by the hour. Point-to-point transfers are quoted flat; hourly charters keep the vehicle and chauffeur with you for multi-stop days, evening events, or as-directed business travel.",
-      "Compare that to a rideshare guess or a rental you have to drive yourself, and the choice is easy. Call (877) 609-1919 or reserve online — the Cadillac Escalade books quickly on weekends.",
-      "The vehicle arrives pre-inspected and detailed for every trip, with water on board and a chauffeur who stays reachable by text if your plans shift. Multi-vehicle bookings that pair the Cadillac Escalade with sedans or Sprinter vans for the rest of your group are quoted as one package."
-    ],
-    "highlights": [
-      {
-        "title": "Seats Up to 6 passengers",
-        "desc": "Comfortable, climate-controlled seating for up to 6 passengers with generous luggage space."
-      },
-      {
-        "title": "Chauffeur Included",
-        "desc": "Every booking is chauffeur-driven — licensed, insured, and professionally trained. Never drive yourself."
-      },
-      {
-        "title": "Hourly or Point-to-Point",
-        "desc": "Book a one-way transfer at a flat rate, or keep the vehicle by the hour for multi-stop plans."
-      },
-      {
-        "title": "Flat, Transparent Pricing",
-        "desc": "One transparent quote covering the base transportation charge, with gratuity, tolls, parking, and any other applicable charges disclosed before confirmation. No meters, no surge, no surprises."
-      },
-      {
-        "title": "Professional Chauffeurs",
-        "desc": "Background-checked, professionally dressed, and trained to arrive early — every ride, every time."
-      },
-      {
-        "title": "24/7 Availability",
-        "desc": "Pre-dawn departures and red-eye arrivals are covered. We operate around the clock, every day of the year."
-      }
-    ],
-    "vehicles": [
-      "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
-      "Sprinter Executive — Mercedes Sprinter"
-    ],
-    "faqs": [
-      {
-        "q": "Is the Cadillac Escalade self-drive or chauffeured?",
-        "a": "All of our vehicles are chauffeur-driven. Your licensed, insured chauffeur handles driving, luggage, and timing on every reservation."
-      },
-      {
-        "q": "How many passengers fit in the Cadillac Escalade?",
-        "a": "The Cadillac Escalade seats up to 6 passengers comfortably, with dedicated space for luggage. For larger groups, ask about our Sprinter vans and multi-vehicle packages."
-      },
-      {
-        "q": "Can I book the Cadillac Escalade by the hour?",
-        "a": "Yes. Hourly charters keep the vehicle and chauffeur with you for events, meetings, tours, and nights out — quoted flat and in advance."
-      },
-      {
-        "q": "How is pricing calculated?",
-        "a": "Every trip is quoted as a flat, transparent rate before you book. The quoted rate covers the base transportation charge; driver gratuity, parking, tolls, additional waiting time, and other applicable charges are clearly disclosed before confirmation — there is no meter and no surge pricing."
-      },
-      {
-        "q": "How far in advance should I book?",
-        "a": "We recommend booking at least 24 hours ahead, and earlier for weekends and special events. Same-day requests are welcome when vehicles are available — call (877) 609-1919 anytime."
-      }
-    ],
-    "ctaTitle": "Reserve the Cadillac Escalade",
     "ctaSubtitle": "Chauffeur-driven, flat-rated, and detailed before every trip — book online or call (877) 609-1919.",
     "category": "vehicle"
   },
@@ -7631,7 +7557,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -7705,7 +7631,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -7778,7 +7704,7 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "vehicles": [
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
       "First Class Sedan — BMW 7 Series"
     ],
@@ -7852,7 +7778,7 @@ export const GENERATED_LANDING_PAGES = {
       }
     ],
     "vehicles": [
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
       "First Class Sedan — BMW 7 Series"
     ],
@@ -7927,7 +7853,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -8002,7 +7928,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -8044,7 +7970,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service provides private, chauffeured car service from Baltimore to Washington DC — 40 miles of door-to-door comfort, typically 55–75 minutes via the BW Parkway or I-95. One flat rate, quoted before you book, covers the base transportation charge for the entire trip — gratuity, tolls, parking, and any other applicable charges are disclosed before confirmation.",
       "Your chauffeur arrives early, loads every bag, and plans the route in real time around traffic. Drop-off works at any address: Capitol Hill, K Street offices, Georgetown, and every downtown hotel. Reverse trips, round trips, and late-night departures are all available 24/7.",
       "Compare the alternatives: rideshares surge and cancel on long runs, trains lock you to a schedule and a station, and driving yourself means traffic, tolls, and parking. A private chauffeured transfer costs a known flat amount and turns the drive into productive or restful time.",
-      "Choose a Mercedes E-Class or BMW 7 Series for solo and business travel, an Escalade or Suburban for families and luggage, or a Sprinter van that keeps groups of up to 14 together. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote."
+      "Choose a Mercedes E-Class or BMW 7 Series for solo and business travel, an Navigator or Suburban for families and luggage, or a Sprinter van that keeps groups of up to 14 together. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote."
     ],
     "highlights": [
       {
@@ -8075,7 +8001,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -8148,7 +8074,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -8190,7 +8116,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service provides private, chauffeured car service from Baltimore to Annapolis — 30 miles of door-to-door comfort, typically 40–50 minutes via I-97 South. One flat rate, quoted before you book, covers the base transportation charge for the entire trip — gratuity, tolls, parking, and any other applicable charges are disclosed before confirmation.",
       "Your chauffeur arrives early, loads every bag, and plans the route in real time around traffic. Drop-off works at any address: the Naval Academy, City Dock, Eastport, and waterfront venues. Reverse trips, round trips, and late-night departures are all available 24/7.",
       "Compare the alternatives: rideshares surge and cancel on long runs, trains lock you to a schedule and a station, and driving yourself means traffic, tolls, and parking. A private chauffeured transfer costs a known flat amount and turns the drive into productive or restful time.",
-      "Choose a Mercedes E-Class or BMW 7 Series for solo and business travel, an Escalade or Suburban for families and luggage, or a Sprinter van that keeps groups of up to 14 together. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote."
+      "Choose a Mercedes E-Class or BMW 7 Series for solo and business travel, an Navigator or Suburban for families and luggage, or a Sprinter van that keeps groups of up to 14 together. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote."
     ],
     "highlights": [
       {
@@ -8221,7 +8147,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -8294,7 +8220,7 @@ export const GENERATED_LANDING_PAGES = {
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "faqs": [
       {
@@ -8336,7 +8262,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service provides private, chauffeured car service from Baltimore to Philadelphia — 100 miles of door-to-door comfort, typically about 2 hours via I-95 North. One flat rate, quoted before you book, covers the base transportation charge for the entire trip — gratuity, tolls, parking, and any other applicable charges are disclosed before confirmation.",
       "Your chauffeur arrives early, loads every bag, and plans the route in real time around traffic. Drop-off works at any address: Center City hotels, PHL Airport, the sports complex, and University City. Reverse trips, round trips, and late-night departures are all available 24/7.",
       "Compare the alternatives: rideshares surge and cancel on long runs, trains lock you to a schedule and a station, and driving yourself means traffic, tolls, and parking. A private chauffeured transfer costs a known flat amount and turns the drive into productive or restful time.",
-      "Choose a Mercedes E-Class or BMW 7 Series for solo and business travel, an Escalade or Suburban for families and luggage, or a Sprinter van that keeps groups of up to 14 together. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote."
+      "Choose a Mercedes E-Class or BMW 7 Series for solo and business travel, an Navigator or Suburban for families and luggage, or a Sprinter van that keeps groups of up to 14 together. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote."
     ],
     "highlights": [
       {
@@ -8366,7 +8292,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -8439,7 +8365,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -8482,7 +8408,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service provides private, chauffeured car service from Baltimore to New York City — 190 miles of door-to-door comfort, typically 3.5–4 hours via I-95 North. One flat rate, quoted before you book, covers the base transportation charge for the entire trip — gratuity, tolls, parking, and any other applicable charges are disclosed before confirmation.",
       "Your chauffeur arrives early, loads every bag, and plans the route in real time around traffic. Drop-off works at any address: Midtown, downtown, Brooklyn, and all three NYC-area airports. Reverse trips, round trips, and late-night departures are all available 24/7.",
       "Compare the alternatives: rideshares surge and cancel on long runs, trains lock you to a schedule and a station, and driving yourself means traffic, tolls, and parking. A private chauffeured transfer costs a known flat amount and turns the drive into productive or restful time.",
-      "Choose a Mercedes E-Class or BMW 7 Series for solo and business travel, an Escalade or Suburban for families and luggage, or a Sprinter van that keeps groups of up to 14 together. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote."
+      "Choose a Mercedes E-Class or BMW 7 Series for solo and business travel, an Navigator or Suburban for families and luggage, or a Sprinter van that keeps groups of up to 14 together. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote."
     ],
     "highlights": [
       {
@@ -8512,7 +8438,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -8585,7 +8511,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [
@@ -8628,7 +8554,7 @@ export const GENERATED_LANDING_PAGES = {
       "92 Limo Service provides private, chauffeured car service from Maryland to Newark Liberty Airport (EWR) — 175 miles of door-to-door comfort, typically about 3.5 hours via I-95 and the New Jersey Turnpike. One flat rate, quoted before you book, covers the base transportation charge for the entire trip — gratuity, tolls, parking, and any other applicable charges are disclosed before confirmation.",
       "Your chauffeur arrives early, loads every bag, and plans the route in real time around traffic. Drop-off works at any address: every EWR terminal, timed to your check-in window. Reverse trips, round trips, and late-night departures are all available 24/7.",
       "Compare the alternatives: rideshares surge and cancel on long runs, trains lock you to a schedule and a station, and driving yourself means traffic, tolls, and parking. A private chauffeured transfer costs a known flat amount and turns the drive into productive or restful time.",
-      "Choose a Mercedes E-Class or BMW 7 Series for solo and business travel, an Escalade or Suburban for families and luggage, or a Sprinter van that keeps groups of up to 14 together. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote."
+      "Choose a Mercedes E-Class or BMW 7 Series for solo and business travel, an Navigator or Suburban for families and luggage, or a Sprinter van that keeps groups of up to 14 together. Call (877) 609-1919 or book online — every reservation is confirmed with a transparent quote."
     ],
     "highlights": [
       {
@@ -8658,7 +8584,7 @@ export const GENERATED_LANDING_PAGES = {
     ],
     "vehicles": [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "faqs": [

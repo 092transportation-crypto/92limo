@@ -92,7 +92,7 @@ export const MARYLAND_BATCH6_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -154,7 +154,7 @@ export const MARYLAND_BATCH6_PAGES = {
     ],
     vehicles: [
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -216,7 +216,7 @@ export const MARYLAND_BATCH6_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Shuttle — Mercedes Sprinter",
     ],
     areas: [
@@ -321,7 +321,7 @@ export const MARYLAND_BATCH6_PAGES = {
     h1: "Limo & Car Service in Largo, MD",
     subtitle: "Chauffeured transportation for Largo, Woodmore and the Prince George's County government corridor — airport transfers, corporate travel and event-day service.",
     image: "/images/site/suv.webp",
-    alt: "Chauffeured Cadillac Escalade serving Largo, MD near Woodmore Towne Centre — 92 Limo Service",
+    alt: "Chauffeured Lincoln Navigator serving Largo, MD near Woodmore Towne Centre — 92 Limo Service",
     highlightsHeading: "Why Largo Rides With 92 Limo Service",
     intro: [
       "Largo is home to the Wayne K. Curry Administration Building, Prince George's Community College and the Woodmore Towne Centre, and it sits a short drive from FedExField and the Largo Town Center Metro station on the Blue and Silver lines. 92 Limo Service provides chauffeured sedans, SUVs and Sprinter vans throughout Largo for county business, corporate travel, airport transfers and event days.",
@@ -340,7 +340,7 @@ export const MARYLAND_BATCH6_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Shuttle — Mercedes Sprinter",
     ],
     areas: [
@@ -588,7 +588,7 @@ export const MARYLAND_BATCH6_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -712,7 +712,7 @@ export const MARYLAND_BATCH6_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -774,7 +774,7 @@ export const MARYLAND_BATCH6_PAGES = {
     ],
     vehicles: [
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -898,7 +898,7 @@ export const MARYLAND_BATCH6_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [

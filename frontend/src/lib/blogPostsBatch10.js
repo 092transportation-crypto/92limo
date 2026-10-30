@@ -298,7 +298,7 @@ export const BLOG_POSTS_BATCH10 = [
     title: "Red-Eye and Early Morning Flights at BWI: Booking a 4 AM Car Service",
     metaTitle: "BWI Red-Eye & Early Morning Flights: Car Service Guide",
     metaDescription:
-      "Between 3 and 6 a.m., rideshare supply at BWI thins out and prices rise. Here's why a pre-booked chauffeur is the more reliable option for early or red-eye flights.",
+      "Between 3 and 6 a.m., rideshare supply at BWI thins and prices rise. Here's why a pre-booked chauffeur is more reliable for early or red-eye flights.",
     category: "Airport Guides",
     date: "2026-10-23",
     readTime: "5 min read",

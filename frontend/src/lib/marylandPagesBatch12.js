@@ -78,7 +78,7 @@ export const MARYLAND_BATCH12_PAGES = {
     ],
     vehicles: [
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Shuttle — Mercedes Sprinter",
     ],
     areas: [
@@ -130,7 +130,7 @@ export const MARYLAND_BATCH12_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -234,7 +234,7 @@ export const MARYLAND_BATCH12_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Shuttle — Mercedes Sprinter",
     ],
     areas: [
@@ -285,7 +285,7 @@ export const MARYLAND_BATCH12_PAGES = {
       { title: "Licensed & Insured", desc: "Maryland PSC Carrier No. 6325, with background-checked, professionally dressed chauffeurs." },
     ],
     vehicles: [
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Shuttle — Mercedes Sprinter",
       "Business Sedan — Mercedes E-Class",
     ],
@@ -342,7 +342,7 @@ export const MARYLAND_BATCH12_PAGES = {
     vehicles: [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
     ],
     areas: [
       {
@@ -393,7 +393,7 @@ export const MARYLAND_BATCH12_PAGES = {
     ],
     vehicles: [
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -445,7 +445,7 @@ export const MARYLAND_BATCH12_PAGES = {
     ],
     vehicles: [
       "Sprinter Shuttle — Mercedes Sprinter",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Luxury SUV — Chevrolet Suburban",
     ],
     areas: [
@@ -496,7 +496,7 @@ export const MARYLAND_BATCH12_PAGES = {
       { title: "Book 6-9 Months Ahead", desc: "Peak Potomac wedding Saturdays sell out early." },
     ],
     vehicles: [
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Luxury SUV — Chevrolet Suburban",
       "Sprinter Executive — Mercedes Sprinter",
     ],
@@ -549,7 +549,7 @@ export const MARYLAND_BATCH12_PAGES = {
     ],
     vehicles: [
       "Sprinter Shuttle — Mercedes Sprinter",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Luxury SUV — Chevrolet Suburban",
     ],
     areas: [
@@ -601,7 +601,7 @@ export const MARYLAND_BATCH12_PAGES = {
     ],
     vehicles: [
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -656,7 +656,7 @@ export const MARYLAND_BATCH12_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Shuttle — Mercedes Sprinter",
     ],
     areas: [
@@ -763,7 +763,7 @@ export const MARYLAND_BATCH12_PAGES = {
     ],
     vehicles: [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Shuttle — Mercedes Sprinter",
     ],
     areas: [
@@ -829,7 +829,7 @@ export const MARYLAND_BATCH12_PAGES = {
     ],
     vehicles: [
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -882,7 +882,7 @@ export const MARYLAND_BATCH12_PAGES = {
     vehicles: [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
     ],
     areas: [
       {

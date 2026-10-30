@@ -43,7 +43,7 @@ export const BLOG_POSTS_BATCH3 = [
         heading: "Which Vehicle Actually Fits",
         paragraphs: [
           "For most special-occasion BWI pickups, a Mercedes-Benz S-Class or BMW 7 Series first-class sedan strikes the right balance — genuinely upscale, still practical for airport curb logistics and a reasonable amount of luggage. These are the vehicles that read as \"this is a nice car service\" the moment they pull up, without requiring the extra planning a larger vehicle needs.",
-          "For a couple or small wedding party, a Cadillac Escalade or Chevrolet Suburban premium SUV adds presence and a taller, more commanding profile without sacrificing the practicality of getting through arrivals traffic and a curb pickup smoothly. These also solve the luggage problem more comfortably than a sedan when a wedding weekend means more bags than usual.",
+          "For a couple or small wedding party, a Lincoln Navigator or Chevrolet Suburban premium SUV adds presence and a taller, more commanding profile without sacrificing the practicality of getting through arrivals traffic and a curb pickup smoothly. These also solve the luggage problem more comfortably than a sedan when a wedding weekend means more bags than usual.",
           "For a larger group — a full wedding party, a family reunion arrival, or a group of groomsmen or bridesmaids flying in together — the Mercedes Sprinter Executive is the closer match to what people actually picture when they say \"limo\": more seating, more interior presence, and everyone arriving together instead of splitting into two or three separate sedans that show up at different times.",
           "One detail worth flagging: matching the vehicle to the actual headcount and luggage matters more for a special occasion than a routine trip, precisely because the vehicle itself is part of what's being noticed. A wedding party of six squeezed uncomfortably into a five-seat sedan undercuts the whole point of upgrading in the first place.",
         ],
@@ -375,7 +375,7 @@ export const BLOG_POSTS_BATCH3 = [
       {
         heading: "What Vehicle Tiers Typically Run",
         paragraphs: [
-          "For the couple alone, a first-class sedan (Mercedes S-Class or BMW 7 Series) or a premium SUV like the Cadillac Escalade covers the getaway car role comfortably, with enough presence for photos without the cost of a larger vehicle neither of you needs for two people.",
+          "For the couple alone, a first-class sedan (Mercedes S-Class or BMW 7 Series) or a premium SUV like the Lincoln Navigator covers the getaway car role comfortably, with enough presence for photos without the cost of a larger vehicle neither of you needs for two people.",
           "For the wedding party, a Chevrolet Suburban fits a smaller group comfortably, while the Mercedes Sprinter Van covers larger bridal parties or the guest shuttle role in one vehicle instead of splitting across several cars and coordinating multiple pickup times on what's already the most schedule-sensitive day of the event.",
           "Exact pricing depends on hours and date, which is why we quote per-wedding rather than publishing a flat menu online. Two couples asking about the same vehicle for the same rough hour count can still land on different numbers depending on the specific Saturday, since demand isn't flat across the wedding season.",
         ],

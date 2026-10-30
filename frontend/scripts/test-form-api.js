@@ -46,7 +46,7 @@ async function run() {
       name: "Jane Traveler", phone: "443-555-0199", email: "jane@example.com",
       pickup_location: "BWI Airport", dropoff_location: "Inner Harbor, Baltimore",
       date: "2026-07-04", time: "14:30", passengers: 3, luggage: 2,
-      service_type: "Airport Transfer", vehicle_type: "Premium SUV — Cadillac Escalade",
+      service_type: "Airport Transfer", vehicle_type: "Premium SUV — Lincoln Navigator",
       hear_about_us: "Google Search", notes: "Flight UA123",
     });
     const res = mockRes();
@@ -280,6 +280,7 @@ async function run() {
   {
     const ok =
       chat.normalizeVehicle("Cadillac Escalade") === "Premium SUV" &&
+      chat.normalizeVehicle("Lincoln Navigator") === "Premium SUV" &&
       chat.normalizeVehicle("midsize suv") === "Mid-Size SUV" &&
       chat.normalizeVehicle("") === "Business Sedan" &&
       chat.normalizeVehicle("not a real vehicle") === "Business Sedan";

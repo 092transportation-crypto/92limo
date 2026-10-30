@@ -45,7 +45,7 @@ export const BLOG_POSTS_BATCH8 = [
         heading: "Sizing the Vehicle to the Court, Not Just the Honoree",
         paragraphs: [
           "Most families underestimate how many people actually need a ride on the day. Beyond the honoree, a traditional court of honor often includes several damas and chambelanes, plus parents and padrinos who may ride separately for the formal arrival. Count the full court before choosing a vehicle, not just the quinceañera or birthday girl herself — a common mistake is booking a vehicle sized for the honoree alone and then scrambling for a second car for the court a week before the event.",
-          "A Cadillac Escalade or Chevrolet Suburban comfortably carries the honoree and her closest court members with room for ball gowns, while a Mercedes Sprinter keeps a full 10-to-14-person court together for the entrance — which matters more than it sounds, since a split group means a second, less dramatic arrival a few minutes behind the first. For courts larger than 14, two coordinated vehicles arriving together, timed to the second, preserve the visual effect better than a single overcrowded van.",
+          "A Lincoln Navigator or Chevrolet Suburban comfortably carries the honoree and her closest court members with room for ball gowns, while a Mercedes Sprinter keeps a full 10-to-14-person court together for the entrance — which matters more than it sounds, since a split group means a second, less dramatic arrival a few minutes behind the first. For courts larger than 14, two coordinated vehicles arriving together, timed to the second, preserve the visual effect better than a single overcrowded van.",
           "Padrinos and madrinas — the sponsoring godparents who often fund specific elements of the celebration — sometimes request their own vehicle for a separate, more formal arrival ahead of the court. If your family's tradition includes this, mention it when booking so the schedule accounts for two distinct arrivals rather than one.",
           "Dress logistics deserve their own thought as well. A full ball gown with a structured skirt needs real space to sit without crushing, and a court of several damas in matching gowns multiplies that space requirement quickly — a vehicle that looks roomy empty can feel cramped the moment six formal dresses are actually inside it. Ask the company directly how many formally dressed passengers the specific vehicle has comfortably handled before, not just its stated seating capacity.",
         ],
@@ -94,7 +94,7 @@ export const BLOG_POSTS_BATCH8 = [
     faqs: [
       {
         q: "How many vehicles do we need for a quinceañera or Sweet 16 court?",
-        a: "It depends on the court size. A Cadillac Escalade or Suburban fits the honoree and closest court members comfortably, while a Mercedes Sprinter keeps a full 10-to-14-person court together for a single, dramatic entrance rather than a split arrival.",
+        a: "It depends on the court size. A Lincoln Navigator or Suburban fits the honoree and closest court members comfortably, while a Mercedes Sprinter keeps a full 10-to-14-person court together for a single, dramatic entrance rather than a split arrival.",
       },
       {
         q: "Can the chauffeur coordinate the grand entrance timing with our venue?",
@@ -345,7 +345,7 @@ export const BLOG_POSTS_BATCH8 = [
       {
         heading: "When a Shower Actually Needs a Dedicated Vehicle",
         paragraphs: [
-          "The tipping point is usually out-of-town guests staying at a hotel without easy access to the venue, or a guest of honor and her closest circle wanting to arrive together rather than trickling in individually. A Lincoln Nautilus or Cadillac Escalade comfortably moves the honoree and her closest attendants together, while a Sprinter van handles a full guest shuttle from a host hotel to the venue and back.",
+          "The tipping point is usually out-of-town guests staying at a hotel without easy access to the venue, or a guest of honor and her closest circle wanting to arrive together rather than trickling in individually. A Lincoln Nautilus or Lincoln Navigator comfortably moves the honoree and her closest attendants together, while a Sprinter van handles a full guest shuttle from a host hotel to the venue and back.",
           "A themed shower — a brunch, a garden party, a specific color or decor concept the host has built the whole event around — sometimes influences the vehicle choice too, with some hosts preferring a particular style of car that photographs well alongside the rest of the day's carefully planned aesthetic, a small but real consideration worth mentioning if it matters to your event.",
           "A shower gift registry delivered directly to the venue ahead of time, rather than carried by guests, is increasingly common and actually simplifies the transportation planning somewhat — fewer bulky gifts for the return trip to worry about, since the bigger items are already waiting at the honoree's home by the time the shower itself happens.",
           "A shower that combines two honorees — close friends expecting around the same time, for instance — follows the same group-transportation logic as any other shower, just with a slightly larger guest list spanning both families' friends and relatives, worth flagging clearly when booking so the vehicle size matches the actual combined group.",
@@ -406,7 +406,7 @@ export const BLOG_POSTS_BATCH8 = [
       },
       {
         q: "What vehicle fits a typical bridal or baby shower group?",
-        a: "A Lincoln Nautilus or Cadillac Escalade fits the honoree and her closest attendants, while a Sprinter van handles a full hotel-to-venue shuttle for a larger out-of-town guest list.",
+        a: "A Lincoln Nautilus or Lincoln Navigator fits the honoree and her closest attendants, while a Sprinter van handles a full hotel-to-venue shuttle for a larger out-of-town guest list.",
       },
       {
         q: "How far in advance should we book shower transportation?",
@@ -447,7 +447,7 @@ export const BLOG_POSTS_BATCH8 = [
       {
         heading: "The Equipment Problem Nobody Plans For",
         paragraphs: [
-          "A single set of golf clubs barely fits in a sedan's trunk; a foursome's clubs, shoe bags, and a cooler do not fit at all without someone riding with a bag on their lap. A full-size SUV like a Cadillac Escalade or Chevrolet Suburban swallows four sets of clubs and the group comfortably, while a Mercedes Sprinter handles a larger outing group — a charity tournament foursome plus guests heading to the same clubhouse reception.",
+          "A single set of golf clubs barely fits in a sedan's trunk; a foursome's clubs, shoe bags, and a cooler do not fit at all without someone riding with a bag on their lap. A full-size SUV like a Lincoln Navigator or Chevrolet Suburban swallows four sets of clubs and the group comfortably, while a Mercedes Sprinter handles a larger outing group — a charity tournament foursome plus guests heading to the same clubhouse reception.",
           "A twilight or late-afternoon round, priced lower at many courses and popular with working groups who can't get away earlier in the day, simply shifts the whole booking window later rather than changing any of the underlying logistics — worth mentioning the exact tee time regardless of how early or late it falls in the day.",
           "A group playing at a public course rather than a private club faces slightly different logistics worth noting — public course tee sheets can run later into busy weekend afternoons, which sometimes pushes the whole day's schedule back and makes a flexible, hourly booking even more valuable than at a private club with a more predictable pace of play.",
           "A group that wants photos at a particularly scenic hole or the clubhouse itself before or after the round should mention it when booking, so the chauffeur knows to allow a few extra minutes rather than treating the pickup as a strict, immediate departure the moment the last putt drops.",
@@ -501,7 +501,7 @@ export const BLOG_POSTS_BATCH8 = [
     faqs: [
       {
         q: "What vehicle fits a foursome and their clubs?",
-        a: "A full-size SUV like a Cadillac Escalade or Chevrolet Suburban comfortably holds four sets of clubs and four golfers. A Mercedes Sprinter is the better fit for a larger outing group with guests attending the clubhouse reception too.",
+        a: "A full-size SUV like a Lincoln Navigator or Chevrolet Suburban comfortably holds four sets of clubs and four golfers. A Mercedes Sprinter is the better fit for a larger outing group with guests attending the clubhouse reception too.",
       },
       {
         q: "Can the vehicle stay for the clubhouse reception afterward?",
@@ -1780,7 +1780,7 @@ export const BLOG_POSTS_BATCH8 = [
       {
         heading: "Vehicle Choice for a Group Outing",
         paragraphs: [
-          "A luxury SUV like a Cadillac Escalade fits a small group of four or five comfortably with room for shopping bags on the way home, while a larger group — a milestone birthday celebration, a bridal party's pre-wedding spa day — fits better in a Mercedes Sprinter, with everyone together rather than splitting into two cars.",
+          "A luxury SUV like a Lincoln Navigator fits a small group of four or five comfortably with room for shopping bags on the way home, while a larger group — a milestone birthday celebration, a bridal party's pre-wedding spa day — fits better in a Mercedes Sprinter, with everyone together rather than splitting into two cars.",
           "A spa day booked as a thank-you gift from an employer to a team, rather than something the group arranged for themselves, follows the exact same logistics but is worth noting as its own category — a growing number of companies treat this kind of day as a meaningful employee-appreciation gesture, with the transportation itself part of what makes the gift feel complete.",
           "A group celebrating a divorce finalization, a new job, or any other life transition worth marking has increasingly found its way into this same category of booking — the occasion doesn't need to be a traditional celebration at all for the logic of one relaxed, coordinated day to apply.",
           "A quieter First Class Sedan is sometimes the better choice for a smaller, more intimate day — just two close friends marking a birthday or simply making time for each other — where the goal is relaxed conversation during the ride rather than a bigger group celebration.",
@@ -1830,7 +1830,7 @@ export const BLOG_POSTS_BATCH8 = [
       },
       {
         q: "What vehicle fits a typical group outing?",
-        a: "A Cadillac Escalade fits a group of four or five comfortably, while a larger celebration — a bridal party's spa day or a milestone birthday — often fits better in a Mercedes Sprinter.",
+        a: "A Lincoln Navigator fits a group of four or five comfortably, while a larger celebration — a bridal party's spa day or a milestone birthday — often fits better in a Mercedes Sprinter.",
       },
       {
         q: "How many hours should we book for a typical day out?",

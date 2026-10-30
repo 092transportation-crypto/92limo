@@ -65,7 +65,7 @@ export const MARYLAND_BATCH13_PAGES = {
     ],
     vehicles: [
       "Sprinter Shuttle — Mercedes Sprinter",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Luxury SUV — Chevrolet Suburban",
     ],
     areas: [
@@ -116,7 +116,7 @@ export const MARYLAND_BATCH13_PAGES = {
       { title: "Book Early", desc: "Peak Saturdays from May through October sell out first." },
     ],
     vehicles: [
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Luxury SUV — Chevrolet Suburban",
       "Sprinter Executive — Mercedes Sprinter",
     ],
@@ -169,7 +169,7 @@ export const MARYLAND_BATCH13_PAGES = {
     ],
     vehicles: [
       "Sprinter Shuttle — Mercedes Sprinter",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Luxury SUV — Chevrolet Suburban",
     ],
     areas: [
@@ -220,7 +220,7 @@ export const MARYLAND_BATCH13_PAGES = {
       { title: "Book Early", desc: "Peak Saturdays from May through October sell out first." },
     ],
     vehicles: [
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Luxury SUV — Chevrolet Suburban",
       "Sprinter Executive — Mercedes Sprinter",
     ],
@@ -273,7 +273,7 @@ export const MARYLAND_BATCH13_PAGES = {
     ],
     vehicles: [
       "Sprinter Shuttle — Mercedes Sprinter",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Luxury SUV — Chevrolet Suburban",
     ],
     areas: [
@@ -325,7 +325,7 @@ export const MARYLAND_BATCH13_PAGES = {
     ],
     vehicles: [
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -377,7 +377,7 @@ export const MARYLAND_BATCH13_PAGES = {
     ],
     vehicles: [
       "Sprinter Shuttle — Mercedes Sprinter",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Luxury SUV — Chevrolet Suburban",
     ],
     areas: [
@@ -429,7 +429,7 @@ export const MARYLAND_BATCH13_PAGES = {
       { title: "Book Early", desc: "Peak Saturdays from May through October sell out first." },
     ],
     vehicles: [
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Luxury SUV — Chevrolet Suburban",
       "Sprinter Executive — Mercedes Sprinter",
     ],
@@ -481,7 +481,7 @@ export const MARYLAND_BATCH13_PAGES = {
       { title: "Book Early", desc: "Peak Saturdays from May through October sell out first." },
     ],
     vehicles: [
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Luxury SUV — Chevrolet Suburban",
       "Sprinter Executive — Mercedes Sprinter",
     ],
@@ -534,7 +534,7 @@ export const MARYLAND_BATCH13_PAGES = {
     ],
     vehicles: [
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -586,7 +586,7 @@ export const MARYLAND_BATCH13_PAGES = {
     ],
     vehicles: [
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -637,7 +637,7 @@ export const MARYLAND_BATCH13_PAGES = {
       { title: "Book Early", desc: "Peak Saturdays from May through October sell out first." },
     ],
     vehicles: [
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Luxury SUV — Chevrolet Suburban",
       "Sprinter Executive — Mercedes Sprinter",
     ],
@@ -691,7 +691,7 @@ export const MARYLAND_BATCH13_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -743,7 +743,7 @@ export const MARYLAND_BATCH13_PAGES = {
     ],
     vehicles: [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -795,7 +795,7 @@ export const MARYLAND_BATCH13_PAGES = {
     ],
     vehicles: [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -846,7 +846,7 @@ export const MARYLAND_BATCH13_PAGES = {
       { title: "Flat, Transparent Pricing", desc: "One quoted rate, with all charges disclosed before confirmation." },
     ],
     vehicles: [
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "First Class Sedan — BMW 7 Series",
       "Sprinter Executive — Mercedes Sprinter",
     ],
@@ -899,7 +899,7 @@ export const MARYLAND_BATCH13_PAGES = {
     ],
     vehicles: [
       "Luxury SUV — Chevrolet Suburban",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [

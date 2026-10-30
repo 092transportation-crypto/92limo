@@ -40,6 +40,9 @@ export const Hero = () => {
         <img
           src={IMAGES.heroBg}
           alt="Luxury black car service driving through Washington DC at night"
+          width={1264}
+          height={848}
+          fetchPriority="high"
           className="w-full h-full object-cover hero-zoom"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#090A0C] via-[#090A0C]/70 to-[#090A0C]/85" />

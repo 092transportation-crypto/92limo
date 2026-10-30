@@ -278,7 +278,7 @@ export const BLOG_POSTS_BATCH5 = [
       {
         heading: "Choosing the Right Vehicle for the Guest of Honor",
         paragraphs: [
-          "For a smaller group, a Cadillac Escalade or luxury sedan delivers the milestone feel without needing a huge vehicle. For a full guest list moving between venues together, a Mercedes Sprinter keeps everyone in one place — which also makes for better photos arriving together than a scattered group of Ubers.",
+          "For a smaller group, a Lincoln Navigator or luxury sedan delivers the milestone feel without needing a huge vehicle. For a full guest list moving between venues together, a Mercedes Sprinter keeps everyone in one place — which also makes for better photos arriving together than a scattered group of Ubers.",
         ],
       },
       {
@@ -309,7 +309,7 @@ export const BLOG_POSTS_BATCH5 = [
     faqs: [
       {
         q: "What vehicle works best for a milestone birthday night?",
-        a: "A Cadillac Escalade suits a smaller group with a premium feel; a Mercedes Sprinter van keeps a larger guest list together for a multi-stop night. Call (877) 609-1919 and we'll recommend based on your group size.",
+        a: "A Lincoln Navigator suits a smaller group with a premium feel; a Mercedes Sprinter van keeps a larger guest list together for a multi-stop night. Call (877) 609-1919 and we'll recommend based on your group size.",
       },
       {
         q: "Can the vehicle stay with us for the whole night?",
@@ -523,7 +523,7 @@ export const BLOG_POSTS_BATCH5 = [
       {
         heading: "Vehicle Options for the Group",
         paragraphs: [
-          "Smaller groups often prefer the presentation of a Cadillac Escalade or a stretch limousine for photos and arrival. Larger groups of eight or more typically do better in a Mercedes Sprinter, which has the room for a genuinely comfortable night without feeling cramped by hour three.",
+          "Smaller groups often prefer the presentation of a Lincoln Navigator or a stretch limousine for photos and arrival. Larger groups of eight or more typically do better in a Mercedes Sprinter, which has the room for a genuinely comfortable night without feeling cramped by hour three.",
         ],
       },
       {

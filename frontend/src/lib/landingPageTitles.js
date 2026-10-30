@@ -294,9 +294,6 @@ export const LANDING_PAGE_TITLES = {
   "mercedes-s-class-rental-maryland": {
     "h1": "Mercedes S-Class Rental Maryland"
   },
-  "cadillac-escalade-limo": {
-    "h1": "Cadillac Escalade Limo Service"
-  },
   "lincoln-navigator-limo": {
     "h1": "Lincoln Navigator Limo Service"
   },

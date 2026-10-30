@@ -24,7 +24,7 @@ Day of the week is worth calling out separately from season: a Friday or Sunday 
 
 ## What Vehicle Tiers Typically Run
 
-For the couple alone, a first-class sedan (Mercedes S-Class or BMW 7 Series) or a premium SUV like the Cadillac Escalade covers the getaway car role comfortably, with enough presence for photos without the cost of a larger vehicle neither of you needs for two people.
+For the couple alone, a first-class sedan (Mercedes S-Class or BMW 7 Series) or a premium SUV like the Lincoln Navigator covers the getaway car role comfortably, with enough presence for photos without the cost of a larger vehicle neither of you needs for two people.
 
 For the wedding party, a Chevrolet Suburban fits a smaller group comfortably, while the Mercedes Sprinter Van covers larger bridal parties or the guest shuttle role in one vehicle instead of splitting across several cars and coordinating multiple pickup times on what's already the most schedule-sensitive day of the event.
 

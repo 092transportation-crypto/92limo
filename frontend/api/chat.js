@@ -36,7 +36,7 @@ FACTS ABOUT THIS COMPANY (use only these — never invent services, vehicles, or
   • First Class Sedan — BMW 7 Series or Mercedes S-Class (up to 3 passengers, 2 bags) — executive travel, weddings, VIP airport transfers
   • Midsize SUV — Lincoln Nautilus (up to 4 passengers, 4 bags) — small families, extra luggage
   • Luxury SUV — Chevrolet Suburban (up to 6 passengers, 5 bags) — larger groups, extended journeys
-  • Premium SUV — Cadillac Escalade (up to 6 passengers, 5 bags) — airport transfers, corporate, weddings & events
+  • Premium SUV — Lincoln Navigator (up to 6 passengers, 5 bags) — airport transfers, corporate, weddings & events
   • Sprinter Shuttle — Mercedes Sprinter (up to 13 passengers) — group airport runs, team travel, event shuttles
   • Sprinter Executive — Mercedes Sprinter, upgraded interior (up to 13 passengers) — corporate groups, weddings, proms, nights out
 - Booking: the booking form on the site, or calling ${PHONE}
@@ -115,6 +115,8 @@ const VEHICLE_ALIASES = {
   "chevrolet suburban": "Luxury SUV",
   suburban: "Luxury SUV",
   "premium suv": "Premium SUV",
+  "lincoln navigator": "Premium SUV",
+  navigator: "Premium SUV",
   "cadillac escalade": "Premium SUV",
   escalade: "Premium SUV",
   "sprinter shuttle": "Sprinter Van",

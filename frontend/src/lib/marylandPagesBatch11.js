@@ -68,7 +68,7 @@ export const MARYLAND_BATCH11_PAGES = {
       "Montgomery County is Maryland's most populous county and one of the most varied — the federal and biotech employers of Bethesda and Rockville, the dense residential corridor through Silver Spring and Wheaton, the I-270 tech corridor through Gaithersburg and Germantown, and the quieter, larger-lot communities of Potomac and North Potomac. 92 Limo Service covers all of it with the same flat, transparent pricing and professional chauffeurs, 24 hours a day.",
       "We run airport transfers to BWI, DCA and IAD from every part of the county daily, and we're equally familiar with the NIH and Walter Reed campuses in Bethesda, the county government center in Rockville, the I-270 corporate corridor, and the wedding and event venues scattered across Potomac and the county's northern communities.",
       "Each booking is planned around your exact pickup address and destination, whether that's an early flight from Olney, a corporate roadshow across several Gaithersburg office parks, or a wedding in Potomac. We confirm the itinerary the day before, stage the vehicle early, and keep dispatch reachable around the clock.",
-      "Choose a Business Sedan (Mercedes E-Class) for a standard airport run, a Premium SUV (Cadillac Escalade) for a family or executive with luggage, or a Sprinter Executive van for a group traveling together — and mix vehicles under one reservation for a multi-stop day.",
+      "Choose a Business Sedan (Mercedes E-Class) for a standard airport run, a Premium SUV (Lincoln Navigator) for a family or executive with luggage, or a Sprinter Executive van for a group traveling together — and mix vehicles under one reservation for a multi-stop day.",
       "Montgomery County residents also book us regularly for weddings, proms, corporate accounts, and medical-appointment transportation to the county's many hospitals and specialty clinics.",
     ],
     highlights: [
@@ -81,7 +81,7 @@ export const MARYLAND_BATCH11_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -136,7 +136,7 @@ export const MARYLAND_BATCH11_PAGES = {
       "92 Limo Service is headquartered in Laurel, right at the edge of Prince George's County, which makes the county's full range of communities — from College Park's university corridor to National Harbor's waterfront entertainment district — genuinely home territory rather than an outer service area.",
       "We regularly serve the University of Maryland campus in College Park, the federal offices around Greenbelt, National Harbor's hotels and MGM casino, and the residential communities of Bowie, Hyattsville, Largo and Upper Marlboro, with the same flat, transparent pricing and professional chauffeurs we bring to every trip.",
       "Each booking is planned around your exact pickup and destination, whether that's a UMD move-in day, a flight from BWI or DCA, a wedding at one of the county's event venues, or a corporate trip to the federal campuses near Greenbelt. We confirm the itinerary the day before and keep dispatch reachable around the clock.",
-      "Choose a Business Sedan (Mercedes E-Class) for a standard trip, a Premium SUV (Cadillac Escalade) for a family with luggage, or a Sprinter Executive van for a group — and mix vehicles under one reservation for move-in day, a wedding, or a group outing to National Harbor.",
+      "Choose a Business Sedan (Mercedes E-Class) for a standard trip, a Premium SUV (Lincoln Navigator) for a family with luggage, or a Sprinter Executive van for a group — and mix vehicles under one reservation for move-in day, a wedding, or a group outing to National Harbor.",
       "Because BWI and DCA sit close to much of Prince George's County, airport transfers are among our most frequent bookings here, with flight tracking and complimentary wait time on every pickup.",
     ],
     highlights: [
@@ -149,7 +149,7 @@ export const MARYLAND_BATCH11_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -204,7 +204,7 @@ export const MARYLAND_BATCH11_PAGES = {
       "Anne Arundel County stretches from BWI Marshall Airport's immediate neighborhoods through the state capital of Annapolis and out along the Chesapeake Bay's western shore — a mix of airport-adjacent communities, the historic waterfront, and quieter residential peninsulas like Gibson Island and Riva. 92 Limo Service covers all of it with the same flat, transparent pricing and professional chauffeurs.",
       "We're based close enough to the county that BWI transfers from anywhere in Anne Arundel are among our most frequent trips, and we regularly serve the Annapolis waterfront and Naval Academy area, the Live! Casino & Hotel in Hanover, and wedding venues scattered across Severna Park, Arnold and the bay-adjacent communities.",
       "Each booking is planned around your exact pickup and destination, whether that's an early BWI departure from Glen Burnie, a wedding on the Annapolis waterfront, or a casino night at Live! Maryland. We confirm the itinerary the day before and keep dispatch reachable around the clock.",
-      "Choose a Business Sedan (Mercedes E-Class) for a standard airport run, a First Class Sedan (BMW 7 Series) or Premium SUV (Cadillac Escalade) for a wedding or VIP occasion, or a Sprinter Executive van for a group — and mix vehicles under one reservation.",
+      "Choose a Business Sedan (Mercedes E-Class) for a standard airport run, a First Class Sedan (BMW 7 Series) or Premium SUV (Lincoln Navigator) for a wedding or VIP occasion, or a Sprinter Executive van for a group — and mix vehicles under one reservation.",
       "Anne Arundel County residents also book us regularly for corporate travel tied to Fort Meade and the NSA corridor, boat show transportation in Annapolis, and golf outings at the county's country clubs.",
     ],
     highlights: [
@@ -272,7 +272,7 @@ export const MARYLAND_BATCH11_PAGES = {
       "Howard County sits almost exactly between Baltimore and Washington, which has made it one of the region's fastest-growing corporate and residential corridors — Columbia's planned-community town center and corporate campuses, historic Ellicott City's Main Street district, and the newer, larger-lot communities of Clarksville and Fulton. 92 Limo Service is based nearby in Laurel and covers all of Howard County with the same flat, transparent pricing we bring to every trip.",
       "We regularly serve Columbia's corporate office parks along US-29 and MD-175, Merriweather Post Pavilion's concert season, historic Ellicott City's Main Street and B&O Railroad Station, and the resort and historic wedding venues across the county. Airport transfers to BWI — a short, well-known trip from most of Howard County — are among our most frequent bookings here.",
       "Each booking is planned around your exact pickup and destination, whether that's a corporate roadshow across Columbia's tech campuses, a concert at Merriweather, or a wedding at Turf Valley or Belmont Manor. We confirm the itinerary the day before and keep dispatch reachable around the clock.",
-      "Choose a Business Sedan (Mercedes E-Class) for a standard trip, a First Class Sedan (BMW 7 Series) or Premium SUV (Cadillac Escalade) for a wedding or executive occasion, or a Sprinter Executive van for a group — and mix vehicles under one reservation.",
+      "Choose a Business Sedan (Mercedes E-Class) for a standard trip, a First Class Sedan (BMW 7 Series) or Premium SUV (Lincoln Navigator) for a wedding or executive occasion, or a Sprinter Executive van for a group — and mix vehicles under one reservation.",
     ],
     highlights: [
       { title: "Between Baltimore and DC", desc: "Howard County's central location makes it a natural hub for airport transfers to BWI, DCA and IAD alike." },
@@ -335,7 +335,7 @@ export const MARYLAND_BATCH11_PAGES = {
       "Baltimore County wraps entirely around Baltimore City without including it — a distinction that matters when you're searching for local car service, since this page covers the surrounding county communities specifically: Towson's courthouse and university district, the Hunt Valley and Timonium corporate corridor, Cockeysville and the county's northern suburbs, and the eastern communities of Dundalk, Essex and White Marsh. 92 Limo Service covers all of Baltimore County with the same flat, transparent pricing we bring to every trip.",
       "We regularly serve the Towson County Courthouse area, corporate offices throughout Hunt Valley and Timonium, Goucher and Towson University, and the county's wedding and event venues. Airport transfers to BWI are a quick, well-known trip from most of Baltimore County, and we also run frequent transfers to Baltimore City's Inner Harbor, stadiums and entertainment venues.",
       "Each booking is planned around your exact pickup and destination, whether that's a Towson corporate meeting, a Hunt Valley roadshow, or a wedding in one of the county's event venues. We confirm the itinerary the day before and keep dispatch reachable around the clock.",
-      "Choose a Business Sedan (Mercedes E-Class) for a standard trip, a First Class Sedan (BMW 7 Series) or Premium SUV (Cadillac Escalade) for a wedding or corporate occasion, or a Sprinter Executive van for a group — and mix vehicles under one reservation.",
+      "Choose a Business Sedan (Mercedes E-Class) for a standard trip, a First Class Sedan (BMW 7 Series) or Premium SUV (Lincoln Navigator) for a wedding or corporate occasion, or a Sprinter Executive van for a group — and mix vehicles under one reservation.",
     ],
     highlights: [
       { title: "Surrounds Baltimore City", desc: "Towson, Hunt Valley, Timonium, Cockeysville, Dundalk, Essex and the rest of the county encircling Baltimore City." },
@@ -405,7 +405,7 @@ export const MARYLAND_BATCH11_PAGES = {
       "Frederick has grown into a genuine business hub of its own — the Fort Detrick and National Cancer Institute biotech corridor, a historic downtown that hosts conferences and corporate events, and a business community that regularly needs airport transfers to BWI, DCA and IAD. 92 Limo Service provides corporate car service here with the same flat, transparent pricing and professional chauffeurs we bring to every trip.",
       "We regularly serve the Fort Detrick/National Cancer Institute satellite campus, downtown Frederick's business and conference district, and the office parks along US-15 and I-70. Knowing the fastest route out to each of the region's three airports from Frederick, and the visitor procedures at the biotech campuses, is what turns a nice vehicle into a reliable one on a tight meeting schedule.",
       "Each booking is planned around visiting-executive pickups, Fort Detrick visitor logistics, and recurring commutes between Frederick and Baltimore, DC or Northern Virginia offices. We confirm the itinerary the day before, stage the vehicle early, and keep dispatch on the line throughout.",
-      "Choose a Business Sedan (Mercedes E-Class) for a single executive, a Premium SUV (Cadillac Escalade) for a small team with luggage, or a Sprinter Executive van for a larger group — and mix vehicles under one reservation.",
+      "Choose a Business Sedan (Mercedes E-Class) for a single executive, a Premium SUV (Lincoln Navigator) for a small team with luggage, or a Sprinter Executive van for a larger group — and mix vehicles under one reservation.",
       "Confidentiality is standard practice for every trip, and consolidated monthly invoicing with itemized receipts keeps Frederick-based finance teams comfortable managing recurring corporate travel.",
     ],
     highlights: [
@@ -418,7 +418,7 @@ export const MARYLAND_BATCH11_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -458,7 +458,7 @@ export const MARYLAND_BATCH11_PAGES = {
       "92 Limo Service is headquartered right in Laurel, which makes corporate travel here more than just another service area — it's home. We regularly serve the Fort Meade and NSA corridor, Laurel's own growing office and business park community, and the airport transfers to BWI that are often the shortest, most frequently booked trip in our entire network.",
       "We know Fort Meade's visitor-control procedures, Laurel's business parks along Route 198 and the ICC, and the fastest routes between Laurel and BWI, DCA or IAD at any hour of the day. That local familiarity is what turns a nice vehicle into a dependably on-time one for a tight meeting schedule.",
       "Each booking is planned around facility-access windows at Fort Meade, visiting-executive pickups, and recurring commutes between Laurel and Baltimore, DC or Northern Virginia. We confirm the itinerary the day before, stage the vehicle early — often literally around the corner from the pickup — and keep dispatch on the line throughout.",
-      "Choose a Business Sedan (Mercedes E-Class) for a single executive or contractor, a Premium SUV (Cadillac Escalade) for a small team, or a Sprinter Executive van for a larger group — and mix vehicles under one reservation.",
+      "Choose a Business Sedan (Mercedes E-Class) for a single executive or contractor, a Premium SUV (Lincoln Navigator) for a small team, or a Sprinter Executive van for a larger group — and mix vehicles under one reservation.",
     ],
     highlights: [
       { title: "Headquartered Right Here", desc: "92 Limo Service's home office is in Laurel — this is our most familiar territory, not an outer service area." },
@@ -470,7 +470,7 @@ export const MARYLAND_BATCH11_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -510,7 +510,7 @@ export const MARYLAND_BATCH11_PAGES = {
       "Bowie sits conveniently between Washington, Annapolis and BWI, which has made it a popular base for executives and professionals who commute in several directions. 92 Limo Service provides corporate car service here with the same flat, transparent pricing and professional chauffeurs we bring to every trip.",
       "We regularly serve Bowie's business parks and the nearby federal and corporate offices around Route 50 and the Beltway, with daily airport transfers to BWI, DCA and IAD. Knowing the fastest route out of Bowie toward each airport at any hour is what keeps an early-morning or evening meeting on schedule.",
       "Each booking is planned around visiting-executive pickups, roadshow days with stops across the DC-Baltimore corridor, and recurring commutes. We confirm the itinerary the day before, stage the vehicle early, and keep dispatch on the line throughout.",
-      "Choose a Business Sedan (Mercedes E-Class) for a single executive, a Premium SUV (Cadillac Escalade) for a small team with luggage, or a Sprinter Executive van for a larger group — and mix vehicles under one reservation.",
+      "Choose a Business Sedan (Mercedes E-Class) for a single executive, a Premium SUV (Lincoln Navigator) for a small team with luggage, or a Sprinter Executive van for a larger group — and mix vehicles under one reservation.",
     ],
     highlights: [
       { title: "Central to Three Directions", desc: "Bowie's position between DC, Annapolis and BWI makes it a convenient base for multi-destination corporate travel." },
@@ -521,7 +521,7 @@ export const MARYLAND_BATCH11_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -560,7 +560,7 @@ export const MARYLAND_BATCH11_PAGES = {
     intro: [
       "Towson's mix of historic venues, the Goucher College area, and its proximity to Baltimore's broader wedding venue scene makes it a frequent wedding-transportation booking for us. 92 Limo Service provides chauffeured wedding transportation here with the same flat, transparent pricing and professional chauffeurs we bring to every trip.",
       "Each booking is planned around the getting-ready location, the ceremony, any photo stops, the reception, and the end-of-night departure. We confirm the itinerary the day before, stage the vehicle early, and keep dispatch on the line throughout — spring and fall Saturdays are the busiest wedding dates of the year in the Towson area, so reserve early for those weekends.",
-      "Choose a First Class Sedan (BMW 7 Series) or Premium SUV (Cadillac Escalade) for the couple, and a Sprinter Executive van for the wedding party — and coordinate both under one reservation so everyone arrives on the same schedule.",
+      "Choose a First Class Sedan (BMW 7 Series) or Premium SUV (Lincoln Navigator) for the couple, and a Sprinter Executive van for the wedding party — and coordinate both under one reservation so everyone arrives on the same schedule.",
       "A parent, planner or wedding-party member should be the point of contact for day-of logistics, and we're glad to confirm the final timeline with your coordinator or venue directly in the week before the wedding.",
     ],
     highlights: [
@@ -572,7 +572,7 @@ export const MARYLAND_BATCH11_PAGES = {
     ],
     vehicles: [
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -612,7 +612,7 @@ export const MARYLAND_BATCH11_PAGES = {
       "Silver Spring's downtown has grown into one of Montgomery County's busiest office and media hubs, close enough to DC to draw a steady mix of commuters, federal contractors and corporate offices. 92 Limo Service provides corporate car service here with the same flat, transparent pricing and professional chauffeurs we bring to every trip.",
       "We regularly serve downtown Silver Spring's office towers along Colesville Road and Georgia Avenue, with daily airport transfers to BWI, DCA and IAD and corporate trips connecting to nearby DC and the rest of the I-270 corridor.",
       "Each booking is planned around visiting-executive pickups, roadshow days with multiple office stops, and recurring commutes. We confirm the itinerary the day before, stage the vehicle early, and keep dispatch on the line throughout.",
-      "Choose a Business Sedan (Mercedes E-Class) for a single executive, a Premium SUV (Cadillac Escalade) for a small team with luggage, or a Sprinter Executive van for a larger group — and mix vehicles under one reservation.",
+      "Choose a Business Sedan (Mercedes E-Class) for a single executive, a Premium SUV (Lincoln Navigator) for a small team with luggage, or a Sprinter Executive van for a larger group — and mix vehicles under one reservation.",
     ],
     highlights: [
       { title: "Downtown Silver Spring Familiar", desc: "Office towers along Colesville Road and Georgia Avenue are regular stops." },
@@ -623,7 +623,7 @@ export const MARYLAND_BATCH11_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -663,7 +663,7 @@ export const MARYLAND_BATCH11_PAGES = {
       "Rockville sits at the southern end of Montgomery County's I-270 biotech and technology corridor, with a dense mix of pharmaceutical, biotech and government-adjacent offices around the county government center and Rockville Pike. 92 Limo Service provides corporate car service here with the same flat, transparent pricing and professional chauffeurs we bring to every trip.",
       "We regularly serve Rockville's biotech office parks, the county government center, and corporate campuses along Rockville Pike, with daily airport transfers to BWI, DCA and IAD and roadshow travel connecting to the rest of the I-270 corridor and downtown DC.",
       "Each booking is planned around visiting-executive pickups, same-day interview loops, and recurring commutes. We confirm the itinerary the day before, stage the vehicle early, and keep dispatch on the line throughout.",
-      "Choose a Business Sedan (Mercedes E-Class) for a single executive or candidate, a Premium SUV (Cadillac Escalade) for a small team with luggage, or a Sprinter Executive van for a larger group — and mix vehicles under one reservation.",
+      "Choose a Business Sedan (Mercedes E-Class) for a single executive or candidate, a Premium SUV (Lincoln Navigator) for a small team with luggage, or a Sprinter Executive van for a larger group — and mix vehicles under one reservation.",
     ],
     highlights: [
       { title: "I-270 Biotech Corridor Familiar", desc: "Rockville's pharmaceutical and biotech office parks are regular stops." },
@@ -674,7 +674,7 @@ export const MARYLAND_BATCH11_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -725,7 +725,7 @@ export const MARYLAND_BATCH11_PAGES = {
     vehicles: [
       "Sprinter Executive — Mercedes Sprinter",
       "Sprinter Shuttle — Mercedes Sprinter",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
     ],
     areas: [
       {
@@ -763,7 +763,7 @@ export const MARYLAND_BATCH11_PAGES = {
     intro: [
       "Annapolis weddings have a flavor all their own — Naval Academy chapel ceremonies, waterfront receptions along Ego Alley and the harbor, and historic downtown venues within the City Dock area. 92 Limo Service provides chauffeured wedding transportation here with the same flat, transparent pricing and professional chauffeurs we bring to every trip.",
       "Each booking is planned around the getting-ready location, the ceremony (often at the Naval Academy Chapel or a downtown church), a photo stop along the harbor, the reception, and the end-of-night departure. We know the narrow historic streets around City Dock and the Naval Academy's visitor and security procedures, which matters for timing a wedding-day arrival correctly.",
-      "Choose a First Class Sedan (BMW 7 Series) or Premium SUV (Cadillac Escalade) for the couple, and a Sprinter Executive van for the wedding party — and coordinate both under one reservation so everyone arrives on the same schedule.",
+      "Choose a First Class Sedan (BMW 7 Series) or Premium SUV (Lincoln Navigator) for the couple, and a Sprinter Executive van for the wedding party — and coordinate both under one reservation so everyone arrives on the same schedule.",
       "Spring and fall Saturdays are the busiest wedding dates of the year in Annapolis — reserve early for those weekends, especially around Naval Academy commissioning season when the city is especially busy.",
     ],
     highlights: [
@@ -775,7 +775,7 @@ export const MARYLAND_BATCH11_PAGES = {
     ],
     vehicles: [
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -814,7 +814,7 @@ export const MARYLAND_BATCH11_PAGES = {
     intro: [
       "Historic Ellicott City's steep, narrow Main Street and 19th-century stone buildings make for a genuinely beautiful wedding backdrop — and a layout that calls for a chauffeur who already knows where to stage a vehicle rather than discovering the street's limitations on the wedding day itself. 92 Limo Service provides chauffeured wedding transportation here with the same flat, transparent pricing and professional chauffeurs we bring to every trip.",
       "Each booking is planned around the getting-ready location, the ceremony, a photo stop at the B&O Railroad Station or along Main Street, the reception, and the end-of-night departure. We confirm the itinerary the day before, stage the vehicle at a workable spot given Main Street's limited vehicle access, and keep dispatch on the line throughout.",
-      "Choose a First Class Sedan (BMW 7 Series) or Premium SUV (Cadillac Escalade) for the couple, and a Sprinter Executive van for the wedding party — and coordinate both under one reservation so everyone arrives on the same schedule.",
+      "Choose a First Class Sedan (BMW 7 Series) or Premium SUV (Lincoln Navigator) for the couple, and a Sprinter Executive van for the wedding party — and coordinate both under one reservation so everyone arrives on the same schedule.",
     ],
     highlights: [
       { title: "Main Street Layout Familiar", desc: "Chauffeurs know where to stage given Main Street's steep grade and limited vehicle access." },
@@ -825,7 +825,7 @@ export const MARYLAND_BATCH11_PAGES = {
     ],
     vehicles: [
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -864,7 +864,7 @@ export const MARYLAND_BATCH11_PAGES = {
     intro: [
       "Baltimore's wedding scene spans the Inner Harbor's hotel ballrooms, Mount Vernon's historic churches and mansions, Harbor East's modern venues, and the city's many neighborhood parishes with deep family history. 92 Limo Service provides chauffeured wedding transportation across all of it with the same flat, transparent pricing and professional chauffeurs we bring to every trip.",
       "Each booking is planned around the getting-ready location, the ceremony, a photo stop (the Inner Harbor and Mount Vernon's Washington Monument are popular choices), the reception, and the end-of-night departure. We know downtown Baltimore's event-night traffic patterns and parking constraints well enough to keep a tight wedding-day schedule on time.",
-      "Choose a First Class Sedan (BMW 7 Series) or Premium SUV (Cadillac Escalade) for the couple, and a Sprinter Executive van for the wedding party — and coordinate both under one reservation so everyone arrives on the same schedule.",
+      "Choose a First Class Sedan (BMW 7 Series) or Premium SUV (Lincoln Navigator) for the couple, and a Sprinter Executive van for the wedding party — and coordinate both under one reservation so everyone arrives on the same schedule.",
       "Spring and fall Saturdays are the busiest wedding dates of the year in Baltimore — reserve early for those weekends, especially if your date overlaps with an Orioles or Ravens home game downtown.",
     ],
     highlights: [
@@ -876,7 +876,7 @@ export const MARYLAND_BATCH11_PAGES = {
     ],
     vehicles: [
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -919,7 +919,7 @@ export const MARYLAND_BATCH11_PAGES = {
       "92 Limo Service provides chauffeured transportation for real estate agents, brokerages and title companies across Maryland, with the same flat, transparent pricing and professional chauffeurs we bring to every airport transfer.",
       "We regularly serve relocating clients flying into BWI, DCA or IAD for a multi-stop day of home showings, out-of-town buyers and sellers who need reliable transportation between a hotel and several properties, and closing attorneys and title company staff moving between law offices and settlement appointments on a tight schedule.",
       "Each booking is planned around a showing-day itinerary with multiple stops, flight-tracked pickups for relocating clients, and recurring transportation for high-volume agents and brokerages. We confirm the itinerary the day before, stage the vehicle early, and keep dispatch on the line throughout a multi-stop showing day.",
-      "Choose a Business Sedan (Mercedes E-Class) for an agent and a single client, a Premium SUV (Cadillac Escalade) for a family touring several properties with children, or a Sprinter Executive van for a larger relocating family or group of investors — and mix vehicles under one reservation.",
+      "Choose a Business Sedan (Mercedes E-Class) for an agent and a single client, a Premium SUV (Lincoln Navigator) for a family touring several properties with children, or a Sprinter Executive van for a larger relocating family or group of investors — and mix vehicles under one reservation.",
       "Discretion is standard practice for every trip, and consolidated monthly invoicing with itemized receipts keeps brokerages and title companies comfortable billing recurring client transportation.",
     ],
     highlights: [
@@ -932,7 +932,7 @@ export const MARYLAND_BATCH11_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -972,7 +972,7 @@ export const MARYLAND_BATCH11_PAGES = {
       "92 Limo Service provides chauffeured transportation for Maryland's colleges and universities — administrators, visiting faculty, board of trustees members, and commencement or distinguished-speaker travel — with the same flat, transparent pricing and professional chauffeurs we bring to every airport transfer. This is distinct from student-focused travel like move-in day or UMD college-town bookings; it's built around the institution's official and executive travel.",
       "We regularly serve the University of Maryland College Park, Johns Hopkins University, Towson University, Goucher College and the other institutions across our service area, coordinating visiting faculty and trustee pickups from BWI, DCA and IAD, and transportation for board meetings, fundraising events and commencement weekends.",
       "Each booking is planned around a visiting speaker's or trustee's full campus visit, flight-tracked airport pickups, and recurring administrative travel between campuses or to downtown DC and Annapolis for advocacy and funding meetings. We confirm the itinerary the day before, stage the vehicle early, and keep dispatch on the line throughout commencement weekend's especially tight scheduling.",
-      "Choose a First Class Sedan (BMW 7 Series) for a trustee or commencement speaker, a Premium SUV (Cadillac Escalade) for an administrator with a multi-stop day, or a Sprinter Executive van for a visiting delegation or board group — and mix vehicles under one reservation.",
+      "Choose a First Class Sedan (BMW 7 Series) for a trustee or commencement speaker, a Premium SUV (Lincoln Navigator) for an administrator with a multi-stop day, or a Sprinter Executive van for a visiting delegation or board group — and mix vehicles under one reservation.",
     ],
     highlights: [
       { title: "Campuses We Know", desc: "University of Maryland College Park, Johns Hopkins, Towson University and Goucher College are regular stops." },
@@ -984,7 +984,7 @@ export const MARYLAND_BATCH11_PAGES = {
     ],
     vehicles: [
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [
@@ -1023,7 +1023,7 @@ export const MARYLAND_BATCH11_PAGES = {
     intro: [
       "Washington DC's K Street corridor and the blocks around it host thousands of nonprofit organizations, trade associations and advocacy groups — a distinct community from the law firms and government contractors we also serve, with its own travel pattern built around annual galas, Capitol Hill visits, board meetings and visiting-member logistics. 92 Limo Service provides chauffeured transportation here with the same flat, transparent pricing and professional chauffeurs we bring to every trip.",
       "We regularly serve K Street's association headquarters, Capitol Hill for advocacy-day visits and testimony, and the hotel and convention venues used for annual conferences and galas. Each booking is planned around a board member's or visiting delegate's full-day schedule, gala and fundraiser logistics, and recurring executive travel.",
-      "Choose a Business Sedan (Mercedes E-Class) for a staff member or single board visitor, a First Class Sedan (BMW 7 Series) or Premium SUV (Cadillac Escalade) for an executive director or gala evening, or a Sprinter Executive van for a visiting delegation of chapter leaders or members — and mix vehicles under one reservation.",
+      "Choose a Business Sedan (Mercedes E-Class) for a staff member or single board visitor, a First Class Sedan (BMW 7 Series) or Premium SUV (Lincoln Navigator) for an executive director or gala evening, or a Sprinter Executive van for a visiting delegation of chapter leaders or members — and mix vehicles under one reservation.",
       "Confidentiality and a polished, professional presentation are standard for every trip, and consolidated monthly invoicing with itemized receipts keeps nonprofit finance teams — often working from grant-funded or donor-restricted budgets — comfortable tracking the expense.",
     ],
     highlights: [
@@ -1076,7 +1076,7 @@ export const MARYLAND_BATCH11_PAGES = {
       "A hotel concierge desk's reputation rides on every recommendation it makes, which is exactly why 92 Limo Service works as a direct partner to concierge teams across Maryland and DC — a car service a concierge can confidently recommend for a guest's airport transfer, dinner reservation, business meeting or full-day tour, knowing the guest's experience will reflect well on the hotel.",
       "We regularly coordinate with concierge desks for flight-tracked airport transfers (with the guest's flight number passed along by the hotel so nothing gets lost between booking and pickup), restaurant and theater reservations timed to the hotel's own dinner or show bookings, and full-day touring itineraries for guests visiting Baltimore, Annapolis, DC or the region's wine country.",
       "Each booking is planned around the guest's actual stay — a VIP arrival the concierge wants handled personally, a group booking tied to a hotel-hosted event, or a recurring need for guests attending a nearby conference. A direct relationship with the hotel's concierge team, rather than a one-off guest booking, is what keeps the experience consistent across repeat guests.",
-      "Choose a Business Sedan (Mercedes E-Class) for a standard guest transfer, a First Class Sedan (BMW 7 Series) or Premium SUV (Cadillac Escalade) for a VIP guest, or a Sprinter Executive van for a hotel-hosted group — and mix vehicles under one coordinated booking.",
+      "Choose a Business Sedan (Mercedes E-Class) for a standard guest transfer, a First Class Sedan (BMW 7 Series) or Premium SUV (Lincoln Navigator) for a VIP guest, or a Sprinter Executive van for a hotel-hosted group — and mix vehicles under one coordinated booking.",
     ],
     highlights: [
       { title: "Direct Concierge Relationship", desc: "A standing partnership with the hotel's concierge team, not a one-off guest booking each time." },
@@ -1128,7 +1128,7 @@ export const MARYLAND_BATCH11_PAGES = {
       "Washington DC's Embassy Row along Massachusetts Avenue and the broader diplomatic community around the World Bank, IMF and international organizations create a specific transportation need — discretion, protocol awareness, and reliability for official travel that doesn't tolerate the uncertainty of an on-demand ride. 92 Limo Service provides chauffeured transportation for this community with the same flat, transparent pricing and professional chauffeurs we bring to every trip.",
       "We regularly serve embassy staff and diplomats along Massachusetts Avenue's Embassy Row, international organization headquarters near the World Bank and IMF, and visiting delegations attending conferences, state visits and official functions. Chauffeurs working this clientele are trained on basic protocol expectations and discreet pickup procedures rather than a generic curbside approach.",
       "Each booking is planned around an official function's schedule, flight-tracked airport pickups for arriving delegations, and recurring transportation for embassy staff and their principals. We confirm the itinerary the day before, stage the vehicle at an approved or discreet location, and keep dispatch on the line throughout an evening of diplomatic functions.",
-      "Choose a First Class Sedan (BMW 7 Series) for official or representational travel, a Premium SUV (Cadillac Escalade) for a principal with a security detail or larger party, or a Sprinter Executive van for a visiting delegation — and mix vehicles under one reservation.",
+      "Choose a First Class Sedan (BMW 7 Series) for official or representational travel, a Premium SUV (Lincoln Navigator) for a principal with a security detail or larger party, or a Sprinter Executive van for a visiting delegation — and mix vehicles under one reservation.",
     ],
     highlights: [
       { title: "Embassy Row Familiar", desc: "Massachusetts Avenue's embassies and the World Bank/IMF corridor are regular stops." },
@@ -1140,7 +1140,7 @@ export const MARYLAND_BATCH11_PAGES = {
     ],
     vehicles: [
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
     ],
     areas: [

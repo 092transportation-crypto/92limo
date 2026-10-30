@@ -27,7 +27,7 @@ Vehicle class is the single biggest factor in the final price, and the gap betwe
 - Business Sedan (Mercedes E-Class) — around $170, seats up to 3
 - Mid-Size SUV (Lincoln Nautilus) — around $185, seats up to 5
 - Luxury SUV (Chevrolet Suburban) — around $205, seats up to 6 with heavy luggage room
-- Premium SUV (Cadillac Escalade) — around $220, seats up to 6
+- Premium SUV (Lincoln Navigator) — around $220, seats up to 6
 - First Class Sedan (BMW 7 Series / Mercedes S-Class) — around $275, seats up to 3
 - Sprinter Van — around $425, seats up to 14
 - Sprinter Executive — around $500, seats up to 14 with upgraded interior

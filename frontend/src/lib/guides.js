@@ -51,7 +51,7 @@ export const GUIDES = [
           "Mercedes E-Class sedan: up to 3 passengers with standard luggage",
           "BMW 7 Series or Mercedes S-Class: executive travel with extra rear-seat room",
           "Lincoln Nautilus: couples or small parties who want SUV cargo space",
-          "Chevrolet Suburban or Cadillac Escalade: families and groups with full-size bags",
+          "Chevrolet Suburban or Lincoln Navigator: families and groups with full-size bags",
           "Mercedes Sprinter shuttle or executive van: larger groups and all their luggage in one vehicle",
         ],
       },
@@ -158,7 +158,7 @@ export const GUIDES = [
         heading: "Scenario 4: The Vehicle Is Too Small for the Bags",
         paragraphs: [
           "A standard rideshare request can be fulfilled by many different vehicle models. For one traveler with a roller bag, any of them will do. For two couples returning from a cruise, a family with a stroller and a travel crib, or anyone flying with golf clubs or skis, a compact sedan's trunk may not hold everything. Ordering a larger tier solves it when one is available nearby, and at off-hours in the suburbs it may not be.",
-          "When you reserve, you pick the vehicle class and that is what is dispatched. A Mercedes E-Class suits up to 3 passengers with standard luggage. A Chevrolet Suburban or Cadillac Escalade handles a family and full-size checked bags. A Mercedes Sprinter van keeps a larger group and all its luggage together in one vehicle, which also keeps everyone on the same schedule.",
+          "When you reserve, you pick the vehicle class and that is what is dispatched. A Mercedes E-Class suits up to 3 passengers with standard luggage. A Chevrolet Suburban or Lincoln Navigator handles a family and full-size checked bags. A Mercedes Sprinter van keeps a larger group and all its luggage together in one vehicle, which also keeps everyone on the same schedule.",
         ],
       },
       {
@@ -301,7 +301,7 @@ export const GUIDES = [
         heading: "Chauffeured Car Service",
         paragraphs: [
           "A pre-booked chauffeur is the door-to-door option. You reserve a vehicle class, share your flight number and address, and the rest is handled. With 92 Limo Service, every airport pickup is tracked in real time, curbside pickup is included, and meet and greet inside baggage claim is available for an additional charge. Airport pickups include 45 minutes of complimentary wait time on domestic arrivals and 60 minutes on international arrivals, timed from touchdown.",
-          "The quote is confirmed before you ride, with gratuity, tolls, parking and other applicable charges disclosed before confirmation. The fleet runs from the Mercedes E-Class sedan for up to 3 passengers through the Chevrolet Suburban and Cadillac Escalade to Mercedes Sprinter vans for groups, and car seats are available on request for an add-on fee.",
+          "The quote is confirmed before you ride, with gratuity, tolls, parking and other applicable charges disclosed before confirmation. The fleet runs from the Mercedes E-Class sedan for up to 3 passengers through the Chevrolet Suburban and Lincoln Navigator to Mercedes Sprinter vans for groups, and car seats are available on request for an add-on fee.",
           "This option suits early and late flights, families, business travelers, groups, international arrivals and anyone hosting a guest. 92 Limo Service is the trade name of 92 Transportation LLC, Maryland PSC Carrier #6325, and serves Maryland, Washington DC and Northern Virginia with 24/7 dispatch at (877) 609-1919.",
         ],
       },
@@ -538,7 +538,7 @@ export const GUIDES = [
           {
             heading: "Booking Locally",
             paragraphs: [
-              "Because we are based in Laurel, local pickups are our home territory. The fleet includes the Mercedes E-Class for up to 3 passengers, BMW 7 Series and Mercedes S-Class sedans, the Lincoln Nautilus, Chevrolet Suburban and Cadillac Escalade SUVs, and Mercedes Sprinter vans. Quotes are confirmed before you ride, with gratuity, tolls, parking and other applicable charges disclosed before confirmation. 92 Limo Service is the trade name of 92 Transportation LLC, Maryland PSC Carrier #6325. Reserve online or call (877) 609-1919 at any hour.",
+              "Because we are based in Laurel, local pickups are our home territory. The fleet includes the Mercedes E-Class for up to 3 passengers, BMW 7 Series and Mercedes S-Class sedans, the Lincoln Nautilus, Chevrolet Suburban and Lincoln Navigator SUVs, and Mercedes Sprinter vans. Quotes are confirmed before you ride, with gratuity, tolls, parking and other applicable charges disclosed before confirmation. 92 Limo Service is the trade name of 92 Transportation LLC, Maryland PSC Carrier #6325. Reserve online or call (877) 609-1919 at any hour.",
             ],
           },
         ],
@@ -838,7 +838,7 @@ export const GUIDES = [
           "BMW 7 Series or Mercedes S-Class (First Class Sedan) — up to 3 passengers, the flagship option for the couple's grand entrance and exit, with the rear-seat room and presence that photograph well at the curb.",
           "Lincoln Nautilus (Midsize SUV) — up to 4 passengers without luggage, a practical step up for a couple who wants SUV proportions without moving to a full-size vehicle.",
           "Chevrolet Suburban (Luxury SUV) — up to 6 passengers without luggage, roomy enough for the couple plus parents or the wedding party's closest members.",
-          "Cadillac Escalade (Premium SUV) — up to 6 passengers without luggage, the fleet's most commanding SUV silhouette for a couple who wants an SUV entrance with maximum presence.",
+          "Lincoln Navigator (Premium SUV) — up to 6 passengers without luggage, the fleet's most commanding SUV silhouette for a couple who wants an SUV entrance with maximum presence.",
           "Mercedes Sprinter Shuttle — up to 13 passengers, built for moving the bridal party or guests between hotel, ceremony and reception without splitting the group across multiple cars.",
           "Mercedes Sprinter Executive — up to 13 passengers, with an upgraded lounge-style interior that turns the ride itself into part of the celebration for the couple's entrance and exit.",
         ],
@@ -1078,7 +1078,7 @@ export const GUIDES = [
         list: [
           "Lincoln Nautilus (Midsize SUV) — up to 4 passengers without luggage, a comfortable fit for a couple or a small family.",
           "Chevrolet Suburban (Luxury SUV) — up to 6 passengers without luggage, with good window visibility for every seat on a drive-through route.",
-          "Cadillac Escalade (Premium SUV) — up to 6 passengers without luggage, our most commanding SUV silhouette for a special family tradition.",
+          "Lincoln Navigator (Premium SUV) — up to 6 passengers without luggage, our most commanding SUV silhouette for a special family tradition.",
           "Mercedes Sprinter Shuttle or Sprinter Executive — up to 13 passengers, built for an extended-family outing or a group of friends making a tradition of it, with enough room that no one is squeezed in for a two-to-three-hour evening.",
           "Mercedes Sprinter Executive — up to 13 passengers, a lounge-style cabin that turns the ride itself into part of the celebration for a milestone family gathering or a corporate group.",
         ],
@@ -1322,7 +1322,7 @@ export const GUIDES = [
         heading: "Look at the Actual Fleet, Not Just the Photos",
         paragraphs: [
           "Reservations should be made by vehicle class — Business Sedan, Premium SUV, Sprinter van, and so on — with a guarantee that the class you book is the class that arrives, or a comparable upgrade if something changes. Ask whether the company owns its vehicles or brokers to third-party drivers, since broker models make it harder to guarantee vehicle condition and chauffeur standards.",
-          "92 Limo Service owns and maintains its own fleet: Mercedes E-Class and BMW 7 Series sedans, Lincoln Nautilus, Chevrolet Suburban and Cadillac Escalade SUVs, and Mercedes Sprinter vans for groups up to 13.",
+          "92 Limo Service owns and maintains its own fleet: Mercedes E-Class and BMW 7 Series sedans, Lincoln Nautilus, Chevrolet Suburban and Lincoln Navigator SUVs, and Mercedes Sprinter vans for groups up to 13.",
         ],
       },
       {
@@ -2223,7 +2223,7 @@ export const GUIDES = [
       {
         heading: "What Changes If You Book Same-Day",
         paragraphs: [
-          "Same-day booking works more often than people expect for a standard sedan or SUV, since a solo dispatcher call can usually free up a vehicle within a few hours, even from Bethesda. What same-day booking does not solve is a specific vehicle-class preference — if you need an Escalade or a particular Sprinter for a same-day request during a busy stretch, you may end up with whichever class is actually free rather than your first choice.",
+          "Same-day booking works more often than people expect for a standard sedan or SUV, since a solo dispatcher call can usually free up a vehicle within a few hours, even from Bethesda. What same-day booking does not solve is a specific vehicle-class preference — if you need an Navigator or a particular Sprinter for a same-day request during a busy stretch, you may end up with whichever class is actually free rather than your first choice.",
           "The practical rule of thumb for Bethesda travelers: book ahead when the vehicle class matters to you, and treat same-day as a reasonable fallback when any comfortable sedan or SUV will do.",
         ],
       },
@@ -2396,7 +2396,7 @@ export const GUIDES = [
       {
         heading: "How We Typically Run Wedding-Day Transportation",
         paragraphs: [
-          "For most of these venues, the most efficient plan is not a line of individually driven cars but a small number of shuttle runs: a Sprinter Executive van or two moving the wedding party and out-of-town guests from a staging hotel to the ceremony, then to the reception if it is a different location, and home again at the end of the night. A Cadillac Escalade or BMW 7 Series is the usual choice for the couple themselves, arriving and departing on their own schedule.",
+          "For most of these venues, the most efficient plan is not a line of individually driven cars but a small number of shuttle runs: a Sprinter Executive van or two moving the wedding party and out-of-town guests from a staging hotel to the ceremony, then to the reception if it is a different location, and home again at the end of the night. A Lincoln Navigator or BMW 7 Series is the usual choice for the couple themselves, arriving and departing on their own schedule.",
           "We ask for the exact venue, guest count, and timeline early, since venues with limited on-site parking or a long gravel access road change which vehicle size makes sense and how many shuttle runs the evening needs.",
         ],
       },

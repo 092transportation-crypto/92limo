@@ -33,7 +33,7 @@ export default function AboutPage() {
         title="The Standard for Luxury Chauffeur Service"
         subtitle="92 Transportation LLC is a Maryland-based, PSC-licensed chauffeur company built on punctuality, pristine vehicles, and a team with 15+ years of transportation industry experience."
         image={IMAGES.escaladeAngle}
-        alt="92 Limo Service black Cadillac Escalade luxury SUV"
+        alt="92 Limo Service black Lincoln Navigator luxury SUV"
       />
 
       <section className="py-20 lg:py-24 bg-white" data-testid="about-who">

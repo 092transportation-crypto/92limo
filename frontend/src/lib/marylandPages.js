@@ -34,7 +34,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "The Right Vehicle",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
       },
       {
         "title": "24/7, 365",
@@ -192,7 +192,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "The Right Vehicle",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
       },
       {
         "title": "24/7, 365",
@@ -205,7 +205,7 @@ export const MARYLAND_LANDING_PAGES = {
     ],
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "areas": [
@@ -349,7 +349,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "The Right Vehicle",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
       },
       {
         "title": "24/7, 365",
@@ -503,7 +503,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "The Right Vehicle",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
       },
       {
         "title": "24/7, 365",
@@ -660,7 +660,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "The Right Vehicle",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
       },
       {
         "title": "24/7, 365",
@@ -817,7 +817,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "The Right Vehicle",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
       },
       {
         "title": "24/7, 365",
@@ -972,7 +972,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "The Right Vehicle",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
       },
       {
         "title": "24/7, 365",
@@ -1129,7 +1129,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "The Right Vehicle",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
       },
       {
         "title": "24/7, 365",
@@ -1286,7 +1286,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "The Right Vehicle",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
       },
       {
         "title": "24/7, 365",
@@ -1299,7 +1299,7 @@ export const MARYLAND_LANDING_PAGES = {
     ],
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "areas": [
@@ -1443,7 +1443,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "The Right Vehicle",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
       },
       {
         "title": "24/7, 365",
@@ -1456,7 +1456,7 @@ export const MARYLAND_LANDING_PAGES = {
     ],
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "areas": [
@@ -1597,7 +1597,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "The Right Vehicle",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
       },
       {
         "title": "24/7, 365",
@@ -1751,7 +1751,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "The Right Vehicle",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
       },
       {
         "title": "24/7, 365",
@@ -1909,7 +1909,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "The Right Vehicle",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
       },
       {
         "title": "24/7, 365",
@@ -1922,7 +1922,7 @@ export const MARYLAND_LANDING_PAGES = {
     ],
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "areas": [
@@ -2066,7 +2066,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "The Right Vehicle",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
       },
       {
         "title": "24/7, 365",
@@ -2223,7 +2223,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "The Right Vehicle",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
       },
       {
         "title": "24/7, 365",
@@ -2377,7 +2377,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "The Right Vehicle",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
       },
       {
         "title": "24/7, 365",
@@ -2390,7 +2390,7 @@ export const MARYLAND_LANDING_PAGES = {
     ],
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "areas": [
@@ -2534,7 +2534,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "The Right Vehicle",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
       },
       {
         "title": "24/7, 365",
@@ -2691,7 +2691,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "The Right Vehicle",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
       },
       {
         "title": "24/7, 365",
@@ -2842,7 +2842,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "The Right Vehicle",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
       },
       {
         "title": "24/7, 365",
@@ -2855,7 +2855,7 @@ export const MARYLAND_LANDING_PAGES = {
     ],
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "areas": [
@@ -2999,7 +2999,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "The Right Vehicle",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
       },
       {
         "title": "24/7, 365",
@@ -3156,7 +3156,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "The Right Vehicle",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinter vans and stretch limousines."
       },
       {
         "title": "24/7, 365",
@@ -3169,7 +3169,7 @@ export const MARYLAND_LANDING_PAGES = {
     ],
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     "areas": [
@@ -3296,7 +3296,7 @@ export const MARYLAND_LANDING_PAGES = {
       "The trip from BWI Marshall Airport to Ocean City covers about 130 miles on I-97 and US-50 east across the Chesapeake Bay Bridge, through Easton, Cambridge and Salisbury to the Route 50 bridge into Ocean City and takes 2.5–3 hours — and 92 Limo Service makes it the calmest leg of the day. We meet you at BWI's lower-level arrivals curb, where the luggage for a beach week fits easily in an SUV or Sprinter and drive door to door.",
       "This route carries beach-bound families, White Marlin Open crews, convention and conference groups, bachelorette parties and snowbirds flying home. Popular drop-offs include boardwalk hotels between the Inlet and 27th Street, the Roland E. Powell Convention Center, bayside and oceanfront condos along Coastal Highway, the Hilton Suites, Princess Royale and Holiday Inn Oceanfront and Assateague Island and Berlin.",
       "We track your inbound flight and adjust automatically for early arrivals or delays, with 45 minutes of complimentary waiting time on domestic arrivals and 60 on international. Our chauffeurs plan around Bay Bridge backups on summer Fridays and Sundays, Sunfest and Springfest weekends, the OC Air Show and White Marlin Open in August, and the rate is quoted flat — covering the base transportation charge, with gratuity, tolls, parking and any other applicable charges disclosed before confirmation.",
-      "From a Mercedes-Benz E-Class for solo travelers to Escalades, Suburbans and Sprinter vans for groups, we right-size the vehicle to your party and luggage.",
+      "From a Mercedes-Benz E-Class for solo travelers to Navigators, Suburbans and Sprinter vans for groups, we right-size the vehicle to your party and luggage.",
       "Compare that to the alternatives: there is no direct train to Ocean City, driving yourself means a trunk already full of beach gear plus Bay Bridge backups on a summer Friday, and a rideshare over 130 miles is often unavailable or prohibitively expensive for the return leg. A flat rate quoted before you leave BWI covers the whole 2.5–3 hour trip, Bay Bridge toll included, with no surge for a beach-week exodus."
     ],
     "highlights": [
@@ -3322,11 +3322,11 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "Sedans to Sprinters",
-        "desc": "Mercedes E-Class, BMW 7 Series, Escalade, Suburban and 14-passenger Sprinter vans."
+        "desc": "Mercedes E-Class, BMW 7 Series, Navigator, Suburban and 14-passenger Sprinter vans."
       }
     ],
     "vehicles": [
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Luxury SUV — Chevrolet Suburban",
       "Sprinter Shuttle — Mercedes Sprinter"
     ],
@@ -3403,7 +3403,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "q": "Can you take larger groups?",
-        "a": "Absolutely — Escalades and Suburbans seat six, Sprinter vans up to 14, and we coordinate multiple vehicles for bigger parties."
+        "a": "Absolutely — Navigators and Suburbans seat six, Sprinter vans up to 14, and we coordinate multiple vehicles for bigger parties."
       },
       {
         "q": "Do you offer the return trip from Ocean City to BWI?",
@@ -3427,7 +3427,7 @@ export const MARYLAND_LANDING_PAGES = {
       "The trip from BWI Marshall Airport to Rockville covers about 42 miles on the BW Parkway to the Beltway and I-270, or the ICC (MD-200) directly across to I-270 when the Beltway is slow and takes 55–70 minutes — and 92 Limo Service makes it the calmest leg of the day. We meet you at BWI's lower-level arrivals curb and drive door to door.",
       "This route carries I-270 biotech and government-contractor travelers, Montgomery County court and agency visitors, Montgomery College families and King Farm residents flying BWI for Southwest fares. Popular drop-offs include Rockville Town Square, King Farm and Fallsgrove, the Nuclear Regulatory Commission at White Flint, Adventist HealthCare Shady Grove and the biotech campuses along Shady Grove Road.",
       "We track your inbound flight and adjust automatically for early arrivals or delays, with 45 minutes of complimentary waiting time on domestic arrivals and 60 on international. Our chauffeurs plan around the I-270 spur merge and the Rockville Pike crawl at White Flint, both of which the ICC routing often avoids, and the rate is quoted flat — covering the base transportation charge, with gratuity, tolls, parking and any other applicable charges disclosed before confirmation.",
-      "From a Mercedes-Benz E-Class for solo travelers to Escalades, Suburbans and Sprinter vans for groups, we right-size the vehicle to your party and luggage. And because Rockville is home turf for a Columbia-based company, our chauffeurs know King Farm, Twinbrook and Fallsgrove as well as the highway.",
+      "From a Mercedes-Benz E-Class for solo travelers to Navigators, Suburbans and Sprinter vans for groups, we right-size the vehicle to your party and luggage. And because Rockville is home turf for a Columbia-based company, our chauffeurs know King Farm, Twinbrook and Fallsgrove as well as the highway.",
       "Compare that to the alternatives: MARC's Camden Line doesn't reach Rockville at all, driving yourself from BWI means I-95 to I-270 through the White Flint interchange backups, and a rideshare across three counties can surge unpredictably on a weekday evening. A flat rate booked before you leave the airport removes that guesswork entirely."
     ],
     "highlights": [
@@ -3453,13 +3453,13 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "Sedans to Sprinters",
-        "desc": "Mercedes E-Class, BMW 7 Series, Escalade, Suburban and 14-passenger Sprinter vans."
+        "desc": "Mercedes E-Class, BMW 7 Series, Navigator, Suburban and 14-passenger Sprinter vans."
       }
     ],
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "areas": [
       {
@@ -3534,7 +3534,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "q": "Can you take larger groups?",
-        "a": "Absolutely — Escalades and Suburbans seat six, Sprinter vans up to 14, and we coordinate multiple vehicles for bigger parties."
+        "a": "Absolutely — Navigators and Suburbans seat six, Sprinter vans up to 14, and we coordinate multiple vehicles for bigger parties."
       },
       {
         "q": "Do you offer the return trip from Rockville to BWI?",
@@ -3558,7 +3558,7 @@ export const MARYLAND_LANDING_PAGES = {
       "The trip from BWI Marshall Airport to Frederick covers about 55 miles on I-695 or MD-32 to I-70 west, exiting at US-15 or MD-355 for downtown and takes 60–75 minutes — and 92 Limo Service makes it the calmest leg of the day. We meet you at BWI's lower-level arrivals curb and drive door to door.",
       "This route carries Fort Detrick and biotech travelers, Hood College families, Civil War history visitors, wine-country weekenders and Frederick residents who prefer BWI's Southwest schedule. Popular drop-offs include downtown Frederick and Carroll Creek, Fort Detrick's Nallin Farm gate, Frederick Health Hospital, Hood College and the Riverside Research Park.",
       "We track your inbound flight and adjust automatically for early arrivals or delays, with 45 minutes of complimentary waiting time on domestic arrivals and 60 on international. Our chauffeurs plan around I-70 construction zones near Mount Airy and the I-270 interchange, plus Frederick Keys and Fair-week traffic in summer, and the rate is quoted flat — covering the base transportation charge, with gratuity, tolls, parking and any other applicable charges disclosed before confirmation.",
-      "From a Mercedes-Benz E-Class for solo travelers to Escalades, Suburbans and Sprinter vans for groups, we right-size the vehicle to your party and luggage. And because Frederick is home turf for a Columbia-based company, our chauffeurs know Downtown Frederick's historic district, Baker Park and Ballenger Creek as well as the highway.",
+      "From a Mercedes-Benz E-Class for solo travelers to Navigators, Suburbans and Sprinter vans for groups, we right-size the vehicle to your party and luggage. And because Frederick is home turf for a Columbia-based company, our chauffeurs know Downtown Frederick's historic district, Baker Park and Ballenger Creek as well as the highway.",
       "Compare that to the alternatives: there is no MARC or commuter rail service into Frederick, driving yourself means I-70 construction backups near the Monocacy River crossing, and a rideshare over this distance can be scarce for a late-night return leg. A flat rate booked before you leave BWI covers the entire door-to-door trip regardless of what's backed up on I-70."
     ],
     "highlights": [
@@ -3584,11 +3584,11 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "Sedans to Sprinters",
-        "desc": "Mercedes E-Class, BMW 7 Series, Escalade, Suburban and 14-passenger Sprinter vans."
+        "desc": "Mercedes E-Class, BMW 7 Series, Navigator, Suburban and 14-passenger Sprinter vans."
       }
     ],
     "vehicles": [
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Luxury SUV — Chevrolet Suburban",
       "Sprinter Shuttle — Mercedes Sprinter"
     ],
@@ -3668,7 +3668,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "q": "Can you take larger groups?",
-        "a": "Absolutely — Escalades and Suburbans seat six, Sprinter vans up to 14, and we coordinate multiple vehicles for bigger parties."
+        "a": "Absolutely — Navigators and Suburbans seat six, Sprinter vans up to 14, and we coordinate multiple vehicles for bigger parties."
       },
       {
         "q": "Do you offer the return trip from Frederick to BWI?",
@@ -3692,7 +3692,7 @@ export const MARYLAND_LANDING_PAGES = {
       "The trip from Ronald Reagan Washington National Airport to Bethesda covers about 13 miles on the George Washington Parkway to the Beltway and the I-270 spur, or the Clara Barton Parkway to River Road when the Beltway is jammed and takes 25–40 minutes — and 92 Limo Service makes it the calmest leg of the day. We meet you at DCA's Terminal 2 baggage claim and the Terminal 1 curb and drive door to door.",
       "This route carries NIH and Walter Reed visitors, Marriott and Lockheed executives, Congressional Country Club guests and Bethesda families. Popular drop-offs include NIH and the Medical Center Metro, Walter Reed, Marriott International headquarters, Bethesda Row and the Hyatt Regency Bethesda.",
       "We track your inbound flight and adjust automatically for early arrivals or delays, with 45 minutes of complimentary waiting time on domestic arrivals and 60 on international. Our chauffeurs plan around the GW Parkway merge at the 14th Street Bridge, the American Legion Bridge approach and Bethesda's downtown lights, and the rate is quoted flat — covering the base transportation charge, with gratuity, tolls, parking and any other applicable charges disclosed before confirmation.",
-      "From a Mercedes-Benz E-Class for solo travelers to Escalades, Suburbans and Sprinter vans for groups, we right-size the vehicle to your party and luggage. And because Bethesda is home turf for a Columbia-based company, our chauffeurs know Downtown Bethesda, Bethesda Row and the Woodmont Triangle as well as the highway.",
+      "From a Mercedes-Benz E-Class for solo travelers to Navigators, Suburbans and Sprinter vans for groups, we right-size the vehicle to your party and luggage. And because Bethesda is home turf for a Columbia-based company, our chauffeurs know Downtown Bethesda, Bethesda Row and the Woodmont Triangle as well as the highway.",
       "Compare that to the alternatives: the Red Line needs a transfer from DCA and still leaves you blocks from most Bethesda addresses with luggage in tow, driving yourself means hunting for metered parking near Woodmont Triangle, and a rideshare over this short Beltway hop can surge sharply during evening rush. A flat rate quoted before you leave the terminal holds regardless of what's backed up on the American Legion Bridge."
     ],
     "highlights": [
@@ -3718,13 +3718,13 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "Sedans to Sprinters",
-        "desc": "Mercedes E-Class, BMW 7 Series, Escalade, Suburban and 14-passenger Sprinter vans."
+        "desc": "Mercedes E-Class, BMW 7 Series, Navigator, Suburban and 14-passenger Sprinter vans."
       }
     ],
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "areas": [
       {
@@ -3799,7 +3799,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "q": "Can you take larger groups?",
-        "a": "Absolutely — Escalades and Suburbans seat six, Sprinter vans up to 14, and we coordinate multiple vehicles for bigger parties."
+        "a": "Absolutely — Navigators and Suburbans seat six, Sprinter vans up to 14, and we coordinate multiple vehicles for bigger parties."
       },
       {
         "q": "Do you offer the return trip from Bethesda to DCA?",
@@ -3823,7 +3823,7 @@ export const MARYLAND_LANDING_PAGES = {
       "The trip from Ronald Reagan Washington National Airport to Rockville covers about 20 miles on the GW Parkway to the Beltway and I-270, exiting at Montrose Road or MD-28 for Rockville and takes 35–50 minutes — and 92 Limo Service makes it the calmest leg of the day. We meet you at DCA's Terminal 2 baggage claim and the Terminal 1 curb and drive door to door.",
       "This route carries I-270 biotech visitors, NRC and county-government travelers, Montgomery College families and Rockville residents on DCA's shuttle routes to New York and Boston. Popular drop-offs include Rockville Town Square, King Farm and Fallsgrove, the Nuclear Regulatory Commission, Shady Grove Adventist Medical Center and the Shady Grove Road biotech campuses.",
       "We track your inbound flight and adjust automatically for early arrivals or delays, with 45 minutes of complimentary waiting time on domestic arrivals and 60 on international. Our chauffeurs plan around the I-270 spur and Montrose Road backups at rush hour, and the rate is quoted flat — covering the base transportation charge, with gratuity, tolls, parking and any other applicable charges disclosed before confirmation.",
-      "From a Mercedes-Benz E-Class for solo travelers to Escalades, Suburbans and Sprinter vans for groups, we right-size the vehicle to your party and luggage. And because Rockville is home turf for a Columbia-based company, our chauffeurs know Rockville Town Square, the Pike District and Twinbrook as well as the highway.",
+      "From a Mercedes-Benz E-Class for solo travelers to Navigators, Suburbans and Sprinter vans for groups, we right-size the vehicle to your party and luggage. And because Rockville is home turf for a Columbia-based company, our chauffeurs know Rockville Town Square, the Pike District and Twinbrook as well as the highway.",
       "Compare that to the alternatives: Metro's Red Line needs a transfer and still leaves you blocks from most Rockville addresses, driving from DCA means the Beltway's American Legion Bridge backups, and a rideshare across the Beltway during rush hour can surge sharply. A flat rate quoted before you leave Reagan National holds regardless of which bridge is backed up."
     ],
     "highlights": [
@@ -3849,13 +3849,13 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "Sedans to Sprinters",
-        "desc": "Mercedes E-Class, BMW 7 Series, Escalade, Suburban and 14-passenger Sprinter vans."
+        "desc": "Mercedes E-Class, BMW 7 Series, Navigator, Suburban and 14-passenger Sprinter vans."
       }
     ],
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "areas": [
       {
@@ -3930,7 +3930,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "q": "Can you take larger groups?",
-        "a": "Absolutely — Escalades and Suburbans seat six, Sprinter vans up to 14, and we coordinate multiple vehicles for bigger parties."
+        "a": "Absolutely — Navigators and Suburbans seat six, Sprinter vans up to 14, and we coordinate multiple vehicles for bigger parties."
       },
       {
         "q": "Do you offer the return trip from Rockville to DCA?",
@@ -3954,7 +3954,7 @@ export const MARYLAND_LANDING_PAGES = {
       "The trip from Washington Dulles International Airport to Rockville covers about 27 miles on the Dulles Toll Road to the Beltway, across the American Legion Bridge and up I-270 to Rockville and takes 40–55 minutes — and 92 Limo Service makes it the calmest leg of the day. We meet you at Dulles's international arrivals hall and the Main Terminal baggage claim and drive door to door.",
       "This route carries international arrivals bound for the I-270 biotech corridor, NRC and federal visitors, Montgomery College's international students and Rockville families returning from overseas. Popular drop-offs include Rockville Town Square, King Farm, Fallsgrove and Tower Oaks, the Nuclear Regulatory Commission, the Shady Grove Road biotech corridor and Adventist HealthCare Shady Grove.",
       "We track your inbound flight and adjust automatically for early arrivals or delays, with 45 minutes of complimentary waiting time on domestic arrivals and 60 on international. Our chauffeurs plan around the American Legion Bridge merge and the I-270 spur, the two chokepoints on this run, and the rate is quoted flat — covering the base transportation charge, with gratuity, tolls, parking and any other applicable charges disclosed before confirmation.",
-      "From a Mercedes-Benz E-Class for solo travelers to Escalades, Suburbans and Sprinter vans for groups, we right-size the vehicle to your party and luggage. And because Rockville is home turf for a Columbia-based company, our chauffeurs know Shady Grove, Rockville Pike and King Farm as well as the highway.",
+      "From a Mercedes-Benz E-Class for solo travelers to Navigators, Suburbans and Sprinter vans for groups, we right-size the vehicle to your party and luggage. And because Rockville is home turf for a Columbia-based company, our chauffeurs know Shady Grove, Rockville Pike and King Farm as well as the highway.",
       "Compare that to the alternatives: there's no direct transit link from Dulles to Rockville, driving yourself means the Dulles Toll Road charge plus Route 28 congestion before you even reach the Beltway, and a rideshare over this cross-county distance can surge during one of Dulles's frequent weather delays. A flat rate booked before wheels-down covers the whole trip, tolls included."
     ],
     "highlights": [
@@ -3980,13 +3980,13 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "Sedans to Sprinters",
-        "desc": "Mercedes E-Class, BMW 7 Series, Escalade, Suburban and 14-passenger Sprinter vans."
+        "desc": "Mercedes E-Class, BMW 7 Series, Navigator, Suburban and 14-passenger Sprinter vans."
       }
     ],
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "areas": [
       {
@@ -4061,7 +4061,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "q": "Can you take larger groups?",
-        "a": "Absolutely — Escalades and Suburbans seat six, Sprinter vans up to 14, and we coordinate multiple vehicles for bigger parties."
+        "a": "Absolutely — Navigators and Suburbans seat six, Sprinter vans up to 14, and we coordinate multiple vehicles for bigger parties."
       },
       {
         "q": "Do you offer the return trip from Rockville to IAD?",
@@ -4085,7 +4085,7 @@ export const MARYLAND_LANDING_PAGES = {
       "The trip from Washington Dulles International Airport to Bethesda covers about 28 miles on the Dulles Toll Road to the Beltway, across the American Legion Bridge and off at River Road or the I-270 spur to Old Georgetown Road and takes 40–55 minutes — and 92 Limo Service makes it the calmest leg of the day. We meet you at Dulles's international arrivals hall and the Main Terminal baggage claim and drive door to door.",
       "This route carries NIH visiting researchers and international patients, Walter Reed families, Marriott and Lockheed executives and Bethesda residents on long-haul routes. Popular drop-offs include the National Institutes of Health, Walter Reed National Military Medical Center, Marriott International headquarters, Bethesda Row and downtown and the Hyatt Regency Bethesda.",
       "We track your inbound flight and adjust automatically for early arrivals or delays, with 45 minutes of complimentary waiting time on domestic arrivals and 60 on international. Our chauffeurs plan around the Beltway approach to the American Legion Bridge, which backs up in both directions every weekday afternoon, and the rate is quoted flat — covering the base transportation charge, with gratuity, tolls, parking and any other applicable charges disclosed before confirmation.",
-      "From a Mercedes-Benz E-Class for solo travelers to Escalades, Suburbans and Sprinter vans for groups, we right-size the vehicle to your party and luggage. And because Bethesda is home turf for a Columbia-based company, our chauffeurs know Bethesda Row, the Capital Crescent Trail corridor and Westbard as well as the highway.",
+      "From a Mercedes-Benz E-Class for solo travelers to Navigators, Suburbans and Sprinter vans for groups, we right-size the vehicle to your party and luggage. And because Bethesda is home turf for a Columbia-based company, our chauffeurs know Bethesda Row, the Capital Crescent Trail corridor and Westbard as well as the highway.",
       "Compare that to the alternatives: there's no direct Silver Line service from Dulles into Bethesda without a transfer, driving yourself means paying the Dulles Toll Road before you've even left the airport, and a rideshare across this corridor can surge during the weather delays that regularly back up the Dulles Greenway. A flat rate booked before you land covers the full door-to-door trip."
     ],
     "highlights": [
@@ -4111,13 +4111,13 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "Sedans to Sprinters",
-        "desc": "Mercedes E-Class, BMW 7 Series, Escalade, Suburban and 14-passenger Sprinter vans."
+        "desc": "Mercedes E-Class, BMW 7 Series, Navigator, Suburban and 14-passenger Sprinter vans."
       }
     ],
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "areas": [
       {
@@ -4192,7 +4192,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "q": "Can you take larger groups?",
-        "a": "Absolutely — Escalades and Suburbans seat six, Sprinter vans up to 14, and we coordinate multiple vehicles for bigger parties."
+        "a": "Absolutely — Navigators and Suburbans seat six, Sprinter vans up to 14, and we coordinate multiple vehicles for bigger parties."
       },
       {
         "q": "Do you offer the return trip from Bethesda to IAD?",
@@ -4216,7 +4216,7 @@ export const MARYLAND_LANDING_PAGES = {
       "The trip from downtown Baltimore to Washington, DC covers about 40 miles on the Baltimore-Washington Parkway (MD-295) or I-95, finishing on New York Avenue or DC-295 and takes 55–75 minutes — and 92 Limo Service makes it the calmest leg of the day. We pick you up anywhere in downtown Baltimore — the Inner Harbor, Harbor East and Fells Point — and drive door to door.",
       "This route carries Baltimore executives with Washington meetings, Johns Hopkins and University of Maryland faculty, Inner Harbor conventioneers heading to the capital and Orioles and Ravens fans doing the reverse trip. Popular drop-offs include Capitol Hill, the K Street business district, Georgetown, Union Station and Navy Yard and Nationals Park.",
       "We time the pickup to your meeting or train with a realistic buffer. Our chauffeurs plan around BW Parkway backups at MD-197 and the New York Avenue crawl, plus Capitals and Nationals game traffic, and the rate is quoted flat — covering the base transportation charge, with gratuity, tolls, parking and any other applicable charges disclosed before confirmation.",
-      "From a Mercedes-Benz E-Class for solo travelers to Escalades, Suburbans and Sprinter vans for groups, we right-size the vehicle to your party and luggage.",
+      "From a Mercedes-Benz E-Class for solo travelers to Navigators, Suburbans and Sprinter vans for groups, we right-size the vehicle to your party and luggage.",
       "Compare that to the alternatives: MARC trains run on a fixed schedule from a station blocks from your real destination, driving yourself means parkway tolls and K Street parking, and a rideshare over this distance can surge sharply during rush hour or a Nationals or Capitals night. A flat-rate chauffeured transfer costs one known amount regardless of traffic, and corporate accounts get consolidated billing and priority scheduling for repeat trips between the two cities."
     ],
     "highlights": [
@@ -4242,13 +4242,13 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "Sedans to Sprinters",
-        "desc": "Mercedes E-Class, BMW 7 Series, Escalade, Suburban and 14-passenger Sprinter vans."
+        "desc": "Mercedes E-Class, BMW 7 Series, Navigator, Suburban and 14-passenger Sprinter vans."
       }
     ],
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "areas": [
       {
@@ -4323,7 +4323,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "q": "Can you take larger groups?",
-        "a": "Absolutely — Escalades and Suburbans seat six, Sprinter vans up to 14, and we coordinate multiple vehicles for bigger parties."
+        "a": "Absolutely — Navigators and Suburbans seat six, Sprinter vans up to 14, and we coordinate multiple vehicles for bigger parties."
       },
       {
         "q": "Do you offer the return trip from Washington DC to Baltimore?",
@@ -4347,7 +4347,7 @@ export const MARYLAND_LANDING_PAGES = {
       "The trip from downtown Baltimore to Annapolis covers about 30 miles on I-97 south to US-50 and Rowe Boulevard and takes 40–50 minutes — and 92 Limo Service makes it the calmest leg of the day. We pick you up anywhere in downtown Baltimore — the Inner Harbor, Harbor East and Johns Hopkins — and drive door to door.",
       "This route carries legislators and lobbyists between Baltimore offices and the State House, Naval Academy families, Boat Show visitors and wedding guests heading to waterfront venues. Popular drop-offs include the Naval Academy, the State House and Church Circle, City Dock and Main Street, Eastport and the yacht clubs and the Westin and Graduate Annapolis.",
       "We time the pickup to your meeting or train with a realistic buffer. Our chauffeurs plan around I-97 and MD-100 merges at rush hour and Rowe Boulevard on session days, and the rate is quoted flat — covering the base transportation charge, with gratuity, tolls, parking and any other applicable charges disclosed before confirmation.",
-      "From a Mercedes-Benz E-Class for solo travelers to Escalades, Suburbans and Sprinter vans for groups, we right-size the vehicle to your party and luggage.",
+      "From a Mercedes-Benz E-Class for solo travelers to Navigators, Suburbans and Sprinter vans for groups, we right-size the vehicle to your party and luggage.",
       "Session days and Naval Academy events can jam Rowe Boulevard and Church Circle with little warning, and a chauffeur who already expects it is worth more than any app. Driving yourself means hunting for parking near City Dock; a rideshare over this route can surge during commissioning week or a summer boat show weekend. A flat rate quoted before you leave Baltimore removes that uncertainty entirely."
     ],
     "highlights": [
@@ -4373,13 +4373,13 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "Sedans to Sprinters",
-        "desc": "Mercedes E-Class, BMW 7 Series, Escalade, Suburban and 14-passenger Sprinter vans."
+        "desc": "Mercedes E-Class, BMW 7 Series, Navigator, Suburban and 14-passenger Sprinter vans."
       }
     ],
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "areas": [
       {
@@ -4454,7 +4454,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "q": "Can you take larger groups?",
-        "a": "Absolutely — Escalades and Suburbans seat six, Sprinter vans up to 14, and we coordinate multiple vehicles for bigger parties."
+        "a": "Absolutely — Navigators and Suburbans seat six, Sprinter vans up to 14, and we coordinate multiple vehicles for bigger parties."
       },
       {
         "q": "Do you offer the return trip from Annapolis to Baltimore?",
@@ -4478,7 +4478,7 @@ export const MARYLAND_LANDING_PAGES = {
       "The trip from downtown Baltimore to Bethesda covers about 45 miles on I-95 to the Capital Beltway and the I-270 spur, or the ICC (MD-200) to I-270 when the Beltway is slow and takes 60–75 minutes — and 92 Limo Service makes it the calmest leg of the day. We pick you up anywhere in downtown Baltimore — the Inner Harbor, Harbor East and Johns Hopkins — and drive door to door.",
       "This route carries Johns Hopkins and University of Maryland clinicians visiting NIH, Baltimore executives meeting Marriott and Lockheed, Walter Reed families and Bethesda commuters. Popular drop-offs include NIH and Walter Reed, Marriott International headquarters, Bethesda Row, the Hyatt Regency and Bethesda Marriott and Strathmore and North Bethesda.",
       "We time the pickup to your meeting or train with a realistic buffer. Our chauffeurs plan around the I-95 to Beltway merge at College Park and the inner loop toward the I-270 spur, and the rate is quoted flat — covering the base transportation charge, with gratuity, tolls, parking and any other applicable charges disclosed before confirmation.",
-      "From a Mercedes-Benz E-Class for solo travelers to Escalades, Suburbans and Sprinter vans for groups, we right-size the vehicle to your party and luggage. And because Bethesda is home turf for a Columbia-based company, our chauffeurs know Wisconsin Avenue, Bethesda Row and the NIH campus as well as the highway.",
+      "From a Mercedes-Benz E-Class for solo travelers to Navigators, Suburbans and Sprinter vans for groups, we right-size the vehicle to your party and luggage. And because Bethesda is home turf for a Columbia-based company, our chauffeurs know Wisconsin Avenue, Bethesda Row and the NIH campus as well as the highway.",
       "Compare that to the alternatives: MARC's Camden Line doesn't run anywhere near Bethesda, driving yourself means Inner Loop backups at the American Legion Bridge, and a rideshare over this 35-mile hop between two different counties can surge sharply during rush hour. A flat rate quoted before you leave Baltimore holds regardless of which lane is stopped."
     ],
     "highlights": [
@@ -4504,13 +4504,13 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "Sedans to Sprinters",
-        "desc": "Mercedes E-Class, BMW 7 Series, Escalade, Suburban and 14-passenger Sprinter vans."
+        "desc": "Mercedes E-Class, BMW 7 Series, Navigator, Suburban and 14-passenger Sprinter vans."
       }
     ],
     "vehicles": [
       "Business Sedan — Mercedes E-Class",
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     "areas": [
       {
@@ -4585,7 +4585,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "q": "Can you take larger groups?",
-        "a": "Absolutely — Escalades and Suburbans seat six, Sprinter vans up to 14, and we coordinate multiple vehicles for bigger parties."
+        "a": "Absolutely — Navigators and Suburbans seat six, Sprinter vans up to 14, and we coordinate multiple vehicles for bigger parties."
       },
       {
         "q": "Do you offer the return trip from Bethesda to Baltimore?",
@@ -4609,7 +4609,7 @@ export const MARYLAND_LANDING_PAGES = {
       "92 Limo Service provides wedding transportation across Baltimore, Annapolis, Howard County, Montgomery County, Frederick and the Eastern Shore, with the same flat, transparent pricing and professional chauffeurs we bring to every airport transfer.",
       "We regularly serve Belmont Manor in Elkridge, the Elkridge Furnace Inn, Chesapeake Bay Beach Club in Stevensville, the Historic Inns of Annapolis, Glenview Mansion in Rockville and Ceresville Mansion in Frederick. Knowing each venue's loading zone, entrance and traffic pattern is what turns a nice vehicle into a reliable one.",
       "Each booking is planned around getting-ready pickups, first-look transfers, the ceremony-to-reception move, guest shuttles from hotel blocks and the getaway car at the end of the night. We confirm the itinerary the day before, stage the vehicle early and keep dispatch on the line throughout — demand peaks around the May through October peak, Commissioning Week in Annapolis and the October Eastern Shore rush, so reserve early for Saturday dates.",
-      "Choose a Mercedes E-Class or BMW 7 Series for couples and executives, a Cadillac Escalade or Chevrolet Suburban for six with luggage, a Mercedes Sprinter van for up to 14 or a stretch limousine for the occasion — and mix vehicles under one reservation.",
+      "Choose a Mercedes E-Class or BMW 7 Series for couples and executives, a Lincoln Navigator or Chevrolet Suburban for six with luggage, a Mercedes Sprinter van for up to 14 or a stretch limousine for the occasion — and mix vehicles under one reservation.",
       "A wedding planner or coordinator is welcome to confirm timing directly with our dispatch team, and we build the schedule around photo locations, a receiving line, or a sparkler exit that runs long. Special-event bookings, weddings included, cancel free of charge up to 12 hours before the scheduled pickup, so a shifted ceremony time is never a financial trap. Out-of-town wedding guests flying into BWI, DCA or IAD can also be booked on the same reservation, arriving at the venue in the same fleet as the wedding party.",
     ],
     "highlights": [
@@ -4640,7 +4640,7 @@ export const MARYLAND_LANDING_PAGES = {
     ],
     "vehicles": [
       "Sprinter Executive — Mercedes Sprinter",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "First Class Sedan — BMW 7 Series"
     ],
     "areas": [
@@ -4738,7 +4738,7 @@ export const MARYLAND_LANDING_PAGES = {
       "92 Limo Service provides corporate transportation across Baltimore, Columbia, Bethesda, Rockville, Annapolis, Fort Meade and downtown Washington, with the same flat, transparent pricing and professional chauffeurs we bring to every airport transfer.",
       "We regularly serve NIH and Walter Reed in Bethesda, Fort Meade and the NSA, Johns Hopkins and the University of Maryland Medical Center, Northrop Grumman in Linthicum, Marriott International and Lockheed Martin in Bethesda and T. Rowe Price and Under Armour in Baltimore. Knowing each venue's loading zone, entrance and traffic pattern is what turns a nice vehicle into a reliable one.",
       "Each booking is planned around airport meets for visiting executives, roadshow days with multiple stops, board dinners, conference shuttles and standing weekly commutes. We confirm the itinerary the day before, stage the vehicle early and keep dispatch on the line throughout — demand peaks around conference season at the Baltimore Convention Center and Gaylord National, fiscal year-end travel and the January-to-April legislative session in Annapolis, so reserve early for Saturday dates.",
-      "Choose a Mercedes E-Class or BMW 7 Series for couples and executives, a Cadillac Escalade or Chevrolet Suburban for six with luggage, a Mercedes Sprinter van for up to 14 or a stretch limousine for the occasion — and mix vehicles under one reservation.",
+      "Choose a Mercedes E-Class or BMW 7 Series for couples and executives, a Lincoln Navigator or Chevrolet Suburban for six with luggage, a Mercedes Sprinter van for up to 14 or a stretch limousine for the occasion — and mix vehicles under one reservation.",
       "Visiting executives and board members can be met curbside or inside the terminal with a name sign, and consolidated monthly invoicing with itemized receipts keeps finance teams happy on recurring travel. Confidentiality is standard practice — conversations and destinations stay private, and trip details are shared only with the people who booked.",
     ],
     "highlights": [
@@ -4769,7 +4769,7 @@ export const MARYLAND_LANDING_PAGES = {
     ],
     "vehicles": [
       "Sprinter Executive — Mercedes Sprinter",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "First Class Sedan — BMW 7 Series"
     ],
     "areas": [
@@ -4888,7 +4888,7 @@ export const MARYLAND_LANDING_PAGES = {
       "92 Limo Service provides prom transportation across Howard, Anne Arundel, Montgomery, Prince George's, Baltimore and Frederick counties, with the same flat, transparent pricing and professional chauffeurs we bring to every airport transfer.",
       "We regularly serve Martin's West and Martin's Valley Mansion, Turf Valley Resort, the BWI Airport Marriott, the Baltimore Museum of Industry, the Bethesda North Marriott and the Hotel at Arundel Preserve. Knowing each venue's loading zone, entrance and traffic pattern is what turns a nice vehicle into a reliable one.",
       "Each booking is planned around the pre-prom photo stop, the ride to the venue, the after-party transfer and the safe ride home at the end of the night. We confirm the itinerary the day before, stage the vehicle early and keep dispatch on the line throughout — demand peaks around the late-April through early-June prom calendar, when Saturday vehicles book out weeks ahead, so reserve early for Saturday dates.",
-      "Choose a Mercedes E-Class or BMW 7 Series for couples and executives, a Cadillac Escalade or Chevrolet Suburban for six with luggage, a Mercedes Sprinter van for up to 14 or a stretch limousine for the occasion — and mix vehicles under one reservation.",
+      "Choose a Mercedes E-Class or BMW 7 Series for couples and executives, a Lincoln Navigator or Chevrolet Suburban for six with luggage, a Mercedes Sprinter van for up to 14 or a stretch limousine for the occasion — and mix vehicles under one reservation.",
       "A parent or guardian should be the one to book, since a valid card is required to confirm every reservation and that adult becomes our point of contact for the night. Spring Fridays and Saturdays are the busiest nights of the year for Sprinters and limousines, so reserving a few weeks ahead keeps your first-choice vehicle available. Several friend groups can split one Sprinter's cost across the night, and we are glad to help coordinate pickup addresses so everyone boards together.",
     ],
     "highlights": [
@@ -4919,7 +4919,7 @@ export const MARYLAND_LANDING_PAGES = {
     ],
     "vehicles": [
       "Sprinter Executive — Mercedes Sprinter",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "First Class Sedan — BMW 7 Series"
     ],
     "areas": [
@@ -5017,7 +5017,7 @@ export const MARYLAND_LANDING_PAGES = {
       "92 Limo Service provides concert transportation across Columbia, Baltimore, Washington, Silver Spring, College Park and Northern Virginia, with the same flat, transparent pricing and professional chauffeurs we bring to every airport transfer.",
       "We regularly serve Merriweather Post Pavilion in Columbia, CFG Bank Arena in Baltimore, Pier Six Pavilion at the Inner Harbor, Capital One Arena in Washington, The Anthem at the Wharf and Wolf Trap in Vienna. Knowing each venue's loading zone, entrance and traffic pattern is what turns a nice vehicle into a reliable one.",
       "Each booking is planned around the pickup from home or hotel, a pre-show dinner stop, curbside drop-off at the venue and a staged pickup at a set meeting point after the encore. We confirm the itinerary the day before, stage the vehicle early and keep dispatch on the line throughout — demand peaks around the Merriweather summer season, arena tours through CFG Bank Arena and Capital One Arena and festival weekends at the Anthem and Wolf Trap, so reserve early for Saturday dates.",
-      "Choose a Mercedes E-Class or BMW 7 Series for couples and executives, a Cadillac Escalade or Chevrolet Suburban for six with luggage, a Mercedes Sprinter van for up to 14 or a stretch limousine for the occasion — and mix vehicles under one reservation.",
+      "Choose a Mercedes E-Class or BMW 7 Series for couples and executives, a Lincoln Navigator or Chevrolet Suburban for six with luggage, a Mercedes Sprinter van for up to 14 or a stretch limousine for the occasion — and mix vehicles under one reservation.",
       "Venue load-in and load-out can bottleneck fast after a sold-out show, and our chauffeurs plan the pickup spot and timing around it instead of circling the block. Group bookings for a full row of friends ride together in one Sprinter van rather than splitting across several rideshares.",
     ],
     "highlights": [
@@ -5048,7 +5048,7 @@ export const MARYLAND_LANDING_PAGES = {
     ],
     "vehicles": [
       "Sprinter Executive — Mercedes Sprinter",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "First Class Sedan — BMW 7 Series"
     ],
     "areas": [
@@ -5146,7 +5146,7 @@ export const MARYLAND_LANDING_PAGES = {
       "92 Limo Service provides wine tour transportation across the Frederick wine trail, the Carroll County vineyards, northern Baltimore County, Sugarloaf Mountain and the Annapolis and Eastern Shore wineries, with the same flat, transparent pricing and professional chauffeurs we bring to every airport transfer.",
       "We regularly serve Linganore Winecellars in Mount Airy, Black Ankle Vineyards, Boordy Vineyards in Hydes, Elk Run Vineyards, Sugarloaf Mountain Vineyard in Dickerson and Old Westminster Winery. Knowing each venue's loading zone, entrance and traffic pattern is what turns a nice vehicle into a reliable one.",
       "Each booking is planned around a morning pickup, three or four tasting stops, a lunch reservation between vineyards and a relaxed ride home with the cases packed in the back. We confirm the itinerary the day before, stage the vehicle early and keep dispatch on the line throughout — demand peaks around harvest and crush season in September and October, spring release weekends and summer concert series at Linganore and Boordy, so reserve early for Saturday dates.",
-      "Choose a Mercedes E-Class or BMW 7 Series for couples and executives, a Cadillac Escalade or Chevrolet Suburban for six with luggage, a Mercedes Sprinter van for up to 14 or a stretch limousine for the occasion — and mix vehicles under one reservation.",
+      "Choose a Mercedes E-Class or BMW 7 Series for couples and executives, a Lincoln Navigator or Chevrolet Suburban for six with luggage, a Mercedes Sprinter van for up to 14 or a stretch limousine for the occasion — and mix vehicles under one reservation.",
       "Most groups comfortably visit three wineries in a day once tasting time is factored in, and we are glad to suggest a route by region if you have not booked tastings yet. The vehicle and chauffeur stay with your group the whole day, so no one has to stay sober to drive between stops.",
     ],
     "highlights": [
@@ -5177,7 +5177,7 @@ export const MARYLAND_LANDING_PAGES = {
     ],
     "vehicles": [
       "Sprinter Executive — Mercedes Sprinter",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "First Class Sedan — BMW 7 Series"
     ],
     "areas": [
@@ -5289,7 +5289,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "Every Vehicle Type",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limousines."
       },
       {
         "title": "Dinner & Hotel Stops",
@@ -5305,7 +5305,7 @@ export const MARYLAND_LANDING_PAGES = {
       }
     ],
     "vehicles": [
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
       "First Class Sedan — BMW 7 Series"
     ],
@@ -5378,7 +5378,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "q": "Can you carry a group to Pimlico Race Course?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Lincoln Navigator and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at Pimlico Race Course?",
@@ -5416,7 +5416,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "Every Vehicle Type",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limousines."
       },
       {
         "title": "Dinner & Hotel Stops",
@@ -5432,7 +5432,7 @@ export const MARYLAND_LANDING_PAGES = {
       }
     ],
     "vehicles": [
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
       "First Class Sedan — BMW 7 Series"
     ],
@@ -5505,7 +5505,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "q": "Can you carry a group to the Maryland State Fair?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Lincoln Navigator and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at the Maryland State Fair?",
@@ -5543,7 +5543,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "Every Vehicle Type",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limousines."
       },
       {
         "title": "Dinner & Hotel Stops",
@@ -5559,7 +5559,7 @@ export const MARYLAND_LANDING_PAGES = {
       }
     ],
     "vehicles": [
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
       "First Class Sedan — BMW 7 Series"
     ],
@@ -5632,7 +5632,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "q": "Can you carry a group to Oriole Park at Camden Yards?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Lincoln Navigator and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at Oriole Park at Camden Yards?",
@@ -5670,7 +5670,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "Every Vehicle Type",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limousines."
       },
       {
         "title": "Dinner & Hotel Stops",
@@ -5686,7 +5686,7 @@ export const MARYLAND_LANDING_PAGES = {
       }
     ],
     "vehicles": [
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
       "First Class Sedan — BMW 7 Series"
     ],
@@ -5759,7 +5759,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "q": "Can you carry a group to the University of Maryland?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Lincoln Navigator and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at the University of Maryland?",
@@ -5797,7 +5797,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "Every Vehicle Type",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limousines."
       },
       {
         "title": "Dinner & Hotel Stops",
@@ -5813,7 +5813,7 @@ export const MARYLAND_LANDING_PAGES = {
       }
     ],
     "vehicles": [
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
       "First Class Sedan — BMW 7 Series"
     ],
@@ -5886,7 +5886,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "q": "Can you carry a group to Navy-Marine Corps Memorial Stadium?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Lincoln Navigator and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at Navy-Marine Corps Memorial Stadium?",
@@ -5924,7 +5924,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "Every Vehicle Type",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limousines."
       },
       {
         "title": "Dinner & Hotel Stops",
@@ -5940,7 +5940,7 @@ export const MARYLAND_LANDING_PAGES = {
       }
     ],
     "vehicles": [
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
       "First Class Sedan — BMW 7 Series"
     ],
@@ -6013,7 +6013,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "q": "Can you carry a group to National Harbor?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Lincoln Navigator and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at National Harbor?",
@@ -6051,7 +6051,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "Every Vehicle Type",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limousines."
       },
       {
         "title": "Dinner & Hotel Stops",
@@ -6067,7 +6067,7 @@ export const MARYLAND_LANDING_PAGES = {
       }
     ],
     "vehicles": [
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
       "First Class Sedan — BMW 7 Series"
     ],
@@ -6140,7 +6140,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "q": "Can you carry a group to Chesapeake Bay Events?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Lincoln Navigator and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at Chesapeake Bay Events?",
@@ -6178,7 +6178,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "Every Vehicle Type",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limousines."
       },
       {
         "title": "Dinner & Hotel Stops",
@@ -6194,7 +6194,7 @@ export const MARYLAND_LANDING_PAGES = {
       }
     ],
     "vehicles": [
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
       "First Class Sedan — BMW 7 Series"
     ],
@@ -6267,7 +6267,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "q": "Can you carry a group to the Annapolis Boat Shows?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Lincoln Navigator and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at the Annapolis Boat Shows?",
@@ -6305,7 +6305,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "Every Vehicle Type",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limousines."
       },
       {
         "title": "Dinner & Hotel Stops",
@@ -6321,7 +6321,7 @@ export const MARYLAND_LANDING_PAGES = {
       }
     ],
     "vehicles": [
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
       "First Class Sedan — BMW 7 Series"
     ],
@@ -6394,7 +6394,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "q": "Can you carry a group to the Maryland Renaissance Festival?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Lincoln Navigator and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at the Maryland Renaissance Festival?",
@@ -6432,7 +6432,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "title": "Every Vehicle Type",
-        "desc": "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters and stretch limousines."
+        "desc": "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limousines."
       },
       {
         "title": "Dinner & Hotel Stops",
@@ -6448,7 +6448,7 @@ export const MARYLAND_LANDING_PAGES = {
       }
     ],
     "vehicles": [
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter",
       "First Class Sedan — BMW 7 Series"
     ],
@@ -6521,7 +6521,7 @@ export const MARYLAND_LANDING_PAGES = {
       },
       {
         "q": "Can you carry a group to the Preakness Stakes?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Lincoln Navigator and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at the Preakness Stakes?",

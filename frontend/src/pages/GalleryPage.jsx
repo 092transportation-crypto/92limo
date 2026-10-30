@@ -7,14 +7,14 @@ import { pageSchema } from "@/lib/pageSchema";
 
 const TITLE = "Gallery | Luxury Fleet & Chauffeur Service | 92 Limo";
 const DESCRIPTION =
-  "Browse the 92 Limo Service gallery — luxury sedans, Cadillac Escalade, Sprinter vans, chauffeurs, and airport pickups across DC, Maryland & Virginia.";
+  "Browse the 92 Limo Service gallery — luxury sedans, Lincoln Navigator, Sprinter vans, chauffeurs, and airport pickups across DC, Maryland & Virginia.";
 const SCHEMA = pageSchema("WebPage", "/gallery", TITLE, DESCRIPTION);
 
 const GALLERY = [
-  { img: IMAGES.escaladeFront, alt: "Black Cadillac Escalade ESV at night in Maryland" },
+  { img: IMAGES.escaladeFront, alt: "Black Lincoln Navigator L at night in Maryland" },
   { img: IMAGES.sClassNav, alt: "Black Mercedes-Benz S-Class sedan and Lincoln Navigator SUV" },
   { img: IMAGES.sprinterGreen, alt: "Mercedes Sprinter executive van luxury interior with ambient lighting" },
-  { img: IMAGES.escaladeAngle, alt: "Black Cadillac Escalade ESV luxury SUV" },
+  { img: IMAGES.escaladeAngle, alt: "Black Lincoln Navigator L luxury SUV" },
   { img: IMAGES.sprinterPink, alt: "Mercedes Sprinter executive van interior with mood lighting" },
   { img: IMAGES.chauffeur, alt: "Professional chauffeur opening the door of a black luxury sedan" },
   { img: IMAGES.corporate, alt: "Executive entering a black luxury SUV for corporate travel" },

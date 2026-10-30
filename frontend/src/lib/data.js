@@ -162,16 +162,16 @@ export const FLEET = [
   },
   {
     category: "Premium SUV",
-    name: "Cadillac Escalade",
+    name: "Lincoln Navigator",
     pax: 5,
     paxNoLuggage: 6,
     bags: 5,
     carryOns: 5,
     bestFor: "Airport transfers · Corporate · Weddings & events",
     img: "/images/cadillac-escalade.webp",
-    alt: "Black Cadillac Escalade SUV limo for Maryland luxury transportation — 92 Limo Service",
+    alt: "Black Lincoln Navigator SUV limo for Maryland luxury transportation — 92 Limo Service",
     description:
-      "America's premier luxury SUV with commanding presence. Cadillac Escalade or similar.",
+      "America's premier luxury SUV with commanding presence. 2026 Lincoln Navigator or similar.",
   },
   {
     category: "Sprinter Shuttle",
@@ -255,7 +255,7 @@ export const GOOGLE_REVIEWS_URL =
 export const TESTIMONIALS = [
   { name: "Ann", rating: 5, featured: true, quote: "Shah was great! Very professional and courteous the whole time. Both me and my daughter have back issues and he was courteous and sympathetic for both of us. He carried our luggage to the car and removed the luggage allowing us to get out..." },
   { name: "Graham", rating: 5, featured: true, quote: "92 Limo Service is an amazing company! They are absolutely reliable and the vehicles are pristine! This service was extremely helpful to us in Baltimore from the airport pickup and chauffeur service to hotel, to daily pickup and drop offs..." },
-  { name: "Diane Soriano", rating: 5, featured: true, quote: "We were extremely pleased with 92 Limo Service. We needed chauffeur services for 7 hours for a girls night celebration. Shah was very easy to work with and help ensure our needs were met. The Cadillac Escalade was a smooth ride and the vehicle was spacious and clean. I highly recommend their business." },
+  { name: "Diane Soriano", rating: 5, featured: true, quote: "We were extremely pleased with 92 Limo Service. We needed chauffeur services for 7 hours for a girls night celebration. Shah was very easy to work with and help ensure our needs were met. The Lincoln Navigator was a smooth ride and the vehicle was spacious and clean. I highly recommend their business." },
   { name: "Gary Patti", rating: 5, featured: true, quote: "Amazing service. Car was there when we walked out of the airport. Driver kindly got all of our bags inside, which was a tight squeeze. I will be using this service for all of my trips to DC." },
   { name: "Amy Delauter", rating: 5, featured: true, quote: "Shah was great! He was early and waited for me despite flight delays. He was easy to find after getting off the plane. The car was nice and had the appropriate car seat for my baby. I would highly recommend!" },
   { name: "Daryl Acumen", rating: 5, featured: true, quote: "Absolutely perfect! Exceptional ride, amazing vehicle, perfect service, reliable (early)...they raised the bar for what I expect from a sedan service. My go-to ride in DC from now on." },
@@ -282,7 +282,7 @@ export const FAQS = [
   { q: "How far in advance should I book?", a: "Book by the night before at the latest — earlier for pre-dawn departures, holidays, and event weekends when vehicles sell out. We accommodate same-day requests whenever availability allows, and our line answers 24/7 at (877) 609-1919." },
   { q: "How do I book a ride or get a free quote?", a: "Use the booking form on our Booking page or simply call us at (877) 609-1919. We confirm every reservation with a transparent quote before you ride." },
   { q: "What does my quoted rate include?", a: POLICY.pricing },
-  { q: "What vehicles are in your fleet?", a: "Our fleet includes the Business Sedan (Mercedes-Benz E-Class), First Class Sedans (BMW 7 Series and Mercedes-Benz S-Class), Midsize SUV (Lincoln Nautilus), Luxury SUV (Chevrolet Suburban), Premium SUV (Cadillac Escalade), the Mercedes Sprinter Shuttle and Sprinter Executive vans." },
+  { q: "What vehicles are in your fleet?", a: "Our fleet includes the Business Sedan (Mercedes-Benz E-Class), First Class Sedans (BMW 7 Series and Mercedes-Benz S-Class), Midsize SUV (Lincoln Nautilus), Luxury SUV (Chevrolet Suburban), Premium SUV (Lincoln Navigator), the Mercedes Sprinter Shuttle and Sprinter Executive vans." },
   { q: "Do you offer wine tours, weddings, proms, and birthdays?", a: "Absolutely. Beyond airport and corporate travel, we offer wine tours, wedding limo service, prom transportation, and birthday celebrations across Maryland, Virginia, and Washington DC." },
   { q: "Do you serve every Maryland county, or just a few cities?", a: "Every major Maryland county — Montgomery, Prince George's, Anne Arundel, Howard and Baltimore County, plus Baltimore City and Washington DC and Northern Virginia. See our Service Areas page for the full list of cities we cover." },
   { q: "Can businesses in specific industries — healthcare, law, government, finance — get specialized service?", a: "Yes. We maintain dedicated experience and pages for healthcare and life sciences, law firms, technology companies, government and defense contractors, financial services, real estate, higher education, nonprofits and embassies." },
@@ -333,8 +333,8 @@ export const NAV_SERVICES = [
   { label: "Sports & Events", to: "/sports-events" },
 ];
 
-const AIRPORT_VEHICLES = ["Business Sedan — Mercedes E-Class", "Premium SUV — Cadillac Escalade", "Sprinter Executive — Mercedes Sprinter"];
-const LUXURY_VEHICLES = ["First Class Sedan — BMW 7 Series", "Premium SUV — Cadillac Escalade", "Sprinter Executive — Mercedes Sprinter"];
+const AIRPORT_VEHICLES = ["Business Sedan — Mercedes E-Class", "Premium SUV — Lincoln Navigator", "Sprinter Executive — Mercedes Sprinter"];
+const LUXURY_VEHICLES = ["First Class Sedan — BMW 7 Series", "Premium SUV — Lincoln Navigator", "Sprinter Executive — Mercedes Sprinter"];
 
 export const SERVICE_PAGES = {
   "airport-transportation": {
@@ -359,7 +359,7 @@ export const SERVICE_PAGES = {
     vehicles: AIRPORT_VEHICLES,
     details: [
       { heading: "Which Airport Vehicle Fits Your Trip", paragraphs: [
-        "A solo traveler or couple with standard luggage is usually best served by a Business Sedan (Mercedes E-Class) or First Class Sedan (BMW 7 Series) — quick curb access and easy luggage handling. Families or small groups with full-size bags do better in a Luxury SUV (Chevrolet Suburban) or Premium SUV (Cadillac Escalade), and groups traveling together of up to 13 or 14 book a Sprinter Executive or Sprinter Shuttle van, priced per vehicle rather than per seat.",
+        "A solo traveler or couple with standard luggage is usually best served by a Business Sedan (Mercedes E-Class) or First Class Sedan (BMW 7 Series) — quick curb access and easy luggage handling. Families or small groups with full-size bags do better in a Luxury SUV (Chevrolet Suburban) or Premium SUV (Lincoln Navigator), and groups traveling together of up to 13 or 14 book a Sprinter Executive or Sprinter Shuttle van, priced per vehicle rather than per seat.",
         "Not sure which fits your trip? Call (877) 609-1919 and a reservation specialist will recommend a vehicle based on your party size, luggage, and the specific airport and terminal you're using.",
       ] },
       { heading: "International Arrivals and Customs Timing", paragraphs: [
@@ -460,7 +460,7 @@ export const SERVICE_PAGES = {
       { title: "Door-to-Door", desc: "Hassle-free pickup and drop-off at your home or hotel." },
       { title: "Transparent Rates", desc: "Your base rate is quoted up front; gratuity, tolls and parking are disclosed before confirmation." },
     ],
-    vehicles: ["Premium SUV — Cadillac Escalade", "Sprinter Executive — Mercedes Sprinter", "First Class Sedan — BMW 7 Series"],
+    vehicles: ["Premium SUV — Lincoln Navigator", "Sprinter Executive — Mercedes Sprinter", "First Class Sedan — BMW 7 Series"],
     details: [
       { heading: "How a Chauffeured Wine Tour Works", paragraphs: [
         "A wine tour is booked as hourly, as-directed service: one vehicle and one chauffeur stay with your group from the first pickup to the last drop-off. You choose the wineries and reserve the tastings; we plan the route, the drive times between stops and a realistic schedule so nobody is rushed out of a tasting room.",
@@ -494,7 +494,7 @@ export const SERVICE_PAGES = {
       { title: "Any Group Size", desc: "From an intimate dinner to a full crew in the Sprinter van." },
       { title: "Transparent Pricing", desc: "Clear, upfront base rates — gratuity, tolls and parking disclosed before confirmation." },
     ],
-    vehicles: ["Sprinter Executive — Mercedes Sprinter", "Sprinter Shuttle — Mercedes Sprinter", "Premium SUV — Cadillac Escalade"],
+    vehicles: ["Sprinter Executive — Mercedes Sprinter", "Sprinter Shuttle — Mercedes Sprinter", "Premium SUV — Lincoln Navigator"],
     details: [
       { heading: "Planning a Birthday Night Out", paragraphs: [
         "Birthday bookings are usually hourly and as-directed, which means the evening can unfold the way you want it to: collect friends from different addresses, arrive at dinner together, move on to a lounge, a show or a casino, and get everyone home safely at the end. One chauffeur and one vehicle stay with the party throughout.",
@@ -557,7 +557,7 @@ export const SERVICE_PAGES = {
       { title: "Parent Peace of Mind", desc: "Clear itineraries and dependable, professional service." },
       { title: "Transparent Pricing", desc: "Upfront prom packages with no hidden fees." },
     ],
-    vehicles: ["Sprinter Executive — Mercedes Sprinter", "Sprinter Shuttle — Mercedes Sprinter", "Premium SUV — Cadillac Escalade"],
+    vehicles: ["Sprinter Executive — Mercedes Sprinter", "Sprinter Shuttle — Mercedes Sprinter", "Premium SUV — Lincoln Navigator"],
     details: [
       { heading: "How Prom Night Bookings Work", paragraphs: [
         "Prom bookings are typically hourly and as-directed: one vehicle and chauffeur stay with the group from the first pickup through photos, dinner, the dance, and the ride home. A parent or guardian books with a valid credit or debit card, receives the confirmed itinerary in advance, and remains our point of contact for the night.",

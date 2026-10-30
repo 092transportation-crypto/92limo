@@ -100,7 +100,6 @@ export const LANDING_PAGE_SLUGS = [
   "funeral-transportation-maryland",
   "hospital-transportation-maryland",
   "mercedes-s-class-rental-maryland",
-  "cadillac-escalade-limo",
   "lincoln-navigator-limo",
   "sprinter-van-rental-maryland",
   "party-bus-baltimore",

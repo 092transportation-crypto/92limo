@@ -42,7 +42,7 @@ export const MARYLAND_BATCH3_PAGES = {
     ],
     vehicles: [
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     areas: [
@@ -212,7 +212,7 @@ export const MARYLAND_BATCH3_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     areas: [
@@ -615,7 +615,7 @@ export const MARYLAND_BATCH3_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     areas: [
@@ -862,7 +862,7 @@ export const MARYLAND_BATCH3_PAGES = {
     ],
     vehicles: [
       "First Class Sedan — BMW 7 Series",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     areas: [
@@ -904,7 +904,7 @@ export const MARYLAND_BATCH3_PAGES = {
       { q: "Where does the chauffeur drop off and pick up at MGM National Harbor?", a: "We drop off at the resort entrance and agree on a pickup door with you before you go inside. After a show the chauffeur stages nearby and comes to that door once you call or text that you are on your way out." },
       { q: "Can I book a ride home from MGM late at night?", a: "Yes. Dispatch is open 24/7. You can schedule a return transfer for a set time, or book hourly service so the vehicle remains available until you decide to leave." },
       { q: "How is an MGM trip priced?", a: "Transfers and hourly service are both quoted and confirmed before you ride. The quoted rate covers the base transportation charge, and gratuity, tolls, parking and any other applicable charges are disclosed before you confirm. Call (877) 609-1919 for a quote." },
-      { q: "What vehicle is best for a group casino night?", a: "A Sprinter Executive keeps a larger party together, and a Cadillac Escalade suits a smaller one. For bigger groups we coordinate several vehicles to arrive at the same time. Remember that casino floor access is limited to guests 21 and over." },
+      { q: "What vehicle is best for a group casino night?", a: "A Sprinter Executive keeps a larger party together, and a Lincoln Navigator suits a smaller one. For bigger groups we coordinate several vehicles to arrive at the same time. Remember that casino floor access is limited to guests 21 and over." },
       { q: "What is the cancellation policy for a show night?", a: "Sedan and SUV bookings can be cancelled free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event reservations can be cancelled free of charge up to 12 hours before pickup." }
     ],
     ctaTitle: "Book MGM National Harbor Transportation",
@@ -937,7 +937,7 @@ export const MARYLAND_BATCH3_PAGES = {
     ],
     vehicles: [
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade",
+      "Premium SUV — Lincoln Navigator",
       "Sprinter Executive — Mercedes Sprinter"
     ],
     areas: [
@@ -1101,7 +1101,7 @@ export const MARYLAND_BATCH3_PAGES = {
     vehicles: [
       "First Class Sedan — BMW 7 Series",
       "Business Sedan — Mercedes E-Class",
-      "Premium SUV — Cadillac Escalade"
+      "Premium SUV — Lincoln Navigator"
     ],
     areas: [
       {
