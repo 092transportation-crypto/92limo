@@ -107,6 +107,7 @@ function loadBlogPostTitles() {
     "src/lib/blogPostsBatch12.js",
     "src/lib/blogPostsBatch13.js",
     "src/lib/blogPostsBatch14.js",
+    "src/lib/blogPostsBatch15.js",
     "src/lib/costAndComparisonBlogPosts.js",
     "src/lib/blogPostsGenerated.js",
     "src/lib/blogPosts.js",
