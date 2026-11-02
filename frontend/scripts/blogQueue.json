@@ -427,7 +427,7 @@
     "outline": [
       "What makes Annapolis travel different from downtown DC or Baltimore",
       "When a professional car service beats rideshare locally",
-      "Popular Annapolis pickup points — home, office, events",
+      "Popular Annapolis pickup points \u2014 home, office, events",
       "Airport connections from this area",
       "How locals book recurring or one-off rides"
     ],
@@ -441,7 +441,7 @@
     "outline": [
       "What makes Baltimore travel different from downtown DC or Baltimore",
       "When a professional car service beats rideshare locally",
-      "Popular Baltimore pickup points — home, office, events",
+      "Popular Baltimore pickup points \u2014 home, office, events",
       "Airport connections from this area",
       "How locals book recurring or one-off rides"
     ],
@@ -455,7 +455,7 @@
     "outline": [
       "What makes Bowie travel different from downtown DC or Baltimore",
       "When a professional car service beats rideshare locally",
-      "Popular Bowie pickup points — home, office, events",
+      "Popular Bowie pickup points \u2014 home, office, events",
       "Airport connections from this area",
       "How locals book recurring or one-off rides"
     ],
@@ -469,7 +469,7 @@
     "outline": [
       "What makes Crofton travel different from downtown DC or Baltimore",
       "When a professional car service beats rideshare locally",
-      "Popular Crofton pickup points — home, office, events",
+      "Popular Crofton pickup points \u2014 home, office, events",
       "Airport connections from this area",
       "How locals book recurring or one-off rides"
     ],
@@ -483,7 +483,7 @@
     "outline": [
       "What makes Crownsville travel different from downtown DC or Baltimore",
       "When a professional car service beats rideshare locally",
-      "Popular Crownsville pickup points — home, office, events",
+      "Popular Crownsville pickup points \u2014 home, office, events",
       "Airport connections from this area",
       "How locals book recurring or one-off rides"
     ],
@@ -497,7 +497,7 @@
     "outline": [
       "What makes Davidsonville travel different from downtown DC or Baltimore",
       "When a professional car service beats rideshare locally",
-      "Popular Davidsonville pickup points — home, office, events",
+      "Popular Davidsonville pickup points \u2014 home, office, events",
       "Airport connections from this area",
       "How locals book recurring or one-off rides"
     ],
@@ -511,7 +511,7 @@
     "outline": [
       "What makes Odenton travel different from downtown DC or Baltimore",
       "When a professional car service beats rideshare locally",
-      "Popular Odenton pickup points — home, office, events",
+      "Popular Odenton pickup points \u2014 home, office, events",
       "Airport connections from this area",
       "How locals book recurring or one-off rides"
     ],
@@ -525,7 +525,7 @@
     "outline": [
       "What makes Edgewater travel different from downtown DC or Baltimore",
       "When a professional car service beats rideshare locally",
-      "Popular Edgewater pickup points — home, office, events",
+      "Popular Edgewater pickup points \u2014 home, office, events",
       "Airport connections from this area",
       "How locals book recurring or one-off rides"
     ],
@@ -539,7 +539,7 @@
     "outline": [
       "What makes Arnold travel different from downtown DC or Baltimore",
       "When a professional car service beats rideshare locally",
-      "Popular Arnold pickup points — home, office, events",
+      "Popular Arnold pickup points \u2014 home, office, events",
       "Airport connections from this area",
       "How locals book recurring or one-off rides"
     ],
@@ -553,7 +553,7 @@
     "outline": [
       "What makes Severna Park travel different from downtown DC or Baltimore",
       "When a professional car service beats rideshare locally",
-      "Popular Severna Park pickup points — home, office, events",
+      "Popular Severna Park pickup points \u2014 home, office, events",
       "Airport connections from this area",
       "How locals book recurring or one-off rides"
     ],
@@ -567,7 +567,7 @@
     "outline": [
       "What makes Riva travel different from downtown DC or Baltimore",
       "When a professional car service beats rideshare locally",
-      "Popular Riva pickup points — home, office, events",
+      "Popular Riva pickup points \u2014 home, office, events",
       "Airport connections from this area",
       "How locals book recurring or one-off rides"
     ],
@@ -581,7 +581,7 @@
     "outline": [
       "What makes Rockville travel different from downtown DC or Baltimore",
       "When a professional car service beats rideshare locally",
-      "Popular Rockville pickup points — home, office, events",
+      "Popular Rockville pickup points \u2014 home, office, events",
       "Airport connections from this area",
       "How locals book recurring or one-off rides"
     ],
@@ -595,7 +595,7 @@
     "outline": [
       "What makes Bethesda travel different from downtown DC or Baltimore",
       "When a professional car service beats rideshare locally",
-      "Popular Bethesda pickup points — home, office, events",
+      "Popular Bethesda pickup points \u2014 home, office, events",
       "Airport connections from this area",
       "How locals book recurring or one-off rides"
     ],
@@ -609,7 +609,7 @@
     "outline": [
       "What makes Arlington travel different from downtown DC or Baltimore",
       "When a professional car service beats rideshare locally",
-      "Popular Arlington pickup points — home, office, events",
+      "Popular Arlington pickup points \u2014 home, office, events",
       "Airport connections from this area",
       "How locals book recurring or one-off rides"
     ],
@@ -623,7 +623,7 @@
     "outline": [
       "What makes Alexandria travel different from downtown DC or Baltimore",
       "When a professional car service beats rideshare locally",
-      "Popular Alexandria pickup points — home, office, events",
+      "Popular Alexandria pickup points \u2014 home, office, events",
       "Airport connections from this area",
       "How locals book recurring or one-off rides"
     ],
@@ -637,7 +637,7 @@
     "outline": [
       "What makes Tysons travel different from downtown DC or Baltimore",
       "When a professional car service beats rideshare locally",
-      "Popular Tysons pickup points — home, office, events",
+      "Popular Tysons pickup points \u2014 home, office, events",
       "Airport connections from this area",
       "How locals book recurring or one-off rides"
     ],
@@ -742,7 +742,7 @@
     "status": "published",
     "publishedSlug": "black-car-service-vs-traditional-taxi",
     "publishedDate": "2026-09-28",
-    "note": "Pre-empted by the 2026-09-28 bulk content commission (blogPostsBatch3.js) — close enough topic overlap to skip."
+    "note": "Pre-empted by the 2026-09-28 bulk content commission (blogPostsBatch3.js) \u2014 close enough topic overlap to skip."
   },
   {
     "id": "shuttle-vs-private-car-airport",
@@ -759,7 +759,7 @@
     "status": "published",
     "publishedSlug": "airport-shuttle-vs-private-limo",
     "publishedDate": "2026-09-28",
-    "note": "Pre-empted by the 2026-09-28 bulk content commission (blogPostsBatch3.js) — close enough topic overlap to skip."
+    "note": "Pre-empted by the 2026-09-28 bulk content commission (blogPostsBatch3.js) \u2014 close enough topic overlap to skip."
   },
   {
     "id": "wedding-limo-vs-party-bus",
@@ -819,14 +819,14 @@
   },
   {
     "id": "quinceanera-transportation",
-    "keyword": "quinceañera transportation planning",
-    "title": "Planning Quinceañera Transportation: What Families Should Know",
+    "keyword": "quincea\u00f1era transportation planning",
+    "title": "Planning Quincea\u00f1era Transportation: What Families Should Know",
     "category": "Event Planning",
     "outline": [
       "Vehicle options for the court of honor and family",
       "Coordinating church, venue, and photo-location stops",
       "Decorating and photo-ready vehicle presentation",
-      "Booking timeline for a quinceañera weekend",
+      "Booking timeline for a quincea\u00f1era weekend",
       "Budgeting transportation into the overall celebration"
     ],
     "status": "pending"
@@ -843,7 +843,9 @@
       "Billing consolidation for large events",
       "Contingency planning for flight delays and schedule changes"
     ],
-    "status": "pending"
+    "status": "published",
+    "publishedSlug": "corporate-event-transportation-planners-checklist",
+    "publishedDate": "2026-11-01"
   },
   {
     "id": "wine-tour-planning",
@@ -952,13 +954,13 @@
       "Why stadium parking and traffic make a driver worth it",
       "Coordinating pregame tailgates and postgame pickups",
       "Group bookings for season-ticket groups",
-      "Surge pricing on rideshare during big games — avoided",
+      "Surge pricing on rideshare during big games \u2014 avoided",
       "Booking a recurring game-day pickup"
     ],
     "status": "published",
     "publishedSlug": "baltimore-ravens-game-day-limo",
     "publishedDate": "2026-09-28",
-    "note": "Pre-empted by the 2026-09-28 bulk content commission batch 2 (blogPostsBatch4.js) — this queue idea's exact outline was adapted directly into that post."
+    "note": "Pre-empted by the 2026-09-28 bulk content commission batch 2 (blogPostsBatch4.js) \u2014 this queue idea's exact outline was adapted directly into that post."
   },
   {
     "id": "honeymoon-airport-send-off",
@@ -1157,7 +1159,7 @@
     "status": "published",
     "publishedSlug": "best-time-to-book-airport-car-service",
     "publishedDate": "2026-09-28",
-    "note": "Pre-empted by the 2026-09-28 bulk content commission (blogPostsBatch3.js) — close enough topic overlap to skip."
+    "note": "Pre-empted by the 2026-09-28 bulk content commission (blogPostsBatch3.js) \u2014 close enough topic overlap to skip."
   },
   {
     "id": "whats-included-flat-rate",
@@ -1171,7 +1173,9 @@
       "Why flat rates avoid surge pricing entirely",
       "Reading a quote line by line before you book"
     ],
-    "status": "pending"
+    "status": "published",
+    "publishedSlug": "whats-included-in-a-flat-rate-car-service-quote",
+    "publishedDate": "2026-11-01"
   },
   {
     "id": "chauffeur-tipping-etiquette",
@@ -1353,12 +1357,14 @@
       "Pairing an Inner Harbor visit with an Orioles or Ravens game",
       "Getting back to BWI after an evening downtown"
     ],
-    "status": "pending"
+    "status": "published",
+    "publishedSlug": "baltimore-inner-harbor-visitors-guide",
+    "publishedDate": "2026-11-01"
   },
   {
     "id": "where-to-stay-laurel-md",
     "keyword": "where to stay Laurel MD",
-    "title": "Where to Stay in Laurel, MD — A Local Traveler's Guide",
+    "title": "Where to Stay in Laurel, MD \u2014 A Local Traveler's Guide",
     "category": "Local Guides",
     "outline": [
       "Laurel's location between DC and Baltimore explained",
@@ -1437,7 +1443,9 @@
       "Timing a visit around DCA arrivals and departures",
       "Booking a driver instead of circling for parking"
     ],
-    "status": "pending"
+    "status": "published",
+    "publishedSlug": "georgetown-dc-visitor-guide-getting-around",
+    "publishedDate": "2026-11-01"
   },
   {
     "id": "silver-spring-bethesda-guide",
@@ -1507,7 +1515,9 @@
       "What happens for private or less-common flights",
       "Why not every car service offers this"
     ],
-    "status": "pending"
+    "status": "published",
+    "publishedSlug": "how-real-time-flight-tracking-works-for-airport-pickups",
+    "publishedDate": "2026-11-01"
   },
   {
     "id": "sustainability-in-ground-transportation",
@@ -1533,7 +1543,7 @@
       "Red flags hidden in vague or generic reviews",
       "Why recency and volume both matter",
       "Cross-checking reviews against licensing and insurance",
-      "Questions reviews can't answer — and how to ask them directly"
+      "Questions reviews can't answer \u2014 and how to ask them directly"
     ],
     "status": "pending"
   },
