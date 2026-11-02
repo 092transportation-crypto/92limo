@@ -19,6 +19,7 @@ import { BLOG_POSTS_BATCH13 } from "@/lib/blogPostsBatch13";
 import { BLOG_POSTS_BATCH14 } from "@/lib/blogPostsBatch14";
 import { BLOG_POSTS_BATCH15 } from "@/lib/blogPostsBatch15";
 import { BLOG_POSTS_BATCH16 } from "@/lib/blogPostsBatch16";
+import { BLOG_POSTS_BATCH17 } from "@/lib/blogPostsBatch17";
 import { COST_AND_COMPARISON_BLOG_POSTS } from "@/lib/costAndComparisonBlogPosts";
 import { GENERATED_BLOG_POSTS } from "@/lib/blogPostsGenerated";
 
@@ -1135,6 +1136,9 @@ BLOG_POSTS.push(...BLOG_POSTS_BATCH15);
 // 2026-11-01 follow-up content push, batch 16 (5 long-form posts) — see
 // blogPostsBatch16.js header.
 BLOG_POSTS.push(...BLOG_POSTS_BATCH16);
+// 2026-11-02 content push, batch 17 (5 long-form posts) — see
+// blogPostsBatch17.js header.
+BLOG_POSTS.push(...BLOG_POSTS_BATCH17);
 // Daily-automation posts (scripts/generateBlogs.js) — newest last, so
 // GENERATED_BLOG_POSTS is pushed after the hand-written batches.
 BLOG_POSTS.push(...GENERATED_BLOG_POSTS);
