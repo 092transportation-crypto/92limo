@@ -22,8 +22,11 @@ import { BLOG_POSTS_BATCH16 } from "@/lib/blogPostsBatch16";
 import { BLOG_POSTS_BATCH17 } from "@/lib/blogPostsBatch17";
 import { COST_AND_COMPARISON_BLOG_POSTS } from "@/lib/costAndComparisonBlogPosts";
 import { GENERATED_BLOG_POSTS } from "@/lib/blogPostsGenerated";
+import { isPublished } from "@/lib/publishSchedule";
 
-export const BLOG_POSTS = [
+// Every post, including ones scheduled for a future date. Only tooling that
+// needs the full set (slug-collision checks) should read this.
+export const ALL_BLOG_POSTS = [
   {
     slug: "bwi-airport-car-service-guide-2026",
     title: "Complete BWI Airport Car Service Guide 2026",
@@ -1092,56 +1095,60 @@ export const BLOG_POSTS = [
 ];
 
 // 2026-09-22 keyword posts live in their own file.
-BLOG_POSTS.push(...BLOG_POSTS_BATCH2);
+ALL_BLOG_POSTS.push(...BLOG_POSTS_BATCH2);
 // 2026-09-28 bulk content commission (10 posts) — see blogPostsBatch3.js header.
-BLOG_POSTS.push(...BLOG_POSTS_BATCH3);
+ALL_BLOG_POSTS.push(...BLOG_POSTS_BATCH3);
 // 2026-09-28 bulk content commission, batch 2 (8 posts) — see blogPostsBatch4.js header.
-BLOG_POSTS.push(...BLOG_POSTS_BATCH4);
+ALL_BLOG_POSTS.push(...BLOG_POSTS_BATCH4);
 // 2026-09-28 bulk content commission, batch 5 (20 posts, four topic groups) —
 // see blogPostsBatch5.js header.
-BLOG_POSTS.push(...BLOG_POSTS_BATCH5);
+ALL_BLOG_POSTS.push(...BLOG_POSTS_BATCH5);
 // 2026-09-28 bulk content commission, batch 6 (5 long-form cornerstone posts) —
 // see blogPostsBatch6.js header.
-BLOG_POSTS.push(...BLOG_POSTS_BATCH6);
+ALL_BLOG_POSTS.push(...BLOG_POSTS_BATCH6);
 // 2026-09-29 bulk content commission, batch 7 (20 long-form posts) — see
 // blogPostsBatch7.js header.
-BLOG_POSTS.push(...BLOG_POSTS_BATCH7);
+ALL_BLOG_POSTS.push(...BLOG_POSTS_BATCH7);
 // 2026-10-04 bulk content commission, batch 8 (20 long-form posts) — see
 // blogPostsBatch8.js header.
-BLOG_POSTS.push(...BLOG_POSTS_BATCH8);
+ALL_BLOG_POSTS.push(...BLOG_POSTS_BATCH8);
 // 2026-10-21 SEO round-5 push, batch 9 (10 long-form posts) — see
 // blogPostsBatch9.js header.
-BLOG_POSTS.push(...BLOG_POSTS_BATCH9);
+ALL_BLOG_POSTS.push(...BLOG_POSTS_BATCH9);
 // 2026-10-23 BWI content expansion, batch 10 (10 long-form posts) — see
 // blogPostsBatch10.js header.
-BLOG_POSTS.push(...BLOG_POSTS_BATCH10);
+ALL_BLOG_POSTS.push(...BLOG_POSTS_BATCH10);
 // 2026-10-23 SEO round-6 push, batch 11 (20 long-form posts) — see
 // blogPostsBatch11.js header.
-BLOG_POSTS.push(...BLOG_POSTS_BATCH11);
+ALL_BLOG_POSTS.push(...BLOG_POSTS_BATCH11);
 // 2026-10-24 SEO round-6 push, research-stage posts (10 posts) — see
 // costAndComparisonBlogPosts.js header.
-BLOG_POSTS.push(...COST_AND_COMPARISON_BLOG_POSTS);
+ALL_BLOG_POSTS.push(...COST_AND_COMPARISON_BLOG_POSTS);
 // 2026-10-27 SEO round-7 push, batch 12 (17 long-form posts) — see
 // blogPostsBatch12.js header.
-BLOG_POSTS.push(...BLOG_POSTS_BATCH12);
+ALL_BLOG_POSTS.push(...BLOG_POSTS_BATCH12);
 // 2026-10-28 SEO round-8 push, batch 13 (10 long-form posts) — see
 // blogPostsBatch13.js header.
-BLOG_POSTS.push(...BLOG_POSTS_BATCH13);
+ALL_BLOG_POSTS.push(...BLOG_POSTS_BATCH13);
 // 2026-10-28 follow-up content push, batch 14 (2 long-form posts) — see
 // blogPostsBatch14.js header.
-BLOG_POSTS.push(...BLOG_POSTS_BATCH14);
+ALL_BLOG_POSTS.push(...BLOG_POSTS_BATCH14);
 // 2026-11-01 follow-up content push, batch 15 (2 long-form posts) — see
 // blogPostsBatch15.js header.
-BLOG_POSTS.push(...BLOG_POSTS_BATCH15);
+ALL_BLOG_POSTS.push(...BLOG_POSTS_BATCH15);
 // 2026-11-01 follow-up content push, batch 16 (5 long-form posts) — see
 // blogPostsBatch16.js header.
-BLOG_POSTS.push(...BLOG_POSTS_BATCH16);
+ALL_BLOG_POSTS.push(...BLOG_POSTS_BATCH16);
 // 2026-11-02 content push, batch 17 (5 long-form posts) — see
 // blogPostsBatch17.js header.
-BLOG_POSTS.push(...BLOG_POSTS_BATCH17);
+ALL_BLOG_POSTS.push(...BLOG_POSTS_BATCH17);
 // Daily-automation posts (scripts/generateBlogs.js) — newest last, so
 // GENERATED_BLOG_POSTS is pushed after the hand-written batches.
-BLOG_POSTS.push(...GENERATED_BLOG_POSTS);
+ALL_BLOG_POSTS.push(...GENERATED_BLOG_POSTS);
+
+// Live posts only: scheduled posts (date after the build cutoff) are hidden
+// everywhere — listings, routes, related links, sitemap and prerender.
+export const BLOG_POSTS = ALL_BLOG_POSTS.filter(isPublished);
 
 export const getBlogPostBySlug = (slug) =>
   BLOG_POSTS.find((p) => p.slug === slug);

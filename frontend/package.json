@@ -64,7 +64,7 @@
   "scripts": {
     "prestart": "node scripts/generateRouteSlugs.js",
     "start": "craco start",
-    "prebuild": "node scripts/generateRouteSlugs.js",
+    "prebuild": "node scripts/generateRouteSlugs.js && node scripts/generateSitemap.js",
     "build": "craco build",
     "postbuild": "node scripts/prerender.js",
     "sitemap": "node scripts/generateSitemap.js",

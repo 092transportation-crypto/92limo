@@ -71,6 +71,7 @@ function loadSiteData() {
     "src/lib/pageFaqs.js",
     "src/lib/breadcrumbs.js",
     "src/lib/guides.js",
+    "src/lib/publishSchedule.js",
     "src/lib/blogPosts.js",
     "src/lib/keywordSection.js",
   ]
@@ -78,7 +79,7 @@ function loadSiteData() {
     .join("\n");
   const ctx = { console };
   vm.runInNewContext(
-    `${src}\nthis.__data = { SERVICE_PAGES, LANDING_PAGES, CITIES, GUIDES, BLOG_POSTS };`,
+    `${src}\nthis.__data = { SERVICE_PAGES, LANDING_PAGES, CITIES, GUIDES, BLOG_POSTS, ALL_BLOG_POSTS };`,
     ctx
   );
   return ctx.__data;
@@ -393,7 +394,9 @@ async function main() {
   const data = loadSiteData();
   const linkPool = buildLinkCandidates(data);
   const existingSlugs = new Set([
-    ...data.BLOG_POSTS.map((b) => b.slug),
+    // ALL_BLOG_POSTS includes scheduled (future-dated) posts, which must
+    // still count as taken slugs.
+    ...data.ALL_BLOG_POSTS.map((b) => b.slug),
     ...data.GUIDES.map((g) => g.slug),
     ...Object.keys(data.LANDING_PAGES),
     ...Object.keys(data.SERVICE_PAGES),

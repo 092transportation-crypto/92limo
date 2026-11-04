@@ -114,6 +114,7 @@ function loadBlogPostTitles() {
     "src/lib/blogPostsBatch17.js",
     "src/lib/costAndComparisonBlogPosts.js",
     "src/lib/blogPostsGenerated.js",
+    "src/lib/publishSchedule.js",
     "src/lib/blogPosts.js",
   ]
     .map(plain)

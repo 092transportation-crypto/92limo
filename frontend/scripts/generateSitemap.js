@@ -78,6 +78,7 @@ function loadData() {
     "src/lib/pageFaqs.js",
     "src/lib/breadcrumbs.js",
     "src/lib/guides.js",
+    "src/lib/publishSchedule.js",
     "src/lib/blogPosts.js",
     "src/lib/keywordSection.js",
   ]
@@ -129,9 +130,26 @@ function urlEntry(loc, lastmod, changefreq, priority) {
   );
 }
 
+// <loc> -> <lastmod> from the sitemap currently on disk (empty if missing or
+// split into an index).
+function previousLastmods() {
+  const map = new Map();
+  let xml = "";
+  try {
+    xml = fs.readFileSync(OUT, "utf8");
+  } catch (e) {
+    return map;
+  }
+  const re = /<loc>([^<]+)<\/loc>\s*<lastmod>(\d{4}-\d{2}-\d{2})<\/lastmod>/g;
+  let m;
+  while ((m = re.exec(xml))) map.set(m[1], m[2]);
+  return map;
+}
+
 function buildEntries() {
   const data = loadData();
   const today = new Date().toISOString().slice(0, 10);
+  const previous = previousLastmods();
   const entries = [];
   const seen = new Set();
 
@@ -139,7 +157,10 @@ function buildEntries() {
     const loc = `${ORIGIN}${slug}`;
     if (seen.has(loc)) return; // sitemaps.org: no duplicate <loc>
     seen.add(loc);
-    entries.push(urlEntry(loc, lastmod || today, changefreq, priority));
+    // Undated pages keep the lastmod they already had, so the daily scheduled-
+    // publishing rebuild (prebuild runs this script) doesn't stamp every page
+    // with today's date. Only URLs new to the sitemap get today.
+    entries.push(urlEntry(loc, lastmod || previous.get(loc) || today, changefreq, priority));
   };
 
   for (const [route, changefreq, priority] of STATIC_ROUTES) add(route, changefreq, priority);
