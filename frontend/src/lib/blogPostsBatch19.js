@@ -2401,4 +2401,655 @@ export const BLOG_POSTS_BATCH19 = [
       },
     ],
   },
+  // ---------------------------------------------------------- POST 27
+  {
+    slug: "chesapeake-bay-bridge-span-closures-two-way-operations-guide",
+    title: "Chesapeake Bay Bridge Span Closures and Two-Way Operations: How They Work and How to Plan Around Them",
+    metaTitle: "Bay Bridge Span Closures Explained | 92 Limo Service",
+    metaDescription:
+      "How Chesapeake Bay Bridge span closures, lane closures and two-way operations work on US-50/301, where to check MDTA updates, and how to time airport rides.",
+    category: "Travel Tips",
+    date: "2026-11-26",
+    scheduled: true,
+    readTime: "7 min read",
+    excerpt:
+      "Lane closures, two-way traffic on one span and wind restrictions can change a Bay Bridge crossing in minutes. Here's how they work, where to check, and how to plan airport and Eastern Shore rides around them.",
+    image: "/images/blog/airport-tarmac-sunset.webp",
+    intro: [
+      "Chesapeake Bay Bridge span closures are one of the main reasons a trip to the Eastern Shore can take twice as long as expected. The bridge, officially the William Preston Lane Jr. Memorial Bridge, carries US-50 and US-301 between Sandy Point near Annapolis and Kent Island, and it is really two separate bridges side by side. When one span or some of its lanes close, traffic has to be rearranged across what's left, and the effect can be felt for miles on either side.",
+      "This guide explains how span closures, lane closures and two-way operations generally work, where to check current conditions before you leave, and how we plan airport transfers, weddings and weekend trips across the bridge. Closure schedules change constantly, so we won't list dates here: the Maryland Transportation Authority (MDTA), which operates the bridge, is the source for current and planned closures.",
+    ],
+    sections: [
+      {
+        heading: "Two Spans, Two Directions",
+        paragraphs: [
+          "The Bay Bridge is made up of two parallel spans. The older span, opened in the 1950s, normally carries eastbound traffic toward the Eastern Shore on two lanes. The newer span, opened in the 1970s, normally carries westbound traffic toward Annapolis on three lanes. Under normal conditions, each span runs in one direction only.",
+          "That layout is what makes the bridge flexible and fragile at the same time. Because the spans are separate structures, the MDTA can move a lane from one direction to the other when traffic is heavier one way, or when work or an incident closes part of a span. But with only five lanes in total, losing even one of them is noticeable, especially on a busy weekend.",
+        ],
+      },
+      {
+        heading: "How Two-Way Operations Work",
+        paragraphs: [
+          "Two-way operations are the bridge's main tool for handling a closure. When one span or several of its lanes need to close, for maintenance, an inspection, an incident or a construction project, traffic in both directions can be moved onto a single span, with opposing lanes separated by signals and lane controls. Drivers in one direction find themselves on the 'wrong' span with oncoming traffic beside them.",
+          "The MDTA also uses lane changes the other way round, to add capacity rather than to work around a closure. On heavy travel days, a lane on the westbound span can be opened to eastbound traffic, which is part of what the authority calls its Bay Plan for peak summer weekends. Either way, the lane signals over the bridge show which lanes are open in which direction, and drivers should follow them, not habit.",
+        ],
+        list: [
+          "Two-way operations on one span usually mean lower speeds and narrower lanes.",
+          "Lane changes can add or remove capacity in a direction at short notice.",
+          "Lane-use signals over the travel lanes show what's open at any given moment.",
+          "A crash on a span running two-way traffic can slow both directions at once.",
+        ],
+      },
+      {
+        heading: "Why Lanes and Spans Close",
+        paragraphs: [
+          "Most closures fall into a few categories. Routine maintenance and inspections keep a structure of this age safe, and they're often scheduled overnight or at quieter times to limit the effect on traffic. Larger rehabilitation projects, such as deck or structural work, can involve longer-term lane closures that last weeks or months. Incidents, from a crash to a disabled vehicle, can close lanes with no warning at all.",
+          "Weather is the other big factor. The bridge is high and exposed, and in strong winds the MDTA can restrict certain vehicles, such as high-profile or lightly loaded trucks and trailers, or impose wider restrictions in severe conditions. Fog, ice and storms can also slow traffic or lead to closures. These decisions are made in real time, so a forecast alone won't tell you what the bridge will look like when you get there.",
+        ],
+      },
+      {
+        heading: "Where to Check Before You Leave",
+        paragraphs: [
+          "The MDTA is the official source for everything about the Bay Bridge. Its Bay Bridge traffic information covers current lane configurations, planned closures and wind warnings, and the authority publishes traffic cameras showing the approaches and the spans. Maryland's 511 traveler information service also reports conditions on US-50 and US-301.",
+          "We check those sources before every Eastern Shore trip, and again on the day for anything tied to a fixed time, such as a flight or a ceremony. If you're driving yourself, check them before you leave home, not when you reach Sandy Point, because by then the backup may already have started.",
+        ],
+        list: [
+          "MDTA Bay Bridge traffic information: current lane setup, planned closures and wind warnings",
+          "MDTA traffic cameras: a live look at the approaches and the spans",
+          "Maryland 511: conditions on US-50, US-301 and connecting roads",
+          "Local radio traffic reports and navigation apps, as a cross-check",
+        ],
+      },
+      {
+        heading: "Planning Airport Rides Around the Bridge",
+        paragraphs: [
+          "If you live on the Eastern Shore or Kent Island and fly out of BWI Marshall, Reagan National or Dulles, the bridge sits between you and the airport. That's the trip where a closure does the most damage, because a flight won't wait. We plan pickup times for these rides around the bridge conditions for that day and direction, not around a best-case drive time.",
+          "For early-morning flights, the bridge is usually quiet, but overnight maintenance can still be running, and we allow for it. For afternoon and evening departures on Fridays in summer, westbound traffic is usually lighter than eastbound, but a closure on the westbound span can change that quickly. For arrivals, flight tracking lets dispatch see when you'll actually land, and our domestic arrivals include 45 minutes of complimentary waiting time, 60 for international flights, before the drive home across the bridge.",
+        ],
+      },
+      {
+        heading: "Weekend Trips to the Eastern Shore and the Beaches",
+        paragraphs: [
+          "Most people meet the bridge on the way to Easton, St. Michaels, Cambridge or Ocean City. The usual traffic patterns still apply: eastbound backups on Friday afternoons and Saturday mornings in summer, and westbound backups on Sunday afternoons. A closure or two-way operation layered on top of a busy weekend is what turns a slow crossing into a very slow one.",
+          "If your dates are flexible, a weekday crossing or an early-morning departure avoids most of it. If they're not, build in extra time and let us watch the bridge for you. For a longer guide to the seasonal patterns, see our post on Bay Bridge traffic timing.",
+        ],
+      },
+      {
+        heading: "Weddings and Events Across the Bay",
+        paragraphs: [
+          "An Eastern Shore wedding puts the bridge in the middle of the day's timeline. Guests coming from Baltimore, Annapolis and Washington DC all have to cross, often on a summer Saturday, and a closure can delay an entire shuttle run. We check the MDTA's planned closures when you book and again the week of the event, and we build the shuttle schedule with a buffer for the crossing.",
+          "On the night, the late ride home is often the easiest crossing of the day, but overnight work is more likely at that hour. If a closure is planned, we'll adjust departure times and tell your planner or transportation contact in advance.",
+        ],
+      },
+      {
+        heading: "Nervous About the Bridge?",
+        paragraphs: [
+          "The Bay Bridge is long, high and close to the water, and plenty of drivers would rather not do it themselves, especially in wind or in two-way traffic with oncoming lanes right beside them. That's a perfectly good reason to book a chauffeur. Our chauffeurs cross the bridge regularly, and you can sit back for the crossing rather than grip the wheel.",
+        ],
+      },
+      {
+        heading: "Tolls and What Your Quote Includes",
+        paragraphs: [
+          "The Bay Bridge toll is collected in the eastbound direction only, so the crossing back toward Annapolis is toll-free. Tolling is electronic, with no stopping at a booth. Your quote includes the base transportation charge, with tolls, parking, gratuity and any other applicable charges disclosed before you confirm.",
+        ],
+      },
+      {
+        heading: "Booking a Ride Across the Bay Bridge",
+        paragraphs: [
+          "Tell us your pickup address, destination and any fixed times, such as a flight, a ceremony or a check-in, and we'll plan the crossing around the bridge conditions for that day. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before.",
+          "Request a quote through our online booking form or call (877) 609-1919. For groups of up to thirteen, a Mercedes Sprinter keeps everyone together, and larger groups can travel in two or more Sprinters timed to cross together.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book a Ride Across the Bay", to: "/booking" },
+      { label: "Bay Bridge Traffic Patterns & Timing", to: "/blog/chesapeake-bay-bridge-traffic-patterns-chauffeur-timing-guide" },
+      { label: "Stevensville Limo Service", to: "/stevensville-limo-service" },
+      { label: "BWI to Ocean City", to: "/bwi-to-ocean-city" },
+      { label: "Limo Service Easton, MD", to: "/limo-service-easton-md" },
+    ],
+    faqs: [
+      {
+        q: "What are two-way operations on the Bay Bridge?",
+        a: "When one span or some of its lanes close, the MDTA can run traffic in both directions on a single span, with opposing lanes separated by signals and lane controls. Speeds are usually lower while it's in place.",
+      },
+      {
+        q: "Where can I check for Bay Bridge closures?",
+        a: "The Maryland Transportation Authority's Bay Bridge traffic information lists current lane setups, planned closures and wind warnings, and its traffic cameras show the approaches. Maryland 511 also reports conditions.",
+      },
+      {
+        q: "Why does the Bay Bridge close lanes?",
+        a: "For maintenance, inspections, construction projects, incidents and weather, especially high winds. Planned work is often scheduled for quieter hours, but incidents and weather can close lanes without warning.",
+      },
+      {
+        q: "Do you adjust airport pickup times for Bay Bridge closures?",
+        a: "Yes. We check MDTA conditions and planned closures before every Eastern Shore airport ride and set the pickup time for that day and direction of travel.",
+      },
+      {
+        q: "Is the Bay Bridge toll charged both ways?",
+        a: "No. It's collected eastbound only, so the return crossing toward Annapolis is toll-free. Tolls are disclosed with your quote before you confirm.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 28
+  {
+    slug: "annapolis-maritime-museum-eastport-visit-by-chauffeur",
+    title: "Visiting the Annapolis Maritime Museum in Eastport: Getting There, Parking and Pairing It With Downtown",
+    metaTitle: "Annapolis Maritime Museum Visit Guide | 92 Limo Service",
+    metaDescription:
+      "Plan a visit to the Annapolis Maritime Museum in Eastport: getting there by chauffeur, narrow streets and parking, and pairing it with an afternoon downtown.",
+    category: "Local Guides",
+    date: "2026-11-27",
+    scheduled: true,
+    readTime: "7 min read",
+    excerpt:
+      "The Annapolis Maritime Museum sits on Back Creek in Eastport, a short hop from downtown but on streets built long before cars. Here's how to plan the visit and the rest of the day.",
+    image: "/images/blog/landmark-annapolis-2.webp",
+    intro: [
+      "The Annapolis Maritime Museum tells the story of the city's life on the water: the oyster trade, the watermen, the boats and the Chesapeake Bay itself. It's housed in the former McNasby oyster packing plant at the end of Second Street in Eastport, on the shore of Back Creek, and it's one of the few places in Annapolis where you can stand on the waterfront that working watermen used every day.",
+      "Eastport is just across Spa Creek from downtown Annapolis, but it has its own character, with narrow residential streets, marinas and limited parking. This guide covers getting to the Annapolis Maritime Museum by chauffeur, what to expect in Eastport, and how to pair a museum visit with downtown, City Dock and dinner, so the day runs on your schedule rather than around a parking space.",
+    ],
+    sections: [
+      {
+        heading: "Where the Museum Is",
+        paragraphs: [
+          "The museum's main campus is on Second Street in Eastport, where the street ends at Back Creek. Eastport is the peninsula between Spa Creek and Back Creek, connected to downtown Annapolis by the drawbridge over Spa Creek. It's a neighborhood of older homes, boatyards, marinas and waterfront restaurants, and it has long been tied to the city's maritime trades.",
+          "The museum also runs programs beyond the main building, including on-the-water trips and education programs. Hours, exhibits and programs change through the year, so check the Annapolis Maritime Museum's official site before you go, especially if you're planning around a particular exhibit, talk or boat trip.",
+        ],
+      },
+      {
+        heading: "Getting There From BWI, Baltimore and DC",
+        paragraphs: [
+          "Annapolis is about 30 to 40 minutes from BWI Marshall without heavy traffic, and Eastport adds only a few minutes beyond downtown. From Baltimore, the drive down I-97 is usually around 40 minutes to an hour. From Washington DC, US-50 is the main route, about 45 minutes to an hour and a quarter depending on the time of day and the traffic around the Beltway.",
+          "Visitors flying in for a weekend can be met at BWI with flight tracking and 45 minutes of complimentary waiting time on domestic arrivals, 60 on international, and taken straight to a hotel or to the museum. From downtown Annapolis hotels, the ride to Eastport is short, and the chauffeur can wait or come back at an agreed time.",
+        ],
+      },
+      {
+        heading: "Eastport Streets and Parking",
+        paragraphs: [
+          "Eastport's streets were laid out long before cars, and many are narrow, with on-street parking on residential blocks. Parking near the museum is limited, and on a busy weekend, when the marinas and restaurants are full, finding a space nearby can take a while. Some Eastport streets also have residential parking restrictions, so read the signs carefully if you're driving yourself.",
+          "That's where a chauffeur helps. Your driver drops you at the museum, then either waits nearby or returns at the time you've agreed. You don't have to circle the block looking for a space or work out where you're allowed to park, and nobody needs to leave the group to move the car.",
+        ],
+        list: [
+          "Expect narrow streets and limited parking close to the museum.",
+          "Check posted signs for residential parking restrictions if you drive yourself.",
+          "Weekend afternoons in warm weather are usually the busiest times in Eastport.",
+          "A chauffeur drops off and picks up at the door, with no parking to find.",
+        ],
+      },
+      {
+        heading: "Pairing the Museum With Downtown Annapolis",
+        paragraphs: [
+          "A visit to the Annapolis Maritime Museum fits easily into a day in Annapolis. Downtown is just across Spa Creek, and the most natural pairing is a morning at the museum followed by lunch and an afternoon downtown: City Dock, Main Street's shops, the Maryland State House and the historic streets around it.",
+          "Many visitors also want to see the U.S. Naval Academy. Visitor access rules are set by the Academy and can change, and adult visitors generally need to show valid identification at the gate, so check its official visitor information before you plan the day. Your chauffeur can drop you at the visitor entrance and meet you afterward.",
+          "With an hourly booking, the chauffeur stays with you for the day, so the order of stops can change as you go. If lunch runs long or the museum holds your attention longer than planned, the car is ready when you are.",
+        ],
+      },
+      {
+        heading: "A Sample Day",
+        paragraphs: [
+          "Here's one way to plan a full day in Annapolis around the museum. Adjust the times to suit the museum's hours on the day you visit.",
+        ],
+        list: [
+          "Morning: pickup from home, a hotel or BWI, with a drive to Eastport",
+          "Late morning: the Annapolis Maritime Museum and the Back Creek waterfront",
+          "Lunch: a waterfront restaurant in Eastport or a table downtown",
+          "Afternoon: City Dock, Main Street and the State House, or a Naval Academy visit",
+          "Evening: dinner downtown or in Eastport, then the ride home",
+        ],
+      },
+      {
+        heading: "Visiting With Family or a Group",
+        paragraphs: [
+          "The museum is a popular stop for families, school groups and visitors interested in the Chesapeake. For a family, a Chevrolet Suburban or Lincoln Navigator carries five with luggage or six without, and car seats are available on request. For a larger group, such as a club outing, a family reunion or a corporate team, a Mercedes Sprinter seats up to thirteen, and two or more Sprinters can travel together for bigger groups.",
+          "Eastport's narrow streets mean larger vehicles have to be careful about where they stop. We'll agree a drop-off and pickup point with you in advance, so the group knows exactly where to meet the vehicle.",
+        ],
+      },
+      {
+        heading: "Events at the Museum",
+        paragraphs: [
+          "The museum also hosts events through the year, from talks and concerts to private functions, and its waterfront setting makes it a popular choice for receptions and gatherings. If you're attending or planning an event there, a chauffeured car or a guest shuttle from a downtown hotel means nobody has to look for parking in Eastport at night.",
+          "For a private event, the venue sets the rules for vehicles, drop-off and timing. Send us the details and the event contact, and we'll confirm the logistics with them before the day.",
+        ],
+      },
+      {
+        heading: "Eastport Beyond the Museum",
+        paragraphs: [
+          "Eastport is worth more than a quick stop. The neighborhood is full of marinas and boatyards, and its streets give a close look at the sailing culture that Annapolis is known for. Several waterfront restaurants sit along Spa Creek and Back Creek, and a table with a view of the boats is a natural way to finish a museum visit.",
+          "Walking between the museum and the Spa Creek bridge is pleasant in good weather, and many visitors cross the bridge on foot to reach downtown. If anyone in the group would rather not walk, the chauffeur can meet you on either side of the creek and take you on to the next stop.",
+        ],
+      },
+      {
+        heading: "Best Times to Visit",
+        paragraphs: [
+          "Weekday visits are generally quieter, both at the museum and in Eastport's streets. Weekends in warm weather bring more visitors, boaters and diners to the neighborhood, and big Annapolis events, such as the fall boat shows at City Dock, fill the whole city. If your visit lines up with a major event, plan for heavier traffic and book your transportation early.",
+        ],
+      },
+      {
+        heading: "Booking Your Annapolis Day",
+        paragraphs: [
+          "Tell us where you're starting, how long you'd like to spend in Annapolis and the stops you have in mind, and we'll suggest a vehicle and the number of hours. Hourly service has a minimum number of hours, which we'll confirm with your quote. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup, and Sprinter bookings up to 12 hours before.",
+          "Your quote includes the base transportation charge, with tolls, parking, gratuity and any other applicable charges disclosed before you confirm. Request a quote through our online booking form or call (877) 609-1919.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Annapolis Day", to: "/booking" },
+      { label: "Annapolis Limo Service", to: "/annapolis-limo-service" },
+      { label: "Annapolis, MD Transportation Guide", to: "/annapolis-md-transportation-guide" },
+      { label: "A Private Chauffeur Day in Annapolis & Ellicott City", to: "/blog/private-chauffeur-day-annapolis-ellicott-city" },
+      { label: "Hourly Chauffeur Service", to: "/hourly-chauffeur" },
+    ],
+    faqs: [
+      {
+        q: "Where is the Annapolis Maritime Museum?",
+        a: "On Second Street in Eastport, where the street ends at Back Creek, in the former McNasby oyster packing plant. Eastport is just across Spa Creek from downtown Annapolis.",
+      },
+      {
+        q: "Is there parking at the Annapolis Maritime Museum?",
+        a: "Parking nearby is limited, and Eastport's streets are narrow, with some residential restrictions. A chauffeur drops you at the door and picks you up, so there's no space to find.",
+      },
+      {
+        q: "Can I combine the museum with downtown Annapolis?",
+        a: "Yes. Downtown is just across Spa Creek. With an hourly booking, the chauffeur stays with you for the museum, lunch, City Dock, Main Street or the Naval Academy.",
+      },
+      {
+        q: "How far is the museum from BWI?",
+        a: "Annapolis is about 30 to 40 minutes from BWI without heavy traffic, and Eastport adds only a few minutes. We track your flight and include waiting time on arrivals.",
+      },
+      {
+        q: "Can you take a group to the museum?",
+        a: "Yes. A Mercedes Sprinter seats up to thirteen, and two or more Sprinters can travel together for larger groups. We agree a drop-off point in advance.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 29
+  {
+    slug: "the-oaks-waterfront-hotel-royal-oak-wedding-getaway-transportation",
+    title: "The Oaks Waterfront Hotel in Royal Oak: Weddings, Getaways and Getting There Across the Bay",
+    metaTitle: "The Oaks Waterfront Hotel Transportation | 92 Limo Service",
+    metaDescription:
+      "Getting to The Oaks Waterfront Hotel in Royal Oak, MD for a wedding or getaway: the Bay Bridge crossing, guest shuttles, St. Michaels and Easton nearby.",
+    category: "Wedding Planning",
+    date: "2026-11-28",
+    scheduled: true,
+    readTime: "7 min read",
+    excerpt:
+      "The Oaks Waterfront Hotel sits in the quiet Talbot County village of Royal Oak, between Easton and St. Michaels. Here's how to plan the trip, the wedding shuttles and the weekend around it.",
+    image: "/images/blog/scenario-wedding-1.webp",
+    intro: [
+      "The Oaks Waterfront Hotel is a waterfront inn in Royal Oak, Maryland, a small village in Talbot County on the Eastern Shore, a few miles from St. Michaels and Easton. It's a popular choice for weddings, anniversaries and quiet weekend getaways, and its setting on the water is exactly what draws people across the Chesapeake Bay Bridge in the first place.",
+      "That setting also means a drive. Most guests come from Baltimore, Annapolis or Washington DC, or fly into BWI, Reagan National or Dulles, and all of them have to cross the Bay Bridge and continue down US-50 into Talbot County. This guide covers getting to The Oaks Waterfront Hotel, planning wedding transportation for guests and the wedding party, and making a weekend of it in St. Michaels and Easton.",
+    ],
+    sections: [
+      {
+        heading: "Where Royal Oak Is",
+        paragraphs: [
+          "Royal Oak is a small, mostly residential village in Talbot County, between Easton and St. Michaels, with creeks and coves of the Chesapeake on several sides. The roads around it are rural two-lane routes, quiet and scenic, but dark at night and unfamiliar to most visitors, which is worth keeping in mind for the drive back after a late evening.",
+          "From the Bay Bridge, the drive to Royal Oak is usually around 45 minutes to an hour without heavy traffic, along US-50 to Easton and then west toward St. Michaels. From BWI Marshall, allow roughly an hour and a half to two hours, depending on the day, and from Washington DC, about the same. Directions to the hotel and its entrance are best confirmed with the hotel or your wedding coordinator.",
+        ],
+      },
+      {
+        heading: "Crossing the Bay Bridge",
+        paragraphs: [
+          "The Chesapeake Bay Bridge is the biggest variable in any trip to Talbot County. Eastbound traffic builds on Friday afternoons and Saturday mornings, especially in summer, and westbound traffic backs up on Sunday afternoons. Lane closures, two-way operations on one span and wind restrictions can slow things further, and they can change during the day.",
+          "We check the Maryland Transportation Authority's bridge conditions and planned closures before every Eastern Shore trip, and we set pickup times around them. The toll is collected eastbound only, so the return crossing toward Annapolis is toll-free.",
+        ],
+      },
+      {
+        heading: "Weddings at The Oaks Waterfront Hotel",
+        paragraphs: [
+          "A waterfront wedding in Royal Oak usually means guests staying overnight, either at the hotel itself or in St. Michaels and Easton, with some driving in for the day from across the bay. Each group needs a different plan. Guests at the hotel may not need transportation at all on the day; guests in St. Michaels or Easton benefit from a shuttle; and guests driving from the Western Shore face the Bay Bridge in both directions.",
+          "For most weddings, the plan comes down to three things: getting the couple and the wedding party where they need to be, getting guests from their hotels to the ceremony and back, and getting anyone who arrived by air to and from the airport. Ceremony location, timings, vehicle access and any rules for vehicles on the property are set by the hotel, and we'll confirm them with your coordinator before the day.",
+        ],
+      },
+      {
+        heading: "Guest Shuttles From St. Michaels and Easton",
+        paragraphs: [
+          "If your guest block is in St. Michaels or Easton, a shuttle avoids a lot of small cars on dark country roads. A Mercedes Sprinter, which seats up to thirteen, is the usual shuttle vehicle, and two or more Sprinters can run together or in loops for a larger guest list. Shuttles are especially valuable at the end of the night, when the roads back to town are unlit and most guests would rather not drive.",
+        ],
+        list: [
+          "Arrival: one or two runs from the guest hotels, timed to arrive 20 to 30 minutes before the ceremony",
+          "Mid-evening: a return run for older guests and families with children",
+          "End of the night: a final run back to the hotels after the last dance",
+          "Next day: rides to brunch, the airport or back across the bridge",
+        ],
+      },
+      {
+        heading: "The Couple and the Wedding Party",
+        paragraphs: [
+          "Couples often get ready at the hotel or in a rental house nearby. If getting ready happens off-site, a Mercedes Sprinter keeps the wedding party together, and a First Class Sedan or a Lincoln Navigator gives the couple a separate arrival or a getaway car at the end of the night. If your photographer wants photos with the car, or a stop in St. Michaels on the way, tell us when you book.",
+        ],
+        list: [
+          "Couple: First Class Sedan (BMW 7 Series or similar) or Lincoln Navigator",
+          "Wedding party: Mercedes Sprinter, up to thirteen passengers",
+          "Family: Chevrolet Suburban or Lincoln Navigator, five with luggage or six without",
+        ],
+      },
+      {
+        heading: "Airport Arrivals for Out-of-Town Guests",
+        paragraphs: [
+          "Most out-of-town guests fly into BWI Marshall, Reagan National or Dulles. BWI is usually the closest of the three to the Bay Bridge. We track every flight, and domestic arrivals include 45 minutes of complimentary waiting time, 60 for international arrivals, so a delay doesn't leave a guest stranded on the curb before a two-hour drive.",
+          "For several guests landing around the same time, a single SUV or Sprinter pickup can be more practical than separate cars. Send us the arrival times and we'll suggest the simplest plan. Talbot County also has a general aviation airport in Easton for guests arriving by private aircraft, and we can meet those flights too.",
+        ],
+      },
+      {
+        heading: "A Getaway Weekend Without a Wedding",
+        paragraphs: [
+          "Plenty of visitors come to The Oaks Waterfront Hotel simply to get away. A chauffeured ride from home or the airport means the weekend starts when you get in the car, not when you get through the bridge traffic. Once you're there, St. Michaels is a short drive away, with its harbor, Talbot Street shops and restaurants and the Chesapeake Bay Maritime Museum, and Easton has a historic downtown with galleries, dining and the Avalon Theatre.",
+          "For a couple, a sedan or a Lincoln Nautilus is plenty; for two couples or a family, a Suburban or Navigator has room for everyone's luggage. If you'd like the chauffeur to stay for an afternoon in St. Michaels or a dinner in Easton, an hourly booking covers it.",
+        ],
+      },
+      {
+        heading: "The Ride Home",
+        paragraphs: [
+          "After a wedding or a long dinner, the drive from Royal Oak back across the bridge is a long one, and the rural roads to US-50 are dark and winding at night. Guests heading back to the Western Shore the same evening should plan on a chauffeured ride rather than driving themselves. The late-night crossing is usually quiet, but overnight bridge work is more likely at that hour, so we check for planned closures before the event.",
+          "If the reception runs late, text or call dispatch and we'll adjust the final pickup. The pickup point is agreed before the event, so guests know where to go.",
+        ],
+      },
+      {
+        heading: "Pairing With Other Bay Venues",
+        paragraphs: [
+          "Some couples hold a rehearsal dinner or welcome party at another Eastern Shore venue, closer to the bridge, before the wedding in Talbot County. If any of your events are on Kent Island, our guide to Kent Island Resort weddings covers the bridge timing for a venue just across the span. Booking the whole weekend's transportation together gives you one company and one contact for every event.",
+        ],
+      },
+      {
+        heading: "Booking Your Royal Oak Transportation",
+        paragraphs: [
+          "Summer and fall weekends on the Eastern Shore book early, so reserve as soon as your dates are set. Sprinter and special-event bookings can be cancelled at no charge up to 12 hours before pickup, and sedan and SUV reservations up to 3 hours before. Your quote includes the base transportation charge, with tolls, parking, gratuity and any other applicable charges disclosed before you confirm.",
+          "Request a quote through our online booking form or call (877) 609-1919. Send us your timeline, the guest hotels and the number of guests who'll use the shuttle, and we'll build the plan around the bridge.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Eastern Shore Transportation", to: "/booking" },
+      { label: "St. Michaels Limo Service", to: "/st-michaels-limo-service" },
+      { label: "Limo Service Easton, MD", to: "/limo-service-easton-md" },
+      { label: "Kent Island Resort Weddings and Events", to: "/blog/kent-island-resort-wedding-event-transportation-guide" },
+      { label: "Eastern Shore Destination Wedding Shuttles", to: "/blog/destination-wedding-guest-shuttle-logistics-eastern-shore" },
+    ],
+    faqs: [
+      {
+        q: "Where is The Oaks Waterfront Hotel?",
+        a: "In Royal Oak, Maryland, a small village in Talbot County on the Eastern Shore, between Easton and St. Michaels. The hotel or your coordinator will have exact directions.",
+      },
+      {
+        q: "How long is the drive from BWI to Royal Oak?",
+        a: "Roughly an hour and a half to two hours, depending on the day and Bay Bridge traffic. We check bridge conditions and set the pickup time when you book.",
+      },
+      {
+        q: "Can you run wedding shuttles from St. Michaels and Easton hotels?",
+        a: "Yes. A Mercedes Sprinter seats up to thirteen, and two or more Sprinters can run together or in loops for a larger guest list, including a late return run.",
+      },
+      {
+        q: "Do you have a limo bus for large wedding groups?",
+        a: "No. Our largest vehicle is the Mercedes Sprinter Executive, which seats up to thirteen. For larger groups, we send two or more Sprinters together.",
+      },
+      {
+        q: "Can the chauffeur stay with us for a day in St. Michaels?",
+        a: "Yes. An hourly booking keeps the chauffeur with you for shopping, the museum and dinner, with the car ready when you are.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 30
+  {
+    slug: "woodend-sanctuary-mansion-chevy-chase-wedding-event-transportation",
+    title: "Woodend Sanctuary & Mansion Weddings and Events: Guest Shuttles and Arrival Planning in Chevy Chase",
+    metaTitle: "Woodend Sanctuary & Mansion Transportation | 92 Limo",
+    metaDescription:
+      "Transportation for a wedding or event at Woodend Sanctuary & Mansion in Chevy Chase, MD: guest shuttles, limited parking, airport arrivals and timing tips.",
+    category: "Wedding Planning",
+    date: "2026-11-29",
+    scheduled: true,
+    readTime: "7 min read",
+    excerpt:
+      "Woodend's mansion and grounds feel far from the city, but they're inside the Beltway with limited parking. Here's how to plan guest shuttles, arrivals and the ride home.",
+    image: "/images/blog/scenario-wedding-2.webp",
+    intro: [
+      "Woodend Sanctuary & Mansion in Chevy Chase, Maryland, is the headquarters of the Audubon Naturalist Society, which now operates as Nature Forward. Its Georgian Revival mansion, designed by the architect John Russell Pope, sits on wooded grounds just outside Washington DC, and it's a sought-after setting for weddings, receptions and private events.",
+      "The appeal of Woodend Sanctuary & Mansion is that it feels like a country estate while sitting inside the Beltway. The catch is that a nature sanctuary isn't built around large numbers of cars, and parking for a big event is limited. This guide covers how to plan transportation for a wedding or event at Woodend: guest shuttles, arrivals for the couple and family, airport pickups for out-of-town guests and the ride home.",
+    ],
+    sections: [
+      {
+        heading: "Where Woodend Is",
+        paragraphs: [
+          "Woodend is on Jones Mill Road in Chevy Chase, in Montgomery County, close to Rock Creek Park and a short drive from Connecticut Avenue and the Capital Beltway. It's convenient to Bethesda, Chevy Chase, Friendship Heights and northwest Washington, which is where many guests stay or live.",
+          "From Reagan National, the drive is usually around 25 to 40 minutes, depending on traffic. From Dulles, allow about 35 to 50 minutes, and from BWI Marshall, about 45 minutes to an hour or more at busy times. The Beltway and the main roads into DC can be heavily congested at rush hour, which matters for a weekday evening event.",
+        ],
+      },
+      {
+        heading: "Why Parking Shapes the Plan",
+        paragraphs: [
+          "As a sanctuary and the home of a conservation organization, Woodend has limited on-site parking, and the surrounding area is residential. For a wedding or a large event, that means guests driving their own cars may not all fit, and the venue may set limits on vehicles or ask that guests use shuttles. The venue's event team will tell you what's allowed for your event and how many cars the site can take.",
+          "A guest shuttle solves most of this. Rather than dozens of cars arriving at once, guests gather at one or two hotels or a central point and ride in together. Fewer vehicles on the grounds also suits the setting, and guests don't have to worry about the drive home after the reception.",
+        ],
+      },
+      {
+        heading: "Guest Shuttles",
+        paragraphs: [
+          "Guest hotels for a Woodend event are usually in Bethesda, Chevy Chase, Friendship Heights or northwest DC, all a short drive away. A Mercedes Sprinter seats up to thirteen, and two or more Sprinters can run together or in loops for a larger guest count. The shorter the distance to the hotels, the more efficiently each Sprinter can loop.",
+        ],
+        list: [
+          "Arrival: one or two runs timed to arrive 20 to 30 minutes before the ceremony",
+          "Mid-evening: a return run for older guests and families with young children",
+          "End of the night: a final run after the last dance",
+          "A meeting point at each hotel lobby, shared with guests in advance",
+        ],
+      },
+      {
+        heading: "The Couple, the Wedding Party and Family",
+        paragraphs: [
+          "Couples often get ready at a hotel nearby or at home and arrive with the wedding party. A Mercedes Sprinter keeps the wedding party together, and a First Class Sedan or Lincoln Navigator gives the couple a separate arrival or a getaway car. If you'd like photos with the car on the grounds or at a spot nearby, tell us where and when, and we'll check what the venue allows.",
+        ],
+        list: [
+          "Couple: First Class Sedan (BMW 7 Series or similar) or Lincoln Navigator",
+          "Wedding party: Mercedes Sprinter, up to thirteen passengers",
+          "Parents and grandparents: Chevrolet Suburban or Lincoln Navigator, five with luggage or six without",
+        ],
+      },
+      {
+        heading: "Drop-Off and Pickup on the Grounds",
+        paragraphs: [
+          "Where vehicles stop, where they wait and which paths guests use from the drop-off point to the mansion or the ceremony site are set by the venue. Some event spaces may involve paths or lawns between the drop-off and the event. For older guests or anyone with limited mobility, tell us in advance, and we'll ask about the closest drop-off point the venue allows.",
+          "We'll confirm the drop-off and pickup points and where vehicles can wait with your planner or the venue's event contact before the day, and every chauffeur will have the timeline and an on-site contact.",
+        ],
+      },
+      {
+        heading: "Out-of-Town Guests and Airport Pickups",
+        paragraphs: [
+          "Guests flying in for a Woodend wedding may land at any of the three area airports. Reagan National is usually the closest, but Dulles and BWI often have better flight options. We track every flight, and domestic arrivals include 45 minutes of complimentary waiting time, 60 for international, so a delay doesn't leave anyone stranded.",
+          "If several guests land around the same time, a shared SUV or Sprinter pickup can be simpler than separate cars. Send us the arrival details, and we'll suggest the most practical plan.",
+        ],
+      },
+      {
+        heading: "Corporate Events, Galas and Private Functions",
+        paragraphs: [
+          "Woodend also hosts corporate events, fundraisers and private parties. For a weekday evening event, rush-hour traffic on the Beltway and Connecticut Avenue is the main thing to plan around, and a shuttle from a downtown office or a Bethesda hotel takes the guesswork out of it. Corporate accounts can arrange consolidated billing and a single contact for scheduling.",
+        ],
+      },
+      {
+        heading: "Coordinating With Your Planner and the Venue",
+        paragraphs: [
+          "One shared transportation timeline makes the day much easier. Send us your planner's contact details and the event schedule, and we'll work from the same plan. Name one person as the transportation contact on the day, such as the planner or a member of the wedding party, who can call dispatch if the reception runs late or a guest needs an early ride.",
+          "Share the shuttle schedule with guests ahead of time, including where to meet, the departure times and the last return. Guests who know when the last shuttle leaves are far less likely to drive themselves, which is exactly what a venue with limited parking needs.",
+        ],
+      },
+      {
+        heading: "Timing the Day",
+        paragraphs: [
+          "Woodend's location inside the Beltway means traffic, not distance, decides the timing. A Saturday afternoon wedding usually means light traffic from Bethesda or Chevy Chase hotels, but a Friday evening rehearsal dinner or a weekday event can run into heavy rush-hour traffic on Connecticut Avenue, Jones Mill Road and the Beltway. We set shuttle departure times for the actual day and hour of the event and add a buffer for loading guests at each hotel.",
+          "For the end of the night, agree the last shuttle time with the venue's closing time in mind, so guests are on their way before the event space has to be cleared.",
+        ],
+      },
+      {
+        heading: "Respecting the Sanctuary",
+        paragraphs: [
+          "Woodend is a working nature sanctuary as well as an event venue, and the venue's rules on where vehicles can go and wait help protect it. Our chauffeurs follow the venue's directions on the day, keep vehicles where they're asked to wait and avoid idling where the venue asks them not to.",
+        ],
+      },
+      {
+        heading: "Booking Your Woodend Transportation",
+        paragraphs: [
+          "Spring and fall are popular wedding seasons in the DC area, so reserve as soon as your timeline is set. Sprinter and special-event bookings can be cancelled at no charge up to 12 hours before pickup, and sedan and SUV reservations up to 3 hours before. Your quote includes the base transportation charge, with tolls, parking, gratuity and any other applicable charges disclosed before you confirm.",
+          "Request a quote through our online booking form or call (877) 609-1919. Send us your timeline, the guest hotels and how many guests will use the shuttle. If you're still choosing guest hotels, we can tell you how the shuttle timing would work from each option.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Event Transportation", to: "/booking" },
+      { label: "Chevy Chase Limo Service", to: "/chevy-chase-limo-service" },
+      { label: "Bethesda Limo Service", to: "/bethesda-limo-service" },
+      { label: "Wedding Guest Shuttle Service", to: "/wedding-guest-shuttle-service-maryland" },
+      { label: "Wedding Transportation", to: "/wedding-transportation" },
+    ],
+    faqs: [
+      {
+        q: "Where is Woodend Sanctuary & Mansion?",
+        a: "On Jones Mill Road in Chevy Chase, Maryland, in Montgomery County, near Rock Creek Park and inside the Capital Beltway. It's the headquarters of Nature Forward, formerly the Audubon Naturalist Society.",
+      },
+      {
+        q: "Is there parking for wedding guests at Woodend?",
+        a: "On-site parking is limited, and the venue sets the rules for each event. A guest shuttle from nearby hotels reduces the number of cars and saves guests the drive home.",
+      },
+      {
+        q: "Which hotels work best for a Woodend shuttle?",
+        a: "Hotels in Bethesda, Chevy Chase, Friendship Heights or northwest DC are all a short drive away, which keeps each shuttle loop short.",
+      },
+      {
+        q: "How many guests fit in a shuttle?",
+        a: "A Mercedes Sprinter seats up to thirteen. For larger guest counts, two or more Sprinters run together or in loops. We don't operate limo buses.",
+      },
+      {
+        q: "Which airport is closest to Woodend?",
+        a: "Reagan National is usually the closest, about 25 to 40 minutes away. We also serve Dulles and BWI, with flight tracking and waiting time on arrivals.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 31
+  {
+    slug: "things-to-do-in-frederick-md-chauffeured-day-trip",
+    title: "Things to Do in Frederick, MD: A Chauffeured Day Trip From Downtown to Wine Country",
+    metaTitle: "Things to Do in Frederick, MD: Day Trip | 92 Limo Service",
+    metaDescription:
+      "Things to do in Frederick, MD on a chauffeured day trip: downtown and Carroll Creek, museums, Monocacy National Battlefield, wineries, breweries and more.",
+    category: "Local Guides",
+    date: "2026-11-30",
+    scheduled: true,
+    readTime: "7 min read",
+    excerpt:
+      "Frederick packs a historic downtown, Civil War history, mountain parks and a growing wine and brewery scene into one easy day trip from DC and Baltimore. Here's how to plan it.",
+    image: "/images/blog/scenario-group-shuttle.webp",
+    intro: [
+      "Looking for things to do in Frederick, MD? This historic city in western Maryland, about an hour from Washington DC, Baltimore and BWI, has one of the most walkable downtowns in the state, a creekside park lined with restaurants, Civil War history on its doorstep and a wine and brewery scene that keeps growing. It's an easy day trip, and one that works best when nobody has to drive home after the tastings.",
+      "This guide covers the main Frederick MD attractions, from downtown and Carroll Creek to Monocacy National Battlefield and the wineries and breweries outside town, along with a sample itinerary and the practical side of planning a chauffeured day: travel times, parking and who should come along. Hours and reservations change through the year, so check each place's official site before you go.",
+    ],
+    sections: [
+      {
+        heading: "Getting to Frederick",
+        paragraphs: [
+          "Frederick sits where I-270, I-70 and US-15 meet. From Washington DC and Bethesda, I-270 is the direct route, usually about an hour, though rush hour can add a lot of time. From Baltimore, I-70 west takes about an hour, and from BWI Marshall about the same. From Northern Virginia, the drive is usually an hour to an hour and a half, depending on the route.",
+          "A chauffeured day means the morning drive is time to relax, and the ride home after a tasting or dinner is no one's responsibility but ours. Visitors flying in can be met at BWI, Reagan National or Dulles with flight tracking and waiting time included, and taken straight to Frederick.",
+        ],
+      },
+      {
+        heading: "Downtown Frederick and Carroll Creek",
+        paragraphs: [
+          "Downtown Frederick is the heart of any visit. Its historic district is full of 18th- and 19th-century buildings, church spires, antique shops, boutiques and restaurants, with Market Street and Patrick Street at its center. Carroll Creek Linear Park runs through downtown along the creek, with brick paths, footbridges, fountains and public art, including the well-known Community Bridge mural.",
+          "Downtown is best on foot, and the easiest plan is to be dropped off on one side of the district and picked up on the other. Parking is mainly in public garages and metered on-street spaces, which fill up on busy weekend afternoons. With a chauffeur, you can skip the search for a space and keep the car close for the next stop.",
+        ],
+      },
+      {
+        heading: "Museums and History",
+        paragraphs: [
+          "Frederick's history is a big part of its appeal. The National Museum of Civil War Medicine, on East Patrick Street downtown, tells the story of the medical care that developed during the war. Mount Olivet Cemetery, on the south side of downtown, is the burial place of Francis Scott Key, author of the words of the national anthem. Baker Park, just west of downtown, is the city's large green space, with its carillon tower and plenty of room to walk.",
+          "Just south of the city, Monocacy National Battlefield preserves the site of the 1864 Battle of Monocacy, sometimes called the battle that saved Washington. The National Park Service runs a visitor center there, with exhibits and information about the walking trails and the driving tour of the battlefield. A chauffeur can follow the tour stops with you, so you can spend your time reading the markers rather than navigating. Check the NPS site for current hours before you go.",
+        ],
+      },
+      {
+        heading: "Wineries Around Frederick",
+        paragraphs: [
+          "Frederick County is one of Maryland's main wine regions, with vineyards spread across the rolling countryside around the city, from the Linganore area east of town to the slopes near the Catoctin Mountains to the north. Many wineries have tasting rooms open on weekends, with outdoor seating and views across the hills.",
+          "Wineries set their own hours, and many now ask groups to reserve, especially on weekends. Check before you go, and plan for two or three wineries rather than five, which gives you time to enjoy each one. For a longer guide to the region's wine trail, see our post on Frederick County wine country.",
+        ],
+      },
+      {
+        heading: "Breweries and Distilleries",
+        paragraphs: [
+          "Frederick also has a well-known craft beverage scene. Flying Dog Brewery, one of the region's best-known breweries, is in Frederick, and the city and its surroundings are home to a number of other craft breweries and distilleries, several of them within easy reach of downtown. A brewery stop fits naturally into the afternoon, and with a chauffeur, the group can try more than one without anyone keeping count of drinks to drive home.",
+        ],
+      },
+      {
+        heading: "The Mountains and the Outdoors",
+        paragraphs: [
+          "North and west of the city, the Catoctin Mountains offer some of the most scenic outdoor spots near DC and Baltimore. Catoctin Mountain Park and Cunningham Falls State Park, near Thurmont, have trails, overlooks and a waterfall, and Gambrill State Park, just west of Frederick, has overlooks across the valley. Fall foliage season is especially popular, so expect busier roads and parking areas on autumn weekends.",
+        ],
+      },
+      {
+        heading: "A Sample Frederick Day Trip",
+        paragraphs: [
+          "Here's one way to plan a full day in Frederick. Adjust the order and the stops to your group's interests and the opening hours on the day.",
+        ],
+        list: [
+          "Morning: pickup from home or a hotel, then Monocacy National Battlefield on the way into town",
+          "Late morning: downtown Frederick, the Civil War medicine museum and Carroll Creek",
+          "Lunch: a restaurant on Market Street or along the creek",
+          "Afternoon: two wineries in the countryside, or a brewery and a distillery closer to town",
+          "Evening: dinner downtown, then the ride home",
+        ],
+      },
+      {
+        heading: "Seasons and Events",
+        paragraphs: [
+          "Frederick is a year-round destination, but each season feels different. Spring and fall bring the busiest winery weekends and the best weather for walking Carroll Creek. Autumn is foliage season in the Catoctin Mountains, and December brings holiday decorations and shopping downtown. Summer evenings along the creek are lively, and the city hosts festivals and events through the year.",
+          "Popular events and weekends draw big crowds, fill restaurants and make parking harder, so check the city's event calendar and Visit Frederick's listings when you pick a date. If your visit lines up with a large event, book restaurants early and allow extra time between stops.",
+        ],
+      },
+      {
+        heading: "Choosing the Right Vehicle",
+        paragraphs: [
+          "For a couple, a sedan or a Lincoln Nautilus is plenty. For two couples or a family, a Chevrolet Suburban or Lincoln Navigator carries five with luggage or six without. For a larger group, such as a birthday, a bachelorette weekend or a company outing, a Mercedes Sprinter seats up to thirteen, and two or more Sprinters can travel together for bigger groups. Many wineries have specific rules for larger groups, so tell us your headcount early.",
+        ],
+      },
+      {
+        heading: "Booking a Day in Frederick",
+        paragraphs: [
+          "Day trips are booked by the hour, and hourly service has a minimum number of hours, which we'll confirm with your quote. Tell us your starting point, the stops you have in mind and roughly when you'd like to be home, and we'll suggest a vehicle and the number of hours. If you'd rather keep the day loose, we can plan a few core stops and leave room for changes along the way. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup, and Sprinter bookings up to 12 hours before.",
+          "Your quote includes the base transportation charge, with tolls, parking, gratuity and any other applicable charges disclosed before you confirm. Request a quote through our online booking form or call (877) 609-1919. For everyday rides in and around the city, see our Frederick limo service page.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Frederick Day Trip", to: "/booking" },
+      { label: "Frederick, MD Limo Service", to: "/frederick-md-limo-service" },
+      { label: "Frederick County Wine Country Chauffeur Service", to: "/blog/frederick-county-wine-country-chauffeur-service" },
+      { label: "An Evening in Downtown Frederick", to: "/blog/downtown-frederick-carroll-creek-evening-itinerary" },
+      { label: "Wine Tour Limo in Frederick County", to: "/wine-tour-limo-frederick-county-md" },
+    ],
+    faqs: [
+      {
+        q: "What are the top things to do in Frederick, MD?",
+        a: "Downtown Frederick's historic district and Carroll Creek Linear Park, the National Museum of Civil War Medicine, Monocacy National Battlefield, Frederick County wineries, local breweries and the Catoctin Mountain parks.",
+      },
+      {
+        q: "How far is Frederick from DC and Baltimore?",
+        a: "About an hour from each without heavy traffic: I-270 from DC and Bethesda, I-70 from Baltimore. Rush hour can add a lot of time.",
+      },
+      {
+        q: "Is parking hard in downtown Frederick?",
+        a: "Downtown parking is mostly public garages and metered street spaces, which fill on busy weekends. A chauffeur drops you off and picks you up, so there's nothing to find.",
+      },
+      {
+        q: "Do I need reservations at Frederick wineries?",
+        a: "Many wineries ask groups to reserve, especially on weekends. Check each winery's site, and tell us your headcount when you book.",
+      },
+      {
+        q: "Can you take a group of more than 13 to Frederick?",
+        a: "Yes. A Mercedes Sprinter seats up to thirteen, and two or more Sprinters can travel together for larger groups.",
+      },
+    ],
+  },
 ];
