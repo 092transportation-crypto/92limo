@@ -1059,4 +1059,390 @@ export const BLOG_POSTS_BATCH19 = [
       },
     ],
   },
+
+  // ---------------------------------------------------------- POST 9 (2026-11-16)
+  // Added 2026-11-09: three more scheduled seasonal posts (Nov 16-18), one per
+  // day after this batch's last post. Topics checked against every post, guide,
+  // landing page and sitemap URL on all five sites (the Military Bowl was
+  // dropped because /navy-marine-corps-stadium-transportation covers it).
+  // Event dates, tickets and registration are sent to the organizers' sites.
+  {
+    slug: "christmas-in-st-michaels-eastern-shore-holiday-weekend-guide",
+    title: "Christmas in St. Michaels: Planning a Holiday Weekend on the Eastern Shore",
+    metaTitle: "Christmas in St. Michaels Holiday Trip | 92 Limo Service",
+    metaDescription:
+      "Planning a trip to Christmas in St. Michaels on Maryland's Eastern Shore: the parade weekend, the Bay Bridge, parking in town and getting home after dark.",
+    category: "Day Trips",
+    date: "2026-11-16",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Every December, the waterfront town of St. Michaels hosts a holiday weekend with a parade, decorated homes and shops lit for the season. Here's how to plan the trip across the Bay Bridge so the drive is as easy as the day.",
+    image: "/images/blog/landmark-annapolis-2.webp",
+    intro: [
+      "St. Michaels is one of the prettiest towns on the Chesapeake: a few blocks of historic houses and shops along Talbot Street, a working harbor full of boats, and the Chesapeake Bay Maritime Museum at the water's edge. In December, it hosts Christmas in St. Michaels, a community holiday weekend that brings a parade, seasonal events and a lot of visitors to a town that normally moves at a gentle pace.",
+      "For families in Annapolis, Baltimore, DC and the Maryland suburbs, it makes a memorable day trip or a reason to book a night at an Eastern Shore inn. The catch is the drive: the Bay Bridge, two-lane roads on the Shore, limited parking in a small town, and a dark ride home on a December evening. This guide covers how to plan the visit and the transportation.",
+    ],
+    sections: [
+      {
+        heading: "What Christmas in St. Michaels Involves",
+        paragraphs: [
+          "Christmas in St. Michaels is organized by local volunteers and has traditionally been held over a weekend in early-to-mid December. The program has typically included a holiday parade through the center of town, special events and activities for families, and the town's shops and restaurants decked out for the season, with proceeds going to local causes.",
+          "The schedule, ticketed events and parade timing are set by the organizers each year, so check the official Christmas in St. Michaels website before you plan the day. Knowing whether you're going for the parade, a ticketed event or simply the atmosphere will shape when you leave home and when you'll want to head back.",
+        ],
+      },
+      {
+        heading: "Getting Across the Bay Bridge",
+        paragraphs: [
+          "From the Western Shore, almost every trip to St. Michaels crosses the Chesapeake Bay Bridge on US-50/301, then continues through Kent Island and on to Easton, where Route 33 leads west to St. Michaels. From Annapolis the drive is often around an hour; from DC, Baltimore and the Montgomery County suburbs, allow closer to two, depending on traffic.",
+          "The bridge is the part of the trip that varies most. Weekend traffic, lane closures for maintenance, and high winds can all slow the crossing, and on a busy December Saturday the approach on US-50 can back up. Check bridge conditions before you leave, and give yourself a buffer if you want to be in town for the parade.",
+          "The Bay Bridge toll is collected eastbound only. On a chauffeured trip, tolls and parking are listed separately from the base rate and disclosed before you confirm, so there's nothing to sort out on the day.",
+        ],
+      },
+      {
+        heading: "Parking in a Small Town on a Big Weekend",
+        paragraphs: [
+          "St. Michaels has limited parking even on an ordinary weekend, and on a festival day the lots and side streets fill early. Visitors often end up parking well outside the center and walking in, which is fine on a mild afternoon and less fun after dark in December with tired children or older relatives.",
+          "A drop-off solves most of that. Your chauffeur can drop the group as close to the center as traffic and any closures allow, then wait nearby or return at a time you set. If the parade closes part of Talbot Street, agree on a pickup point on a side street or near the harbor before you split up.",
+        ],
+      },
+      {
+        heading: "Making a Day of It",
+        paragraphs: [
+          "Most visitors combine the festivities with a meal and a wander through town. A few ideas for filling out the day:",
+        ],
+        list: [
+          "The Chesapeake Bay Maritime Museum sits on the waterfront and is a good way to understand the town's history; check its holiday hours before you go.",
+          "Talbot Street's shops are the heart of the holiday shopping, and many stay open later during the festival weekend.",
+          "Easton, a short drive away, has its own historic downtown, galleries and restaurants, and is a natural second stop.",
+          "Restaurants in St. Michaels fill up on festival weekend, so reserve lunch or dinner well in advance.",
+        ],
+      },
+      {
+        heading: "Day Trip or Overnight?",
+        paragraphs: [
+          "A day trip works well from Annapolis and the closer suburbs, especially if you're going mainly for the parade and an afternoon in town. From DC, Northern Virginia or Baltimore, the round trip adds up, and many families prefer to stay a night at an inn in St. Michaels, Easton or Tilghman Island and come home the next day.",
+          "For a day trip, an hourly booking keeps the vehicle and chauffeur with your group: the car waits while you're in town, holds coats and shopping bags, and is ready when you are. Hourly service has a minimum, which we'll confirm with your quote. For an overnight stay, two one-way transfers, one there and one home, are usually simpler.",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle",
+        paragraphs: [
+          "For a couple, a Mercedes E-Class or BMW 7 Series is comfortable for the drive across the Bay. A family with grandparents along fits well in a Chevrolet Suburban or Lincoln Navigator, which seat five with luggage or six without. For larger groups, such as several families, a church group or friends traveling together, a Mercedes Sprinter seats up to thirteen.",
+          "If you're bringing young children, infant, convertible and booster seats are available on request; tell us each child's age and weight when you book. Mention strollers, coolers and overnight bags too, so we send a vehicle with enough room.",
+        ],
+      },
+      {
+        heading: "Visiting With Older Relatives",
+        paragraphs: [
+          "St. Michaels is a walking town, and that's part of its charm, but older brick sidewalks, curbs and crowds on festival weekend can be tiring for grandparents or anyone who uses a cane or walker. A drop-off close to where you want to spend time, rather than a long walk from an outlying lot, makes the day far more comfortable.",
+          "Plan a few places to sit and warm up, such as a café, a restaurant reservation or the museum, and agree on a pickup time that doesn't depend on staying until the very end of the evening. Tell us how older passengers get around when you book. Our vehicles are not wheelchair-accessible vans, so if someone uses a wheelchair or can't transfer into a car seat, mention it so we can discuss what will work.",
+        ],
+      },
+      {
+        heading: "The Drive Home After Dark",
+        paragraphs: [
+          "In December, it's dark by late afternoon, and the roads between St. Michaels and the Bay Bridge are rural, with few streetlights and deer that are active at dusk. After a day of walking in the cold and perhaps a glass of wine at dinner, that's the part of the trip many people would rather not drive. With a chauffeur, the adults can relax and the children can sleep on the way back across the Bay.",
+          "Weather can also turn quickly near the water. If wind or freezing rain is forecast, call us to talk through timing; the Bay Bridge can be slowed or restricted in high winds.",
+        ],
+      },
+      {
+        heading: "Booking Your Trip",
+        paragraphs: [
+          "Festival weekend falls in the middle of holiday party season, so book early, especially for SUVs and Sprinters. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup, and Sprinter, limousine and special-event bookings up to 12 hours before. Your quote includes the base transportation charge, with tolls, parking, gratuity and other applicable charges disclosed before you confirm.",
+          "Request a quote through our online booking form or call dispatch at (877) 609-1919 any time. Tell us whether you're going for the parade, a ticketed event or the whole weekend, and we'll suggest a departure time that leaves room for the bridge.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your St. Michaels Trip", to: "/booking" },
+      { label: "St. Michaels Limo Service", to: "/st-michaels-limo-service" },
+      { label: "Easton, MD Limo Service", to: "/limo-service-easton-md" },
+      { label: "Hourly Chauffeur Service", to: "/hourly-chauffeur" },
+      { label: "Car Seat Service", to: "/car-seat-service" },
+    ],
+    faqs: [
+      {
+        q: "When is Christmas in St. Michaels?",
+        a: "It has traditionally been held over a weekend in early-to-mid December. The organizers set the schedule each year, so check the official Christmas in St. Michaels website for dates, parade timing and ticketed events.",
+      },
+      {
+        q: "How long does it take to get to St. Michaels?",
+        a: "From Annapolis the drive is often around an hour, and from DC, Baltimore or the Montgomery County suburbs closer to two, depending on Bay Bridge traffic and weather.",
+      },
+      {
+        q: "Is there a toll on the way to St. Michaels?",
+        a: "Yes. The Chesapeake Bay Bridge toll is collected eastbound. On a chauffeured trip, tolls and parking are listed separately and disclosed before you confirm your booking.",
+      },
+      {
+        q: "Can the chauffeur wait while we're in town?",
+        a: "Yes, with an hourly booking the vehicle and chauffeur stay with your group. Hourly service has a minimum number of hours, which we'll confirm with your quote.",
+      },
+      {
+        q: "What vehicle works for a family group?",
+        a: "A Chevrolet Suburban or Lincoln Navigator seats five with luggage or six without. A Mercedes Sprinter seats up to thirteen for larger groups. Car seats are available on request.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 10 (2026-11-17)
+  {
+    slug: "wreaths-across-america-day-arlington-maryland-virginia-transportation",
+    title: "Wreaths Across America Day: Planning a Visit to Arlington and Local National Cemeteries",
+    metaTitle: "Wreaths Across America Day Transportation | 92 Limo Service",
+    metaDescription:
+      "Volunteering or paying respects on Wreaths Across America Day at Arlington or a national cemetery in Maryland or Virginia: timing, crowds and getting there.",
+    category: "Planning Guides",
+    date: "2026-11-17",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Each December, volunteers lay wreaths on veterans' graves at Arlington National Cemetery and at cemeteries across the country. Here's how to plan the day, from registration to getting home, whether you're volunteering or visiting a loved one.",
+    image: "/images/blog/landmark-capitol-2.webp",
+    intro: [
+      "On a Saturday in mid-December, the rows of white headstones at Arlington National Cemetery fill with people carrying evergreen wreaths. National Wreaths Across America Day is one of the most moving days of the year in the Washington region: volunteers place wreaths on veterans' graves, say each name aloud, and pause to remember the people who served. Similar ceremonies take place the same day at national and local cemeteries in Maryland and Virginia, and across the country.",
+      "It is also a day of large crowds, early starts and cold weather. Families come to honor relatives, scout troops and veterans' groups come to volunteer, and many people come for the first time. This guide covers how to plan the day, with practical notes on getting there and back.",
+    ],
+    sections: [
+      {
+        heading: "How Wreaths Across America Works",
+        paragraphs: [
+          "Wreaths Across America is a nonprofit that organizes the annual wreath-laying. Wreaths are sponsored in advance, delivered to participating cemeteries, and placed by volunteers on the national day. Many locations hold a short ceremony before the wreath-laying begins, and some invite families of the fallen to place wreaths first.",
+          "Each participating cemetery runs its own event within that framework. Arlington, as the largest and best known, has its own procedures, and in recent years it has asked volunteers to register in advance and has set separate arrangements for families visiting specific graves. Those rules can change from year to year, so check the Wreaths Across America website and Arlington National Cemetery's official information before you plan the day.",
+        ],
+      },
+      {
+        heading: "Arlington, Maryland and Virginia Locations",
+        paragraphs: [
+          "Arlington draws the biggest crowds, but it isn't the only option in the region. Several national cemeteries in Maryland and Virginia, including Baltimore National Cemetery, Annapolis National Cemetery and Quantico National Cemetery, have taken part, along with many local and state veterans' cemeteries. A smaller location can be a quieter, more personal experience, and it's often the right choice if a family member is buried there.",
+          "Participating locations and their schedules are listed on the Wreaths Across America website. Look up the specific cemetery you plan to visit for its start time, check-in point and any registration requirements.",
+        ],
+      },
+      {
+        heading: "Planning for the Crowds at Arlington",
+        paragraphs: [
+          "The day starts early. Volunteers often arrive well before the opening ceremony, and the Arlington Cemetery Metro station on the Blue Line, the cemetery's parking garage and the surrounding roads can be crowded throughout the morning. Visitors who leave it late can find the garage full and the walk from the nearest alternative long.",
+        ],
+        list: [
+          "Register in advance if Arlington requires it, and bring the confirmation and ID.",
+          "Plan to arrive early, especially if you want to attend the opening ceremony.",
+          "Expect security screening at the entrance and allow time for it.",
+          "Agree on a meeting point with your group, since phone service can be slow in large crowds.",
+          "Know the section and grave number if you're visiting a specific person; the cemetery's tools can help you find it before the day.",
+        ],
+      },
+      {
+        heading: "Getting There Without the Parking Search",
+        paragraphs: [
+          "A drop-off at the cemetery entrance avoids the garage entirely. Your chauffeur drops your group as close to the visitor entrance as traffic and security allow and either waits nearby or returns at the time you set. On a cold December morning, having a warm vehicle waiting is a comfort, especially for older relatives and young children.",
+          "For groups, one larger vehicle keeps everyone together. A Chevrolet Suburban or Lincoln Navigator seats five with luggage or six without, and a Mercedes Sprinter seats up to thirteen, a common choice for scout troops, veterans' organizations, church groups and extended families.",
+          "Because we serve Maryland, DC and Northern Virginia, a single reservation can start in Bowie or Columbia and end at Arlington, or take a family from a hotel near the airport to the cemetery and back.",
+        ],
+      },
+      {
+        heading: "Visiting With Older Relatives and Veterans",
+        paragraphs: [
+          "Many families who come on Wreaths Across America Day include older veterans or widows and widowers visiting a spouse's grave. Arlington is large and hilly, and the walk from the entrance to a grave site can be long.",
+        ],
+        list: [
+          "Check Arlington's official information on accessibility and any visitor transportation available on the day.",
+          "Tell us how the passenger gets around: a cane, a walker or a folding wheelchair in the trunk. Our vehicles are not wheelchair-accessible vans, so mention any mobility needs when you book so we can discuss what will work.",
+          "Plan a shorter visit if needed. Placing one wreath and spending time at one grave is a complete and meaningful visit.",
+          "Bring warm layers, gloves and a blanket for the ride home.",
+        ],
+      },
+      {
+        heading: "What to Bring and Wear",
+        paragraphs: [
+          "Wreaths Across America Day is outdoors and usually cold. Dress in layers, wear comfortable waterproof shoes for walking on grass and uneven ground, and bring gloves, since you'll be handling evergreen wreaths. Keep bags small, as security screening is easier with less, and check Arlington's rules on prohibited items before you go.",
+          "Bring water and a snack, especially for children, and a charged phone. A small backpack with a thermos, tissues and hand warmers is useful on a cold morning, and the chauffeur can hold anything you don't want to carry while you're inside. If you're visiting a specific grave, write down the section and grave number in case phone service is slow.",
+        ],
+      },
+      {
+        heading: "Etiquette at the Graves",
+        paragraphs: [
+          "The day has a simple ritual: volunteers place a wreath, say the veteran's name aloud and pause for a moment of reflection. Move quietly and respectfully, follow the instructions of staff and volunteer coordinators, and keep children close. If a family is at a grave, give them space. Photos are common, but be mindful of mourners around you.",
+        ],
+      },
+      {
+        heading: "After the Wreath-Laying",
+        paragraphs: [
+          "Many visitors stay at Arlington after the wreaths are placed. The changing of the guard at the Tomb of the Unknown Soldier takes place throughout the day, and the cemetery's Welcome Center has exhibits and information about locating graves. Check the cemetery's official hours for that day, since special events can change normal visitor arrangements.",
+          "With an hourly booking, the vehicle can wait while you finish your visit and then take your group on to lunch in Arlington, Pentagon City or Old Town Alexandria, or back to the airport if relatives have flown in for the day. Hourly service has a minimum number of hours, which we'll confirm with your quote.",
+        ],
+      },
+      {
+        heading: "Coming Back in January",
+        paragraphs: [
+          "The wreaths stay on the graves through the holiday season. In January, volunteers return to remove and dispose of them, and at Arlington this has been organized as a separate volunteer day with its own registration. If your family, troop or organization wants to take part, watch for the announcement from Arlington National Cemetery and Wreaths Across America. January weather can be colder and icier than December, so plan transportation and clothing accordingly.",
+        ],
+      },
+      {
+        heading: "Booking Your Ride",
+        paragraphs: [
+          "Mid-December Saturdays are busy, with holiday parties, airport runs and events all happening at once, so book as soon as your plans are set. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before. Your quote includes the base transportation charge, with tolls, parking, gratuity and other applicable charges disclosed before you confirm.",
+          "Request a quote through our online booking form or call dispatch at (877) 609-1919 at any hour. Tell us which cemetery you're visiting, the time you'd like to arrive and how many people are in your group.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "Arlington, VA Limo Service", to: "/arlington-va-limo-service" },
+      { label: "Senior Car Service in Maryland", to: "/senior-car-service-maryland" },
+      { label: "Military Homecoming Airport Pickup Guide", to: "/blog/military-homecoming-deployment-airport-pickup-guide" },
+      { label: "Policies & Service Terms", to: "/policies" },
+    ],
+    faqs: [
+      {
+        q: "When is Wreaths Across America Day?",
+        a: "National Wreaths Across America Day is held on a Saturday in mid-December. Check the Wreaths Across America website for this year's date and for each participating cemetery's schedule.",
+      },
+      {
+        q: "Do I need to register to volunteer at Arlington?",
+        a: "In recent years Arlington National Cemetery has asked volunteers to register in advance and has set separate arrangements for families visiting specific graves. Check Arlington's official information and the Wreaths Across America website for this year's rules.",
+      },
+      {
+        q: "Are there Wreaths Across America events in Maryland and Virginia besides Arlington?",
+        a: "Yes. National cemeteries such as Baltimore, Annapolis and Quantico have taken part, along with many local and state veterans' cemeteries. The Wreaths Across America website lists participating locations.",
+      },
+      {
+        q: "Can a chauffeur drop us at the cemetery entrance?",
+        a: "Yes. Your chauffeur drops your group as close to the entrance as traffic and security allow and waits nearby or returns at a set time, which avoids the crowded parking garage.",
+      },
+      {
+        q: "What vehicle works for a scout troop or veterans' group?",
+        a: "A Mercedes Sprinter seats up to thirteen passengers, which suits scout troops, veterans' organizations and church groups. A Suburban or Navigator seats up to six without luggage.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 11 (2026-11-18)
+  {
+    slug: "ocean-city-winterfest-of-lights-holiday-trip-from-maryland-dc",
+    title: "Ocean City's Winterfest of Lights: A Holiday Trip to the Beach in December",
+    metaTitle: "Ocean City Winterfest of Lights Trip | 92 Limo Service",
+    metaDescription:
+      "Planning a trip to Ocean City's Winterfest of Lights from Maryland, DC or Virginia: the long drive, timing after dark, groups, car seats and staying over.",
+    category: "Day Trips",
+    date: "2026-11-18",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Ocean City is quiet in winter, except at Northside Park, where Winterfest of Lights draws families to the beach town for an evening of holiday displays. Here's how to plan a long trip that's mostly in the dark.",
+    image: "/images/blog/scenario-group-shuttle.webp",
+    intro: [
+      "Most people think of Ocean City as a summer town, and from Labor Day onward the boardwalk gets noticeably quieter. But for several weeks around the holidays, Ocean City hosts Winterfest of Lights, a holiday light display at Northside Park on the bay side of town, and families from across Maryland, DC and Virginia make the trip to see it.",
+      "Ocean City is a long way from most of the region, and Winterfest is an evening event, which means a long drive there and an even longer one home in the dark. This guide covers what to expect, how to plan the timing, and why many families prefer to let someone else drive.",
+    ],
+    sections: [
+      {
+        heading: "What Winterfest of Lights Is",
+        paragraphs: [
+          "Winterfest of Lights is run by the Town of Ocean City at Northside Park, near the northern end of town on the bay side. The event has traditionally featured displays of holiday lights viewed on a ride through the park, a heated pavilion with seasonal activities, and visits with Santa. It typically runs from mid-November through the end of December, on select nights.",
+          "Operating nights, hours, ticket options and any weather closures are set by the town each year. Check Ocean City's official Winterfest information before you go, especially before committing to a specific night for a large group.",
+        ],
+      },
+      {
+        heading: "How Far It Is",
+        paragraphs: [
+          "Ocean City sits at the far end of US-50 on the Atlantic coast. From Annapolis, the drive crosses the Bay Bridge and runs the length of the Eastern Shore, and it typically takes around two and a half to three hours in normal traffic. From Baltimore, DC and Northern Virginia, add more time, depending on traffic around the Beltway and the Bay Bridge.",
+          "In winter, traffic toward Ocean City is usually light compared with summer, but the Bay Bridge can still slow on weekends or close lanes for wind and maintenance. Check bridge conditions before you leave, and plan for the toll, which is collected eastbound only.",
+        ],
+      },
+      {
+        heading: "Timing the Day Around Dark",
+        paragraphs: [
+          "Winterfest is best seen after dark, and in December it gets dark early. A common plan is to leave in the late morning or early afternoon, have an early dinner in Ocean City or nearby, and visit Winterfest in the early evening. That puts the start of the return trip around mid-evening, with arrival home late at night.",
+        ],
+        list: [
+          "Leave early enough to arrive before dark if you'd like a walk on the beach or boardwalk first.",
+          "Have dinner before Winterfest, since restaurant options can be more limited in the off-season. Check which places are open that night.",
+          "Visit Winterfest early in the evening if you have young children who'll fall asleep on the way home.",
+          "Expect to arrive home late; from DC or Northern Virginia, it may be well after midnight.",
+        ],
+      },
+      {
+        heading: "Why Families Book a Driver for This Trip",
+        paragraphs: [
+          "A round trip of five or six hours, much of it in the dark on rural highways, is a lot to ask of the person who's also been on their feet all evening. US-50 across the Eastern Shore has long stretches with few streetlights and deer that are active at night. With a professional chauffeur, the adults can relax, the children can sleep, and nobody has to fight to stay alert on the way home.",
+          "It's also simpler for groups. Two or three families traveling together can share one vehicle instead of driving in a convoy across the Shore. A Chevrolet Suburban or Lincoln Navigator seats five with luggage or six without, and a Mercedes Sprinter seats up to thirteen.",
+        ],
+      },
+      {
+        heading: "Hourly or an Overnight Stay?",
+        paragraphs: [
+          "For a same-day trip, an hourly booking is the practical choice. The vehicle and chauffeur stay with your group throughout: the car waits during dinner and Winterfest, holds coats and bags, and is ready when you are. Hourly service has a minimum number of hours, which we'll confirm with your quote.",
+          "Because of the distance, many families turn the trip into an overnight stay. Ocean City has plenty of hotels open year-round, and off-season rates are often lower than in summer. With an overnight stay, two one-way transfers, one there and one home the next day, often make more sense than a long hourly booking.",
+        ],
+      },
+      {
+        heading: "Visiting With Young Children",
+        paragraphs: [
+          "Winterfest is designed for families, and young children are the main audience. A few practical tips help:",
+        ],
+        list: [
+          "Request infant, convertible or booster seats when you book, giving each child's age and weight. The chauffeur will have them installed before pickup.",
+          "Bring pajamas and a blanket for the ride home; children often fall asleep within minutes.",
+          "Pack snacks and drinks for the drive, so you don't need to stop at a service plaza late at night.",
+          "Plan a bathroom stop before leaving Ocean City for the return trip.",
+        ],
+      },
+      {
+        heading: "Planning a Group or Organization Trip",
+        paragraphs: [
+          "Winterfest is a popular outing for church groups, scout troops, senior centers and extended families. A single Mercedes Sprinter, which seats up to thirteen, keeps the group together and avoids a convoy of cars across the Shore. Choose one central departure point, such as a church or community center parking lot, collect a roster in advance, and name one organizer as the contact for the chauffeur.",
+          "For larger groups, ask about booking two vehicles that travel together. Agree on a meeting point at Northside Park and a departure time for the return trip, and make sure every adult in the group knows them.",
+        ],
+      },
+      {
+        heading: "If the Weather Turns",
+        paragraphs: [
+          "Coastal weather in December can be windy, wet and colder than inland Maryland. Rain or high wind can affect outdoor events, and the town may change Winterfest hours or close for the night in severe weather. Check the official Winterfest updates on the day before you set out, and keep an eye on Bay Bridge conditions, since high winds can slow or restrict traffic on the span.",
+          "If the forecast looks doubtful, call us early. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before, so a weather-related change of plans is easier with notice.",
+        ],
+      },
+      {
+        heading: "Beyond the Lights",
+        paragraphs: [
+          "Ocean City in winter has its own appeal. The beach and boardwalk are quiet, and a walk along the water on a crisp afternoon is a very different experience from summer. Some shops and restaurants stay open, though many keep reduced off-season hours, so check before you plan around a specific place. If you're staying overnight, a morning walk on the empty beach or a stop at one of the boardwalk businesses that stays open in winter makes a relaxed end to the trip before the drive home in daylight. On the way, towns such as Easton, Cambridge and Salisbury make convenient stops for lunch or a break.",
+        ],
+      },
+      {
+        heading: "Booking Your Trip",
+        paragraphs: [
+          "Weekend nights in December book quickly, especially for larger vehicles, and Winterfest falls in the middle of holiday party season. Reserve early. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before. Your quote includes the base transportation charge, with tolls, parking, gratuity and other applicable charges disclosed before you confirm.",
+          "Request a quote through our online booking form or call (877) 609-1919 any time. Tell us how many people are coming, whether you're staying overnight, and what time you'd like to be at Winterfest.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ocean City Trip", to: "/booking" },
+      { label: "Ocean City, MD Limo Service", to: "/ocean-city-md-limo-service" },
+      { label: "Holiday Lights Limo Tours in MD, DC & VA", to: "/holiday-lights-limo-tours-maryland-dc-virginia" },
+      { label: "Hourly Chauffeur Service", to: "/hourly-chauffeur" },
+      { label: "Car Seat Service", to: "/car-seat-service" },
+    ],
+    faqs: [
+      {
+        q: "When is Winterfest of Lights in Ocean City?",
+        a: "It typically runs from mid-November through the end of December on select nights at Northside Park. Check the Town of Ocean City's official Winterfest information for this year's dates, hours and tickets.",
+      },
+      {
+        q: "How long is the drive to Ocean City from Annapolis or DC?",
+        a: "From Annapolis, around two and a half to three hours in normal traffic. From DC, Baltimore and Northern Virginia, allow more, depending on Beltway and Bay Bridge traffic.",
+      },
+      {
+        q: "Can the chauffeur wait during dinner and Winterfest?",
+        a: "Yes, with an hourly booking. The vehicle and chauffeur stay with your group for the evening. Hourly service has a minimum, which we'll confirm with your quote.",
+      },
+      {
+        q: "Should we stay overnight in Ocean City?",
+        a: "Many families do, because of the distance and the late finish. With an overnight stay, two one-way transfers are often simpler than a long hourly booking.",
+      },
+      {
+        q: "Do you provide car seats for a long trip like this?",
+        a: "Yes. Infant, convertible and booster seats are available on request. Tell us each child's age and weight when you book and the seats will be installed before pickup.",
+      },
+    ],
+  },
 ];
