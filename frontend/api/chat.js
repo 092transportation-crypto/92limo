@@ -204,6 +204,12 @@ const findToolUse = (content) =>
 module.exports = async (req, res) => {
   applyCors(res);
   if (req.method === "OPTIONS") return res.status(204).end();
+  // GET is a status probe for the chat widget: it renders only when an
+  // Anthropic API key is configured, so visitors never see a dead chat.
+  if (req.method === "GET") {
+    res.setHeader("Cache-Control", "no-store");
+    return res.status(200).json({ enabled: Boolean((process.env.ANTHROPIC_API_KEY || "").trim()) });
+  }
   if (req.method !== "POST") return res.status(405).json({ detail: "Method not allowed" });
 
   const body = readBody(req);

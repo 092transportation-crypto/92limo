@@ -11,8 +11,7 @@ import Home from "@/pages/Home";
 import { LANDING_PAGE_SLUGS } from "@/lib/landingPageSlugs";
 import { GUIDE_SLUGS } from "@/lib/guideSlugs";
 import ChatWidget from "@/components/ChatWidget";
-import LeadPopup from "@/components/LeadPopup";
-import ExitIntentPopup from "@/components/ExitIntentPopup";
+import ChatGate from "@/components/ChatGate";
 
 // Route-level code splitting: every page below Home is fetched on demand
 // instead of being bundled into the single main.js every route used to ship
@@ -52,9 +51,9 @@ function RoutedChatWidget() {
   if (location.pathname === "/card") return null;
   return (
     <>
-      <ChatWidget />
-      <LeadPopup />
-      <ExitIntentPopup />
+      <ChatGate>
+        <ChatWidget />
+      </ChatGate>
     </>
   );
 }
