@@ -3052,4 +3052,400 @@ export const BLOG_POSTS_BATCH19 = [
       },
     ],
   },
+
+  // ---------------------------------------------------------- POST 32
+  {
+    slug: "mercedes-sprinter-limo-maryland-dc-virginia-guide",
+    title: "Mercedes Sprinter Limo: What It Is, Who It Fits and How to Book One in Maryland, DC and Virginia",
+    metaTitle: "Mercedes Sprinter Limo in MD, DC & VA | 92 Limo Service",
+    metaDescription:
+      "What a Mercedes Sprinter limo is, how many people fit, which occasions suit it and how to plan and book one for a group in Maryland, Washington DC and Virginia.",
+    category: "Planning Guides",
+    date: "2026-12-01",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "A Mercedes Sprinter limo keeps a group of up to thirteen together in one comfortable, chauffeured vehicle. Here's what it is, when it beats two SUVs, and how to plan the booking.",
+    image: "/images/blog/fleet-sprinter-2.webp",
+    intro: [
+      "A Mercedes Sprinter limo is one of the easiest ways to move a group in style. Instead of splitting friends, family or colleagues across two or three cars, everyone rides together in one chauffeured van with a finished, limousine-style interior, and arrives at the same door at the same time. For weddings, proms, birthdays, wine tours, concerts, holiday parties and group airport runs, it often turns out to be the simplest plan.",
+      "This guide explains what people usually mean by a Sprinter limo, how the version in our fleet is set up, how many people it seats, which occasions it suits best and how to plan a booking in Maryland, Washington DC and Northern Virginia. It also covers what to do when your group is bigger than one vehicle, and the questions worth asking before you reserve.",
+    ],
+    sections: [
+      {
+        heading: "What Is a Mercedes Sprinter Limo?",
+        paragraphs: [
+          "The Mercedes-Benz Sprinter is a large van that is widely used for passenger transportation. A Sprinter limo is a Sprinter whose passenger cabin has been finished for comfort rather than cargo: upgraded seating, lighting and trim, so the ride feels closer to a limousine than a shuttle. The term is used loosely across the industry, and two vehicles sold under the same name can look quite different inside, which is why it pays to ask what a specific company actually sends.",
+          "At 92 Limo Service, the vehicle that fits this description is our Sprinter Executive: a Mercedes Sprinter (or similar) with an upgraded interior, mood lighting and luxury amenities, seating up to thirteen passengers. It's the vehicle we recommend for weddings, proms, birthdays, nights out and corporate groups that want the ride to feel like part of the occasion. We also run a Sprinter Shuttle, a Mercedes Sprinter (or similar) set up for comfortable group transportation, which suits airport runs, team travel and event shuttles where the priority is moving people and luggage efficiently.",
+        ],
+      },
+      {
+        heading: "How Many People Fit in a Sprinter Limo?",
+        paragraphs: [
+          "Both of our Sprinters seat up to thirteen passengers, with room listed for thirteen bags and thirteen carry-ons. That makes the Sprinter the right call once a group outgrows an SUV. For comparison, our Chevrolet Suburban and Lincoln Navigator carry five passengers with luggage or six without, and our sedans carry three.",
+          "Thirteen is a firm limit, not a target. If your group is close to it, think about bulky items too: wedding dresses, garment bags, golf clubs, coolers for a tailgate or extra suitcases on an airport run. When in doubt, tell us the headcount and the luggage when you request a quote, and we'll confirm whether one vehicle is enough.",
+        ],
+      },
+      {
+        heading: "Sprinter Limo vs. Stretch Limo vs. Party Bus",
+        paragraphs: [
+          "People shopping for a Sprinter limo are often comparing it with a traditional stretch limousine or a party bus. A stretch limo has a long, low cabin with side-facing seating, which looks classic but can be awkward to climb into in formal wear. A party bus is a much larger vehicle built for big groups. A Sprinter sits between the two: taller and easier to step into than a stretch, and far more manageable on city streets, at hotel entrances and in winery lots than a bus.",
+          "We don't run stretch limousines or party buses in our own fleet, and we won't promise one. For most groups of up to thirteen, the Sprinter Executive covers the same occasions with less fuss. For larger groups, two or more Sprinters can travel together, which also gives you flexibility: one vehicle can head home early while the other stays out. For a longer comparison, see our guide to party buses, stretch limos and Sprinters.",
+        ],
+      },
+      {
+        heading: "Occasions Where a Sprinter Limo Makes Sense",
+        paragraphs: [
+          "The Sprinter shines whenever keeping the group together matters as much as arriving in comfort. These are the occasions we book it for most often:",
+        ],
+        list: [
+          "Weddings: the wedding party between the hotel, the ceremony, photos and the reception",
+          "Proms and homecoming: one supervised vehicle, one schedule parents can confirm in advance",
+          "Birthdays, bachelor and bachelorette nights: several stops without anyone driving",
+          "Wine and brewery tours in Frederick County, Northern Virginia or around Annapolis",
+          "Concerts and games at venues across Baltimore, DC and the suburbs",
+          "Corporate groups: client dinners, offsites, roadshows and holiday parties",
+          "Group airport runs to BWI, Reagan National and Dulles, with luggage for everyone",
+        ],
+      },
+      {
+        heading: "Booking a Sprinter Limo in December",
+        paragraphs: [
+          "The holiday season is one of the busiest stretches of the year for group transportation. Office holiday parties, holiday lights tours, family gatherings, theater nights and New Year's Eve plans all compete for the same evenings, and Friday and Saturday nights in December tend to fill first. If you already know the date, reserving the Sprinter early is the surest way to get it.",
+          "Winter also changes the plan slightly. Allow extra time on routes that can slow down in bad weather, choose pickup points with a clear, well-lit curb, and keep coats and bags in mind when you count space. A Sprinter limo is a comfortable place to wait out a cold evening between stops, which is one reason it's popular for lights tours and holiday bar crawls.",
+        ],
+      },
+      {
+        heading: "How to Plan the Route and Timing",
+        paragraphs: [
+          "A good Sprinter booking starts with a simple outline: where the group is picked up, every stop along the way, roughly how long you'll spend at each, and when you'd like to be dropped off. If people are coming from different homes, decide whether the group will gather at one address or whether you need several pickups, since each extra pickup adds time to the start of the evening.",
+          "Most group outings are booked by the hour, which keeps the vehicle and chauffeur with you for the whole event. Hourly service has a minimum number of hours, which we confirm with your quote. A single transfer, such as a group airport run or a ride from a hotel to a wedding venue, can be booked point to point instead.",
+          "Build in a little slack. Groups rarely leave a restaurant or venue at the exact minute planned, and non-airport pickups include 15 minutes of complimentary waiting time, with additional time billed in 15-minute increments. A realistic schedule makes for a calmer night and fewer surprises on the final bill.",
+        ],
+      },
+      {
+        heading: "Sprinter Limo Airport Transfers",
+        paragraphs: [
+          "A Sprinter isn't only for celebrations. It's often the most practical way to move a family reunion, a wedding party flying in or a corporate team between BWI Marshall, Reagan National or Dulles and a hotel. Everyone's luggage travels in one vehicle, and nobody waits at the curb for a second car.",
+          "For airport pickups, we track the flight and time the pickup to the actual landing. Domestic arrivals include 45 minutes of complimentary waiting time and international arrivals 60 minutes, timed from touchdown, which gives a group time to collect bags and regroup. Meet-and-greet service at the airport can be added so your chauffeur meets the group inside.",
+        ],
+      },
+      {
+        heading: "Questions to Ask Before You Book",
+        paragraphs: [
+          "Whichever company you choose, a few questions will tell you what you're actually getting:",
+        ],
+        list: [
+          "Which exact vehicle type will arrive, and how many passengers does it seat?",
+          "Is the quote hourly or point to point, and what is the hourly minimum?",
+          "What does the quote include, and how are tolls, parking and gratuity handled?",
+          "How much waiting time is included, and how is extra time billed?",
+          "What is the cancellation window for this vehicle?",
+          "Are there rules on food, drinks and decorations inside the vehicle?",
+        ],
+      },
+      {
+        heading: "Policies Worth Knowing",
+        paragraphs: [
+          "Sprinter reservations can be cancelled at no charge up to 12 hours before the scheduled pickup; sedan and SUV reservations, up to 3 hours before. Special-event bookings, including weddings, follow the 12-hour window too. Alcohol is permitted only where lawful and only for passengers of legal drinking age, and illegal substances are strictly prohibited. If you plan to bring decorations, a cake or anything that needs care in transit, mention it when you book.",
+          "Your quote covers the base transportation charge, with tolls, parking, gratuity and any other applicable charges disclosed before you confirm. Nothing is charged until you've seen and accepted the quote.",
+        ],
+      },
+      {
+        heading: "Reserving Your Sprinter",
+        paragraphs: [
+          "To book a Mercedes Sprinter limo, send us the date, the pickup address, your stops, the number of passengers and an idea of how long you'll need the vehicle. We'll confirm the right vehicle, or the right number of vehicles, along with the quote. You can request a quote through our online booking form or call (877) 609-1919, and you can see the full lineup on our fleet page.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book a Sprinter Limo", to: "/booking" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "Sprinter Van Rental in Maryland", to: "/sprinter-van-rental-maryland" },
+      { label: "Party Bus vs. Stretch Limo vs. Sprinter", to: "/blog/party-bus-vs-stretch-limo-vs-sprinter" },
+      { label: "How Many Passengers Fit in a Limo, SUV or Sprinter?", to: "/blog/how-many-passengers-fit-limo-suv-sprinter-capacity-guide" },
+    ],
+    faqs: [
+      {
+        q: "What is a Mercedes Sprinter limo?",
+        a: "A Mercedes Sprinter van with a passenger cabin finished for comfort, with upgraded seating and lighting. Our version is the Sprinter Executive, which seats up to thirteen passengers.",
+      },
+      {
+        q: "How many people fit in your Sprinter limo?",
+        a: "Up to thirteen passengers. For larger groups, two or more Sprinters can travel together.",
+      },
+      {
+        q: "Do you also have stretch limousines or party buses?",
+        a: "No. Our fleet runs sedans, SUVs and Mercedes Sprinters, and for groups the Sprinter Executive is the vehicle we recommend.",
+      },
+      {
+        q: "Can I book a Sprinter limo for an airport transfer?",
+        a: "Yes. We serve BWI, Reagan National and Dulles with flight tracking, 45 minutes of waiting time on domestic arrivals and 60 on international.",
+      },
+      {
+        q: "How far ahead can I cancel a Sprinter booking?",
+        a: "Sprinter reservations can be cancelled at no charge up to 12 hours before the scheduled pickup.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 33
+  {
+    slug: "christmas-village-baltimore-inner-harbor-holiday-visit-guide",
+    title: "Christmas Village in Baltimore: A Chauffeured Holiday Evening at the Inner Harbor",
+    metaTitle: "Christmas Village in Baltimore Visit Guide | 92 Limo Service",
+    metaDescription:
+      "Plan a visit to Christmas Village in Baltimore at the Inner Harbor: when to go, where to get dropped off, what to pair it with and how to get your group home.",
+    category: "Local Guides",
+    date: "2026-12-02",
+    scheduled: true,
+    readTime: "7 min read",
+    excerpt:
+      "Baltimore's German-style holiday market brings heated tents, handmade gifts and seasonal food to the Inner Harbor. Here's how to plan the evening, from drop-off to the ride home.",
+    image: "/images/blog/landmark-baltimore-2.webp",
+    intro: [
+      "Christmas Village in Baltimore has become one of the city's favorite holiday traditions. Modeled on the traditional Christmas markets of Germany, it fills West Shore Park at the Inner Harbor with vendor stalls, heated tents, seasonal food and drink, and plenty of lights, all with the harbor as a backdrop. For families, couples and groups of friends from across Maryland, DC and Northern Virginia, it makes an easy and festive evening out.",
+      "This guide covers the practical side of a visit: when to go, what to expect, how to handle drop-off and pickup around the Inner Harbor, what to pair the market with, and how to choose a vehicle for your group. Dates, hours, admission and vendor lineups change from year to year, so check the market's official website before you set a date.",
+    ],
+    sections: [
+      {
+        heading: "What to Expect at Christmas Village in Baltimore",
+        paragraphs: [
+          "The market is built around the traditions of a German Weihnachtsmarkt. Expect rows of wooden stalls and tents selling ornaments, handcrafted gifts, decorations and specialty foods, with warm drinks and hearty seasonal food to keep you going in the cold. Much of the market is under cover, but you'll still be outdoors on the waterfront for part of the visit, so dress for a December evening by the water.",
+          "The market typically opens around Thanksgiving and runs into late December, with the busiest days on weekends and in the run-up to Christmas. Some years have included admission charges on certain days, and opening hours vary between weekdays and weekends, so confirm the current details with the organizers before you go rather than relying on last year's schedule.",
+        ],
+      },
+      {
+        heading: "When to Go",
+        paragraphs: [
+          "Weekday evenings are usually the calmest time to visit, with shorter lines at the food stalls and more room to browse. Weekend afternoons and evenings draw the biggest crowds, especially in the two weeks before Christmas, when the market competes with holiday shopping, office parties and events across downtown.",
+          "If you want the lights and the atmosphere, plan to arrive around dusk, which comes early in December. If you're bringing young children, an earlier visit on a weekday often works better than a crowded Saturday night. And if a home game, a concert or a big convention is in town the same evening, expect heavier traffic around the harbor and build in extra time.",
+        ],
+      },
+      {
+        heading: "Getting There and Getting Dropped Off",
+        paragraphs: [
+          "West Shore Park sits on the western edge of the Inner Harbor, close to Light Street and Pratt Street, two of downtown Baltimore's busiest roads. That location is part of the market's charm, but it also means traffic, limited curb space and parking garages that fill on busy evenings. Rideshare pickups can be slow when crowds leave at the same time, and nobody wants to stand on a cold corner waiting for a car.",
+          "With a chauffeured car, the plan is simpler. Before the evening, agree on a drop-off and pickup point near the market, such as a nearby hotel entrance or a safe, legal curb, and your chauffeur will be there when the group is ready. If plans change, text your chauffeur and they'll adjust the pickup. For visitors staying at Inner Harbor hotels, the market is within walking distance, and the car is mainly for getting there from home or the airport and back again.",
+        ],
+      },
+      {
+        heading: "Making an Evening of It",
+        paragraphs: [
+          "Christmas Village pairs naturally with the rest of downtown Baltimore. A chauffeured evening lets you add a second or third stop without worrying about moving the car or finding a new parking space. A few ideas:",
+        ],
+        list: [
+          "Dinner in Harbor East, Fells Point or Federal Hill before or after the market",
+          "A walk along the Inner Harbor promenade to see the harbor lights",
+          "The holiday lights in Mount Vernon around the Washington Monument",
+          "The famous holiday light displays on 34th Street in Hampden",
+          "A drink at a hotel bar overlooking the harbor before the ride home",
+        ],
+      },
+      {
+        heading: "A Sample Holiday Evening",
+        paragraphs: [
+          "Here's one way to plan a few hours downtown. Adjust the order to fit the market's hours, your dinner reservation and the ages in your group:",
+          "Pick up at home in the late afternoon and head into the city as the light fades. Spend an hour or two browsing the market, shopping for gifts and sampling the food and drink. Meet the car at the agreed pickup point and head to dinner nearby, then finish with a short drive through Hampden or Mount Vernon to see the lights before the ride home. For a family with small children, a shorter version, market then home, works just as well.",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle for Your Group",
+        paragraphs: [
+          "For a couple, a Mercedes E-Class sedan or a BMW 7 Series is plenty, and the trunk handles the gift bags. For a family or two couples, a Chevrolet Suburban or Lincoln Navigator carries five with bags or six without. A Lincoln Nautilus suits a smaller family with extra packages.",
+          "For a bigger group, such as a team outing, a family reunion or a group of friends making a holiday tradition of it, a Mercedes Sprinter seats up to thirteen, and two or more Sprinters can travel together. Child car seats can be arranged in advance; mention the ages and number of children when you book.",
+        ],
+      },
+      {
+        heading: "Bringing Older Relatives and Young Children",
+        paragraphs: [
+          "Christmas Village in Baltimore is a multigenerational outing for many families, and a little planning helps everyone enjoy it. For grandparents or anyone who finds long walks or cold weather difficult, the biggest help is a short distance between the car and the market. Choose a drop-off point as close as is safely possible, plan a shorter visit with a warm break in the middle, and arrange the pickup at the same spot so nobody has to walk back across downtown at the end of the night.",
+          "For young children, an earlier visit is usually easier, with fewer crowds and a ride home before bedtime. Bring a stroller if your children still use one, and tell us when you book so we can make sure there is room for it along with any car seats. Keeping a change of gloves and a few snacks in the car is a simple way to rescue a cold evening.",
+        ],
+      },
+      {
+        heading: "Visitors Flying Into BWI",
+        paragraphs: [
+          "If relatives are flying in for the holidays, the market can be part of their first evening. BWI Marshall is only about 15 to 20 minutes from the Inner Harbor outside rush hour, and we can meet them at the airport, take them to their hotel or straight downtown, and bring the whole group home at the end of the night.",
+          "We track every flight and time the pickup to the actual landing, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals, timed from touchdown. That takes the stress out of a holiday arrival, when delays are common and the airport is busy.",
+        ],
+      },
+      {
+        heading: "Tips for a Smooth Visit",
+        paragraphs: [
+          "A little planning goes a long way on a busy December night downtown:",
+        ],
+        list: [
+          "Check the market's official site for the current dates, hours and admission before you go",
+          "Dress warmly in layers and wear comfortable shoes for the waterfront",
+          "Bring a bag for purchases, and leave larger gifts in the car between stops",
+          "Agree on a meeting point in case anyone in the group gets separated",
+          "Tell your chauffeur roughly when you'd like to leave, and text if that changes",
+        ],
+      },
+      {
+        heading: "Booking Your Ride",
+        paragraphs: [
+          "Most holiday evenings are booked by the hour, which keeps the car and chauffeur with you for every stop. Hourly service has a minimum number of hours, which we confirm with your quote, and a simple round trip can be quoted point to point instead. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup, and Sprinter reservations up to 12 hours before. Weekend evenings in December book up early, so reserve as soon as you know your date.",
+          "Your quote covers the base transportation charge, with tolls, parking, gratuity and any other applicable charges disclosed before you confirm. Request a quote through our online booking form or call (877) 609-1919.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Holiday Evening", to: "/booking" },
+      { label: "Baltimore Limo Service", to: "/baltimore-limo-service" },
+      { label: "Limo Service Near the Baltimore Inner Harbor", to: "/limo-service-near-baltimore-inner-harbor" },
+      { label: "Baltimore Inner Harbor Visitors Guide", to: "/blog/baltimore-inner-harbor-visitors-guide" },
+      { label: "Touring Maryland's Holiday Lights by Chauffeur", to: "/blog/maryland-holiday-lights-touring-chauffeur" },
+    ],
+    faqs: [
+      {
+        q: "Where is Christmas Village in Baltimore?",
+        a: "At West Shore Park on the Inner Harbor, near Light Street and Pratt Street in downtown Baltimore.",
+      },
+      {
+        q: "When is Christmas Village in Baltimore open?",
+        a: "It typically opens around Thanksgiving and runs into late December. Dates, hours and admission vary by year, so check the official website before you go.",
+      },
+      {
+        q: "Where will my chauffeur drop us off?",
+        a: "At a pickup point you agree on in advance near the market, such as a nearby hotel entrance or a safe, legal curb. Text your chauffeur if plans change.",
+      },
+      {
+        q: "Can you take a large group to the market?",
+        a: "Yes. A Mercedes Sprinter seats up to thirteen passengers, and two or more Sprinters can travel together for bigger groups.",
+      },
+      {
+        q: "Can you pick up visitors from BWI and take them to the market?",
+        a: "Yes. We track the flight, include 45 minutes of waiting time on domestic arrivals and 60 on international, and can take guests straight downtown.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 34
+  {
+    slug: "christmas-week-airport-travel-bwi-dca-iad-car-service-guide",
+    title: "Christmas Week Airport Travel: Getting to and From BWI, Reagan National and Dulles Between the Holidays",
+    metaTitle: "Christmas Week Airport Travel: BWI, DCA & IAD | 92 Limo",
+    metaDescription:
+      "Christmas week airport travel at BWI, DCA and Dulles: the busy days in 2026, timing, winter weather, family arrivals and planning rides to and from your flight.",
+    category: "Travel Tips",
+    date: "2026-12-03",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Between Christmas and New Year's, the DMV's three airports juggle holiday crowds, winter weather and a lot of luggage. Here's how to plan the rides on both ends of the trip.",
+    image: "/images/blog/scenario-airport-pickup-2.webp",
+    intro: [
+      "Christmas week airport travel has its own rhythm. Unlike Thanksgiving, when most people fly on the same two or three days, the travel period around Christmas and New Year's is spread over two weeks, with peaks that shift depending on where the holidays fall in the week. Add winter weather, wrapped gifts in checked bags, relatives arriving from across the country and students coming home from college, and the trips to and from BWI, Reagan National and Dulles need more planning than usual.",
+      "This guide covers what to expect at the DMV's three airports during the holiday stretch in 2026, how to time departures and pickups, what to do when weather disrupts a flight, and how to arrange rides for family members flying in. Airline and airport conditions change from day to day, so check with your airline and the airport before you leave home.",
+    ],
+    sections: [
+      {
+        heading: "How the 2026 Holiday Calendar Shapes Travel",
+        paragraphs: [
+          "In 2026, Christmas Eve falls on a Thursday and Christmas Day on a Friday, and New Year's Eve and New Year's Day follow on the same days a week later. That creates two long weekends in a row, and many people will take the days in between off as well. Expect outbound traffic to build through the weekend of December 19 and 20 and into the early part of Christmas week, with the busiest departure days usually in the days just before Christmas Eve.",
+          "Return travel tends to spread out over the days after Christmas and the weekend after New Year's Day, when families and students head home before work and school resume. The Sunday after New Year's, January 3, 2027, is likely to be one of the heaviest return days. None of these patterns are guaranteed, but they're a sensible guide when you book your flights and your rides.",
+        ],
+      },
+      {
+        heading: "Planning Christmas Week Airport Travel From Home",
+        paragraphs: [
+          "During the holidays, the airport itself is only part of the trip. Roads to BWI, Reagan National and Dulles carry holiday shopping traffic, people heading to family gatherings, and weather-related slowdowns on top of the usual commute, and on some days the busiest time on the road is the middle of the day rather than rush hour.",
+          "A safe rule is to plan for longer lines than you would on a normal week, and to aim to arrive earlier than you usually would, especially if you are checking bags or flying internationally. Follow your airline's guidance on arrival times for your specific flight. When you book a ride, tell us your flight time and whether you're checking bags, and we'll suggest a pickup time with a realistic buffer built in for the roads that day.",
+        ],
+      },
+      {
+        heading: "Each Airport During the Holidays",
+        paragraphs: [
+          "BWI Marshall serves much of Maryland and is especially busy with domestic leisure travel during the holidays. Its departures and arrivals curbs can back up at peak times, and garages and lots can fill on the busiest days, which is one reason many travelers avoid driving and parking for a week or more.",
+          "Reagan National, just across the Potomac from DC, is compact and close to the city, but its roadways and curbs are tight and get congested quickly. Dulles handles most of the region's international flights, so holiday arrivals from overseas can mean long waits at customs and immigration, especially when several large flights land close together. Wherever you're flying, a chauffeur who knows the airport's pickup procedures saves time at both ends.",
+        ],
+      },
+      {
+        heading: "Winter Weather and Delayed Flights",
+        paragraphs: [
+          "December weather can disrupt flights here and across the country. A snowstorm in the Midwest or Northeast can delay or cancel flights into the DMV even on a clear day at home, and connecting itineraries are especially exposed during the holidays, when flights are full and rebooking options are limited.",
+          "For airport pickups, we track your flight and time the pickup to the actual landing, not the scheduled time, so a delay doesn't leave you without a ride. Domestic arrivals include 45 minutes of complimentary waiting time and international arrivals 60 minutes, timed from touchdown. If your flight is cancelled or rebooked for the next day, let us know and we'll move the pickup. For departures in bad weather, we leave extra time for slower roads. Our winter weather and flight delay playbook covers this in more detail.",
+        ],
+      },
+      {
+        heading: "Picking Up Family Flying In for the Holidays",
+        paragraphs: [
+          "Many of our December bookings are for someone else: parents flying in from another state, grandparents who don't want to deal with the airport, or a sibling arriving late at night. Booking a ride for a relative is easy. Give us their name, phone number and flight details, and we'll handle the pickup and keep you updated.",
+          "For older travelers or first-time visitors, meet-and-greet service means the chauffeur meets them inside the terminal, helps with bags and walks them to the car, instead of leaving them to find their own way through a crowded curb. If the visitors are traveling with small children, child car seats can be arranged in advance; tell us the number and ages of the children when you book.",
+        ],
+      },
+      {
+        heading: "College Students Coming Home",
+        paragraphs: [
+          "December brings a wave of students flying home for winter break, often on late flights or tight budgets. A pre-arranged ride means a student landing at night doesn't have to wait for a rideshare or rely on a family member making a late drive to the airport. If you're arranging the ride for a student, you can book and pay for it yourself, and we'll communicate with both of you about the pickup.",
+        ],
+      },
+      {
+        heading: "Choosing the Right Vehicle for Holiday Luggage",
+        paragraphs: [
+          "Holiday trips usually mean more luggage than normal: extra suitcases, gifts, ski bags and sometimes a stroller or car seat. Match the vehicle to the bags, not just the passengers. Our sedans carry three passengers with two bags; the Lincoln Nautilus carries three passengers with up to four bags; the Chevrolet Suburban and Lincoln Navigator carry five passengers with five bags, or six passengers without luggage.",
+          "For a large family or a group traveling together, a Mercedes Sprinter seats up to thirteen passengers with room listed for thirteen bags and thirteen carry-ons, so everyone and everything arrives in one vehicle. If you're not sure, tell us the number of travelers and bags when you book and we'll recommend the right fit.",
+        ],
+      },
+      {
+        heading: "A Christmas Week Travel Checklist",
+        paragraphs: [
+          "A few steps make the holiday trip easier on both ends:",
+        ],
+        list: [
+          "Book your airport rides when you book your flights, both outbound and return",
+          "Send us your flight numbers so we can track arrivals and adjust for delays",
+          "Plan for longer lines than a normal week and follow your airline's arrival guidance",
+          "Check your airline's app on the morning of travel for delays and gate changes",
+          "Tell us about extra bags, ski equipment or car seats before the trip",
+          "Keep your chauffeur's contact details handy in case your plans change",
+        ],
+      },
+      {
+        heading: "New Year's Week Returns",
+        paragraphs: [
+          "The second half of the holiday period is mostly about getting home. If you're flying back after New Year's, book the return pickup before you leave, since availability on the busiest return days can be tight. If you're flying out on New Year's Eve or New Year's Day, remember that the evening of December 31 brings heavy celebration traffic in downtown Baltimore, DC and Annapolis, and plan your ride to the airport accordingly.",
+        ],
+      },
+      {
+        heading: "Booking Your Holiday Airport Rides",
+        paragraphs: [
+          "Airport transfers to and from BWI, Reagan National and Dulles are quoted as a flat rate for the trip, so holiday demand doesn't change the price you've confirmed. Your quote covers the base transportation charge, with tolls, parking, gratuity and any other applicable charges disclosed before you confirm. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup, and Sprinter reservations up to 12 hours before.",
+          "Request a quote through our online booking form or call (877) 609-1919. For more on each airport, see our BWI, Reagan National and Dulles car service pages.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Holiday Airport Ride", to: "/booking" },
+      { label: "Airport Transportation", to: "/airport-transportation" },
+      { label: "BWI Airport Car Service", to: "/bwi-airport-car-service" },
+      { label: "Reagan National (DCA) Car Service", to: "/dca-airport-car-service" },
+      { label: "Dulles (IAD) Car Service", to: "/iad-airport-car-service" },
+      { label: "Winter Weather & Flight Delay Playbook", to: "/blog/winter-weather-flight-delay-playbook-maryland" },
+    ],
+    faqs: [
+      {
+        q: "What are the busiest days for Christmas week airport travel in 2026?",
+        a: "Departures usually peak in the days just before Christmas Eve (Thursday, December 24), and returns after Christmas and on the weekend after New Year's Day, especially Sunday, January 3, 2027.",
+      },
+      {
+        q: "What happens if my holiday flight is delayed?",
+        a: "We track your flight and time the pickup to the actual landing, with 45 minutes of waiting time on domestic arrivals and 60 on international, timed from touchdown.",
+      },
+      {
+        q: "Can I book an airport pickup for a relative?",
+        a: "Yes. Give us their name, phone number and flight details. Meet-and-greet service can be added so the chauffeur meets them inside the terminal.",
+      },
+      {
+        q: "Which vehicle fits a family with holiday luggage?",
+        a: "A Chevrolet Suburban or Lincoln Navigator carries five passengers with five bags. For larger families, a Mercedes Sprinter seats up to thirteen.",
+      },
+      {
+        q: "Does holiday demand change my airport fare?",
+        a: "No. Airport transfers are quoted as a flat rate, and the price you confirm is the price you pay, with tolls, parking and gratuity disclosed up front.",
+      },
+    ],
+  },
 ];
