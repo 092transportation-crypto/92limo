@@ -3828,4 +3828,387 @@ export const BLOG_POSTS_BATCH19 = [
       },
     ],
   },
+
+  // ---------------------------------------------------------- POST 38
+  // Added 2026-11-12 (round 2): three more scheduled December posts (Dec 7-9),
+  // one per day after this batch's last post on Dec 6. Topics checked against
+  // every post, guide, landing page and sitemap URL on the site. Event dates,
+  // hours and tickets are sent to the organizers' sites.
+  {
+    slug: "us-botanic-garden-holiday-exhibit-capitol-hill-visit-guide",
+    title: "Seeing the US Botanic Garden Holiday Exhibit: Trains, Plant-Made Landmarks and an Easy Capitol Hill Outing",
+    metaTitle: "US Botanic Garden Holiday Exhibit Visit Guide | 92 Limo",
+    metaDescription:
+      "Planning a visit to the US Botanic Garden holiday exhibit: when to go, what to see, curbside drop-off near the Capitol and nearby holiday stops on the Mall.",
+    category: "Local Guides",
+    date: "2026-12-07",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Every December the US Botanic Garden Conservatory fills with model trains, poinsettias and miniature Washington landmarks built from plant materials. Here's how to plan the visit and the ride.",
+    image: "/images/blog/landmark-capitol-1.webp",
+    intro: [
+      "Few holiday outings in Washington are as easy to love as the US Botanic Garden holiday exhibit. Each winter, the Conservatory at the foot of the US Capitol is decorated for the season, usually with model trains winding through the plants, rows of poinsettias and other seasonal flowers, and miniature versions of famous Washington buildings made entirely from natural materials such as bark, seeds, leaves, moss and acorns. In recent years the show has run under the name Season's Greenings, with a new theme each year.",
+      "The exhibit typically opens around Thanksgiving and runs into early January, and admission to the Botanic Garden has traditionally been free. Hours, any timed-entry passes and special evening openings change from year to year, so check the US Botanic Garden's official website before you go. This guide covers the practical side of the visit: when to go, what else is nearby, how drop-off and pickup work on Capitol Hill, and how to choose a vehicle for your group.",
+    ],
+    sections: [
+      {
+        heading: "What to Expect Inside the Conservatory",
+        paragraphs: [
+          "The US Botanic Garden is one of the oldest botanic gardens in the country, and its glass Conservatory sits on the National Mall right beside the Capitol grounds. Inside, the building is divided into themed rooms and garden areas, from a tropical jungle under a tall glass dome to desert plants, orchids and medicinal plants. During the holidays, the seasonal displays are woven through these spaces, so you see the decorations and the permanent collection at the same time.",
+          "The plant-made landmarks are the highlight for most visitors. Over the years they have included models of the Capitol, the Washington Monument, the Lincoln Memorial and many other buildings, each assembled by hand from dried plant parts. Children usually head straight for the trains, which have traditionally run through a garden display on tracks at eye level for younger visitors. Allow at least an hour to see the exhibit without rushing, and longer if you want to explore the rest of the Conservatory.",
+        ],
+      },
+      {
+        heading: "When to Visit the US Botanic Garden Holiday Exhibit",
+        paragraphs: [
+          "Weekday mornings are usually the calmest time to visit. School groups and office visitors arrive later in the day, and weekends get busier the closer you get to Christmas. The week between Christmas and New Year's is popular with families, because school is out and relatives are in town, so expect lines at the entrance and crowded rooms in the afternoon.",
+          "In some years the Botanic Garden has offered extended evening hours on selected nights, when the Conservatory and the outdoor garden are lit for the season. These nights can be lovely but busy. If you'd like to go in the evening, check the official calendar early and plan your transportation around the published closing time, since the Capitol Hill area empties out quickly after dark and finding a ride can take longer than you expect.",
+          "Federal holiday closures can also affect the schedule, so confirm whether the Conservatory is open on the specific day you're planning, especially around Christmas Day and New Year's Day.",
+        ],
+      },
+      {
+        heading: "Getting There: Drop-Off and Pickup on Capitol Hill",
+        paragraphs: [
+          "The Conservatory faces Maryland Avenue SW, between Independence Avenue and the National Mall, a short walk from the Capitol's West Front. It's a beautiful location, but it isn't an easy place to drive yourself. Street parking near the Capitol is limited and often reserved, garages are a walk away, and security measures around the Capitol complex can close lanes or entire blocks with little notice.",
+          "A chauffeured ride removes most of that uncertainty. Your chauffeur drops you as close to the entrance as current traffic and security rules allow, then picks you up at an agreed spot when you're ready. For a straight round trip, we'll set a pickup time based on how long you plan to stay. If you're not sure how long you'll be, an hourly booking keeps the vehicle nearby so you can call when you're done. Hourly service has a minimum number of hours, which we'll confirm with your quote.",
+          "If someone in your group uses a wheelchair, has trouble walking long distances or is visiting with young children and strollers, tell us when you book. We'll plan the closest practical drop-off point and leave extra time at each stop.",
+        ],
+      },
+      {
+        heading: "Nearby Holiday Stops on the National Mall",
+        paragraphs: [
+          "The Botanic Garden is a natural first stop for a longer day on Capitol Hill and the Mall. A few ideas that pair well with it:",
+        ],
+        list: [
+          "The US Capitol Christmas Tree, which traditionally stands on the Capitol's West Front lawn through the holiday season, a few minutes' walk from the Conservatory",
+          "Bartholdi Park, the Botanic Garden's small outdoor garden across Independence Avenue, home to the historic Bartholdi Fountain",
+          "The National Gallery of Art and the Smithsonian museums along the Mall, which make a warm indoor option on a cold afternoon",
+          "Union Station, a short drive away, with its grand main hall and seasonal decorations",
+          "Dinner on Capitol Hill, along Pennsylvania Avenue SE or around Eastern Market, before heading home",
+        ],
+      },
+      {
+        heading: "Planning a Family or Group Visit",
+        paragraphs: [
+          "The holiday exhibit is a favorite for multigenerational outings, and that is where transportation planning makes the biggest difference. Grandparents, parents and children can travel together in one vehicle, and nobody has to walk from a distant garage in the cold. If relatives are flying in for the holidays, we can collect them at BWI, Reagan National or Dulles and fit the Botanic Garden into the same day, or plan the visit for later in their stay.",
+          "Schools, scout troops, garden clubs, senior groups and offices also visit during the season. For groups of up to thirteen, a single Mercedes Sprinter keeps everyone together; larger groups can travel in two or more vehicles that arrive at the same time. Share your group size and preferred arrival time when you request a quote, and we'll suggest the right combination.",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle for Your Outing",
+        paragraphs: [
+          "Winter coats, strollers and shopping bags take up room, so leave some space when you count seats. These are the vehicles in our fleet and their passenger capacity:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers, ideal for a couple or a small family",
+          "Lincoln Nautilus: up to three passengers with luggage, or four without",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with luggage, or six without, a good fit for a family with a stroller",
+          "Mercedes Sprinter Executive: up to thirteen passengers, with an upgraded interior for a group celebration",
+          "Mercedes Sprinter Shuttle: up to thirteen passengers, practical for school, club and office groups",
+        ],
+      },
+      {
+        heading: "Tips for a Comfortable Visit",
+        paragraphs: [
+          "The Conservatory is warm and humid inside, especially in the tropical rooms, so wear layers you can take off and carry. Many visitors leave heavy coats in the vehicle when they have a chauffeur waiting nearby, which makes the visit more comfortable. Expect a security screening at the entrance, as at most federal buildings in Washington, and keep bags small to move through it quickly.",
+          "Photography for personal use is generally welcome, and the plant-made landmarks are among the most photographed holiday displays in the city. Strollers can be tight in the busiest rooms, so a carrier may be easier for very young children on a crowded day. Finally, check the weather before you go: if it's raining or icy, a door-to-door ride is the easiest way to keep the day relaxed.",
+        ],
+      },
+      {
+        heading: "Booking Your Ride to the Botanic Garden",
+        paragraphs: [
+          "When you request a quote, tell us your pickup address, the date and time you'd like to arrive, how many people are coming and whether you plan to make other stops. We'll recommend a vehicle and suggest whether a round trip or an hourly booking makes more sense. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations and group or multi-vehicle bookings, up to 12 hours before.",
+          "Request a quote through our online booking form or call (877) 609-1919. December weekends fill quickly, so book early if you have a specific day in mind.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "Hourly Chauffeur Service", to: "/hourly-chauffeur" },
+      { label: "Capitol Hill Limo Service", to: "/capitol-hill-limo-service" },
+      { label: "Chauffeur Service in Washington, DC", to: "/chauffeur-service-washington-dc" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "Maryland Holiday Lights Touring", to: "/blog/maryland-holiday-lights-touring-chauffeur" },
+    ],
+    faqs: [
+      {
+        q: "When does the US Botanic Garden holiday exhibit usually run?",
+        a: "It typically opens around Thanksgiving and runs into early January. Dates, hours and any timed-entry passes change each year, so check the Botanic Garden's official website before you go.",
+      },
+      {
+        q: "Is there parking near the US Botanic Garden?",
+        a: "Parking near the Capitol is very limited and security can close streets. A chauffeured ride drops you as close to the entrance as current rules allow and picks you up at an agreed spot.",
+      },
+      {
+        q: "How long should we plan to spend at the exhibit?",
+        a: "Allow at least an hour for the holiday displays, and longer if you want to see the rest of the Conservatory or visit nearby stops such as the Capitol Christmas Tree.",
+      },
+      {
+        q: "Can you transport a school or club group?",
+        a: "Yes. A Mercedes Sprinter Shuttle or Sprinter Executive seats up to thirteen passengers, and larger groups can travel in two or more vehicles that arrive together.",
+      },
+      {
+        q: "What is your cancellation policy for this kind of outing?",
+        a: "Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup. Sprinter reservations and group or multi-vehicle bookings can be cancelled at no charge up to 12 hours before.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 39
+  {
+    slug: "brookside-gardens-garden-of-lights-wheaton-holiday-night-out",
+    title: "Brookside Gardens Garden of Lights: Planning a Holiday Night Out in Wheaton Without the Parking Hassle",
+    metaTitle: "Brookside Gardens Garden of Lights Visit Guide | 92 Limo",
+    metaDescription:
+      "Visiting Garden of Lights at Brookside Gardens in Wheaton: when to go, what to wear, tickets and parking, and how a chauffeured ride makes the evening easier.",
+    category: "Local Guides",
+    date: "2026-12-08",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Garden of Lights turns Brookside Gardens in Wheaton into a walk-through display of glowing sculptures every winter. Here's how to plan the evening, from tickets to the ride home.",
+    image: "/images/blog/fleet-7series-2.webp",
+    intro: [
+      "Garden of Lights at Brookside Gardens is one of Montgomery County's best-loved winter traditions. Every holiday season, the paths of this public garden inside Wheaton Regional Park are lined with LED lights shaped into flowers, trees, animals and other glowing sculptures. Unlike the drive-through light shows elsewhere in the region, Garden of Lights is a walking experience, so you're outside on the paths for the whole visit.",
+      "The display typically runs on evenings from late November into early January, operated by Montgomery Parks. In recent seasons, admission has been by ticket, and the nights, hours, prices and ticketing rules change from year to year, so check the Montgomery Parks website before you plan. This guide covers the practical side of the evening: when to go, how to dress, what to know about parking, and how to get there and back comfortably.",
+    ],
+    sections: [
+      {
+        heading: "What Garden of Lights Is Like",
+        paragraphs: [
+          "Brookside Gardens is a public garden of around fifty acres, with formal gardens, a conservatory, ponds, wooded areas and winding paths. During Garden of Lights, a route through the grounds is lit after dark, and visitors walk it at their own pace. The light sculptures are designed to fit the garden setting, so you'll see illuminated flowers in the beds, lit arches over the paths and reflections in the water.",
+          "Most visitors take about an hour to walk the route, longer with young children who want to stop at every display or with friends taking photos. The paths are mostly paved, with some gentle slopes. Strollers are generally fine, and the atmosphere is relaxed and family-friendly. It's also a popular choice for a low-key date night or an evening out with friends before dinner nearby.",
+        ],
+      },
+      {
+        heading: "When to Visit Brookside Gardens Garden of Lights",
+        paragraphs: [
+          "Weeknights are usually the quietest. Friday and Saturday nights draw the biggest crowds, and the week between Christmas and New Year's is busy because families are off school and work. If your tickets are for a specific entry time, plan to arrive a little early so you're not rushing from the car to the gate.",
+          "The display is held outdoors in all weather, and nights can be cold, windy or wet. Check the forecast on the day, and check Montgomery Parks for any weather closures, since the garden may close if conditions are unsafe. If you need to change plans, let us know as soon as you can so we can move or cancel your pickup.",
+          "Garden of Lights may be closed on some nights around the holidays. Confirm your date on the official schedule before booking transportation.",
+        ],
+      },
+      {
+        heading: "Parking, Traffic and Why Many Visitors Skip the Drive",
+        paragraphs: [
+          "Brookside Gardens sits on Glenallan Avenue in Wheaton, inside Wheaton Regional Park, and the lots closest to the garden fill up on busy evenings. Traffic on the roads leading in can back up around the start of the evening, and after your walk you may be heading back to a dark, crowded lot in the cold.",
+          "A chauffeured ride takes care of all of that. Your chauffeur drops you near the garden entrance, then meets you at an agreed spot when you're done, with the vehicle already warm. That's especially welcome for grandparents, anyone who finds long walks tiring at the end of the night, and parents with sleepy children. It also means nobody in the group has to drive if you're planning a holiday dinner with a glass of wine afterward.",
+          "For a simple outing, we'll set a pickup time based on your ticket time and how long you plan to stay. If you'd rather not watch the clock, an hourly booking keeps the vehicle nearby so you can call when you're ready. Hourly service has a minimum number of hours, which we'll confirm with your quote.",
+        ],
+      },
+      {
+        heading: "What to Wear and Bring",
+        paragraphs: [
+          "Because the whole visit is outdoors, dressing for the weather makes the biggest difference to how much you enjoy it. A few practical tips:",
+        ],
+        list: [
+          "Wear warm, waterproof shoes with good grip, since paths can be damp or slick after rain or frost",
+          "Layer up with a hat, gloves and a scarf; standing still to look at displays feels colder than walking",
+          "Bring a phone with a charged battery for photos, as cold weather drains batteries faster",
+          "Keep bags light and leave extra coats, shopping or gifts in the vehicle",
+          "Bring a blanket for young children in strollers",
+        ],
+      },
+      {
+        heading: "Turning It Into a Full Evening",
+        paragraphs: [
+          "Garden of Lights pairs naturally with dinner. Wheaton is known for its wide range of independent restaurants, and downtown Silver Spring and Bethesda are a short drive away if you'd like a more formal meal. Many groups book dinner first and walk the lights afterward, when it's fully dark; others visit early and finish with dessert or a warm drink.",
+          "Some families also make a night of it by combining Garden of Lights with a drive past neighborhood light displays in Montgomery County, or with a visit to relatives in the area. If you want to add stops, tell us when you book, and we'll plan the route and timing so you're not rushing between them.",
+        ],
+      },
+      {
+        heading: "Planning a Group Visit",
+        paragraphs: [
+          "Garden of Lights is a popular outing for office teams, church groups, scout troops, senior living communities and extended families. Group tickets and rules may differ from regular admission, so check with Montgomery Parks in advance. For transportation, one larger vehicle keeps everyone together and arriving at the same time, which matters when tickets are for a set entry time.",
+          "For groups of up to thirteen, a Mercedes Sprinter carries everyone in one vehicle. Larger groups can travel in two or more Sprinters that arrive together. Share your group size, pickup address and ticket time when you request a quote.",
+        ],
+      },
+      {
+        heading: "Photographing the Lights",
+        paragraphs: [
+          "Garden of Lights is a favorite spot for holiday photos, from family portraits in front of a glowing arch to close-ups of individual sculptures. Phone cameras handle the lights well in night mode, but hold still for a second or two after you tap, and turn off the flash, which washes out the colors and can bother other visitors. Reflections in the ponds often make the best pictures, so look for spots along the water's edge.",
+          "Popular displays can have a small crowd waiting for a turn, so be patient and step aside once you have your shot. If photos are a big part of your plans, a weeknight visit gives you more room and fewer people in the background. Remember that cold weather drains batteries quickly; keep your phone in an inside pocket between photos, and leave a charger in the vehicle for the ride home.",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle",
+        paragraphs: [
+          "Here are the vehicles in our fleet and how many passengers each one carries:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers, ideal for a couple's night out",
+          "Lincoln Nautilus: up to three passengers with luggage, or four without",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with luggage, or six without, a good choice for a family with a stroller",
+          "Mercedes Sprinter Executive: up to thirteen passengers, with an upgraded interior for a group celebration",
+          "Mercedes Sprinter Shuttle: up to thirteen passengers, practical for office, club and community groups",
+        ],
+      },
+      {
+        heading: "Booking Your Ride to Garden of Lights",
+        paragraphs: [
+          "When you request a quote, share your pickup address, the date, your ticket or arrival time, the number of passengers and any dinner or other stops you'd like to add. We'll recommend a vehicle and confirm the timing. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations and group or multi-vehicle bookings, up to 12 hours before.",
+          "Request a quote through our online booking form or call (877) 609-1919. Weekend nights in December are busy, so book as soon as you have your tickets.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "Wheaton Limo Service", to: "/wheaton-limo-service" },
+      { label: "Montgomery County Limo Service", to: "/montgomery-county-md-limo-service" },
+      { label: "Silver Spring Limo Service", to: "/silver-spring-limo-service" },
+      { label: "Hourly Chauffeur Service", to: "/hourly-chauffeur" },
+      { label: "Maryland Holiday Lights Touring", to: "/blog/maryland-holiday-lights-touring-chauffeur" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "When does Garden of Lights at Brookside Gardens usually run?",
+        a: "It typically runs on evenings from late November into early January, with some nights closed around the holidays. Check the Montgomery Parks website for this season's dates, hours and tickets.",
+      },
+      {
+        q: "Is Garden of Lights a drive-through display?",
+        a: "No. It's a walk-through display along the garden's paths, so dress warmly and wear comfortable shoes. Most visitors spend about an hour on the route.",
+      },
+      {
+        q: "Can you drop us off and pick us up at Brookside Gardens?",
+        a: "Yes. Your chauffeur drops you near the entrance and meets you at an agreed spot afterward, or stays nearby on an hourly booking so you can call when you're ready.",
+      },
+      {
+        q: "What vehicle works for a family or small group?",
+        a: "A Chevrolet Suburban or Lincoln Navigator carries up to six passengers without luggage. For up to thirteen, a Mercedes Sprinter keeps the whole group together.",
+      },
+      {
+        q: "What if the weather turns bad on our night?",
+        a: "Check Montgomery Parks for weather closures, and call us as soon as you decide to change plans. Sedan and SUV bookings can be cancelled at no charge up to 3 hours before pickup; Sprinter and group bookings, up to 12 hours before.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 40
+  {
+    slug: "union-station-car-service-holiday-train-travel-dc",
+    title: "Union Station Car Service for Holiday Train Travel: Getting To and From Your Amtrak Train in DC",
+    metaTitle: "Union Station Car Service for Holiday Trains | 92 Limo",
+    metaDescription:
+      "Union Station car service for holiday train travel in DC: when to arrive, drop-off and pickup, luggage, delayed trains and choosing a vehicle for your family.",
+    category: "Travel Tips",
+    date: "2026-12-09",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "December is one of the busiest times of year at Washington Union Station. Here's how to plan your ride to and from the train, with luggage, gifts and family in tow.",
+    image: "/images/blog/scenario-group-boarding.webp",
+    intro: [
+      "For many travelers in Maryland, DC and Virginia, the holidays start at Washington Union Station. Amtrak trains from the station connect the capital with Baltimore, Philadelphia, New York, Boston and cities to the south and west, and the weeks around Christmas and New Year's are among the busiest of the year. A reliable Union Station car service takes the stress out of the trip: no circling for parking, no carrying suitcases from a distant garage, and no waiting in a crowded line for a ride when you arrive.",
+      "This guide covers how to plan rides to and from Union Station during the holiday season: when to leave, how drop-off and pickup work, what to do if your train is late, and how to choose a vehicle for luggage and family. It also looks at other stations in the region that may be closer to home.",
+    ],
+    sections: [
+      {
+        heading: "Why Holiday Train Travel Needs a Plan",
+        paragraphs: [
+          "Union Station is one of the busiest rail hubs in the country, served by Amtrak, MARC and Virginia Railway Express trains, the Metro Red Line and intercity buses. In December, the station fills with holiday travelers, many carrying more luggage than usual, plus shoppers and visitors coming to see the main hall's seasonal decorations. Roads around the station, including Massachusetts Avenue and the approaches from Capitol Hill and NoMa, can be congested, especially on Friday afternoons and the days just before Christmas.",
+          "The station has also been going through a long period of redevelopment, and arrangements for parking, pickups and drop-offs around the building have changed in recent years. Rather than relying on what worked on your last trip, it's worth letting a chauffeur who drives the area handle the curb.",
+        ],
+      },
+      {
+        heading: "Leaving for Your Train: Timing the Drop-Off",
+        paragraphs: [
+          "Amtrak generally recommends arriving at the station well before departure, with extra time if you're checking bags or need boarding assistance. Check your ticket and Amtrak's guidance for your specific train. In the holiday season, add more cushion on top of that for traffic, security and crowds in the concourse.",
+          "When you book, tell us your train's departure time and whether you have checked bags, and we'll set a pickup time that gets you there comfortably. Your chauffeur drops you at the station's front entrance or another curbside spot that current traffic rules allow, helps unload your bags and makes sure you're on your way before driving off. If you're traveling with older relatives or small children, we can plan the closest practical drop-off point.",
+        ],
+      },
+      {
+        heading: "Arriving by Train: How Union Station Pickups Work",
+        paragraphs: [
+          "For arrivals, share your train number and scheduled arrival time when you book. We'll confirm a meeting point near the station's front entrance, and your chauffeur will be in touch as your train arrives, so you know exactly where to go once you leave the platform.",
+          "It's important to know how waiting time works for train pickups. Train station pickups fall under our standard waiting allowance of 15 minutes complimentary from the scheduled pickup time, rather than the longer allowance we give on airport pickups. If your train is running late, call or text us at (877) 609-1919 as soon as you know, and we'll move the pickup to match. Additional waiting time is billed in 15-minute increments at the rate for your vehicle, and it's always disclosed in advance.",
+          "Holiday trains can be delayed by weather, track work or heavy ridership, so build a little flexibility into your plans for the rest of the day, especially if you're heading straight to a family dinner or a connecting flight.",
+        ],
+      },
+      {
+        heading: "Union Station Car Service for Families and Groups",
+        paragraphs: [
+          "Holiday train trips often mean whole families traveling together, with suitcases, gift bags and sometimes a stroller or car seat. That's where the right vehicle matters most. A sedan works well for one or two travelers, while an SUV gives families room for luggage. If you're meeting several relatives arriving on the same train, a single Sprinter can carry the whole group and their bags.",
+          "If you need a child car seat, mention it when you book so we can plan for it. And if you're arranging the ride for someone else, such as parents arriving to spend the holidays with you, we'll send the confirmation and chauffeur details to whoever needs them.",
+        ],
+      },
+      {
+        heading: "Other Stations Worth Considering",
+        paragraphs: [
+          "Union Station isn't the only option. Depending on where you live and where you're going, another station may be closer and easier:",
+        ],
+        list: [
+          "BWI Thurgood Marshall Airport Rail Station, served by Amtrak and MARC's Penn Line, convenient for much of Anne Arundel and Howard counties",
+          "Baltimore Penn Station, served by Amtrak and MARC, for travelers in and around Baltimore",
+          "New Carrollton, served by Amtrak, MARC and Metro's Orange Line, for Prince George's County",
+          "Alexandria's Union Station, served by Amtrak and VRE, for travelers in Northern Virginia",
+        ],
+      },
+      {
+        heading: "Connecting Trains, Flights and Holiday Plans",
+        paragraphs: [
+          "Some holiday trips combine trains and planes, such as taking the train to visit family and flying home afterward, or arriving by air and continuing by rail. We can link both legs with a single booking, for example a pickup at Union Station followed by a drop-off at Reagan National or Dulles a few days later. For airport legs, we track your flight and time the pickup to the actual landing, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals.",
+          "If you'd rather skip the train altogether, our long-distance transportation service covers trips to cities along the East Coast in a private vehicle, which can be a comfortable choice for families with lots of luggage or anyone who wants to travel on their own schedule.",
+        ],
+      },
+      {
+        heading: "Tips for a Smooth Holiday Station Day",
+        paragraphs: [
+          "A little preparation goes a long way on a busy travel day. Download your tickets to your phone before you leave home, and check your train's status before your pickup so you can let us know about any change early. Label your bags, keep medications and valuables in a carry-on, and pack wrapped gifts where they won't be crushed, or consider shipping larger presents ahead.",
+          "Inside the station, the main hall and concourses can be crowded in late December, so give yourself time to find your gate and board without rushing. If you're meeting someone off a train, agree on a meeting place inside the station in case phones are busy or batteries run low. And if you're traveling with older relatives, ask Amtrak in advance about boarding assistance, then tell us so we can plan the drop-off around it.",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle for Your Train Trip",
+        paragraphs: [
+          "Holiday luggage adds up quickly, so count bags as well as passengers. These are the vehicles in our fleet and their capacity:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers, best for travelers with standard luggage",
+          "Lincoln Nautilus: up to three passengers with room for four bags, or four passengers without luggage",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with room for five bags, or six passengers without luggage",
+          "Mercedes Sprinter Shuttle or Sprinter Executive: up to thirteen passengers, for larger families and groups traveling together",
+        ],
+      },
+      {
+        heading: "Booking Your Ride",
+        paragraphs: [
+          "When you request a quote, share your pickup or drop-off address, your train number and times, the number of passengers and how many bags you'll have. We'll recommend a vehicle and confirm the timing. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations and group or multi-vehicle bookings, up to 12 hours before.",
+          "Request a quote through our online booking form or call (877) 609-1919. The days just before Christmas and around New Year's are among the busiest of the season, so book as soon as you have your train tickets.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "Chauffeur Service in Washington, DC", to: "/chauffeur-service-washington-dc" },
+      { label: "BWI Rail Station Car Service", to: "/bwi-rail-station-car-service" },
+      { label: "Car Service Near Baltimore Penn Station", to: "/limo-service-near-baltimore-penn-station" },
+      { label: "Long-Distance Transportation", to: "/long-distance-transportation" },
+      { label: "BWI Rail Station: Amtrak and MARC Connections", to: "/blog/bwi-rail-station-amtrak-marc-connections" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "Do you provide car service to and from Washington Union Station?",
+        a: "Yes. We drop off and pick up at Union Station for Amtrak, MARC and VRE travelers, with sedans, SUVs and Sprinters for families and groups.",
+      },
+      {
+        q: "How early should I leave for a holiday train?",
+        a: "Follow Amtrak's guidance for your train, then add extra time for holiday traffic and crowds. Tell us your departure time and we'll set a pickup time that gets you there comfortably.",
+      },
+      {
+        q: "What happens if my train arrives late?",
+        a: "Train pickups include 15 minutes of complimentary waiting from the scheduled pickup time. Call or text (877) 609-1919 as soon as you know your train is late, and we'll move the pickup.",
+      },
+      {
+        q: "Which vehicle fits a family with holiday luggage?",
+        a: "A Chevrolet Suburban or Lincoln Navigator carries five passengers with room for five bags. For larger groups, a Mercedes Sprinter seats up to thirteen.",
+      },
+      {
+        q: "Can you serve other train stations in the region?",
+        a: "Yes, including BWI Rail Station, Baltimore Penn Station, New Carrollton and Alexandria's Union Station.",
+      },
+    ],
+  },
 ];
