@@ -3448,4 +3448,384 @@ export const BLOG_POSTS_BATCH19 = [
       },
     ],
   },
+  // ---------------------------------------------------------- POST 35
+  {
+    slug: "downtown-dc-holiday-market-penn-quarter-visit-guide",
+    title: "Visiting the Downtown DC Holiday Market: Penn Quarter Shopping, Pickup Points and an Easy Ride Home",
+    metaTitle: "Downtown DC Holiday Market Visit Guide | 92 Limo",
+    metaDescription:
+      "Plan a trip to the Downtown DC Holiday Market in Penn Quarter: when to go, nearby holiday stops, pickup points off F Street and getting home with your gifts.",
+    category: "Local Guides",
+    date: "2026-12-04",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "The Downtown DC Holiday Market fills a block of F Street with artisan booths, food and music every December. Here's how to plan the visit, where to meet your car and how to fit in the rest of downtown.",
+    image: "/images/blog/landmark-capitol-2.webp",
+    intro: [
+      "The Downtown DC Holiday Market has become one of the capital's most familiar December traditions. Each holiday season, rows of vendor booths line F Street NW in Penn Quarter, in front of the historic building that houses the Smithsonian American Art Museum and the National Portrait Gallery. Visitors come for handmade gifts, jewelry, art, ornaments, local food and warm drinks, and for the live music that usually plays through the afternoon and evening.",
+      "The market typically opens around the end of November and runs until shortly before Christmas, and entry has traditionally been free. Exact dates, daily hours and the vendor lineup change from year to year, so confirm them on the market's official website before you go. This guide covers the practical side: when to visit, what else is close by, how pickups work around a closed street, and how to get home comfortably with an armful of gifts.",
+    ],
+    sections: [
+      {
+        heading: "What to Expect at the Downtown DC Holiday Market",
+        paragraphs: [
+          "The market occupies the block of F Street between 7th and 9th Streets NW, which is closed to traffic while it runs. It's an open-air market, so you'll be outdoors the entire time you're browsing. Most booths are run by independent artists, crafters and small businesses, many of them from the DC region, and the mix usually includes pottery, textiles, prints, jewelry, candles, holiday decorations and specialty foods.",
+          "Because it sits in the middle of downtown, the market draws office workers on their lunch breaks, families on weekends, and visitors combining it with a museum or a show. It feels very different at different times of day: quiet and easy to browse on a weekday morning, busy and festive on a weekend evening, when the lights are on and the music is playing.",
+        ],
+      },
+      {
+        heading: "Choosing When to Go",
+        paragraphs: [
+          "If your main goal is shopping, a weekday morning or early afternoon gives you the most room to look at each booth and talk with the makers. Weekends, especially the two or three before Christmas, bring the biggest crowds. If you want the holiday atmosphere more than the shopping, come in the late afternoon, when it gets dark early in December and the market's lights take over.",
+          "Downtown evenings can also be busy for other reasons. Capital One Arena is just a block away, and on nights with a game or concert the surrounding streets fill with traffic and foot crowds before and after the event. Check the arena's calendar when you pick your day, and if your visit overlaps with an event, allow more time for getting in and out of the neighborhood.",
+        ],
+      },
+      {
+        heading: "Dressing for an Outdoor December Market",
+        paragraphs: [
+          "Plan for an hour or two outside. December in DC can swing from mild afternoons to raw, windy evenings, and standing still at booths feels colder than walking. Wear layers, comfortable shoes and gloves you can shop in. When rain or snow is in the forecast, check the market's announcements before you leave, since an outdoor market may adjust its hours in bad weather.",
+          "One advantage of arriving by car service is that you don't need to carry everything with you. Coats you won't need inside a restaurant, shopping bags from an earlier stop and gifts you've already bought can stay in the vehicle while you're out, with your chauffeur nearby.",
+        ],
+      },
+      {
+        heading: "Pickups and Drop-Offs Around a Closed Block",
+        paragraphs: [
+          "Because the market's block of F Street is closed to vehicles, no car can stop directly in front of the booths. Downtown curb space is also limited, with loading zones, bus stops, bike lanes and no-stopping rules on many blocks. The simplest approach is to agree on a meeting point on a nearby cross street before you arrive, so drop-off and pickup are quick and predictable.",
+          "When you book, tell us that you're visiting the Downtown DC Holiday Market and roughly how long you plan to stay. Your chauffeur will confirm a practical meeting spot for that day's conditions and send you a message when the vehicle is in place. If you're running late because you found one more booth, just let us know. On an hourly booking, the car stays with you through the evening, so you can walk from the market to dinner or a show and be picked up at the next stop.",
+        ],
+      },
+      {
+        heading: "Making an Afternoon of It in Penn Quarter",
+        paragraphs: [
+          "The market is surrounded by places to go before or after you shop. Many visitors pair it with one of the neighborhood's well-known attractions:",
+        ],
+        list: [
+          "The Smithsonian American Art Museum and National Portrait Gallery, in the same building that faces the market",
+          "Ford's Theatre on 10th Street, where a holiday production of A Christmas Carol has long been part of the December calendar",
+          "Dinner in Penn Quarter or Chinatown, which has some of downtown's busiest restaurants on December weekends",
+          "A drive past the National Christmas Tree on the Ellipse near the White House",
+          "A chauffeured tour of the monuments, which look their best at night",
+        ],
+      },
+      {
+        heading: "Combining the Market With Other Holiday Outings",
+        paragraphs: [
+          "If you're coming in from Maryland or Virginia for the day, it's worth planning a full holiday outing around the market rather than a single stop. A common plan is an afternoon at the market, an early dinner nearby, and then an evening drive to see the city's lights, finishing with the ride home. Some groups go on to Gaylord National's ICE! and holiday displays at National Harbor, which make a natural second stop on the way back to Prince George's County or Northern Virginia.",
+          "Restaurant reservations fill quickly downtown in December, especially on Fridays and Saturdays, so book dinner first and build the ride around it. Tell us the times when you book and we'll plan the pickup, any waiting time and the drive between stops.",
+        ],
+      },
+      {
+        heading: "Driving, Parking and Transit Downtown",
+        paragraphs: [
+          "Driving yourself into Penn Quarter during the holiday season means dealing with busy streets, garages that can fill on event nights and walking back to the car with your bags. Metro is a good option for some visitors, with the Gallery Place-Chinatown station close to the market, but trains and platforms get crowded on December evenings and transit is less convenient for older relatives, young children or anyone carrying a lot.",
+          "A private car is the most comfortable option when you're shopping as a group, bringing guests who don't know the city, or making several stops in one trip. You're dropped off near the market, your purchases stay in the vehicle and nobody has to look for parking. Our guide to the DC Metro versus private car service goes into more detail on when each option makes sense.",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle for Holiday Shopping",
+        paragraphs: [
+          "Match the vehicle to the size of your group and how much you expect to buy:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers, ideal for a couple or a small family shopping trip",
+          "Lincoln Nautilus: up to three passengers with room for four bags, or four passengers without luggage",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with room for five bags, or six passengers without luggage",
+          "Mercedes Sprinter Shuttle or Sprinter Executive: up to thirteen passengers, for an office outing, a club or an extended family",
+        ],
+      },
+      {
+        heading: "Planning Your Downtown DC Holiday Market Trip",
+        paragraphs: [
+          "A little planning goes a long way on a December visit. Confirm the market's dates and hours, check whether there's a game or concert at Capital One Arena that day, book any dinner or theater reservations, and then arrange the ride. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations and group or multi-vehicle bookings, up to 12 hours before.",
+          "Request a quote through our online booking form or call (877) 609-1919. Tell us where you're starting from, how many people are coming, and whether you want a simple round trip or an hourly booking for the whole evening, and we'll recommend the right vehicle.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Holiday Market Ride", to: "/booking" },
+      { label: "Chauffeur Service in Washington, DC", to: "/chauffeur-service-washington-dc" },
+      { label: "Hourly Car Service in DC", to: "/hourly-car-service-dc" },
+      { label: "DC Monuments at Night Chauffeur Tour", to: "/blog/washington-dc-monuments-at-night-chauffeur-tour-guide" },
+      { label: "DC Metro vs. Private Car Service", to: "/blog/dc-metro-vs-private-car-service-which-is-better-for-your-trip" },
+      { label: "Gaylord National ICE! Holiday Guide", to: "/blog/gaylord-national-ice-national-harbor-holiday-chauffeur-guide" },
+    ],
+    faqs: [
+      {
+        q: "Where is the Downtown DC Holiday Market?",
+        a: "It's held on F Street NW between 7th and 9th Streets in Penn Quarter, in front of the Smithsonian American Art Museum and the National Portrait Gallery.",
+      },
+      {
+        q: "When does the Downtown DC Holiday Market run?",
+        a: "It typically opens around the end of November and runs until shortly before Christmas. Check the market's official website for this year's dates and hours.",
+      },
+      {
+        q: "Can a car drop us off right at the market?",
+        a: "No. The market's block of F Street is closed to traffic, so we set a meeting point on a nearby cross street and confirm it with you before pickup.",
+      },
+      {
+        q: "Can we keep our shopping bags in the car?",
+        a: "Yes. On an hourly booking the vehicle stays with you, so gifts, coats and bags can stay inside while you shop, eat or see a show.",
+      },
+      {
+        q: "Which vehicle works for a group visiting the market?",
+        a: "A Chevrolet Suburban or Lincoln Navigator carries up to five passengers with five bags. For larger groups, a Mercedes Sprinter seats up to thirteen.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 36
+  {
+    slug: "christmas-at-mount-vernon-holiday-visit-transportation-guide",
+    title: "Christmas at Mount Vernon: Planning a Holiday Visit to George Washington's Estate From Maryland, DC and Virginia",
+    metaTitle: "Christmas at Mount Vernon: Holiday Visit Guide | 92 Limo",
+    metaDescription:
+      "Plan a Christmas at Mount Vernon visit from MD, DC or VA: holiday programs, evening tours, timing, the drive along the Potomac and ride options for groups.",
+    category: "Local Guides",
+    date: "2026-12-05",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "George Washington's Mount Vernon dresses for the holidays every December. Here's how to plan the visit, time the drive along the Potomac and get a family or group there and back comfortably.",
+    image: "/images/blog/scenario-doorman.webp",
+    intro: [
+      "Christmas at Mount Vernon is one of Northern Virginia's best-loved holiday outings. Every December, George Washington's home on the Potomac River decorates for the season and adds holiday programs that bring the 18th-century estate to life, from period decorations to evening tours. For families in Maryland, DC and Virginia it's an easy day out, and for visiting relatives it's a memorable way to see a landmark of American history.",
+      "This guide covers what the holiday season at the estate usually involves, how to choose a day and time, what the drive is like from different parts of the region, and how to plan transportation for a family or a larger group. Holiday programs, tour times and ticket requirements change from year to year, so check Mount Vernon's official website for the current schedule before you plan.",
+    ],
+    sections: [
+      {
+        heading: "What Christmas at Mount Vernon Usually Includes",
+        paragraphs: [
+          "The estate is owned and run by the Mount Vernon Ladies' Association, which has cared for it since the 1850s, and its holiday season has become a long-standing tradition. In recent years, Christmas at Mount Vernon has included seasonal decorations, special holiday tours and programs, and a visit from Aladdin, the estate's Christmas camel, a nod to the camel George Washington paid to bring to Mount Vernon over the 1787 holiday season.",
+          "During the holidays, the estate has also offered tours that include the mansion's third floor, which isn't part of the regular tour for most of the year, and evening candlelight programs on select dates with separate tickets. These offerings vary from season to season, and the most popular evening programs often sell out well ahead of time, so book them early if they're the reason for your visit.",
+        ],
+      },
+      {
+        heading: "Choosing a Day and Time to Visit",
+        paragraphs: [
+          "Weekdays in early December are usually the quietest time to visit. Weekends get busier as Christmas approaches, and the days between Christmas and New Year's are popular with families when school is out and relatives are in town. If you're planning around visiting family, book tickets as soon as you know their dates.",
+          "For a daytime visit, arriving soon after opening gives you the most daylight. It gets dark early in December, and much of the visit is spent outdoors walking between the mansion, the outbuildings, the gardens and the museum. Evening programs are a different experience: the estate at night, lit for the season, but colder and darker on the walk to and from the car. Ask about where and when pickups are possible once you know your tour time.",
+        ],
+      },
+      {
+        heading: "Getting to Mount Vernon From Around the Region",
+        paragraphs: [
+          "Mount Vernon sits at the southern end of the George Washington Memorial Parkway in Fairfax County, south of Old Town Alexandria. From downtown DC the drive follows the Potomac past Reagan National and through Old Town, one of the region's most scenic routes, especially at sunset. From Northern Virginia, most trips come in from I-95, I-495 or Route 1.",
+          "From Maryland, the usual route crosses the Woodrow Wilson Bridge on the Capital Beltway, which is convenient from Prince George's County but can back up badly at rush hour and on busy holiday weekends. From Baltimore, Howard County or Anne Arundel County, plan for a longer trip, often well over an hour each way depending on traffic. We'll suggest a pickup time with a realistic buffer for the day you're traveling.",
+        ],
+      },
+      {
+        heading: "Pairing Your Visit With Old Town Alexandria",
+        paragraphs: [
+          "Old Town Alexandria is right on the way, which makes it a natural second stop. Its historic streets are decorated for the season, King Street has independent shops and restaurants, and the waterfront is a pleasant place to walk on a clear afternoon. Many families visit Mount Vernon in the morning, then go to Old Town for a late lunch or an early dinner before heading home.",
+          "Old Town's parking is tight on December weekends, and the ride between stops is short but slow when traffic is heavy. With an hourly booking, the same chauffeur takes you from home to the estate, then to Old Town, and back, so there's no parking to find and nobody has to drive home after dinner.",
+        ],
+      },
+      {
+        heading: "Planning a Christmas at Mount Vernon Trip for a Group",
+        paragraphs: [
+          "The estate is a popular holiday outing for school groups, church groups, scout troops, clubs and extended families. Keeping everyone together makes the day easier: one vehicle, one arrival time, one meeting point at the end of the visit. A Mercedes Sprinter Shuttle or Sprinter Executive seats up to thirteen passengers, and for larger groups we can schedule two or more Sprinters to travel together.",
+          "When you book, tell us how many people are coming, whether anyone needs extra time getting in and out of the vehicle, and what time your tickets are for. Check Mount Vernon's group policies as well, since larger groups often book through a separate process with its own requirements.",
+        ],
+      },
+      {
+        heading: "Visiting With Older Relatives or Young Children",
+        paragraphs: [
+          "A Mount Vernon visit involves a fair amount of walking, sometimes on gravel paths and slopes, and in December the weather can be cold and windy along the river. Our chauffeurs drop you off and pick you up as close to the entrance as the estate allows, which matters most for grandparents and young children at the end of a long day outdoors.",
+          "If you're traveling with small children, child car seats can be arranged in advance; tell us the number and ages of the children when you book. Bring layers, gloves and comfortable shoes, and plan a break indoors at the museum or the estate's dining options to warm up. Coats, bags and anything you won't need inside can stay in the vehicle on an hourly booking.",
+        ],
+      },
+      {
+        heading: "Hosting Holiday Visitors",
+        paragraphs: [
+          "Many people visit Mount Vernon in December because relatives are in town. If your guests are flying in, the estate is a short drive from Reagan National, so it's easy to build a visit around an arrival or departure day. We track flights for airport pickups and include 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals, so a late flight doesn't throw off the plan. Luggage can ride along in an SUV or Sprinter if you're heading to the estate straight from the airport; tell us how many bags to expect when you book.",
+        ],
+      },
+      {
+        heading: "Choosing the Right Vehicle",
+        paragraphs: [
+          "Pick a vehicle based on the size of your party and how you plan to spend the day:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers, comfortable for a couple or a small family",
+          "Lincoln Nautilus: up to three passengers with room for four bags, or four passengers without luggage",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with room for five bags, or six passengers without luggage",
+          "Mercedes Sprinter Shuttle or Sprinter Executive: up to thirteen passengers, for extended families and organized groups",
+        ],
+      },
+      {
+        heading: "Winter Weather and Holiday Traffic",
+        paragraphs: [
+          "Most December days in Northern Virginia are cold but clear, but snow and freezing rain do happen, and the Parkway and local roads can be slow when they do. If the forecast looks uncertain, check the estate's website or social media for any weather-related changes to its hours or programs before you leave.",
+          "Holiday traffic matters too. The Beltway, I-95 and Route 1 carry heavy shopping traffic on December weekends, and Reagan National is busy throughout the holidays. If your visit is the same day as a flight, or you're picking up relatives from the airport on the way, tell us both times and we'll plan the day around them.",
+        ],
+      },
+      {
+        heading: "Booking Your Ride",
+        paragraphs: [
+          "Once you have your tickets, arranging transportation is easy. Choose a round trip if you're going straight to the estate and back, or an hourly booking if you want to add Old Town Alexandria, a meal or other stops. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations and group or multi-vehicle bookings, up to 12 hours before.",
+          "Request a quote through our online booking form or call (877) 609-1919. Tell us your starting point, the number of passengers and your ticket times, and we'll recommend a vehicle and a pickup time that fit the day.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Mount Vernon Ride", to: "/booking" },
+      { label: "Alexandria, VA Limo Service", to: "/alexandria-va-limo-service" },
+      { label: "Fairfax, VA Limo Service", to: "/fairfax-va-limo-service" },
+      { label: "Reagan National (DCA) Car Service", to: "/dca-airport-car-service" },
+      { label: "Hourly Chauffeur Service", to: "/hourly-chauffeur" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "Best Scenic Day Trip Drives in Maryland and Virginia", to: "/blog/best-scenic-day-trip-drives-maryland-virginia-chauffeured" },
+    ],
+    faqs: [
+      {
+        q: "When is Christmas at Mount Vernon held?",
+        a: "The estate's holiday season usually runs through December. Programs, evening tours and dates change from year to year, so check Mount Vernon's official website before you plan.",
+      },
+      {
+        q: "How far is Mount Vernon from Washington, DC?",
+        a: "The estate sits at the southern end of the George Washington Memorial Parkway, south of Old Town Alexandria, a scenic drive along the Potomac from downtown DC.",
+      },
+      {
+        q: "Can we visit Old Town Alexandria on the same trip?",
+        a: "Yes. Old Town is on the way, and with an hourly booking the same chauffeur takes you to the estate, to Old Town and home again.",
+      },
+      {
+        q: "What vehicle fits a group visiting Mount Vernon?",
+        a: "A Mercedes Sprinter Shuttle or Sprinter Executive seats up to thirteen passengers. For larger groups, we can schedule two or more Sprinters to travel together.",
+      },
+      {
+        q: "Can I arrange child car seats for the trip?",
+        a: "Yes. Child car seats can be arranged in advance. Tell us the number and ages of the children when you book.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 37
+  {
+    slug: "winter-wedding-transportation-maryland-dc-virginia-guide",
+    title: "Winter Wedding Transportation in Maryland, DC and Virginia: Planning Around Snow, Early Sunsets and Holiday Traffic",
+    metaTitle: "Winter Wedding Transportation: MD, DC & VA Guide | 92 Limo",
+    metaDescription:
+      "Winter wedding transportation in MD, DC and VA: planning for snow, early sunsets, holiday traffic, guest shuttles and choosing vehicles for a December wedding.",
+    category: "Weddings",
+    date: "2026-12-06",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "December, January and February weddings bring early sunsets, holiday traffic and the chance of snow. Here's how to plan transportation for the couple, the wedding party and your guests.",
+    image: "/images/blog/scenario-wedding-3.webp",
+    intro: [
+      "Winter weddings have a lot going for them in the Mid-Atlantic: candlelit ceremonies, holiday decorations already in place at many venues, cozy receptions and, sometimes, a dusting of snow for the photos. They also come with planning challenges that summer couples rarely think about. Winter wedding transportation has to work around early darkness, holiday traffic, cold temperatures and the possibility of snow or ice on the wedding day.",
+      "This guide covers how to plan rides for the couple, the wedding party and guests at a December, January or February wedding in Maryland, DC or Virginia. It looks at timelines, weather contingencies, guest shuttles and vehicle choices, so that the day runs smoothly whatever the forecast brings.",
+    ],
+    sections: [
+      {
+        heading: "Why Winter Weddings Need a Different Transportation Plan",
+        paragraphs: [
+          "Three things set winter apart. First, daylight is short: in December, the sun sets before 5 p.m. in the DC and Baltimore area, earlier than many couples expect. Second, the roads are busier and less predictable in the holiday season, with shopping traffic, office parties and travelers heading to the airports. Third, the weather can change the plan with little warning.",
+          "None of these is a reason to avoid a winter date. They simply mean the transportation plan should be built with more buffer time, clear communication between vendors, and a backup plan for bad weather, all decided well before the wedding week.",
+        ],
+      },
+      {
+        heading: "Building a Winter Wedding Day Timeline",
+        paragraphs: [
+          "Start with sunset. If you want outdoor portraits in natural light, they usually need to happen early in the afternoon, which can mean a first look before the ceremony or a ceremony that starts earlier than you might choose in June. Many couples schedule the photographer's outdoor session first and then work backward to set pickup times at the getting-ready locations.",
+          "Add more cushion between stops than you would in warmer months. Getting a wedding party in and out of coats, keeping gowns clean and dry at the curb, and moving carefully on cold steps all take extra minutes. Share the final timeline with your chauffeur, photographer, planner and venue so everyone works from the same schedule. Our guide to golden-hour timing covers the photography side in more detail.",
+        ],
+      },
+      {
+        heading: "Planning for Snow, Ice and Freezing Rain",
+        paragraphs: [
+          "Most winter wedding days in the region are cold and dry, but snow and ice do happen, and they can affect roads, parking lots and venue driveways. Rural venues on long private lanes, waterfront properties and hilly estates are the most exposed, because the last stretch to the door may be cleared later than the main roads.",
+          "Talk with your venue early about how it handles snow removal for driveways, walkways and parking areas. In the days before the wedding, we watch the forecast with you and plan earlier departures if conditions look uncertain. If the weather is bad enough that you decide to change the schedule, call us as soon as you know, since moving pickup times is far easier with notice. Keep in mind that weddings are special-event bookings, which can be cancelled at no charge up to 12 hours before the scheduled pickup.",
+        ],
+      },
+      {
+        heading: "Keeping the Wedding Party Warm, Dry and On Time",
+        paragraphs: [
+          "Small details matter more in winter. Have a plan for coats, wraps and boots: some couples keep a set of outer layers in the vehicle for photo stops, so nobody stands outside in a thin dress or suit jacket longer than necessary. Bring an umbrella or two for rain or snow at each stop, and plan where the wedding party will wait indoors while the vehicle pulls up.",
+          "With a chauffeured vehicle, the car is already warm when you get in, and your chauffeur pulls up as close to each entrance as the venue allows. That's especially helpful for older family members and anyone in formal shoes on a cold evening.",
+        ],
+      },
+      {
+        heading: "Guest Shuttles: The Biggest Winter Advantage",
+        paragraphs: [
+          "For guests, winter weather and long evenings make shuttles more valuable than at any other time of year. Instead of driving to an unfamiliar venue in the dark, parking in a cold lot and driving home late, guests ride together from the hotel to the ceremony, the reception and back. A guest shuttle also helps out-of-town visitors who arrived by plane and don't have a car.",
+          "A Mercedes Sprinter Shuttle or Sprinter Executive seats up to thirteen passengers, and for larger guest lists we can run two or more Sprinters on a set loop between the hotel and the venue. Share the shuttle schedule with guests in advance on your wedding website or in the welcome bag, including the last departure time at the end of the night.",
+        ],
+      },
+      {
+        heading: "December and New Year's Eve Weddings",
+        paragraphs: [
+          "Weddings in December often overlap with the busiest weeks of the holiday season. Restaurants, hotels and venues are crowded with holiday parties, and the roads near shopping centers and downtown areas are slower than usual. Saturdays in December are especially busy for transportation, so book early, ideally as soon as your venue and date are confirmed.",
+          "A New Year's Eve wedding is a special case. December 31 brings heavy celebration traffic and high demand for rides late into the night, which makes a pre-arranged plan essential. Set your end-of-night pickup times when you book, and consider scheduling guest shuttles so nobody has to look for a ride after midnight.",
+        ],
+      },
+      {
+        heading: "Choosing Vehicles for a Winter Wedding Transportation Plan",
+        paragraphs: [
+          "Winter outerwear takes up room, so leave some space when you plan seating. These are the vehicles in our fleet and their passenger capacity:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers, an elegant choice for the couple's arrival and departure",
+          "Lincoln Nautilus: up to three passengers with room for four bags, or four passengers without luggage",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with room for five bags, or six passengers without luggage, good for parents or a small wedding party",
+          "Mercedes Sprinter Executive: up to thirteen passengers, with an upgraded interior and mood lighting for the wedding party",
+          "Mercedes Sprinter Shuttle: up to thirteen passengers, practical for guest shuttles between the hotel and the venue",
+        ],
+      },
+      {
+        heading: "How Many Vehicles Do You Need?",
+        paragraphs: [
+          "Count the people who need to move at each stage of the day: the couple, each side of the wedding party, parents and grandparents, and any guests who will use a shuttle. Many winter weddings use a sedan or SUV for the couple, a Sprinter for the wedding party, and one or more Sprinters for guests. If the getting-ready locations are in different places, plan a vehicle for each. Our guide to how many cars a wedding party needs walks through common setups.",
+        ],
+      },
+      {
+        heading: "Out-of-Town Guests and the Honeymoon Departure",
+        paragraphs: [
+          "Winter weddings often bring guests who fly in, and winter flights are more likely to run late. If you're arranging airport pickups for family or the wedding party, send us their flight details: we track each flight and time the pickup to the actual landing, with 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals. That way a delayed connection doesn't leave a bridesmaid or a grandparent waiting at BWI, Reagan National or Dulles.",
+          "If you're leaving for a warm-weather honeymoon the morning after the wedding, book that ride at the same time as the rest of your transportation. Early-morning departures after a late reception are exactly when you don't want to drive, look for airport parking or wait for a ride, and winter roads may call for a little more time to reach the airport.",
+        ],
+      },
+      {
+        heading: "Booking Your Winter Wedding Transportation",
+        paragraphs: [
+          "When you request a quote, share your date, the getting-ready locations, the ceremony and reception venues, your guest hotel if you have one, the number of passengers at each stage, and your timeline. We'll recommend vehicles, suggest buffer times for winter conditions and confirm the plan with your planner or venue coordinator if you'd like.",
+          "Request a quote through our online booking form or call (877) 609-1919. The earlier you book a December or holiday-weekend date, the more vehicle options you'll have.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Wedding Transportation", to: "/booking" },
+      { label: "Wedding Transportation", to: "/wedding-transportation" },
+      { label: "Our Fleet", to: "/fleet" },
+      { label: "How Many Cars Does a Wedding Party Need?", to: "/blog/how-many-cars-wedding-party-maryland" },
+      { label: "Golden-Hour Wedding Photo Timing", to: "/blog/wedding-photography-golden-hour-transportation-timing-guide" },
+      { label: "Wedding After-Party Safe Ride Guide", to: "/blog/wedding-after-party-late-night-safe-ride-guide" },
+      { label: "Airport Transportation for Wedding Guests", to: "/airport-transportation" },
+    ],
+    faqs: [
+      {
+        q: "What should we plan for with winter wedding transportation?",
+        a: "Build extra buffer time into the timeline, plan photos around the early sunset, confirm how the venue handles snow, and arrange guest shuttles so guests don't drive at night.",
+      },
+      {
+        q: "What happens if it snows on our wedding day?",
+        a: "We watch the forecast with you and plan earlier departures if conditions look uncertain. If you decide to change the schedule, call us as soon as you know.",
+      },
+      {
+        q: "What is the cancellation policy for wedding transportation?",
+        a: "Weddings are special-event bookings, which can be cancelled at no charge up to 12 hours before the scheduled pickup, whatever the vehicle.",
+      },
+      {
+        q: "How many guests fit in a wedding shuttle?",
+        a: "A Mercedes Sprinter Shuttle or Sprinter Executive seats up to thirteen passengers. For larger guest lists, we can run two or more Sprinters between the hotel and the venue.",
+      },
+      {
+        q: "How far ahead should we book for a December wedding?",
+        a: "As soon as your date and venue are confirmed. December Saturdays and New Year's Eve are among the busiest dates of the year for transportation.",
+      },
+    ],
+  },
 ];
