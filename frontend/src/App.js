@@ -1,6 +1,7 @@
 import "@/App.css";
 import { Suspense, lazy } from "react";
 import { BrowserRouter, Routes, Route, Navigate, useLocation } from "react-router-dom";
+import { MotionConfig } from "framer-motion";
 import { Toaster } from "@/components/ui/sonner";
 import Layout from "@/components/site/Layout";
 import Home from "@/pages/Home";
@@ -61,6 +62,8 @@ function RoutedChatWidget() {
 function App() {
   return (
     <div className="App">
+      {/* Honour prefers-reduced-motion for every framer-motion animation site-wide */}
+      <MotionConfig reducedMotion="user">
       <BrowserRouter>
         <Suspense fallback={null}>
         <Routes>
@@ -111,6 +114,7 @@ function App() {
         </Suspense>
         <RoutedChatWidget />
       </BrowserRouter>
+      </MotionConfig>
       <Toaster position="top-right" richColors />
     </div>
   );

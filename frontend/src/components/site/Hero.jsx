@@ -1,8 +1,21 @@
-import { useRef, useState } from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { useEffect, useRef, useState } from "react";
+import {
+  motion,
+  useMotionValue,
+  useReducedMotion,
+  useScroll,
+  useSpring,
+  useTransform,
+} from "framer-motion";
 import { Link } from "react-router-dom";
 import { Phone, ChevronRight, Star, ChevronDown } from "lucide-react";
-import { BRAND, IMAGES } from "@/lib/data";
+import { BRAND } from "@/lib/data";
+
+// Our own BMW 7 Series (G12) — a real fleet photo, served in two sizes so
+// phones download the small one. The homepage hero is the only place it's used;
+// IMAGES.heroBg (landing pages, OG images) is unchanged.
+const HERO_SRC_LG = "/images/site/hero-bmw-7-series-1600.webp";
+const HERO_SRC_SM = "/images/site/hero-bmw-7-series-960.webp";
 import { QuoteModal } from "@/components/site/QuoteModal";
 
 const container = {
@@ -19,34 +32,91 @@ const item = {
 export const Hero = () => {
   const ref = useRef(null);
   const [quoteOpen, setQuoteOpen] = useState(false);
-  // Scroll-linked parallax: background drifts and zooms, content fades as you leave.
+  const reduceMotion = useReducedMotion();
+
+  // Scroll-linked parallax: the car drifts slower than the page and the copy
+  // fades as you leave. Disabled for prefers-reduced-motion.
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start start", "end start"],
   });
-  const bgY = useTransform(scrollYProgress, [0, 1], ["0%", "28%"]);
-  const bgScale = useTransform(scrollYProgress, [0, 1], [1, 1.12]);
-  const contentY = useTransform(scrollYProgress, [0, 1], [0, 90]);
+  const bgY = useTransform(scrollYProgress, [0, 1], ["0%", reduceMotion ? "0%" : "22%"]);
+  const bgScale = useTransform(scrollYProgress, [0, 1], [1, reduceMotion ? 1 : 1.08]);
+  const contentY = useTransform(scrollYProgress, [0, 1], [0, reduceMotion ? 0 : 90]);
   const contentOpacity = useTransform(scrollYProgress, [0, 0.75], [1, 0]);
+
+  // Depth: the car layer leans a few degrees toward the cursor (desktop with a
+  // real mouse only; never on touch or with reduced motion).
+  const px = useMotionValue(0);
+  const py = useMotionValue(0);
+  const spring = { stiffness: 60, damping: 18, mass: 0.6 };
+  const rotY = useSpring(useTransform(px, [-0.5, 0.5], [-3.5, 3.5]), spring);
+  const rotX = useSpring(useTransform(py, [-0.5, 0.5], [2.5, -2.5]), spring);
+  const shiftX = useSpring(useTransform(px, [-0.5, 0.5], [-14, 14]), spring);
+  const rimX = useSpring(useTransform(px, [-0.5, 0.5], ["58%", "70%"]), spring);
+  const [tiltEnabled, setTiltEnabled] = useState(false);
+
+  useEffect(() => {
+    if (reduceMotion || typeof window === "undefined") return undefined;
+    const mq = window.matchMedia("(hover: hover) and (pointer: fine) and (min-width: 1024px)");
+    const update = () => setTiltEnabled(mq.matches);
+    update();
+    mq.addEventListener?.("change", update);
+    return () => mq.removeEventListener?.("change", update);
+  }, [reduceMotion]);
+
+  const onPointerMove = (e) => {
+    if (!tiltEnabled || e.pointerType !== "mouse") return;
+    const r = e.currentTarget.getBoundingClientRect();
+    px.set((e.clientX - r.left) / r.width - 0.5);
+    py.set((e.clientY - r.top) / r.height - 0.5);
+  };
+  const onPointerLeave = () => {
+    px.set(0);
+    py.set(0);
+  };
 
   return (
     <>
     <section
       ref={ref}
       data-testid="hero-section"
-      className="relative min-h-[100svh] flex items-center overflow-hidden grain"
+      onPointerMove={onPointerMove}
+      onPointerLeave={onPointerLeave}
+      className="relative min-h-[100svh] flex items-center overflow-hidden grain bg-[#090A0C] [perspective:1400px]"
     >
+      {/* ---- Car layer: parallax (scroll) + depth tilt (cursor) ---- */}
       <motion.div className="absolute inset-0 z-0" style={{ y: bgY, scale: bgScale }}>
-        <img
-          src={IMAGES.heroBg}
-          alt="Luxury black car service driving through Washington DC at night"
-          width={1264}
-          height={848}
-          fetchPriority="high"
-          className="w-full h-full object-cover hero-zoom"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#090A0C] via-[#090A0C]/70 to-[#090A0C]/85" />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#090A0C] via-transparent to-transparent" />
+        <motion.div
+          className="absolute inset-y-0 right-0 w-full lg:w-[62%] hero-car-mask will-change-transform"
+          style={tiltEnabled ? { rotateX: rotX, rotateY: rotY, x: shiftX } : undefined}
+        >
+          <img
+            src={HERO_SRC_LG}
+            srcSet={`${HERO_SRC_SM} 960w, ${HERO_SRC_LG} 1600w`}
+            sizes="(min-width: 1024px) 62vw, 100vw"
+            alt="Black BMW 7 Series sedan from the 92 Limo Service fleet"
+            width={1600}
+            height={1200}
+            fetchPriority="high"
+            decoding="async"
+            className="w-full h-full object-cover object-[64%_50%] lg:object-[34%_58%] hero-settle"
+          />
+          {/* Gold rim light along the roofline + warm floor glow under the car */}
+          <motion.div
+            aria-hidden="true"
+            className="absolute inset-0 hero-rim mix-blend-screen pointer-events-none"
+            style={tiltEnabled ? { "--rim-x": rimX } : undefined}
+          />
+          <div aria-hidden="true" className="absolute inset-0 hero-floor mix-blend-screen pointer-events-none" />
+          {/* One slow showroom light sweep across the paint */}
+          <div aria-hidden="true" className="absolute inset-0 overflow-hidden pointer-events-none">
+            <div className="hero-sweep" />
+          </div>
+        </motion.div>
+        {/* Legibility overlays (same palette as before, lighter on the car side) */}
+        <div className="absolute inset-0 bg-gradient-to-t from-[#090A0C] via-[#090A0C]/35 to-[#090A0C]/70 lg:via-transparent lg:to-[#090A0C]/55" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#090A0C] via-[#090A0C]/60 to-transparent lg:via-[#090A0C]/30" />
       </motion.div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 w-full pt-28 pb-20">

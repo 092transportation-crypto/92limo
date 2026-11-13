@@ -1,13 +1,20 @@
-import { motion } from "framer-motion";
+import { useRef } from "react";
+import { motion, useReducedMotion, useScroll, useTransform } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Phone, ChevronRight } from "lucide-react";
 import { BRAND } from "@/lib/data";
 import { Breadcrumbs } from "@/components/site/Breadcrumbs";
 
 export const PageHero = ({ eyebrow, title, subtitle, image, alt, height = "min-h-[62vh]" }) => {
+  // Subtle parallax on the hero photo (off for prefers-reduced-motion).
+  const ref = useRef(null);
+  const reduceMotion = useReducedMotion();
+  const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
+  const bgY = useTransform(scrollYProgress, [0, 1], ["0%", reduceMotion ? "0%" : "18%"]);
+  const bgScale = useTransform(scrollYProgress, [0, 1], [1, reduceMotion ? 1 : 1.06]);
   return (
-    <section className={`relative ${height} flex items-center overflow-hidden grain`}>
-      <div className="absolute inset-0 z-0">
+    <section ref={ref} className={`relative ${height} flex items-center overflow-hidden grain`}>
+      <motion.div className="absolute inset-0 z-0" style={{ y: bgY, scale: bgScale }}>
         <img
           src={image}
           alt={alt}
@@ -18,7 +25,7 @@ export const PageHero = ({ eyebrow, title, subtitle, image, alt, height = "min-h
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#090A0C] via-[#090A0C]/75 to-[#090A0C]/85" />
         <div className="absolute inset-0 bg-gradient-to-r from-[#090A0C] via-[#090A0C]/40 to-transparent" />
-      </div>
+      </motion.div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 w-full pt-28 pb-16">
         <motion.div

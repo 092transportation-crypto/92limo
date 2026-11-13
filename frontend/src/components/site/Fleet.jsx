@@ -2,6 +2,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { Users, Briefcase, ChevronRight, ChevronLeft, Star } from "lucide-react";
 import { Reveal } from "@/components/site/Reveal";
+import { TiltCard } from "@/components/site/TiltCard";
 import { FLEET } from "@/lib/data";
 
 export const Fleet = ({
@@ -84,11 +85,11 @@ export const Fleet = ({
             className="flex gap-5 overflow-x-auto snap-x snap-mandatory scroll-smooth pb-2 -mx-6 px-6 lg:-mx-8 lg:px-8 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
           >
             {FLEET.map((v, i) => (
-              <div
+              <TiltCard
                 key={v.category}
                 data-fleet-card
                 data-testid={`fleet-card-${i}`}
-                className="group flex-none w-[80%] sm:w-[46%] lg:w-[31.5%] snap-start flex flex-col bg-white border border-black/10 rounded-2xl overflow-hidden shadow-sm hover:-translate-y-1 hover:border-[#C9A227]/60 hover:shadow-xl transition-all duration-300"
+                className="group flex-none w-[80%] sm:w-[46%] lg:w-[31.5%] snap-start flex flex-col bg-white border border-black/10 rounded-2xl overflow-hidden shadow-sm hover:border-[#C9A227]/60 hover:shadow-xl"
               >
                 <div className="relative h-52 overflow-hidden bg-[#0A0A0A]">
                   {v.img ? (
@@ -148,7 +149,7 @@ export const Fleet = ({
                     Book Now <ChevronRight size={16} />
                   </Link>
                 </div>
-              </div>
+              </TiltCard>
             ))}
           </div>
         </Reveal>
