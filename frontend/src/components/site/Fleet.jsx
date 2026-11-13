@@ -82,7 +82,7 @@ export const Fleet = ({
           <div
             ref={scrollerRef}
             data-testid="fleet-scroller"
-            className="flex gap-5 overflow-x-auto snap-x snap-mandatory scroll-smooth pb-2 -mx-6 px-6 lg:-mx-8 lg:px-8 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+            className="flex gap-5 overflow-x-auto snap-x snap-mandatory scroll-px-6 lg:scroll-px-8 scroll-smooth pb-2 -mx-6 px-6 lg:-mx-8 lg:px-8 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
           >
             {FLEET.map((v, i) => (
               <TiltCard

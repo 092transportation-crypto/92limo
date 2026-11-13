@@ -821,8 +821,40 @@ function render(shell, route, content, footer, data) {
         .map((c, i) => `<li>${i === trail.length - 1 ? esc(c.label) : a(c.to, c.label)}</li>`)
         .join("")}</ol></nav>${ldJson(data.breadcrumbSchema(trail))}`
     : "";
-  const main = `<div id="prerender-content">${crumbs}<main>${content.body}</main><footer>${footer}</footer></div>`;
+  // Homepage: render the hero (photo + badge + the page's one <h1> + tagline)
+  // straight from HTML with the same classes as src/components/site/Hero.jsx,
+  // so it paints before the JS bundle loads; React then renders the identical
+  // hero over it. On phones the photo fills the viewport, and Chrome ignores
+  // full-viewport images for LCP, so the headline must be in the HTML for the
+  // LCP to happen at first paint instead of after hydration.
+  let body = content.body;
+  let heroShell = "";
+  if (route === "/") {
+    const H1 = "Luxury Black Car Service in Washington DC, Maryland &amp; Virginia";
+    if (body.includes(`<h1>${H1}</h1>`)) {
+      body = body.replace(`<h1>${H1}</h1>`, ""); // the <h1> moves into the hero below (still exactly one <h1>)
+      heroShell =
+        `<section class="relative min-h-[100svh] flex items-center overflow-hidden bg-[#090A0C]">` +
+        `<div aria-hidden="true" class="absolute inset-0 z-0"><div class="absolute inset-y-0 right-0 w-full lg:w-[62%] hero-car-mask"><img src="/images/site/hero-bmw-7-series-1600.webp" srcset="/images/site/hero-bmw-7-series-960.webp 960w, /images/site/hero-bmw-7-series-1600.webp 1600w" sizes="(min-width: 1024px) 62vw, 100vw" alt="" width="1600" height="1200" fetchpriority="high" class="w-full h-full object-cover object-[64%_50%] lg:object-[34%_58%]"></div>` +
+        `<div class="absolute inset-0 bg-gradient-to-t from-[#090A0C] via-[#090A0C]/35 to-[#090A0C]/70 lg:via-transparent lg:to-[#090A0C]/55"></div><div class="absolute inset-0 bg-gradient-to-r from-[#090A0C] via-[#090A0C]/60 to-transparent lg:via-[#090A0C]/30"></div></div>` +
+        `<div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 w-full pt-28 pb-20"><div class="max-w-3xl">` +
+        `<div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#D4AF37]/40 bg-[#D4AF37]/5 mb-6"><span aria-hidden="true" style="display:inline-block;width:14px;height:14px"></span><span class="text-xs font-semibold tracking-wide text-[#D4AF37]">PREMIER CHAUFFEUR SERVICE · BWI AIRPORT · DC · MD · VA</span></div>` +
+        `<h1 class="text-4xl sm:text-5xl lg:text-6xl font-display font-bold text-white leading-[1.08] tracking-tight">Luxury Black Car Service in <span class="gold-text">Washington DC, Maryland &amp; Virginia</span></h1>` +
+        `<p class="mt-6 text-base sm:text-lg text-neutral-300 max-w-2xl leading-relaxed">Flat-rate, flight-tracked BWI Airport limo and car service, plus corporate travel, hourly chauffeur service, weddings, and long-distance transportation — delivered with precision, discretion, and uncompromising comfort.</p>` +
+        `</div></div></section>`;
+    }
+  }
+  const main = `<div id="prerender-content">${heroShell}${crumbs}<main>${body}</main><footer>${footer}</footer></div>`;
   html = html.replace(/<div id="root">\s*<\/div>/, `<div id="root">${main}</div>`);
+  // Homepage: the hero photo is the LCP element but only exists once React
+  // renders, so tell the browser about it up front. Must match Hero.jsx's
+  // srcSet/sizes so the preloaded file is the one the <img> actually uses.
+  if (route === "/") {
+    html = html.replace(
+      "</head>",
+      `<link rel="preload" as="image" href="/images/site/hero-bmw-7-series-1600.webp" imagesrcset="/images/site/hero-bmw-7-series-960.webp 960w, /images/site/hero-bmw-7-series-1600.webp 1600w" imagesizes="(min-width: 1024px) 62vw, 100vw" fetchpriority="high"></head>`
+    );
+  }
   return html;
 }
 

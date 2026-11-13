@@ -43,8 +43,24 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+/* Metric-matched fallback for Playfair Display: Times New Roman scaled so
+   headings take the same space before the web font arrives. Avoids layout
+   shift on font swap and keeps the prerendered homepage <h1> (painted before
+   the font loads) from being out-sized by React's later copy, which would push
+   LCP back to after hydration. Measured: 116% matches Playfair 700 at both
+   mobile and desktop hero widths. */
+@font-face {
+    font-family: 'Playfair Fallback';
+    src: local('Times New Roman'), local('Times New Roman Bold'), local('TimesNewRomanPS-BoldMT'), local('Times');
+    font-weight: 400 900;
+    size-adjust: 116%;
+    ascent-override: 93.3%;
+    descent-override: 21.6%;
+    line-gap-override: 0%;
+}
+
 h1, h2, h3, .font-display {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Playfair Fallback', serif;
 }
 
 .tabnums {
@@ -108,14 +124,6 @@ h1, h2, h3, .font-display {
         -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 22%, #000 100%);
         mask-image: linear-gradient(to right, transparent 0%, #000 22%, #000 100%);
     }
-}
-/* One-time settle instead of an endless zoom (cheaper, calmer). */
-.hero-settle {
-    animation: heroSettle 1.8s cubic-bezier(0.22, 1, 0.36, 1) both;
-}
-@keyframes heroSettle {
-    from { transform: scale(1.06); }
-    to { transform: scale(1); }
 }
 /* Gold rim light hugging the roofline; --rim-x follows the cursor on desktop. */
 .hero-rim {
@@ -295,7 +303,6 @@ input[type="time"]::-webkit-date-and-time-value {
     }
     .hero-zoom,
     .float-soft,
-    .hero-settle,
     .hero-rim,
     .hero-sweep {
         animation: none !important;

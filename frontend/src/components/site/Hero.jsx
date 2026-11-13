@@ -100,7 +100,7 @@ export const Hero = () => {
             height={1200}
             fetchPriority="high"
             decoding="async"
-            className="w-full h-full object-cover object-[64%_50%] lg:object-[34%_58%] hero-settle"
+            className="w-full h-full object-cover object-[64%_50%] lg:object-[34%_58%]"
           />
           {/* Gold rim light along the roofline + warm floor glow under the car */}
           <motion.div

@@ -142,7 +142,7 @@ export default function CardPage() {
           <h2 className="font-display text-center text-xl font-bold text-white">
             Our <span className="gold-text">Fleet</span>
           </h2>
-          <div className="-mx-5 mt-4 flex snap-x snap-mandatory gap-4 overflow-x-auto px-5 pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+          <div className="-mx-5 mt-4 flex snap-x snap-mandatory scroll-px-5 gap-4 overflow-x-auto px-5 pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
             {FLEET_CARDS.map(({ category, name, pax, bags, img, alt }) => (
               <div
                 key={category}
