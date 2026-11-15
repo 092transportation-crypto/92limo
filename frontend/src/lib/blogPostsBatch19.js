@@ -4211,4 +4211,1832 @@ export const BLOG_POSTS_BATCH19 = [
       },
     ],
   },
+
+  // ---------------------------------------------------------- POST 41
+  {
+    slug: "college-winter-break-campus-pickup-rides-home-guide",
+    title: "College Winter Break Pickups: Bringing Students Home From Campus by Car Service",
+    metaTitle: "College Winter Break Campus Pickups | 92 Limo Service",
+    metaDescription:
+      "Planning a winter break pickup from campus: timing around finals, dorm move-out, luggage, sharing a ride with roommates and choosing a vehicle for the trip.",
+    category: "Family Services",
+    date: "2026-12-10",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Finals end, dorms close, and suddenly a student with a semester's worth of laundry needs a ride home. Here's how to plan a campus pickup that works around exams, roommates and winter weather.",
+    image: "/images/blog/fleet-escalade-1.webp",
+    intro: [
+      "Every December, the same scramble plays out on campuses across Maryland, Virginia, Pennsylvania and beyond. A student finishes the last exam, the residence hall closing date is a day or two away, and somebody has to get them, their bags and often a mini-fridge's worth of belongings home. Parents may be working, the drive may be several hours each way, and winter weather can turn a simple trip into a long day.",
+      "A pre-booked car service is a practical answer for many families. Instead of a parent taking a day off to drive both ways, a chauffeur picks the student up at the dorm and brings them straight home. This guide covers how to time the pickup around finals and move-out, how to handle luggage, how roommates can share a ride, and which vehicle fits the trip.",
+    ],
+    sections: [
+      {
+        heading: "Why Families Book a Car Service for Winter Break",
+        paragraphs: [
+          "For families within driving distance of campus, the alternative is usually a parent driving out and back on a weekday in December, often in the dark on the way home. For students farther away, it can mean a bus or train with too many bags, or a rideshare to an airport followed by a flight. A direct ride from the dorm to the front door removes several of those steps.",
+          "It also helps when exam schedules don't line up with parents' calendars. Finals are rarely on a predictable day, and a student who finishes on a Wednesday afternoon may not want to wait until the weekend for a ride. A car service can be booked around the exam schedule rather than around a parent's work week.",
+        ],
+      },
+      {
+        heading: "Timing the Pickup Around Finals and Move-Out",
+        paragraphs: [
+          "Start with two dates: the student's last exam and the date the residence hall closes for break. Most schools publish both well in advance, and students can usually see their exam times in their course portal. Plan the pickup for after the last exam with some breathing room, since students often need a few hours to pack, clean the room and check out with residence staff.",
+          "Avoid booking for the very last hours before the halls close if you can. Those afternoons are the busiest of the semester around campus, with parents' cars and moving carts competing for the same curb space. A pickup the morning after the last exam is often calmer than one an hour before closing.",
+          "If a student's plans change, such as an exam moving or a decision to stay an extra night with friends, let us know as soon as possible. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations, up to 12 hours before.",
+        ],
+      },
+      {
+        heading: "Pickup Logistics on Campus",
+        paragraphs: [
+          "Campuses can be confusing for anyone who doesn't know them, and many have restricted roads, permit-only lots and pedestrian zones. When you book, give us the name of the residence hall and the street address if the school publishes one, and tell the student to watch for a call or text from the chauffeur as the vehicle approaches.",
+          "A good plan is to agree on a meeting point that a vehicle can legally reach, such as a loading area, a visitor drop-off circle or the nearest public street. The student can bring bags down in stages while the chauffeur waits nearby. Non-airport pickups include 15 minutes of complimentary waiting time; if packing is going to take longer, tell us in advance so we can build it into the booking.",
+        ],
+      },
+      {
+        heading: "Luggage: Plan for More Than You Think",
+        paragraphs: [
+          "Winter break luggage is rarely just a suitcase. Students bring home laundry bags, coats, boots, laptops, gaming consoles and holiday gifts, and some take larger items home for the month. Before you book, ask the student to count the bags and describe anything oversized, so we can recommend a vehicle with enough room.",
+        ],
+        list: [
+          "Pack soft bags where possible, since they fit more easily around suitcases",
+          "Keep laptops, chargers, medications and IDs in a carry-on that stays with the student",
+          "Leave bulky items that aren't needed over break in campus storage if the school allows it",
+          "Label boxes clearly if two students are sharing the ride and splitting stops",
+          "Mention any item that won't fit in a standard trunk when you request a quote",
+        ],
+      },
+      {
+        heading: "Sharing a Ride With Roommates and Friends",
+        paragraphs: [
+          "Students from the same area often finish exams around the same time, and sharing one larger vehicle can make sense. Two or three friends heading to neighboring towns can ride together in an SUV, with drop-offs planned in order along the route. A larger group from the same dorm floor can travel together in a Sprinter.",
+          "For shared rides, agree on the pickup time in advance and make sure everyone is packed and ready, because one late roommate delays everyone. Tell us every drop-off address when you book so we can plan the route and quote the trip accurately.",
+        ],
+      },
+      {
+        heading: "Longer Trips and Out-of-State Campuses",
+        paragraphs: [
+          "Many students in our area attend school a few hours away, at campuses in Pennsylvania, Virginia, Delaware and elsewhere along the East Coast. Our long-distance transportation service covers trips like these in a private vehicle, and the chauffeur handles the drive while the student rests after finals.",
+          "For long trips in December, keep an eye on the forecast for both ends of the route. Mountain and rural roads can be affected by snow and ice when the city is clear. If a storm is coming, moving the pickup a day earlier or later is often the safest choice, and we'll work with you on timing.",
+        ],
+      },
+      {
+        heading: "When the Student Is Flying Instead",
+        paragraphs: [
+          "If home is farther away, the trip may involve a flight from BWI, Reagan National or Dulles. We can handle the campus-to-airport leg for students at local schools, and the airport-to-home leg for students flying in. Airport pickups include 45 minutes of complimentary waiting on domestic arrivals and 60 minutes on international arrivals, timed from the flight's actual landing.",
+          "Share the flight number when you book, and make sure the student has the confirmation and the chauffeur's contact details on their phone before they leave campus.",
+        ],
+      },
+      {
+        heading: "Booking on Behalf of a Student",
+        paragraphs: [
+          "Most winter break pickups are arranged by a parent rather than the student. When you book, give us the student's mobile number as well as your own, and we'll send the confirmation and chauffeur details to whoever needs them. Payment can be handled by the parent at the time of booking, so the student doesn't need to deal with it on the day.",
+          "It's also worth booking the return trip in January at the same time. Spring semester start dates are fixed early, and having the ride back to campus arranged takes one more thing off the list.",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle",
+        paragraphs: [
+          "Count passengers and bags together. These are the vehicles in our fleet and their capacity:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers, best for one student with a couple of suitcases",
+          "Lincoln Nautilus: up to three passengers with luggage, or four without",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with luggage, or six without, the usual choice for a semester's worth of bags",
+          "Mercedes Sprinter Shuttle or Sprinter Executive: up to thirteen passengers, for a group of friends from the same dorm heading the same way",
+        ],
+      },
+      {
+        heading: "Booking Your Winter Break Pickup",
+        paragraphs: [
+          "When you request a quote, share the campus and residence hall, the pickup date and preferred time, every drop-off address, the number of students and a rough count of bags. We'll recommend a vehicle and confirm the details.",
+          "Request a quote through our online booking form or call (877) 609-1919. The days right after finals are busy, so book as soon as the exam schedule is set.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "University of Maryland Transportation", to: "/university-of-maryland-transportation" },
+      { label: "Long-Distance Transportation", to: "/long-distance-transportation" },
+      { label: "Johns Hopkins University Car Service", to: "/johns-hopkins-university-car-service" },
+      { label: "Limo Service for UMD Families", to: "/blog/limo-service-umd-college-park-students-parents" },
+      { label: "Christmas Week Airport Travel", to: "/blog/christmas-week-airport-travel-bwi-dca-iad-car-service-guide" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "Can you pick up a college student from campus for winter break?",
+        a: "Yes. We pick students up at or near their residence hall and drive them home, including longer trips to and from campuses in neighboring states.",
+      },
+      {
+        q: "When should we schedule the pickup?",
+        a: "After the student's last exam, with a few hours to pack and check out. Avoid the final hours before the residence hall closes, when campus traffic is heaviest.",
+      },
+      {
+        q: "Can roommates share the ride?",
+        a: "Yes. Friends heading the same way can share an SUV or a Sprinter, with drop-offs planned in order. Give us every address when you book.",
+      },
+      {
+        q: "Which vehicle holds a semester's worth of luggage?",
+        a: "A Chevrolet Suburban or Lincoln Navigator carries up to five passengers with luggage and is the most common choice for winter break pickups.",
+      },
+      {
+        q: "Can a parent book and pay for the ride?",
+        a: "Yes. Book with both your number and the student's, and we'll send the confirmation and chauffeur details to both of you.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 42
+  {
+    slug: "zoolights-national-zoo-holiday-visit-transportation-guide",
+    title: "ZooLights at the National Zoo: Planning a Holiday Evening in Woodley Park",
+    metaTitle: "ZooLights at the National Zoo Visit Guide | 92 Limo",
+    metaDescription:
+      "Visiting ZooLights at the Smithsonian's National Zoo: when to go, what to wear, why parking is tight and how a chauffeured ride makes the evening easier.",
+    category: "Local Guides",
+    date: "2026-12-11",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "ZooLights fills the Smithsonian's National Zoo with holiday lights every winter. Here's how to plan the evening, from timing your visit to getting home without hunting for a parking space.",
+    image: "/images/blog/landmark-capitol-2.webp",
+    intro: [
+      "ZooLights is one of Washington's best-known holiday traditions. Each winter, the Smithsonian's National Zoo in the Woodley Park neighborhood stays open after dark and its paths are lined with light displays, many of them shaped like the animals that live there. It's a walking event, popular with families, couples and groups of friends, and it draws large crowds on December evenings.",
+      "The Zoo sets the season's dates, hours and entry rules each year, and those details have changed from season to season, so always check the National Zoo's website before you go. This guide focuses on the practical side: when to visit, how to dress, the parking situation and how to get there and home comfortably.",
+    ],
+    sections: [
+      {
+        heading: "What to Expect at ZooLights",
+        paragraphs: [
+          "The National Zoo sits on a hillside along Connecticut Avenue NW, between Woodley Park and Cleveland Park, with Rock Creek Park on its far side. During ZooLights, the main walkways are lit after dark, and visitors stroll through the grounds at their own pace. Some animal houses may be open in the evening, and there are usually food and drink stands along the way.",
+          "The Zoo's main path runs downhill from the Connecticut Avenue entrance toward Rock Creek, which means the return walk is uphill. Keep that in mind if you're visiting with grandparents or young children. Planning a pickup at the main entrance at a set time, rather than a long walk back to a distant car, makes the end of the evening much easier.",
+        ],
+      },
+      {
+        heading: "When to Visit",
+        paragraphs: [
+          "Weeknights are generally the quietest, especially earlier in the season. Friday and Saturday evenings and the days between Christmas and New Year's draw the biggest crowds. ZooLights is typically closed on certain holiday nights, so confirm your date on the Zoo's calendar before booking anything else.",
+          "Arriving right as the lights come on lets you see the displays before the paths fill up. If you'd like to combine ZooLights with dinner, many visitors eat first in Woodley Park or Cleveland Park and visit afterward, or the other way around. Either works, and we'll plan the timing with you.",
+          "Because it's an outdoor event, the weather matters. Check the forecast and the Zoo's announcements on the day, since the event may close for severe weather. If your plans change, let us know as soon as you can.",
+        ],
+      },
+      {
+        heading: "Parking and Getting There",
+        paragraphs: [
+          "Parking at the Zoo is limited, and the lots can fill on busy evenings. Connecticut Avenue is a major commuter route, and the stretch near the Zoo slows down in the evening rush. The nearest Metro stations are on the Red Line, but both involve a walk to the entrance, and the walk from Woodley Park is uphill.",
+          "A chauffeured ride solves those problems. Your chauffeur drops you at the main entrance on Connecticut Avenue and meets you there again at an agreed time, or stays nearby on an hourly booking so you can call when you're ready. There's no circling for a space, no paying for parking and no long walk back in the cold.",
+        ],
+      },
+      {
+        heading: "Dressing for a Winter Night at the Zoo",
+        paragraphs: [
+          "You'll be outside for most of the visit, walking on hilly paths, so comfortable, warm footwear is the most important thing. A few more tips:",
+        ],
+        list: [
+          "Wear layers, a hat and gloves; the hillside can feel colder and windier than the city streets",
+          "Choose shoes with good grip in case paths are wet",
+          "Bring a stroller or carrier for small children, since the full loop is a long walk for little legs",
+          "Keep bags light and leave shopping or extra coats in the vehicle",
+          "Charge your phone before you leave home, as cold weather drains batteries",
+        ],
+      },
+      {
+        heading: "Making It a Full Evening in Northwest DC",
+        paragraphs: [
+          "Woodley Park and Cleveland Park both have restaurants within a short drive of the Zoo, and Adams Morgan and Dupont Circle are close by for more options. Some families pair ZooLights with a visit to the National Christmas Tree near the White House, or with a drive past the lights downtown, on the same evening.",
+          "If you'd like to add stops, tell us when you book. An hourly reservation is usually the simplest way to plan a multi-stop evening, because the vehicle stays with you and you don't need to arrange separate rides. Hourly service has a minimum number of hours, which we'll confirm with your quote.",
+        ],
+      },
+      {
+        heading: "Visiting With a Group",
+        paragraphs: [
+          "ZooLights is a popular outing for scout troops, school groups, office teams and extended families. Groups can be hard to keep together on crowded paths and on public transportation, so one larger vehicle that brings everyone to the gate at the same time helps a lot.",
+          "For up to thirteen people, a Mercedes Sprinter carries the whole group. For larger groups, two or more Sprinters can travel together. Agree on a meeting point and time inside the Zoo before you split up, in case phones are busy or batteries run low.",
+        ],
+      },
+      {
+        heading: "Visiting With Young Children",
+        paragraphs: [
+          "ZooLights is a favorite with young children, but a long walk on a cold evening can be tiring for them. Plan a shorter route through the displays they'll enjoy most, and build in a stop for a warm drink or a snack. A stroller is useful even for children who usually walk, since the return trip to the entrance is uphill.",
+          "Arriving early in the evening also helps with bedtimes. A chauffeured ride home means children can fall asleep in the back seat, and parents don't have to carry them across a dark parking lot. If you need a child car seat, mention it when you book so we can plan for it.",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle",
+        paragraphs: [
+          "These are the vehicles in our fleet and how many passengers each one carries:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers, ideal for a couple's evening out",
+          "Lincoln Nautilus: up to three passengers with luggage, or four without",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with luggage, or six without, a good choice for a family with a stroller",
+          "Mercedes Sprinter Executive: up to thirteen passengers, with an upgraded interior for a celebration",
+          "Mercedes Sprinter Shuttle: up to thirteen passengers, practical for school, scout and office groups",
+        ],
+      },
+      {
+        heading: "Booking Your Ride to ZooLights",
+        paragraphs: [
+          "When you request a quote, share your pickup address, the date, the time you'd like to arrive, the number of passengers and any dinner or other stops. We'll recommend a vehicle and confirm the plan. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations and group or multi-vehicle bookings, up to 12 hours before.",
+          "Request a quote through our online booking form or call (877) 609-1919. December weekends book up quickly, so reserve early once you've picked a date.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "Washington, DC Limo Service", to: "/washington-dc-limo-service" },
+      { label: "Hourly Car Service in DC", to: "/hourly-car-service-dc" },
+      { label: "Adams Morgan Limo Service", to: "/adams-morgan-limo-service" },
+      { label: "Holiday Lights Limo Tours", to: "/holiday-lights-limo-tours-maryland-dc-virginia" },
+      { label: "Outdoor Ice Skating Rinks", to: "/blog/outdoor-ice-skating-rinks-dc-maryland-virginia-winter-night-out" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "Where is ZooLights held?",
+        a: "At the Smithsonian's National Zoo on Connecticut Avenue NW, between Woodley Park and Cleveland Park in Washington, DC.",
+      },
+      {
+        q: "When does ZooLights run?",
+        a: "It runs on winter evenings during the holiday season, with some holiday nights closed. The Zoo sets dates, hours and entry rules each year, so check its website before you go.",
+      },
+      {
+        q: "Is parking available at the Zoo?",
+        a: "Parking is limited and can fill on busy nights. A chauffeured ride drops you at the main entrance and picks you up there afterward, so you don't need a space.",
+      },
+      {
+        q: "Can the chauffeur wait while we walk the lights?",
+        a: "Yes. On an hourly booking the vehicle stays nearby and you call when you're ready. Hourly service has a minimum number of hours, confirmed with your quote.",
+      },
+      {
+        q: "What vehicle works for a school or scout group?",
+        a: "A Mercedes Sprinter carries up to thirteen passengers. Larger groups can travel in two or more Sprinters arriving together.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 43
+  {
+    slug: "national-christmas-tree-ellipse-holiday-visit-guide",
+    title: "Visiting the National Christmas Tree on the Ellipse: A Practical Guide for Families and Groups",
+    metaTitle: "National Christmas Tree Visit Guide | 92 Limo Service",
+    metaDescription:
+      "Visiting the National Christmas Tree on the Ellipse in DC: when to go, security and crowds, nearby holiday stops and how a chauffeured ride makes it easy.",
+    category: "Local Guides",
+    date: "2026-12-12",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "The National Christmas Tree on the Ellipse is a short walk from the White House and one of the capital's oldest holiday traditions. Here's how to plan a visit without battling downtown traffic and parking.",
+    image: "/images/blog/landmark-capitol-1.webp",
+    intro: [
+      "The National Christmas Tree stands on the Ellipse in President's Park, just south of the White House. The tradition of lighting a national tree goes back to the 1920s, and today the tree is surrounded by smaller trees representing the states, territories and the District of Columbia, along with other seasonal displays. It's free to visit, and on December evenings the area is busy with families, school groups and visitors from around the country.",
+      "The lighting ceremony itself is a ticketed event held early in the season, but the tree and the surrounding displays stay up for weeks afterward. This guide focuses on visiting during that period: when to go, what to expect around the White House area, nearby stops and how to get downtown and home without driving yourself.",
+    ],
+    sections: [
+      {
+        heading: "What You'll See",
+        paragraphs: [
+          "The centerpiece is the large tree itself, lit each evening. Around it, the smaller decorated trees each represent a state, territory or the District, and visitors often hunt for their home state's tree and take a photo in front of it. The displays have changed over the years, so check the National Park Service and the event's official website for what's planned this season.",
+          "From the Ellipse, you can see the south side of the White House and the Washington Monument, which makes it a natural starting point for an evening tour of the monuments. The area is open and exposed to the wind, so it can feel noticeably colder than the forecast suggests.",
+        ],
+      },
+      {
+        heading: "When to Go",
+        paragraphs: [
+          "Evenings are the most popular time because the tree is lit, and weekends are busiest. A weeknight visit, especially earlier in the evening, usually means smaller crowds and easier photos. The week between Christmas and New Year's brings many out-of-town visitors, so expect more people then.",
+          "Hours, access and any special programming are set by the National Park Service and the event's organizers. Security rules around President's Park can also change at short notice, and parts of the area may be closed for events or security reasons. Check official announcements on the day you plan to go.",
+        ],
+      },
+      {
+        heading: "Traffic, Parking and Security Downtown",
+        paragraphs: [
+          "Parking near the White House is very limited, and some streets in the area are closed to traffic or restricted. Street parking downtown fills quickly on December evenings, and garages can be a long walk away. Add holiday shoppers and theatergoers, and driving yourself downtown on a December weekend can take longer than the visit itself.",
+          "A chauffeured ride lets you skip that. Your chauffeur drops you as close to the Ellipse as current traffic rules allow, then meets you at an agreed spot afterward. Because streets near the White House can close without much warning, a chauffeur who drives downtown regularly can adjust the drop-off and pickup points as needed.",
+        ],
+      },
+      {
+        heading: "Building an Evening Around the Tree",
+        paragraphs: [
+          "Many visitors make the tree one stop on a longer holiday evening. A few ideas within a short drive:",
+        ],
+        list: [
+          "The Washington Monument, Lincoln Memorial and World War II Memorial, which are lit at night",
+          "Holiday markets and seasonal shops downtown and in Penn Quarter",
+          "Outdoor ice skating at one of the downtown rinks",
+          "The Capitol Christmas Tree on the West Front of the U.S. Capitol",
+          "Dinner downtown, in Penn Quarter or in Georgetown",
+        ],
+      },
+      {
+        heading: "Why Hourly Service Works Well Here",
+        paragraphs: [
+          "Downtown DC is spread out, and the distances between the monuments, the Ellipse and restaurants are farther than they look on a map, especially on a cold evening with children. An hourly booking keeps your vehicle and chauffeur with you, so you can move from stop to stop without waiting for rides or walking long distances between them.",
+          "Hourly service has a minimum number of hours, which we'll confirm with your quote. If you only want to go to the tree and back, a simple drop-off and pickup at set times works too. Non-airport pickups include 15 minutes of complimentary waiting time.",
+        ],
+      },
+      {
+        heading: "Tips for Families and Groups",
+        paragraphs: [
+          "Dress warmly, with hats and gloves, and wear comfortable shoes, since you'll be on your feet on gravel and paved paths. Bring a stroller for young children. Expect to pass through security or encounter restricted areas near the White House, and keep bags small.",
+          "For school, church or scout groups, agree on a meeting point near the tree before you split up. One larger vehicle keeps the group together on the way in and out. A Mercedes Sprinter carries up to thirteen passengers, and larger groups can travel in two or more Sprinters.",
+        ],
+      },
+      {
+        heading: "Showing Holiday Visitors Around DC",
+        paragraphs: [
+          "The National Christmas Tree is a natural stop when family or friends are visiting for the holidays. Many visitors want to see the White House, the Capitol and the monuments while they're in town, and December evenings are a beautiful time to do it, with the monuments lit and fewer crowds than in spring.",
+          "A chauffeured evening tour lets your guests see the highlights without navigating unfamiliar streets or dealing with parking. Your chauffeur can plan the order of stops based on traffic and road closures, so the evening flows from one sight to the next. If your visitors are staying at a hotel downtown or in the suburbs, we can pick them up there and drop them back at the end of the night.",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle",
+        paragraphs: [
+          "These are the vehicles in our fleet and how many passengers each one carries:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers",
+          "Lincoln Nautilus: up to three passengers with luggage, or four without",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with luggage, or six without, good for a family with a stroller",
+          "Mercedes Sprinter Shuttle or Sprinter Executive: up to thirteen passengers, for school, church and office groups",
+        ],
+      },
+      {
+        heading: "Booking Your Ride",
+        paragraphs: [
+          "When you request a quote, share your pickup address, the date and time, the number of passengers, and whether you'd like a simple round trip or an hourly evening with several stops. We'll recommend a vehicle and confirm the plan. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations and group or multi-vehicle bookings, up to 12 hours before.",
+          "Request a quote through our online booking form or call (877) 609-1919. December weekend evenings are popular, so book early.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "Chauffeur Service in Washington, DC", to: "/chauffeur-service-washington-dc" },
+      { label: "Hourly Car Service in DC", to: "/hourly-car-service-dc" },
+      { label: "DC Monuments at Night Tour", to: "/blog/washington-dc-monuments-at-night-chauffeur-tour-guide" },
+      { label: "Downtown DC Holiday Market", to: "/blog/downtown-dc-holiday-market-penn-quarter-visit-guide" },
+      { label: "US Botanic Garden Holiday Exhibit", to: "/blog/us-botanic-garden-holiday-exhibit-capitol-hill-visit-guide" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "Where is the National Christmas Tree?",
+        a: "On the Ellipse in President's Park, just south of the White House in Washington, DC.",
+      },
+      {
+        q: "Do I need a ticket to see the tree?",
+        a: "Tickets are for the lighting ceremony early in the season. Visiting the tree afterward is generally free; check the National Park Service for current access rules.",
+      },
+      {
+        q: "Is there parking near the Ellipse?",
+        a: "Parking is very limited and some streets near the White House are restricted. A chauffeured ride drops you as close as current rules allow and picks you up afterward.",
+      },
+      {
+        q: "Can we visit several holiday sights in one evening?",
+        a: "Yes. An hourly booking keeps the vehicle with you so you can add the monuments, a holiday market or dinner. Hourly service has a minimum, confirmed with your quote.",
+      },
+      {
+        q: "What vehicle fits a school or church group?",
+        a: "A Mercedes Sprinter carries up to thirteen passengers. Larger groups can travel in two or more Sprinters together.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 44
+  {
+    slug: "little-italy-baltimore-holiday-dinner-car-service-guide",
+    title: "Little Italy Baltimore at the Holidays: Planning a Family Dinner Out Without the Parking Hunt",
+    metaTitle: "Little Italy Baltimore Holiday Dinner Guide | 92 Limo",
+    metaDescription:
+      "Planning a holiday dinner in Baltimore's Little Italy: reservations, Christmas Eve traditions, parking on narrow streets and getting your family there and home.",
+    category: "Local Guides",
+    date: "2026-12-13",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "For many Baltimore families, December means a big Italian dinner in Little Italy. Here's how to plan the night, from reservations to getting everyone there and home without circling the block.",
+    image: "/images/blog/landmark-baltimore-2.webp",
+    intro: [
+      "Baltimore's Little Italy is a compact neighborhood of rowhouses, family-run restaurants and bakeries just east of the Inner Harbor, between President Street and Harbor East. It has been the center of the city's Italian-American community for generations, and for many local families it's where holiday dinners happen, whether that's a December night out with friends, a company dinner or a multi-generation family meal.",
+      "Its narrow streets are part of its charm, but they also make parking and large-group logistics tricky in December. This guide covers how to plan a holiday dinner in Little Italy, including reservations, the Christmas Eve tradition many restaurants are known for, and how to get your group there and home comfortably.",
+    ],
+    sections: [
+      {
+        heading: "Why Little Italy Is a Holiday Favorite",
+        paragraphs: [
+          "Little Italy's restaurants range from small, long-established dining rooms to larger places that can host private parties. Many families have a favorite they return to every year, and the neighborhood's bakeries and pastry shops are a popular stop for holiday desserts and cookie trays. St. Leo the Great Church, a landmark of the neighborhood, has long been at the heart of its community life.",
+          "The neighborhood is also close to other December attractions. The Inner Harbor, Harbor East and Fells Point are all within a few minutes' drive, so it's easy to pair dinner with holiday shopping, a walk along the waterfront or a visit to the city's seasonal markets.",
+        ],
+      },
+      {
+        heading: "Christmas Eve and the Feast of the Seven Fishes",
+        paragraphs: [
+          "Many Italian-American families celebrate Christmas Eve with a seafood dinner often called the Feast of the Seven Fishes. Some Little Italy restaurants offer special menus or seatings around the holiday, and they can book up well in advance. If you're hoping to celebrate this way, contact the restaurant early to ask what they're planning this year and whether they take reservations for larger parties.",
+          "Christmas Eve is also one of the busiest nights for transportation, with families moving between church services, dinners and relatives' homes. If your evening includes Mass or a church service as well as dinner, tell us both times when you book, and we'll plan the route between them.",
+        ],
+      },
+      {
+        heading: "Reservations for Large Family Groups",
+        paragraphs: [
+          "Holiday dinners often mean big tables, and many restaurants in the neighborhood have limited space. Call well ahead for parties of eight or more, ask about private rooms, and confirm any set menus or deposit rules. Weeknights in early December are usually easier to book than the weekends right before Christmas.",
+          "Once the reservation is set, plan transportation around it. Ask how long the restaurant expects a large party to take, and allow extra time for dessert and goodbyes, which always run long at a family dinner.",
+        ],
+      },
+      {
+        heading: "Parking and Getting There",
+        paragraphs: [
+          "Little Italy's streets are narrow, many are one-way, and street parking is scarce on busy evenings. Nearby garages in Harbor East and around the Inner Harbor can fill on December weekends, and walking several blocks in the cold isn't ideal for older relatives or young children.",
+          "A chauffeured ride drops everyone at the restaurant door and picks them up there afterward. That's especially helpful for grandparents, anyone using a cane or walker, and families with small children. It also means nobody in the family has to stay sober to drive home after a celebratory dinner with wine.",
+        ],
+      },
+      {
+        heading: "Bringing Family From Different Places",
+        paragraphs: [
+          "Holiday dinners often bring together relatives from different parts of the region, such as grandparents in Towson, cousins in Columbia and visitors staying at a downtown hotel. We can plan pickups at several addresses on the way in and drop-offs on the way out, so the whole family arrives together.",
+          "If relatives are flying in for the holidays, we can also pick them up at BWI, Reagan National or Dulles and bring them to the hotel or straight to dinner. Airport pickups include 45 minutes of complimentary waiting on domestic arrivals and 60 minutes on international arrivals, timed from actual landing.",
+        ],
+      },
+      {
+        heading: "Turning Dinner Into a Holiday Evening",
+        paragraphs: [
+          "Little Italy is a good base for a longer December evening in Baltimore. A few ideas nearby:",
+        ],
+        list: [
+          "A stroll along the Inner Harbor promenade to see the holiday decorations",
+          "Seasonal markets and shopping in Harbor East",
+          "Dessert or coffee in Fells Point",
+          "A drive past holiday light displays in Baltimore neighborhoods",
+          "A show downtown before or after dinner",
+        ],
+      },
+      {
+        heading: "Office Parties and Group Dinners",
+        paragraphs: [
+          "Little Italy is also a popular choice for December office dinners and gatherings of friends. Several restaurants have private rooms or can reserve a section for a group, and a family-style Italian meal suits a team celebration well. Book early, since private rooms are in high demand in the weeks before Christmas.",
+          "For a team dinner, one larger vehicle from the office keeps everyone together and arriving on time. A Mercedes Sprinter carries up to thirteen people, and larger groups can travel in two or more Sprinters. At the end of the evening, we can plan drop-offs at several homes or take the group back to the office, so nobody has to drive after the celebration. If the rides are a company expense, tell us what your accounting team needs on the receipt.",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle",
+        paragraphs: [
+          "These are the vehicles in our fleet and how many passengers each one carries:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers, ideal for a couple's dinner",
+          "Lincoln Nautilus: up to three passengers with luggage, or four without",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with luggage, or six without, a good fit for a family of five or six",
+          "Mercedes Sprinter Executive: up to thirteen passengers, with an upgraded interior for a family celebration",
+          "Mercedes Sprinter Shuttle: up to thirteen passengers, practical for office dinners and larger family groups",
+        ],
+      },
+      {
+        heading: "Booking Your Ride",
+        paragraphs: [
+          "When you request a quote, share every pickup address, the restaurant and reservation time, the number of passengers, and any other stops such as a church service or a relative's home. We'll recommend a vehicle and confirm the timing. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations and special-event bookings, up to 12 hours before.",
+          "Request a quote through our online booking form or call (877) 609-1919. Christmas Eve and the weekends before Christmas fill early, so book as soon as your reservation is confirmed.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "Baltimore Limo Service", to: "/baltimore-limo-service" },
+      { label: "Car Service Near the Inner Harbor", to: "/limo-service-near-baltimore-inner-harbor" },
+      { label: "Christmas Village in Baltimore", to: "/blog/christmas-village-baltimore-inner-harbor-holiday-visit-guide" },
+      { label: "Canton & Fells Point Nightlife", to: "/blog/canton-fells-point-baltimore-nightlife-car-service" },
+      { label: "Christmas Eve Church Service Rides", to: "/blog/christmas-eve-christmas-day-church-services-rides-maryland-dc-virginia" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "Where is Little Italy in Baltimore?",
+        a: "Just east of the Inner Harbor, between President Street and Harbor East, a few minutes from Fells Point.",
+      },
+      {
+        q: "Do Little Italy restaurants offer a Feast of the Seven Fishes?",
+        a: "Some restaurants offer special menus around Christmas Eve. Plans change each year, so contact the restaurant directly and reserve early.",
+      },
+      {
+        q: "Is parking hard in Little Italy?",
+        a: "Streets are narrow and street parking is scarce on busy nights. A chauffeured ride drops your group at the door and picks you up afterward.",
+      },
+      {
+        q: "Can you pick up relatives from different addresses?",
+        a: "Yes. We can plan several pickups on the way to dinner and several drop-offs afterward. Share every address when you book.",
+      },
+      {
+        q: "What vehicle fits a big family dinner?",
+        a: "A Mercedes Sprinter carries up to thirteen passengers. A Chevrolet Suburban or Lincoln Navigator carries up to six without luggage.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 45
+  {
+    slug: "virginia-ski-trip-massanutten-bryce-wintergreen-from-maryland-dc",
+    title: "Virginia Ski Trips From Maryland and DC: Massanutten, Bryce and Wintergreen by Chauffeur",
+    metaTitle: "Virginia Ski Trips: Massanutten, Bryce & Wintergreen | 92 Limo",
+    metaDescription:
+      "Planning a ski trip to Massanutten, Bryce or Wintergreen from Maryland or DC: drive times, winter roads, gear, group sizes and chauffeured transportation.",
+    category: "Day Trips",
+    date: "2026-12-14",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Virginia's ski areas are a realistic weekend trip from Maryland and DC. Here's how to plan the drive, the gear and the group, and why letting a chauffeur handle the mountain roads makes sense.",
+    image: "/images/blog/fleet-sprinter-2.webp",
+    intro: [
+      "When people in Maryland and DC think of skiing, they often think of the Pennsylvania resorts or western Maryland. But Virginia has its own ski areas within reach of the region, including Bryce Resort in the Shenandoah Valley, Massanutten Resort near Harrisonburg and Wintergreen Resort in the Blue Ridge Mountains of Nelson County. Each makes a good weekend trip, and some families and groups visit several times each winter.",
+      "Getting there means a few hours on the interstate followed by rural and mountain roads, often in winter conditions. This guide covers what to expect from each area, how to plan the drive and the timing, and how chauffeured transportation can make a ski weekend easier for families and groups.",
+    ],
+    sections: [
+      {
+        heading: "The Three Resorts at a Glance",
+        paragraphs: [
+          "Bryce Resort sits in Basye, in Shenandoah County, and is typically the closest of the three to the DC area. It's a smaller, family-friendly mountain that's popular for lessons and first ski trips.",
+          "Massanutten Resort is near McGaheysville, east of Harrisonburg in the Shenandoah Valley. It's a large four-season resort with lodging, and in addition to skiing and snow tubing it is known for its indoor water park, which makes it a good choice for families with mixed interests.",
+          "Wintergreen Resort is farther south, in the Blue Ridge Mountains west of Charlottesville. The resort village sits at the top of the mountain, and the road up is steep and winding, which is something to plan for in winter.",
+          "Terrain, lift tickets, lodging, rentals and operating dates change from season to season, and snow conditions vary week to week. Check each resort's website for current information before you book.",
+        ],
+      },
+      {
+        heading: "Drive Times and Timing",
+        paragraphs: [
+          "From the Washington area, Bryce and Massanutten are typically a drive of around two to three hours, depending on your starting point, while Wintergreen usually takes longer. From Baltimore and the northern Maryland suburbs, add more time. Holiday weekends, Friday evenings and Sunday afternoons bring heavier traffic on I-66 and I-81, and winter weather can slow things further.",
+          "For a weekend trip, many groups leave on Friday after work or early Saturday morning and return on Sunday afternoon. If you want a full first day on the slopes, an early morning departure is common. We'll set the pickup time around your plans and the forecast.",
+        ],
+      },
+      {
+        heading: "Why Let Someone Else Drive the Mountain Roads",
+        paragraphs: [
+          "The interstate part of the trip is straightforward in good weather. The last stretch is not always. Mountain roads leading to ski areas can be steep, curvy and slick, and conditions can change quickly as you gain elevation. After a full day of skiing, many people would rather not drive those roads in the dark.",
+          "A chauffeur handles the driving there and back, so everyone in the group can rest, eat, or sleep after a day on the mountain. Keep an eye on the forecast during the week, and if a storm is coming, we'll talk with you about adjusting the departure time for safety.",
+        ],
+      },
+      {
+        heading: "Planning for Gear",
+        paragraphs: [
+          "Ski and snowboard gear takes up a lot of room. Before you book, count the people, the bags and the equipment, and tell us about it. Many visitors rent skis or boards at the resort to keep the load down; others bring their own. Either way, a few tips help:",
+        ],
+        list: [
+          "Pack skis and boards in bags to protect the vehicle interior and other luggage",
+          "Keep helmets, goggles and gloves in one duffel per person so nothing is left behind",
+          "Bring a change of dry clothes and shoes for the ride home",
+          "Put boots in a separate bag, since they're bulky and often wet",
+          "Tell us about all equipment when you request a quote so we can recommend the right vehicle",
+        ],
+      },
+      {
+        heading: "Family Weekends and Group Trips",
+        paragraphs: [
+          "Ski weekends work well for families, groups of friends, school and church groups and company outings. For a family, an SUV usually has room for people and luggage, and gear can be rented at the resort to save space. For larger groups, a Sprinter keeps everyone together and leaves room for equipment, depending on how much the group brings.",
+          "If your group is staying at the resort, we can drop everyone at the lodge on arrival day and pick them up again at checkout. If you're staying off the mountain and need daily rides to the slopes, let us know and we'll quote the trip accordingly.",
+        ],
+      },
+      {
+        heading: "Day Trips vs. Weekends",
+        paragraphs: [
+          "A day trip to the nearest Virginia ski area is possible, but it makes for a long day, with several hours in the vehicle on top of skiing. For most families, an overnight stay makes the trip more relaxed. For groups set on a day trip, an early departure and a planned return time help everyone get the most out of the day without rushing.",
+          "If you're mainly interested in a quick day of skiing or snow tubing, the closer resorts in southern Pennsylvania may be a shorter drive from much of Maryland. We've covered those in a separate guide, along with western Maryland's Wisp and Pennsylvania's Seven Springs.",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle",
+        paragraphs: [
+          "Ski gear changes the math, so count bags and equipment as well as passengers. These are the vehicles in our fleet and their capacity:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers, best for a couple renting gear at the resort",
+          "Lincoln Nautilus: up to three passengers with luggage, or four without",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with luggage, or six without, the usual choice for a family ski weekend",
+          "Mercedes Sprinter Shuttle or Sprinter Executive: up to thirteen passengers, for larger groups, with space for gear depending on how much the group brings",
+        ],
+      },
+      {
+        heading: "Booking Your Ski Trip Transportation",
+        paragraphs: [
+          "When you request a quote, share your pickup address, the resort, your travel dates and times, the number of passengers, and a count of bags and equipment. We'll recommend a vehicle and confirm the details. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations and group trips, up to 12 hours before.",
+          "Request a quote through our online booking form or call (877) 609-1919. Holiday weekends and January Saturdays are popular, so book early once you have lodging confirmed.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "Long-Distance Transportation", to: "/long-distance-transportation" },
+      { label: "Executive Car Service in Virginia", to: "/executive-car-service-virginia" },
+      { label: "Sprinter Van Rental in Maryland", to: "/sprinter-van-rental-maryland" },
+      { label: "Ski Weekends at Wisp and Seven Springs", to: "/blog/ski-weekend-chauffeur-wisp-seven-springs" },
+      { label: "Whitetail, Liberty and Roundtop Day Trips", to: "/blog/whitetail-liberty-roundtop-ski-snow-tubing-day-trip-from-maryland-dc" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "Which Virginia ski areas can you drive us to?",
+        a: "We provide transportation to Virginia ski areas including Bryce Resort, Massanutten Resort and Wintergreen Resort, as well as resorts in Pennsylvania and western Maryland.",
+      },
+      {
+        q: "How long is the drive from DC to Massanutten or Bryce?",
+        a: "Typically around two to three hours from the Washington area, depending on your starting point, traffic and weather. Wintergreen is usually farther.",
+      },
+      {
+        q: "Can we bring our own skis and snowboards?",
+        a: "Yes. Tell us how much equipment you have when you book, and we'll recommend a vehicle with enough room. Bagged gear is easiest to load.",
+      },
+      {
+        q: "What happens if a snowstorm is forecast?",
+        a: "We'll talk with you about adjusting the departure time for safety. Sedan and SUV trips can be cancelled at no charge up to 3 hours before pickup; Sprinter trips, up to 12 hours before.",
+      },
+      {
+        q: "What vehicle fits a family ski weekend?",
+        a: "A Chevrolet Suburban or Lincoln Navigator carries up to five passengers with luggage. Larger groups can use a Mercedes Sprinter, which seats up to thirteen.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 46
+  {
+    slug: "year-end-client-appreciation-dinner-transportation-guide",
+    title: "Year-End Client Appreciation Dinners: How to Plan the Transportation So the Evening Runs Smoothly",
+    metaTitle: "Year-End Client Dinner Transportation Guide | 92 Limo",
+    metaDescription:
+      "Hosting a year-end client appreciation dinner in Baltimore, DC or Northern Virginia? How to plan pickups, timing, vehicles and billing so guests arrive relaxed.",
+    category: "Corporate",
+    date: "2026-12-15",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "December is when many firms thank their best clients over dinner. Here's how to plan the transportation so guests arrive on time, get home safely and remember the evening for the right reasons.",
+    image: "/images/blog/scenario-corporate-2.webp",
+    intro: [
+      "For many businesses in the Baltimore-Washington region, December is client appreciation season. Law firms, financial advisers, consultancies, real estate brokerages and government contractors host dinners to thank clients and partners for the year's work. The restaurant, the menu and the guest list get most of the attention, but transportation is often what guests remember, especially if they had to fight for parking downtown or worry about driving home.",
+      "Providing rides is a simple way to make the evening feel considered from start to finish. This guide covers how to plan transportation for a year-end client dinner: deciding who gets a ride, timing pickups, choosing vehicles, and handling billing so it all fits neatly into the year's books.",
+    ],
+    sections: [
+      {
+        heading: "Why Transportation Belongs in the Plan",
+        paragraphs: [
+          "A client who arrives after twenty minutes of circling for parking starts the evening on the wrong foot. A client who has a glass of wine and then faces a long drive home may leave early or skip the drinks. Arranging a car for each guest, or for each group of guests, removes both problems and signals that the host has thought about the details.",
+          "It's also a matter of care. Hosts want guests to get home safely after an evening that includes alcohol, and providing transportation makes that easy without anyone needing to ask.",
+        ],
+      },
+      {
+        heading: "Deciding Who Gets a Ride",
+        paragraphs: [
+          "There's no single rule. Some firms provide door-to-door rides for every guest. Others offer rides to key clients and out-of-town visitors, or organize a shuttle from the office or a hotel to the restaurant. Start with the guest list and group guests by where they're coming from: the office, home, a hotel, or the airport.",
+          "Ask guests about transportation when you send the invitation or confirm attendance, rather than at the last minute. A short question such as 'Would you like us to arrange a car for you?' gives you the information you need and lets guests plan their evening.",
+        ],
+      },
+      {
+        heading: "Timing Pickups and Departures",
+        paragraphs: [
+          "Work backward from the reservation time. Allow for December traffic, which is heavier than usual on weekday evenings, and for downtown congestion around holiday events. For guests coming from the office, a staggered set of pickups often works better than everyone leaving at once.",
+          "The end of the evening is harder to predict. Some guests leave right after dessert; others stay for another round. An hourly booking keeps vehicles on standby so guests can leave when they're ready. For simpler plans, set a departure time with a little cushion and let us know if the evening runs long. Non-airport pickups include 15 minutes of complimentary waiting; additional waiting time is billed in 15-minute increments and is disclosed in advance.",
+        ],
+      },
+      {
+        heading: "Out-of-Town Clients",
+        paragraphs: [
+          "If some clients are flying in, transportation can start at the airport. We'll pick them up at BWI, Reagan National or Dulles, take them to their hotel, then to dinner, and back to the hotel at the end of the night. Airport pickups include 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals, timed from actual landing.",
+          "For a guest with an early flight the next morning, it's a nice touch to book the airport drop-off as well, so their trip is handled from arrival to departure.",
+        ],
+      },
+      {
+        heading: "Common Mistakes to Avoid",
+        paragraphs: [
+          "A few problems come up again and again with December client events, and most are easy to prevent with a little planning:",
+        ],
+        list: [
+          "Booking transportation after the restaurant is full and December calendars are already busy",
+          "Sending every guest's car at the same time, which crowds the restaurant curb",
+          "Forgetting guests who need a ride from a hotel or the airport rather than the office",
+          "Not telling guests who their chauffeur is or where to meet the vehicle",
+          "Leaving the end of the evening unplanned, so guests wait in the cold for rides",
+        ],
+      },
+      {
+        heading: "Choosing the Right Vehicles",
+        paragraphs: [
+          "For individual clients or couples, a luxury sedan gives a polished, private ride. For small groups traveling together, an SUV is comfortable for up to five or six. For a team traveling from the office to the restaurant, a Sprinter keeps everyone together and arriving at once. These are the vehicles in our fleet:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers, for individual clients and VIP guests",
+          "Lincoln Nautilus: up to three passengers with luggage, or four without",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with luggage, or six without, for small groups",
+          "Mercedes Sprinter Executive: up to thirteen passengers, with an upgraded interior for a client group",
+          "Mercedes Sprinter Shuttle: up to thirteen passengers, practical for office-to-restaurant shuttles",
+        ],
+      },
+      {
+        heading: "Coordinating With the Restaurant and Guests",
+        paragraphs: [
+          "Share the restaurant's address and any entrance or valet details with us, and ask the restaurant where cars can safely pick up and drop off. In busy areas like downtown DC, Harbor East or Bethesda, the best curbside spot isn't always the front door.",
+          "Send each guest a short note with their pickup time and the chauffeur's details, or ask us to send confirmations directly. That way guests know what to expect, and the host doesn't spend the evening on the phone coordinating rides.",
+        ],
+      },
+      {
+        heading: "Billing and Year-End Budgets",
+        paragraphs: [
+          "Year-end events often have to be paid and recorded before the books close. When you book, tell us how you'd like to be billed and what information your accounting team needs on the receipt, such as the event name or a cost center. Our quoted rate includes the base transportation charge; gratuity, parking, tolls, additional waiting time and other applicable charges are disclosed before confirmation.",
+          "Companies that host events like this regularly may prefer a corporate account with consolidated monthly invoicing, which keeps all the evening's rides on one statement. Ask us about setting one up ahead of the event.",
+        ],
+      },
+      {
+        heading: "Booking Transportation for Your Client Dinner",
+        paragraphs: [
+          "When you request a quote, share the date, the restaurant and reservation time, the number of guests, their pickup locations and any airport legs. We'll recommend the vehicles and confirm the schedule. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations and special-event bookings, up to 12 hours before.",
+          "Request a quote through our online booking form or call (877) 609-1919. December weeknights are some of our busiest corporate evenings, so book as soon as the date is set.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "Corporate Transportation", to: "/corporate-transportation" },
+      { label: "Corporate Car Service in DC", to: "/corporate-car-service-dc" },
+      { label: "Law Firm Car Service", to: "/law-firm-car-service-maryland-dc" },
+      { label: "Law Firm Client Transportation", to: "/blog/law-firm-client-transportation-maryland" },
+      { label: "Car Service Receipts & Expense Reports", to: "/blog/corporate-car-service-receipts-expense-reports-guide" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "Can you provide rides for every guest at a client dinner?",
+        a: "Yes. We can arrange individual cars for each guest, shared rides for small groups, or a Sprinter shuttle from the office or a hotel.",
+      },
+      {
+        q: "What if the dinner runs late?",
+        a: "An hourly booking keeps vehicles on standby so guests leave when they're ready. On set-time bookings, extra waiting is billed in 15-minute increments and disclosed in advance.",
+      },
+      {
+        q: "Can you pick up clients flying in for the dinner?",
+        a: "Yes. We pick up at BWI, Reagan National and Dulles, with 45 minutes of complimentary waiting on domestic arrivals and 60 minutes on international arrivals.",
+      },
+      {
+        q: "Can the rides be billed to our company?",
+        a: "Yes. Tell us what your accounting team needs on the receipt. Companies that book regularly can ask about a corporate account with consolidated monthly invoicing.",
+      },
+      {
+        q: "Which vehicle is best for VIP clients?",
+        a: "A Mercedes E-Class or BMW 7 Series sedan gives individual clients a private, polished ride for up to three passengers.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 47
+  {
+    slug: "military-bowl-annapolis-game-day-transportation-guide",
+    title: "Military Bowl Game Day in Annapolis: Transportation, Parking and Planning Tips",
+    metaTitle: "Military Bowl Annapolis Game Day Transportation | 92 Limo",
+    metaDescription:
+      "Going to the Military Bowl at Navy-Marine Corps Memorial Stadium in Annapolis? Plan game-day traffic, parking, drop-off, tailgating and the ride home.",
+    category: "Sports & Events",
+    date: "2026-12-16",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "The Military Bowl brings college football fans to Annapolis in late December. Here's how to plan the day, from game-day traffic around the stadium to getting your group home afterward.",
+    image: "/images/blog/landmark-annapolis-1.webp",
+    intro: [
+      "The Military Bowl is a college football bowl game played each year at Navy-Marine Corps Memorial Stadium in Annapolis, typically in late December. It brings fans of two college teams, local football fans and plenty of visitors to Maryland's capital during the holiday week, and the stadium neighborhood gets busy hours before kickoff.",
+      "The matchup, kickoff time and ticketing details are announced each season by the game's organizers, so check the official Military Bowl website for this year's information. This guide focuses on getting there and back: game-day traffic, parking and drop-off around the stadium, and how to plan transportation for families and groups.",
+    ],
+    sections: [
+      {
+        heading: "About the Stadium",
+        paragraphs: [
+          "Navy-Marine Corps Memorial Stadium is home to Navy football and sits west of downtown Annapolis, near Rowe Boulevard and the Taylor Avenue area, a short drive from US-50. It's a memorial to those who served in the Navy and Marine Corps, and the surrounding parking areas and fields become tailgating space on game days.",
+          "Because the stadium is close to residential neighborhoods and the routes into downtown Annapolis, game-day traffic affects a wide area. Rowe Boulevard and the roads connecting to US-50 can back up before kickoff and after the final whistle.",
+        ],
+      },
+      {
+        heading: "Game-Day Traffic and Timing",
+        paragraphs: [
+          "Plan to arrive well before kickoff, especially if you want to tailgate, find your seats without rushing or browse merchandise. Holiday-week traffic on US-50, including visitors heading to and from the Eastern Shore, can add time on top of normal game-day congestion.",
+          "Leaving is usually the slowest part of the day. Thousands of fans head for the same exits at once, and traffic toward US-50 and I-97 can be heavy for a while after the game. Many groups plan a meal in downtown Annapolis or Eastport after the game, which lets the traffic clear before the drive home.",
+        ],
+      },
+      {
+        heading: "Parking vs. a Chauffeured Ride",
+        paragraphs: [
+          "Parking rules, lots and passes for bowl games can differ from regular-season Navy games, and they're set by the organizers each year. Check the official game information for current parking and tailgating rules before you go.",
+          "A chauffeured ride lets you skip the parking question. Your chauffeur drops you at a designated drop-off area near the stadium and meets you at an agreed pickup spot afterward. Our chauffeurs drive the stadium area regularly for Navy games and other events, and they know the routes that tend to move best on busy days.",
+        ],
+      },
+      {
+        heading: "Tailgating and Game-Day Plans",
+        paragraphs: [
+          "Tailgating rules vary by lot and by event. If your group is joining a tailgate, find out where it is and whether vehicles can drop off nearby. If you're bringing food and coolers to a friend's tailgate, mention it when you book so we can make sure there's room in the vehicle.",
+          "For groups that want to keep things simple, an hourly booking keeps the vehicle available for the day. You can be dropped off for the tailgate, picked up after the game and taken to dinner without arranging separate rides. Hourly service has a minimum number of hours, which we'll confirm with your quote.",
+        ],
+      },
+      {
+        heading: "Visitors Coming in for the Game",
+        paragraphs: [
+          "Bowl games bring fans from out of state, many flying into BWI, Reagan National or Dulles, or staying in Annapolis or Baltimore hotels. We can pick up visitors at the airport, take them to their hotel, then to the stadium on game day and back again. Airport pickups include 45 minutes of complimentary waiting on domestic arrivals and 60 minutes on international arrivals, timed from actual landing.",
+          "Annapolis hotels can fill up during holiday week, and some visitors stay in Baltimore or elsewhere in Anne Arundel County. If that's your plan, allow extra time for the drive on game day.",
+        ],
+      },
+      {
+        heading: "Making a Weekend of It in Annapolis",
+        paragraphs: [
+          "Late December is a lovely time to visit Annapolis. The historic downtown is decorated for the holidays, and the area around the City Dock and Main Street has restaurants, pubs and shops within walking distance. The U.S. Naval Academy is next to downtown, though visitor access rules can change, so check before planning a visit.",
+          "If you're staying for more than one day, we can plan rides around the game and the rest of your trip, including dinners, sightseeing and the airport transfer home.",
+        ],
+      },
+      {
+        heading: "Cold-Weather Game Day Tips",
+        paragraphs: [
+          "Late December in Annapolis can be cold, windy and damp, especially in an open stadium near the water. A few tips help everyone stay comfortable through four quarters:",
+        ],
+        list: [
+          "Dress in layers, with a warm hat, gloves and waterproof shoes",
+          "Bring a blanket or seat cushion, but check the stadium's bag and item rules first",
+          "Keep tickets on your phone and charge it fully before you leave home",
+          "Leave extra layers and bags in the vehicle rather than carrying them all day",
+          "Agree on a meeting point with your group in case you get separated in the crowd",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle",
+        paragraphs: [
+          "These are the vehicles in our fleet and how many passengers each one carries:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers",
+          "Lincoln Nautilus: up to three passengers with luggage, or four without",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with luggage, or six without, good for a family or a small group with tailgate gear",
+          "Mercedes Sprinter Executive: up to thirteen passengers, with an upgraded interior for a group outing",
+          "Mercedes Sprinter Shuttle: up to thirteen passengers, practical for alumni groups, fan clubs and company outings",
+        ],
+      },
+      {
+        heading: "Booking Your Game-Day Ride",
+        paragraphs: [
+          "When you request a quote, share your pickup address, the game date, the number of passengers, any tailgating or dinner plans, and whether you'd like a round trip or an hourly booking. We'll recommend a vehicle and confirm the details. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations and special-event bookings, up to 12 hours before.",
+          "Request a quote through our online booking form or call (877) 609-1919. Holiday week is busy, so book as soon as you have your tickets.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "Navy-Marine Corps Stadium Transportation", to: "/navy-marine-corps-stadium-transportation" },
+      { label: "Annapolis Limo Service", to: "/annapolis-limo-service" },
+      { label: "Car Service Near the Naval Academy", to: "/limo-service-near-us-naval-academy" },
+      { label: "Sports Transportation in Maryland", to: "/sports-transportation-maryland" },
+      { label: "Annapolis Maritime Museum Visit", to: "/blog/annapolis-maritime-museum-eastport-visit-by-chauffeur" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "Where is the Military Bowl played?",
+        a: "At Navy-Marine Corps Memorial Stadium in Annapolis, Maryland, typically in late December. Check the official Military Bowl website for this year's date and matchup.",
+      },
+      {
+        q: "Can you drop us off at the stadium?",
+        a: "Yes. Your chauffeur drops you at a designated area near the stadium and picks you up at an agreed spot afterward, following current game-day traffic rules.",
+      },
+      {
+        q: "How do we avoid post-game traffic?",
+        a: "Many groups have dinner in downtown Annapolis or Eastport after the game, which lets traffic clear before the drive home.",
+      },
+      {
+        q: "Can you pick up fans flying in for the game?",
+        a: "Yes. We pick up at BWI, Reagan National and Dulles, with 45 minutes of complimentary waiting on domestic arrivals and 60 minutes on international arrivals.",
+      },
+      {
+        q: "What vehicle works for a fan club or alumni group?",
+        a: "A Mercedes Sprinter carries up to thirteen passengers. Larger groups can travel in two or more Sprinters together.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 48
+  {
+    slug: "holiday-hotel-staycation-baltimore-dc-car-service-guide",
+    title: "A Holiday Hotel Staycation in Baltimore or DC: Getting There, Getting Around and Getting Home",
+    metaTitle: "Holiday Hotel Staycation in Baltimore or DC | 92 Limo",
+    metaDescription:
+      "Planning a holiday hotel staycation in Baltimore, DC or National Harbor? How to handle arrival, dinners, holiday sights and checkout without driving.",
+    category: "Travel Tips",
+    date: "2026-12-17",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "A night or two at a downtown hotel is one of the easiest holiday treats. Here's how to plan the transportation so you never have to think about parking, garages or who's driving.",
+    image: "/images/blog/scenario-doorman.webp",
+    intro: [
+      "Not every holiday trip needs a plane ticket. For many families and couples in Maryland and Virginia, a night or two at a hotel in downtown Baltimore, Washington, DC, or National Harbor is the perfect way to celebrate. You get the decorations, the dinners and the sights without the airport, and you're home in time for the next family gathering.",
+      "The one part of a staycation that can spoil the mood is the car. Hotel parking downtown can be expensive, garages can be tight, and nobody wants to drive after a celebratory dinner. This guide covers how to plan the transportation side of a holiday staycation, from arrival to checkout.",
+    ],
+    sections: [
+      {
+        heading: "Why Leave the Car at Home",
+        paragraphs: [
+          "Overnight parking at downtown hotels often comes with a daily charge, and valet lines at checkout time can be long during the holidays. If you're planning dinners, shows and sightseeing, you may also find yourself moving the car repeatedly or paying to park in several places.",
+          "With a chauffeured ride, you're dropped at the hotel entrance, your bags are unloaded, and the car is someone else's problem. For outings during your stay, you can book rides as needed or keep a vehicle on an hourly basis for an evening out.",
+        ],
+      },
+      {
+        heading: "Choosing Your Staycation Base",
+        paragraphs: [
+          "Each area offers a different kind of holiday weekend:",
+        ],
+        list: [
+          "Baltimore's Inner Harbor and Harbor East: waterfront walks, holiday markets, museums and easy access to Fells Point and Little Italy",
+          "Downtown Washington, DC: the National Christmas Tree, the monuments at night, holiday markets and theater",
+          "Georgetown: historic streets, shopping and dining along the waterfront",
+          "National Harbor: holiday attractions, waterfront dining and the resort and casino nearby",
+          "Annapolis: a historic downtown decorated for the season, with restaurants and the waterfront",
+        ],
+      },
+      {
+        heading: "Arrival Day",
+        paragraphs: [
+          "Most hotels have a set check-in time, so plan your arrival around it, or ask the hotel whether you can leave your bags early and start exploring. If you'd like to stop for lunch on the way, or pick up relatives at different addresses, tell us when you book and we'll plan the route.",
+          "If some of your party is coming from out of town, we can collect them from BWI, Reagan National or Dulles and bring them straight to the hotel. Airport pickups include 45 minutes of complimentary waiting on domestic arrivals and 60 minutes on international arrivals, timed from actual landing.",
+        ],
+      },
+      {
+        heading: "Evenings Out During Your Stay",
+        paragraphs: [
+          "The highlight of a holiday staycation is usually the evening: a special dinner, a show, a holiday lights display or a drive past the decorated monuments. For an evening with several stops, an hourly booking keeps the vehicle with you so you can move between them without waiting for rides. Hourly service has a minimum number of hours, which we'll confirm with your quote.",
+          "For a single dinner, a simple drop-off and pickup at set times works well. Non-airport pickups include 15 minutes of complimentary waiting time, and we can adjust if dinner runs long.",
+        ],
+      },
+      {
+        heading: "New Year's Eve Staycations",
+        paragraphs: [
+          "Booking a hotel for New Year's Eve is a popular way to celebrate without worrying about the drive home. If your celebration is at the hotel itself, you may only need rides on arrival and checkout days. If you're heading out for dinner or a party, book transportation early: New Year's Eve is one of the busiest nights of the year for car services.",
+          "For the trip home on New Year's Day, plan a relaxed late-morning checkout. Roads are usually quieter on the morning of January 1, and a chauffeur means no one has to drive after a late night.",
+        ],
+      },
+      {
+        heading: "Checkout and the Ride Home",
+        paragraphs: [
+          "Holiday weekends often end with more bags than they started with, after shopping and gifts. Before checkout day, count the bags and tell us if you'll need more room than on arrival. If you're stopping at a relative's home on the way back, we can add that stop as well.",
+          "Plan the pickup a little after checkout time so you're not rushing. Your chauffeur will meet you at the hotel entrance and handle the luggage.",
+        ],
+      },
+      {
+        heading: "A Sample Two-Night Holiday Staycation",
+        paragraphs: [
+          "Every family plans differently, but here's how a simple two-night holiday staycation might look with chauffeured transportation:",
+          "On the first day, a midday pickup at home takes you to lunch and then to the hotel for check-in. In the evening, an hourly booking covers dinner and a drive past the holiday lights or the monuments, with a drop-off back at the hotel. The second day is for exploring on foot near the hotel, with a ride booked for a show or a special dinner in another neighborhood. On the last morning, a pickup after checkout brings everyone home, with a stop at a relative's house if needed.",
+          "Planning the rides as a set when you book the hotel means everything is arranged before you leave home, and you only need to think about enjoying the trip.",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle",
+        paragraphs: [
+          "These are the vehicles in our fleet and how many passengers each one carries:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers, ideal for a couple's getaway",
+          "Lincoln Nautilus: up to three passengers with luggage, or four without",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with luggage, or six without, the right fit for a family with holiday bags",
+          "Mercedes Sprinter Executive or Sprinter Shuttle: up to thirteen passengers, for extended families or groups of friends staying together",
+        ],
+      },
+      {
+        heading: "Booking Your Staycation Rides",
+        paragraphs: [
+          "When you request a quote, share your home address, the hotel, your arrival and checkout dates, the number of passengers and bags, and any evening plans during your stay. We'll recommend a vehicle and confirm the schedule. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations and special-event bookings, up to 12 hours before.",
+          "Request a quote through our online booking form or call (877) 609-1919. The weekends before Christmas and New Year's Eve book up fast, so reserve once your hotel is confirmed.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "Hourly Chauffeur Service", to: "/hourly-chauffeur" },
+      { label: "Hotel Concierge Car Service", to: "/hospitality-hotel-concierge-car-service-maryland" },
+      { label: "National Harbor Transportation", to: "/national-harbor-transportation" },
+      { label: "Baltimore Inner Harbor Visitors Guide", to: "/blog/baltimore-inner-harbor-visitors-guide" },
+      { label: "Georgetown Visitor Guide", to: "/blog/georgetown-dc-visitor-guide-getting-around" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "Can you take us to a hotel in Baltimore or DC and pick us up at checkout?",
+        a: "Yes. We drive you to the hotel on arrival day and back home at checkout, with any stops you'd like along the way.",
+      },
+      {
+        q: "Can we book a car for an evening out during our stay?",
+        a: "Yes. Book a simple round trip or an hourly evening with several stops. Hourly service has a minimum number of hours, confirmed with your quote.",
+      },
+      {
+        q: "Should we book early for New Year's Eve?",
+        a: "Yes. New Year's Eve is one of the busiest nights of the year for car services, so reserve as soon as your plans are set.",
+      },
+      {
+        q: "Can you pick up relatives at the airport and bring them to the hotel?",
+        a: "Yes. We pick up at BWI, Reagan National and Dulles, with 45 minutes of complimentary waiting on domestic arrivals and 60 minutes on international arrivals.",
+      },
+      {
+        q: "Which vehicle fits a family with holiday luggage?",
+        a: "A Chevrolet Suburban or Lincoln Navigator carries up to five passengers with luggage, or six without.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 49
+  {
+    slug: "new-years-eve-baltimore-inner-harbor-fireworks-night-guide",
+    title: "New Year's Eve at Baltimore's Inner Harbor: Planning Dinner, Fireworks and the Ride Home",
+    metaTitle: "New Year's Eve at the Inner Harbor: Night Out Guide | 92 Limo",
+    metaDescription:
+      "Ringing in the New Year at Baltimore's Inner Harbor: where to watch, dinner reservations, crowds and road closures, and planning a safe chauffeured ride home.",
+    category: "Holiday & Seasonal",
+    date: "2026-12-18",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Midnight over the Inner Harbor is one of Baltimore's favorite ways to welcome the New Year. Here's how to plan the evening, from dinner to the crowded hour after midnight.",
+    image: "/images/blog/landmark-baltimore-1.webp",
+    intro: [
+      "For many Baltimoreans, New Year's Eve means the Inner Harbor. Fireworks over the water at midnight have been a long-running city tradition, and the promenade, hotels and restaurants around the harbor fill with people counting down to the New Year. Nearby neighborhoods such as Federal Hill, Fells Point, Harbor East and Canton add parties, bars and dinners of their own.",
+      "The city announces each year's plans, so check Baltimore's official event listings for this year's details before you go. This guide covers the practical side: choosing where to spend the evening, booking dinner, coping with crowds and street closures, and getting home safely after midnight.",
+    ],
+    sections: [
+      {
+        heading: "Where People Spend the Evening",
+        paragraphs: [
+          "The Inner Harbor promenade is the traditional place to watch the midnight celebration, and it gets crowded as the hour approaches. Some people prefer a viewpoint a little farther away, such as Federal Hill Park, which overlooks the harbor from the south side, or a waterfront spot in Harbor East or Fells Point. Several downtown hotels and restaurants host their own New Year's Eve dinners and parties with harbor views.",
+          "Decide early whether you want to be in the middle of the crowd or watching from a calmer spot, because it affects where your chauffeur should drop you off and pick you up.",
+        ],
+      },
+      {
+        heading: "Dinner Reservations and Ticketed Parties",
+        paragraphs: [
+          "New Year's Eve is one of the busiest nights of the year for restaurants, and many offer special menus or set seatings. Book as early as you can, and check whether your reservation has a fixed end time. Ticketed parties at hotels and venues around the harbor also sell out, so if you're planning on one, buy tickets before arranging transportation.",
+          "Once dinner and party times are set, plan your rides around them. A typical evening might be a pickup at home, dinner in Harbor East or Little Italy, a walk to the waterfront before midnight, and a ride home afterward.",
+        ],
+      },
+      {
+        heading: "Crowds, Street Closures and Timing",
+        paragraphs: [
+          "Streets around the Inner Harbor can be closed or restricted on New Year's Eve, and traffic slows as people arrive in the late evening. After midnight, thousands of people leave at once, and the streets near the harbor can be gridlocked for a while. Rideshare demand also peaks at exactly that moment, and waits can be long.",
+          "A pre-arranged chauffeured ride is the most reliable way through. Agree on a pickup spot a few blocks from the busiest area, where cars can reach more easily, and plan to walk there after the celebration. Your chauffeur will confirm the location by phone or text as midnight approaches.",
+        ],
+      },
+      {
+        heading: "Hourly Booking or a Set Pickup?",
+        paragraphs: [
+          "For a New Year's Eve with several stops, such as dinner, a party and the midnight celebration, an hourly booking keeps the vehicle with you all evening. You won't have to arrange separate rides or wait in a crowd for a car. Hourly service has a minimum number of hours, which we'll confirm with your quote.",
+          "If you're spending the whole evening in one place, a drop-off and a set pickup time can work. Allow extra time after midnight for the crowds to thin and for your chauffeur to reach the pickup point. Non-airport pickups include 15 minutes of complimentary waiting time; additional time is billed in 15-minute increments and disclosed in advance.",
+        ],
+      },
+      {
+        heading: "Staying Safe on New Year's Eve",
+        paragraphs: [
+          "New Year's Eve is a night when no one in your group should be driving after celebrating. A chauffeured ride takes that decision off the table. A few more tips for a smooth night:",
+        ],
+        list: [
+          "Agree on a meeting point in case your group gets separated in the crowd",
+          "Keep your phone charged, since cold weather and photos drain batteries",
+          "Dress warmly for standing outside near the water, where it's often windy",
+          "Keep valuables to a minimum and use a small bag",
+          "Save your chauffeur's number in your phone before you leave home",
+        ],
+      },
+      {
+        heading: "Coming in From Out of Town",
+        paragraphs: [
+          "Some visitors spend New Year's Eve in Baltimore and stay at a harbor hotel. If you're flying in, we can pick you up at BWI, Reagan National or Dulles and take you to your hotel, then handle your evening plans and the ride back to the airport. Airport pickups include 45 minutes of complimentary waiting on domestic arrivals and 60 minutes on international arrivals.",
+          "Staying at a hotel near the harbor also makes the end of the night much simpler, since the walk back may be shorter than any drive.",
+        ],
+      },
+      {
+        heading: "A Sample New Year's Eve Timeline",
+        paragraphs: [
+          "Here's one way a New Year's Eve in Baltimore might be planned with chauffeured transportation. Times will depend on your reservations and the city's plans for the night:",
+        ],
+        list: [
+          "Early evening: pickup at home, with stops to collect friends along the way",
+          "Dinner: drop-off at the restaurant in Harbor East, Little Italy or Fells Point",
+          "Late evening: a short walk or ride to your viewing spot or party before midnight",
+          "After midnight: meet your chauffeur at the agreed pickup spot away from the busiest streets",
+          "Ride home: drop-offs at each address in your group",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle",
+        paragraphs: [
+          "These are the vehicles in our fleet and how many passengers each one carries:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers, ideal for a couple's New Year's Eve",
+          "Lincoln Nautilus: up to three passengers with luggage, or four without",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with luggage, or six without, for a small group of friends",
+          "Mercedes Sprinter Executive: up to thirteen passengers, with an upgraded interior for a group celebration",
+          "Mercedes Sprinter Shuttle: up to thirteen passengers, practical for larger groups",
+        ],
+      },
+      {
+        heading: "Booking Your New Year's Eve Ride",
+        paragraphs: [
+          "When you request a quote, share your pickup address, dinner and party plans, the number of passengers and whether you'd like an hourly evening or set pickups. We'll recommend a vehicle and confirm the plan. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations and special-event bookings, up to 12 hours before.",
+          "Request a quote through our online booking form or call (877) 609-1919. New Year's Eve is one of the busiest nights of our year, so reserve as early as possible.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "Baltimore Limo Service", to: "/baltimore-limo-service" },
+      { label: "Car Service Near the Inner Harbor", to: "/limo-service-near-baltimore-inner-harbor" },
+      { label: "Hourly Chauffeur Service", to: "/hourly-chauffeur" },
+      { label: "New Year's Eve Car Service in Maryland", to: "/blog/new-years-eve-car-service-maryland" },
+      { label: "Canton & Fells Point Nightlife", to: "/blog/canton-fells-point-baltimore-nightlife-car-service" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "Where can we watch the New Year's Eve celebration in Baltimore?",
+        a: "The Inner Harbor promenade is the traditional spot. Federal Hill Park and waterfront areas in Harbor East and Fells Point are popular alternatives. Check the city's official listings for this year's plans.",
+      },
+      {
+        q: "How do we get picked up after midnight?",
+        a: "Agree on a pickup spot a few blocks from the busiest area, where cars can reach more easily. Your chauffeur will confirm the location by phone or text.",
+      },
+      {
+        q: "Is an hourly booking better for New Year's Eve?",
+        a: "For an evening with several stops, yes. The vehicle stays with you all night. Hourly service has a minimum number of hours, confirmed with your quote.",
+      },
+      {
+        q: "How early should we book?",
+        a: "As early as possible. New Year's Eve is one of the busiest nights of the year for car services.",
+      },
+      {
+        q: "What vehicle fits a group of friends?",
+        a: "A Chevrolet Suburban or Lincoln Navigator carries up to six without luggage. For up to thirteen, a Mercedes Sprinter keeps the group together.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 50
+  {
+    slug: "new-years-day-first-day-hikes-brunch-maryland-car-service",
+    title: "New Year's Day in Maryland: First Day Hikes, Family Brunch and an Easy Start to the Year",
+    metaTitle: "New Year's Day: First Day Hikes & Brunch in MD | 92 Limo",
+    metaDescription:
+      "Planning New Year's Day in Maryland: First Day Hikes at state parks, family brunch, visiting relatives and why a chauffeured ride makes the day easier.",
+    category: "Holiday & Seasonal",
+    date: "2026-12-19",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "After a late New Year's Eve, a relaxed January 1 is the goal. Here's how to plan a First Day Hike, a family brunch or a round of visits without anyone having to drive.",
+    image: "/images/blog/landmark-annapolis-2.webp",
+    intro: [
+      "New Year's Day in Maryland has its own traditions. Some families head outdoors for a First Day Hike at a state park, part of a nationwide tradition of starting the year with a walk in nature. Others gather for a long brunch, visit relatives, or catch a bowl game on TV with friends. Whatever the plan, many people are doing it after a late night, and not everyone wants to drive.",
+      "This guide covers how to plan New Year's Day outings in Maryland, from First Day Hikes to family brunches, and how a pre-arranged chauffeured ride can make the first day of the year a little easier.",
+    ],
+    sections: [
+      {
+        heading: "What Are First Day Hikes?",
+        paragraphs: [
+          "First Day Hikes are guided and self-guided walks held on January 1 at state parks across the country. In Maryland, the Maryland Park Service has taken part for years, with hikes offered at a range of parks around the state, from short, easy strolls to longer trails. They're designed to be family-friendly and are a popular way to get outdoors after the holidays.",
+          "The list of participating parks, hike times and any registration requirements is published by the Maryland Department of Natural Resources each season. Check the official listings in December, since some hikes have limited space.",
+        ],
+      },
+      {
+        heading: "Choosing a Park",
+        paragraphs: [
+          "Maryland's state parks offer very different settings within a reasonable drive of Baltimore, Annapolis and the DC suburbs. Depending on where you live, popular options include river valley trails near Ellicott City, waterfront parks along the Chesapeake Bay, and mountain parks in Frederick County and western Maryland. Pick a park based on the drive, the length of hike your group can manage and the weather forecast.",
+          "If you'd like to combine the hike with brunch or lunch, choose a park near a town with restaurants, such as Ellicott City, Annapolis or Frederick.",
+        ],
+      },
+      {
+        heading: "Why Book a Ride for New Year's Day",
+        paragraphs: [
+          "The morning after New Year's Eve, many people would rather not drive, and some shouldn't. A chauffeured ride lets the whole family travel together without anyone behind the wheel. For a hike, it also solves the parking problem, since lots at popular parks can fill on January 1.",
+          "After a hike in winter weather, everyone gets into a warm vehicle with muddy boots and tired legs, and nobody has to navigate home. Bring a bag for boots and a change of shoes for the ride.",
+        ],
+      },
+      {
+        heading: "Planning a New Year's Day Brunch",
+        paragraphs: [
+          "New Year's Day brunch is a tradition for many families, and restaurants that open that day can be busy. Book a table ahead, and confirm the restaurant's holiday hours, since some close or open late on January 1.",
+          "If your brunch brings together relatives from different addresses, we can plan pickups along the way and drop-offs afterward. For a day with several stops, such as brunch, a visit to grandparents and an afternoon gathering, an hourly booking keeps the vehicle with you. Hourly service has a minimum number of hours, which we'll confirm with your quote.",
+        ],
+      },
+      {
+        heading: "What to Bring for a Winter Hike",
+        paragraphs: [
+          "January weather in Maryland can range from mild to icy, and trail conditions change quickly. A few basics:",
+        ],
+        list: [
+          "Warm layers, a hat and gloves, and waterproof boots with good grip",
+          "Water and a small snack, even for a short hike",
+          "A fully charged phone",
+          "A spare pair of socks and shoes for the ride home",
+          "A bag for muddy boots and wet gear",
+        ],
+      },
+      {
+        heading: "Getting Home From New Year's Eve First",
+        paragraphs: [
+          "For many people, New Year's Day transportation starts the night before. If you're out on New Year's Eve, book a ride home after midnight, and consider booking a late-morning ride on January 1 if you're staying at a hotel or a friend's place. Planning both at once is easy, and it means the first day of the year starts without a scramble.",
+          "If anyone in your family is flying out on January 1 or 2, we can handle the airport ride as well. Airport pickups include 45 minutes of complimentary waiting on domestic arrivals and 60 minutes on international arrivals, and we time drop-offs around holiday traffic.",
+        ],
+      },
+      {
+        heading: "Visiting Relatives on New Year's Day",
+        paragraphs: [
+          "For many families, January 1 is a day for visiting. Grandparents host a meal, cousins drop by, and some families make the rounds of several homes in one afternoon. After a late night, having a chauffeur handle the driving lets everyone enjoy the visits without worrying about the roads.",
+          "If you're bringing older relatives to a family gathering, we can pick them up at home or at a senior living community and bring them back at the end of the day. Tell us about any mobility needs when you book, so we can recommend a vehicle that's easy to get in and out of.",
+          "Planning several stops in one day is simple with an hourly booking. Share the addresses and rough timing when you request a quote, and we'll plan the route so the day runs on schedule.",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle",
+        paragraphs: [
+          "These are the vehicles in our fleet and how many passengers each one carries:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers",
+          "Lincoln Nautilus: up to three passengers with luggage, or four without",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with luggage, or six without, a good choice for a family hike with gear",
+          "Mercedes Sprinter Shuttle or Sprinter Executive: up to thirteen passengers, for extended families and groups of friends",
+        ],
+      },
+      {
+        heading: "Booking Your New Year's Day Ride",
+        paragraphs: [
+          "When you request a quote, share your pickup address, the park or restaurant, the timing, the number of passengers and any other stops. We'll recommend a vehicle and confirm the plan. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations and group bookings, up to 12 hours before.",
+          "Request a quote through our online booking form or call (877) 609-1919. Holiday week is busy, so book New Year's Day rides when you book your New Year's Eve plans.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "Hourly Chauffeur Service", to: "/hourly-chauffeur" },
+      { label: "Ellicott City Limo Service", to: "/ellicott-city-limo-service" },
+      { label: "New Year's Eve Car Service in Maryland", to: "/blog/new-years-eve-car-service-maryland" },
+      { label: "Scenic Day Trip Drives", to: "/blog/best-scenic-day-trip-drives-maryland-virginia-chauffeured" },
+      { label: "Calvert Cliffs Day Trip", to: "/blog/calvert-cliffs-fossil-hunting-day-trip-southern-maryland" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "What are First Day Hikes?",
+        a: "Guided and self-guided walks held on January 1 at state parks across the country, including Maryland state parks. Check Maryland DNR for this year's list and any registration.",
+      },
+      {
+        q: "Can you drive our family to a state park on New Year's Day?",
+        a: "Yes. We drop you at the park and pick you up afterward, or keep the vehicle nearby on an hourly booking.",
+      },
+      {
+        q: "Can we add brunch or family visits to the same day?",
+        a: "Yes. An hourly booking keeps the vehicle with you for several stops. Hourly service has a minimum number of hours, confirmed with your quote.",
+      },
+      {
+        q: "Should we book New Year's Day rides early?",
+        a: "Yes. Holiday week is busy, so it's easiest to book New Year's Day rides when you book your New Year's Eve plans.",
+      },
+      {
+        q: "What vehicle fits a family with hiking gear?",
+        a: "A Chevrolet Suburban or Lincoln Navigator carries up to five passengers with luggage, leaving room for boots and bags.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 51
+  {
+    slug: "maryland-polar-bear-plunge-sandy-point-transportation-guide",
+    title: "Maryland Polar Bear Plunge at Sandy Point: Planning the Trip for Teams, Families and Spectators",
+    metaTitle: "Maryland Polar Bear Plunge Transportation Guide | 92 Limo",
+    metaDescription:
+      "Plunging at Sandy Point State Park this winter? How to plan the trip: Bay Bridge traffic, parking, dry clothes, team transportation and a warm ride home.",
+    category: "Sports & Events",
+    date: "2026-12-20",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Every winter, thousands of people run into the Chesapeake Bay at Sandy Point State Park for a good cause. Here's how to plan the trip so the coldest part of the day is the plunge, not the parking lot.",
+    image: "/images/blog/fleet-sprinter-1.webp",
+    intro: [
+      "The Maryland State Police Polar Bear Plunge is one of the state's best-known winter events. Each year, thousands of participants wade or run into the icy Chesapeake Bay at Sandy Point State Park, near the western end of the Bay Bridge, to raise money for Special Olympics Maryland. Teams from schools, companies, police and fire departments and community groups take part, along with many spectators.",
+      "The Plunge is typically held in late January, and Special Olympics Maryland sets the dates, schedule, registration and fundraising rules each year, so check its official website. This guide covers the transportation side: getting to Sandy Point, coping with crowds and Bay Bridge traffic, and planning a warm, dry ride home.",
+    ],
+    sections: [
+      {
+        heading: "Why Plan Transportation in Advance",
+        paragraphs: [
+          "Sandy Point State Park sits just off US-50 by the Chesapeake Bay Bridge, and on Plunge days the park and its approaches are very busy. Parking can be limited, and participants and spectators often walk a distance from where they park to the beach. Traffic around the bridge can add time, especially if bridge lane configurations change.",
+          "For teams and families, the logistics add up: coordinating several cars, finding each other in a crowd, and then getting wet, cold plungers back to a vehicle. A pre-arranged ride, with a vehicle waiting and warm when you're done, makes the day simpler.",
+        ],
+      },
+      {
+        heading: "Getting There and Bay Bridge Traffic",
+        paragraphs: [
+          "The park's entrance is reached from US-50 near the western end of the bridge, and traffic heading to the Plunge can back up on event days. Allow extra time, and follow any traffic and parking instructions published by the organizers and the park.",
+          "Because the park is next to the Bay Bridge, events on the bridge, such as lane changes for maintenance or heavy weekend traffic toward the Eastern Shore, can affect the area. Our chauffeurs drive this corridor regularly and plan routes and timing around bridge conditions.",
+        ],
+      },
+      {
+        heading: "Team Transportation",
+        paragraphs: [
+          "Many plungers take part as teams from a company, school or community group. Traveling together in one vehicle keeps the team together, makes it easy to find each other, and gives everyone a place to leave dry clothes and bags. A Mercedes Sprinter carries up to thirteen passengers, and larger teams can travel in two or more Sprinters.",
+          "For corporate teams, transportation can be part of the company's support for the event. Tell us when you book if you'd like the rides billed to the company, and we'll make sure the receipt has what your accounting team needs.",
+        ],
+      },
+      {
+        heading: "What to Bring",
+        paragraphs: [
+          "Plungers get very cold, very fast. The most important thing is getting into dry, warm clothes as soon as possible. A checklist:",
+        ],
+        list: [
+          "A full change of dry clothes, including socks and underwear",
+          "A towel and a warm robe or blanket",
+          "Water shoes or old sneakers for the beach, since bare feet on cold sand and stones is painful",
+          "A hat and gloves for afterward",
+          "A plastic bag for wet clothes and shoes",
+          "A warm drink in a thermos for the ride home",
+        ],
+      },
+      {
+        heading: "Spectators and Families",
+        paragraphs: [
+          "Family and friends often come to cheer on plungers, and many bring young children. Spectators should dress for standing outside near the water in winter, which can be windy and raw. Plan where to meet after the plunge before you split up, since the beach area is crowded and phones can be hard to hear.",
+          "If you're bringing older relatives to watch, a drop-off as close as allowed and a set pickup time save them a long walk from parking.",
+        ],
+      },
+      {
+        heading: "After the Plunge",
+        paragraphs: [
+          "After changing, many groups head for a meal. Annapolis is a short drive from Sandy Point and has plenty of restaurants. If you're planning a post-plunge lunch, book a table ahead, as restaurants near the bridge and in Annapolis can be busy on Plunge days.",
+          "An hourly booking keeps your vehicle available for the whole day: drop-off at the park, pickup after you've changed, lunch in Annapolis and the ride home. Hourly service has a minimum number of hours, which we'll confirm with your quote. For a simple trip, a drop-off and a set pickup time work too; non-airport pickups include 15 minutes of complimentary waiting time.",
+        ],
+      },
+      {
+        heading: "Team Spirit on Plunge Day",
+        paragraphs: [
+          "For many teams, the Plunge is about more than the few seconds in the water. Groups often wear matching costumes or shirts, bring signs, and make a day of it together. Traveling as a team in one vehicle adds to that spirit, and it's easier to take a group photo before the plunge when everyone arrives at the same time.",
+          "If your team is bringing banners, costumes or other gear, mention it when you book so we can make sure there's room. Keep costumes simple and easy to remove, since you'll want to get into dry clothes quickly afterward. Fundraising rules, team registration and event-day schedules are set by Special Olympics Maryland, so check its website for the details before the day.",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle",
+        paragraphs: [
+          "Count bags of dry clothes along with passengers. These are the vehicles in our fleet and their capacity:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers",
+          "Lincoln Nautilus: up to three passengers with luggage, or four without",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with luggage, or six without, good for a family of plungers and spectators",
+          "Mercedes Sprinter Shuttle: up to thirteen passengers, practical for company, school and community teams",
+          "Mercedes Sprinter Executive: up to thirteen passengers, with an upgraded interior",
+        ],
+      },
+      {
+        heading: "Booking Your Plunge-Day Ride",
+        paragraphs: [
+          "When you request a quote, share the event date, your pickup address or addresses, the number of passengers, and any lunch or other stops. We'll recommend a vehicle and confirm the plan. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations and special-event bookings, up to 12 hours before.",
+          "Request a quote through our online booking form or call (877) 609-1919. Book once your team is registered, as Plunge weekend is a busy day in Anne Arundel County.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "Annapolis Limo Service", to: "/annapolis-limo-service" },
+      { label: "Anne Arundel County Limo Service", to: "/anne-arundel-county-md-limo-service" },
+      { label: "Sprinter Van Rental in Maryland", to: "/sprinter-van-rental-maryland" },
+      { label: "Chesapeake Bay Bridge Traffic Timing", to: "/blog/chesapeake-bay-bridge-traffic-patterns-chauffeur-timing-guide" },
+      { label: "Bay Bridge Closures and Two-Way Operations", to: "/blog/chesapeake-bay-bridge-span-closures-two-way-operations-guide" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "Where is the Maryland Polar Bear Plunge held?",
+        a: "At Sandy Point State Park, near the western end of the Chesapeake Bay Bridge. It's typically held in late January; check Special Olympics Maryland for this year's dates.",
+      },
+      {
+        q: "Can you drive our team to the Plunge?",
+        a: "Yes. A Mercedes Sprinter carries up to thirteen passengers, and larger teams can travel in two or more Sprinters together.",
+      },
+      {
+        q: "Can the vehicle wait while we plunge and change?",
+        a: "Yes, on an hourly booking. Hourly service has a minimum number of hours, confirmed with your quote. You can also book a drop-off and a set pickup time.",
+      },
+      {
+        q: "Can the rides be billed to our company?",
+        a: "Yes. Tell us when you book, and we'll make sure the receipt has what your accounting team needs.",
+      },
+      {
+        q: "What should plungers bring for the ride home?",
+        a: "A full change of dry clothes, a towel, a warm layer and a plastic bag for wet clothes and shoes.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 52
+  {
+    slug: "corporate-ground-transportation-policy-2027-planning-guide",
+    title: "Writing a Corporate Ground Transportation Policy for 2027: A Practical Guide for Maryland and DC Companies",
+    metaTitle: "Corporate Ground Transportation Policy Guide 2027 | 92 Limo",
+    metaDescription:
+      "Setting your company's 2027 ground transportation policy: who can book car service, vehicle classes, airport rules, late-night rides, approvals and billing.",
+    category: "Corporate Travel",
+    date: "2026-12-21",
+    scheduled: true,
+    readTime: "9 min read",
+    excerpt:
+      "January is when many companies reset their travel rules. Here's how to write a clear ground transportation policy that keeps employees safe, keeps costs predictable and keeps finance happy.",
+    image: "/images/blog/scenario-corporate-1.webp",
+    intro: [
+      "Most companies have a detailed policy for flights and hotels, but ground transportation is often an afterthought: a line saying 'use reasonable transportation' and a pile of rideshare receipts at month's end. For businesses in the Baltimore-Washington region, where employees regularly travel between BWI, Reagan National, Dulles, client offices and federal agencies, that vagueness leads to inconsistent spending and avoidable stress.",
+      "The new year is a natural time to fix it. This guide walks through the main parts of a ground transportation policy, from who can book a car service to how rides are approved and billed, so you can write one that works for your team in 2027.",
+    ],
+    sections: [
+      {
+        heading: "Why a Written Policy Helps",
+        paragraphs: [
+          "A clear policy gives employees confidence about what they can book without asking, and gives managers and finance a consistent standard. It reduces the end-of-month surprise of unexpected charges, and it makes sure that safety is considered, for example for late-night travel or for employees traveling alone.",
+          "It also makes it easier to work with a preferred provider. When the rules are written down, a car service can apply them at booking, which saves everyone time.",
+        ],
+      },
+      {
+        heading: "Who the Policy Covers",
+        paragraphs: [
+          "Start by defining scope. Most policies cover employees traveling on company business, and many also cover visiting candidates, clients and guests whose travel the company pays for. Decide whether executives follow the same rules or a separate standard, and say so explicitly.",
+          "Also decide who is allowed to book: each traveler, executive assistants, a travel manager, or all of the above. Fewer booking channels make it easier to keep records consistent.",
+        ],
+      },
+      {
+        heading: "When a Car Service Is the Right Choice",
+        paragraphs: [
+          "Most policies list the situations where a pre-booked car service is approved, rather than leaving it to individual judgment. Common examples:",
+        ],
+        list: [
+          "Airport transfers for early morning, late-night or international flights",
+          "Client meetings where arriving on time and prepared matters",
+          "Travel with visiting executives, candidates or VIP guests",
+          "Group travel to offsites, conferences or events",
+          "Late-night travel after work events, especially when alcohol is served",
+          "Trips with luggage, equipment or presentation materials",
+        ],
+      },
+      {
+        heading: "Vehicle Classes and Group Rules",
+        paragraphs: [
+          "Define which vehicle class fits which situation. A typical approach is a business sedan as the standard for one to three travelers, an SUV for small groups or extra luggage, and a Sprinter for teams. Executive sedans may be approved for client-facing travel or senior leaders.",
+          "Group rules are worth spelling out. If four employees are going to the same meeting, one SUV is usually more efficient and less expensive than several separate rides. If a team of ten is traveling to an offsite, a single Sprinter keeps everyone together and arriving at the same time.",
+        ],
+      },
+      {
+        heading: "Airport Rules",
+        paragraphs: [
+          "Airport travel is where most ground transportation spending happens, so cover it in detail. Set guidelines for how early travelers should be dropped off at BWI, Reagan National and Dulles, and how pickups work for arrivals, including what to do when flights are delayed.",
+          "With our service, airport pickups include 45 minutes of complimentary waiting on domestic arrivals and 60 minutes on international arrivals, timed from actual touchdown, and we track flights so pickups adjust to delays. Meet and greet inside baggage claim is available at an additional charge, which some companies approve for international arrivals or VIP guests. Writing these details into the policy helps travelers know what to expect.",
+        ],
+      },
+      {
+        heading: "Safety and Duty of Care",
+        paragraphs: [
+          "A good policy considers traveler safety, not just cost. Many companies approve car service for any travel after a certain hour, for employees traveling alone in unfamiliar areas, and for rides home after events where alcohol is served. Others require a professional, licensed carrier rather than ad hoc rides for certain trips.",
+          "Include guidance on what employees should do if plans change, such as a flight cancellation or a meeting running late, and who to contact for help.",
+        ],
+      },
+      {
+        heading: "Approvals, Changes and Cancellations",
+        paragraphs: [
+          "Keep approvals simple. Routine airport transfers and client meetings that follow the policy shouldn't need extra sign-off; exceptions, such as long-distance trips or premium vehicles, can require a manager's approval.",
+          "Explain the cancellation rules your provider uses, so travelers cancel in time. With us, sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup, and Sprinter vans, limousines and special-event bookings up to 12 hours before. Waiting time beyond the complimentary allowance is billed in 15-minute increments and disclosed in advance.",
+        ],
+      },
+      {
+        heading: "Billing, Receipts and Reporting",
+        paragraphs: [
+          "Finance teams need consistent receipts. Specify what each receipt must include, such as the traveler's name, date, pickup and drop-off, vehicle class and a cost center or project code. Our quoted rate includes the base transportation charge, and gratuity, parking, tolls, additional waiting time and other applicable charges are disclosed before confirmation.",
+          "Companies that book regularly often prefer a corporate account with consolidated monthly invoicing. It keeps all rides on one statement, reduces individual expense reports and makes it easier to review spending against the policy.",
+        ],
+      },
+      {
+        heading: "Communicating the Policy to Travelers",
+        paragraphs: [
+          "A policy only works if people know about it. Include a short summary in your travel booking instructions, and give executive assistants and frequent travelers a one-page version with the key rules: when car service is approved, which vehicle class to book, airport timing and how to cancel.",
+          "Remind travelers to share flight numbers when booking airport pickups, to save the provider's phone number, and to contact the provider directly if plans change on the day. Those three habits prevent most problems.",
+        ],
+      },
+      {
+        heading: "Our Fleet for Corporate Travel",
+        paragraphs: [
+          "If you'd like to reference specific vehicles in your policy, these are the vehicles in our fleet and their capacity:",
+        ],
+        list: [
+          "Mercedes E-Class: business sedan for up to three passengers",
+          "BMW 7 Series: first-class sedan for up to three passengers, often used for executives and VIP guests",
+          "Lincoln Nautilus: up to three passengers with luggage, or four without",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with luggage, or six without",
+          "Mercedes Sprinter Shuttle or Sprinter Executive: up to thirteen passengers, for teams and groups",
+        ],
+      },
+      {
+        heading: "Putting It Into Practice",
+        paragraphs: [
+          "Once the policy is written, share it with travelers and assistants, and send it to your preferred provider so bookings follow it from the start. Review it after the first quarter to see what's working.",
+          "If you'd like to set up a corporate account for 2027, request a quote through our online booking form or call (877) 609-1919. We're happy to walk through how bookings, approvals and invoicing would work for your team.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "Corporate Transportation", to: "/corporate-transportation" },
+      { label: "Maryland Corporate Car Service", to: "/maryland-corporate-car-service" },
+      { label: "Corporate Account Setup Guide", to: "/corporate-car-service-account-setup-guide" },
+      { label: "How Corporate Accounts Work", to: "/blog/how-corporate-accounts-work-maryland-limousine-service" },
+      { label: "Car Service Receipts & Expense Reports", to: "/blog/corporate-car-service-receipts-expense-reports-guide" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "What should a ground transportation policy include?",
+        a: "Who it covers and who can book, when car service is approved, vehicle classes, airport rules, safety guidance, approvals, cancellations, and billing and receipt requirements.",
+      },
+      {
+        q: "When should employees use a car service instead of rideshare?",
+        a: "Many companies approve car service for early or late flights, client meetings, VIP guests, group travel and late-night rides after work events.",
+      },
+      {
+        q: "How much waiting time is included on airport pickups?",
+        a: "With us, 45 minutes on domestic arrivals and 60 minutes on international arrivals, timed from actual touchdown. Additional waiting is billed in 15-minute increments.",
+      },
+      {
+        q: "Can rides be billed to one company account?",
+        a: "Yes. Companies that book regularly can set up a corporate account with consolidated monthly invoicing.",
+      },
+      {
+        q: "What are your cancellation rules?",
+        a: "Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter vans, limousines and special-event bookings, up to 12 hours before.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 53
+  {
+    slug: "winter-restaurant-week-baltimore-dc-dinner-car-service-guide",
+    title: "Winter Restaurant Week in Baltimore and DC: How to Plan Your Dinners and Your Rides",
+    metaTitle: "Winter Restaurant Week in Baltimore & DC Guide | 92 Limo",
+    metaDescription:
+      "Planning for winter Restaurant Week in Baltimore and the DC area: booking tables early, planning several dinners and getting there and home without driving.",
+    category: "Local Guides",
+    date: "2026-12-22",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Restaurant Week is a favorite way to beat the January blues in Baltimore and DC. Here's how to plan your reservations and your transportation before the tables fill up.",
+    image: "/images/blog/fleet-7series-1.webp",
+    intro: [
+      "After the holidays, January can feel long and quiet. That's one reason winter Restaurant Week is so popular in the region. Baltimore and the Washington area each hold Restaurant Week promotions, with winter editions that in recent years have usually taken place in January, when participating restaurants offer set menus that make it easier to try somewhere new.",
+      "Dates, participating restaurants and menu formats are announced by the organizers each season, so check the official Baltimore and Washington-area Restaurant Week websites for this year's details. This guide covers how to plan ahead: booking tables, planning more than one dinner, and getting there and home without worrying about parking or driving.",
+    ],
+    sections: [
+      {
+        heading: "How Restaurant Week Works",
+        paragraphs: [
+          "During Restaurant Week, participating restaurants offer special menus, often a set number of courses for lunch, brunch or dinner. Many people use the week to try a restaurant they've been curious about, revisit a favorite or plan a night out with friends.",
+          "Because the menus are popular, the best-known restaurants fill up quickly. Reservations usually open once the participating restaurants are announced, so it's worth watching for the list in December and early January.",
+        ],
+      },
+      {
+        heading: "Booking Tables Early",
+        paragraphs: [
+          "If you have your heart set on a particular restaurant, book as soon as you can. Weekend dinner slots go first, so consider a weeknight if you're flexible. Check whether the restaurant offers the Restaurant Week menu at every seating or only at certain times, and ask about any rules for large parties.",
+          "Once you have your reservation, plan your ride. Give us the restaurant's address and reservation time, and we'll set a pickup time that gets you there comfortably, allowing for weeknight traffic and winter weather.",
+        ],
+      },
+      {
+        heading: "Neighborhoods to Explore",
+        paragraphs: [
+          "Both cities have dining neighborhoods with plenty of participating restaurants in a typical year. A few to consider:",
+        ],
+        list: [
+          "Baltimore: Harbor East, Fells Point, Little Italy, Federal Hill, Mount Vernon and Hampden",
+          "Washington, DC: Penn Quarter, the Wharf, Navy Yard, Logan Circle, Georgetown and Dupont Circle",
+          "Maryland suburbs: Bethesda, Silver Spring and downtown Annapolis",
+          "Northern Virginia: Old Town Alexandria, Arlington and Tysons",
+        ],
+      },
+      {
+        heading: "Why a Chauffeured Ride Makes Sense",
+        paragraphs: [
+          "Parking in popular dining neighborhoods can be hard to find and expensive, and January brings cold, wet nights. A chauffeured ride drops you at the restaurant door and picks you up afterward, so you don't have to walk blocks from a garage or search for a space.",
+          "It also means everyone at the table can enjoy a glass of wine or a cocktail with the menu, with no one needing to drive home. For a group of friends or couples, sharing one SUV or Sprinter is often simpler than coordinating several cars.",
+        ],
+      },
+      {
+        heading: "Planning Several Dinners in One Week",
+        paragraphs: [
+          "Some food lovers make a point of booking several Restaurant Week meals. If you're planning more than one, you can book rides for each dinner at once, which saves time and makes sure you have transportation on the nights you need it.",
+          "For an evening with more than one stop, such as drinks in one neighborhood and dinner in another, an hourly booking keeps the vehicle with you. Hourly service has a minimum number of hours, which we'll confirm with your quote. For a single dinner, a drop-off and a set pickup time work well; non-airport pickups include 15 minutes of complimentary waiting time.",
+        ],
+      },
+      {
+        heading: "Restaurant Week for Teams and Clients",
+        paragraphs: [
+          "Restaurant Week can also be a good occasion for a team dinner or a client lunch in the slower weeks of January. If you're organizing a group meal, book the table first, then arrange transportation for the group. A Sprinter carries up to thirteen people from the office to the restaurant and back, and individual cars can be arranged for guests coming from different places.",
+          "If the rides are a business expense, tell us what your accounting team needs on the receipt when you book.",
+        ],
+      },
+      {
+        heading: "Lunch, Brunch and Weeknight Options",
+        paragraphs: [
+          "Restaurant Week isn't only about dinner. Many participating restaurants also offer lunch or brunch menus, which can be easier to book and a good way to try a restaurant on a smaller budget. A weekday lunch can also work well for a client meeting or a team outing.",
+          "Weeknight dinners are often easier to reserve than Friday and Saturday nights, and the roads into busy dining areas may be calmer. If you're flexible, a Tuesday or Wednesday reservation may give you a better choice of restaurants and times.",
+        ],
+      },
+      {
+        heading: "Getting the Most From a Set Menu",
+        paragraphs: [
+          "Set menus usually include a choice of dishes for each course. Look at the menu online before you go, so you can decide whether it suits everyone in your party, and tell the restaurant about any dietary needs when you book. Some restaurants also offer their regular menu during Restaurant Week, so ask if you'd like other options.",
+          "Allow enough time for a multi-course meal, especially in a group. Set your pickup time with a little cushion, and let your chauffeur know if dinner is running long.",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle",
+        paragraphs: [
+          "These are the vehicles in our fleet and how many passengers each one carries:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers, ideal for a dinner for two",
+          "Lincoln Nautilus: up to three passengers with luggage, or four without",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with luggage, or six without, good for two or three couples",
+          "Mercedes Sprinter Executive: up to thirteen passengers, with an upgraded interior for a group dinner",
+          "Mercedes Sprinter Shuttle: up to thirteen passengers, practical for office and club groups",
+        ],
+      },
+      {
+        heading: "Booking Your Restaurant Week Rides",
+        paragraphs: [
+          "When you request a quote, share your pickup address, the restaurant, the reservation time and date, the number of passengers and any extra stops. We'll recommend a vehicle and confirm the plan. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations and group bookings, up to 12 hours before.",
+          "Request a quote through our online booking form or call (877) 609-1919. Book your rides as soon as your reservations are confirmed.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "Baltimore Limo Service", to: "/baltimore-limo-service" },
+      { label: "Washington, DC Limo Service", to: "/washington-dc-limo-service" },
+      { label: "Bethesda Limo Service", to: "/bethesda-limo-service" },
+      { label: "Canton & Fells Point Nightlife", to: "/blog/canton-fells-point-baltimore-nightlife-car-service" },
+      { label: "Rockville & North Bethesda Night Out", to: "/blog/rockville-north-bethesda-night-out-car-service" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "When is winter Restaurant Week in Baltimore and DC?",
+        a: "Winter editions have usually been held in January in recent years. Dates are set by the organizers each season, so check the official Restaurant Week websites.",
+      },
+      {
+        q: "Should we book transportation for Restaurant Week dinners?",
+        a: "It helps on busy nights in popular dining areas, where parking is scarce. A chauffeured ride drops you at the door and means no one has to drive home.",
+      },
+      {
+        q: "Can we book rides for several dinners at once?",
+        a: "Yes. Share all your reservation dates and times when you request a quote, and we'll confirm each ride.",
+      },
+      {
+        q: "Can you drive a group from the office to a team dinner?",
+        a: "Yes. A Mercedes Sprinter carries up to thirteen passengers. Tell us what your accounting team needs on the receipt.",
+      },
+      {
+        q: "Which vehicle is best for a dinner for two?",
+        a: "A Mercedes E-Class or BMW 7 Series sedan, each carrying up to three passengers.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 54
+  {
+    slug: "washington-auto-show-convention-center-transportation-guide",
+    title: "The Washington Auto Show and January Events at the Walter E. Washington Convention Center: Transportation Guide",
+    metaTitle: "Washington Auto Show & Convention Center Rides | 92 Limo",
+    metaDescription:
+      "Heading to the Washington Auto Show or a January conference at the Walter E. Washington Convention Center? Drop-off, parking, timing and group rides.",
+    category: "Events & Conventions",
+    date: "2026-12-23",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "January is a busy month at DC's Walter E. Washington Convention Center, from the Washington Auto Show to large professional conferences. Here's how to plan getting there and back.",
+    image: "/images/blog/scenario-corporate-rain.webp",
+    intro: [
+      "The Walter E. Washington Convention Center fills two large blocks between Mount Vernon Square and Shaw in downtown Washington, and January is one of its busiest months. The Washington Auto Show has traditionally been held there in the winter, bringing new models, concept cars and industry events to the capital, and large professional and academic conferences regularly use the center in the same period.",
+      "Show dates, hours, tickets and conference schedules are set by each event's organizers, so check their official websites before you go. This guide covers how to plan transportation to and from the convention center: drop-off and pickup, parking, timing around downtown traffic, and options for groups and out-of-town attendees.",
+    ],
+    sections: [
+      {
+        heading: "Where the Convention Center Is",
+        paragraphs: [
+          "The convention center sits north of downtown, near Mount Vernon Square, close to Penn Quarter, Chinatown and the Shaw neighborhood. Major approaches include New York Avenue, Massachusetts Avenue and 7th and 9th Streets NW. It's a large building, and the entrance you need may depend on your event, so check your registration or ticket details.",
+          "Several hotels are within walking distance, and many attendees stay in the immediate area. Others commute in from Maryland and Northern Virginia each day of a multi-day event.",
+        ],
+      },
+      {
+        heading: "Traffic and Timing",
+        paragraphs: [
+          "Downtown DC traffic is heaviest during the morning and evening rush, and large events at the convention center add to it, especially around opening times and when sessions end. Winter weather can slow things further, so allow extra time on snowy or icy days.",
+          "For the Auto Show, weekends and holiday Mondays tend to draw the largest crowds. For conferences, the busiest times are usually the first morning, when attendees are collecting badges, and the end of each day.",
+        ],
+      },
+      {
+        heading: "Parking vs. Drop-Off",
+        paragraphs: [
+          "Parking near the convention center is mostly in garages, which can fill on busy event days, and street parking is limited. For a multi-day conference, daily garage fees add up.",
+          "A chauffeured ride drops you near your entrance and picks you up there at the end of the day, following current curbside rules. That's especially useful if you're carrying presentation materials or exhibit supplies, or if you're heading to a dinner or reception after the event. Non-airport pickups include 15 minutes of complimentary waiting time, and we can adjust if a session runs late.",
+        ],
+      },
+      {
+        heading: "Visiting the Auto Show With Family or Friends",
+        paragraphs: [
+          "The Auto Show is a popular outing for car enthusiasts, families and groups of friends. A visit can easily take several hours, with a lot of walking on the show floor. Wear comfortable shoes, check bag rules before you go, and plan a meal before or after in Penn Quarter or Chinatown, which are a short distance away.",
+          "If you're coming from the Maryland or Virginia suburbs, a chauffeured ride saves you the drive and the garage, and the whole group arrives together. A Chevrolet Suburban or Lincoln Navigator carries up to six passengers without luggage, and a Mercedes Sprinter up to thirteen.",
+        ],
+      },
+      {
+        heading: "Conference Attendees and Exhibitors",
+        paragraphs: [
+          "For professional conferences, transportation needs are usually more complex: airport transfers for out-of-town speakers, daily rides between hotels and the convention center, and evening receptions across the city. Planning these early, as a set of bookings, avoids last-minute scrambles.",
+          "We can handle airport pickups at Reagan National, Dulles and BWI. Airport pickups include 45 minutes of complimentary waiting on domestic arrivals and 60 minutes on international arrivals, timed from actual landing, and we track flights so pickups adjust to delays.",
+        ],
+      },
+      {
+        heading: "Group and Company Transportation",
+        paragraphs: [
+          "Companies sending a team to a January conference or the Auto Show's industry days can move everyone together in a Sprinter, with daily round trips between the hotel or office and the convention center. Some organizations also book vehicles for client events or dinners during the conference.",
+          "If the rides are a company expense, tell us what your accounting team needs on the receipt. Companies that book regularly can ask about a corporate account with consolidated monthly invoicing.",
+        ],
+      },
+      {
+        heading: "Checklist for Convention Center Days",
+        paragraphs: [
+          "A few things to sort out before the event:",
+        ],
+        list: [
+          "Confirm which entrance or hall your event uses",
+          "Check the event's bag and security rules",
+          "Share session end times and evening plans when you book",
+          "Save your chauffeur's number in your phone",
+          "Allow extra time for winter weather on the morning of the event",
+        ],
+      },
+      {
+        heading: "Receptions and Dinners After the Event",
+        paragraphs: [
+          "Conference days often end with receptions, client dinners or networking events elsewhere in the city. Penn Quarter, Chinatown and Shaw have plenty of restaurants within a short drive, and many hotels near the convention center host evening events.",
+          "If your schedule includes evening plans, an hourly booking keeps a vehicle with you from the end of the last session to the end of the night. Hourly service has a minimum number of hours, which we'll confirm with your quote. For a single dinner, a set pickup at the convention center and a ride back to your hotel or home afterward work just as well.",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle",
+        paragraphs: [
+          "These are the vehicles in our fleet and how many passengers each one carries:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers, ideal for speakers and executives",
+          "Lincoln Nautilus: up to three passengers with luggage, or four without",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with luggage, or six without, for small teams with materials",
+          "Mercedes Sprinter Shuttle: up to thirteen passengers, practical for daily conference shuttles",
+          "Mercedes Sprinter Executive: up to thirteen passengers, with an upgraded interior for client and leadership groups",
+        ],
+      },
+      {
+        heading: "Booking Your Convention Center Rides",
+        paragraphs: [
+          "When you request a quote, share the event name and dates, your pickup locations, the number of passengers, and any airport transfers or evening events. We'll recommend vehicles and confirm the schedule. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations and special-event bookings, up to 12 hours before.",
+          "Request a quote through our online booking form or call (877) 609-1919. Large events fill hotel and transportation calendars early, so book once your plans are set.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "Corporate Car Service in DC", to: "/corporate-car-service-dc" },
+      { label: "Chauffeur Service in Washington, DC", to: "/chauffeur-service-washington-dc" },
+      { label: "DCA Airport Car Service", to: "/dca-airport-car-service" },
+      { label: "Conference & Association Meeting Transportation", to: "/blog/conference-association-meeting-transportation-maryland" },
+      { label: "Corporate Event Transportation Checklist", to: "/blog/corporate-event-transportation-planners-checklist" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "Where is the Walter E. Washington Convention Center?",
+        a: "In downtown Washington, DC, near Mount Vernon Square, close to Penn Quarter, Chinatown and Shaw.",
+      },
+      {
+        q: "When is the Washington Auto Show?",
+        a: "It has traditionally been held in the winter at the convention center. Check the show's official website for this year's dates, hours and tickets.",
+      },
+      {
+        q: "Can you drop us off and pick us up at the convention center?",
+        a: "Yes. Your chauffeur drops you near your entrance and picks you up at the end of the day, following current curbside rules.",
+      },
+      {
+        q: "Can you provide daily conference shuttles for our team?",
+        a: "Yes. A Mercedes Sprinter carries up to thirteen passengers between your hotel or office and the convention center each day.",
+      },
+      {
+        q: "Do you pick up conference speakers at the airport?",
+        a: "Yes, at Reagan National, Dulles and BWI, with 45 minutes of complimentary waiting on domestic arrivals and 60 minutes on international arrivals.",
+      },
+    ],
+  },
 ];
