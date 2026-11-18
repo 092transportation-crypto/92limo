@@ -6404,4 +6404,471 @@ export const BLOG_POSTS_BATCH19 = [
       },
     ],
   },
+
+  // ---------------------------------------------------------- POST 58
+  {
+    slug: "washington-national-cathedral-visit-guide-car-service",
+    title: "Visiting Washington National Cathedral: A Planning Guide for Families, Guests and Groups",
+    metaTitle: "Washington National Cathedral Visit Guide | 92 Limo",
+    metaDescription:
+      "Planning a visit to Washington National Cathedral in northwest DC: tickets and worship, what to see, pairing it with nearby stops, drop-offs and rides home.",
+    category: "Local Guides",
+    date: "2026-12-27",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Washington National Cathedral is one of the most striking buildings in the capital, and the days after Christmas are a popular time to visit with houseguests. Here's how to plan the visit, what to see and how to get there and home.",
+    image: "/images/blog/landmark-capitol-2.webp",
+    intro: [
+      "Most visitors to Washington spend their time on the National Mall, but one of the city's most memorable buildings sits a few miles north, on the high ground of northwest DC. Washington National Cathedral, at Wisconsin and Massachusetts Avenues, is a Gothic cathedral built of stone over most of the twentieth century, with carved details, stained glass and gardens that reward an unhurried visit.",
+      "It's a good outing when relatives are in town after the holidays, and an easy one to combine with Georgetown or the National Zoo. This guide covers planning the visit, what to look for once you're inside, and how to get there and back without hunting for parking. Visiting hours, tickets and tour offerings change, so check the cathedral's official website before you go.",
+    ],
+    sections: [
+      {
+        heading: "Sightseeing Visits and Worship Services",
+        paragraphs: [
+          "The cathedral is an active church as well as a landmark. Worship services are open to everyone, while sightseeing visits outside of services have generally required a ticket purchased online or on site. Some areas, such as the upper-level observation gallery, have their own schedules and are not always open.",
+          "During the Christmas season, the cathedral's calendar is full of services and concerts, and touring hours can be shortened or changed around them. If your group wants to tour rather than attend a service, look up the schedule for your date and plan your arrival around it.",
+        ],
+      },
+      {
+        heading: "What to See Inside and Out",
+        paragraphs: [
+          "Give yourself at least an hour or two. The nave is long and tall, and the stained glass changes with the light through the day. Many visitors look for the space window, which holds a small piece of moon rock, and for the carved grotesques and gargoyles on the exterior, including a well-known Darth Vader figure high on the northwest tower; binoculars help.",
+          "Outside, the Bishop's Garden on the south side is a quiet walled garden that's pleasant even in winter, and the surrounding grounds connect to wooded paths. If you're visiting with older relatives, note that the cathedral is large and involves a fair amount of walking and some stairs; ask the cathedral about accessible entrances and elevators ahead of time.",
+        ],
+        list: [
+          "Check visiting hours and buy any tickets ahead",
+          "Look up the service and concert schedule for your date",
+          "Allow one to two hours for the visit",
+          "Bring binoculars for the exterior carvings",
+          "Ask about accessible entrances if anyone in your group needs them",
+        ],
+      },
+      {
+        heading: "Getting There Without Parking Hassles",
+        paragraphs: [
+          "The cathedral is not close to a Metro station, and the walk from the nearest stops is uphill along busy streets. Parking on the grounds and nearby can be limited, especially when a service or concert is letting out. A chauffeured ride drops your group at the entrance and picks you up at a set time and place.",
+          "Non-airport pickups include 15 minutes of complimentary waiting time. If you'd rather not fix a pickup time, or you plan to make several stops in the same day, an hourly booking keeps the vehicle with you; hourly service has a minimum number of hours, which we'll confirm with your quote.",
+        ],
+      },
+      {
+        heading: "Pairing the Cathedral With Nearby Stops",
+        paragraphs: [
+          "The cathedral sits in Cathedral Heights, a short drive from Georgetown, the National Zoo and the embassies along Massachusetts Avenue's Embassy Row. Many visitors spend the morning at the cathedral and the afternoon in Georgetown for lunch and a walk along the waterfront, or end the day at the zoo's holiday lights when they are running.",
+          "With an hourly booking, your chauffeur moves your group between stops so nobody has to find parking twice. Tell us your plan when you book and we'll suggest a realistic schedule.",
+        ],
+      },
+      {
+        heading: "Visiting With Houseguests and Families",
+        paragraphs: [
+          "The cathedral is a popular choice for relatives visiting from out of town, because it's a little off the usual tourist path. If guests are arriving by air, we can pick them up at BWI, Reagan National or Dulles, with flight tracking and 45 minutes of complimentary waiting after domestic landings or 60 minutes after international arrivals, and plan a cathedral visit on another day of their stay.",
+          "For young children, car seats can be arranged in advance; let us know their ages and how many seats you need when you book.",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle",
+        paragraphs: [
+          "These are the vehicles in our fleet and how many passengers each one carries:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers",
+          "Lincoln Nautilus: up to three passengers with luggage, or four without",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with luggage, or six without, a good fit for most families",
+          "Mercedes Sprinter Shuttle: up to thirteen passengers, for church groups, tour groups and extended families",
+          "Mercedes Sprinter Executive: up to thirteen passengers, with an upgraded interior",
+        ],
+      },
+      {
+        heading: "Booking Your Visit",
+        paragraphs: [
+          "When you request a quote, share the date, your pickup address, the number of passengers, any car seats you need, and whether you plan to attend a service or tour. We'll recommend a vehicle and confirm the schedule. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations, up to 12 hours before.",
+          "Request a quote through our online booking form or call (877) 609-1919.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "Chauffeur Service in Washington, DC", to: "/chauffeur-service-washington-dc" },
+      { label: "Georgetown, DC Limo Service", to: "/georgetown-dc-limo-service" },
+      { label: "Hourly Car Service in DC", to: "/hourly-car-service-dc" },
+      { label: "Georgetown Visitor Guide", to: "/blog/georgetown-dc-visitor-guide-getting-around" },
+      { label: "ZooLights at the National Zoo", to: "/blog/zoolights-national-zoo-holiday-visit-transportation-guide" },
+      { label: "Christmas Eve and Christmas Day Church Rides", to: "/blog/christmas-eve-christmas-day-church-services-rides-maryland-dc-virginia" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "Where is Washington National Cathedral?",
+        a: "At Wisconsin and Massachusetts Avenues in the Cathedral Heights area of northwest Washington, DC, a short drive from Georgetown.",
+      },
+      {
+        q: "Do you need a ticket to visit the cathedral?",
+        a: "Worship services are open to all, while sightseeing visits have generally required a ticket. Check the cathedral's official website for current hours and tickets.",
+      },
+      {
+        q: "Is there parking at the cathedral?",
+        a: "Parking can be limited, especially around services and concerts. A chauffeured ride drops you at the entrance and picks you up at an agreed time and place.",
+      },
+      {
+        q: "Can we visit the cathedral and Georgetown on the same day?",
+        a: "Yes. With an hourly booking, your chauffeur takes your group between stops. Hourly service has a minimum number of hours, which we'll confirm with your quote.",
+      },
+      {
+        q: "Can you transport a church or tour group to the cathedral?",
+        a: "Yes. A Mercedes Sprinter carries up to thirteen passengers, and we can arrange more than one vehicle for larger groups.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 59
+  {
+    slug: "philadelphia-mummers-parade-new-years-day-trip-from-maryland-dc",
+    title: "The Philadelphia Mummers Parade: Planning a New Year's Day Trip From Maryland and DC",
+    metaTitle: "Mummers Parade Trip From Maryland & DC | 92 Limo Service",
+    metaDescription:
+      "Planning a New Year's Day trip from Maryland or DC to Philadelphia's Mummers Parade: timing, the drive up I-95, where to be dropped off and the ride home.",
+    category: "Day Trips",
+    date: "2026-12-28",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Philadelphia welcomes the new year with the Mummers Parade, a long-running tradition of costumed clubs and string bands. Here's how to plan a New Year's Day trip from Maryland or DC without driving or parking in the city yourself.",
+    image: "/images/blog/fleet-sprinter-2.webp",
+    intro: [
+      "For more than a century, Philadelphia has started the new year with the Mummers Parade: costumed clubs, comic brigades and string bands in sequins and feathers, performing their way through Center City on New Year's Day. For families and groups in Maryland and the Washington area, it's a close-to-home way to begin the year with something unusual.",
+      "Philadelphia is within a day's round trip of Baltimore and DC, but New Year's Day comes right after a late night for many people, and parking near the parade is difficult. This guide covers planning the trip, the drive, and how a chauffeured ride makes the day easier. Parade times, the route and any weather changes are set by the City of Philadelphia, so check the official information before you go.",
+    ],
+    sections: [
+      {
+        heading: "What the Mummers Parade Is",
+        paragraphs: [
+          "The parade is made up of different divisions, each with its own style. The Comics and Wenches bring humor and homemade costumes, the Fancies wear large, elaborate costumes, the String Bands play and march in full costume, and the Fancy Brigades perform larger theatrical shows. Clubs spend much of the year preparing, and the costumes are a big part of the appeal.",
+          "The parade has traditionally run along Broad Street in Center City, with performances near City Hall. The Fancy Brigade shows have often been held indoors at the Pennsylvania Convention Center as separately ticketed performances. Check the current year's route, schedule and ticket details before you plan your day.",
+        ],
+      },
+      {
+        heading: "Weather and Schedule Changes",
+        paragraphs: [
+          "The parade is held outdoors in early January, and in past years it has been postponed or shortened because of rain, wind or cold. Check the forecast and the city's official announcements the day before and the morning of your trip.",
+          "If the parade moves to another day, let us know as soon as you can. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations, which are usually the best fit for groups making this trip, up to 12 hours before.",
+        ],
+      },
+      {
+        heading: "The Drive From Maryland and DC",
+        paragraphs: [
+          "From Baltimore, the drive to Philadelphia runs north on I-95 through northeastern Maryland and Delaware; from DC and the suburbs, add the time to reach Baltimore. On a holiday morning, traffic is usually lighter than on a weekday, but plan for the return trip to be busier as other visitors head home.",
+          "A morning departure gives your group time to arrive, find a good viewing spot and settle in before the parade reaches the busiest areas. Tell us when you'd like to arrive and we'll suggest a pickup time.",
+        ],
+        list: [
+          "Check the parade schedule and route the day before",
+          "Decide whether you also want Fancy Brigade show tickets",
+          "Dress in layers and bring hats, gloves and something to sit on",
+          "Agree on a meeting point in case the group gets separated in the crowd",
+          "Set your pickup time and place, or book hourly to keep the vehicle with you",
+        ],
+      },
+      {
+        heading: "Drop-Off, Pickup and Street Closures",
+        paragraphs: [
+          "Streets along and around the parade route are closed on New Year's Day, so drop-offs and pickups take place at points outside the closures, following the city's traffic rules. Your chauffeur will plan the drop-off point with you and agree on where to meet afterward.",
+          "For a long day like this, most groups book hourly, so the vehicle and chauffeur stay with you between the parade, lunch and the ride home. Hourly service has a minimum number of hours, which we'll confirm with your quote. A point-to-point trip each way is also possible if you have a set schedule.",
+        ],
+      },
+      {
+        heading: "Making a Day of It",
+        paragraphs: [
+          "Many visitors combine the parade with lunch in Center City or a stop at one of Philadelphia's food markets afterward, then head home in the afternoon. Some families spend the night before in Philadelphia after a New Year's Eve dinner and are picked up at their hotel the next morning; we can plan either version of the trip.",
+          "If someone in your group is flying out of Philadelphia International after the parade, we can drop them at the airport on the way home.",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle",
+        paragraphs: [
+          "These are the vehicles in our fleet and how many passengers each one carries:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers",
+          "Lincoln Nautilus: up to three passengers with luggage, or four without",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with luggage, or six without",
+          "Mercedes Sprinter Shuttle: up to thirteen passengers, a popular choice for groups of friends and extended families",
+          "Mercedes Sprinter Executive: up to thirteen passengers, with an upgraded interior for the longer drive",
+        ],
+      },
+      {
+        heading: "Booking Your Trip",
+        paragraphs: [
+          "When you request a quote, share your pickup address, the number of passengers, any car seats you need, and whether you want an hourly booking or a set schedule. New Year's Day is part of a busy holiday period for transportation, so book once your plans are set.",
+          "Request a quote through our online booking form or call (877) 609-1919.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "Baltimore to Philadelphia Limo Service", to: "/baltimore-to-philadelphia-limo" },
+      { label: "Long-Distance Transportation", to: "/long-distance-transportation" },
+      { label: "Philadelphia Airport Car Service", to: "/philadelphia-airport-car-service" },
+      { label: "Sprinter Van Rental in Maryland", to: "/sprinter-van-rental-maryland" },
+      { label: "New Year's Eve Car Service in Maryland", to: "/blog/new-years-eve-car-service-maryland" },
+      { label: "New Year's Day First Day Hikes and Brunch", to: "/blog/new-years-day-first-day-hikes-brunch-maryland-car-service" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "When is the Mummers Parade?",
+        a: "It is traditionally held on New Year's Day in Philadelphia, though weather has moved it in some years. Check the City of Philadelphia's official information for the current schedule.",
+      },
+      {
+        q: "Can you drive our group from Maryland or DC to the parade and back?",
+        a: "Yes. We can plan a round trip from your home, office or hotel, with a pickup time and place agreed in advance or an hourly booking.",
+      },
+      {
+        q: "Where will the chauffeur drop us off?",
+        a: "At a point outside the parade's street closures, following the city's traffic rules. Your chauffeur will agree on drop-off and pickup points with you.",
+      },
+      {
+        q: "What happens if the parade is postponed?",
+        a: "Let us know as soon as possible. Sedan and SUV reservations can be cancelled free up to 3 hours before pickup, and Sprinter reservations up to 12 hours before.",
+      },
+      {
+        q: "How many people fit in a Sprinter for this trip?",
+        a: "A Mercedes Sprinter carries up to thirteen passengers, and we can arrange more than one vehicle for larger groups.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 60
+  {
+    slug: "baltimore-museum-of-art-walters-art-museum-winter-day-car-service",
+    title: "The Baltimore Museum of Art and the Walters: Planning a Winter Museum Day in Baltimore",
+    metaTitle: "BMA & Walters Art Museum Winter Day in Baltimore | 92 Limo",
+    metaDescription:
+      "Planning a winter day at the Baltimore Museum of Art and the Walters Art Museum: hours, pacing, Mount Vernon and Charles Village stops, and rides there and home.",
+    category: "Local Guides",
+    date: "2026-12-29",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Baltimore has two of the region's best art museums a short drive apart, and general admission to both has been free. Here's how to plan a winter museum day at the BMA and the Walters, with time for lunch and an easy ride home.",
+    image: "/images/blog/landmark-baltimore-2.webp",
+    intro: [
+      "When it's too cold for a day outside, Baltimore's art museums make an easy plan. The Baltimore Museum of Art in Charles Village and the Walters Art Museum in Mount Vernon are a few minutes apart along the Charles Street corridor, and both have offered free general admission, with charges for some special exhibitions.",
+      "This guide covers planning a day at one or both museums, what to see, where to stop for lunch, and how to get there and home from anywhere in Maryland, DC or Northern Virginia. Hours, exhibitions and any ticketing change, so check each museum's official website before you go.",
+    ],
+    sections: [
+      {
+        heading: "Check the Days and Hours First",
+        paragraphs: [
+          "Neither museum is open every day. Both have typically been closed early in the week, and holiday hours around Christmas and New Year's Day can differ from the regular schedule. Look up both museums for your date before making plans, and reserve any timed tickets for special exhibitions.",
+        ],
+      },
+      {
+        heading: "The Baltimore Museum of Art",
+        paragraphs: [
+          "The BMA sits beside the Johns Hopkins University Homewood campus in Charles Village. It's best known for the Cone Collection, which includes one of the largest groups of works by Henri Matisse anywhere, along with collections that range from ancient to contemporary art. In milder weather, its outdoor sculpture gardens are worth a walk.",
+          "Most visitors spend two to three hours at the BMA. If you're visiting with older relatives, the museum is large and spread across several levels, so plan breaks and ask about wheelchairs ahead of time.",
+        ],
+      },
+      {
+        heading: "The Walters Art Museum",
+        paragraphs: [
+          "The Walters is on Mount Vernon Place, around the square from Baltimore's Washington Monument. Its collections span thousands of years, from ancient Egypt and Rome to medieval manuscripts, armor and European paintings, and its rooms are a manageable size for a visit of an hour or two.",
+          "Mount Vernon itself is one of Baltimore's most attractive neighborhoods, with historic rowhouses, churches and restaurants around the monument squares. It's an easy place to stop for lunch or coffee between museums.",
+        ],
+        list: [
+          "Check opening days and holiday hours for both museums",
+          "Reserve any special exhibition tickets ahead",
+          "Allow two to three hours at the BMA and one to two at the Walters",
+          "Plan lunch in Mount Vernon or Charles Village",
+          "Set your pickup time and place at the last stop of the day",
+        ],
+      },
+      {
+        heading: "Getting There and Home",
+        paragraphs: [
+          "Both museums are in busy city neighborhoods where street parking can be hard to find. A chauffeured ride drops your group at the museum entrance and picks you up at a set time and place. Non-airport pickups include 15 minutes of complimentary waiting time.",
+          "To visit both museums and stop for lunch, an hourly booking keeps the vehicle with you between stops; hourly service has a minimum number of hours, which we'll confirm with your quote. Baltimore Penn Station is close to both museums, so guests arriving by Amtrak or MARC can be met at the station and taken straight to the first stop.",
+        ],
+      },
+      {
+        heading: "Making It a Longer Day",
+        paragraphs: [
+          "Some visitors add an evening in Baltimore, with dinner in Mount Vernon or a short drive to Fells Point, Harbor East or the Inner Harbor. If your group is coming from the DC area or Northern Virginia, an hourly booking from home covers the drive up, the museums, dinner and the trip back.",
+          "For young children, car seats can be arranged in advance; let us know their ages and how many seats you need when you book.",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle",
+        paragraphs: [
+          "These are the vehicles in our fleet and how many passengers each one carries:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers",
+          "Lincoln Nautilus: up to three passengers with luggage, or four without",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with luggage, or six without",
+          "Mercedes Sprinter Shuttle: up to thirteen passengers, for art clubs, school groups and extended families",
+          "Mercedes Sprinter Executive: up to thirteen passengers, with an upgraded interior",
+        ],
+      },
+      {
+        heading: "Booking Your Museum Day",
+        paragraphs: [
+          "When you request a quote, share the date, your pickup address, the number of passengers, any car seats you need, and which museums and stops you have in mind. We'll recommend a vehicle and confirm the schedule. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations, up to 12 hours before.",
+          "Request a quote through our online booking form or call (877) 609-1919.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "Baltimore Limo Service", to: "/baltimore-limo-service" },
+      { label: "Car Service Near Baltimore Penn Station", to: "/limo-service-near-baltimore-penn-station" },
+      { label: "Hourly Chauffeur Service", to: "/hourly-chauffeur" },
+      { label: "Baltimore Inner Harbor Visitors Guide", to: "/blog/baltimore-inner-harbor-visitors-guide" },
+      { label: "Winter Restaurant Week in Baltimore and DC", to: "/blog/winter-restaurant-week-baltimore-dc-dinner-car-service-guide" },
+      { label: "Smithsonian Museums Holiday-Week Guide", to: "/blog/smithsonian-museums-national-mall-holiday-week-visit-car-service" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "Is admission to the BMA and the Walters free?",
+        a: "Both have offered free general admission, with charges for some special exhibitions. Check each museum's official website for current details.",
+      },
+      {
+        q: "How far apart are the two museums?",
+        a: "A few minutes' drive along the Charles Street corridor, from Charles Village to Mount Vernon Place.",
+      },
+      {
+        q: "Are the museums open every day?",
+        a: "No. Both have typically been closed early in the week, and holiday hours can differ, so check before you go.",
+      },
+      {
+        q: "Can you pick us up from Baltimore Penn Station?",
+        a: "Yes. Penn Station is close to both museums, and we can meet you at the station and take you to your first stop.",
+      },
+      {
+        q: "Can we book a car for the whole museum day?",
+        a: "Yes. An hourly booking keeps the vehicle with you between stops. Hourly service has a minimum number of hours, which we'll confirm with your quote.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 61
+  {
+    slug: "long-layover-bwi-dulles-reagan-national-leaving-the-airport-guide",
+    title: "Long Layover at BWI, Dulles or Reagan National? How to Decide Whether to Leave the Airport",
+    metaTitle: "Long Layover at BWI, Dulles or DCA: Leave the Airport? | 92 Limo",
+    metaDescription:
+      "Facing a long layover at BWI, Dulles or Reagan National: how much time you really need, re-clearing security, where to go nearby and booking a round-trip ride.",
+    category: "Travel Tips",
+    date: "2026-11-18",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "A long layover in the Washington area can be a chance to see Baltimore, DC or Northern Virginia instead of a gate area. Here's how to work out whether you have enough time, what to plan around and how to get there and back to the airport.",
+    image: "/images/blog/airport-terminal-glass.webp",
+    intro: [
+      "Holiday travel season brings more long connections, missed flights and rebookings, and plenty of travelers end up with six, eight or more hours between flights at BWI, Washington Dulles or Reagan National. All three airports are close to places worth seeing, which raises the obvious question: is it worth leaving the airport?",
+      "Sometimes it is, and sometimes the risk isn't worth it. This guide covers how to judge the time you actually have, what to check before you leave, where travelers commonly go from each airport, and how to arrange a ride that brings you back on time. Airline and security rules change, so confirm the details for your own itinerary with your airline.",
+    ],
+    sections: [
+      {
+        heading: "Work Out How Much Time You Really Have",
+        paragraphs: [
+          "Start with the gap between your arrival and your next departure, then subtract the time it takes to get off the plane and out of the terminal, the drive each way, and the time you need to get back through security and to your gate. What's left is your usable time on the ground.",
+          "As a rough rule, many travelers find a layover under five or six hours too tight to enjoy leaving the airport, especially at busy times of day or during holiday weeks when security lines are longer. Longer layovers, overnight connections and day-long rebookings are where a trip out makes more sense.",
+        ],
+        list: [
+          "Your arrival time and next departure time",
+          "Time to deplane and exit the terminal",
+          "Drive time each way at that time of day",
+          "Time to re-clear security and reach your gate",
+          "A cushion for traffic, weather and delays",
+        ],
+      },
+      {
+        heading: "Check Before You Leave the Airport",
+        paragraphs: [
+          "Leaving the secure area means going back through security, so allow for the line on your return. Confirm with your airline whether your checked bags are going through to your final destination, and keep any carry-on items you won't want to drag around to a minimum.",
+          "If you're arriving from abroad, whether you can leave the airport depends on your immigration and entry status for the United States and on where your connection takes you next. Check this with your airline and the official government guidance before planning a trip outside the airport.",
+        ],
+      },
+      {
+        heading: "From BWI: Baltimore and Annapolis",
+        paragraphs: [
+          "BWI Thurgood Marshall Airport is close to downtown Baltimore. The Inner Harbor, Fells Point and Federal Hill are popular choices for a meal and a walk by the water. Annapolis, with its historic downtown and the area around the U.S. Naval Academy, is another option on a longer layover.",
+        ],
+      },
+      {
+        heading: "From Reagan National: Downtown DC and Old Town Alexandria",
+        paragraphs: [
+          "Reagan National sits just across the Potomac from downtown Washington, which makes it the easiest of the three airports for a short trip out. The monuments, the National Mall and Georgetown are a short drive away when traffic cooperates, and Old Town Alexandria is close by on the Virginia side.",
+        ],
+      },
+      {
+        heading: "From Dulles: Northern Virginia and Beyond",
+        paragraphs: [
+          "Washington Dulles International is farther from downtown DC, and the drive into the city can be long at rush hour. Travelers with a layover there often stay close: the Smithsonian's Steven F. Udvar-Hazy Center in Chantilly is near the airport, and Reston Town Center and Tysons offer restaurants and shopping within a reasonable drive. Check the museum's hours before you go.",
+        ],
+      },
+      {
+        heading: "Booking a Round-Trip Layover Ride",
+        paragraphs: [
+          "For a layover, the simplest plan is an hourly booking: your chauffeur meets you at the airport, stays with the vehicle while you're out, and drives you back to your departures terminal at the time you choose. Hourly service has a minimum number of hours, which we'll confirm with your quote. You can also book a separate ride each way if you'd rather.",
+          "We track your inbound flight, so if it lands late your pickup adjusts. Airport pickups include 45 minutes of complimentary waiting after a domestic landing and 60 minutes after an international arrival. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup, which helps if your connection changes again.",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle",
+        paragraphs: [
+          "These are the vehicles in our fleet and how many passengers each one carries:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers",
+          "Lincoln Nautilus: up to three passengers with luggage, or four without",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with luggage, or six without",
+          "Mercedes Sprinter Shuttle: up to thirteen passengers, for teams and groups on the same connection",
+          "Mercedes Sprinter Executive: up to thirteen passengers, with an upgraded interior",
+        ],
+      },
+      {
+        heading: "Booking Your Layover Ride",
+        paragraphs: [
+          "When you request a quote, share your airport, both flight numbers, the number of passengers and where you'd like to go. We'll recommend a vehicle and confirm a schedule that gets you back with time to spare.",
+          "Request a quote through our online booking form or call (877) 609-1919.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "BWI Airport Car Service", to: "/bwi-airport-car-service" },
+      { label: "Reagan National Airport Car Service", to: "/dca-airport-car-service" },
+      { label: "Dulles Airport Car Service", to: "/iad-airport-car-service" },
+      { label: "Hourly Chauffeur Service", to: "/hourly-chauffeur" },
+      { label: "How Real-Time Flight Tracking Works", to: "/blog/how-real-time-flight-tracking-works-for-airport-pickups" },
+      { label: "Baltimore Inner Harbor Visitors Guide", to: "/blog/baltimore-inner-harbor-visitors-guide" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "How long does a layover need to be to leave the airport?",
+        a: "It depends on the airport, the time of day and security lines, but many travelers find anything under five or six hours too tight. Add up drive time each way and time to re-clear security before deciding.",
+      },
+      {
+        q: "Which airport is closest to downtown DC for a layover?",
+        a: "Reagan National, which sits just across the Potomac from downtown Washington. BWI is close to downtown Baltimore, and Dulles is farther out in Northern Virginia.",
+      },
+      {
+        q: "Can the chauffeur wait while we're out and take us back to the airport?",
+        a: "Yes. With an hourly booking, your chauffeur stays with the vehicle and drives you back to departures. Hourly service has a minimum number of hours, which we'll confirm with your quote.",
+      },
+      {
+        q: "What if my inbound flight is delayed?",
+        a: "We track your flight and adjust the pickup. Airport pickups include 45 minutes of complimentary waiting after domestic landings and 60 minutes after international arrivals.",
+      },
+      {
+        q: "Can international travelers leave the airport on a layover?",
+        a: "That depends on your entry status for the United States and your itinerary. Check with your airline and official government guidance before planning to leave the airport.",
+      },
+    ],
+  },
 ];
