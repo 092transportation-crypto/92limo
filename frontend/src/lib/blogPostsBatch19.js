@@ -6039,4 +6039,369 @@ export const BLOG_POSTS_BATCH19 = [
       },
     ],
   },
+
+  // ---------------------------------------------------------- POST 55
+  {
+    slug: "smithsonian-museums-national-mall-holiday-week-visit-car-service",
+    title: "Visiting the Smithsonian Museums on the National Mall During Holiday Week: A Family Planning Guide",
+    metaTitle: "Smithsonian Museums Holiday-Week Visit Guide | 92 Limo",
+    metaDescription:
+      "Planning a holiday-week day at the Smithsonian museums on the National Mall or the Udvar-Hazy Center: timed passes, pacing, drop-offs and rides home.",
+    category: "Local Guides",
+    date: "2026-12-24",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "The week between Christmas and New Year's is one of the most popular times to visit the Smithsonian. Here's how to plan a museum day on the National Mall with family, from passes and pacing to getting there and home.",
+    image: "/images/blog/landmark-capitol-1.webp",
+    intro: [
+      "When relatives are in town for the holidays and the kids are off school, a day at the Smithsonian is one of the easiest plans to agree on. The museums on the National Mall are free to enter, there's something for every age, and most of them are indoors, which matters in late December.",
+      "That also means the week between Christmas and New Year's is busy. This guide covers how to plan a museum day with family or houseguests: which museums need passes, how to pace the day, and how to get to the Mall and home without circling for parking. Hours, passes and gallery openings change, so check the Smithsonian's official website before you go.",
+    ],
+    sections: [
+      {
+        heading: "Check Hours and Passes Before You Go",
+        paragraphs: [
+          "Smithsonian museums are generally open every day of the year except December 25, so Christmas Day itself is not a museum day. In the days after Christmas, expect crowds, especially from late morning through mid-afternoon.",
+          "Admission is free, but some museums have used free timed-entry passes for busy periods, and a few galleries may be closed for renovation. Look up each museum you plan to visit a few days ahead, reserve any passes you need, and note the opening and closing times.",
+        ],
+      },
+      {
+        heading: "Pick Two or Three Museums, Not Six",
+        paragraphs: [
+          "The museums sit along both sides of the Mall, and the walk from one end to the other is longer than it looks on a map. With children or older relatives, two or three museums in a day is plenty, with a proper break for lunch in between.",
+          "A practical approach is to group museums on the same side of the Mall and plan your pickup near the last one. Families with young children often start with the most popular stop early, when the crowds are lighter, and save a quieter museum for the afternoon.",
+        ],
+        list: [
+          "Choose museums that are close to each other",
+          "Reserve timed passes where needed",
+          "Plan a lunch break, either at a museum café or nearby",
+          "Agree on a meeting point in case the group splits up",
+          "Set your pickup time and place at the last museum of the day",
+        ],
+      },
+      {
+        heading: "Getting to the Mall Without Parking Hassles",
+        paragraphs: [
+          "Parking near the National Mall is limited, and during holiday week the garages and street spaces fill early. A chauffeured ride drops your group near the museum entrance and picks you up at a set time and place at the end of the day, following current curbside rules.",
+          "Non-airport pickups include 15 minutes of complimentary waiting time. Because museum days rarely end exactly on schedule, it helps to agree on a pickup time with some cushion, or to call your chauffeur when you're heading out. For a full day with several stops, an hourly booking keeps the vehicle with you; hourly service has a minimum number of hours, which we'll confirm with your quote.",
+        ],
+      },
+      {
+        heading: "The Udvar-Hazy Center in Chantilly",
+        paragraphs: [
+          "The National Air and Space Museum also has a second, much larger location, the Steven F. Udvar-Hazy Center in Chantilly, Virginia, near Washington Dulles International Airport. Its large hangars display aircraft and spacecraft that don't fit on the Mall, and it's a favorite with aviation fans of all ages.",
+          "Because it's out in Northern Virginia rather than downtown, the Udvar-Hazy Center is usually a separate outing rather than part of a Mall day. It's also a useful stop for visitors with an afternoon flight out of Dulles: spend the morning at the museum and head to the terminal afterward. Check the museum's website for hours and any on-site parking fees before you go.",
+        ],
+      },
+      {
+        heading: "Making the Day Easier for Older Relatives and Young Kids",
+        paragraphs: [
+          "Museum days involve a lot of standing and walking. If grandparents are coming, plan more breaks than you think you need, and ask the museums about wheelchair availability ahead of time. Drop-offs close to the entrance save a long walk from a garage.",
+          "For young children, car seats can be arranged in advance; let us know their ages and how many seats you need when you book. Bring a small bag with snacks and a change of layers, since the walk between museums can be cold in December.",
+        ],
+      },
+      {
+        heading: "Adding the Monuments or a Holiday Stop",
+        paragraphs: [
+          "Many families end a museum day with a short drive past the monuments after dark, or a stop at the National Christmas Tree on the Ellipse or the U.S. Botanic Garden's holiday display near the Capitol. With an hourly booking, these can be added to the same day without anyone having to find parking again.",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle",
+        paragraphs: [
+          "These are the vehicles in our fleet and how many passengers each one carries:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers",
+          "Lincoln Nautilus: up to three passengers with luggage, or four without",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with luggage, or six without, a good fit for most families",
+          "Mercedes Sprinter Shuttle: up to thirteen passengers, for extended families and groups visiting together",
+          "Mercedes Sprinter Executive: up to thirteen passengers, with an upgraded interior",
+        ],
+      },
+      {
+        heading: "Booking Your Museum Day",
+        paragraphs: [
+          "When you request a quote, share the date, your pickup address, the number of passengers, any car seats you need, and which museums you plan to visit. We'll recommend a vehicle and confirm the schedule. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations, up to 12 hours before.",
+          "Request a quote through our online booking form or call (877) 609-1919. Holiday week is a busy time for transportation in the region, so book once your plans are set.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "Chauffeur Service in Washington, DC", to: "/chauffeur-service-washington-dc" },
+      { label: "Chantilly, VA Car Service", to: "/chantilly-va-limo-service" },
+      { label: "Dulles Airport Car Service", to: "/iad-airport-car-service" },
+      { label: "DC Monuments at Night Tour", to: "/blog/washington-dc-monuments-at-night-chauffeur-tour-guide" },
+      { label: "National Christmas Tree Visit Guide", to: "/blog/national-christmas-tree-ellipse-holiday-visit-guide" },
+      { label: "U.S. Botanic Garden Holiday Exhibit", to: "/blog/us-botanic-garden-holiday-exhibit-capitol-hill-visit-guide" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "Are the Smithsonian museums open during holiday week?",
+        a: "They are generally open every day except December 25. Check the Smithsonian's official website for current hours, passes and any gallery closures.",
+      },
+      {
+        q: "Do the Smithsonian museums charge admission?",
+        a: "Admission is free, but some museums have required free timed-entry passes at busy times, so reserve ahead where needed.",
+      },
+      {
+        q: "Can you drop us off and pick us up at the museums?",
+        a: "Yes. Your chauffeur drops you near the entrance and picks you up at an agreed time and place, following current curbside rules.",
+      },
+      {
+        q: "Can you take us to the Udvar-Hazy Center and then to Dulles Airport?",
+        a: "Yes. The Udvar-Hazy Center is in Chantilly, near Dulles, so a museum visit before an afternoon flight is easy to arrange.",
+      },
+      {
+        q: "Can you provide car seats for a family museum day?",
+        a: "Yes, with advance notice. Tell us the children's ages and how many seats you need when you book.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 56
+  {
+    slug: "maryland-dc-to-richmond-virginia-car-service-trip-guide",
+    title: "Car Service From Maryland or DC to Richmond, Virginia: What to Know Before You Book",
+    metaTitle: "Maryland & DC to Richmond, VA Car Service Guide | 92 Limo",
+    metaDescription:
+      "Planning a chauffeured trip from Maryland or Washington, DC to Richmond, Virginia: I-95 timing, business and family trips, round trips and vehicle choices.",
+    category: "Planning Guides",
+    date: "2026-12-25",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Richmond is close enough for a day trip and far enough that driving it both ways is a chore. Here's how a chauffeured trip from Maryland or DC to Virginia's capital works, from timing on I-95 to round trips and waiting time.",
+    image: "/images/blog/fleet-sclass-1.webp",
+    intro: [
+      "Richmond is one of the most common long-distance trips we're asked about from Maryland and the Washington area. People head there for meetings with state agencies and companies, visits to Virginia Commonwealth University and the University of Richmond, family events, and flights out of Richmond International Airport.",
+      "The drive is mostly a straight run down I-95, but anyone who has done it knows that the stretch through Northern Virginia can turn a short trip into a long afternoon. This guide covers what to expect on the road, how to plan one-way and round trips, and what to share when you book.",
+    ],
+    sections: [
+      {
+        heading: "How Long the Trip Takes",
+        paragraphs: [
+          "Richmond is roughly a hundred miles south of Washington, DC, and further from Baltimore and the northern Maryland suburbs. In light traffic the drive from DC can take around two hours, but travel time depends heavily on when you leave, especially through Springfield, Woodbridge and Fredericksburg on I-95.",
+          "Weekday rush hours, Friday afternoons and holiday weekends are typically the slowest times. When you book, tell us when you need to arrive, and we'll suggest a departure time that allows for traffic. The express lanes in Northern Virginia can help on busy days; our guide to DMV toll roads explains how they work.",
+        ],
+      },
+      {
+        heading: "Business Trips to Richmond",
+        paragraphs: [
+          "Richmond is Virginia's state capital and home to many state agencies, law firms, banks and corporate offices. For a day of meetings, a chauffeured ride lets you prepare on the way down, take calls in the back seat and arrive without having driven two hours.",
+          "The Virginia General Assembly typically convenes in Richmond in January, which brings advocates, association staff and lobbyists to the Capitol area for the session. If you have several meetings across the city, an hourly booking keeps the vehicle with you between appointments. If the rides are a company expense, tell us what your accounting team needs on the receipt.",
+        ],
+      },
+      {
+        heading: "College Visits and Family Trips",
+        paragraphs: [
+          "Families often book Richmond trips for college tours, move-in and move-out days, graduations and visits to relatives. A Chevrolet Suburban or Lincoln Navigator has room for a student's luggage, and a round trip means nobody has to make the drive back alone at the end of a long day.",
+          "Richmond can also be part of a longer Virginia itinerary. Williamsburg and Jamestown are about an hour further east, and Virginia Beach is further still. If you're planning a multi-stop trip, share the full route when you request a quote.",
+        ],
+      },
+      {
+        heading: "Flights From Richmond International Airport",
+        paragraphs: [
+          "Some travelers from Southern Maryland and Northern Virginia compare flights from Richmond International Airport with those from BWI, Reagan National and Dulles. If you're flying from Richmond, allow for the drive time plus your airline's recommended arrival time at the airport.",
+          "For a pickup at Richmond's airport on the way back, share your flight number when you book. Airport pickups include 45 minutes of complimentary waiting on domestic arrivals and 60 minutes on international arrivals, timed from actual landing, and we track flights so pickups adjust to delays.",
+        ],
+      },
+      {
+        heading: "One-Way, Round Trip or Wait-and-Return",
+        paragraphs: [
+          "There are three common ways to structure a Richmond trip, depending on how long you'll be there:",
+        ],
+        list: [
+          "One-way transfer: for travelers staying overnight or flying out of Richmond",
+          "Round trip on separate legs: a drop-off in the morning and a separate pickup later the same day or on another date",
+          "Hourly service: the chauffeur stays with you for meetings or appointments around the city and drives you home at the end of the day",
+        ],
+      },
+      {
+        heading: "Comfort on a Longer Ride",
+        paragraphs: [
+          "A two-hour trip feels very different in a clean, quiet vehicle than behind the wheel on I-95. Let us know if you'd like a stop along the way, and bring anything you need to work or rest during the ride. Our long-distance travel guide covers what to pack and what to expect on longer trips.",
+          "In winter, allow extra time if snow or ice is in the forecast for central Virginia. We monitor weather on the route and will contact you if conditions affect your pickup time.",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle",
+        paragraphs: [
+          "These are the vehicles in our fleet and how many passengers each one carries:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers, ideal for business travelers",
+          "Lincoln Nautilus: up to three passengers with luggage, or four without",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with luggage, or six without, for families and college moves",
+          "Mercedes Sprinter Shuttle: up to thirteen passengers, for groups traveling together",
+          "Mercedes Sprinter Executive: up to thirteen passengers, with an upgraded interior for executive and client groups",
+        ],
+      },
+      {
+        heading: "Booking Your Richmond Trip",
+        paragraphs: [
+          "When you request a quote, share your pickup address, your destination in Richmond, the date and time you need to arrive, the number of passengers and bags, and whether you need a return trip. We'll recommend a vehicle and confirm the details. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations, up to 12 hours before.",
+          "Request a quote through our online booking form or call (877) 609-1919.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "Long-Distance Transportation", to: "/long-distance-transportation" },
+      { label: "Maryland to Virginia Beach Car Service", to: "/maryland-to-virginia-beach-car-service" },
+      { label: "Corporate Car Service in DC", to: "/corporate-car-service-dc" },
+      { label: "What to Expect on a Long-Distance Trip", to: "/blog/what-to-pack-and-expect-on-a-long-distance-car-service-trip" },
+      { label: "DMV Toll Roads Explained", to: "/blog/dmv-toll-roads-explained-icc-express-lanes-ezpass" },
+      { label: "Williamsburg & Jamestown Family Trip", to: "/blog/williamsburg-jamestown-family-trip-from-maryland" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "How long does it take to get from DC to Richmond?",
+        a: "In light traffic it can take around two hours, but I-95 through Northern Virginia is often slower at rush hour, on Friday afternoons and on holiday weekends.",
+      },
+      {
+        q: "Do you offer round trips to Richmond?",
+        a: "Yes. You can book a drop-off and a separate return pickup, or hourly service if you'd like the chauffeur to stay with you for the day.",
+      },
+      {
+        q: "Can you pick us up at Richmond International Airport?",
+        a: "Yes. Share your flight number when you book. Airport pickups include 45 minutes of complimentary waiting on domestic arrivals and 60 minutes on international arrivals.",
+      },
+      {
+        q: "Can you help with a college move to Richmond?",
+        a: "Yes. A Chevrolet Suburban or Lincoln Navigator carries up to five passengers with luggage, so there's room for a student's bags.",
+      },
+      {
+        q: "Can a group travel to Richmond together?",
+        a: "Yes. A Mercedes Sprinter carries up to thirteen passengers.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 57
+  {
+    slug: "maryland-terrapins-basketball-xfinity-center-game-day-transportation",
+    title: "Maryland Terrapins Basketball at the Xfinity Center: Game-Day Transportation Guide",
+    metaTitle: "Terps Basketball at Xfinity Center: Game-Day Rides | 92 Limo",
+    metaDescription:
+      "Going to a Maryland Terrapins basketball game at the Xfinity Center in College Park: timing, drop-off and pickup, group rides and getting home after the game.",
+    category: "Sports & Events",
+    date: "2026-12-26",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Winter is basketball season in College Park. Here's how to plan a Terps game at the Xfinity Center, from arrival timing and drop-off to group rides and getting home after the final buzzer.",
+    image: "/images/blog/scenario-group-boarding.webp",
+    intro: [
+      "For many Maryland fans, the best part of winter is basketball at the Xfinity Center. The University of Maryland's men's and women's teams play their home games at the arena on the College Park campus, and conference games in January and February can bring big, loud crowds.",
+      "This guide covers how to plan a game day: when to arrive, how drop-offs and pickups work on a busy campus, and how to get a group of fans there and home without anyone having to drive. Schedules, tip-off times and ticket and bag policies are set by the university, so check the official Maryland Terrapins athletics website before you go.",
+    ],
+    sections: [
+      {
+        heading: "Plan Your Arrival",
+        paragraphs: [
+          "The Xfinity Center is on the University of Maryland campus in College Park, close to Route 1 and not far from the Capital Beltway. On game nights, traffic around campus builds in the hour before tip-off, and evening games often start while the region is still in rush hour.",
+          "Aim to arrive well before tip-off, especially for a big conference game, so you have time to get through security, find your seats and catch warm-ups. When you book, share the tip-off time and we'll suggest a pickup time that allows for traffic from your starting point.",
+        ],
+      },
+      {
+        heading: "Drop-Off and Pickup on Game Day",
+        paragraphs: [
+          "Campus parking on game days can be limited, and the walk from a distant lot is cold in January. A chauffeured ride drops your group as close to the arena as campus traffic and curbside rules allow, and picks you up at an agreed meeting point after the game.",
+          "Leaving the arena is often the slowest part of the night, when thousands of fans leave at once. It helps to agree on a pickup spot a short walk from the main entrance, away from the busiest crowds, and to call or text your chauffeur when you're on your way out. Non-airport pickups include 15 minutes of complimentary waiting time, and with an hourly booking the vehicle waits for you until the game ends, however long it runs.",
+        ],
+      },
+      {
+        heading: "Group Outings and Alumni Nights",
+        paragraphs: [
+          "Basketball games are popular outings for groups of friends, alumni, families and coworkers. Instead of coordinating several cars and parking passes, the whole group can ride together and arrive at the same time.",
+          "A Chevrolet Suburban or Lincoln Navigator carries up to six passengers without luggage, and a Mercedes Sprinter up to thirteen. For a larger group, we can arrange more than one vehicle. If you're planning dinner in College Park, Hyattsville or Riverdale Park before or after the game, include it in the booking so the schedule works.",
+        ],
+      },
+      {
+        heading: "Families, Students and Visiting Fans",
+        paragraphs: [
+          "Parents visiting a student at Maryland often plan a weekend around a home game. A chauffeured ride from BWI, Reagan National or Dulles to a College Park hotel, then to the game, makes the visit easier for families coming from out of town.",
+          "Airport pickups include 45 minutes of complimentary waiting on domestic arrivals and 60 minutes on international arrivals, timed from actual landing, and we track flights so pickups adjust to delays. For younger fans, car seats can be arranged with advance notice.",
+        ],
+      },
+      {
+        heading: "Game-Day Checklist",
+        paragraphs: [
+          "A few things to sort out before you go:",
+        ],
+        list: [
+          "Confirm the tip-off time and your tickets",
+          "Check the arena's bag policy and entry rules",
+          "Share your group size and any dinner plans when you book",
+          "Agree on a post-game pickup spot near the arena",
+          "Dress for a cold walk to and from the vehicle",
+          "Save your chauffeur's number in your phone",
+        ],
+      },
+      {
+        heading: "Winter Weather and Late Games",
+        paragraphs: [
+          "Basketball season runs through the coldest months of the year. If snow or ice is in the forecast, allow extra time, and keep an eye on any schedule changes from the university. We monitor road conditions and will contact you if weather affects your pickup.",
+          "Late games and overtime can push the end of the night back. With a chauffeured ride, nobody in your group has to drive home tired, and those who want to celebrate a win can do so without worrying about the drive.",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle",
+        paragraphs: [
+          "These are the vehicles in our fleet and how many passengers each one carries:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers",
+          "Lincoln Nautilus: up to three passengers with luggage, or four without",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with luggage, or six without",
+          "Mercedes Sprinter Shuttle: up to thirteen passengers, for groups of fans",
+          "Mercedes Sprinter Executive: up to thirteen passengers, with an upgraded interior for alumni and client outings",
+        ],
+      },
+      {
+        heading: "Booking Your Game-Day Ride",
+        paragraphs: [
+          "When you request a quote, share the game date and tip-off time, your pickup address, the number of passengers and any dinner stops. We'll recommend a vehicle and confirm the schedule. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations and special-event bookings, up to 12 hours before.",
+          "Request a quote through our online booking form or call (877) 609-1919. Big conference games are popular nights, so book once you have your tickets.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "College Park Car Service", to: "/college-park-limo-service" },
+      { label: "Sports Event Transportation", to: "/sports-event-transportation-dc" },
+      { label: "UMD College Park Students & Parents", to: "/blog/limo-service-umd-college-park-students-parents" },
+      { label: "Capital One Arena Game-Day Guide", to: "/blog/capital-one-arena-wizards-capitals-gameday-transportation-guide" },
+      { label: "College Winter Break Rides Home", to: "/blog/college-winter-break-campus-pickup-rides-home-guide" },
+      { label: "BWI Airport Car Service", to: "/bwi-airport-car-service" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "Where is the Xfinity Center?",
+        a: "On the University of Maryland campus in College Park, near Route 1 and the Capital Beltway.",
+      },
+      {
+        q: "When should we arrive for a Terps game?",
+        a: "Well before tip-off, especially for a big conference game, to allow for campus traffic and security. Tell us the tip-off time and we'll suggest a pickup time.",
+      },
+      {
+        q: "Will the chauffeur wait until the game ends?",
+        a: "With an hourly booking, yes. Otherwise we'll set a pickup time, and non-airport pickups include 15 minutes of complimentary waiting.",
+      },
+      {
+        q: "Can a group of fans ride together?",
+        a: "Yes. A Mercedes Sprinter carries up to thirteen passengers, and we can arrange more than one vehicle for larger groups.",
+      },
+      {
+        q: "Can you pick up visiting parents at the airport for a game weekend?",
+        a: "Yes, at BWI, Reagan National and Dulles, with flight tracking and complimentary waiting time after landing.",
+      },
+    ],
+  },
 ];
