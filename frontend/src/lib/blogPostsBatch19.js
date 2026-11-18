@@ -6871,4 +6871,230 @@ export const BLOG_POSTS_BATCH19 = [
       },
     ],
   },
+
+  // ---------------------------------------------------------- POST 62
+  {
+    slug: "dulles-iad-to-baltimore-car-service-trip-guide",
+    title: "Dulles Airport to Baltimore: Planning the Ride from IAD to the City and Beyond",
+    metaTitle: "Dulles (IAD) to Baltimore Car Service Trip Guide | 92 Limo",
+    metaDescription:
+      "Flying into Washington Dulles and heading to Baltimore: drive times, routes, tolls, rush-hour timing, train alternatives and booking a chauffeured ride.",
+    category: "Travel Tips",
+    date: "2026-11-18",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Washington Dulles often has the nonstop or the fare you want, but it's the farthest of the three area airports from Baltimore. Here's what to know about the drive, the timing and the options for getting from IAD to Baltimore and back.",
+    image: "/images/blog/airport-tarmac-sunset.webp",
+    intro: [
+      "Plenty of Baltimore-area travelers end up flying through Washington Dulles International. It has the widest choice of international routes in the region, and around the holidays it's sometimes the only airport with a nonstop or a reasonable fare. The catch is distance: Dulles sits in Loudoun County, Virginia, on the far side of the Washington area from Baltimore.",
+      "This guide covers how long the trip usually takes, the routes drivers use, how traffic and time of day change the plan, the public transit alternative, and how to book a chauffeured ride that's waiting when you land. Road conditions and construction change, so treat the times here as typical rather than guaranteed.",
+    ],
+    sections: [
+      {
+        heading: "How Far Is Dulles from Baltimore?",
+        paragraphs: [
+          "Downtown Baltimore is roughly 60 to 70 miles from Dulles by road, depending on the route and where in the city you're going. With light traffic, the drive typically takes about an hour and a quarter to an hour and a half. At weekday rush hour, or on a busy holiday travel day, it can take considerably longer.",
+          "Destinations north and east of the city, such as Towson, White Marsh or Hunt Valley, add more time. Places closer to the midpoint, such as Columbia, Ellicott City or Laurel, are shorter trips.",
+        ],
+      },
+      {
+        heading: "The Usual Routes",
+        paragraphs: [
+          "There's no single best route. Your chauffeur chooses based on live traffic at the time of your pickup. The most common options are:",
+        ],
+        list: [
+          "The Dulles Access Road or Dulles Toll Road east to the Capital Beltway, then north on I-95 or the Baltimore-Washington Parkway",
+          "The Beltway north to I-270 and the Intercounty Connector (MD-200) across to I-95, which can avoid some of the inner Beltway",
+          "Alternate surface routes when there's a major incident on the interstates",
+        ],
+      },
+      {
+        heading: "Timing Your Trip",
+        paragraphs: [
+          "For arrivals, we track your flight and time the pickup to your actual landing. Airport pickups include 45 minutes of complimentary waiting after a domestic landing and 60 minutes after an international arrival, which matters at Dulles, where customs, immigration and the trip from the gates to baggage claim can take a while.",
+          "For departures from Baltimore to Dulles, build in more time than you think you need. Weekday morning and afternoon rush hours around the Beltway can add a lot to the drive, and holiday weeks bring heavier traffic and longer security lines at the airport. When you book, tell us your flight time and whether you're checking bags, and we'll suggest a pickup time.",
+        ],
+      },
+      {
+        heading: "Tolls and What Your Quote Covers",
+        paragraphs: [
+          "Some of the routes between Dulles and Baltimore use toll roads, such as the Dulles Toll Road or the Intercounty Connector. Your quote covers the base transportation charge, and tolls, parking, gratuity and any other applicable charges are disclosed before you confirm.",
+        ],
+      },
+      {
+        heading: "What About Taking the Train?",
+        paragraphs: [
+          "It's possible to get from Dulles to Baltimore by public transit: the Metrorail Silver Line runs from the airport into DC, where you can connect to MARC or Amtrak trains toward Baltimore. It's an option for a traveler with light bags and time to spare, but it involves at least one transfer, and the whole trip usually takes longer than the drive. With heavy luggage, children or a late-night arrival, a direct ride is usually the easier choice.",
+        ],
+      },
+      {
+        heading: "Meeting Your Chauffeur at Dulles",
+        paragraphs: [
+          "Share your flight number when you book, and we'll confirm how and where your chauffeur will meet you. If you'd like to be met inside the terminal, ask about meet-and-greet service. For international arrivals, a little extra patience at customs is normal; your chauffeur follows the flight and your progress rather than a fixed clock.",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle",
+        paragraphs: [
+          "These are the vehicles in our fleet and how many passengers each one carries:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers",
+          "Lincoln Nautilus: up to three passengers with luggage, or four without",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with luggage, or six without",
+          "Mercedes Sprinter Shuttle: up to thirteen passengers, for families and groups on the same flight",
+          "Mercedes Sprinter Executive: up to thirteen passengers, with an upgraded interior",
+        ],
+      },
+      {
+        heading: "Booking Your Dulles to Baltimore Ride",
+        paragraphs: [
+          "When you request a quote, share your flight number, the number of passengers and bags, any car seats you need, and your Baltimore-area address. We'll recommend a vehicle and confirm the details. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations, up to 12 hours before.",
+          "Request a quote through our online booking form or call (877) 609-1919.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "Dulles Airport Car Service", to: "/iad-airport-car-service" },
+      { label: "Dulles Airport Transportation Guide", to: "/iad-dulles-airport-transportation-guide" },
+      { label: "Baltimore Limo Service", to: "/baltimore-limo-service" },
+      { label: "BWI vs. DCA vs. IAD: Closest Airport by Destination", to: "/blog/bwi-vs-dca-vs-iad-closest-airport-by-destination" },
+      { label: "How Real-Time Flight Tracking Works", to: "/blog/how-real-time-flight-tracking-works-for-airport-pickups" },
+      { label: "Thanksgiving Travel Rush at BWI, DCA and IAD", to: "/blog/thanksgiving-travel-rush-bwi-dca-iad-chauffeur-guide" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "How long is the drive from Dulles to Baltimore?",
+        a: "With light traffic it typically takes about an hour and a quarter to an hour and a half to downtown Baltimore. Rush hour and holiday travel days can make it considerably longer.",
+      },
+      {
+        q: "Are there tolls between Dulles and Baltimore?",
+        a: "Some routes use toll roads, such as the Dulles Toll Road or the Intercounty Connector. Tolls and other applicable charges are disclosed before you confirm your booking.",
+      },
+      {
+        q: "What if my flight into Dulles is delayed?",
+        a: "We track your flight and adjust the pickup. Airport pickups include 45 minutes of complimentary waiting after domestic landings and 60 minutes after international arrivals.",
+      },
+      {
+        q: "Can I take the train from Dulles to Baltimore instead?",
+        a: "Yes, by taking the Metrorail Silver Line into DC and connecting to a MARC or Amtrak train, but it involves at least one transfer and usually takes longer than driving.",
+      },
+      {
+        q: "How early should I leave Baltimore for a flight out of Dulles?",
+        a: "Allow more time than for BWI, especially at rush hour or during holiday weeks. Tell us your flight time and whether you're checking bags, and we'll suggest a pickup time.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 63
+  {
+    slug: "meyerhoff-symphony-hall-baltimore-symphony-concert-night-guide",
+    title: "A Night at the Meyerhoff: Planning a Baltimore Symphony Orchestra Concert Evening",
+    metaTitle: "Meyerhoff Symphony Hall Concert Night in Baltimore | 92 Limo",
+    metaDescription:
+      "Planning an evening at Meyerhoff Symphony Hall for the Baltimore Symphony Orchestra: timing, dinner nearby in Mount Vernon, parking and rides there and home.",
+    category: "Local Guides",
+    date: "2026-11-18",
+    scheduled: true,
+    readTime: "7 min read",
+    excerpt:
+      "The Joseph Meyerhoff Symphony Hall is home to the Baltimore Symphony Orchestra, and the holiday season is one of its busiest times of year. Here's how to plan a concert night, from dinner beforehand to a ride home when the applause ends.",
+    image: "/images/blog/landmark-baltimore-1.webp",
+    intro: [
+      "The Joseph Meyerhoff Symphony Hall, on Cathedral Street at the edge of Baltimore's Mount Vernon neighborhood, is the home of the Baltimore Symphony Orchestra. Its season typically runs from early fall into late spring, and the holidays usually bring seasonal programs that draw families, office groups and visitors from across the region.",
+      "This guide covers planning a concert night at the Meyerhoff: when to arrive, where to eat nearby, how parking and pickup usually work, and how to get there and home from anywhere in Maryland, DC or Northern Virginia. Programs, dates and venue policies change, so check the BSO's official website for your concert.",
+    ],
+    sections: [
+      {
+        heading: "Plan Your Arrival",
+        paragraphs: [
+          "Aim to arrive 30 to 45 minutes before the concert. That leaves time to pick up tickets, check coats in cold weather, find your seats and settle in. Some concerts have a pre-concert talk, which starts earlier, so check your program if you'd like to attend.",
+          "Late seating is usually limited to a suitable break in the program, so arriving on time matters more at a symphony concert than at many other events. If you're coming from the DC area or Northern Virginia on a weeknight, allow for rush-hour traffic on I-95 or the Baltimore-Washington Parkway.",
+        ],
+      },
+      {
+        heading: "Dinner Before the Concert",
+        paragraphs: [
+          "Mount Vernon, a few blocks from the hall, has restaurants of every kind around its monument squares and along Charles Street. Station North and Bolton Hill are also close. For a relaxed meal, book a table at least two hours before the concert and let the restaurant know you have a show to catch.",
+          "With an hourly booking, your chauffeur can take you to dinner, then a few blocks to the hall, and be ready afterward. Hourly service has a minimum number of hours, which we'll confirm with your quote.",
+        ],
+        list: [
+          "Check your concert date, start time and any pre-concert talk",
+          "Book dinner nearby in Mount Vernon or Station North",
+          "Arrive 30 to 45 minutes before the concert",
+          "Agree on a pickup point near the hall for after the performance",
+          "Allow extra time on weeknights and holiday-season weekends",
+        ],
+      },
+      {
+        heading: "Parking and Pickup",
+        paragraphs: [
+          "Driving yourself means finding a garage or lot near the hall and leaving with everyone else at the end of the concert, when nearby streets get busy. With a chauffeured ride, you're dropped at the entrance and picked up at an agreed spot nearby once the concert ends. Non-airport pickups include 15 minutes of complimentary waiting time.",
+          "Baltimore Penn Station is a short drive from the hall, so guests arriving by Amtrak or MARC can be met at the station and taken to dinner or straight to the concert.",
+        ],
+      },
+      {
+        heading: "Concert Nights for Groups",
+        paragraphs: [
+          "A symphony evening works well for a client night, an anniversary, a birthday or a family holiday outing. For a larger party, a Sprinter keeps everyone together for dinner, the concert and the ride home. If someone in your group uses a wheelchair or has trouble with stairs, mention it when you book, and check the hall's accessibility information for seating.",
+          "The BSO also performs at the Music Center at Strathmore in North Bethesda, which can be more convenient for guests in Montgomery County or DC. Check which venue your concert is at before you book.",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle",
+        paragraphs: [
+          "These are the vehicles in our fleet and how many passengers each one carries:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers",
+          "Lincoln Nautilus: up to three passengers with luggage, or four without",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with luggage, or six without",
+          "Mercedes Sprinter Shuttle: up to thirteen passengers, for office groups and extended families",
+          "Mercedes Sprinter Executive: up to thirteen passengers, with an upgraded interior",
+        ],
+      },
+      {
+        heading: "Booking Your Concert Night",
+        paragraphs: [
+          "When you request a quote, share the concert date and time, your pickup address, the number of passengers and any dinner plans. We'll recommend a vehicle and confirm the schedule. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations and special-event bookings, up to 12 hours before.",
+          "Request a quote through our online booking form or call (877) 609-1919.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "Baltimore Limo Service", to: "/baltimore-limo-service" },
+      { label: "Hippodrome Theatre Transportation", to: "/hippodrome-theatre-transportation" },
+      { label: "Strathmore Music Center Transportation", to: "/strathmore-music-center-transportation" },
+      { label: "Car Service Near Baltimore Penn Station", to: "/limo-service-near-baltimore-penn-station" },
+      { label: "Hourly Chauffeur Service", to: "/hourly-chauffeur" },
+      { label: "Baltimore Inner Harbor Visitors Guide", to: "/blog/baltimore-inner-harbor-visitors-guide" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "Where is Meyerhoff Symphony Hall?",
+        a: "On Cathedral Street at the edge of Baltimore's Mount Vernon neighborhood, a short drive from Baltimore Penn Station.",
+      },
+      {
+        q: "How early should we arrive for a concert?",
+        a: "About 30 to 45 minutes before the start, or earlier if you'd like to attend a pre-concert talk. Late seating is usually limited to a break in the program.",
+      },
+      {
+        q: "Can the chauffeur wait during the concert?",
+        a: "Yes. With an hourly booking, the vehicle stays with you for dinner, the concert and the ride home. Hourly service has a minimum number of hours, which we'll confirm with your quote.",
+      },
+      {
+        q: "Does the Baltimore Symphony Orchestra perform anywhere else?",
+        a: "Yes. The BSO also performs at the Music Center at Strathmore in North Bethesda. Check which venue your concert is at before booking.",
+      },
+      {
+        q: "How many people fit in a Sprinter?",
+        a: "A Mercedes Sprinter carries up to thirteen passengers, and we can arrange more than one vehicle for larger groups.",
+      },
+    ],
+  },
 ];
