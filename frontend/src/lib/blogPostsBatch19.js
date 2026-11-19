@@ -7324,8 +7324,8 @@ export const BLOG_POSTS_BATCH19 = [
 
   // ---------------------------------------------------------- POST 66
   {
-    slug: "atlantic-city-casino-getaway-trip-from-maryland-dc",
-    title: "Atlantic City From Maryland and DC: Planning a Chauffeured Casino and Boardwalk Getaway",
+    slug: "atlantic-city-trip-from-maryland-dc",
+    title: "Atlantic City From Maryland and DC: Planning a Chauffeured Day Trip or Overnight Getaway",
     metaTitle: "Atlantic City Trip From Maryland & DC by Car Service | 92 Limo",
     metaDescription:
       "Planning a chauffeured trip from Maryland or DC to Atlantic City: the drive up I-95, day trip or overnight, casino and show nights, and vehicle choices.",
@@ -7337,7 +7337,7 @@ export const BLOG_POSTS_BATCH19 = [
       "Atlantic City's casinos, shows and boardwalk are a popular winter getaway from Maryland and the Washington area, and a long enough drive that nobody wants to do it both ways. Here's how to plan a chauffeured trip, as a long day or an overnight stay.",
     image: "/images/blog/fleet-sprinter-1.webp",
     intro: [
-      "Maryland has its own casinos close to home, but Atlantic City is still a classic getaway: a long boardwalk, large casino resorts, concerts and comedy shows, and restaurants that stay busy well into the night. In winter, when the beach towns closer to home are quiet, it's one of the few seaside places in the region where the evenings are still lively.",
+      "Maryland has its own casinos close to home (our Casino Trip Limo Service page covers nights out at Live! Casino, MGM National Harbor and Horseshoe Baltimore), but Atlantic City is still a classic getaway: a long boardwalk, large casino resorts, concerts and comedy shows, and restaurants that stay busy well into the night. In winter, when the beach towns closer to home are quiet, it's one of the few seaside places in the region where the evenings are still lively.",
       "Atlantic City is a long drive from Baltimore and further from DC, and the trip home often comes late at night. This guide covers planning the trip, the drive, and whether a long day or an overnight stay suits your group. Casino rules, show times and hotel policies are set by each property, so check their official information before you go.",
     ],
     sections: [
@@ -7395,8 +7395,8 @@ export const BLOG_POSTS_BATCH19 = [
       },
     ],
     relatedLinks: [
-      { label: "Book Your Ride", to: "/booking" },
       { label: "Casino Trip Limo Service", to: "/casino-trip-limo" },
+      { label: "Book Your Ride", to: "/booking" },
       { label: "Long-Distance Transportation", to: "/long-distance-transportation" },
       { label: "Sprinter Van Rental in Maryland", to: "/sprinter-van-rental-maryland" },
       { label: "Maryland Live! Casino Night Out", to: "/blog/maryland-live-casino-night-out-car-service" },
