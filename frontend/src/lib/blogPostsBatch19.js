@@ -7097,4 +7097,334 @@ export const BLOG_POSTS_BATCH19 = [
       },
     ],
   },
+
+  // Added 2026-11-19: three more scheduled posts (Dec 30-Jan 1), one per day
+  // after this batch's last post on Dec 29. Topics checked against every post,
+  // guide, landing page (including the literal entries in landingPages.js) and
+  // sitemap URL on the site: the Lyric has no page of its own (only passing
+  // mentions), and nothing covers Blues Alley or Atlantic City. Show times,
+  // hours and venue policies are sent to the venues' own sites.
+  // ---------------------------------------------------------- POST 64
+  {
+    slug: "the-lyric-baltimore-show-night-car-service-guide",
+    title: "A Show Night at the Lyric Baltimore: Planning Dinner, the Performance and the Ride Home",
+    metaTitle: "The Lyric Baltimore Show Night Car Service Guide | 92 Limo",
+    metaDescription:
+      "Planning a concert, comedy show or opera night at the Lyric in Baltimore: when to arrive, dinner in Mount Vernon, parking and pickup, and rides there and home.",
+    category: "Local Guides",
+    date: "2026-12-30",
+    scheduled: true,
+    readTime: "7 min read",
+    excerpt:
+      "The Lyric on Mount Royal Avenue is one of Baltimore's best-known stages, hosting touring concerts, comedians, speakers and opera. Here's how to plan a show night there, from dinner nearby to a ride home when the house lights come up.",
+    image: "/images/blog/landmark-baltimore-2.webp",
+    intro: [
+      "The Lyric, on Mount Royal Avenue in Baltimore's midtown, has been one of the city's main performance halls since the 1890s. Today it hosts a wide mix of events: touring musicians, stand-up comedy, author talks, dance and opera, with shows on weeknights and weekends through much of the year.",
+      "This guide covers planning a night at the Lyric: when to arrive, where to eat nearby, how parking and pickup usually work, and how to get there and home from anywhere in Maryland, DC or Northern Virginia. Show times, door times and venue policies vary by event, so check your ticket and the Lyric's official website before you go.",
+    ],
+    sections: [
+      {
+        heading: "Know Your Door and Show Times",
+        paragraphs: [
+          "Events at the Lyric usually list both a door time and a show time. Doors often open about an hour before the show, and many concerts and comedy nights start with an opening act. Check your ticket so you know whether you want to be in your seat for the opener or the headliner.",
+          "Aim to arrive 30 to 45 minutes before the show starts. That leaves time for the security check, coat check in cold weather and finding your seats. If you're coming from the DC area or Northern Virginia on a weeknight, allow for rush-hour traffic on I-95 or the Baltimore-Washington Parkway.",
+        ],
+      },
+      {
+        heading: "Dinner Nearby",
+        paragraphs: [
+          "The Lyric sits beside the University of Baltimore and a block from Meyerhoff Symphony Hall, a short drive or walk from Mount Vernon, Station North and Bolton Hill. All three neighborhoods have restaurants for a meal before the show; book a table about two hours ahead of the start time and let the restaurant know you have a show to catch.",
+          "With an hourly booking, your chauffeur can take you to dinner, then to the Lyric, and be ready afterward. Hourly service has a minimum number of hours, which we'll confirm with your quote.",
+        ],
+        list: [
+          "Check the door time, show time and whether there's an opening act",
+          "Book dinner in Mount Vernon, Station North or Bolton Hill",
+          "Arrive 30 to 45 minutes before the show",
+          "Check the venue's bag policy before you leave home",
+          "Agree on a pickup point near the hall for after the show",
+        ],
+      },
+      {
+        heading: "Parking and Pickup",
+        paragraphs: [
+          "Driving yourself means finding a garage or lot near Mount Royal Avenue and leaving with the rest of the audience when the show ends, which is when nearby streets are busiest. With a chauffeured ride, you're dropped at the entrance and picked up at an agreed spot nearby once the show ends. Non-airport pickups include 15 minutes of complimentary waiting time.",
+          "Baltimore Penn Station is a few blocks away, so guests arriving by Amtrak or MARC can be met at the station and taken to dinner or straight to the show.",
+        ],
+      },
+      {
+        heading: "Show Nights for Groups",
+        paragraphs: [
+          "A night at the Lyric works well for a birthday, a date night, a client evening or a group of friends seeing a favorite comedian. For a larger party, a Sprinter keeps everyone together for dinner, the show and the ride home, and drops each guest at their own door if you share the addresses when you book.",
+          "If someone in your group uses a wheelchair or has trouble with stairs, mention it when you book, and check the Lyric's accessibility information when choosing seats.",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle",
+        paragraphs: [
+          "These are the vehicles in our fleet and how many passengers each one carries:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers",
+          "Lincoln Nautilus: up to three passengers with luggage, or four without",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with luggage, or six without",
+          "Mercedes Sprinter Shuttle: up to thirteen passengers, for birthday groups and friends going together",
+          "Mercedes Sprinter Executive: up to thirteen passengers, with an upgraded interior",
+        ],
+      },
+      {
+        heading: "Booking Your Show Night",
+        paragraphs: [
+          "When you request a quote, share the show date and time, your pickup address, the number of passengers and any dinner plans. We'll recommend a vehicle and confirm the schedule. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations and special-event bookings, up to 12 hours before.",
+          "Request a quote through our online booking form or call (877) 609-1919.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "Baltimore Limo Service", to: "/baltimore-limo-service" },
+      { label: "Hippodrome Theatre Transportation", to: "/hippodrome-theatre-transportation" },
+      { label: "Concert Transportation in Baltimore", to: "/blog/concert-transportation-baltimore" },
+      { label: "Car Service Near Baltimore Penn Station", to: "/limo-service-near-baltimore-penn-station" },
+      { label: "A Night at the Meyerhoff", to: "/blog/meyerhoff-symphony-hall-baltimore-symphony-concert-night-guide" },
+      { label: "Hourly Chauffeur Service", to: "/hourly-chauffeur" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "Where is the Lyric in Baltimore?",
+        a: "On Mount Royal Avenue in Baltimore's midtown, beside the University of Baltimore and a block from Meyerhoff Symphony Hall.",
+      },
+      {
+        q: "How early should we arrive for a show at the Lyric?",
+        a: "About 30 to 45 minutes before the show starts. Check your ticket for the door time and whether there's an opening act.",
+      },
+      {
+        q: "Can the chauffeur wait during the show?",
+        a: "Yes. With an hourly booking, the vehicle stays with you for dinner, the show and the ride home. Hourly service has a minimum number of hours, which we'll confirm with your quote.",
+      },
+      {
+        q: "Can you pick us up from Baltimore Penn Station before the show?",
+        a: "Yes. Penn Station is a few blocks from the Lyric, and we can meet you at the station and take you to dinner or the show.",
+      },
+      {
+        q: "How many people fit in a Sprinter?",
+        a: "A Mercedes Sprinter carries up to thirteen passengers, and we can arrange more than one vehicle for larger groups.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 65
+  {
+    slug: "blues-alley-georgetown-jazz-club-night-car-service-guide",
+    title: "A Night at Blues Alley: Planning a Georgetown Jazz Club Evening, From Dinner to the Ride Home",
+    metaTitle: "Blues Alley Georgetown Jazz Night Car Service Guide | 92 Limo",
+    metaDescription:
+      "Planning a night at Blues Alley, Georgetown's jazz supper club: reservations, show times, dinner, parking on Georgetown's narrow streets and a ride home.",
+    category: "Local Guides",
+    date: "2026-12-31",
+    scheduled: true,
+    readTime: "7 min read",
+    excerpt:
+      "Blues Alley has been a fixture of Georgetown nightlife since the 1960s, with live jazz in an intimate supper-club room. Here's how to plan an evening there, including a special night like New Year's Eve, without circling Georgetown's streets for parking.",
+    image: "/images/blog/landmark-capitol-2.webp",
+    intro: [
+      "Tucked into an alley off Wisconsin Avenue near M Street, Blues Alley has been presenting live jazz in Georgetown since the 1960s. The room is small, the tables are close to the stage and dinner is served before and during the shows, which makes it a favorite for date nights, anniversaries and small celebrations.",
+      "Many evenings have two shows, and special nights such as New Year's Eve typically sell out well ahead. This guide covers planning a night at Blues Alley: reservations, timing, dinner and how to get there and home from anywhere in Maryland, DC or Northern Virginia. Show times, policies and ticketing are set by the club, so check its official website for your date.",
+    ],
+    sections: [
+      {
+        heading: "Reservations and Show Times",
+        paragraphs: [
+          "Blues Alley is a ticketed supper club, and seating for popular artists and holiday nights can go quickly. Buy tickets in advance, note which show you're booked for, and check whether seating is first come, first served on your night, since that affects how early you'll want to arrive.",
+          "When a night has an early and a late show, the early show usually suits a dinner-and-music evening, while the late show works well after dinner elsewhere in Georgetown. Tell us which show you have when you book, and we'll set the pickup time around it.",
+        ],
+      },
+      {
+        heading: "Dinner at the Club or Nearby",
+        paragraphs: [
+          "The club serves food and drinks during the evening, so many guests eat at their table. Others prefer a full dinner at one of Georgetown's restaurants along M Street, Wisconsin Avenue or the waterfront before walking or riding over for the show.",
+          "With an hourly booking, your chauffeur can take you to dinner, then to the club, and be ready afterward, which is especially useful on a cold night or if your evening includes another stop. Hourly service has a minimum number of hours, which we'll confirm with your quote.",
+        ],
+        list: [
+          "Buy tickets early, especially for New Year's Eve and other holidays",
+          "Check the show time and the club's seating policy for your night",
+          "Decide whether to eat at the club or at a restaurant nearby",
+          "Dress for a short walk from the curb, since the club is set back in an alley",
+          "Agree on a pickup point on a nearby street for after the show",
+        ],
+      },
+      {
+        heading: "Parking and Pickup in Georgetown",
+        paragraphs: [
+          "Georgetown's streets are narrow and busy, and parking near M Street and Wisconsin Avenue is hard to find on weekend and holiday evenings. Georgetown also has no Metro station of its own, so getting there and home takes some planning.",
+          "With a chauffeured ride, you're dropped as close to the alley entrance as traffic rules allow and picked up at an agreed spot nearby when the show ends. Non-airport pickups include 15 minutes of complimentary waiting time.",
+        ],
+      },
+      {
+        heading: "New Year's Eve and Other Special Nights",
+        paragraphs: [
+          "A jazz show is a relaxed way to see in the new year, and Blues Alley has typically offered special New Year's Eve programming. Holiday nights are among the busiest of the year for transportation, so book your ride as soon as you have tickets, and plan the pickup for when your show ends rather than for midnight, when demand across the city peaks.",
+          "The same planning works for an anniversary, a proposal or a birthday. If you'd like to add a late drive past the monuments after the show, mention it when you book so we can include the time.",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle",
+        paragraphs: [
+          "These are the vehicles in our fleet and how many passengers each one carries:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers, a natural fit for a date night",
+          "Lincoln Nautilus: up to three passengers with luggage, or four without",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with luggage, or six without",
+          "Mercedes Sprinter Shuttle: up to thirteen passengers, for a larger celebration",
+          "Mercedes Sprinter Executive: up to thirteen passengers, with an upgraded interior",
+        ],
+      },
+      {
+        heading: "Booking Your Jazz Night",
+        paragraphs: [
+          "When you request a quote, share the date, which show you're attending, your pickup address, the number of passengers and any dinner plans. We'll recommend a vehicle and confirm the schedule. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations and special-event bookings, up to 12 hours before.",
+          "Request a quote through our online booking form or call (877) 609-1919.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "Georgetown DC Limo Service", to: "/georgetown-dc-limo-service" },
+      { label: "Georgetown DC Visitor Guide", to: "/blog/georgetown-dc-visitor-guide-getting-around" },
+      { label: "New Year's Eve Car Service in Maryland", to: "/blog/new-years-eve-car-service-maryland" },
+      { label: "DC Monuments at Night Chauffeur Tour", to: "/blog/washington-dc-monuments-at-night-chauffeur-tour-guide" },
+      { label: "Anniversary Limo Service", to: "/anniversary-limo-service" },
+      { label: "Hourly Chauffeur Service", to: "/hourly-chauffeur" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "Where is Blues Alley?",
+        a: "In Georgetown, in an alley off Wisconsin Avenue near M Street in northwest Washington, DC.",
+      },
+      {
+        q: "Do we need tickets in advance?",
+        a: "It's best to buy them early, especially for popular artists and holiday nights such as New Year's Eve. Check the club's official website for tickets and seating policies.",
+      },
+      {
+        q: "Where will the chauffeur drop us off?",
+        a: "As close to the alley entrance as traffic rules allow, with a pickup at an agreed spot nearby after the show.",
+      },
+      {
+        q: "Can we book a car for dinner and the show?",
+        a: "Yes. An hourly booking keeps the vehicle with you for dinner, the show and the ride home. Hourly service has a minimum number of hours, which we'll confirm with your quote.",
+      },
+      {
+        q: "Should we book our New Year's Eve ride early?",
+        a: "Yes. New Year's Eve is one of the busiest nights of the year for transportation, so book once you have your tickets.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 66
+  {
+    slug: "atlantic-city-casino-getaway-trip-from-maryland-dc",
+    title: "Atlantic City From Maryland and DC: Planning a Chauffeured Casino and Boardwalk Getaway",
+    metaTitle: "Atlantic City Trip From Maryland & DC by Car Service | 92 Limo",
+    metaDescription:
+      "Planning a chauffeured trip from Maryland or DC to Atlantic City: the drive up I-95, day trip or overnight, casino and show nights, and vehicle choices.",
+    category: "Day Trips",
+    date: "2027-01-01",
+    scheduled: true,
+    readTime: "8 min read",
+    excerpt:
+      "Atlantic City's casinos, shows and boardwalk are a popular winter getaway from Maryland and the Washington area, and a long enough drive that nobody wants to do it both ways. Here's how to plan a chauffeured trip, as a long day or an overnight stay.",
+    image: "/images/blog/fleet-sprinter-1.webp",
+    intro: [
+      "Maryland has its own casinos close to home, but Atlantic City is still a classic getaway: a long boardwalk, large casino resorts, concerts and comedy shows, and restaurants that stay busy well into the night. In winter, when the beach towns closer to home are quiet, it's one of the few seaside places in the region where the evenings are still lively.",
+      "Atlantic City is a long drive from Baltimore and further from DC, and the trip home often comes late at night. This guide covers planning the trip, the drive, and whether a long day or an overnight stay suits your group. Casino rules, show times and hotel policies are set by each property, so check their official information before you go.",
+    ],
+    sections: [
+      {
+        heading: "The Drive From Maryland and DC",
+        paragraphs: [
+          "From Baltimore, the usual route runs north on I-95 through northeastern Maryland and Delaware, crosses the Delaware Memorial Bridge into New Jersey and continues east to the shore. From DC and the suburbs, add the time to reach Baltimore. In light traffic, plan on roughly three hours from Baltimore, and more from the Washington area.",
+          "Friday afternoons, holiday weekends and summer Saturdays are typically the slowest times on the road. Tell us when you'd like to arrive and we'll suggest a departure time. Tolls along the route are part of the trip; they're disclosed before you confirm.",
+        ],
+      },
+      {
+        heading: "A Long Day or an Overnight Stay",
+        paragraphs: [
+          "Because of the distance, an Atlantic City trip works in two common ways:",
+        ],
+        list: [
+          "Long day trip: an hourly booking, with the chauffeur staying in Atlantic City while you're there and driving you home at the end of the night",
+          "Overnight or weekend stay: a drop-off at your hotel and a separate pickup on the day you head home",
+          "Show or event trip: a drop-off timed for dinner before a concert or fight night, with the ride home after the event",
+        ],
+      },
+      {
+        heading: "Planning Your Time There",
+        paragraphs: [
+          "Most visitors split their time between the casino floors, a meal and a walk on the boardwalk, with a show in the evening if one is on. You must be 21 or older to gamble in New Jersey casinos, so if your group includes younger family members, plan around dining, shows and the boardwalk instead.",
+          "If you're booking hourly, share your rough plan for the day, including any dinner reservation and show time, and where you'd like to be picked up. Hourly service has a minimum number of hours, which we'll confirm with your quote. Non-airport pickups include 15 minutes of complimentary waiting time.",
+        ],
+      },
+      {
+        heading: "Winter Weather and Late Rides Home",
+        paragraphs: [
+          "Winter storms along the coast and on I-95 can slow the drive. We monitor weather on the route and will contact you if conditions affect your pickup time. If you need to change your plans, sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations, which are usually the best fit for groups making this trip, up to 12 hours before.",
+          "A late night is part of the appeal of Atlantic City, and the ride home after midnight is exactly the drive most people don't want to make themselves. With a chauffeur, the group can rest on the way back and be dropped at each home if you share the addresses when you book.",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle",
+        paragraphs: [
+          "These are the vehicles in our fleet and how many passengers each one carries:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers",
+          "Lincoln Nautilus: up to three passengers with luggage, or four without",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with luggage, or six without, for an overnight stay with bags",
+          "Mercedes Sprinter Shuttle: up to thirteen passengers, a popular choice for birthday groups and friends' weekends",
+          "Mercedes Sprinter Executive: up to thirteen passengers, with an upgraded interior for the longer drive",
+        ],
+      },
+      {
+        heading: "Booking Your Atlantic City Trip",
+        paragraphs: [
+          "When you request a quote, share your pickup address, the date, the number of passengers and bags, your hotel or first stop in Atlantic City, and whether you'd like hourly service or separate trips each way. We'll recommend a vehicle and confirm the details.",
+          "Request a quote through our online booking form or call (877) 609-1919.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "Casino Trip Limo Service", to: "/casino-trip-limo" },
+      { label: "Long-Distance Transportation", to: "/long-distance-transportation" },
+      { label: "Sprinter Van Rental in Maryland", to: "/sprinter-van-rental-maryland" },
+      { label: "Maryland Live! Casino Night Out", to: "/blog/maryland-live-casino-night-out-car-service" },
+      { label: "What to Expect on a Long-Distance Trip", to: "/blog/what-to-pack-and-expect-on-a-long-distance-car-service-trip" },
+      { label: "Milestone Birthday Party Transportation", to: "/blog/milestone-birthday-party-transportation-laurel-columbia" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "How long is the drive from Baltimore to Atlantic City?",
+        a: "Roughly three hours in light traffic, and longer from the DC area or on busy Friday afternoons and holiday weekends.",
+      },
+      {
+        q: "Can the chauffeur stay with us in Atlantic City for the day?",
+        a: "Yes. With an hourly booking, the vehicle stays with you and drives you home at the end of the night. Hourly service has a minimum number of hours, which we'll confirm with your quote.",
+      },
+      {
+        q: "Can you drop us at our hotel and pick us up a few days later?",
+        a: "Yes. We can book the drive up and the return as separate trips on different days.",
+      },
+      {
+        q: "Are tolls included in the quote?",
+        a: "Tolls, parking, gratuity and any other applicable charges are disclosed before you confirm, so you'll know the full picture in advance.",
+      },
+      {
+        q: "How many people fit in a Sprinter for this trip?",
+        a: "A Mercedes Sprinter carries up to thirteen passengers, and we can arrange more than one vehicle for larger groups.",
+      },
+    ],
+  },
 ];
