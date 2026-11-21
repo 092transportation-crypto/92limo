@@ -7427,4 +7427,340 @@ export const BLOG_POSTS_BATCH19 = [
       },
     ],
   },
+
+  // Added 2026-11-20: three posts published live today (no `scheduled` flag).
+  // Topics checked against every post (including scheduled ones), guide and
+  // landing page on the site: the existing Thanksgiving posts cover the week
+  // in general and the dinner-table rides, not the Sunday return leg; the NYE
+  // posts cover Maryland and Baltimore's Inner Harbor, not DC and Northern
+  // Virginia; the holiday-party post is for office managers, not people
+  // hosting at home. Fleet capacities and policy language come from
+  // src/lib/data.js; no prices, statistics or third-party event details.
+  // ---------------------------------------------------------- POST 67
+  {
+    slug: "sunday-after-thanksgiving-return-trip-bwi-dca-iad-airport-guide",
+    title: "The Sunday After Thanksgiving: Planning Your Return Trip to BWI, Reagan National and Dulles",
+    metaTitle: "Sunday After Thanksgiving Airport Rides: BWI, DCA, IAD | 92 Limo",
+    metaDescription:
+      "Flying home the Sunday after Thanksgiving from BWI, Reagan National or Dulles: when to leave, traffic, bag drop, group rides and booking your car early.",
+    category: "Airport Guides",
+    date: "2026-11-20",
+    readTime: "7 min read",
+    excerpt:
+      "Getting to Thanksgiving is the part everyone plans. Getting home on Sunday, November 29, is the part that catches people out: full flights, long security lines and highways packed with everyone else heading back. Here's how to time the trip back to BWI, Reagan National or Dulles.",
+    image: "/images/blog/airport-dropoff.webp",
+    intro: [
+      "Most Thanksgiving travel planning goes into the outbound trip: the Wednesday before the holiday, the early flight, the drive to Grandma's. The return leg gets far less attention, even though the Sunday after Thanksgiving is consistently one of the busiest travel days of the year. In 2026 Thanksgiving falls on Thursday, November 26, which puts the big return day on Sunday, November 29, with plenty of travelers also heading out on Saturday and early Monday.",
+      "If your family is flying out of BWI Thurgood Marshall, Reagan National or Washington Dulles that weekend, this guide covers how to time your departure, what slows people down at each airport, and how to book a ride that gets everyone there without a scramble. For the outbound side of the week, see our Thanksgiving Travel Rush guide; this one is about getting home.",
+    ],
+    sections: [
+      {
+        heading: "Why the Return Trip Is Harder Than the Trip Out",
+        paragraphs: [
+          "Outbound Thanksgiving travel is spread across several days. Some people leave the weekend before, some on Tuesday, some on Wednesday, and a few on Thursday morning. The return is far more concentrated: most people have work or school on Monday, so a large share of them travel on Sunday, often at similar times of day.",
+          "That concentration shows up everywhere at once. Flights are full, so rebooking options are limited if anything goes wrong. Security lines are long from early morning. And the roads to the airports carry both flyers and drivers returning from family visits up and down I-95, which means the drive itself can take noticeably longer than usual.",
+        ],
+      },
+      {
+        heading: "Working Out Your Pickup Time",
+        paragraphs: [
+          "Start from your departure time and work backward. Your airline sets its own check-in and bag-drop cutoffs, and those cutoffs don't move because the airport is busy, so check them for your flight. Then add realistic time for security on a peak day, time to walk to the gate, and the drive itself at that hour.",
+          "On a normal weekday we might suggest leaving a comfortable margin. On the Sunday after Thanksgiving, add more on every line of that calculation. A family checking bags, traveling with children or carrying car seats should be generous. When you book, tell us your flight time and airline and we'll suggest a pickup time based on where you're starting from.",
+        ],
+        list: [
+          "Your flight's departure time and your airline's bag-drop cutoff",
+          "Extra time for security lines on a peak travel day",
+          "Time to reach your gate, especially at Dulles, where many gates are reached by train",
+          "The drive from your address at that time on a holiday Sunday",
+          "A cushion for weather, a slow-moving highway or a forgotten phone charger",
+        ],
+      },
+      {
+        heading: "Airport-by-Airport Notes",
+        paragraphs: [
+          "BWI: The drive in from Baltimore, Columbia, Annapolis and the I-95 corridor is usually straightforward, but the approach roads and the departures curb get crowded on peak days. Have bags ready to unload quickly so your drop-off is short.",
+          "Reagan National: DCA is close to downtown DC, Arlington and Alexandria, which makes it tempting to cut timing fine. Don't. The airport is compact, and the curb and security checkpoints get busy quickly when several banks of flights depart close together.",
+          "Dulles: IAD is the farthest of the three from most of Maryland and from downtown DC, and it is the busiest for international departures. Allow for the longer drive, and for the time it takes to get from security to your gate.",
+        ],
+      },
+      {
+        heading: "Coming From Somewhere Other Than Home",
+        paragraphs: [
+          "Plenty of Sunday return trips don't start at your own front door. You may be leaving from a relative's house in Bowie, a hotel in Baltimore, or a family home in Northern Virginia. That's fine: give us the pickup address and a contact number for whoever will be there, and if the address has a gate code, a shared driveway or a tricky entrance, tell us when you book.",
+          "If several relatives are flying out of different airports or at different times, we can schedule separate pickups from the same house, or one larger vehicle if everyone is on the same flight or similar flights from the same airport.",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle for a Holiday Return",
+        paragraphs: [
+          "Thanksgiving luggage tends to be heavier on the way home, with leftovers, gifts and things you borrowed from the house. Pick a vehicle for the bags as well as the people:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers",
+          "Lincoln Nautilus: up to three passengers with luggage, or four without",
+          "Chevrolet Suburban or Lincoln Navigator: up to five passengers with luggage, or six without",
+          "Mercedes Sprinter Shuttle: up to thirteen passengers, for extended families on the same flight",
+          "Mercedes Sprinter Executive: up to thirteen passengers, with an upgraded interior",
+        ],
+      },
+      {
+        heading: "Book the Return When You Book the Trip Out",
+        paragraphs: [
+          "The best time to book your Sunday ride to the airport is when you book your Wednesday ride home from it, or as soon as you know your flights. Holiday weekend availability goes quickly, and a confirmed booking means you aren't searching for a car on one of the busiest travel days of the year.",
+          "If your flight changes, let us know and we'll adjust. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations and special-event bookings, up to 12 hours before. And when you book your ride home from the airport for a future trip, airport pickups include 45 minutes of complimentary waiting after a domestic landing and 60 minutes after an international arrival.",
+          "Request a quote through our online booking form or call (877) 609-1919.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "Thanksgiving Travel Rush: BWI, DCA & IAD", to: "/blog/thanksgiving-travel-rush-bwi-dca-iad-chauffeur-guide" },
+      { label: "How Far in Advance Should You Book Airport Transportation?", to: "/blog/how-far-in-advance-should-you-book-airport-transportation" },
+      { label: "Winter Weather & Flight Delay Playbook", to: "/blog/winter-weather-flight-delay-playbook-maryland" },
+      { label: "BWI Airport Car Service", to: "/bwi-airport-car-service" },
+      { label: "Reagan National Airport Car Service", to: "/dca-airport-car-service" },
+      { label: "Dulles Airport Car Service", to: "/iad-airport-car-service" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "Which day is the Sunday after Thanksgiving in 2026?",
+        a: "Thanksgiving is Thursday, November 26, 2026, so the Sunday after is November 29. Saturday the 28th and early Monday the 30th are also busy return days.",
+      },
+      {
+        q: "How early should we leave for the airport that Sunday?",
+        a: "Earlier than usual. Work back from your airline's bag-drop cutoff, then add extra time for security lines and holiday traffic. Share your flight details when you book and we'll suggest a pickup time.",
+      },
+      {
+        q: "Can you pick us up from a relative's house instead of our own?",
+        a: "Yes. Give us the address and a contact number for someone there, plus any gate code or entrance instructions.",
+      },
+      {
+        q: "We're a large family on the same flight. What vehicle do we need?",
+        a: "A Chevrolet Suburban or Lincoln Navigator carries up to five passengers with luggage. For larger groups, a Mercedes Sprinter carries up to thirteen passengers, and we can arrange more than one vehicle.",
+      },
+      {
+        q: "What if our flight is changed or cancelled?",
+        a: "Let us know and we'll adjust the booking. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 68
+  {
+    slug: "new-years-eve-washington-dc-northern-virginia-car-service-guide",
+    title: "New Year's Eve in Washington DC and Northern Virginia: Planning the Night and the Ride Home",
+    metaTitle: "New Year's Eve Car Service in DC & Northern Virginia | 92 Limo",
+    metaDescription:
+      "Planning New Year's Eve 2026 in DC, Georgetown, Old Town Alexandria, Arlington or Tysons: street closures, pickup points, hourly vs round-trip and booking early.",
+    category: "Holiday & Seasonal",
+    date: "2026-11-20",
+    readTime: "8 min read",
+    excerpt:
+      "New Year's Eve in the Washington area means packed restaurants, hotel parties, closed streets and a city full of people all trying to get home after midnight. Here's how to plan a chauffeured night in DC or Northern Virginia, from dinner reservations to the ride home.",
+    image: "/images/blog/landmark-capitol-2.webp",
+    intro: [
+      "New Year's Eve 2026 falls on a Thursday, and in the Washington area that means a full night: dinner reservations in Georgetown or Penn Quarter, hotel parties downtown, bars along 14th Street and U Street, and quieter celebrations in Old Town Alexandria, Arlington and Tysons. It also means the one problem every New Year's Eve shares: getting home after midnight, when thousands of other people are trying to do the same thing.",
+      "We've already written about New Year's Eve in Maryland. This guide is for nights in the District and Northern Virginia, where parking is scarce, street closures are common and the ride home is usually the hardest part of the evening to plan.",
+    ],
+    sections: [
+      {
+        heading: "Why New Year's Eve in DC Takes Extra Planning",
+        paragraphs: [
+          "Downtown DC is hard to drive and park in on an ordinary Saturday night. On New Year's Eve, add events with security perimeters, temporary street closures and restaurants running timed seatings back to back. Garages near popular venues fill early, and once midnight passes, every rideshare app in the city is busy at the same moment.",
+          "A pre-booked car takes the most stressful parts of the night out of your hands. You know who is picking you up, from where and at what time, and you aren't comparing surge prices on a sidewalk at 12:30 a.m. in December.",
+        ],
+      },
+      {
+        heading: "Hourly Service or a Round Trip?",
+        paragraphs: [
+          "If your night is one place, such as a dinner party or a hotel event, a round trip works well: we drop you off, and we pick you up at the time you choose. Agree on the pickup time and point before the night starts, and remember that leaving a few minutes before or after the midnight rush can make the exit easier.",
+          "If your night has several stops, such as dinner in one neighborhood, a party in another and perhaps a late stop after, hourly service keeps the vehicle and chauffeur with you all evening. You move on your own schedule, and coats, bags and gifts can stay in the car. Hourly service has a minimum number of hours, which we'll confirm with your quote.",
+        ],
+      },
+      {
+        heading: "Pickup Points, Street Closures and the Midnight Crush",
+        paragraphs: [
+          "The front door of a busy venue is rarely the best place to be picked up at midnight. Traffic stacks up, roads may be closed, and police may keep vehicles moving. Before the night, we'll agree on a pickup point a short walk away on a street that stays open, and your chauffeur will be in touch by phone or text when they're close.",
+          "Event plans, closures and security arrangements are set by the organizers and the city each year, so check official information for any event you're attending. If plans change on the night, call or text your chauffeur and we'll work out a new spot.",
+        ],
+        list: [
+          "Agree on a specific pickup corner or hotel entrance in advance",
+          "Save your chauffeur's number in your phone before you go out",
+          "Allow for walking a block or two from crowded venues",
+          "Keep someone in the group sober enough to manage the pickup",
+        ],
+      },
+      {
+        heading: "Neighborhood Notes for DC and Northern Virginia",
+        paragraphs: [
+          "Georgetown: Narrow streets, heavy traffic on M Street and Wisconsin Avenue, and very little parking. A pickup on a side street is often quicker than waiting on M Street itself.",
+          "Downtown, Penn Quarter and the Wharf: Hotel parties and large events make these areas especially busy, and some streets may be restricted. Hotel entrances and porte-cocheres can make good pickup points.",
+          "Old Town Alexandria and Arlington: Old Town's King Street restaurants and the Clarendon and Ballston areas are popular for a smaller-scale night out. They're close to downtown DC, which makes them easy to combine with a stop in the city.",
+          "Tysons and Reston: Hotel and restaurant celebrations in Tysons and Reston Town Center are a good option for people who live farther out in Northern Virginia and want to stay close to home.",
+        ],
+      },
+      {
+        heading: "Choosing a Vehicle for the Night",
+        paragraphs: [
+          "Match the vehicle to your group and how you'd like to travel:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers, for a couple or a small dinner party",
+          "Lincoln Nautilus: up to four passengers without luggage",
+          "Chevrolet Suburban or Lincoln Navigator: up to six passengers without luggage",
+          "Mercedes Sprinter Shuttle: up to thirteen passengers, for a group going to the same party",
+          "Mercedes Sprinter Executive: up to thirteen passengers, with an upgraded interior and mood lighting",
+        ],
+      },
+      {
+        heading: "Book Early",
+        paragraphs: [
+          "New Year's Eve is one of the busiest nights of the year for chauffeured transportation, and availability narrows well before December 31. Once you know your plans, request a quote with your pickup address, your stops, your group size and the time you expect to head home.",
+          "New Year's Eve bookings are special-event bookings, so they can be cancelled at no charge up to 12 hours before pickup; Sprinter reservations follow the same 12-hour window. Your quote will show the base transportation charge, and driver gratuity, parking, tolls and any additional waiting time are disclosed before confirmation.",
+          "Request a quote through our online booking form or call (877) 609-1919.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "New Year's Eve Car Service in Maryland", to: "/blog/new-years-eve-car-service-maryland" },
+      { label: "Getting Around Georgetown", to: "/blog/georgetown-dc-visitor-guide-getting-around" },
+      { label: "Hourly Car Service in Washington DC", to: "/hourly-car-service-dc" },
+      { label: "Washington DC Limo Service", to: "/washington-dc-limo-service" },
+      { label: "Alexandria, VA Limo Service", to: "/alexandria-va-limo-service" },
+      { label: "Hourly Chauffeur Service", to: "/hourly-chauffeur" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "What day of the week is New Year's Eve 2026?",
+        a: "Thursday, December 31, 2026. New Year's Day is Friday, January 1, 2027.",
+      },
+      {
+        q: "Should I book hourly or a round trip for New Year's Eve?",
+        a: "A round trip suits a night at one venue. If you have several stops, hourly service keeps the car with you all evening. Hourly service has a minimum number of hours, which we'll confirm with your quote.",
+      },
+      {
+        q: "Where will the chauffeur pick us up after midnight?",
+        a: "We'll agree on a pickup point in advance, usually a short walk from your venue on a street that stays open. Your chauffeur will contact you when they're close.",
+      },
+      {
+        q: "How far ahead should we book?",
+        a: "As soon as your plans are set. New Year's Eve is one of the busiest nights of the year, and availability narrows well before the date.",
+      },
+      {
+        q: "What is the cancellation policy for New Year's Eve?",
+        a: "New Year's Eve is a special-event booking, so it can be cancelled at no charge up to 12 hours before pickup.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------- POST 69
+  {
+    slug: "hosting-holiday-party-at-home-guest-rides-maryland-dc-virginia",
+    title: "Hosting a Holiday Party at Home: How to Arrange Rides for Your Guests",
+    metaTitle: "Holiday Party at Home: Arranging Guest Rides | 92 Limo Service",
+    metaDescription:
+      "Hosting a December holiday party at home in MD, DC or VA: parking, guests who drink, Sprinter shuttles from a meeting point, return times and booking.",
+    category: "Event Planning",
+    date: "2026-11-20",
+    readTime: "7 min read",
+    excerpt:
+      "You've planned the food, the playlist and the guest list. The part most hosts leave to chance is how everyone gets there, where they park, and how they get home after a few glasses of eggnog. Here's how to arrange rides for a holiday party at home.",
+    image: "/images/blog/scenario-doorman.webp",
+    intro: [
+      "December is the busiest month of the year for parties at home: neighborhood open houses, family gatherings, holiday dinners for friends and the annual party some households have been hosting for years. Hosts put a lot of thought into the menu and the decorations, and much less into what happens at the curb, even though parking, late arrivals and the ride home are where a lot of the evening's stress comes from.",
+      "This guide is for people hosting at home in Maryland, DC or Northern Virginia, from a Baltimore rowhouse to a house at the end of a long driveway in Howard County. Planning an office party instead? Our corporate holiday party guide covers that.",
+    ],
+    sections: [
+      {
+        heading: "Start With Parking and the Street",
+        paragraphs: [
+          "Look at your street the way a guest will see it on a dark December evening. In city neighborhoods, rowhouse blocks may have only a handful of open spaces, and some areas have residential permit parking. In the suburbs, cul-de-sacs fill quickly, HOA rules may limit street parking, and long driveways can be hard to find at night.",
+          "If parking will be tight, arranging some or all of your guests' rides solves the problem before it starts. It also means nobody has to choose between a second drink and the drive home.",
+        ],
+      },
+      {
+        heading: "Three Ways to Arrange Guest Rides",
+        paragraphs: [
+          "Individual rides: For a smaller party, book separate rides for the guests who need them most: older relatives who don't drive at night, friends coming from farther away, or anyone you know will want a ride home. Each guest gets a pickup at their own address and a ride back at the end of the night.",
+          "A shuttle from a meeting point: For a larger party, guests can park at a meeting point with plenty of space, such as a hotel where some guests are staying, and a Mercedes Sprinter brings them to your door in groups. Before choosing a meeting point, confirm with the property that guests may leave their cars there for the evening.",
+          "An hourly vehicle on call: If guests are arriving and leaving at different times, hourly service keeps a vehicle and chauffeur available for the evening to run guests home as they're ready. Hourly service has a minimum number of hours, which we'll confirm with your quote.",
+        ],
+      },
+      {
+        heading: "Setting Return Times",
+        paragraphs: [
+          "The ride home is the part that matters most, and it works best with a plan. Choose one or two departure times, for example an early run for families with children and a later run for everyone else, and tell guests in your invitation. With individual rides, ask each guest roughly when they'd like to leave so we can schedule pickups in advance.",
+          "Plans change at parties, and that's fine. Pickups include 15 minutes of complimentary waiting time, and additional waiting time is billed in 15-minute increments at the applicable rate, disclosed before confirmation. Building a little flexibility into the schedule keeps guests from rushing out the door.",
+        ],
+        list: [
+          "Put ride details and departure times in the invitation",
+          "Collect guests' addresses and phone numbers ahead of time",
+          "Ask guests to tell you if they'll stay later or leave earlier",
+          "Have a host or friend keep track of who has left",
+        ],
+      },
+      {
+        heading: "Help Your Chauffeur Find the House",
+        paragraphs: [
+          "A house that's easy to find in daylight can be difficult on a dark winter night. Turn on the porch light, tell us about any gate code, shared driveway or confusing house numbering, and let us know where the vehicle can safely stop. For a Sprinter, tell us if the street is narrow, there are low branches, or turning around is difficult, so we can plan where to pick up.",
+          "December weather can also change plans. If snow or ice is forecast, keep a path to the curb clear and expect slower pickups on untreated side streets.",
+        ],
+      },
+      {
+        heading: "Choosing Vehicles",
+        paragraphs: [
+          "These are the vehicles in our fleet and how many passengers each carries:",
+        ],
+        list: [
+          "Mercedes E-Class or BMW 7 Series sedan: up to three passengers",
+          "Lincoln Nautilus: up to four passengers without luggage",
+          "Chevrolet Suburban or Lincoln Navigator: up to six passengers without luggage",
+          "Mercedes Sprinter Shuttle: up to thirteen passengers, for shuttle runs from a meeting point",
+          "Mercedes Sprinter Executive: up to thirteen passengers, with an upgraded interior",
+        ],
+      },
+      {
+        heading: "Booking and Paying as the Host",
+        paragraphs: [
+          "Many hosts cover their guests' rides as part of the party. If you're booking for others, give us each guest's name and phone number so the chauffeur can contact them directly, and let us know who should receive updates. Your quote shows the base transportation charge, and driver gratuity, parking, tolls and any additional waiting time are disclosed before confirmation.",
+          "December weekends book up early, so request a quote as soon as your date is set. Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup; Sprinter reservations and special-event bookings, up to 12 hours before.",
+          "Request a quote through our online booking form or call (877) 609-1919.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "Corporate Holiday Party Transportation", to: "/blog/corporate-holiday-party-transportation-planning-guide" },
+      { label: "Thanksgiving Dinner and Friendsgiving Rides", to: "/blog/thanksgiving-dinner-friendsgiving-rides-home-maryland-dc-virginia" },
+      { label: "Booking a Car Service for Someone Else", to: "/blog/booking-a-car-service-for-someone-else-client-guest-family" },
+      { label: "Giving Your Chauffeur Pickup Instructions", to: "/blog/pickup-instructions-gated-community-apartment-office-campus" },
+      { label: "Hourly Chauffeur Service", to: "/hourly-chauffeur" },
+      { label: "Our Fleet", to: "/fleet" },
+    ],
+    faqs: [
+      {
+        q: "Can I book rides for my guests and pay for them myself?",
+        a: "Yes. Give us each guest's name and phone number and we'll contact them directly. Your quote shows the base charge, with gratuity, parking, tolls and any extra waiting time disclosed before confirmation.",
+      },
+      {
+        q: "What's the best option for a large party?",
+        a: "A Mercedes Sprinter carries up to thirteen passengers and can shuttle guests from a meeting point with parking. We can arrange more than one vehicle for larger groups.",
+      },
+      {
+        q: "Can a car stay available all evening to take guests home?",
+        a: "Yes, with hourly service. Hourly service has a minimum number of hours, which we'll confirm with your quote.",
+      },
+      {
+        q: "What if guests want to leave later than planned?",
+        a: "Pickups include 15 minutes of complimentary waiting time. Additional waiting time is billed in 15-minute increments at the applicable rate, disclosed before confirmation.",
+      },
+      {
+        q: "Can I cancel if the party is called off because of weather?",
+        a: "Sedan and SUV reservations can be cancelled at no charge up to 3 hours before pickup, and Sprinter and special-event bookings up to 12 hours before.",
+      },
+    ],
+  },
 ];
