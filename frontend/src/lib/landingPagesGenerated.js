@@ -5598,7 +5598,7 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "Can you connect a DCA flight with a trip to Georgetown, Arlington or Alexandria?",
-        "a": "Yes — DCA to Georgetown, Arlington and Alexandria are among our most common routes, each quoted as a flat rate with flight tracking built in."
+        "a": "Yes. DCA to Georgetown, Arlington and Alexandria are among our most common routes. Each is quoted as a flat rate with flight tracking built in, and the rate is confirmed before you ride."
       }
     ],
     "sections": [
@@ -5765,11 +5765,11 @@ export const GENERATED_LANDING_PAGES = {
       },
       {
         "q": "International arrivals at IAD can take a while through customs — how is that handled?",
-        "a": "International arrivals include 60 minutes of complimentary wait time, timed from touchdown rather than an estimated customs-clearance time, since the line can run anywhere from a quick walk-through to well over an hour."
+        "a": "International arrivals include 60 minutes of complimentary wait time, timed from touchdown rather than from an estimated customs-clearance time. That matters because the customs line can take anywhere from a few minutes to well over an hour. If you need longer, additional waiting time is billed in 15-minute increments and disclosed before confirmation."
       },
       {
         "q": "Do you serve the Dulles Toll Road corridor and Tysons Corner from IAD?",
-        "a": "Yes — IAD is the closest regional airport to Tysons Corner and the Dulles Toll Road corridor, and it's one of our most frequently run routes for corporate travelers in that area."
+        "a": "Yes. IAD is the closest major airport to Tysons Corner and the Dulles Toll Road corridor, and it's one of our most frequently run routes for corporate travelers there. Corporate accounts can be invoiced under separate written terms."
       }
     ],
     "sections": [

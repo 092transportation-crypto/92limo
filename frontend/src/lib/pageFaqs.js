@@ -14,7 +14,7 @@ const QUOTE_TXT =
 
 export const PAGE_FAQS = {
   "/services": [
-    { q: "What services does 92 Limo Service offer?", a: "Airport transfers (BWI, DCA, IAD, PHL and Martin State), corporate and executive travel, hourly as-directed chauffeur service, weddings, proms, birthdays and anniversaries, wine tours, and long-distance private car service across Maryland, Washington DC and Northern Virginia." },
+    { q: "What services does 92 Limo Service offer?", a: "We provide airport transfers to BWI, DCA, IAD, PHL and Martin State, corporate and executive travel, and hourly as-directed chauffeur service. We also handle weddings, proms, birthdays, anniversaries, wine tours and long-distance private car service across Maryland, Washington DC and Northern Virginia. Every trip is quoted and confirmed with you before you ride." },
     { q: "Which service should I book for a day with several stops?", a: "Hourly chauffeur service. You keep the same vehicle and chauffeur for the whole itinerary, stops and waiting included. For a single pickup and drop-off, a point-to-point transfer is usually the better value — we will quote both on request." },
     { q: "Are your services available overnight and on holidays?", a: "Yes. Dispatch and reservations run 24 hours a day, 365 days a year, so pre-dawn airport runs, late-night returns and holiday travel are routine." },
     { q: "How is pricing handled across services?", a: QUOTE_TXT },
@@ -28,11 +28,11 @@ export const PAGE_FAQS = {
     { q: "Can I request a child car seat?", a: "Yes. Infant, convertible and booster seats are available on request for an add-on fee that is included in your quote. Tell us the child's age when you book." },
   ],
   "/service-areas": [
-    { q: "What areas does 92 Limo Service cover?", a: "All of Maryland including Baltimore City, every Washington DC neighborhood, Northern Virginia, the Delaware beaches and Wilmington, and southern Pennsylvania — plus long-distance trips to Philadelphia and New York City." },
-    { q: "Which airports do you serve?", a: "BWI Marshall, Reagan National (DCA), Washington Dulles (IAD), Philadelphia International (PHL) and Martin State Airport, with real-time flight tracking on every pickup." },
+    { q: "What areas does 92 Limo Service cover?", a: "We cover all of Maryland, including Baltimore City, plus every Washington DC neighborhood and Northern Virginia. We also serve the Delaware beaches, Wilmington and southern Pennsylvania, and run long-distance trips to Philadelphia and New York City. If your pickup isn't listed, call (877) 609-1919 and we'll confirm." },
+    { q: "Which airports do you serve?", a: "We serve BWI Marshall, Reagan National (DCA), Washington Dulles (IAD), Philadelphia International (PHL) and Martin State Airport. Every airport pickup includes real-time flight tracking, so your chauffeur adjusts if your flight is early or late." },
     { q: "My town is not listed — can I still book?", a: `Almost certainly. The pages listed here are the places we are asked about most, not the limit of where we drive. Send your pickup and drop-off addresses through the booking form or call ${PHONE_TXT}.` },
     { q: "Do you charge extra for pickups far from your office?", a: "Your quote is based on the full trip, and it is confirmed before you ride. " + QUOTE_TXT },
-    { q: "Where is 92 Limo Service based?", a: "Our office is at 9836 Lyon Ave, Laurel, MD 20723 — between Baltimore and Washington, which lets one dispatch center cover BWI, DCA and IAD." },
+    { q: "Where is 92 Limo Service based?", a: "Our office is at 9836 Lyon Ave, Laurel, MD 20723, between Baltimore and Washington. That central location lets one dispatch center cover BWI, DCA and IAD, and dispatch is staffed 24/7." },
   ],
   "/about": [
     { q: "Who operates 92 Limo Service?", a: "92 Limo Service is the trade name of 92 Transportation LLC, a Maryland-based chauffeured transportation company with its office at 9836 Lyon Ave, Laurel, MD 20723." },
@@ -132,13 +132,13 @@ export const PAGE_FAQS = {
 
   // Service pages (ServiceDetail)
   "/airport-transportation": [
-    { q: "Which airports do you serve?", a: "BWI Marshall, Reagan National (DCA), Washington Dulles (IAD), Philadelphia International (PHL) and Martin State Airport — both pickups and drop-offs, 24/7." },
+    { q: "Which airports do you serve?", a: "We serve BWI Marshall, Reagan National (DCA), Washington Dulles (IAD), Philadelphia International (PHL) and Martin State Airport. We handle both pickups and drop-offs, 24 hours a day, with flight tracking on every arrival." },
     { q: "What happens if my flight is delayed?", a: "Every airport pickup is flight-tracked, so your chauffeur is dispatched against the actual arrival time, not the scheduled one. " + WAIT_TXT },
     { q: "Where will my chauffeur meet me?", a: "Curbside at the arrivals level is included. Meet & greet inside baggage claim with a name sign and luggage assistance is available for an additional charge." },
     { q: "How early should I be picked up for a departure?", a: "We back-calculate the pickup from your flight time with realistic traffic assumptions for the day and hour. Tell us the flight and we will recommend a pickup time when we confirm." },
     { q: "Can you provide car seats for an airport transfer?", a: "Yes. Infant, convertible and booster seats are available on request for an add-on fee included in your quote, installed before the vehicle arrives." },
-    { q: "Which vehicle should I choose for an airport transfer?", a: "A sedan for a solo traveler or couple, a Premium or Luxury SUV for a family with full-size luggage, and a Sprinter van for a group of up to 13 or 14 traveling together." },
-    { q: "Is airport car service more reliable than rideshare for an early-morning flight?", a: "Yes, generally — a reserved chauffeur is assigned to your flight the night before regardless of local on-demand driver supply, which thins out noticeably during early-morning departure banks." },
+    { q: "Which vehicle should I choose for an airport transfer?", a: "A sedan suits a solo traveler or couple, and a Premium or Luxury SUV suits a family with full-size luggage. A Sprinter van keeps a group of up to 13 or 14 together in one vehicle. Tell us your passenger and bag count when you book and we'll recommend the right fit." },
+    { q: "Is airport car service more reliable than rideshare for an early-morning flight?", a: "Generally, yes. A reserved chauffeur is assigned to your trip ahead of time, so you aren't relying on whichever on-demand drivers happen to be nearby. That matters most for early-morning departures, when rideshare supply often thins out." },
     { q: "Do you handle airport pickups for university students and visiting parents?", a: "Yes — move-in day, parents weekend and commencement travel to Georgetown, Johns Hopkins and the University of Maryland are regular bookings. See our Georgetown University and Johns Hopkins University car service pages." },
     { q: "Is Metro ever a better choice than a car service for an airport trip?", a: "For a solo traveler with light luggage on a flexible schedule, Metro can be cheaper. For groups, heavy luggage, or a time-sensitive flight, a flight-tracked car service is generally the more reliable option — see our DC Metro vs. private car service guide for a full comparison." },
   ],

@@ -101,7 +101,6 @@ const STATIC_PAGES = {
       "24/7 flat-rate chauffeured car & limo service across DC, Maryland & Virginia — airport transfers, weddings, corporate travel. (877) 609-1919.",
     h1: "Luxury Black Car Service in Washington DC, Maryland & Virginia",
     paras: [
-      "Professional airport transfers, corporate travel, hourly chauffeur service, weddings, and long-distance transportation — delivered with precision, discretion, and uncompromising comfort.",
       "92 Limo Service (92 Transportation LLC, MD PSC Carrier #6325) provides 24/7 chauffeured car service across the DMV, with real-time flight tracking, optional meet & greet pickups, and a fleet of immaculate late-model sedans, SUVs and Sprinter vans.",
     ],
   },
@@ -754,8 +753,9 @@ function buildLinksFooter(data) {
       ["/policies#payment-authorization", "Payment Authorization Policy"],
     ]],
   ];
+  // Footer column labels are navigation, not page sections — <p>, not <h2>.
   const group = (heading, links) =>
-    h(2, heading) + `<ul>${links.map(([href, t]) => `<li>${a(href, t)}</li>`).join("")}</ul>`;
+    p(heading) + `<ul>${links.map(([href, t]) => `<li>${a(href, t)}</li>`).join("")}</ul>`;
   const social = (data.SOCIAL || []).map((s) => [s.href, `${s.label} — 92 Limo Service`]);
   return (
     `<nav aria-label="Primary">${nav.map(([href, t]) => a(href, t)).join(" ")}</nav>` +
@@ -837,7 +837,7 @@ function render(shell, route, content, footer, data) {
       body = body.replace(`<h1>${H1}</h1>`, ""); // the <h1> moves into the hero below (still exactly one <h1>)
       heroShell =
         `<section class="relative min-h-[100svh] flex items-center overflow-hidden bg-[#090A0C]">` +
-        `<div aria-hidden="true" class="absolute inset-0 z-0"><div class="absolute inset-y-0 right-0 w-full lg:w-[62%] hero-car-mask"><img src="/images/site/hero-bmw-7-series-1600.webp" srcset="/images/site/hero-bmw-7-series-960.webp 960w, /images/site/hero-bmw-7-series-1600.webp 1600w" sizes="(min-width: 1024px) 62vw, 100vw" alt="" width="1600" height="1200" class="w-full h-full object-cover object-[64%_50%] lg:object-[34%_58%]"></div>` +
+        `<div aria-hidden="true" class="absolute inset-0 z-0"><div class="absolute inset-y-0 right-0 w-full lg:w-[62%] hero-car-mask"><img src="/images/site/hero-bmw-7-series-1600.webp" srcset="/images/site/hero-bmw-7-series-960.webp 960w, /images/site/hero-bmw-7-series-1600.webp 1600w" sizes="(min-width: 1024px) 62vw, 100vw" alt="Black BMW 7 Series sedan from the 92 Limo Service fleet" width="1600" height="1200" class="w-full h-full object-cover object-[64%_50%] lg:object-[34%_58%]"></div>` +
         `<div class="absolute inset-0 bg-gradient-to-t from-[#090A0C] via-[#090A0C]/35 to-[#090A0C]/70 lg:via-transparent lg:to-[#090A0C]/55"></div><div class="absolute inset-0 bg-gradient-to-r from-[#090A0C] via-[#090A0C]/60 to-transparent lg:via-[#090A0C]/30"></div></div>` +
         `<div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 w-full pt-28 pb-20"><div class="max-w-3xl">` +
         `<div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#D4AF37]/40 bg-[#D4AF37]/5 mb-6"><span aria-hidden="true" style="display:inline-block;width:14px;height:14px"></span><span style="font-family:system-ui,-apple-system,'Segoe UI',sans-serif" class="text-xs font-semibold tracking-wide text-[#D4AF37]">PREMIER CHAUFFEUR SERVICE · BWI AIRPORT · DC · MD · VA</span></div>` +

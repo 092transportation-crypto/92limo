@@ -114,9 +114,9 @@ export default function ChatWidget() {
           {/* Header */}
           <div className="px-4 py-3 border-b border-[#C9A227]/30 bg-gradient-to-r from-[#0A0A0A] to-[#1a1509] flex items-center gap-2.5">
             <span className="w-2.5 h-2.5 rounded-full bg-[#C9A227] animate-pulse" />
-            <h3 className="text-sm font-display font-semibold text-white tracking-wide">
+            <p className="text-sm font-display font-semibold text-white tracking-wide">
               92 Limo Assistant
-            </h3>
+            </p>
             <span className="ml-auto text-[10px] uppercase tracking-widest text-[#C9A227]/80">
               Online
             </span>
