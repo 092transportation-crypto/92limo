@@ -666,6 +666,31 @@ for (const p of pages) {
   seen.add(p.slug);
 }
 
+// Hand-written content layered on top of the templates (per-page FAQs,
+// sections, meta tweaks, etc.). Edit landingPageOverrides.json — never the
+// generated file — so that re-running this script keeps those edits.
+// Each override replaces a whole top-level field; `null` deletes a field;
+// `__keyOrder` pins the emitted key order.
+const OVERRIDES = require("./landingPageOverrides.json");
+for (const slug of Object.keys(OVERRIDES)) {
+  if (!seen.has(slug)) throw new Error(`landingPageOverrides.json: unknown slug ${slug}`);
+}
+for (const p of pages) {
+  const o = OVERRIDES[p.slug];
+  if (!o) continue;
+  const { __keyOrder, ...fields } = o;
+  const merged = { ...p.entry, ...fields };
+  for (const k of Object.keys(fields)) if (fields[k] === null) delete merged[k];
+  if (__keyOrder) {
+    const ordered = {};
+    for (const k of __keyOrder) if (k in merged) ordered[k] = merged[k];
+    for (const k of Object.keys(merged)) if (!(k in ordered)) ordered[k] = merged[k];
+    p.entry = ordered;
+  } else {
+    p.entry = merged;
+  }
+}
+
 // Image keys become IMAGES.<key> references in the emitted module.
 const body = pages
   .map(({ slug, entry }) => {
