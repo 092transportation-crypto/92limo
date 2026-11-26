@@ -560,6 +560,7 @@ function buildArticle(post, route, schemaType = "Article") {
     body:
       ldJson(schema) +
       h(1, post.title) +
+      (post.image && post.imageAlt ? `<img src="${esc(post.image)}" alt="${esc(post.imageAlt)}">` : "") +
       post.intro.map(p).join("") +
       post.sections.map((x) => block(x, 2)).join("") +
       ((post.relatedLinks || []).length ? h(2, "Related Pages") + ul(post.relatedLinks.map((l) => a(l.to, l.label))) : "") +

@@ -131,7 +131,7 @@ export default function BlogPostPage({ slug: guideSlug }) {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 -mt-0 pt-10">
           <img
             src={post.image}
-            alt={post.title}
+            alt={post.imageAlt || post.title}
             className="w-full h-64 sm:h-80 lg:h-96 object-cover rounded-2xl border border-black/10"
           />
         </div>

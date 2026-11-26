@@ -7763,4 +7763,114 @@ export const BLOG_POSTS_BATCH19 = [
       },
     ],
   },
+
+  // Added 2026-11-26 (Thanksgiving Day): one post published live today (no
+  // `scheduled` flag). Angle checked against every holiday post above and in
+  // earlier batches: those each cover one day or one event (the Thanksgiving
+  // rush, the Sunday return, Christmas week airports, NYE in Maryland / DC,
+  // parties at home or at the office). This one is a season-long planner that
+  // ties the airport trips and the party nights together. Policy wording
+  // (airport waiting time, what a quote includes) comes from POLICY in
+  // src/lib/data.js; cancellation terms and Sprinter capacities are left out
+  // on purpose. No prices, statistics or airport-specific procedures.
+  // ---------------------------------------------------------- POST 70
+  {
+    slug: "holiday-party-airport-travel-dmv-stress-free-guide",
+    title: "Holiday Party & Airport Travel in the DMV: A Stress-Free Guide",
+    metaTitle: "Holiday Party & Airport Travel in the DMV | 92 Limo Service",
+    metaDescription:
+      "Plan the whole holiday season in MD, DC and VA: when to leave for BWI, DCA or IAD, airport parking vs. car service, party nights and a safe New Year's Eve ride.",
+    category: "Holiday & Seasonal",
+    date: "2026-11-26",
+    readTime: "6 min read",
+    excerpt:
+      "Between Thanksgiving and New Year's Day, most households in Maryland, DC and Northern Virginia juggle flights, office parties, family dinners and one very late night on December 31. Here's one plan that covers all of it, so the driving is the last thing on your mind.",
+    image: "/images/blog/scenario-airport-pickup-1.webp",
+    imageAlt:
+      "Black-and-white photo of a chauffeur in a dark suit standing with a rolling suitcase beside a sedan with its trunk open",
+    intro: [
+      "The five weeks from Thanksgiving to New Year's Day are crowded in a way no other stretch of the year is. In a single household you might have a relative flying into Reagan National, a college student coming home through BWI, a work party in Tysons, a neighborhood open house in Silver Spring and a New Year's Eve dinner in Baltimore, all on top of the usual school runs and errands.",
+      "Most holiday travel advice treats each of those as a separate problem. This guide looks at the season as a whole: which days need the most breathing room, how to decide between parking at the airport and booking a car, how to handle party nights, and how to make sure everyone gets home safely on New Year's Eve. If you sort out the rides once, early, the rest of the season gets much easier.",
+    ],
+    sections: [
+      {
+        heading: "Map Out the Season Before It Fills Up",
+        paragraphs: [
+          "Sit down with a calendar and mark every trip that involves an airport, a late night or a group of people. Flights in and out, office and family parties, holiday concerts, December 31 itself, and any travel on January 1. Seeing them together shows you where the pressure points are, usually a handful of dates where several plans land on the same weekend.",
+          "Those crowded dates are the ones to arrange first. Travel days and party nights fall on the same weekends for many people across the region, so cars, restaurant tables and hotel rooms all get harder to find as the date gets closer. Booking a ride a few weeks out costs you nothing in flexibility if you keep your plans updated, and it removes a decision you'd otherwise be making at the last minute.",
+        ],
+      },
+      {
+        heading: "When to Leave for the Airport During the Holidays",
+        paragraphs: [
+          "The busiest stretches of the season are well known: the days just before Thanksgiving, the Sunday after it, the run-up to Christmas and the days right after it, and the stretch surrounding New Year's. On those dates, every part of the trip runs slower at once. Highways leading to BWI, Reagan National and Dulles get heavier, the departures curb is more crowded, and security lines build earlier in the day.",
+          "The simplest rule is to plan backward from your flight and then add more time than you would in an ordinary week. Look up the check-in and baggage deadlines for your specific flight; a crowded terminal won't buy you any leeway on them. The TSA recommends arriving early during the holidays, and your airline's app is the quickest way to see gate changes and delays before you leave the house.",
+        ],
+        list: [
+          "Count back from takeoff, beginning with the baggage deadline",
+          "Add extra time for security on a peak travel day",
+          "Allow for the drive at that hour, plus a cushion for weather",
+          "Leave earlier still if you're checking bags, carrying gifts or traveling with children",
+        ],
+      },
+      {
+        heading: "Airport Parking or a Car Service?",
+        paragraphs: [
+          "Driving yourself and parking can make sense for a short trip, a solo traveler or an off-peak date. During the holidays the math changes. Airport garages and lots can fill up on the busiest days, the walk or shuttle from a remote lot takes longer with luggage and gifts, and you'll be coming back to a cold car after a long flight, sometimes after dark and sometimes after a winter storm.",
+          "A car service takes those steps out of the trip. You're picked up at your door, dropped at the terminal and met again when you land. Our airport pickups include 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals, timed from actual touchdown, so a late flight doesn't turn into a scramble. Your quote covers the base transportation charge, and gratuity, parking, tolls and any other applicable charges are disclosed before you confirm.",
+          "There's also the question of who drives. If a relative usually takes you to the airport, a booked ride spares them a round trip through holiday traffic on one of the most congested days of the year.",
+        ],
+      },
+      {
+        heading: "Getting To and From Holiday Parties",
+        paragraphs: [
+          "Party nights have their own logistics. Downtown DC, Georgetown, Bethesda, Old Town Alexandria and Baltimore's waterfront neighborhoods all get busy on December weekends, and street parking near a popular venue can be hard to find. For an office party at a hotel or restaurant, check how the venue handles arrivals and where a car can safely stop, then pass that on when you book.",
+          "Decide on the ride home before you leave the house. Agree a rough departure time, or book by the hour so a chauffeur stays on call and the evening ends whenever you decide it does. If you're going with friends or colleagues, one shared vehicle keeps the group together and saves everyone from coordinating separate rides at the end of the night.",
+        ],
+      },
+      {
+        heading: "New Year's Eve: Plan the Ride Home First",
+        paragraphs: [
+          "On December 31, the trip back matters far more than the trip there. Never drive after drinking, and don't count on finding a ride after midnight, when crowds all over the region spill out onto the streets together. Streets near large celebrations may be closed or slow, and pickup spots can be crowded.",
+          "Book early, because December 31 is one of the first nights to fill up. Tell us where you'll be, roughly when you plan to leave and where everyone needs to go afterward. Choose a pickup spot a block or two away from the heart of the celebration so your chauffeur can reach you, and keep your phone charged so you can find each other. If plans change during the evening, call us rather than heading out on foot to look for the car.",
+        ],
+      },
+      {
+        heading: "Book Your Holiday Rides",
+        paragraphs: [
+          "Whether it's an early flight out of Dulles, a ride home from an office party or a safe trip back after midnight on New Year's Eve, we're glad to help you plan it. Share your dates, addresses and flight details and we'll suggest pickup times that fit the season.",
+          "Request a quote through our online booking form, linked below, or call (877) 609-1919. Reservations and dispatch are staffed 24/7.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { label: "Book Your Ride", to: "/booking" },
+      { label: "The Sunday After Thanksgiving: Airport Return Guide", to: "/blog/sunday-after-thanksgiving-return-trip-bwi-dca-iad-airport-guide" },
+      { label: "Winter Weather & Flight Delay Playbook", to: "/blog/winter-weather-flight-delay-playbook-maryland" },
+      { label: "Corporate Holiday Party Transportation", to: "/blog/corporate-holiday-party-transportation-planning-guide" },
+      { label: "New Year's Eve in DC and Northern Virginia", to: "/blog/new-years-eve-washington-dc-northern-virginia-car-service-guide" },
+      { label: "BWI Airport Car Service", to: "/bwi-airport-car-service" },
+      { label: "Reagan National Airport Car Service", to: "/dca-airport-car-service" },
+      { label: "Dulles Airport Car Service", to: "/iad-airport-car-service" },
+      { label: "Hourly Chauffeur Service", to: "/hourly-chauffeur" },
+    ],
+    faqs: [
+      {
+        q: "Which holiday travel days are the busiest?",
+        a: "The days just before Thanksgiving, the Sunday after it, and the periods surrounding Christmas and New Year's. Allow extra time for traffic, the departures curb and security on those dates.",
+      },
+      {
+        q: "What happens if my holiday flight lands late?",
+        a: "Airport pickups include 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals, timed from actual touchdown.",
+      },
+      {
+        q: "Can a car wait for us during a holiday party?",
+        a: "Yes. With hourly service your chauffeur stays on call through the party, and you head home whenever you choose.",
+      },
+      {
+        q: "When should we book a ride for New Year's Eve?",
+        a: "As early as you can, since December 31 fills up quickly. Let us know your plans and roughly when you'd like to head home.",
+      },
+    ],
+  },
 ];
